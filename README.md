@@ -1,10 +1,10 @@
 # ForgeHubWiki
-*A place for editors to colloaborate on content for the ForgeHub wiki.*
+*A place for editors to collaborate on content for the ForgeHub wiki.*
 
 ## Structure
 
 - Each markdown file is a page on the wiki.
-- Each folder is a page on the wiki, with a `Main.md` that hold its content
+- Each folder is a page on the wiki, with a `Main.md` that holds its content
 
 ## Formatting
 
