@@ -28,3 +28,5 @@
 
 ### Forge Beta - November 8th, 2022
 *Originally targeted for release in September 2022, Forge was released as a permanent part of the retail game. While the release is a beta version of the toolset, it is fully integrated with the retail game and files created with it are in players file shares.*
+
+### Season 3 Forge Updates - March 7th, 2023
