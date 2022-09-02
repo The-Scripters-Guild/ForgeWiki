@@ -8,5 +8,5 @@ Forge Academy
 
 [stub]
 
-## Contributors
+### Contributors
 Captain Punch
