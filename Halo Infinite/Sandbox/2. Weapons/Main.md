@@ -2,7 +2,7 @@
 
     Effective distance: 30.4m(+6m or +25%)
 
-	![Effective distance](https://gfycat.com/deficientjollyhusky)
+	![Effective distance](https://gfycat.com/deficientjollyhusky.gif)
 
     Mag Size: 25(-11)
 
@@ -248,10 +248,8 @@
 
     Special Nuances: Locks on to target just like the pinpoint needler, a very solid upgrade.
 
-### 
 #### Sources
+https://www.reddit.com/r/halo/comments/xfcz4n/definitive_guide_to_weapon_variants/ by u/Kai
 
-### https://www.reddit.com/r/halo/comments/xfcz4n/definitive_guide_to_weapon_variants/ by u/Kai
-
-### #### Contributors
+#### Contributors
 Captain Punch
