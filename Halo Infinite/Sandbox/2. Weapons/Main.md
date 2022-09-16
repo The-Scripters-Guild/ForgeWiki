@@ -2,6 +2,8 @@
 
     Effective distance: 30.4m(+6m or +25%)
 
+	![Effective distance](https://gfycat.com/deficientjollyhusky)
+
     Mag Size: 25(-11)
 
     TTK: .87 seconds
