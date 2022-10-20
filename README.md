@@ -14,7 +14,7 @@ The site uses markdown, so everything should include appropriate markdown format
 
 ## Why is this here?
 
-This allows for a more structured contribution pipeline for the ForgeHub wiki than is currently in place via the site itself, it also acts as a back up of the information on the site. 
+This allows for a more structured contribution pipeline for the Forge wiki than is currently in place via the site (ForgeHub) itself, it also acts as a back up of the information on the site. It was the original plan to update the wiki there or migrate to a new platform hosted by ForgeHub, but it was deemed more apt to partner with Halopedia and contribute to their already stellar collection of Halo reference material. This currently only exists as a drafting space while new structure is planned and implemented on Halopedia proper.
 
 ## How do I contribute?
 
