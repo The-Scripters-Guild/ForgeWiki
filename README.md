@@ -1,5 +1,5 @@
-# ForgeHubWiki
-*A place for editors to collaborate on content for the ForgeHub wiki.*
+# ForgeWiki
+*A place for editors to collaborate on content for the Forge wiki.*
 
 ## Structure
 
@@ -20,10 +20,10 @@ This allows for a more structured contribution pipeline for the ForgeHub wiki th
 
 You *can* just interact with this like any other repo, or you can get in on the conversation with the people working on this project in a dedicated fashion via the avenues below. Reach out to `Captain Punch` if you have questions or issues.
 
+*Halopedia is where this wiki is being hosted, the project is taking large contributions from The Scripter's Guild and ForgeHub.*
+
 Join ForgeHub.com and the Discord server: https://discord.gg/5TwfqbU7sf
-
-*ForgeHub is where this wiki is being hosted.*
-
+Join Halopedia's Discord server: https://discord.gg/W3HK45M
 Join The Scripter's Guild (TSG) Discord server: https://discord.gg/ZpE3tcpZy9
 
 *TSG is a server based around UGC and game dev, founded by Halo creators. It is heavily involved w/ ForgeHub and the scripting side of the wiki for Halo 5 and Halo Infinite.*
