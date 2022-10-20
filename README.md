@@ -23,7 +23,9 @@ You *can* just interact with this like any other repo, or you can get in on the 
 *Halopedia is where this wiki is being hosted, the project is taking large contributions from The Scripter's Guild and ForgeHub.*
 
 Join ForgeHub.com and the Discord server: https://discord.gg/5TwfqbU7sf
+
 Join Halopedia's Discord server: https://discord.gg/W3HK45M
+
 Join The Scripter's Guild (TSG) Discord server: https://discord.gg/ZpE3tcpZy9
 
 *TSG is a server based around UGC and game dev, founded by Halo creators. It is heavily involved w/ ForgeHub and the scripting side of the wiki for Halo 5 and Halo Infinite.*
