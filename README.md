@@ -14,16 +14,12 @@ The site uses markdown, so everything should include appropriate markdown format
 
 ## Why is this here?
 
-This allows for a more structured contribution pipeline for the Forge wiki than is currently in place via the site (ForgeHub) itself, it also acts as a back up of the information on the site. It was the original plan to update the wiki there or migrate to a new platform hosted by ForgeHub, but it was deemed more apt to partner with Halopedia and contribute to their already stellar collection of Halo reference material. This currently only exists as a drafting space while new structure is planned and implemented on Halopedia proper.
+It was the original plan to update the wiki on ForgeHub, but it was deemed more apt to partner with Halopedia and contribute to their already stellar collection of Halo reference material, while also mirroring this content to other community wiki sites. This currently only exists as a space to draft material for distributing elsewhere.
 
 ## How do I contribute?
 
 You *can* just interact with this like any other repo, or you can get in on the conversation with the people working on this project in a dedicated fashion via the avenues below. Reach out to `Captain Punch` if you have questions or issues.
 
-*Halopedia is where this wiki is being hosted, the project is taking large contributions from The Scripter's Guild.*
-
-Join Halopedia's Discord server: https://discord.gg/W3HK45M
-
 Join The Scripter's Guild (TSG) Discord server: https://discord.gg/ZpE3tcpZy9
 
-*TSG is a server based around UGC and game dev, founded by Halo creators. It is heavily involved w/ ForgeHub and the scripting side of the wiki for Halo 5 and Halo Infinite.*
+*TSG is a server based around UGC and game dev, founded by Halo creators. We wrote the wiki for Halo 5 scripting as it existed on ForgeHub and are responsible for many enhancements to content for Halo 5 matchmaking, including the creation of the Mythic KotH, Assym 1 Flag, Pig of the Hill, and Roaming King modes, systems for weather volumes w/ excluded interiors and static spawn timers for weapons, and more, as well as a myriad of other creations.*
