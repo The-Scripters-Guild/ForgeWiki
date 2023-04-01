@@ -20,9 +20,7 @@ This allows for a more structured contribution pipeline for the Forge wiki than 
 
 You *can* just interact with this like any other repo, or you can get in on the conversation with the people working on this project in a dedicated fashion via the avenues below. Reach out to `Captain Punch` if you have questions or issues.
 
-*Halopedia is where this wiki is being hosted, the project is taking large contributions from The Scripter's Guild and ForgeHub.*
-
-Join ForgeHub.com and the Discord server: https://discord.gg/5TwfqbU7sf
+*Halopedia is where this wiki is being hosted, the project is taking large contributions from The Scripter's Guild.*
 
 Join Halopedia's Discord server: https://discord.gg/W3HK45M
 
