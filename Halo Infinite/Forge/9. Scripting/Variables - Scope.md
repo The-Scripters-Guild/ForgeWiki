@@ -1,4 +1,4 @@
-# Understanding Scopes in Scripting
+# Understanding Scope
 In any programming environement, it is important to undestand the concept of scope and what scopes that variables can have. Scopes determine the level at which a variable of a specific identifier and type is stored. In Infinite, those scopes are Global, Local, and Object.
 
 ## Global Scope
