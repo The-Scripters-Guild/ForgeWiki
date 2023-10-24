@@ -1,2 +1,0 @@
-# 3. Placeable Objects
-

@@ -1,2 +1,0 @@
-# 4. Canvas Settings
-
