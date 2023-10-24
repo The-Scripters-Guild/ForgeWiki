@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Landing Zone](README.md)
+* [The Scripter's Guild](the-scripters-guild.md)
 
 ## Halo Infinite
 
@@ -61,6 +62,7 @@
   * [Stock Multiplayer Levels](<Halo Infinite/Sandbox/6. Stock Multiplayer Levels/README.md>)
 * [Guides & Tutorials](halo-infinite/10.-guides-and-tutorials/README.md)
   * [Handling issues with seemingly corrupt file versions](<halo-infinite/10.-guides-and-tutorials/Handling Potentially Corrupt Files.md>)
+* [Reference Documents](halo-infinite/reference-documents.md)
 
 ## Halo 5
 
