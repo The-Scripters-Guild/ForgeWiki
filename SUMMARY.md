@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ForgeWiki](README.md)
+* [Welcome to TSG's Forge Wiki!](README.md)
 * [Halo 2 Anniversary](<Halo 2 Anniversary/README.md>)
   * [ForgeHubWiki](<Halo 2 Anniversary/Main.md>)
   * [Forge](<Halo 2 Anniversary/Forge/README.md>)
