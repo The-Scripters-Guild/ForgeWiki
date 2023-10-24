@@ -1,2 +1,0 @@
-# Halo Infinite
-
