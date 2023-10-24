@@ -14,4 +14,4 @@ Reach out to `Captain Punch` (server admin) or a `Guild Officer` if you have que
 
 {% embed url="https://discord.gg/ZpE3tcpZy9" %}
 
-_TSG is a server based around UGC and game dev, founded by Halo creators. We wrote the wiki for Halo 5 scripting as it existed on ForgeHub and are responsible for many enhancements to content for Halo 5 matchmaking, including the creation of the Mythic KotH, Assym 1 Flag, Pig of the Hill, and Roaming King modes, systems for weather volumes w/ excluded interiors and static spawn timers for weapons, and more, as well as a myriad of other creations._
+_TSG is a server based around UGC and game dev, founded by Halo creators. We wrote the wiki for Halo 5 scripting as it existed on ForgeHub and are responsible for many enhancements to content for Halo 5 matchmaking, including the creation of the Mythic KotH, Assym 1 Flag, Pig of the Hill, and Roaming King modes, systems for weather volumes w/ excluded interiors and static spawn timers for weapons, as well as a myriad of other creations._
