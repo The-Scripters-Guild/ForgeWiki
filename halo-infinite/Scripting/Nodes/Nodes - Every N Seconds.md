@@ -9,3 +9,7 @@ By dividing two numbers, you can pass any quotient refresh rate you want it to r
 In testing, setting the refresh rate to 1/60 resulted in visual jitter and issues, while setting it to 1/59 gave the smoothest performance of scripts that relied on it to do things like set velocity.
 
 This workaround can be useful if you need more precise control over the timing of your events in your scripts.
+
+#### Contributors
+Captain Punch
+AgentZero

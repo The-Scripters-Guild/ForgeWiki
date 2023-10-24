@@ -21,9 +21,9 @@ If you just have an object reference to a wall on the map and you spawn that, it
 
 ### Limitations of Object pools
 
-* Object pools cannot make true unique instances of an object. Eventually, your Object pool will loop back to the start and you will reuse objects.
-* Be careful when using nodes that take time to finish running (e.g. Wait N Seconds, Move Object to Transform) as long-running triggers can cause issues where your script tries to use the wrong object from the Object pool.
-* Consider setting a variable on the object from the Object pool when you use it to track if it's in use, so you can despawn it before reusing it.
+- Object pools cannot make true unique instances of an object. Eventually, your Object pool will loop back to the start and you will reuse objects.
+- Be careful when using nodes that take time to finish running (e.g. Wait N Seconds, Move Object to Transform) as long-running triggers can cause issues where your script tries to use the wrong object from the Object pool.
+- Consider setting a variable on the object from the Object pool when you use it to track if it's in use, so you can despawn it before reusing it.
 
 ## Example Scripts
 
@@ -33,8 +33,15 @@ Note that the object references in the object list are all different. The Object
 
 IMAGE
 
+
 ### Using Object From Pool Script
 
 In the above example, the trigger could be anything you want to do with the object from the spawning pool. You could spawn it or move it or whatever you want. If you want to use this within a trigger, link the trigger to the `Set Number Variable` node.
 
+
 IMAGE
+
+
+#### Contributors
+Captain Punch
+Deceitful Echo

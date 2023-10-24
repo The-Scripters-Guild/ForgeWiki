@@ -6,4 +6,7 @@ One of the main limitations is that there is no equivalent 'On Player Died' node
 
 Specifically, it will only trigger for certain causes of death, such as being killed by another player's weapon. It does not trigger for deaths caused by environmental hazards, such as falling from a great height or drowning.
 
-It is important to keep these limitations in mind when designing scripts that involve player death
+It is important to keep these limitations in mind when designing scripts that involve player death.
+
+#### Contributors
+Captain Punch
