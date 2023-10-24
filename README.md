@@ -26,7 +26,10 @@ Keep in mind, this is an entirely volunteer effort and all information here is p
 
 You _can_ just interact with this like any other repo, or you can get in on the conversation with the people working on this project in a dedicated fashion via our Discord server. \
 \
-Reach out to `Captain Punch` (server admin) or a `Guild Officer` if you have questions or issues.
+Connected Repo:\
+[https://github.com/CarsonBarry/ForgeWiki](https://github.com/CarsonBarry/ForgeWiki)\
+\
+Reach out to `Captain Punch` (server admin) or a `Guild Officer` (via Discord) if you have questions or issues, or if you've submitted a pull request and haven't seen any action on it.
 
 {% embed url="https://discord.gg/ZpE3tcpZy9" %}
 
