@@ -77,6 +77,7 @@
 * [Guides & Tutorials](<halo-infinite/Guides and Tutorials/README.md>)
   * [Handling issues with seemingly corrupt file versions](<halo-infinite/Guides and Tutorials/Handling Potentially Corrupt Files.md>)
 * [Reference Documents](halo-infinite/reference-documents.md)
+* [TSG UGC Links](halo-infinite/tsg-ugc-links.md)
 
 ## Halo 5
 
