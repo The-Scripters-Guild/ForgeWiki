@@ -76,7 +76,8 @@
   * [Stock Multiplayer Levels](<halo-infinite/Sandbox/6. Stock Multiplayer Levels/README.md>)
 * [Guides & Tutorials](<halo-infinite/Guides and Tutorials/README.md>)
   * [Handling issues with seemingly corrupt file versions](<halo-infinite/Guides and Tutorials/Handling Potentially Corrupt Files.md>)
-* [Reference Documents](halo-infinite/reference-documents.md)
+* [Reference Documents](halo-infinite/reference-documents/README.md)
+  * [HI: Forge Data](halo-infinite/reference-documents/reference-documents.md)
 * [TSG UGC Links](halo-infinite/tsg-ugc-links.md)
 
 ## Halo 5
