@@ -1,5 +1,9 @@
 # Variables
 
+{% embed url="https://www.youtube.com/watch?v=vl20UefeoSc" %}
+A breakdown of the Variable Nodes as of Season 2. Still a good quick start to the variable system in Halo Infinite.
+{% endembed %}
+
 ## Datatypes
 
 Number: used for storing numbers. Boolean: used for storing true/false values. Object: used for storing references to specific objects. Object List: used for storing lists of objects in an array starting at 1 (LUA). Weapon Type: used for storing references to weapon types. Grenade Type: used for storing references to grenade types. Equipment Type: used for storing references to equipment types. Vehicle Type: used for storing references to vehicles types. Note that you can't use the value of another variable as the initial value, as all variables are declared at the same time at game start.
