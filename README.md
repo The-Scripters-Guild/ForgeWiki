@@ -26,6 +26,8 @@ Keep in mind, this is an entirely volunteer effort and all information here is p
 
 You _can_ just interact with this like any other repo, or you can get in on the conversation with the people working on this project in a dedicated fashion via our Discord server. \
 \
+Just have scraps of info to share, like a weird interaction between two objects or systems, and don't think it's enough to create a post in the Wiki Discussion on the Discord or to do a whole pull request on GitHub? Use the Infodump Form ([https://dyno.gg/form/6ecec55c](https://dyno.gg/form/6ecec55c)) and it will get added to the pile of other scraps of info that are used as reference when writing wiki articles.\
+\
 Connected Repo:\
 [https://github.com/CarsonBarry/ForgeWiki](https://github.com/CarsonBarry/ForgeWiki)\
 \
