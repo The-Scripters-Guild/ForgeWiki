@@ -3,6 +3,11 @@
 * [Landing Zone](README.md)
 * [The Scripter's Guild](the-scripters-guild.md)
 
+## General
+
+* [Basic Programming and Scripting Terms](<general/Terms - Generic.md>)
+* [Basic Programming and Scripting Terms](<general/Terms - Basic.md>)
+
 ## Halo Infinite
 
 * [Forge](halo-infinite/Forge/README.md)
@@ -27,9 +32,8 @@
   * [Strings](<halo-infinite/Forge/7. Strings/README.md>)
   * [Labels & Spawn Order](<halo-infinite/Forge/8. Labels & Spawn Order/README.md>)
 * [Scripting](halo-infinite/Scripting/README.md)
+  * [🔰 Getting Started](halo-infinite/Scripting/getting-started.md)
   * [Node Graph Properties](<halo-infinite/Scripting/Properties Of The Node Graph.md>)
-  * [Basic Programming and Scripting Terms](<halo-infinite/Scripting/Terms - Basic.md>)
-  * [Basic Programming and Scripting Terms](<halo-infinite/Scripting/Terms - Generic.md>)
   * [Area Monitors](<halo-infinite/Scripting/Area Monitors/README.md>)
   * [Equipment](halo-infinite/Scripting/Equipment/README.md)
     * [Cancelling Custom Equipment Animation](<halo-infinite/Scripting/Equipment/Equipment - Canceling Equipment Animations.md>)
