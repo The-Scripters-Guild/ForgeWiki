@@ -1,12 +1,16 @@
 # Table of contents
 
 * [Landing Zone](README.md)
-* [The Scripter's Guild](the-scripters-guild.md)
+* [The Scripter's Guild](the-scripters-guild/README.md)
+  * [TSG UGC Links](the-scripters-guild/tsg-ugc-links.md)
 * [👋 Click here to check out the 🔰 Getting Started section if you're new to Scripting! ](https://wiki.thescriptersguild.com/main/halo-infinite/Scripting/getting-started)
 
 ## General
 
 * [Terms](<halo-infinite/Scripting/Terms - Generic.md>)
+* [Guides & Tutorials](general/guides-and-tutorials/README.md)
+  * [Level Design](general/guides-and-tutorials/level-design/README.md)
+    * [A Chunk's Guide to Level Design](general/guides-and-tutorials/level-design/a-chunks-guide-to-level-design.md)
 
 ## Halo Infinite
 
@@ -97,12 +101,59 @@
     * [Video Tutorials](<halo-infinite/Guides and Tutorials/scripting/video-tutorials.md>)
 * [Reference Documents](halo-infinite/reference-documents/README.md)
   * [Forge Data](halo-infinite/reference-documents/reference-documents.md)
-* [TSG UGC Links](halo-infinite/tsg-ugc-links.md)
 
 ## Halo 5
 
-* [Import Pending](halo-5/import-pending.md)
+* [Forge](halo-5/forge/README.md)
+  * [Lighting](halo-5/forge/lighting.md)
+  * [Cubemaps](halo-5/forge/cubemaps.md)
+* [Scripting](halo-5/scripting/README.md)
+  * [Conditions](halo-5/scripting/conditions.md)
+  * [Actions](halo-5/scripting/actions.md)
+  * [Numbers](halo-5/scripting/numbers.md)
+  * [Selection Filters](halo-5/scripting/selection-filters.md)
+* [Guides & Tutorials](halo-5/guides-and-tutorials/README.md)
+  * [Forge](halo-5/guides-and-tutorials/forge/README.md)
+    * [Articles](halo-5/guides-and-tutorials/forge/articles.md)
+    * [Videos](halo-5/guides-and-tutorials/forge/videos.md)
+  * [Scripting](halo-5/guides-and-tutorials/scripting/README.md)
+    * [Articles](halo-5/guides-and-tutorials/scripting/articles/README.md)
+      * [Game Mode Design](halo-5/guides-and-tutorials/scripting/articles/game-mode-design.md)
+    * [Videos](halo-5/guides-and-tutorials/scripting/videos.md)
+
+## Halo 4
+
+* [Forge](halo-4/forge/README.md)
+  * [Lighting](halo-4/forge/lighting.md)
+* [Guides & Tutorials](halo-4/guides-and-tutorials/README.md)
+  * [Articles](halo-4/guides-and-tutorials/articles/README.md)
+    * [Game Mode Set Up](halo-4/guides-and-tutorials/articles/game-mode-set-up.md)
+  * [Videos](halo-4/guides-and-tutorials/videos.md)
 
 ## Halo Reach
 
-* [Import Pending](halo-reach/import-pending.md)
+* [Forge](halo-reach/forge/README.md)
+  * [Spawning](halo-reach/forge/spawning.md)
+  * [Tagging](halo-reach/forge/tagging/README.md)
+    * [Unorthodox Tagging](halo-reach/forge/tagging/unorthodox-tagging.md)
+  * [Visual Aides](halo-reach/forge/import-pending.md)
+* [Guides & Tutorials](halo-reach/guides-and-tutorials/README.md)
+  * [Articles](halo-reach/guides-and-tutorials/articles.md)
+  * [Videos](halo-reach/guides-and-tutorials/videos.md)
+
+## Halo 3
+
+* [Forge](halo-3/forge.md)
+* [Guides & Tutorials](halo-3/guides-and-tutorials/README.md)
+  * [Articles](halo-3/guides-and-tutorials/articles/README.md)
+    * [Budget Glitch](halo-3/guides-and-tutorials/articles/budget-glitch.md)
+  * [Videos](halo-3/guides-and-tutorials/videos.md)
+
+## Halo 2: Anniversary
+
+* [Forge](halo-2-anniversary/forge/README.md)
+  * [Static Weapon Spawns](halo-2-anniversary/forge/static-weapon-spawns.md)
+* [Guides & Tutorials](halo-2-anniversary/guides-and-tutorials/README.md)
+  * [Articles](halo-2-anniversary/guides-and-tutorials/articles/README.md)
+    * [Framerate](halo-2-anniversary/guides-and-tutorials/articles/framerate.md)
+  * [Videos](halo-2-anniversary/guides-and-tutorials/videos.md)
