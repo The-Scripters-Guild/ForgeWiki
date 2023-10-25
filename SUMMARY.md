@@ -2,11 +2,12 @@
 
 * [Landing Zone](README.md)
 * [The Scripter's Guild](the-scripters-guild.md)
+* [👋 Check out \[ 🔰 Getting Started \] if you're new to Scripting! ](https://wiki.thescriptersguild.com/main/halo-infinite/Scripting/getting-started)
 
 ## General
 
-* [Basic Programming and Scripting Terms](<general/Terms - Generic.md>)
-* [Basic Programming and Scripting Terms](<general/Terms - Basic.md>)
+* [Basic Programming and Scripting Terms](<halo-infinite/Scripting/Terms - Generic.md>)
+* [Basic Programming and Scripting Terms](<halo-infinite/Scripting/Terms - Basic.md>)
 
 ## Halo Infinite
 
