@@ -9,4 +9,5 @@ Specifically, it will only trigger for certain causes of death, such as being ki
 It is important to keep these limitations in mind when designing scripts that involve player death.
 
 #### Contributors
+
 Captain Punch

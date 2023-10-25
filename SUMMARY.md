@@ -6,7 +6,7 @@
 
 ## General
 
-* [Terms](general/terms-generic.md)
+* [Terms](<halo-infinite/Scripting/Terms - Generic.md>)
 
 ## Halo Infinite
 
@@ -43,9 +43,9 @@
       * [Data Pins](halo-infinite/Scripting/Nodes/connection-pins/data-pins.md)
       * [Datatypes](halo-infinite/Scripting/Nodes/connection-pins/datatypes.md)
     * [Specific Nodes](halo-infinite/Scripting/Nodes/specific-nodes/README.md)
-      * [Random](<halo-infinite/Scripting/Nodes/specific-nodes/Nodes - Random.md>)
-      * [On Player Killed](<halo-infinite/Scripting/Nodes/specific-nodes/Nodes - On Player Killed.md>)
-      * [Every N Seconds](<halo-infinite/Scripting/Nodes/specific-nodes/Nodes - Every N Seconds.md>)
+      * [Random](<halo-infinite/Scripting/Nodes/Nodes - Random.md>)
+      * [On Player Killed](<halo-infinite/Scripting/Nodes/Nodes - On Player Killed.md>)
+      * [Every N Seconds](<halo-infinite/Scripting/Nodes/Nodes - Every N Seconds.md>)
   * [Patterns](halo-infinite/Scripting/Patterns/README.md)
     * [Checking Object Types](halo-infinite/Scripting/Patterns/patterns-checking-object-types.md)
     * [Deleting Dropped Weapons Using Scripts](<halo-infinite/Scripting/Patterns/Patterns - Deleting Dropped Weapons Using Scripts.md>)
@@ -63,7 +63,7 @@
     * [Linking Multiple Switches to the same On Interacted Event](<halo-infinite/Scripting/Patterns/Patterns - Switch Duping.md>)
   * [Traits - Players](<halo-infinite/Scripting/Traits - Players/README.md>)
     * [Shields](<halo-infinite/Scripting/Traits - Players/Traits - Shields.md>)
-    * [Traits](<halo-infinite/Scripting/Traits - Players/Nodes - Traits.md>)
+    * [Traits](<halo-infinite/Scripting/Nodes/Nodes - Traits.md>)
   * [Transforms](halo-infinite/Scripting/Transforms/README.md)
     * [Object Forward and Up Vectors](<halo-infinite/Scripting/Transforms/Transforms - Object Forward & Up.md>)
   * [Variables](halo-infinite/Scripting/Variables/README.md)
@@ -86,7 +86,7 @@
 * [Guides & Tutorials](<halo-infinite/Guides and Tutorials/README.md>)
   * [Forge](<halo-infinite/Guides and Tutorials/forge/README.md>)
     * [Articles](<halo-infinite/Guides and Tutorials/forge/articles/README.md>)
-      * [Handling issues with seemingly corrupt file versions](<halo-infinite/Guides and Tutorials/forge/articles/Handling Potentially Corrupt Files.md>)
+      * [Handling issues with seemingly corrupt file versions](<halo-infinite/Guides and Tutorials/Handling Potentially Corrupt Files.md>)
     * [Video Tutorials](<halo-infinite/Guides and Tutorials/forge/video-tutorials.md>)
   * [Scripting](<halo-infinite/Guides and Tutorials/scripting/README.md>)
     * [Articles](<halo-infinite/Guides and Tutorials/scripting/articles.md>)

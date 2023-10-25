@@ -1,4 +1,4 @@
-# Basic Programming and Scripting Terms
+# Terms
 
 ## Variables
 
