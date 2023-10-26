@@ -35,9 +35,8 @@ Object Scope: your variable will be affiliated with a specific object and each d
 
 ## How to declare a variable
 
-1. Spawn a script brain and open the node browser.
-2. Navigate to "Variables Advanced" and select "Declare \[type] Variable" for the type of variable you want to use.
-3. Once you've created your variable declaration, you'll need to give it a unique identifier and a scope.
+1. Navigate to "Variables Advanced" and select "Declare \[type] Variable" for the type of variable you want to use.
+2. Once you've created your variable declaration, you'll need to give it a unique identifier and a scope.
 
 * Some data types will also require a default value to be set\*.
 * Object scoped variable declarations create a copy of that variable per dynamic object on the level and define the default value for that variable for all objects.
