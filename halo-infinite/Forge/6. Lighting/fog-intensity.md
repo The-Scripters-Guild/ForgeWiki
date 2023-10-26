@@ -15,7 +15,7 @@ Additionally, understanding the concept of near and far ranges is essential:
 
 By manipulating Fog Intensity, creators can craft visually compelling environments with precisely tailored fog effects, enhancing the overall atmosphere of their scenes.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-1 (1).png" alt=""><figcaption></figcaption></figure>
 

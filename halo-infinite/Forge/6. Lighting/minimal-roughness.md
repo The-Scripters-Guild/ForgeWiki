@@ -13,11 +13,11 @@ The Minimal Roughness tool is a valuable feature used to enhance lighting effect
 
 ### Examples:
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-1 (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Observations:
 
@@ -25,7 +25,7 @@ Higher values of minimal roughness (approaching 1) can result in a flat appearan
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-1 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -33,7 +33,7 @@ Characters, particularly those with metallic armors, are affected by minimal rou
 
 <figure><img src="../../../.gitbook/assets/image-1 (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Contributors** \
 Tyler | Lighting Artist\
