@@ -2,8 +2,8 @@
 
 * The per-Script-Brain node limit is 128 nodes, but can be less depending on how many entities you have present in that graph, as each node contributes differently and each pin with data set and each connection are also considered entities.
 * Deleting objects doesn't immediately refund the budget because that object is still in the undo stack. The best way to truly refresh your budget is to save your map, leave the Forge session, and then load into the map again in Forge.
-* There is no intended "invisible" limit on script brains -- the only limit we have is 128 nodes per script brain.
-* A script that has been deleted might still run after deletion, its node graph can't be accessed, and persists across saves/sessions. This is known as a "ghost brain".
+* There is no intended "invisible" limit on script brains -- the only limit we have is 128 nodes per script brain, the simulation budget, and the file size limit.
+* A script that has been deleted might still run after deletion, its node graph can't be accessed, and persists across saves/sessions. This is known as a "ghost brain". Moving to a new canvas is generally recommended at this point, if possible, but it is also possible to access that rogue node graph and delete the offending nodes.
 
 ## Notable Updates
 
