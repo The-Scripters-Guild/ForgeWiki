@@ -4,7 +4,7 @@
 A breakdown of the Variable Nodes as of Season 2. Still a good quick start to the variable system in Halo Infinite.
 {% endembed %}
 
-## Datatypes
+## Data Types
 
 Number: used for storing numbers.&#x20;
 
