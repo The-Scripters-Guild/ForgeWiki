@@ -140,7 +140,6 @@
 
 * [Halo 5](legacy-halo/halo-5/README.md)
   * [Forge](legacy-halo/halo-5/forge/README.md)
-    * [Lighting](legacy-halo/halo-5/forge/lighting.md)
     * [Cubemaps](legacy-halo/halo-5/forge/cubemaps.md)
   * [Scripting](legacy-halo/halo-5/scripting/README.md)
     * [Conditions](legacy-halo/halo-5/scripting/conditions.md)
