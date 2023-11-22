@@ -14,7 +14,7 @@ Near/Far Begin is a versatile optimization tool used in lighting to enhance visu
 3. _Optimizations:_ Applying Near/Far Begin settings to all lights can significantly optimize rendering. By excluding the top portions of spotlights from calculations, fewer pixels are processed, enhancing overall performance. Utilizing this optimization across all lights collectively improves performance, contributing to a more efficient rendering pipeline.
 4. _Organic Maps:_ In organic environments like caves, where curved surfaces complicate the use of Oriented Bounding Boxes (OBBs), Near/Far Begin settings prove invaluable. These parameters minimize overlap and optimize lighting calculations in intricate, curved spaces, ensuring a visually appealing result without sacrificing performance.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-1 (5).png" alt=""><figcaption></figcaption></figure>
 
