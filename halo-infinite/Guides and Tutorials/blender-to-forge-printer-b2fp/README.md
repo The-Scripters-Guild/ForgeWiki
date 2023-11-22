@@ -16,7 +16,7 @@ Python - [https://www.python.org/](https://www.python.org/)
 
 ### B2FP Download
 
-{% @github-files/github-code-block %}
+[https://github.com/TubbyMcFatDuck/Halo-Infinite-Blender-2-Forge-Printer/releases](https://github.com/TubbyMcFatDuck/Halo-Infinite-Blender-2-Forge-Printer/releases)
 
 ### B2FP Discord
 

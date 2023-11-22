@@ -4,7 +4,7 @@
 
 Level bound probes to rendering your indirect for the map. Level stretching across the whole map, object scaling based on player placed objects, or none. (No level volume)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Level Bound Probes Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Level Bound Probes Properties</p></figcaption></figure>
 
 | Property Name | Description                                                                                                                                                                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

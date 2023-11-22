@@ -19,7 +19,7 @@
 
 ## Volumetric Fog
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Volumetric Fog Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Volumetric Fog Properties</p></figcaption></figure>
 
 {% hint style="info" %}
 Volumetric Fog simulates a 3D fog that can be used to create light rays, take in color from lights, or provide a general haze around world.
