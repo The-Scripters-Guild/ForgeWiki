@@ -1,9 +1,14 @@
 ---
+cover: .gitbook/assets/wide tsg logo white no background no drop shadow small.png
+coverY: 0
 layout:
+  cover:
+    visible: true
+    size: hero
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: false
   outline:

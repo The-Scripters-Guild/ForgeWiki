@@ -2,6 +2,17 @@
 description: >-
   This wiki is divided into 3 sections. Use the sidebar or search function to
   navigate to the sections/articles that have the information you seek.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
 ---
 
 # Triage
