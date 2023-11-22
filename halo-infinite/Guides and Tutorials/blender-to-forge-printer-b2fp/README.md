@@ -20,7 +20,7 @@ Python - [https://www.python.org/](https://www.python.org/)
 
 ### B2FP Discord
 
-[https://discord.gg/qb7Dfd2GwX](https://discord.gg/qb7Dfd2GwX) ss\
+[https://discord.gg/qb7Dfd2GwX](https://discord.gg/qb7Dfd2GwX)\
 
 
 #### Contributors
