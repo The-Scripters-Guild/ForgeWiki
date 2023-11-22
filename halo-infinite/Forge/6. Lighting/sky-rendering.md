@@ -2,7 +2,7 @@
 
 ## Sky Rendering
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Sky Rendering Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Sky Rendering Properties</p></figcaption></figure>
 
 {% hint style="info" %}
 Sky rendering is how we are able to adjust our skyboxes in Forge. Simulating Night time, Noon, or a bright pink sky with a purple sun. Using the color palette and sun positioning a variety of skybox atmospheres made.

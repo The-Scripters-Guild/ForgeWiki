@@ -2,7 +2,7 @@
 
 ## Sunlight & Sun Direction
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Sunlight Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Sunlight Properties</p></figcaption></figure>
 
 {% hint style="info" %}
 Controls the Sun direction, intensity, and color. A good note is that the sun will still render even going past 90 degrees on the horizon. Unless it is wanted, or you would like to have a fully interior map with no sun contribution, set the intensity to 0 and it will save performance but turning the sun "off".

@@ -2,7 +2,7 @@
 
 ## Sky Light & Directional Sky Light
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Sky Light Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Sky Light Properties</p></figcaption></figure>
 
 {% hint style="info" %}
 Sky light is a general ambience around the map that can see the sky. Directional Sky light changes the color of the probe in a cardinal direction, an example of using it, is if I want one side of my map that is heavy in shadow to have more blue, say North, then I would set North Override to a blue color. Then if I wanted the opposite side to be Pink I would set South Override to pink.

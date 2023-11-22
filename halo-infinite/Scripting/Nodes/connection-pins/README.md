@@ -23,7 +23,7 @@ Execution Pins define the flow of logic within a node graph. Each node within th
 * Nodes with an input Execution Pin require it to be connected for them to execute, they cannot do anything on their own.
   * Any Execution node with an input Execution pin not connected will trigger a failed node graph build in Play Mode, though other code that is not affected can still potentially run just fine.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td><td>Above, an event's output execution pin is connected to a node input execution pin.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"></td><td>Not all execution pins may be represented by diamonds. Due to engine limitations, some execution pins are circles instead.</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"></td><td>Above, an event's output execution pin is connected to a node input execution pin.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (5) (1) (1).png" alt="" data-size="original"></td><td>Not all execution pins may be represented by diamonds. Due to engine limitations, some execution pins are circles instead.</td><td></td></tr></tbody></table>
 
 ## Data Pins
 
@@ -37,7 +37,7 @@ Data Pins allow nodes to receive and provide data of one of the Data Types avail
   * This can be problematic in some instances, so it is important to make sure to lock data in place where necessary.&#x20;
     * This can be as simple as saving it in a variable that only updates when you want it to instead of reading it dynamically from the current game state, or passing an object or number into a custom event and using the output pins on the custom event, as they will not 'reach back' through their triggering node to get new data and will only work with what they were provided when called.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td><td>Above, the player is being received by the Print Player to Killfeed node from the On Player Mark Event.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"></td><td>Get All Players provides an Object List of all players currently in the game.</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"></td><td>Above, the player is being received by the Print Player to Killfeed node from the On Player Mark Event.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (5) (1) (1).png" alt="" data-size="original"></td><td>Get All Players provides an Object List of all players currently in the game.</td><td></td></tr></tbody></table>
 
 **Contributors**\
 AgentZero\
