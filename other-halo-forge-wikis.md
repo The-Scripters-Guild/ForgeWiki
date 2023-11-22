@@ -1,8 +1,12 @@
 # Other Halo/Forge Wikis
 
-Halopedia
+### Halopedia
 
-The Halo Archive
+[https://www.halopedia.org/](https://www.halopedia.org/)\
+The best resource for real-world information about Halo game/book/multimedia releases and lore.
 
-ForgeWiki (abandoned project)
+### The Halo Archive
+
+[https://discord.gg/haloarchive](https://discord.gg/haloarchive)\
+The best resource for Halo modding and assets for use with tools like blender.
 
