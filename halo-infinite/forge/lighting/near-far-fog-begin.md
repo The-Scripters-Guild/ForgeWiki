@@ -1,0 +1,2 @@
+# Near/Far Fog Begin
+

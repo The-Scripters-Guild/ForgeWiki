@@ -1,0 +1,2 @@
+# Cancelling Custom Equipment Animation
+
