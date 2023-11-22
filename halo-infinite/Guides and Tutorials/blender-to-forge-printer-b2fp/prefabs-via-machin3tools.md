@@ -21,3 +21,9 @@ Don't try to use Rotation Snaps with these groups, just rotate them into place m
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Source: [https://projects.blender.org/blender/blender/issues/99279](https://projects.blender.org/blender/blender/issues/99279)
+
+
+
+#### Contributors
+
+UberSailFig
