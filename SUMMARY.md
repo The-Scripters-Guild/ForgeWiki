@@ -158,6 +158,7 @@
   * [Scripting](<halo-infinite/Guides and Tutorials/scripting/README.md>)
     * [Articles](<halo-infinite/Guides and Tutorials/scripting/articles.md>)
     * [Video Tutorials](<halo-infinite/Guides and Tutorials/scripting/video-tutorials.md>)
+  * [Blender To Forge Printer (B2FP)](<halo-infinite/Guides and Tutorials/blender-to-forge-printer-b2fp.md>)
 * [Reference Documents](halo-infinite/reference-documents/README.md)
   * [Forge Data](halo-infinite/reference-documents/reference-documents.md)
 
