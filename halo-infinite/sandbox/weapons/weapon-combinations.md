@@ -6,6 +6,5 @@ This is a nod to, and legitmization of, a bug in Halo 5 that allowed for similar
 
 Now, not only can any weapon placed on a level be set up as a hybrid weapon, weapons _in players inventories_ can be detected, checked against variables, and directly modified. Ammo/battery capacity, magazine size, and even the current ammo/charge count can be modified via scripts both while a weapon is on the rack/ground, or when it is in a player's inventory. This, combined with being able to detect things like the player's zoom, crouch, and airborne states, creates a wide range of possibilities for weapons that are even more dynamic.
 
-#### Contributors
-
+**Contributors**\
 Captain Punch
