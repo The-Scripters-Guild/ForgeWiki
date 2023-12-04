@@ -2,7 +2,7 @@
 
 ## Light Properties
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Light Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-object-properties-1.png" alt=""><figcaption><p>Light Properties</p></figcaption></figure>
 
 | Property Name                     | Description                                                                                    |
 | --------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -17,9 +17,9 @@
 | Cast Dynamic Shadows              | Enables shadows for dynamic objects, adds additional expense.                                  |
 | Shadow Start Distance             | Distance from source at which the shadows start. (Reference Image Light Shadow Start Distance) |
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Light Source Outer-Inner Cone</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-cone-diagram.png" alt=""><figcaption><p>Light Source Outer-Inner Cone</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Light Shadow Start Distance</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-cone-diagram-2.png" alt=""><figcaption><p>Light Shadow Start Distance</p></figcaption></figure>
 
 ## Animation
 
@@ -27,7 +27,7 @@
 Animations are used to create Flickering lights
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Animation Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-animation-settings.png" alt=""><figcaption><p>Animation Properties</p></figcaption></figure>
 
 | Property Name | Description                                                     |
 | ------------- | --------------------------------------------------------------- |
@@ -40,7 +40,7 @@ Animations are used to create Flickering lights
 Light cones are versatile, cheap to render billboard objects. Used to create fake lighting effects, such as, light rays, fog, mist, smoke. Also used to create depth and pathing.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Cone Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-cone-settings.png" alt=""><figcaption><p>Cone Properties</p></figcaption></figure>
 
 | Property Name       | Description                                                                                                                                                              |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -52,11 +52,11 @@ Light cones are versatile, cheap to render billboard objects. Used to create fak
 | Fade End            | Distance from player when the light come completely fades.                                                                                                               |
 | Enable Parent Light | Toggles the light to be on/off; used when only a light cone is desired.                                                                                                  |
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Types of Light Cones</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-cones.png" alt=""><figcaption><p>Types of Light Cones</p></figcaption></figure>
 
-![Fade Start/End Example](https://imgur.com/r24sdoX.gif)
+![Fade Start/End Example](../../../.gitbook/assets/fade-start-end.gif)
 
-![Enable Parent Light Example](https://imgur.com/vnxpPHU.gif)
+![Enable Parent Light Example](../../../.gitbook/assets/enable-parent-light.gif)
 
 ## Gobo
 
@@ -64,14 +64,12 @@ Light cones are versatile, cheap to render billboard objects. Used to create fak
 Gobos are patterns projected from lights to give different lighting results. Examples being water caustics, faking shadows, or placing a Banished logo.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Gobo Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/gobo-settings-none.png" alt=""><figcaption><p>Gobo Properties</p></figcaption></figure>
 
 | Property Name    | Description                                                                                                                                                                                           |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gobo Information | There can only be a limit of 4 Unique gobos rendering at the same time. Duplicates work fine, but 5+ gobos in close proximity still rendering will cause the gobos to flicker or not render correctly |
 | Type             | Applies a stencil (pattern) projected from the light (Only works on "Spot" lights). (Reference Image Types of Gobos                                                                                   |
-
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Types of Gobos</p></figcaption></figure>
 
 ## OBB
 
@@ -79,7 +77,7 @@ Gobos are patterns projected from lights to give different lighting results. Exa
 OBB's (Oriented Bounding Box) are used Primarily as a performance tool, clamping light pixels to have more performant heatmaps (Use the Light/Shadow Heatmaps to see light pixel influence)
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>OBB Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/obb-settings.png" alt=""><figcaption><p>OBB Properties</p></figcaption></figure>
 
 | Property Name          | Description                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------ |
@@ -93,11 +91,11 @@ OBB's (Oriented Bounding Box) are used Primarily as a performance tool, clamping
 | Top                    | Moves the Bottom of the Volume                                                 |
 | Show                   | Always render OBB Volume                                                       |
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>OBB Adjusted</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/obb-adjusted.png" alt=""><figcaption><p>OBB Adjusted</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption><p>OBB Default</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/obb-default.png" alt=""><figcaption><p>OBB Default</p></figcaption></figure>
 
-![Debug On/Off](https://imgur.com/kZes1b8.gif)
+![Debug On/Off](../../../.gitbook/assets/debug-on-off.gif)
 
 #### Contributors
 

@@ -8,7 +8,7 @@ A manually placed Light probe volume. Within this volume will be air probes whic
 Only 1 can be manually placed
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Light Probe Marker Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-probe-volume-settings.png" alt=""><figcaption><p>Light Probe Marker Properties</p></figcaption></figure>
 
 | Property Name         | Description                                                                                                                                                                                                                                           |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

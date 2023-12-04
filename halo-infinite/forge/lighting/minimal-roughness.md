@@ -21,9 +21,7 @@ The Minimal Roughness tool is a valuable feature used to enhance lighting effect
 
 ### Observations:
 
-Higher values of minimal roughness (approaching 1) can result in a flat appearance in materials, especially noticeable on metallic surfaces. To preserve material details, it is advisable to use low values or none at all.\
-\
-
+Higher values of minimal roughness (approaching 1) can result in a flat appearance in materials, especially noticeable on metallic surfaces. To preserve material details, it is advisable to use low values or none at all.
 
 <figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -35,6 +33,6 @@ Characters, particularly those with metallic armors, are affected by minimal rou
 
 <figure><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Contributors** \
+**Contributors**\
 Tyler | Lighting Artist\
 Captain Punch

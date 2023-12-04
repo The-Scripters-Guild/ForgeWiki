@@ -37,7 +37,7 @@
     * [Level Bound Probes](halo-infinite/forge/lighting/level-bound-probes.md)
     * [Sunlight & Sun Direction](halo-infinite/forge/lighting/sunlight-and-sun-direction.md)
     * [Sky Rendering](halo-infinite/forge/lighting/sky-rendering.md)
-    * [Sky Light](halo-infinite/forge/lighting/sky-light.md)
+    * [Sunlight](halo-infinite/forge/lighting/sky-light.md)
     * [Light Bounce](halo-infinite/forge/lighting/light-bounce.md)
     * [Fog](halo-infinite/forge/lighting/fog.md)
     * [First Person Contact Shadows](halo-infinite/forge/lighting/first-person-contact-shadows.md)

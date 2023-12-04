@@ -20,10 +20,10 @@ While First Person Contact Shadows primarily contribute to visual fidelity, they
 
 One of the notable advantages of First Person Contact Shadows is their independent applicability. They can be added separately from other shadows, offering a flexible approach to detailing. This flexibility proves useful in situations where allocating resources for a full shadow might be impractical or when designers aim to enhance specific details without compromising overall performance.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>No shadows.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/first-person-contact-shadows-2.png" alt=""><figcaption><p>No shadows.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-1.png" alt=""><figcaption><p>Shadows.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/first-person-contact-shadows-1.png" alt=""><figcaption><p>Shadows.</p></figcaption></figure>
 
-**Contributors** \
+**Contributors**\
 Tyler | Lighting Artist\
 Captain Punch

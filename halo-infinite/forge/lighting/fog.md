@@ -2,7 +2,7 @@
 
 ## Atmospheric Fog
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Atmospheric Fog Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/atmospheric-fog-settings.png" alt=""><figcaption><p>Atmospheric Fog Properties</p></figcaption></figure>
 
 | Property Name          | Description                                                                                                       |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -15,11 +15,11 @@
 | Inscattering           | The amount of light that scatters throughout the atmosphere (Reference Image Inscattering)                        |
 | Fake Inscattering Tint | Sets a false color scatter thorough the atmosphere \| Inscattering must be under 1 (Reference Image Inscattering) |
 
-![Inscattering](https://imgur.com/EDpxCNh.gif)
+![Inscattering](../../../.gitbook/assets/inscattering.gif)
 
 ## Volumetric Fog
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Volumetric Fog Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/volumetric-fog-settings.png" alt=""><figcaption><p>Volumetric Fog Properties</p></figcaption></figure>
 
 {% hint style="info" %}
 Volumetric Fog simulates a 3D fog that can be used to create light rays, take in color from lights, or provide a general haze around world.
@@ -32,8 +32,6 @@ Volumetric Fog simulates a 3D fog that can be used to create light rays, take in
 | Enabled       | Toggles volumetric fog On/Off                               |
 | Far Range     | Distance from player when volumetric fog "Stops" rendering  |
 | Near Range    | Distance from player when volumetric fog "Starts" to render |
-
-
 
 ## Fog Intensity
 
@@ -52,11 +50,11 @@ Additionally, understanding the concept of near and far ranges is essential:
 
 By manipulating Fog Intensity, creators can craft visually compelling environments with precisely tailored fog effects, enhancing the overall atmosphere of their scenes
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fog-intensity-0.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fog-intensity-10.png" alt=""><figcaption></figcaption></figure>
 
-**Contributors** \
+**Contributors**\
 Tyler | Lighting Artist\
 Captain Punch\
-Nitro\
+Nitro\\

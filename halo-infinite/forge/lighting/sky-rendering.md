@@ -2,7 +2,7 @@
 
 ## Sky Rendering
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Sky Rendering Properties</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sky-rendering-settings.png" alt=""><figcaption><p>Sky Rendering Properties</p></figcaption></figure>
 
 {% hint style="info" %}
 Sky rendering is how we are able to adjust our skyboxes in Forge. Simulating Night time, Noon, or a bright pink sky with a purple sun. Using the color palette and sun positioning a variety of skybox atmospheres made.
@@ -17,7 +17,7 @@ Sky rendering is how we are able to adjust our skyboxes in Forge. Simulating Nig
 | Sun Tint           | Sets the color of the sun. Change Sunlight Color Override to set the color of the sunlight. (Reference image Sky Rendering) |
 | Sun Tint Intensity | How intense the sun color is                                                                                                |
 
-![Sky Rendering](https://imgur.com/itO9Wuc.gif)
+![Sky Rendering](../../../.gitbook/assets/sky-rendering.gif)
 
 #### Contributors
 

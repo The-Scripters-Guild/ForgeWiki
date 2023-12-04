@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/wide tsg logo white no background no drop shadow small.png
+cover: .gitbook/assets/banner-tsg-logo-no-background.png
 coverY: 0
 layout:
   cover:

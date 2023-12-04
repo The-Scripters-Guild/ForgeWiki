@@ -8,6 +8,6 @@ This effect can be seen not only in the volumetric fog color but also in the col
 
 It is important to note that this effect is most noticeable when lights are placed in fog, and can make them hard to look directly at or create harsh lines in the distance. However, by adjusting the volumetric fog color and light colors, these issues can be mitigated to create a more visually pleasing experience for players.
 
-Image https://media.discordapp.net/attachments/1043795256568729681/1043795257118179399/20221119171754\_1.jpg?width=720\&height=405
+<figure><img src="../../../.gitbook/assets/volumetric-fog-light-cones-1.jpg" alt=""><figcaption></figcaption></figure>
 
-Image https://cdn.discordapp.com/attachments/1043795256568729681/1043795257357242378/20221119171807\_1.jpg
+<figure><img src="../../../.gitbook/assets/volumetric-fog-light-cones-2.jpg" alt=""><figcaption></figcaption></figure>
