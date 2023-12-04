@@ -15,7 +15,7 @@
 
 ## Halo Infinite
 
-* [Forge](halo-infinite/Forge/README.md)
+* [Forge](halo-infinite/forge/README.md)
   * [AI & Bots](halo-infinite/Forge/ai-and-bots.md)
   * [UI & Controls](halo-infinite/forge/ui-and-controls/README.md)
     * [Control Schemes](halo-infinite/forge/ui-and-controls/control-schemes.md)
@@ -48,7 +48,7 @@
     * [Tool Settings](halo-infinite/forge/lighting/tool-settings.md)
   * [Strings](halo-infinite/forge/strings.md)
   * [Labels & Spawn Order](halo-infinite/forge/labels-and-spawn-order.md)
-* [Scripting](halo-infinite/Scripting/README.md)
+* [Scripting](halo-infinite/scripting/README.md)
   * [🔰 Getting Started](halo-infinite/Scripting/getting-started.md)
   * [Node Graph Properties](halo-infinite/scripting/node-graph-properties.md)
   * [Area Monitors](halo-infinite/scripting/area-monitors.md)
@@ -133,7 +133,7 @@
   * [Variables](halo-infinite/scripting/variables/README.md)
     * [Object Lists](halo-infinite/scripting/variables/object-lists.md)
     * [Understanding Scope](halo-infinite/scripting/variables/understanding-scope.md)
-* [Sandbox](halo-infinite/Sandbox/README.md)
+* [Sandbox](halo-infinite/sandbox/README.md)
   * [Movement & Player Character Information](halo-infinite/sandbox/movement-and-player-character-information.md)
   * [Weapons](halo-infinite/sandbox/weapons/README.md)
     * [Base Weapons](halo-infinite/sandbox/weapons/base-weapons.md)
