@@ -14,22 +14,22 @@ Near/Far Begin is a versatile optimization tool used in lighting to enhance visu
 3. _Optimizations:_ Applying Near/Far Begin settings to all lights can significantly optimize rendering. By excluding the top portions of spotlights from calculations, fewer pixels are processed, enhancing overall performance. Utilizing this optimization across all lights collectively improves performance, contributing to a more efficient rendering pipeline.
 4. _Organic Maps:_ In organic environments like caves, where curved surfaces complicate the use of Oriented Bounding Boxes (OBBs), Near/Far Begin settings prove invaluable. These parameters minimize overlap and optimize lighting calculations in intricate, curved spaces, ensuring a visually appealing result without sacrificing performance.
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/point-spot-6.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/point-spot-1.png" alt=""><figcaption></figcaption></figure>
 
 Here is an example of default lights and their heatmaps. Notice how the more pixels are being affected near the source of the lights.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/point-spot-5.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-1 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/point-spot-2.png" alt=""><figcaption></figcaption></figure>
 
 And lastly here is an example of Far begin, Where is softens the edges but it doesn't contribute to cutting off Pixels. Only Near begin does that.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/point-spot-4.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-1 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/point-spot-3.png" alt=""><figcaption></figcaption></figure>
 
-**Contributors** \
+**Contributors**\
 Tyler | Lighting Artist\
 Captain Punch

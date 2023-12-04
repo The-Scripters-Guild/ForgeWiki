@@ -4,7 +4,7 @@ _The goal of this write up is to address common misconceptions and try to help f
 
 **First Scenario** So you are creating your first script and you are trying to add to a number every time a player is killed, this is the script you have so far. You are declaring a local Scope Number variable with an initial value of 0. You are then Getting that Number and adding 1 to it, and printing that to the Killfeed.
 
-Image https://cdn.discordapp.com/attachments/1050097501178433637/1050097501375582238/image.png
+<figure><img src="../../../.gitbook/assets/mutate-vs-non-mutate-1.png" alt=""><figcaption></figcaption></figure>
 
 If you are familiar with programming, this might intuitively look like this:
 
@@ -29,7 +29,7 @@ So how would we add/subtract etc. to a variable in a way that is saved?
 
 It seems counter intuitive at first, but you need to Set that variable to a new value, and for that value to be the variable's value + 1.
 
-Image https://cdn.discordapp.com/attachments/1050097501178433637/1050098391281053736/image.png
+<figure><img src="../../../.gitbook/assets/mutate-vs-non-mutate.png" alt=""><figcaption></figcaption></figure>
 
 Now we have a new problem, we go to test the script and it is logging 2 the first time a player is killed, what's happening?
 
@@ -39,7 +39,7 @@ The above script is adding 1 to 0, then setting the number variable to that oper
 
 When Get Number Variable is called, it provides the current value of that variable. This means that even though we are connecting multiple nodes to it, each node will receive the current value of that variable at the time that node is executed. Since execution is sequential, you can trust that it will always provide an accurate output. In this example, it will always print the number variable's value after we have added 1.
 
-Image https://cdn.discordapp.com/attachments/1050097501178433637/1050101065938378793/image.png
+<figure><img src="../../../.gitbook/assets/mutate-vs-non-mutate-3.png" alt=""><figcaption></figcaption></figure>
 
 This is an example of a non-mutating operation. Even though we are modifying the number variable, we are doing so explicitly via the Set Variable Type Nodes.
 
@@ -47,4 +47,5 @@ Math nodes like Add simply perform an operation based on it's inputs, and provid
 
 **Contributors**
 
-Captain Punch AgentZero
+Captain Punch\
+AgentZero

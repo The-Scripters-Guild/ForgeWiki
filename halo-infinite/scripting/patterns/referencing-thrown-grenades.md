@@ -10,7 +10,7 @@ This wiki entry explains how to get an object reference for a thrown grenade and
 4. **Detect the most recent grenade:** To find the most recent grenade, get the objects from the Area Monitor and select the last object in the list.
 
 #### Contributors
-Captain Punch
-Cookies
-AgentZero
 
+Captain Punch \
+Cookies \
+AgentZero

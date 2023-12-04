@@ -18,16 +18,16 @@ description: Properly setup your Forge map that supports Bot gameplay.
 If your forge map does not use the natural terrain of the forge canvas or if the base flooring is combination of natural terrain and forge pieces, placing a Nav Seed Point helps with Bots being playable on your forge map.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/nav-seed-point.png" alt=""><figcaption></figcaption></figure>
 
 #### Open the Build Menu and build Nav Mesh
 
 * To get to the Build Menu, hold the **Y** button on the controller to access the Tools Menu and move the thumbstick to the right and select **Build Menu**
 * Navigate down the list of build options, highlight **Nav Mesh** and then select **Build Selected** to build the Nav Mesh on the forge map.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/radial-build-menu.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/build-menu-nav-mesh.png" alt=""><figcaption></figcaption></figure>
 
 #### Turn on Nav Mesh Visualization
 
@@ -40,9 +40,9 @@ If you cannot see the Nav Mesh on your map, make sure your crosshairs are pointe
 If you still can't see the Nav Mesh, validate the Nav Seed Point is placed on the ground and rebuild the Nav Mesh data.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/tool-settings-nav-mesh-visualization.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/nav-mesh-visualization.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Validate Bot gameplay after initial Nav Mesh build, this is a good time to verify the all areas are fully populated for Bot movements.
@@ -52,19 +52,19 @@ Validate Bot gameplay after initial Nav Mesh build, this is a good time to verif
 
 * Placing another Nav Seed Point will help Bots to identify all intended playable spaces.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/nav-mesh-visualization-jump-hints.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/nav-seed-point-2.png" alt=""><figcaption></figcaption></figure>
 
 #### Using Jump Hints to help Bot traversal movements
 
 * If the intended jump hint was not built properly with the default Nav Mesh build, you can place either a Jump Hint One Way or Jump Hint Two Way to help Bots understand the intended jump spaces.
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/bot-movement-2-way-2.png" alt=""><figcaption></figcaption></figure>
 
 * When placing a Jump Hint, make sure the bottom corners of the volume are merged into the geo for the Jump Hint to populate properly.
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/bot-movement-2-way.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Bots have a max jump height, so validate the jump hint is not too high or too far of a jump for the bot.
@@ -73,18 +73,15 @@ Bots have a max jump height, so validate the jump hint is not too high or too fa
 #### Place and Name Bot Nav Markers for setting up neighbor options - Workflow Enhancement
 
 * Place Bot Nav Markers around the map on points of interests
-
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
 * Name each explore point uniquely so it's easier to find within the folders and when setting up the neighbor options for a better workflow experience.
   * If setting up each explore point uniquely isn't the best workflow for you, you can still use the default **Bot Nav Marker** and add a unique description to the location for identifiable reasons
 * Another approach is by creating a separate folder in your 'Forge Menu - Folders', name the folder as **Nav Markers** and set that folder as your working folder.
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rename-object-bot-nav.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/folders-menu.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/set-as-working-folder.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When you're completed placing Nav Markers, to change your working folder so that you are not spawning unwanted objects in the incorrect folder.
@@ -106,11 +103,11 @@ Once all the Nav markers have been properly placed and labeled, Neighbor Option 
 
 In the example below, you'll notice theres a Nav Marker location labeled the "Pit" set up as a point of interest for neighbors bots to explore next. Bots do not travel in a 'straight line' from one location to the next, the lines are just representative of the area the bots will explore next.
 
-<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/bot-nav-markers-mesh-diagram.png" alt=""><figcaption></figcaption></figure>
 
 In a real map you will need to have more than just four Nav Markers set up and you will need to set up them up like intersections for roadway.
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/bot-nav-markers-example-mesh.png" alt=""><figcaption></figcaption></figure>
 
 ### Other Notes
 

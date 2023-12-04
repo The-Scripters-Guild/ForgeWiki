@@ -19,18 +19,16 @@ Oriented Bounding Box, commonly referred to as OBB, is a crucial feature in ligh
 1. _Optimizations:_ OBB plays a pivotal role in optimizing the lighting pass. By precisely defining the affected area, unnecessary computations are minimized, leading to substantial performance improvements while preserving the desired visual outcome.
 2. _Fog-Only Lights:_ For scenarios requiring fog-only illumination (with volumetric fog enabled), configuring the light's OBB with minimal parameters (e.g., -.1 and .1) restricts the light emission to a confined area, generating fog without casting extensive illumination. This method optimizes volumetric fog usage efficiently.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/obb-rotation-2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-1 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/obb-rotation.png" alt=""><figcaption></figcaption></figure>
 
-**Issues:**&#x20;
+**Issues:**
 
 This does create a harsh seam where you clamp the OBB. This can be seen in the environment and characters.Try to avoid this as best as possible and put the seam on edges or seams to be less noticeable.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/obb-rotation-3.png" alt=""><figcaption></figcaption></figure>
 
-
-
-**Contributors** \
+**Contributors**\
 Tyler | Lighting Artist\
 Captain Punch

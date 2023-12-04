@@ -26,7 +26,7 @@ if (VectorLength > SphereRadius) {
 
 Here's an example of how you might implement this in a node graph. You'll need to adjust `Operand B` to control the size of the boundary, and adjust the `Timer Delay` to control how often the boundary check runs.
 
-https://media.discordapp.net/attachments/1041350507568042135/1041350507672907919/414991d1-60fd-463f-b1fe-c52b311b603a.png?width=718\&height=404
+<figure><img src="../../../.gitbook/assets/spherical-boundary.png" alt=""><figcaption></figcaption></figure>
 
 ### Optimization
 

@@ -12,4 +12,5 @@ To create smooth transition shots, it is important to physically place, orient, 
 
 **Contributors**
 
-b0b is here Captain Punch
+b0b is here\
+Captain Punch

@@ -4,7 +4,7 @@ This wiki entry explains how to hide objects in the forge menu during navmesh ge
 
 ### Using Folders to Hide Objects
 
-https://cdn.discordapp.com/attachments/965692388163092490/1096516257077006506/Halo\_Infinite\_2023-04-14\_15-22-12.mp4
+<figure><img src="../../../../.gitbook/assets/hiding-objects-for-nav-mesh-generation.gif" alt=""><figcaption></figcaption></figure>
 
 1. Access the "Folders" section in the forge menu, which contains a list of every placed object on your map.
 2. Create subfolders for specific object categories (e.g., Foliage, Blockers).

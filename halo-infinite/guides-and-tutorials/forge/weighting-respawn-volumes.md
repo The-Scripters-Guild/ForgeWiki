@@ -11,7 +11,7 @@ description: >-
 
 * Spawn Volume Respawn
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Spawn Volume (Respawn)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/spawn-volume.png" alt=""><figcaption><p>Spawn Volume (Respawn)</p></figcaption></figure>
 
 ### Non-Weighted Respawn Volumes
 
@@ -31,7 +31,7 @@ Select the desired team (**Eagle** or **Cobra**) just below the boundary setting
 * Disable spawn points: **ON**
 * Affects opposing team: **ON**
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Non-Weighted Respawn Volume</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ctf-3.png" alt=""><figcaption><p>Non-Weighted Respawn Volume</p></figcaption></figure>
 
 ### Weighted Respawn Volumes
 
@@ -39,9 +39,9 @@ Weighted respawn volumes can be useful for multiple reasons, mainly to help play
 
 Since this example of the Spawn Volume Respawn is being setup for Capture the Flag game mode, the **Include CTF** label must be set on the object.
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Weighted Respawn Volume</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ctf-2.png" alt=""><figcaption><p>Weighted Respawn Volume</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Weighted Respawn Volumes Overview</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/spawn-volumes-1.png" alt=""><figcaption><p>Weighted Respawn Volumes Overview</p></figcaption></figure>
 
 ### Label Set up
 
@@ -50,8 +50,8 @@ Note: For example if you leave this blank you and decide to play slayer, Team si
 
 ### Designated Team
 
-What this will do is will disable any spawn from any other teams expect the destinated team that was set up above.
+What this will do is will disable any spawn from any other teams expect the designated team that was set up above.
 
-Why we set up the weight to be 0 so the volume doesn’t create any positive weighting for these zones the next section will set up weighted volumes. So its best to sperate Team designated volumes from weighted volumes to give the user better control over how their map behaves.
+Why we set up the weight to be 0 so the volume doesn’t create any positive weighting for these zones the next section will set up weighted volumes. So its best to separate Team designated volumes from weighted volumes to give the user better control over how their map behaves.
 
 After these are set up Feel free to scale the size and placement of the volume to your desire on how you want your map to play. Usually you will just want to cover the designated team side of the map. You can create over lap but this will make it so no one will spawn in this location. Flip side if you decide not to create over lap you will create a neutral location where both teams can spawn.

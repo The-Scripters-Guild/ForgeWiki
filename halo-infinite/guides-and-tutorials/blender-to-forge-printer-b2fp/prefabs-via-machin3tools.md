@@ -16,7 +16,7 @@ This guide is extremely helpful if you have a lot of object groups that need to 
 
 Don't try to use Rotation Snaps with these groups, just rotate them into place manually. Blender gets very weird/inconsistent/broken when trying to resolve rotation snap math when the parent object is an Empty.
 
-[![](https://github.com/The-Scripters-Guild/ForgeWiki/raw/46c19a2f3bbbaa69df6f96bdbe09493e8ee6fc4e/.gitbook/assets/image.png)](https://github.com/The-Scripters-Guild/ForgeWiki/blob/46c19a2f3bbbaa69df6f96bdbe09493e8ee6fc4e/.gitbook/assets/image.png)
+<figure><img src="../../../.gitbook/assets/MACHIN3tools-1.png" alt=""><figcaption></figcaption></figure>
 
 Source: [https://projects.blender.org/blender/blender/issues/99279](https://projects.blender.org/blender/blender/issues/99279)
 

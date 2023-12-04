@@ -16,4 +16,6 @@ Note that this method is considered an exploit.
 
 **Contributors**
 
-Captain Punch All Seeing Sage Mathad0115
+Captain Punch\
+All Seeing Sage \
+Mathad0115

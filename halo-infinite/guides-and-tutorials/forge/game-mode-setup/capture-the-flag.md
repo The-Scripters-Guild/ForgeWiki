@@ -22,7 +22,7 @@ Flag Spawn and Flag Delivery Plate can be found in the Object Browser.
 Object Browser > Gameplay > Game Modes
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Capture the Flag Setup Overview</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/ctf-1.png" alt=""><figcaption><p>Capture the Flag Setup Overview</p></figcaption></figure>
 
 ### Game Mode Knowledge and Understanding
 
