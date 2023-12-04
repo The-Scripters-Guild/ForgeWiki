@@ -1,2 +1,0 @@
-# EVENTS PLAYERS
-
