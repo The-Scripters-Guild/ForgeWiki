@@ -12,7 +12,6 @@
 * [Guides & Tutorials](general/guides-and-tutorials/README.md)
   * [Level Design](general/guides-and-tutorials/level-design/README.md)
     * [A Chunk's Guide to Level Design](general/guides-and-tutorials/level-design/a-chunks-guide-to-level-design.md)
-* [test](general/test.md)
 
 ## Halo Infinite
 
@@ -55,7 +54,7 @@
   * [Area Monitors](halo-infinite/scripting/area-monitors.md)
   * [Equipment](halo-infinite/Scripting/Equipment/README.md)
     * [Cancelling Custom Equipment Animation](halo-infinite/scripting/equipment/cancelling-custom-equipment-animation.md)
-  * [Nodes](halo-infinite/Scripting/Nodes/README.md)
+  * [Nodes](halo-infinite/scripting/nodes/README.md)
     * [Connection Pins](halo-infinite/Scripting/Nodes/connection-pins/README.md)
       * [Datatypes](halo-infinite/Scripting/Nodes/connection-pins/datatypes/README.md)
         * [Main Datatypes](halo-infinite/Scripting/Nodes/connection-pins/datatypes/main-datatypes.md)
@@ -111,7 +110,7 @@
         * [Math Nodes](halo-infinite/Scripting/Nodes/node-data/pin-data-reference/math-nodes.md)
         * [Trait Nodes](halo-infinite/Scripting/Nodes/node-data/pin-data-reference/trait-nodes.md)
         * [Unit Nodes](halo-infinite/Scripting/Nodes/node-data/pin-data-reference/unit-nodes.md)
-  * [Patterns](halo-infinite/Scripting/Patterns/README.md)
+  * [Patterns](halo-infinite/scripting/patterns/README.md)
     * [Checking Object Types](halo-infinite/Scripting/Patterns/patterns-checking-object-types.md)
     * [Deleting Dropped Weapons Using Scripts](halo-infinite/scripting/patterns/deleting-dropped-weapons-using-scripts.md)
     * [For N Iterations Stack](halo-infinite/scripting/patterns/for-n-iterations-stack.md)
@@ -129,7 +128,7 @@
   * [Traits - Players](halo-infinite/scripting/traits-players/README.md)
     * [Shields](halo-infinite/scripting/traits-players/shields.md)
     * [Traits](halo-infinite/scripting/traits-players/traits.md)
-  * [Transforms](halo-infinite/Scripting/Transforms/README.md)
+  * [Transforms](halo-infinite/scripting/transforms/README.md)
     * [Object Forward and Up Vectors](halo-infinite/scripting/transforms/object-forward-and-up-vectors.md)
   * [Variables](halo-infinite/scripting/variables/README.md)
     * [Object Lists](halo-infinite/scripting/variables/object-lists.md)

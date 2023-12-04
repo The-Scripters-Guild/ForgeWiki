@@ -25,8 +25,8 @@ In Forge, there are multiple 'modes' that can be accessed. By default, the user 
 
 ## Articles to Read:
 
-{% content-ref url="Nodes/" %}
-[Nodes](Nodes/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="Nodes/connection-pins/" %}
