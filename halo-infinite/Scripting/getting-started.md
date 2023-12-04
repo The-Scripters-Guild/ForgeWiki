@@ -33,8 +33,8 @@ In Forge, there are multiple 'modes' that can be accessed. By default, the user 
 [connection-pins](Nodes/connection-pins/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../scripting/variables/" %}
+[variables](../scripting/variables/)
 {% endcontent-ref %}
 
 ## Quick-Start Tutorials:
