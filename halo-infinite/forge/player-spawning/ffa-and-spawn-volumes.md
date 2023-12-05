@@ -1,7 +1,5 @@
 # FFA & Spawn Volumes
 
-### Heads-up for FFA Slayer Respawn
-
 Implementing FFA Slayer respawns on maps that disallow spawn flipping in Slayer gametypes (designated with an Include Slayer label on spawn volumes with Affects Opposing Team & Disable Spawn Points set to "On") can be negatively affected by Spawn Volumes.
 
 ### Solution: 'Exclude FFA All' Label
