@@ -29,12 +29,12 @@ In Forge, there are multiple 'modes' that can be accessed. By default, the user 
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="Nodes/connection-pins/" %}
-[connection-pins](Nodes/connection-pins/)
+{% content-ref url="nodes/connection-pins/" %}
+[connection-pins](nodes/connection-pins/)
 {% endcontent-ref %}
 
-{% content-ref url="../scripting/variables/" %}
-[variables](../scripting/variables/)
+{% content-ref url="variables/" %}
+[variables](variables/)
 {% endcontent-ref %}
 
 ## Quick-Start Tutorials:

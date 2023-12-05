@@ -31,8 +31,8 @@ Keep in mind, this is an entirely volunteer effort and all information here is p
 
 While there aren't any quick-start guides to Forge on the wiki (yet), the [🔰](https://emojipedia.org/japanese-symbol-for-beginner) Getting Started page is a great place to go to get enough of a foundation with scripting in Halo Infinite that, after reading The Basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error.&#x20;
 
-{% content-ref url="halo-infinite/Scripting/getting-started.md" %}
-[getting-started.md](halo-infinite/Scripting/getting-started.md)
+{% content-ref url="halo-infinite/newscripting/getting-started.md" %}
+[getting-started.md](halo-infinite/newscripting/getting-started.md)
 {% endcontent-ref %}
 
 ## I can't find the information I need here on the wiki.
