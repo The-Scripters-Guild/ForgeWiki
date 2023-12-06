@@ -20,11 +20,13 @@ By default, the mode is set up with predetermined squad definitions and the over
 
 </div>
 
-These settings can be changed to make the mode pull lists from the Mode Options, or from the level itself.&#x20;
+These settings can be changed to make the mode pull lists from the Mode Options, or from the level itself. By default, the mode will override the settings on spawners placed on the level and use a configuration that we cannot see nor edit provided by 343 as the stock behavior of the mode.
 
 The stock mode options provides a robust experience with a variety of enemies preselected. You can still control the flow of combat by deciding \*when\* specific spawners would be used (using the Subgroup Index setting), and it doesn't require configuring spawners with enemies.
 
-Using the custom waves gives players easy ways to create modes like Gruntpocalypse and expect to be able to play them on any level that is properly configured for the base mode.
+Using the custom waves gives players easy ways to create modes like Gruntpocalypse and expect to be able to play them on any level that is properly configured for the base mode. To use the custom waves in the game mode settings, Override Map AI Placements must be set to `TRUE` and Override AI Placements Source must be set to `Custom`.\
+\
+To use the settings of spawners to decide which enemies to spawn, Override Map AI Placements simply needs to be set to `FALSE`.&#x20;
 
 ### Wave Config
 
