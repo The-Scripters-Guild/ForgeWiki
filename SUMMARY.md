@@ -158,6 +158,8 @@
 * [Guides & Tutorials](halo-infinite/guides-and-tutorials/README.md)
   * [Forge](halo-infinite/guides-and-tutorials/forge/README.md)
     * [Game Mode Setup](halo-infinite/guides-and-tutorials/forge/game-mode-setup/README.md)
+      * [Firefight KOTH](halo-infinite/guides-and-tutorials/forge/game-mode-setup/firefight-koth/README.md)
+        * [Mode Options](halo-infinite/guides-and-tutorials/forge/game-mode-setup/firefight-koth/mode-options.md)
       * [Capture The Flag](halo-infinite/guides-and-tutorials/forge/game-mode-setup/capture-the-flag.md)
     * [Handling issues with seemingly corrupt file versions](halo-infinite/guides-and-tutorials/forge/handling-issues-with-seemingly-corrupt-file-versions.md)
     * [Nav Mesh](halo-infinite/guides-and-tutorials/forge/nav-mesh/README.md)
