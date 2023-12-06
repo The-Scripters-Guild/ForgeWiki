@@ -71,12 +71,13 @@ Using the custom waves gives players easy ways to create modes like Gruntpocalyp
 
 * 5 KotH Capture Zones w/ Label `Firefight Objective`
   * Each one must have a unique Group Index, set from 1 to 5
-* 5 Zone Capture Plates w/ Label `Firefight Spawner`
+* 5 Zone Capture Plates w/ Label `Firefight Plate`
   * To affiliate one with a hill, just place it inside that hill's boundary
 * 5 AI Spawners set to Team 2 w/ Label `Firefight Spawner`
   * Generally you would want to have many more than 5
   * It will not matter what you set the enemies to on the spawner
   * There must be at least 1 each for Group Indexes 1-5
+  * Triggered By Script should be set to `ON`
 * 1 Weapon Pad or Rack\*
 * 1 Equipment Pad\*
 
