@@ -4,6 +4,8 @@ description: How to configure your own Firefight KOTH modes and levels.
 
 # Firefight KOTH
 
+<figure><img src="../../../../../.gitbook/assets/firefight-header.png" alt=""><figcaption></figcaption></figure>
+
 ## Mode Config
 
 By default, the mode is set up with predetermined squad definitions and the overrides to allow this built-in config are enabled.
