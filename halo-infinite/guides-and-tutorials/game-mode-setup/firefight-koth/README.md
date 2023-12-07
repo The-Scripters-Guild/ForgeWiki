@@ -4,7 +4,7 @@ description: How to configure your own Firefight KOTH modes and levels.
 
 # Firefight KOTH
 
-<figure><img src="../../../../../.gitbook/assets/firefight-header.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/firefight-header.png" alt=""><figcaption></figcaption></figure>
 
 ## Mode Config
 
@@ -12,11 +12,11 @@ By default, the mode is set up with predetermined squad definitions and the over
 
 <div>
 
-<figure><img src="../../../../../.gitbook/assets/firefight-override-map-ai-placements.png" alt=""><figcaption><p>Overriding the AI Spawners on the level is required for the Override AI Placements Source setting to matter.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/firefight-override-map-ai-placements.png" alt=""><figcaption><p>Overriding the AI Spawners on the level is required for the Override AI Placements Source setting to matter.</p></figcaption></figure>
 
  
 
-<figure><img src="../../../../../.gitbook/assets/firefight-override-ai-placement-source.png" alt=""><figcaption><p>This setting determines if the mode will use 343's preconfigured Firefight experience, or if it will override it.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/firefight-override-ai-placement-source.png" alt=""><figcaption><p>This setting determines if the mode will use 343's preconfigured Firefight experience, or if it will override it.</p></figcaption></figure>
 
 </div>
 
@@ -30,7 +30,7 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 
 ### Wave Config
 
-<figure><img src="../../../../../.gitbook/assets/Firefight - Wave Set Options.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Firefight - Wave Set Options.jpg" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -67,7 +67,7 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 
 </details>
 
-<figure><img src="../../../../../.gitbook/assets/Firefight - Custom Waves Options.jpg" alt=""><figcaption><p>Custom Waves can be set up with up to 5 unit types apiece. <br>All spawnable units are available to be selected.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Firefight - Custom Waves Options.jpg" alt=""><figcaption><p>Custom Waves can be set up with up to 5 unit types apiece. <br>All spawnable units are available to be selected.</p></figcaption></figure>
 
 ## Minimum Object Placements
 
@@ -96,15 +96,15 @@ Aside from setting up enemies for bespoke experiences, which is not required for
 
 Group Index determines which hill the spawner will be affiliated with, which allows players to curate where enemies are coming from for each hill. Each spawner can only have a single Group Index.
 
-<figure><img src="../../../../../.gitbook/assets/group-index-tooltip.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/group-index-tooltip.png" alt=""><figcaption></figcaption></figure>
 
 ### Subgroup Indexes
 
 Subgroup Indexes are different in that spawners can be assigned none or all of them. While Group Indexes determine which hill must be active for the spawner to be active, the Subgroup Index determines the juncture at which the spawner will be triggered during that phase.
 
-<figure><img src="../../../../../.gitbook/assets/subgroup-index-tooltip.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/subgroup-index-tooltip.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/spawner-group-subgroup-index.png" alt=""><figcaption><p>Group Index and Subgroup Index control when a spawner is called during play.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/spawner-group-subgroup-index.png" alt=""><figcaption><p>Group Index and Subgroup Index control when a spawner is called during play.</p></figcaption></figure>
 
 #### Subgroup Index 1
 
@@ -129,4 +129,5 @@ Live Fire and other small levels prepared by 343 only use Subgroup Index 1, 2, a
 **Contributors**\
 Captain Punch\
 Artifice\
-Green
+Green\
+JoValiant
