@@ -81,7 +81,6 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
   * It will not matter what you set the enemies to on the spawner
   * There must be at least 1 each for Group Indexes 1-5
   * Triggered By Script should be set to `ON`
-  * Magic Sight should be set to `ON`
 * 1 Weapon Pad or Rack\*\*
 * 1 Equipment Pad\*\*
 
@@ -118,6 +117,11 @@ Subgroup Indexes are different in that spawners can be assigned none or all of t
 #### Subgroup Index Boss
 
 * Triggered _once_, when the hill has reached 75% capture progress for the first time by Team 1.
+
+### Other Considerations
+
+\
+Magic Sight should be set to `ON` for spawners that you want to ensure find the players.
 
 Live Fire and other small levels prepared by 343 only use Subgroup Index 1, 2, and Boss, while Deadlock (a BTB level) uses 1-5 and Boss. Use the scale of these levels and how complexly their subgroup index config is done as your metric for how much depth is needed to prepare the mode on your levels.
 
