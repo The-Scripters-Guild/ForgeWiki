@@ -10,11 +10,11 @@ The script below provides an example for how to do this.
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/poll-health-1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/poll-health-1.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/poll-health-2.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/poll-health-2.jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 

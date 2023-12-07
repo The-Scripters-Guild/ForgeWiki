@@ -4,7 +4,7 @@
 
 A recursive function is one that triggers itself at the end of its process. This programming approach is beneficial for scenarios involving repetitive actions or conditions where a function needs to continuously monitor or adjust based on specific criteria.
 
-<figure><img src="../../../.gitbook/assets/recursive-loop.png" alt=""><figcaption><p>The most basic example of a Recursive Loop. Depending on your use case, the Wait may need to be before or after the Branch and there may need to be multiple Branches.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/recursive-loop.png" alt=""><figcaption><p>The most basic example of a Recursive Loop. Depending on your use case, the Wait may need to be before or after the Branch and there may need to be multiple Branches.</p></figcaption></figure>
 
 ### Example Use Case
 
