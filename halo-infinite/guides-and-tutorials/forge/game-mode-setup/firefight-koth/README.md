@@ -77,6 +77,7 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
   * To affiliate one with a hill, just place it inside that hill's boundary
 * 5 AI Spawners set to Team 2 w/ Label `Firefight Spawner`
   * Generally you would want to have many more than 5
+    * If you only have a single spawner per Group Index and have those spawners set to Subgroup Index 1 and Subgroup Index 2, they will only trigger as if they had Subgroup Index 1 set. Adding an additional spawner set to Subgroup Index 2, or setting the original spawner to Subgroup Index 3 as well, will solve this issue.
   * It will not matter what you set the enemies to on the spawner
   * There must be at least 1 each for Group Indexes 1-5
   * Triggered By Script should be set to `ON`
