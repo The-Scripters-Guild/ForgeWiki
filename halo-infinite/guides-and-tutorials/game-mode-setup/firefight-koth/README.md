@@ -71,7 +71,7 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 
 ## Minimum Object Placements
 
-* 5 KotH Capture Zones w/ Label `Firefight Objective`
+* 5 KotH Capture Zones w/ Label `Firefight Objective` and `Firefight KOTH Include`
   * Each one must have a unique Group Index, set from 1 to 5
 * 5 Zone Capture Plates\* w/ Label `Firefight Plate`
   * To affiliate one with a hill, just place it inside that hill's boundary
