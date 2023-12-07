@@ -126,6 +126,8 @@ Magic Sight should be set to `ON` for spawners that you want to ensure find the 
 
 Live Fire and other small levels prepared by 343 only use Subgroup Index 1, 2, and Boss, while Deadlock (a BTB level) uses 1-5 and Boss. Use the scale of these levels and how complexly their subgroup index config is done as your metric for how much depth is needed to prepare the mode on your levels.
 
+While 343-prepared Firefight levels seem to function just fine with only Subgroup Indexes 1, 2 and Boss set, this does not work when setting up the mode from scratch on your own levels. Subgroup Indexes 1, 2, and 3 must all be used at least once per Group Index for things to function properly.
+
 **Contributors**\
 Captain Punch\
 Artifice\
