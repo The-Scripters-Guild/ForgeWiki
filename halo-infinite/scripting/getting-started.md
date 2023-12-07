@@ -25,16 +25,36 @@ In Forge, there are multiple 'modes' that can be accessed. By default, the user 
 
 ## Articles to Read:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="nodes/" %}
+[nodes](nodes/)
 {% endcontent-ref %}
 
 {% content-ref url="nodes/connection-pins/" %}
 [connection-pins](nodes/connection-pins/)
 {% endcontent-ref %}
 
+{% content-ref url="nodes/connection-pins/datatypes/" %}
+[datatypes](nodes/connection-pins/datatypes/)
+{% endcontent-ref %}
+
+{% content-ref url="variables/object-lists.md" %}
+[object-lists.md](variables/object-lists.md)
+{% endcontent-ref %}
+
 {% content-ref url="variables/" %}
 [variables](variables/)
+{% endcontent-ref %}
+
+{% content-ref url="area-monitors.md" %}
+[area-monitors.md](area-monitors.md)
+{% endcontent-ref %}
+
+{% content-ref url="node-graph-properties.md" %}
+[node-graph-properties.md](node-graph-properties.md)
+{% endcontent-ref %}
+
+{% content-ref url="../reference-documents/reference-documents.md" %}
+[reference-documents.md](../reference-documents/reference-documents.md)
 {% endcontent-ref %}
 
 ## Quick-Start Tutorials:
