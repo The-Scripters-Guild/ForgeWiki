@@ -1,5 +1,6 @@
 # Table of contents
 
+* [the testing page](testpage.md)
 * [Landing Zone](README.md)
   * [Triage](README/triage.md)
 * [The Scripter's Guild](the-scripters-guild/README.md)
