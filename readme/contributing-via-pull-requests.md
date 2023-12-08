@@ -4,6 +4,12 @@ description: How to interact with the GitHub repo so that your pull requests mak
 
 # Contributing via Pull Requests
 
+## If you don't already understand Git
+
+Refer to this section on the Landing Zone page and submit via the Discord or Infodump Form:
+
+{% embed url="https://wiki.thescriptersguild.com/main/#how-do-i-contribute" %}
+
 ## Repo Link
 
 [https://github.com/The-Scripters-Guild/ForgeWiki](https://github.com/The-Scripters-Guild/ForgeWiki)
