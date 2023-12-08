@@ -2,6 +2,7 @@
 
 * [Landing Zone](README.md)
   * [Triage](README/triage.md)
+  * [Contributing via Pull Requests](readme/contributing-via-pull-requests.md)
 * [The Scripter's Guild](the-scripters-guild/README.md)
   * [TSG UGC Links](the-scripters-guild/tsg-ugc-links.md)
 * [👋 Click here to check out the 🔰 Getting Started section if you're new to Scripting!](https://wiki.thescriptersguild.com/main/halo-infinite/Scripting/getting-started)
