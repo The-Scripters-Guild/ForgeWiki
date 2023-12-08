@@ -156,7 +156,7 @@ Hills and Spawners are assigned to each set using the Group Index setting. For a
 ### Boss Wave
 
 * Once Team 1 has reached 75% capture progress, the Boss Wave triggers and no new reinforcements will be spawned for the current Set.
-  * Because this can happen right after reinforcements spawn, this can cause spawners to be used is quick succession. This can cause issues with phantom spawners and in tight spaces with regular spawners.
+  * Because this can happen right after reinforcements spawn, this can cause spawners to be used in quick succession. This can cause issues with phantom spawners and in tight spaces with regular spawners.
 * The boss enemy themselves will be prioritized to spawn from a phantom spawner if one is available and will use a random (properly configured for the current set) spawner if one is not.&#x20;
 * Spawners not used by the boss enemy during the boss wave will spawn support squads. Because of this, it is prudent to not spread these out too much, or the boss wave might be too easy.
 * Defeating the boss and their cadre does not automatically capture the hill, but it does put the hill in  an 'accelerated capture' state, where capture progress is considerably faster.
