@@ -177,4 +177,5 @@ While 343-prepared Firefight levels seem to function just fine with only Subgrou
 Captain Punch\
 Artifice\
 Green\
-JoValiant
+JoValiant\
+Connor Kennelly
