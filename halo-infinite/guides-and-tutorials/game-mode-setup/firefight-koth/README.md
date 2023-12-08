@@ -150,7 +150,7 @@ Hills and Spawners are assigned to each set using the Group Index setting. For a
 
 * Once about 2/3 of the Initial Guards have been defeated _and_ 5% capture progress has been achieved by Team 1, reinforcements will begin to spawn, starting with spawners set to Subgroup Index 2.
 * Similarly to how the initial guards are spawned, the mode will select up to 4 spawners to trigger.
-* As each set of reinforcements is defeated, the next assigned subgroup of spawners for that set will be triggered. When there are no more spawners assigned to higher subgroups, it will loop back around to checking for spawners assigned to Subgroup Index 2.&#x20;
+* As each group of reinforcements is defeated, the next assigned subgroup of spawners for that set will be triggered. When there are no more spawners assigned to higher subgroups, it will loop back around to checking for spawners assigned to Subgroup Index 2.&#x20;
   * If there are no spawners assigned for a given subgroup, that subgroup will be skipped.
 
 ### Boss Wave
