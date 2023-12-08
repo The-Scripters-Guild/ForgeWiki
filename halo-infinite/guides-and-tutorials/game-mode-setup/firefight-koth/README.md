@@ -99,6 +99,8 @@ Aside from applying the `Firefight Objective`  and `Firefight KOTH Include` labe
 
 ## Configuring Spawners
 
+WARNING: It appears that duplicating spawners can cause issues with their Group Index configuration. If you are having issues with your spawners you can't explain and you created them by duplicating other spawners, it may be as simple as replacing them with freshly placed spawners from the menu.
+
 Aside from setting up enemies for bespoke experiences, which is not required for stock Firefight KoTH, the important settings for Spawners are all in the Indexes section. To be clear, this means you only need to set up the enemies on the spawners themselves if you are using a variant of the mode that doesn't have Override Map AI Placements enabled.&#x20;
 
 ### Group Index
