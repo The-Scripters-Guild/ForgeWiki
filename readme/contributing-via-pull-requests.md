@@ -4,11 +4,15 @@ description: How to interact with the GitHub repo so that your pull requests mak
 
 # Contributing via Pull Requests
 
-## If you don't already understand Git
+## If you don't already understand Git/GitHub
 
 Refer to this section on the Landing Zone page and submit via the Discord or Infodump Form:
 
 {% embed url="https://wiki.thescriptersguild.com/main/#how-do-i-contribute" %}
+
+OR head to this GitHub documentation for how Pull Requests work:
+
+{% embed url="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" %}
 
 ## Repo Link
 
