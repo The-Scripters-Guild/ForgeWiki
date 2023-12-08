@@ -88,9 +88,18 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 \* _Not required for the mode to function, but required for full UX and for Matchmaking standards_\
 \*\* _Required because the "Weapon Drop" code can't run without them, which breaks the mode logic._
 
+## Configuring Hills
+
+Aside from applying the `Firefight Objective`  and `Firefight KOTH Include` labels, and setting the desired size of the boundary, each hill only needs the Group Index set. The Group Index is what determines the order of the hills as the game progresses.&#x20;
+
+* Group Index 1 will always be the first, as this allows you to curate the player's experience at spawn and create more consistent experiences, which can make or break someone's enjoyment when they play your content for the first time.
+* Group Indexes 2-10 will cycle randomly by default, but will progress in order if Sequential Sets is set to `TRUE` in the mode settings.
+  * If the hills are cycling randomly, they will only each be used once per cycle, after which they will all become eligible again for the next randomized cycle.
+  * Subgroups 6-10 are not relevant unless you are designing a modified version of Firefight KOTH, they are not needed for the base experience.
+
 ## Configuring Spawners
 
-Aside from setting up enemies for bespoke experiences, which is not required for stock Firefight KoTH, the important settings for Spawners are all in the Indexes section.&#x20;
+Aside from setting up enemies for bespoke experiences, which is not required for stock Firefight KoTH, the important settings for Spawners are all in the Indexes section. To be clear, this means you only need to set up the enemies on the spawners themselves if you are using a variant of the mode that doesn't have Override Map AI Placements enabled.&#x20;
 
 ### Group Index
 
@@ -122,10 +131,43 @@ Subgroup Indexes are different in that spawners can be assigned none or all of t
 * The named enemy (a.k.a. the boss) will always attempt to spawn in a phantom spawner if there is one assigned to this Subgroup Index.
 * Because Indexes 2-10 cycle and any of them could be active, or becoming active, when the boss wave triggers, it is important to have phantom spawners not be assigned to any of Subgroups 2-10 if they are assigned to the boss wave and to also make sure that phantom spawners assigned to the boss wave would not collide with phantoms from that hill's other spawners.
 
-### Other Considerations
+## Match Flow
+
+Each phase of play consists of a hill spawning in and being captured, followed by progression to the next phase. In the mode settings, these phases are referred to as 'Sets'.&#x20;
+
+Hills and Spawners are assigned to each set using the Group Index setting. For an unmodified Firefight KotH, only Group Indexes 1-5 are relevant, but 6-10 will also work if used and paired with a properly configured mode variant.
+
+### Set Start
+
+* Hill Incoming Nav appears
+* &#x20;"Initial Guards" spawn
+  * The mode selects up to 4 spawners with the current Set's Group Index that are assigned to Subgroup Index 1 and triggers them.
+  * Less than 4 spawners being available will still function, but will reduce the number of AI that spawn. Smaller levels, like Live Fire, only use 3 spawners for Subgroup Index 1 for each Set.
+
+### Reinforcements
+
+* Once about 2/3 of the Initial Guards have been defeated _and_ 5% capture progress has been achieved by Team 1, reinforcements will begin to spawn, starting with spawners set to Subgroup Index 2.
+* Similarly to how the initial guards are spawned, the mode will select up to 4 spawners to trigger.
+* As each set of reinforcements is defeated, the next assigned subgroup of spawners for that set will be triggered. When there are no more spawners assigned to higher subgroups, it will loop back around to checking for spawners assigned to Subgroup Index 2.&#x20;
+  * If there are no spawners assigned for a given subgroup, that subgroup will be skipped.
+
+### Boss Wave
+
+* Once Team 1 has reached 75% capture progress, the Boss Wave triggers and no new reinforcements will be spawned for the current Set.
+  * Because this can happen right after reinforcements spawn, this can cause spawners to be used is quick succession. This can cause issues with phantom spawners and in tight spaces with regular spawners.
+* The boss enemy themselves will be prioritized to spawn from a phantom spawner if one is available and will use a random (properly configured for the current set) spawner if one is not.&#x20;
+* Spawners not used by the boss enemy during the boss wave will spawn support squads. Because of this, it is prudent to not spread these out too much, or the boss wave might be too easy.
+* Defeating the boss and their cadre does not automatically capture the hill, but it does put the hill in  an 'accelerated capture' state, where capture progress is considerably faster.
+
+### Capture
+
+* Capturing the hill does not kill the boss and their cadre, leaving them for the player to deal with as they make their way to the next hill.
+* Once the hill has been captured, the next chosen Set is activated and its hill and initial guards are spawned in.
+
+## Other Considerations
 
 \
-Magic Sight should be set to `ON` for spawners that you want to ensure find the players.
+Magic Sight should be set to `ON` for spawners that produce AI you want to ensure find the players and should be left disabled for spawners that produce AI that you want players to encounter more organically, like snipers that need to not see players unless they step into designated danger zones.
 
 Live Fire and other small levels prepared by 343 only use Subgroup Index 1, 2, and Boss, while Deadlock (a BTB level) uses 1-5 and Boss. Use the scale of these levels and how complexly their subgroup index config is done as your metric for how much depth is needed to prepare the mode on your levels.
 
