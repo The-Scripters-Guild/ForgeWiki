@@ -114,10 +114,13 @@ Subgroup Indexes are different in that spawners can be assigned none or all of t
 
 * Triggered in sequence as the enemies from the prior spawn event are defeated, looping back to the start after all subgroups with members have been triggered.
 * This sequence ends with the hill has reached 5% capture progress and the boss wave is spawned.
+* NOTE: Subgroup 2 is currently bugged. It works, but not by itself. Subgroup 3 must also be used on at least one spawner per hill for Subgroup 2 to function during that hill's phase.
 
 #### Subgroup Index Boss
 
 * Triggered _once_, when the hill has reached 75% capture progress for the first time by Team 1.
+* The named enemy (a.k.a. the boss) will always attempt to spawn in a phantom spawner if there is one assigned to this Subgroup Index.
+* Because Indexes 2-10 cycle and any of them could be active, or becoming active, when the boss wave triggers, it is important to have phantom spawners not be assigned to any of Subgroups 2-10 if they are assigned to the boss wave and to also make sure that phantom spawners assigned to the boss wave would not collide with phantoms from that hill's other spawners.
 
 ### Other Considerations
 
