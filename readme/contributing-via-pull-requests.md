@@ -10,10 +10,6 @@ Refer to this section on the Landing Zone page and submit via the Discord or Inf
 
 {% embed url="https://wiki.thescriptersguild.com/main/#how-do-i-contribute" %}
 
-OR head to this GitHub documentation for how Pull Requests work:
-
-{% embed url="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" %}
-
 ## Repo Link
 
 [https://github.com/The-Scripters-Guild/ForgeWiki](https://github.com/The-Scripters-Guild/ForgeWiki)
@@ -52,7 +48,17 @@ Find the relevant location in the heirarchy and add an entry with the following 
 * [Page Name](folder-name/file-name.md)
 ```
 
-Make sure to indent properly so that everything works as intended.
+Make sure to indent properly so that everything works as intended.&#x20;
+
+### Commit Guidelines
+
+* Page names should be Title Case, this is achieved via the \[Page Name] in SUMMARY.md, rather than in the file for the page or its filename.&#x20;
+* Don't create blank pages, rather create an Issue on the repo describing the page and the addition you're planning to make.
+  * If you're trying to workshop content, do so on the Discord in the [Wiki Discussion](https://discord.com/channels/220766496635224065/1032391999740969011) forum.&#x20;
+* Images should be added to the assets folder of the repo and linked from there.&#x20;
+  * Image formats should be PNG, GIF, or JPG/JPEG whenever possible.
+  * Images should be named using kebab-case and be named semantically.
+* External media links should be avoided whenever possible.
 
 **Contributors**\
 Captain Punch
