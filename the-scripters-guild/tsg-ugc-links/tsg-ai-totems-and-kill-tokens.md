@@ -2,7 +2,6 @@
 description: >-
   Track information about AI units and reference it after death. Example code
   spawns tokens per enemy type at death location that players can pick up.
-  Switch cubes to no collision vehicle blockers to ma
 ---
 
 # tsg ai totems and kill tokens
