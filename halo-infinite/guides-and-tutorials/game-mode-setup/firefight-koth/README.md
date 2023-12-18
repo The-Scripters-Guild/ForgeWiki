@@ -76,7 +76,7 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 * 5 Zone Capture Plates\* w/ Label `Firefight Plate`
   * To affiliate one with a hill, just place it inside that hill's boundary
 * 5 AI Spawners set to Team 2 w/ Label `Firefight Spawner`
-  * If all of your spawners are only set to Subgroup Index 1 and/or Subgroup Index 2, only the spawners set to Subgroup Index 1 will trigger and they will only trigger as if they were set to Subgroup Index 1, even if they are also set to Subgroup Index 2
+  * If all of your spawners are only set to Subgroup Index 1 and/or Subgroup Index 2, only the spawners set to Subgroup Index 1 will trigger and they will only trigger as if they were set to Subgroup Index 1, even if they are also set to Subgroup Index 2\*\*\*
     * Setting any spawners to Subgroup Index 3 will solve this issue
   * It will not matter what you set the enemies to on the spawner
   * There must be at least 1 each for Group Indexes 1-5
@@ -86,16 +86,19 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 * 1 Equipment Pad\*\*
 
 \* _Not required for the mode to function, but required for full UX and for Matchmaking standards_\
-\*\* _Required because the "Weapon Drop" code can't run without them, which breaks the mode logic._
+\*\* _Required because the "Weapon Drop" code can't run without them, which breaks the mode logic._\
+_\*\*\* This is because there is currently an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10._
 
 ## Configuring Hills
 
 Aside from applying the `Firefight Objective`  and `Firefight KOTH Include` labels, and setting the desired size of the boundary, each hill only needs the Group Index set. The Group Index is what determines the order of the hills as the game progresses.&#x20;
 
-* Group Index 1 will always be the first, as this allows you to curate the player's experience at spawn and create more consistent experiences, which can make or break someone's enjoyment when they play your content for the first time.
-* Group Indexes 2-10 will cycle randomly by default, but will progress in order if Sequential Sets is set to `TRUE` in the mode settings.
+* Group Index 1 will always be the first, as this allows you to curate the player's experience at spawn and create more consistent experiences, which can make or break someone's enjoyment when they play your content for the first time.\*
+* Group Indexes 2-10 will cycle randomly by default, but will progress in order if Sequential Sets is set to `TRUE` in the mode settings.\*
   * If the hills are cycling randomly, they will only each be used once per cycle, after which they will all become eligible again for the next randomized cycle.
   * Subgroups 6-10 are not relevant unless you are designing a modified version of Firefight KOTH, they are not needed for the base experience.
+
+\* _There is an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10. This should be expected to eventually be fixed._
 
 ## Configuring Spawners
 
@@ -117,15 +120,17 @@ Subgroup Indexes are different in that spawners can be assigned none or all of t
 
 <figure><img src="../../../../.gitbook/assets/spawner-group-subgroup-index.png" alt=""><figcaption><p>Group Index and Subgroup Index control when a spawner is called during play.</p></figcaption></figure>
 
-#### Subgroup Index 1
+#### Subgroup Index 1\*
 
 * Triggered _once_, when the hill is incoming.
 
-#### Subgroup Indexes 2-10
+#### Subgroup Indexes 2-10\*
 
 * Triggered in sequence as the enemies from the prior spawn event are defeated, looping back to the start after all subgroups with members have been triggered.
 * This sequence ends with the hill has reached 5% capture progress and the boss wave is spawned.
 * NOTE: Subgroup 2 is currently bugged. It works, but not by itself. Subgroup 3 must also be used on at least one spawner per hill for Subgroup 2 to function during that hill's phase.
+
+\* _There is an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10. This should be expected to eventually be fixed._
 
 #### Subgroup Index Boss
 
@@ -143,15 +148,19 @@ Hills and Spawners are assigned to each set using the Group Index setting. For a
 
 * Hill Incoming Nav appears
 * &#x20;"Initial Guards" spawn
-  * The mode selects up to 4 spawners with the current Set's Group Index that are assigned to Subgroup Index 1 and triggers them.
-  * Less than 4 spawners being available will still function, but will reduce the number of AI that spawn. Smaller levels, like Live Fire, only use 3 spawners for Subgroup Index 1 for each Set.
+  * The mode selects up to 4 spawners with the current Set's Group Index that are assigned to Subgroup Index 1 and triggers them.\*
+  * Less than 4 spawners being available will still function, but will reduce the number of AI that spawn. Smaller levels, like Live Fire, only use 3 spawners for Subgroup Index 1 for each Set.\*
+
+\* _There is an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10. This should be expected to eventually be fixed._
 
 ### Reinforcements
 
-* Once about 2/3 of the Initial Guards have been defeated _and_ 5% capture progress has been achieved by Team 1, reinforcements will begin to spawn, starting with spawners set to Subgroup Index 2.
+* Once about 2/3 of the Initial Guards have been defeated _and_ 5% capture progress has been achieved by Team 1, reinforcements will begin to spawn, starting with spawners set to Subgroup Index 2.\*
 * Similarly to how the initial guards are spawned, the mode will select up to 4 spawners to trigger.
-* As each group of reinforcements is defeated, the next assigned subgroup of spawners for that set will be triggered. When there are no more spawners assigned to higher subgroups, it will loop back around to checking for spawners assigned to Subgroup Index 2.&#x20;
+* As each group of reinforcements is defeated, the next assigned subgroup of spawners for that set will be triggered. When there are no more spawners assigned to higher subgroups, it will loop back around to checking for spawners assigned to Subgroup Index 2.\*
   * If there are no spawners assigned for a given subgroup, that subgroup will be skipped.
+
+\* _There is an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10. This should be expected to eventually be fixed._
 
 ### Boss Wave
 
@@ -173,7 +182,9 @@ Magic Sight should be set to `ON` for spawners that produce AI you want to ensur
 
 Live Fire and other small levels prepared by 343 only use Subgroup Index 1, 2, and Boss, while Deadlock (a BTB level) uses 1-5 and Boss. Use the scale of these levels and how complexly their subgroup index config is done as your metric for how much depth is needed to prepare the mode on your levels.
 
-While 343-prepared Firefight levels seem to function just fine with only Subgroup Indexes 1, 2 and Boss set, this does not work when setting up the mode from scratch on your own levels. Subgroup Indexes 1, 2, and 3 must all be used at least once per Group Index for things to function properly.
+While 343-prepared Firefight levels seem to function just fine with only Subgroup Indexes 1, 2 and Boss set, this does not work when setting up the mode from scratch on your own levels. Subgroup Indexes 1, 2, and 3 must all be used at least once per Group Index for things to function properly.\*
+
+\* _This is because there is an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10. This should be expected to eventually be fixed._
 
 **Contributors**\
 Captain Punch\
