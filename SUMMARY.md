@@ -6,7 +6,9 @@
 * [The Scripter's Guild](the-scripters-guild/README.md)
   * [Prefabs & Levels](the-scripters-guild/tsg-ugc-links/README.md)
     * [tsg init](the-scripters-guild/tsg-ugc-links/tsg-init.md)
-    * [tsg ai totems and kill tokens](the-scripters-guild/tsg-ugc-links/tsg-ai-totems-and-kill-tokens.md)
+    * [tsg ai totems and kill tokens](the-scripters-guild/
+    tsg-ugc-links/tsg-ai-totems-and-kill-tokens.md)
+    * [tsg navCutters](the-scripters-guild/tsg-ugc-links/tsg-navcutters.md)
 * [👋 Click here to check out the 🔰 Getting Started section if you're new to Scripting!](https://wiki.thescriptersguild.com/main/halo-infinite/Scripting/getting-started)
 
 ## General
