@@ -15,7 +15,7 @@ Despite the object being able to be selected from the Forge Menu, it is rumored 
 On each map there is at least one invisible Backup Spawn Point object which can't be seen, selected nor deleted by the player. These are placed by 343 to prevent the player or Forge monitor from not being able to spawn on the map after deleting every object on the map.
 
 <video width="" controls>
-  <source src="../../../.gitbook/assets/backup-spawns-spawning.mp4" type="video/mp4">
+  <source src="/.gitbook/assets/backup-spawns-spawning.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
 
@@ -226,7 +226,7 @@ Needs to be checked
 
  Players often run into an issue when generating Nav mesh where Nav mesh data is generating on the Forge canvas floor of their map for seemingly no reason. The cause for this comes from each invisible Backup Spawn Point acting as a <a href="/main/halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points" target="_Blank">Nav Mesh generation Root Point</a>.
 
- <figure><img src="../../../.gitbook/assets/nav-mesh-canvas-floor.jpg" alt="Image showing Nav data generating on the Arid canvas floor"><figcaption><p>Nav data generated on the Arid canvas floor with no objects on the map</p></figcaption></figure>
+ <figure><img src="/.gitbook/assets/nav-mesh-canvas-floor.jpg" alt="Image showing Nav data generating on the Arid canvas floor"><figcaption><p>Nav data generated on the Arid canvas floor with no objects on the map</p></figcaption></figure>
  
  As the lowest invisible Backup Spawn Points on each Forge canvas are at Z: 505, this means that the effective radius of these low Root Point objects can just about reach the Forge canvas floor in most areas due to the canvas floor not being perfectly flat at Z: 500, causing Nav mesh to spread from them.
 
@@ -235,7 +235,7 @@ Needs to be checked
 To overcome this issue, one must <a href="/main/halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points#blocking-root-points" target="_Blank">block the Root Points' effective radius</a> so they can't spread the Nav mesh data. A universal way is to add a Nav Cutter over each invisible Backup Spawn point.
  * A prefab consisting of 27 Nav Cutters at each location of the invisible Backup Spawn Points on the listed Forge canvases has been made by TSG community members to help players overcome this issue. Read more here: <a href="/main/the-scripters-guild/tsg-ugc-links/tsg-navcutters" target="_Blank">tsg navCutters</a>.
 
- <figure><img src="../../../.gitbook/assets/tsg-navcutters-boundaries.jpg" alt="Image showing boundaries of Nav Cutters at the locations of 27 invisible Backup Spawn Points"><figcaption><p>Nav Cutter boundaries at the locations of the 27 invisible Backup Spawn Points from the tsg navCutters prefab</p></figcaption></figure>
+ <figure><img src="/.gitbook/assets/tsg-navcutters-boundaries.jpg" alt="Image showing boundaries of Nav Cutters at the locations of 27 invisible Backup Spawn Points"><figcaption><p>Nav Cutter boundaries at the locations of the 27 invisible Backup Spawn Points from the tsg navCutters prefab</p></figcaption></figure>
 
 Another more budget-efficient way is to place one `Accents > Glass > Glass Transparent 10%` object at position: 0, 0, 504, scale: 2910, 2910, 7 (minimum X & Y, can be larger), rotation: 0, 0, 0. This will block all the 9 invisible Backup Spawn Points at Z: 505 so they can't spread the Nav mesh. This will also block players from spawning on those Backup Spawn Points as there is solid geometry blocking them.
 * This method is only viable on maps where the gameplay area does not utilize the Forge canvas floor in a way where having a large Glass object on it would hinter gameplay or the aesthetic of the map.
