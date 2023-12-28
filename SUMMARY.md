@@ -7,12 +7,14 @@
   * [Prefabs & Levels](the-scripters-guild/tsg-ugc-links/README.md)
     * [tsg init](the-scripters-guild/tsg-ugc-links/tsg-init.md)
     * [tsg ai totems and kill tokens](the-scripters-guild/tsg-ugc-links/tsg-ai-totems-and-kill-tokens.md)
+    * [tsg navCutters](the-scripters-guild/tsg-ugc-links/tsg-navcutters.md)
 * [👋 Click here to check out the 🔰 Getting Started section if you're new to Scripting!](https://wiki.thescriptersguild.com/main/halo-infinite/Scripting/getting-started)
 
 ## General
 
 * [Terms](general/terms-generic.md)
 * [Guides & Tutorials](general/guides-and-tutorials/README.md)
+  * [Article Template](general/guides-and-tutorials/article-template.md)
   * [Level Design](general/guides-and-tutorials/level-design/README.md)
     * [A Chunk's Guide to Level Design](general/guides-and-tutorials/level-design/a-chunks-guide-to-level-design.md)
 
@@ -182,6 +184,7 @@
     * ["Prefabs" via MACHIN3tools](halo-infinite/guides-and-tutorials/blender-to-forge-printer-b2fp/prefabs-via-machin3tools.md)
 * [Reference Documents](halo-infinite/reference-documents/README.md)
   * [Forge Data](halo-infinite/reference-documents/reference-documents.md)
+  * [Dev Map Respawn Point Amounts](halo-infinite/reference-documents/dev-respawn-point-amounts.md)
 
 ## Legacy Halo
 
