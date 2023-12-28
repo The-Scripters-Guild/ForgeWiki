@@ -12,10 +12,15 @@ This is a template article example to help contributors format their articles ea
 
 All titles made with the # leading like the example titles above will be shown in the "On this page" content table on the top right of the wiki article page to help quickly navigate the article.
 
-* Here is information about this topic explained in a easily understandable manner. Here is an example of <a href="/main/halo-infinite/forge/lighting/fog" target="_Blank">a hyperlink</a> that can be used to redirect the user to a different place.
+* Here is information about this topic explained in a easily understandable manner. Here is an example of <a href="/halo-infinite/forge/lighting/fog" target="_Blank">a hyperlink</a> that can be used to redirect the user to a different place.
     * Here is an indentation section.
 
 <figure><img src="/.gitbook/assets/template-image.jpg" alt="Image of a peculiar question mark (this text will show if the image can't load)"><figcaption><p>A white question mark on a grey background (a description of what is in the picture)</p></figcaption></figure>
+
+<video width="" controls>
+  <source src="/.gitbook/assets/backup-spawns-spawning.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 <hr>
 
@@ -97,6 +102,10 @@ Or HTML
 {% embed url="https://youtu.be/A4cyNZ35xEY" %}
 This is a tutorial video on getting started using the Blender2Forge Printer for Halo Infinite. (this text will show under the video embed)
 {% endembed %}
+
+### Google Doc embed
+
+{% embed url="https://docs.google.com/spreadsheets/d/1IjdYZVDX7YUFcsg0xcCBEzxoybJl_pYeA2hJ29OUb24" %}
 
 ### Info hint
 
