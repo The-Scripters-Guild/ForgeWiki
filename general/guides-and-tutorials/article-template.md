@@ -4,9 +4,9 @@ description: This article shows formatting examples for a TSG wiki entry.
 
 # Article template
 
-This is a template article example to help contributors format their articles easier and to show what kinds of formatting possibilities there are.
-
 ## Section title
+
+Text here for a section topic.
 
 ### Section sub-title
 
@@ -16,11 +16,6 @@ All titles made with the # leading like the example titles above will be shown i
     * Here is an indentation section.
 
 <figure><img src="/.gitbook/assets/template-image.jpg" alt="Image of a peculiar question mark (this text will show if the image can't load)"><figcaption><p>A white question mark on a grey background (a description of what is in the picture)</p></figcaption></figure>
-
-<video width="" controls>
-  <source src="/.gitbook/assets/backup-spawns-spawning.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
 <hr>
 
@@ -113,7 +108,9 @@ This is a tutorial video on getting started using the Blender2Forge Printer for 
 This is a transparent info box that can be used to convey highlight information like a clarification to the reader about a topic. The formatting of this info box won't preview properly in VS Code.
 {% endhint %}
 
-## Dropdown details
+## Dropdown details and links to other articles
+
+Dropdown
 
 <details>
 <summary>Wave Options</summary>
@@ -127,6 +124,16 @@ This is a transparent info box that can be used to convey highlight information 
 * Custom Wave G
 
 </details>
+
+Other article link boxes
+
+{% content-ref url="halo-infinite/scripting/getting-started.md" %}
+[getting-started.md](halo-infinite/scripting/getting-started.md)
+{% endcontent-ref %}
+
+{% content-ref url="readme/contributing-via-pull-requests.md" %}
+[contributing-via-pull-requests.md](readme/contributing-via-pull-requests.md)
+{% endcontent-ref %}
 
 ## Text formatting
 
