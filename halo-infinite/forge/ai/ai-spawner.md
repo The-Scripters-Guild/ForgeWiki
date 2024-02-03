@@ -52,3 +52,8 @@ preventing the AI units from entering gameplay.
 
 The spawner will produce a squad of AI units in place. This is comparable to the spawning of a player in how the units are 
 produced. If obstructed, a message is displayed to the killfeed ro inform the player that AI units were obstructed.
+
+### Scripting
+
+AI spawners are scriptable from with a script or mode brain. Stored within the spawner are squad definitions which can be 
+used to override the properties of another spawner.
