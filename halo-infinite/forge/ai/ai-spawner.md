@@ -65,7 +65,7 @@ If the volume of the object is obstructed, the configured squad is at risk of sp
 A variation of the spawner, this object allows players to configure vehicles driven by AI units. The species of the unit is 
 dependent on what type of vehicle is selected. If no unit is configured to drive a vehicle, the vehicle will spawn driverless.
 
-If the the volume of the object is obstructed, the configured vehicles are at risk of spawning inside of the obstructing objects.
+If the the volume of the object is obstructed, the configured vehicles are at risk of spawning inside of obstructing objects.
 
 ### Scripting
 
