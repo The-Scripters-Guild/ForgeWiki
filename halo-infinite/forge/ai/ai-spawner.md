@@ -50,3 +50,5 @@ preventing the AI units from entering gameplay.
 
 #### Spawner
 
+The spawner will produce a squad of AI units in place. This is comparable to the spawning of a player in how the units are 
+produced. If obstructed, a message is displayed to the killfeed ro inform the player that AI units were obstructed.
