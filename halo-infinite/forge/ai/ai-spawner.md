@@ -35,12 +35,14 @@ Setting the AI move zone to a zone a part of a chain of move zones will cause sp
 
 ### Spawner Types
 
-There are three Forge objects used to mark the spawn location of campaign AI. Each one differs in how it delivers the AI units to their spawn locations.
+There are three Forge objects used to mark the spawn location of campaign AI. Each one differs in how it delivers the AI units to their spawn locations. If the spawner boundry fails 
+to intersect the nav mesh, a message will be displayed in the feed to inform the player.
 
 #### Droppod
 
 The droppod spawner will produce a single AI unit at a time via a droppod from the sky. Once the AI unit has exited the pod, 
-it will overload and destroy itself.
+it will overload and destroy itself. If an object obstructs the entry path pf the droppod, it will phase through it and deliver
+the AI unit to where it intersects with the nav mesh.
 
 #### Phantom
 
@@ -48,10 +50,13 @@ The Phantom spawner will deploy a squad of AI Units from a Phantom dropship. Als
 equipped with weapons and vehicles. As the Phantom travels to the spawn location, it can be damaged and destroyed, 
 preventing the AI units from entering gameplay.
 
+Objects obstructing the Phantom drop off location or path can interfere with the spawn process so it is important to 
+verify that the dropship can reach its destination as expected.
+
 #### Spawner
 
 The spawner will produce a squad of AI units in place. This is comparable to the spawning of a player in how the units are 
-produced. If obstructed, a message is displayed to the killfeed ro inform the player that AI units were obstructed.
+produced. If the volume of the object is obstructed, the AI unit(s) are at risk of spawning inside the obstructing object.
 
 ### Scripting
 
