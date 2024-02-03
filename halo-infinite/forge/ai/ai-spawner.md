@@ -7,7 +7,9 @@ AI Spawners are used to spawn campaign AI units. In order for the AI units to sp
 AI units produced by spawners are logically and behaviorally grouped together by the engine into collections known as squads. From within the spawn logic of the spawner, a squad label can be set. 
 All units produced by the spawner are tagged by the set label, allowing Forgers to reference squads of AI units from within a script brain without requiring a direct reference to the squad or spawner object.
 
-Once a squad is spawned, the individual units making up the squad can be scripted in a script or mode brain to join a different squad by changing its squad label. 
+Once a squad is spawned, the individual units making up the squad can be scripted in a script or mode brain to later join a different squad by changing its squad label.
+Multiple spawners can produce AI Units for the same squad. Because squad labels are limited to the military phonetic alphabet, this means that Forge supports the creation and manipulation of 26 unique squads.
+However, the engine supports a maximum of 32 campaign AI units in a match so reaching the limit of 26 squads is an edge case and should be rare.
 
 ### Unique Properties
 
