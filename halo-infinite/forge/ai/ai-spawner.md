@@ -2,6 +2,11 @@
 
 AI Spawners are used to spawn campaign AI units. In order for the AI units to spawn, the boundary of the object must intersect a nav mesh. Depending on the type of AI Spawner being used, one to many campaign AI Units can be spawned at a time via droppod, Phantom, or in-place.
 
+### Squads
+
+AI units produced by spawners are logically and behaviorally grouped together by the engine into groups known as squads. From within the spawn logic of the spawner, a squad label can be set. 
+All units produced by the spawner are tagged by the set label, allowing Forgers to reference squads of AI units from within a script brain without requiring a direct reference to the squad or spawner object.
+
 ### Unique Properties
 
 As with all Forge objects, AI Spawners can be configured to suit different needs for a map via unique properties in the Object Properties menu.
