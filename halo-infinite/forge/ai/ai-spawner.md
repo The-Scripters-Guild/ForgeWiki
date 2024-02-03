@@ -10,3 +10,7 @@ As with all Forge objects, AI Spawners can be configured to suit different needs
 
 A single campaign AI unit can be selected for spawning via the unit selection menu. Unit type and weapon type can be configured here, with the weapon type being dependent on the species of the unit.
 A For example, Grunts can only use pistols, while Jackals can use pistols and shouldered weapons, like the M392 Bandit and Cindershot. Only base weapon types can be selected in the dropdown menu. 
+
+### Spawner Types
+
+There are three Forge objects used to mark the spawn location of campaign AI. Each one differs in how it delivers the AI units to their spawn locations.
