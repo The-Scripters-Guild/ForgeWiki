@@ -69,5 +69,5 @@ If the the volume of the object is obstructed, the configured vehicles are at ri
 
 ### Scripting
 
-AI spawners are scriptable from with a script or mode brain. Multiple nodes exist that take in AI spawners as a parameter.
+AI spawners are scriptable from within a script or mode brain. Multiple nodes exist that take in AI spawners as a parameter.
 
