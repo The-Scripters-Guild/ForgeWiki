@@ -7,6 +7,8 @@ AI Spawners are used to spawn campaign AI units. In order for the AI units to sp
 AI units produced by spawners are logically and behaviorally grouped together by the engine into collections known as squads. From within the spawn logic of the spawner, a squad label can be set. 
 All units produced by the spawner are tagged by the set label, allowing Forgers to reference squads of AI units from within a script brain without requiring a direct reference to the squad or spawner object.
 
+Once a squad is spawned, the individual units making up the squad can be scripted in a script or mode brain to join a different squad by changing its squad label. 
+
 ### Unique Properties
 
 As with all Forge objects, AI Spawners can be configured to suit different needs for a map via unique properties in the Object Properties menu.
