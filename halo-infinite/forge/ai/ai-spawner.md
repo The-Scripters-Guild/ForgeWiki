@@ -8,8 +8,21 @@ As with all Forge objects, AI Spawners can be configured to suit different needs
 
 #### Unit Selection
 
-A single campaign AI unit can be selected for spawning via the unit selection menu. Unit type and weapon type can be configured here, with the weapon type being dependent on the species of the unit.
-A For example, Grunts can only use pistols, while Jackals can use pistols and shouldered weapons, like the M392 Bandit and Cindershot. Only base weapon types can be selected in the dropdown menu. 
+A campaign AI unit can be selected for spawning via the unit selection menu. Unit type and weapon type can be configured here, with the weapon type being dependent on the species of the unit.
+For example, Grunts can only use pistols, while Jackals can use pistols and shouldered weapons, like the M392 Bandit and Cindershot. Only base weapon types can be selected in the dropdown menu.
+
+#### Spawn Logic
+
+These properties dictate the parameters of how AI units spawned via the spawner enter the map. This includes the Triggered by Script toggle which allows you to control when AI are placed in the map via a script or mode brain.
+
+#### Squad Behaviors
+
+The available spawner objects let you configure set behavior traits to apply to the AI spawned from the spawner. These include toggling senses, idle behavior, and even disabling behaviors all together.
+
+#### AI Zone
+
+AI move zones are used to configure a path of movement. To direct AI units to move to a predetermined location outside the spawner, a move zone places on the map can be selected. 
+Setting the AI move zone to a zone a part of a chain of move zones will cause spawned AI units to move to each zone in the chain.
 
 ### Spawner Types
 
