@@ -17,7 +17,7 @@ As with all Forge objects, AI Spawners can be configured to suit different needs
 
 #### Unit Selection
 
-A campaign AI unit can be selected for spawning via the unit selection menu. Unit type and weapon type can be configured here, with the weapon type being dependent on the species of the unit.
+Campaign AI unit can be selected for spawning via the unit selection menu. Unit type and weapon type can be configured here, with the weapon type being dependent on the species of the unit.
 For example, Grunts can only use pistols, while Jackals can use pistols and shouldered weapons, like the M392 Bandit and Cindershot. Only base weapon types can be selected in the dropdown menu.
 
 #### Spawn Logic
@@ -36,3 +36,17 @@ Setting the AI move zone to a zone a part of a chain of move zones will cause sp
 ### Spawner Types
 
 There are three Forge objects used to mark the spawn location of campaign AI. Each one differs in how it delivers the AI units to their spawn locations.
+
+#### Droppod
+
+The droppod spawner will produce a single AI unit at a time via a droppod from the sky. Once the AI unit has exited the pod, 
+it will overload and destroy itself.
+
+#### Phantom
+
+The Phantom spawner will deploy a squad of AI Units from a Phantom dropship. Also configurable are whether the phantom is 
+equipped with weapons and vehicles. As the Phantom travels to the spawn location, it can be damaged and destroyed, 
+preventing the AI units from entering gameplay.
+
+#### Spawner
+
