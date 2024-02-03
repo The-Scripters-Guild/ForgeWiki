@@ -41,7 +41,7 @@ to intersect the nav mesh, a message will be displayed in the feed to inform the
 #### Droppod
 
 The droppod spawner will produce a single AI unit at a time via a droppod from the sky. Once the AI unit has exited the pod, 
-it will overload and destroy itself. If an object obstructs the entry path pf the droppod, it will phase through it and deliver
+it will overload and destroy itself. If an object obstructs the entry path of the droppod, it will phase through it and deliver
 the AI unit to where it intersects with the nav mesh.
 
 #### Phantom
@@ -56,7 +56,16 @@ verify that the dropship can reach its destination as expected.
 #### Spawner
 
 The spawner will produce a squad of AI units in place. This is comparable to the spawning of a player in how the units are 
-produced. If the volume of the object is obstructed, the AI unit(s) are at risk of spawning inside the obstructing object.
+produced. 
+
+If the volume of the object is obstructed, the configured squad is at risk of spawning inside obstructing objects.
+
+#### Vehicle Spawner
+
+A variation of the spawner, this object allows players to configure vehicles driven by AI units. The species of the unit is 
+dependent on what type of vehicle is selected. If no unit is configured to drive a vehicle, the vehicle will spawn driverless.
+
+If the the volume of the object is obstructed, the configured vehicles are at risk of spawning inside of the obstructing objects.
 
 ### Scripting
 
