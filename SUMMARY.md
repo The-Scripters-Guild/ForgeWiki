@@ -21,7 +21,14 @@
 ## Halo Infinite
 
 * [Forge](halo-infinite/forge/README.md)
-  * [AI & Bots](halo-infinite/forge/ai-and-bots.md)
+  * [AI & Bots](halo-infinite/forge/ai-and-bots/README.md)
+    * [AI](halo-infinite/forge/ai-and-bots/ai/README.md)
+      * [AI Spawning](halo-infinite/forge/ai-and-bots/ai/ai-spawning/README.md)
+        * [AI Spawners](halo-infinite/forge/ai-and-bots/ai/ai-spawners/README.md)
+          * [AI Droppod Spawner](halo-infinite/forge/ai-and-bots/ai/ai-spawners/ai-droppod-spawner.md)
+          * [AI Phantom Spawner](halo-infinite/forge/ai-and-bots/ai/ai-spawners/ai-phantom-spawner.md)
+          * [AI Spawner](halo-infinite/forge/ai-and-bots/ai/ai-spawners/ai-spawner.md)
+          * [AI Vehicle Spawner](halo-infinite/forge/ai-and-bots/ai/ai-spawners/ai-vehicle-spawner.md)
   * [UI & Controls](halo-infinite/forge/ui-and-controls/README.md)
     * [Control Schemes](halo-infinite/forge/ui-and-controls/control-schemes.md)
     * [Forge Editor UI](halo-infinite/forge/ui-and-controls/forge-editor-ui.md)

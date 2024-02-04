@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\halo-infinite",
+    "\\halo-infinite\\forge\\ai",
+    "\\halo-infinite\\forge\\lighting",
+    "\\halo-infinite\\scripting",
+    "\\halo-infinite\\scripting\\nodes",
+    "\\halo-infinite\\scripting\\nodes\\node-data",
+    "\\halo-infinite\\scripting\\nodes\\node-data\\specific-nodes",
+    "\\halo-infinite\\scripting\\nodes\\node-data\\specific-nodes\\ai",
+    "\\halo-infinite\\scripting\\nodes\\node-data\\specific-nodes\\events-custom"
+  ],
+  "SelectedNode": "\\halo-infinite\\scripting\\nodes\\node-data\\specific-nodes\\ai\\get-squad-definition-from-ai-spawner.md",
+  "PreviewInSolutionExplorer": false
+}
