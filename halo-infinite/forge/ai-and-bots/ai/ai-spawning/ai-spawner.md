@@ -6,8 +6,7 @@ time, but runtime budgets may decrease this limit.
 
 # Remarks
 
-This is comparable to the spawning of a player in how the units are produced. If the volume of the object is obstructed, 
-the configured squad is at risk of spawning inside obstructing objects.
+This is comparable to the spawning of a player in how the units are produced.
 
 ## Object Properties
 

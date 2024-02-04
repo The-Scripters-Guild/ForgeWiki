@@ -6,9 +6,7 @@ Must be touching nav mesh to function.
 ## Remarks
 
 The species of the unit is dependent on what type of vehicle is selected. If no unit is 
-configured to drive a vehicle, the vehicle will spawn driverless. If the the volume of 
-the object is obstructed, the configured vehicles are at risk of spawning inside of 
-obstructing objects.
+configured to drive a vehicle, the vehicle will spawn driverless.
 
 ## Object Properties
 
