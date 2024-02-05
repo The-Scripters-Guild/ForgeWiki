@@ -194,7 +194,7 @@
     * ["Prefabs" via MACHIN3tools](halo-infinite/guides-and-tutorials/blender-to-forge-printer-b2fp/prefabs-via-machin3tools.md)
 * [Reference Documents](halo-infinite/reference-documents/README.md)
   * [Forge Data](halo-infinite/reference-documents/reference-documents.md)
-  * [Dev Map Respawn Point Amounts](halo-infinite/reference-documents/dev-respawn-point-amounts.md)
+  * [Dev Map Respawn Point Amounts](halo-infinite/reference-documents/dev-map-respawn-point-amounts.md)
 
 ## Legacy Halo
 
