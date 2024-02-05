@@ -10,6 +10,10 @@ To perform the initialization, a _Wait For N Seconds_ node can be used with its 
 
 ## Nodegraph Reference
 
+{% content-ref url="../../../../scripting/nodes/node-data/specific-nodes/ai/trigger-ai-spawner.md" %}
+[trigger-ai-spawner.md](../../../../scripting/nodes/node-data/specific-nodes/ai/trigger-ai-spawner.md)
+{% endcontent-ref %}
+
 {% content-ref url="../../../../scripting/nodes/node-data/specific-nodes/ai/get-squad-definition-from-ai-spawner.md" %}
 [get-squad-definition-from-ai-spawner.md](../../../../scripting/nodes/node-data/specific-nodes/ai/get-squad-definition-from-ai-spawner.md)
 {% endcontent-ref %}
