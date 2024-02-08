@@ -11,3 +11,7 @@ Spawns a squad from the *AI Spawner* based off its *Object Properties*.
 | Output           | Type             | Description												     |
 |------------------|------------------|--------------------------------------------------------------|
 | None             | Void             | N/A														     |
+
+**Contributors**
+
+Mr. Admirals

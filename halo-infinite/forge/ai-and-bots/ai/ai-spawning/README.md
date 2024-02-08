@@ -25,3 +25,7 @@ To perform the initialization, a _Wait For N Seconds_ node can be used with its 
 {% content-ref url="../../../../scripting/nodes/node-data/specific-nodes/ai-advanced/get-squads-from-spawner.md" %}
 [get-squads-from-spawner.md](../../../../scripting/nodes/node-data/specific-nodes/ai-advanced/get-squads-from-spawner.md)
 {% endcontent-ref %}
+
+**Contributors**
+
+Mr. Admirals

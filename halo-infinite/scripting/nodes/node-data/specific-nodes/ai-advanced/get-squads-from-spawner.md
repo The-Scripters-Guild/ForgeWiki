@@ -11,3 +11,7 @@ Returns a *Squad List* containing all currently-spawned squads that came from th
 | Output           | Type             | Description												                           |
 |------------------|------------------|------------------------------------------------------------------------------------|
 | Squad List       | List             | A randomly ordered list of currently-spawned squads that came from the AI Spawner. |
+
+**Contributors**
+
+Mr. Admirals
