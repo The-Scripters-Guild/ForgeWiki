@@ -11,3 +11,7 @@ Returns an *Object List* containing all AI spawners on the map.
 | Output           | Type             | Description												     |
 |------------------|------------------|--------------------------------------------------------------|
 | AI Spawner List  | Object List      | A list containing all AI spawners on the map.			     |
+
+**Contributors**
+
+Mr. Admirals

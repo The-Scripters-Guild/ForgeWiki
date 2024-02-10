@@ -13,3 +13,7 @@ Returns a squad definition from the *AI Spawner*, which contains unit and spawni
 | Output           | Type             | Description												            |
 |------------------|------------------|-----------------------------------------------------------------------|
 | Squad Definition | Squad Definition | The squad definition from the AI spawner with any overrides applied. |
+
+**Contributors**
+
+Mr. Admirals

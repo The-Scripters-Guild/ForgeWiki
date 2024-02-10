@@ -36,3 +36,7 @@ droppod, it will phase through it and deliver the AI unit to where it intersects
 | Property     | Description                                                                                                                                                                                                                                  |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AI Move Zone | The AI Move Zone that the spawner's AI units will be assigned to. Linking a zone will allow the spawner's AI units to move and fight outside the vicinity of the spawner. To cancel a link, select this AI spawner from the list of options. |
+
+**Contributors**
+
+Mr. Admirals
