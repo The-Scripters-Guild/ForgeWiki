@@ -278,14 +278,14 @@ userData:
 
 <details>
 
-<summary>Get All Spawners General
+<summary>Get All Spawners General</summary>
+
 ### Output Pins
 pinId: Spawner List
 dataType: object_list
-userData:Node Category: AI_Advanced\</summary>
+userData:
 
-
-
+#### Node Category: AI_Advanced\
 </details>
 
 <details>
@@ -659,11 +659,11 @@ userData:
 
 <details>
 
-<summary>Get AI Budget General
+<summary>Get AI Budget General</summary>
 ### Output Pins
 pinId: Available Unit Count
 dataType: number
-userData:Node Category: AI_Advanced\</summary>
+userData:Node Category: AI_Advanced\
 
 
 
@@ -1139,7 +1139,7 @@ userData:
 
 <details>
 
-<summary>Get AI Targetable Object List General
+<summary>Get AI Targetable Object List General</summary>
 ### Output Pins
 pinId: Object List
 dataType: object_list
@@ -1149,7 +1149,7 @@ dataType: number
 userData:
 pinId: Remaining Slots
 dataType: number
-userData:Node Category: AI_Modifiers\</summary>
+userData:Node Category: AI_Modifiers\
 
 
 
@@ -1272,7 +1272,7 @@ userData:
 
 <details>
 
-<summary>AI Wave Options General
+<summary>AI Wave Options General</summary>
 ### Input Pins
 pinId: Incoming Messaging
 dataType: bool
@@ -1290,7 +1290,7 @@ MaxRange: 100
 ### Output Pins
 pinId: Wave Options
 dataType: ai_wave_options
-userData:Node Category: AI_Waves\</summary>
+userData:Node Category: AI_Waves\
 
 
 
@@ -1326,7 +1326,7 @@ userData:
 
 <details>
 
-<summary>Remove Upcoming Waves General
+<summary>Remove Upcoming Waves General</summary>
 ### Input Pins
 dataType: execute
 pinId: Wave Manager
@@ -1335,7 +1335,7 @@ settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerI
 ### Output Pins
 pinId: ActionComplete
 dataType: execute
-userData:Node Category: AI_Waves\</summary>
+userData:Node Category: AI_Waves\
 
 
 
@@ -1343,7 +1343,7 @@ userData:Node Category: AI_Waves\</summary>
 
 <details>
 
-<summary>End Current Wave General
+<summary>End Current Wave General</summary>
 ### Input Pins
 dataType: execute
 pinId: Wave Manager
@@ -1361,7 +1361,7 @@ settings: defaultValue: String: false
 ### Output Pins
 pinId: ActionComplete
 dataType: execute
-userData:Node Category: AI_Waves\</summary>
+userData:Node Category: AI_Waves\
 
 
 
@@ -1369,7 +1369,7 @@ userData:Node Category: AI_Waves\</summary>
 
 <details>
 
-<summary>Get Wave Manager Status General
+<summary>Get Wave Manager Status General</summary>
 ### Input Pins
 pinId: Wave Manager
 dataType: ai_wave_manager
@@ -1388,7 +1388,7 @@ userData:Node Category: AI_Waves\
 
 <details>
 
-<summary>Get Current Wave Status General
+<summary>Get Current Wave Status General</summary>
 ### Input Pins
 pinId: Wave Manager
 dataType: ai_wave_manager
@@ -1405,7 +1405,7 @@ dataType: number
 userData:
 pinId: Duration Remaining
 dataType: number
-userData:Node Category: AI_Waves\</summary>
+userData:Node Category: AI_Waves\
 
 
 
@@ -1780,11 +1780,14 @@ userData:
 
 <details>
 
-<summary>Clear Splash for All Players
+<summary>Clear Splash for All Players</summary>
+
 ### Output Pins
 pinId: ActionComplete
 dataType: execute
-userData:Node Category: Unused\</summary>
+userData:
+
+#### Node Category: Unused\
 
 
 
@@ -2254,13 +2257,14 @@ userData:
 
 <details>
 
-<summary>Override Loadouts For All Players
+<summary>Override Loadouts For All Players</summary>
 ### Input Pins
 dataType: execute
 ### Output Pins
 pinId: ActionComplete
 dataType: execute
-userData:Node Category: Unused\</summary>
+userData:
+#### Node Category: Unused\
 
 
 
@@ -2626,13 +2630,17 @@ userData:
 
 <details>
 
-<summary>Remove All Bots From Match
+<summary>Remove All Bots From Match</summary>
+
 ### Input Pins
 dataType: execute
+
 ### Output Pins
 pinId: ActionComplete
 dataType: execute
-userData:Node Category: Bots\</summary>
+userData:
+
+#### Node Category: Bots\
 
 
 
