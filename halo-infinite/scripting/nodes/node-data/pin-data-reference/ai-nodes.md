@@ -11,12 +11,14 @@ RequiredProperties: Spawner
 
 ### Input Pins
 
-dataType: execute pinId: Spawner
+dataType: execute
+pinId: Spawner
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\\
 
@@ -33,13 +35,15 @@ RequiredProperties: Squad Definition
 
 ### Input Pins
 
-dataType: execute pinId: Squad Definition\
+dataType: execute
+pinId: Squad Definition\
 dataType: ai\_squad\_definition
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\\
 
@@ -73,7 +77,25 @@ userData:
 
 <details>
 
-<summary>Combine Squad Overrides GeneralInput PinspinId: Overrides A<br>dataType: ai_squad_definition_overrides<br>settings: defaultValue: String: nil pinId: Overrides B<br>dataType: ai_squad_definition_overrides<br>settings: defaultValue: String: nil pinId: Overrides C<br>dataType: ai_squad_definition_overrides<br>settings: defaultValue: String: nil pinId: Overrides D<br>dataType: ai_squad_definition_overrides<br>settings: defaultValue: String: nilOutput PinspinId: Combined Overrides<br>dataType: ai_squad_definition_overrides<br>userData:Node Category: AI\</summary>
+<summary>Combine Squad Overrides General</summary>
+
+### Input Pins
+pinId: Overrides A
+dataType: ai_squad_definition_overrides
+settings: defaultValue: String: nil
+pinId: Overrides B
+dataType: ai_squad_definition_overrides
+settings: defaultValue: String: nil
+pinId: Overrides C
+dataType: ai_squad_definition_overrides
+settings: defaultValue: String: nil
+pinId: Overrides D
+dataType: ai_squad_definition_overrides
+settings: defaultValue: String: nil
+### Output Pins
+pinId: Combined Overrides
+dataType: ai_squad_definition_overrides
+userData:Node Category: AI\
 
 
 
@@ -81,7 +103,21 @@ userData:
 
 <details>
 
-<summary>Squad Overrides (Initial State) GeneralInput PinspinId: Zone<br>settings: defaultValue: String: nil pinId: Initial Combat State<br>dataType: actor_basic_combat_status<br>settings: defaultValue: String: nil pinId: Facing Yaw<br>dataType: number<br>settings: defaultValue: String: nilOutput PinspinId: Squad Definition Overrides<br>dataType: ai_squad_definition_overrides<br>userData:Node Category: AI\</summary>
+<summary>Squad Overrides (Initial State) General</summary>
+
+### Input Pins
+pinId: Zone
+settings: defaultValue: String: nil
+pinId: Initial Combat State
+dataType: actor_basic_combat_status
+settings: defaultValue: String: nil
+pinId: Facing Yaw
+dataType: number
+settings: defaultValue: String: nil
+### Output Pins
+pinId: Squad Definition Overrides
+dataType: ai_squad_definition_overrides
+userData:Node Category: AI\
 
 
 
@@ -89,7 +125,19 @@ userData:
 
 <details>
 
-<summary>Squad Overrides (Misc) GeneralInput PinspinId: Team<br>dataType: team<br>settings: defaultValue: String: nil pinId: Label<br>dataType: user_label<br>settings: defaultValue: String: ForgeCreateUserLabelStruct(nil)Output PinspinId: Squad Definition Overrides<br>dataType: ai_squad_definition_overrides<br>userData:Node Category: AI\</summary>
+<summary>Squad Overrides (Misc) General</summary>
+
+### Input Pins
+pinId: Team
+dataType: team
+settings: defaultValue: String: nil
+pinId: Label
+dataType: user_label
+settings: defaultValue: String: ForgeCreateUserLabelStruct(nil)
+### Output Pins
+pinId: Squad Definition Overrides
+dataType: ai_squad_definition_overrides
+userData:Node Category: AI\
 
 
 
@@ -97,7 +145,25 @@ userData:
 
 <details>
 
-<summary>Squad Overrides (Behavior) GeneralInput PinspinId: Blind<br>dataType: bool<br>settings: defaultValue: String: false pinId: Deaf<br>dataType: bool<br>settings: defaultValue: String: false pinId: Braindead<br>dataType: bool<br>settings: defaultValue: String: false pinId: Magic Sight<br>dataType: bool<br>settings: defaultValue: String: falseOutput PinspinId: Squad Definition Overrides<br>dataType: ai_squad_definition_overrides<br>userData:Node Category: AI\</summary>
+<summary>Squad Overrides (Behavior) General</summary>
+
+### Input Pins
+pinId: Blind
+dataType: bool
+settings: defaultValue: String: false
+pinId: Deaf
+dataType: bool
+settings: defaultValue: String: false
+pinId: Braindead
+dataType: bool
+settings: defaultValue: String: false
+pinId: Magic Sight
+dataType: bool
+settings: defaultValue: String: false
+### Output Pins
+pinId: Squad Definition Overrides
+dataType: ai_squad_definition_overrides
+userData:Node Category: AI\
 
 
 
@@ -128,7 +194,12 @@ userData:
 
 <details>
 
-<summary>Get All AI Squads GeneralOutput PinspinId: Squad List<br>dataType: ai_squad_list<br>userData:Node Category: AI\</summary>
+<summary>Get All AI Squads General</summary>
+
+### Output Pins
+pinId: Squad List
+dataType: ai_squad_list
+userData:Node Category: AI\
 
 
 
@@ -207,7 +278,11 @@ userData:
 
 <details>
 
-<summary>Get All Spawners GeneralOutput PinspinId: Spawner List<br>dataType: object_list<br>userData:Node Category: AI_Advanced\</summary>
+<summary>Get All Spawners General
+### Output Pins
+pinId: Spawner List
+dataType: object_list
+userData:Node Category: AI_Advanced\</summary>
 
 
 
@@ -215,9 +290,14 @@ userData:
 
 <details>
 
-<summary>Kill All AI SquadsInput PinsdataType: executeOutput PinspinId: ActionComplete<br>dataType: execute userData:Node Category: AI\</summary>
+<summary>Kill All AI Squads</summary>
 
-
+### Input Pins
+dataType: execute
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: AI\
 
 </details>
 
@@ -232,13 +312,15 @@ RequiredProperties: Squad
 
 ### Input Pins
 
-dataType: execute pinId: Squad\
+dataType: execute
+pinId: Squad\
 dataType: ai\_squad
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\\
 
@@ -270,10 +352,19 @@ userData:
 
 <details>
 
-<summary>Get All AI Units GeneralOutput PinspinId: Units<br>dataType: object_list<br>userData: pinId: Unit Count<br>dataType: number<br>userData: pinId: Random Unit<br>userData:Node Category: AI\</summary>
+<summary>Get All AI Units General</summary>
 
+### Output Pins
+pinId: Units
+dataType: object_list
+userData:
+pinId: Unit Count
+dataType: number
+userData:
+pinId: Random Unit
+userData:
 
-
+#### Node Category: AI\
 </details>
 
 <details>
@@ -294,9 +385,11 @@ dataType: team
 
 pinId: Units\
 dataType: object\_list\
-userData: pinId: Unit Count\
+userData:
+pinId: Unit Count\
 dataType: number\
-userData: pinId: Random Unit\
+userData:
+pinId: Random Unit\
 userData:
 
 #### Node Category: AI\\
@@ -338,14 +431,16 @@ Squad
 
 ### Input Pins
 
-dataType: execute pinId: Unit\
+dataType: execute
+pinId: Unit\
 pinId: Squad\
 dataType: ai\_squad
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Advanced\\
 
@@ -353,7 +448,24 @@ dataType: execute userData:
 
 <details>
 
-<summary>Set Global AI DifficultyInput PinsdataType: execute pinId: Difficulty<br>dataType: difficulty<br>settings: defaultValue: String: DIFFICULTY.normal pinId: CoOp Scalar<br>dataType: coop_difficulty<br>settings: defaultValue: String: COOP_DIFFICULTY.dynamic pinId: Kill All Squads<br>dataType: bool<br>settings: defaultValue: String: falseOutput PinspinId: ActionComplete<br>dataType: execute userData:Node Category: AI_Modifiers\</summary>
+<summary>Set Global AI Difficulty</summary>
+
+### Input Pins
+dataType: execute
+pinId: Difficulty
+dataType: difficulty
+settings: defaultValue: String: DIFFICULTY.normal
+pinId: CoOp Scalar
+dataType: coop_difficulty
+settings: defaultValue: String: COOP_DIFFICULTY.dynamic
+pinId: Kill All Squads
+dataType: bool
+settings: defaultValue: String: false
+
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: AI_Modifiers\
 
 
 
@@ -370,13 +482,15 @@ RequiredProperties: Enabled
 
 ### Input Pins
 
-dataType: execute pinId: Enabled\
+dataType: execute
+pinId: Enabled\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -393,13 +507,15 @@ RequiredProperties: Enabled
 
 ### Input Pins
 
-dataType: execute pinId: Enabled\
+dataType: execute
+pinId: Enabled\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -417,7 +533,8 @@ New Team
 
 ### Input Pins
 
-dataType: execute pinId: Squad\
+dataType: execute
+pinId: Squad\
 dataType: ai\_squad\
 pinId: New Team\
 dataType: team
@@ -425,7 +542,8 @@ dataType: team
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Advanced\\
 
@@ -443,14 +561,16 @@ Zone
 
 ### Input Pins
 
-dataType: execute pinId: Squad\
+dataType: execute
+pinId: Squad\
 dataType: ai\_squad\
 pinId: Zone
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Advanced\\
 
@@ -474,9 +594,11 @@ dataType: ai\_squad
 
 pinId: Original Unit Count\
 dataType: number\
-userData: pinId: Remaining Unit Count\
+userData:
+pinId: Remaining Unit Count\
 dataType: number\
-userData: pinId: Percent Remaining\
+userData:
+pinId: Percent Remaining\
 dataType: number\
 userData:
 
@@ -526,7 +648,8 @@ dataType: ai\_squad\_definition
 
 pinId: Unit Count\
 dataType: number\
-userData: pinId: Can Spawn Whole Squad\
+userData:
+pinId: Can Spawn Whole Squad\
 dataType: bool\
 userData:
 
@@ -536,7 +659,11 @@ userData:
 
 <details>
 
-<summary>Get AI Budget GeneralOutput PinspinId: Available Unit Count<br>dataType: number<br>userData:Node Category: AI_Advanced\</summary>
+<summary>Get AI Budget General
+### Output Pins
+pinId: Available Unit Count
+dataType: number
+userData:Node Category: AI_Advanced\</summary>
 
 
 
@@ -637,7 +764,8 @@ dataType: ai\_character\_type
 
 pinId: Are Same Character Type\
 dataType: bool\
-userData: pinId: Are Same Species\
+userData:
+pinId: Are Same Species\
 dataType: bool\
 userData:
 
@@ -683,13 +811,15 @@ Unit
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Unit
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -719,7 +849,8 @@ dataType: ai\_species\_type
 
 pinId: Are Same Character Type\
 dataType: bool\
-userData: pinId: Are Same Species\
+userData:
+pinId: Are Same Species\
 dataType: bool\
 userData:
 
@@ -763,14 +894,16 @@ Magic Sight
 
 ### Input Pins
 
-dataType: execute pinId: Unit\
+dataType: execute
+pinId: Unit\
 pinId: Magic Sight\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -789,7 +922,8 @@ Deaf
 
 ### Input Pins
 
-dataType: execute pinId: Unit\
+dataType: execute
+pinId: Unit\
 pinId: Blind\
 dataType: bool\
 pinId: Deaf\
@@ -798,7 +932,8 @@ dataType: bool
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -816,14 +951,16 @@ Braindead
 
 ### Input Pins
 
-dataType: execute pinId: Unit\
+dataType: execute
+pinId: Unit\
 pinId: Braindead\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -892,14 +1029,16 @@ Visible
 
 ### Input Pins
 
-dataType: execute pinId: Unit\
+dataType: execute
+pinId: Unit\
 pinId: Visible\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -916,13 +1055,15 @@ RequiredProperties: Visible
 
 ### Input Pins
 
-dataType: execute pinId: Visible\
+dataType: execute
+pinId: Visible\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -941,7 +1082,8 @@ Team
 
 ### Input Pins
 
-dataType: execute pinId: AddRemove\
+dataType: execute
+pinId: AddRemove\
 dataType: add\_or\_remove\
 pinId: Object\
 pinId: Team\
@@ -955,7 +1097,8 @@ Step: 0.05
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -975,7 +1118,8 @@ Discourage Melee Weapons
 
 ### Input Pins
 
-dataType: execute pinId: Object\
+dataType: execute
+pinId: Object\
 pinId: GrenadeTargeting\
 dataType: bool\
 pinId: VehicleTargeting\
@@ -986,7 +1130,8 @@ dataType: bool
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -994,7 +1139,17 @@ dataType: execute userData:
 
 <details>
 
-<summary>Get AI Targetable Object List GeneralOutput PinspinId: Object List<br>dataType: object_list<br>userData: pinId: Used Slots<br>dataType: number<br>userData: pinId: Remaining Slots<br>dataType: number<br>userData:Node Category: AI_Modifiers\</summary>
+<summary>Get AI Targetable Object List General
+### Output Pins
+pinId: Object List
+dataType: object_list
+userData:
+pinId: Used Slots
+dataType: number
+userData:
+pinId: Remaining Slots
+dataType: number
+userData:Node Category: AI_Modifiers\</summary>
 
 
 
@@ -1012,7 +1167,8 @@ Object
 
 ### Input Pins
 
-dataType: execute pinId: Squad\
+dataType: execute
+pinId: Squad\
 dataType: ai\_squad\
 pinId: Object\
 pinId: Follow Radius\
@@ -1022,7 +1178,8 @@ settings: defaultValue: String: 50
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -1039,13 +1196,15 @@ RequiredProperties: Squad
 
 ### Input Pins
 
-dataType: execute pinId: Squad\
+dataType: execute
+pinId: Squad\
 dataType: ai\_squad
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Modifiers\\
 
@@ -1062,7 +1221,8 @@ RequiredProperties: Squad
 
 ### Input Pins
 
-dataType: execute pinId: Squad\
+dataType: execute
+pinId: Squad\
 dataType: ai\_squad\
 pinId: Player\
 settings: defaultValue: String: nil
@@ -1070,7 +1230,8 @@ settings: defaultValue: String: nil
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Advanced\\
 
@@ -1091,9 +1252,11 @@ pinId: Wave Type\
 dataType: ai\_wave\_type\
 pinId: Spawners\
 dataType: object\_list\
-settings: defaultValue: String: nil pinId: Duration\
+settings: defaultValue: String: nil
+pinId: Duration\
 dataType: number\
-settings: defaultValue: String: 0 MinRange: 0 pinId: Wave Options\
+settings: defaultValue: String: 0 MinRange: 0
+pinId: Wave Options\
 dataType: ai\_wave\_options\
 settings: defaultValue: String: nil
 
@@ -1109,7 +1272,25 @@ userData:
 
 <details>
 
-<summary>AI Wave Options GeneralInput PinspinId: Incoming Messaging<br>dataType: bool<br>settings: defaultValue: String: false pinId: Outgoing Messaging<br>dataType: bool<br>settings: defaultValue: String: false pinId: Delay Spawn Until Budget<br>dataType: bool<br>settings: defaultValue: String: true pinId: Extermination Percentage<br>dataType: number<br>settings: defaultValue: String: 100 MinRange: 1<br>MaxRange: 100Output PinspinId: Wave Options<br>dataType: ai_wave_options<br>userData:Node Category: AI_Waves\</summary>
+<summary>AI Wave Options General
+### Input Pins
+pinId: Incoming Messaging
+dataType: bool
+settings: defaultValue: String: false
+pinId: Outgoing Messaging
+dataType: bool
+settings: defaultValue: String: false
+pinId: Delay Spawn Until Budget
+dataType: bool
+settings: defaultValue: String: true
+pinId: Extermination Percentage
+dataType: number
+settings: defaultValue: String: 100 MinRange: 1
+MaxRange: 100
+### Output Pins
+pinId: Wave Options
+dataType: ai_wave_options
+userData:Node Category: AI_Waves\</summary>
 
 
 
@@ -1126,7 +1307,8 @@ RequiredProperties: Wave
 
 ### Input Pins
 
-dataType: execute pinId: Wave\
+dataType: execute
+pinId: Wave\
 dataType: ai\_wave\
 pinId: Wave Manager\
 dataType: ai\_wave\_manager\
@@ -1135,7 +1317,8 @@ settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerI
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: AI\_Waves\\
 
@@ -1143,7 +1326,16 @@ dataType: execute userData:
 
 <details>
 
-<summary>Remove Upcoming Waves GeneralInput PinsdataType: execute pinId: Wave Manager<br>dataType: ai_wave_manager<br>settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)Output PinspinId: ActionComplete<br>dataType: execute userData:Node Category: AI_Waves\</summary>
+<summary>Remove Upcoming Waves General
+### Input Pins
+dataType: execute
+pinId: Wave Manager
+dataType: ai_wave_manager
+settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: AI_Waves\</summary>
 
 
 
@@ -1151,7 +1343,25 @@ dataType: execute userData:
 
 <details>
 
-<summary>End Current Wave GeneralInput PinsdataType: execute pinId: Wave Manager<br>dataType: ai_wave_manager<br>settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default) pinId: Victory Reason<br>dataType: ai_wave_victory_reason<br>settings: defaultValue: String: ForgeWaveManagerVictoryReasons.none pinId: Kill Remaining<br>dataType: bool<br>settings: defaultValue: String: false pinId: Kill Stragglers<br>dataType: bool<br>settings: defaultValue: String: falseOutput PinspinId: ActionComplete<br>dataType: execute userData:Node Category: AI_Waves\</summary>
+<summary>End Current Wave General
+### Input Pins
+dataType: execute
+pinId: Wave Manager
+dataType: ai_wave_manager
+settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)
+pinId: Victory Reason
+dataType: ai_wave_victory_reason
+settings: defaultValue: String: ForgeWaveManagerVictoryReasons.none
+pinId: Kill Remaining
+dataType: bool
+settings: defaultValue: String: false
+pinId: Kill Stragglers
+dataType: bool
+settings: defaultValue: String: false
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: AI_Waves\</summary>
 
 
 
@@ -1159,7 +1369,18 @@ dataType: execute userData:
 
 <details>
 
-<summary>Get Wave Manager Status GeneralInput PinspinId: Wave Manager<br>dataType: ai_wave_manager<br>settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)Output PinspinId: Has Active Wave<br>dataType: bool<br>userData: pinId: Queue Size<br>dataType: number<br>userData:Node Category: AI_Waves\</summary>
+<summary>Get Wave Manager Status General
+### Input Pins
+pinId: Wave Manager
+dataType: ai_wave_manager
+settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)
+### Output Pins
+pinId: Has Active Wave
+dataType: bool
+userData:
+pinId: Queue Size
+dataType: number
+userData:Node Category: AI_Waves\
 
 
 
@@ -1167,7 +1388,24 @@ dataType: execute userData:
 
 <details>
 
-<summary>Get Current Wave Status GeneralInput PinspinId: Wave Manager<br>dataType: ai_wave_manager<br>settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)Output PinspinId: Active Squads<br>dataType: ai_squad_list<br>userData: pinId: Straggler Squads<br>dataType: ai_squad_list<br>userData: pinId: Percent Remaining<br>dataType: number<br>userData: pinId: Duration Remaining<br>dataType: number<br>userData:Node Category: AI_Waves\</summary>
+<summary>Get Current Wave Status General
+### Input Pins
+pinId: Wave Manager
+dataType: ai_wave_manager
+settings: defaultValue: String: ForgeCreateAIWaveManagerStruct(ForgeWaveManagerInstanceEnum.default)
+### Output Pins
+pinId: Active Squads
+dataType: ai_squad_list
+userData:
+pinId: Straggler Squads
+dataType: ai_squad_list
+userData:
+pinId: Percent Remaining
+dataType: number
+userData:
+pinId: Duration Remaining
+dataType: number
+userData:Node Category: AI_Waves\</summary>
 
 
 
@@ -1238,20 +1476,23 @@ RequiredProperties: Victory Reason
 
 ### Input Pins
 
-dataType: execute pinId: Victory Reason\
+dataType: execute
+pinId: Victory Reason\
 dataType: ai\_wave\_victory\_reason
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1268,13 +1509,15 @@ RequiredProperties: Boolean
 
 ### Input Pins
 
-dataType: execute pinId: Boolean\
+dataType: execute
+pinId: Boolean\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
@@ -1291,13 +1534,15 @@ RequiredProperties: Number
 
 ### Input Pins
 
-dataType: execute pinId: Number\
+dataType: execute
+pinId: Number\
 dataType: number
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
@@ -1314,12 +1559,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
@@ -1336,13 +1583,15 @@ RequiredProperties: Team
 
 ### Input Pins
 
-dataType: execute pinId: Team\
+dataType: execute
+pinId: Team\
 dataType: team
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
@@ -1359,13 +1608,15 @@ RequiredProperties: Vector
 
 ### Input Pins
 
-dataType: execute pinId: Vector\
+dataType: execute
+pinId: Vector\
 dataType: vector3
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
@@ -1382,13 +1633,15 @@ RequiredProperties: Control State
 
 ### Input Pins
 
-dataType: execute pinId: Control State\
+dataType: execute
+pinId: Control State\
 dataType: generic\_zone\_control\_state
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Debug\\
 
@@ -1405,12 +1658,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Inventory\_Equipment\\
 
@@ -1427,12 +1682,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Inventory\_Equipment\\
 
@@ -1450,7 +1707,8 @@ Vehicle
 
 ### Input Pins
 
-dataType: execute pinId: Unit\
+dataType: execute
+pinId: Unit\
 pinId: Vehicle\
 pinId: Preferred Seat\
 dataType: seat\_type\
@@ -1459,7 +1717,8 @@ settings: defaultValue: String: Any
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1482,12 +1741,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1504,12 +1765,14 @@ RequiredProperties: Unit
 
 ### Input Pins
 
-dataType: execute pinId: Unit
+dataType: execute
+pinId: Unit
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1517,7 +1780,11 @@ dataType: execute userData:
 
 <details>
 
-<summary>Clear Splash for All PlayersOutput PinspinId: ActionComplete<br>dataType: execute userData:Node Category: Unused\</summary>
+<summary>Clear Splash for All Players
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: Unused\</summary>
 
 
 
@@ -1534,12 +1801,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: UI\\
 
@@ -1556,15 +1825,18 @@ RequiredProperties: Message
 
 ### Input Pins
 
-dataType: execute pinId: Duration in Seconds\
+dataType: execute
+pinId: Duration in Seconds\
 dataType: number\
-settings: defaultValue: Float: 5 MinRange: 2.5 pinId: Message\
+settings: defaultValue: Float: 5 MinRange: 2.5
+pinId: Message\
 dataType: ui\_message
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1582,16 +1854,19 @@ Message
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Duration in Seconds\
 dataType: number\
-settings: defaultValue: Float: 5 MinRange: 2.5 pinId: Message\
+settings: defaultValue: Float: 5 MinRange: 2.5
+pinId: Message\
 dataType: ui\_message
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: UI\\
 
@@ -1609,17 +1884,20 @@ Message
 
 ### Input Pins
 
-dataType: execute pinId: Team\
+dataType: execute
+pinId: Team\
 dataType: team\
 pinId: Duration in Seconds\
 dataType: number\
-settings: defaultValue: Float: 5 MinRange: 2.5 pinId: Message\
+settings: defaultValue: Float: 5 MinRange: 2.5
+pinId: Message\
 dataType: ui\_message
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1637,7 +1915,8 @@ Enabled
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Enabled\
 dataType: bool\
 pinId: Message\
@@ -1647,7 +1926,8 @@ settings: defaultValue: String: nil
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: UI\\
 
@@ -1665,7 +1945,8 @@ Vehicle Type
 
 ### Input Pins
 
-dataType: execute pinId: Enabled\
+dataType: execute
+pinId: Enabled\
 dataType: bool\
 pinId: Vehicle Type\
 dataType: vehicle\_type
@@ -1673,7 +1954,8 @@ dataType: vehicle\_type
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1692,7 +1974,8 @@ Vehicle Type
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Enabled\
 dataType: bool\
 pinId: Vehicle Type\
@@ -1701,7 +1984,8 @@ dataType: vehicle\_type
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1720,7 +2004,8 @@ Vehicle Type
 
 ### Input Pins
 
-dataType: execute pinId: Team\
+dataType: execute
+pinId: Team\
 dataType: team\
 pinId: Enabled\
 dataType: bool\
@@ -1730,7 +2015,8 @@ dataType: vehicle\_type
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1747,12 +2033,14 @@ RequiredProperties: Vehicle
 
 ### Input Pins
 
-dataType: execute pinId: Vehicle
+dataType: execute
+pinId: Vehicle
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1770,7 +2058,8 @@ Duration in Seconds
 
 ### Input Pins
 
-dataType: execute pinId: Vehicle\
+dataType: execute
+pinId: Vehicle\
 pinId: Duration in Seconds\
 dataType: number\
 MinRange: 0
@@ -1778,7 +2067,8 @@ MinRange: 0
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Vehicles\\
 
@@ -1797,7 +2087,8 @@ Apply Immediately
 
 ### Input Pins
 
-dataType: execute pinId: Primary Weapon Type\
+dataType: execute
+pinId: Primary Weapon Type\
 dataType: weapon\_type\
 pinId: Secondary Weapon Type\
 dataType: weapon\_type\
@@ -1807,7 +2098,8 @@ dataType: bool
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1827,7 +2119,8 @@ Apply Immediately
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Primary Weapon Type\
 dataType: weapon\_type\
 pinId: Secondary Weapon Type\
@@ -1838,7 +2131,8 @@ dataType: bool
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1858,7 +2152,8 @@ Apply Immediately
 
 ### Input Pins
 
-dataType: execute pinId: Team\
+dataType: execute
+pinId: Team\
 dataType: team\
 pinId: Primary Weapon Type\
 dataType: weapon\_type\
@@ -1870,7 +2165,8 @@ dataType: bool
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1887,13 +2183,15 @@ RequiredProperties: Apply Immediately
 
 ### Input Pins
 
-dataType: execute pinId: Apply Immediately\
+dataType: execute
+pinId: Apply Immediately\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1911,14 +2209,16 @@ Apply Immediately
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Apply Immediately\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1936,7 +2236,8 @@ Apply Immediately
 
 ### Input Pins
 
-dataType: execute pinId: Team\
+dataType: execute
+pinId: Team\
 dataType: team\
 pinId: Apply Immediately\
 dataType: bool
@@ -1944,7 +2245,8 @@ dataType: bool
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1952,7 +2254,13 @@ dataType: execute userData:
 
 <details>
 
-<summary>Override Loadouts For All PlayersInput PinsdataType: executeOutput PinspinId: ActionComplete<br>dataType: execute userData:Node Category: Unused\</summary>
+<summary>Override Loadouts For All Players
+### Input Pins
+dataType: execute
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: Unused\</summary>
 
 
 
@@ -1969,12 +2277,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -1991,13 +2301,15 @@ RequiredProperties: Team
 
 ### Input Pins
 
-dataType: execute pinId: Team\
+dataType: execute
+pinId: Team\
 dataType: team
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -2015,14 +2327,16 @@ Equipment Type
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Equipment Type\
 dataType: equipment\_type
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Inventory\_Equipment\\
 
@@ -2040,7 +2354,8 @@ Charge Count
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Charge Count\
 dataType: number\
 MinRange: -99\
@@ -2050,7 +2365,8 @@ Step: 1.0
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Inventory\_Equipment\\
 
@@ -2068,7 +2384,8 @@ Charge Count
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Charge Count\
 dataType: number\
 MinRange: 0\
@@ -2078,7 +2395,8 @@ Step: 1.0
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Inventory\_Equipment\\
 
@@ -2096,14 +2414,16 @@ Team
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Team\
 dataType: team
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Players\\
 
@@ -2121,7 +2441,8 @@ Penalty Seconds
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Penalty Seconds\
 dataType: number\
 MinRange: 0\
@@ -2130,7 +2451,8 @@ Step: 1
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Players\\
 
@@ -2147,7 +2469,8 @@ RequiredProperties: Spawn Point
 
 ### Input Pins
 
-dataType: execute pinId: Spawn Point\
+dataType: execute
+pinId: Spawn Point\
 pinId: Enabled\
 dataType: bool\
 settings: defaultValue: Bool: true
@@ -2155,7 +2478,8 @@ settings: defaultValue: Bool: true
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Objects\\
 
@@ -2173,14 +2497,16 @@ Respawn Message
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Respawn Message\
 dataType: respawn\_message
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Players\\
 
@@ -2197,12 +2523,14 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player
+dataType: execute
+pinId: Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Players\\
 
@@ -2220,7 +2548,8 @@ Bot Ambition
 
 ### Input Pins
 
-dataType: execute pinId: Target Object\
+dataType: execute
+pinId: Target Object\
 pinId: Bot Ambition\
 dataType: forge\_bot\_ambition\
 pinId: Team\
@@ -2230,7 +2559,8 @@ settings: defaultValue: String: nil
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -2247,17 +2577,20 @@ RequiredProperties: Target Object
 
 ### Input Pins
 
-dataType: execute pinId: Target Object\
+dataType: execute
+pinId: Target Object\
 pinId: Only Specific Ambition Type\
 dataType: bool\
-settings: defaultValue: Bool: true pinId: Ambition Type\
+settings: defaultValue: Bool: true
+pinId: Ambition Type\
 dataType: bot\_ambition\_type\
 settings: defaultValue: String: nil
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -2274,7 +2607,8 @@ RequiredProperties: Bot Difficulty
 
 ### Input Pins
 
-dataType: execute pinId: Bot Difficulty\
+dataType: execute
+pinId: Bot Difficulty\
 dataType: bot\_difficulty\
 pinId: Team\
 dataType: team\
@@ -2283,7 +2617,8 @@ settings: defaultValue: String: nil
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Bots\\
 
@@ -2291,7 +2626,13 @@ dataType: execute userData:
 
 <details>
 
-<summary>Remove All Bots From MatchInput PinsdataType: executeOutput PinspinId: ActionComplete<br>dataType: execute userData:Node Category: Bots\</summary>
+<summary>Remove All Bots From Match
+### Input Pins
+dataType: execute
+### Output Pins
+pinId: ActionComplete
+dataType: execute
+userData:Node Category: Bots\</summary>
 
 
 
@@ -2308,12 +2649,14 @@ RequiredProperties: Bot Player
 
 ### Input Pins
 
-dataType: execute pinId: Bot Player
+dataType: execute
+pinId: Bot Player
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Bots\\
 
@@ -2331,14 +2674,16 @@ Override Enabled
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Override Enabled\
 dataType: bool
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Players\\
 
@@ -2357,19 +2702,22 @@ Duration in Seconds
 
 ### Input Pins
 
-dataType: execute pinId: Object\
+dataType: execute
+pinId: Object\
 pinId: Position\
 dataType: vector3\
 pinId: Duration in Seconds\
 dataType: number\
-MinRange: 0 pinId: Movement Curve\
+MinRange: 0
+pinId: Movement Curve\
 dataType: curve\_built\_in\
 settings: defaultValue: String: CURVE\_BUILT\_IN.None
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Objects\_Transform\\
 
@@ -2388,19 +2736,22 @@ Duration in Seconds
 
 ### Input Pins
 
-dataType: execute pinId: Object\
+dataType: execute
+pinId: Object\
 pinId: Rotation\
 dataType: vector3\
 pinId: Duration in Seconds\
 dataType: number\
-MinRange: 0 pinId: Movement Curve\
+MinRange: 0
+pinId: Movement Curve\
 dataType: curve\_built\_in\
 settings: defaultValue: String: CURVE\_BUILT\_IN.None
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Objects\_Transform\\
 
@@ -2420,17 +2771,20 @@ Movement Curve
 
 ### Input Pins
 
-dataType: execute pinId: Object\
+dataType: execute
+pinId: Object\
 pinId: Destination Object\
 pinId: Duration in Seconds\
 dataType: number\
-MinRange: 0 pinId: Movement Curve\
+MinRange: 0
+pinId: Movement Curve\
 dataType: curve\_built\_in
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Objects\_Transform\\
 
@@ -2447,7 +2801,8 @@ RequiredProperties: Player
 
 ### Input Pins
 
-dataType: execute pinId: Player\
+dataType: execute
+pinId: Player\
 pinId: Enabled\
 dataType: bool\
 settings: defaultValue: Bool: true
@@ -2455,7 +2810,8 @@ settings: defaultValue: Bool: true
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Inventory\\
 
@@ -2473,7 +2829,8 @@ Rounds
 
 ### Input Pins
 
-dataType: execute pinId: Weapon\
+dataType: execute
+pinId: Weapon\
 pinId: Rounds\
 dataType: number\
 MinRange: 0\
@@ -2482,7 +2839,8 @@ Step: 1
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -2500,7 +2858,8 @@ Magazine Rounds
 
 ### Input Pins
 
-dataType: execute pinId: Weapon\
+dataType: execute
+pinId: Weapon\
 pinId: Magazine Rounds\
 dataType: number\
 MinRange: 0\
@@ -2509,7 +2868,8 @@ Step: 1
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -2527,7 +2887,8 @@ Percent
 
 ### Input Pins
 
-dataType: execute pinId: Weapon\
+dataType: execute
+pinId: Weapon\
 pinId: Percent\
 dataType: number\
 MinRange: 0\
@@ -2537,7 +2898,8 @@ Step: 1
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Unused\\
 
@@ -2555,7 +2917,8 @@ Audio Zone Effect
 
 ### Input Pins
 
-dataType: execute pinId: Monitor\
+dataType: execute
+pinId: Monitor\
 dataType: area\_monitor\
 pinId: Audio Zone Effect\
 dataType: forge\_audio\_zone\_effect
@@ -2563,7 +2926,8 @@ dataType: forge\_audio\_zone\_effect
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Audio\\
 
@@ -2580,13 +2944,15 @@ RequiredProperties: Monitor
 
 ### Input Pins
 
-dataType: execute pinId: Monitor\
+dataType: execute
+pinId: Monitor\
 dataType: area\_monitor
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Audio\\
 
@@ -2603,12 +2969,14 @@ RequiredProperties: Zone
 
 ### Input Pins
 
-dataType: execute pinId: Zone
+dataType: execute
+pinId: Zone
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Generic\_Objectives\\
 
@@ -2625,12 +2993,14 @@ RequiredProperties: Zone
 
 ### Input Pins
 
-dataType: execute pinId: Zone
+dataType: execute
+pinId: Zone
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Generic\_Objectives\\
 
@@ -2647,7 +3017,8 @@ RequiredProperties: Identifier
 
 ### Input Pins
 
-dataType: execute pinId: Identifier\
+dataType: execute
+pinId: Identifier\
 dataType: identifier\
 pinId: Start Immediately\
 dataType: bool\
@@ -2656,7 +3027,8 @@ settings: defaultValue: Bool: false
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Stopwatches\\
 
@@ -2673,13 +3045,15 @@ RequiredProperties: Identifier
 
 ### Input Pins
 
-dataType: execute pinId: Identifier\
+dataType: execute
+pinId: Identifier\
 dataType: identifier
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Stopwatches\\
 
@@ -2696,13 +3070,15 @@ RequiredProperties: Identifier
 
 ### Input Pins
 
-dataType: execute pinId: Identifier\
+dataType: execute
+pinId: Identifier\
 dataType: identifier
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Stopwatches\\
 
@@ -2719,13 +3095,15 @@ RequiredProperties: Identifier
 
 ### Input Pins
 
-dataType: execute pinId: Identifier\
+dataType: execute
+pinId: Identifier\
 dataType: identifier
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Stopwatches\\
 
@@ -2742,13 +3120,15 @@ RequiredProperties: Identifier
 
 ### Input Pins
 
-dataType: execute pinId: Identifier\
+dataType: execute
+pinId: Identifier\
 dataType: identifier
 
 ### Output Pins
 
 pinId: ActionComplete\
-dataType: execute userData:
+dataType: execute
+userData:
 
 #### Node Category: Stopwatches\\
 
