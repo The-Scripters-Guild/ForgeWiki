@@ -2457,9 +2457,16 @@ dataType: execute
 
 <details>
 
-<summary>Clear Splash for All PlayersOutput PinspinId: ActionComplete<br>dataType: executeEditor SettingsNode Category: Unused</summary>
+<summary>Clear Splash for All Players</summary>
 
+### Output Pins
 
+pinId: ActionComplete\
+dataType: execute
+
+#### Editor Settings
+
+Node Category: Unused
 
 </details>
 
@@ -3092,9 +3099,21 @@ dataType: execute
 
 <details>
 
-<summary>Override Loadouts For All PlayersInput PinspinId: ActionStart<br>dataType: executeOutput PinspinId: ActionComplete<br>dataType: executeEditor SettingsNode Category: Unused</summary>
+<summary>Override Loadouts For All Players</summary>
 
+### Input Pins
 
+pinId: ActionStart\
+dataType: execute
+
+### Output Pins
+
+pinId: ActionComplete\
+dataType: execute
+
+#### Editor Settings
+
+Node Category: Unused
 
 </details>
 
@@ -3573,9 +3592,21 @@ dataType: execute
 
 <details>
 
-<summary>Remove All Bots From MatchInput PinspinId: ActionStart<br>dataType: executeOutput PinspinId: ActionComplete<br>dataType: executeEditor SettingsNode Category: Bots</summary>
+<summary>Remove All Bots From Match</summary>
 
+### Input Pins
 
+pinId: ActionStart\
+dataType: execute
+
+### Output Pins
+
+pinId: ActionComplete\
+dataType: execute
+
+#### Editor Settings
+
+Node Category: Bots
 
 </details>
 
