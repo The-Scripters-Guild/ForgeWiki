@@ -892,7 +892,7 @@ userData:
 </details>
 
 <details>
-<summary>Slayer Parcel\ Declaration\ GameMode
+<summary>Slayer Parcel\ Declaration\ GameMode</summary>
 
 ### Output Pins
 
