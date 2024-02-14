@@ -7,7 +7,8 @@
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Identifier\
+RequiredProperties:\
+Identifier\
 Scope
 
 pinId: Identifier\
@@ -31,7 +32,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\_Variables\\
+### Node Category: Unused\_AIToolkit\_Variables\\
 
 </details>
 
@@ -42,7 +43,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Identifier\
+RequiredProperties:\
+Identifier\
 Scope
 
 pinId: Identifier\
@@ -71,7 +73,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\_Variables\\
+### Node Category: Unused\_AIToolkit\_Variables\\
 
 </details>
 
@@ -82,7 +84,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Identifier\
+RequiredProperties:\
+Identifier\
 Scope
 
 pinId: ActionStart\
@@ -119,7 +122,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\_Variables\\
+### Node Category: Unused\_AIToolkit\_Variables\\
 
 </details>
 
@@ -130,7 +133,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Identifier\
+RequiredProperties:\
+Identifier\
 Scope
 
 pinId: Identifier\
@@ -154,7 +158,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\_Variables\\
+### Node Category: Unused\_AIToolkit\_Variables\\
 
 </details>
 
@@ -165,7 +169,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Identifier\
+RequiredProperties:\
+Identifier\
 Scope
 
 pinId: Identifier\
@@ -194,7 +199,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\_Variables\\
+### Node Category: Unused\_AIToolkit\_Variables\\
 
 </details>
 
@@ -205,7 +210,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Identifier\
+RequiredProperties:\
+Identifier\
 Scope
 
 pinId: ActionStart\
@@ -242,7 +248,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\_Variables\\
+### Node Category: Unused\_AIToolkit\_Variables\\
 
 </details>
 
@@ -253,7 +259,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Area Object\
+RequiredProperties:\
+Area Object\
 Identifier
 
 pinId: ActionStart\
@@ -278,7 +285,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -289,7 +296,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Squad\
+RequiredProperties:\
+Squad\
 Player
 
 pinId: ActionStart\
@@ -344,7 +352,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -355,7 +363,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Object\
+RequiredProperties:\
+Object\
 Squad
 
 pinId: ActionStart\
@@ -410,7 +419,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -421,7 +430,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Squad\
+RequiredProperties:\
+Squad\
 Position
 
 pinId: ActionStart\
@@ -456,7 +466,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -467,7 +477,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: SquadSpawnDefinition
+RequiredProperties:\
+SquadSpawnDefinition
 
 pinId: ActionStart\
 dataType: execute
@@ -492,7 +503,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -503,7 +514,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Squad\
+RequiredProperties:\
+Squad\
 Encounter
 
 pinId: ActionStart\
@@ -528,7 +540,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -539,7 +551,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Target
+RequiredProperties:\
+Target
 
 pinId: ActionStart\
 dataType: execute
@@ -580,183 +593,700 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
 <details>
 
-<summary>Brute GeneralpinId: Character Type<br>dataType: ai_brute_character_type<br>defaultValue: String: AICharacterTypeIdTable.brute_minorEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: brute<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
+<summary>Brute General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_brute_character_type\
+defaultValue: String: AICharacterTypeIdTable.brute_minor
+#### Editor Settings\
 
-</details>
+### Output Pins
 
-<details>
+pinId: Character Specification\
+dataType: character_specification\
+labels: brute\
+userData:\
 
-<summary>Brute Officer GeneralpinId: Character Type<br>dataType: ai_brute_officer_character_type<br>defaultValue: String: AICharacterTypeIdTable.brute_captainEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: brute_officer<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
+#### Editor Settings
 
-
-
-</details>
-
-<details>
-
-<summary>Brute Chieftain GeneralpinId: Character Type<br>dataType: ai_brute_chieftain_character_type<br>defaultValue: String: AICharacterTypeIdTable.brute_chieftanEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: brute_chieftain<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Grunt GeneralpinId: Character Type<br>dataType: ai_grunt_character_type<br>defaultValue: String: AICharacterTypeIdTable.grunt_conscript_aEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: grunt<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
-
-
+### Node Category: Unused_AIToolkit_Characters\
 
 </details>
 
 <details>
 
-<summary>Elite GeneralpinId: Character Type<br>dataType: ai_elite_character_type<br>defaultValue: String: AICharacterTypeIdTable.elite_mercenaryEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: elite<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
+<summary>Brute Officer General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_brute_officer_character_type\
+defaultValue: String: AICharacterTypeIdTable.brute_captain
+#### Editor Settings\
 
-</details>
+### Output Pins
 
-<details>
+pinId: Character Specification\
+dataType: character_specification\
+labels: brute_officer\
+userData:\
 
-<summary>Hunter GeneralpinId: Character Type<br>dataType: ai_hunter_character_type<br>defaultValue: String: AICharacterTypeIdTable.hunterEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: hunter<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
+#### Editor Settings
 
-
-
-</details>
-
-<details>
-
-<summary>Jackal GeneralpinId: Character Type<br>dataType: ai_jackal_character_type<br>defaultValue: String: AICharacterTypeIdTable.jackal_freebooterEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: jackal<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Marine GeneralpinId: Character Type<br>dataType: ai_marine_character_type<br>defaultValue: String: AICharacterTypeIdTable.marine_assaultEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: marine<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
-
-
+### Node Category: Unused_AIToolkit_Characters\
 
 </details>
 
 <details>
 
-<summary>Skimmer GeneralpinId: Character Type<br>dataType: ai_skimmer_character_type<br>defaultValue: String: AICharacterTypeIdTable.skimmerEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: skimmer<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
+<summary>Brute Chieftain General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_brute_chieftain_character_type\
+defaultValue: String: AICharacterTypeIdTable.brute_chieftan
+#### Editor Settings\
 
-</details>
+### Output Pins
 
-<details>
+pinId: Character Specification\
+dataType: character_specification\
+labels: brute_chieftain\
+userData:\
 
-<summary>Sentinel Boss GeneralpinId: Character Type<br>dataType: ai_sentinel_boss_character_type<br>defaultValue: String: AICharacterTypeIdTable.adjutant_resolution_spireEditor SettingsOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: sentinel_boss<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
+#### Editor Settings
 
-
-
-</details>
-
-<details>
-
-<summary>Harbinger GeneralOutput PinspinId: Character Specification<br>dataType: character_specification<br>labels: inquisitor<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Characters\</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Characters For Squad GeneralpinId: Entry1<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Squad Specification<br>dataType: squad_specification<br>labels: character_group<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
-
-
+### Node Category: Unused_AIToolkit_Characters\
 
 </details>
 
 <details>
 
-<summary>Characters For Drop Pods GeneralpinId: Entry1<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Squad Specification<br>dataType: squad_specification<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Grunt General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_grunt_character_type\
+defaultValue: String: AICharacterTypeIdTable.grunt_conscript_a
+#### Editor Settings\
 
-</details>
+### Output Pins
 
-<details>
+pinId: Character Specification\
+dataType: character_specification\
+labels: grunt\
+userData:\
 
-<summary>General Characters For Phantom GeneralpinId: Entry1<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Squad Specification<br>dataType: squad_specification<br>labels: phantom_general_passenger_group<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+#### Editor Settings
 
-
-
-</details>
-
-<details>
-
-<summary>Large Characters For Phantom GeneralpinId: Entry1<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Phantom Large Passengers<br>dataType: squad_specification<br>labels: phantom_general_passenger_group<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Characters Groups For Phantom GeneralpinId: Entry1<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Phantom Passengers<br>dataType: squad_specification<br>labels: phantom_full_passenger_group<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
-
-
+### Node Category: Unused_AIToolkit_Characters\
 
 </details>
 
 <details>
 
-<summary>Vehicle Cargo For Phantom GeneralpinId: Large Cargo<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingspinId: Small Cargo 1<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingspinId: Small Cargo 2<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Phantom Vehicle Cargo<br>dataType: squad_specification<br>labels: phantom_vehicle_cargo_group<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Elite General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_elite_character_type\
+defaultValue: String: AICharacterTypeIdTable.elite_mercenary
+#### Editor Settings\
 
-</details>
+### Output Pins
 
-<details>
+pinId: Character Specification\
+dataType: character_specification\
+labels: elite\
+userData:\
 
-<summary>Loadout For Phantom GeneralpinId: Phantom Passengers<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Phantom Vehicle Cargo<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Phantom Passengers Out<br>dataType: squad_specification<br>labels: phantom_full_loadout<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+#### Editor Settings
 
-
-
-</details>
-
-<details>
-
-<summary>Ghost GeneralpinId: Driver<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Config<br>dataType: number<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Vehicle Specification Entry<br>dataType: vehicle_specification<br>labels: small_vehicle<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Vehicles\</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Wraith GeneralpinId: Driver<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Gunner<br>dataType: character_specification<br>defaultValue: String: nilEditor SettingspinId: Config<br>dataType: number<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Vehicle Specification Entry<br>dataType: vehicle_specification<br>labels: large_vehicle<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit_Vehicles\</summary>
-
-
+### Node Category: Unused_AIToolkit_Characters\
 
 </details>
 
 <details>
 
-<summary>Vehicles For Squad GeneralpinId: Entry1<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: vehicle_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Squad Specification<br>dataType: squad_specification<br>labels: vehicle_group<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Hunter General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_hunter_character_type\
+defaultValue: String: AICharacterTypeIdTable.hunter
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Character Specification\
+dataType: character_specification\
+labels: hunter\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Characters\
 
 </details>
 
 <details>
 
-<summary>Merge Squad Specifications GeneralpinId: Entry1<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Entry2<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Entry3<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingspinId: Entry4<br>dataType: squad_specification<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Squad Specification<br>dataType: squad_specification<br>labels: full_squad_specification<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Jackal General</summary>
 
+### Input Pins
 
+pinId: Character Type\
+dataType: ai_jackal_character_type\
+defaultValue: String: AICharacterTypeIdTable.jackal_freebooter
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Character Specification\
+dataType: character_specification\
+labels: jackal\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Characters\
+
+</details>
+
+<details>
+
+<summary>Marine General</summary>
+
+### Input Pins
+
+pinId: Character Type\
+dataType: ai_marine_character_type\
+defaultValue: String: AICharacterTypeIdTable.marine_assault
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Character Specification\
+dataType: character_specification\
+labels: marine\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Characters\
+
+</details>
+
+<details>
+
+<summary>Skimmer General</summary>
+
+### Input Pins
+
+pinId: Character Type\
+dataType: ai_skimmer_character_type\
+defaultValue: String: AICharacterTypeIdTable.skimmer
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Character Specification\
+dataType: character_specification\
+labels: skimmer\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Characters\
+
+</details>
+
+<details>
+
+<summary>Sentinel Boss General</summary>
+
+### Input Pins
+
+pinId: Character Type\
+dataType: ai_sentinel_boss_character_type\
+defaultValue: String: AICharacterTypeIdTable.adjutant_resolution_spire
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Character Specification\
+dataType: character_specification\
+labels: sentinel_boss\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Characters\
+
+</details>
+
+<details>
+
+<summary>Harbinger General</summary>
+
+### Output Pins
+
+pinId: Character Specification\
+dataType: character_specification\
+labels: inquisitor\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Characters\
+
+</details>
+
+<details>
+
+<summary>Characters For Squad General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Squad Specification\
+dataType: squad_specification\
+labels: character_group\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Characters For Drop Pods General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Squad Specification\
+dataType: squad_specification\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>General Characters For Phantom General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Squad Specification\
+dataType: squad_specification\
+labels: phantom_general_passenger_group\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Large Characters For Phantom General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Phantom Large Passengers\
+dataType: squad_specification\
+labels: phantom_general_passenger_group\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Characters Groups For Phantom General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Phantom Passengers\
+dataType: squad_specification\
+labels: phantom_full_passenger_group\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Vehicle Cargo For Phantom General</summary>
+
+### Input Pins
+
+pinId: Large Cargo\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Small Cargo 1\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Small Cargo 2\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Phantom Vehicle Cargo\
+dataType: squad_specification\
+labels: phantom_vehicle_cargo_group\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Loadout For Phantom General</summary>
+
+### Input Pins
+
+pinId: Phantom Passengers\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Phantom Vehicle Cargo\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Phantom Passengers Out\
+dataType: squad_specification\
+labels: phantom_full_loadout\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Ghost General</summary>
+
+### Input Pins
+
+pinId: Driver\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Config\
+dataType: number\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Vehicle Specification Entry\
+dataType: vehicle_specification\
+labels: small_vehicle\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Vehicles\
+
+</details>
+
+<details>
+
+<summary>Wraith General</summary>
+
+### Input Pins
+
+pinId: Driver\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Gunner\
+dataType: character_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Config\
+dataType: number\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Vehicle Specification Entry\
+dataType: vehicle_specification\
+labels: large_vehicle\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit_Vehicles\
+
+</details>
+
+<details>
+
+<summary>Vehicles For Squad General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: vehicle_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Squad Specification\
+dataType: squad_specification\
+labels: vehicle_group\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
+
+</details>
+
+<details>
+
+<summary>Merge Squad Specifications General</summary>
+
+### Input Pins
+
+pinId: Entry1\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry2\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry3\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Entry4\
+dataType: squad_specification\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Squad Specification\
+dataType: squad_specification\
+labels: full_squad_specification\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
@@ -767,7 +1297,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Encounter\
+RequiredProperties:\
+Encounter\
 Team\
 Squad Specification
 
@@ -802,15 +1333,36 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
 <details>
 
-<summary>Drop Pod Spawn Settings GeneralpinId: Spawn Time Window<br>dataType: number<br>defaultValue: Float: 3.0Editor SettingspinId: Spawn Overrides<br>dataType: spawn_overrides<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Drop Pod Spawn Settings<br>dataType: drop_pod_spawn_settings<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Drop Pod Spawn Settings General</summary>
 
+### Input Pins
 
+pinId: Spawn Time Window\
+dataType: number\
+defaultValue: Float: 3.0
+#### Editor Settings
+
+pinId: Spawn Overrides\
+dataType: spawn_overrides\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Drop Pod Spawn Settings\
+dataType: drop_pod_spawn_settings\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
@@ -821,7 +1373,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Encounter\
+RequiredProperties:\
+Encounter\
 Team\
 Squad Specification\
 Drop Pod Spawn Settings
@@ -856,7 +1409,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -867,7 +1420,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Encounter\
+RequiredProperties:\
+Encounter\
 Team\
 Squad Specification\
 Phantom Air Drop Settings
@@ -902,7 +1456,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -913,7 +1467,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Location
+RequiredProperties:\
+Location
 
 pinId: Location\
 dataType: object
@@ -948,31 +1503,118 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
 <details>
 
-<summary>Phantom Air Drop Drop Modifiers GeneralpinId: Initial Combat State<br>dataType: actor_basic_combat_status<br>defaultValue: String: nilEditor SettingspinId: Passenger Seat Preference<br>dataType: air_drop_passenger_seat_preference<br>defaultValue: Enumerable: PASSENGER_SEAT_PREFERENCE.BothEditor SettingspinId: Passenger Drop Height<br>dataType: number<br>defaultValue: Float: 2.0Editor SettingspinId: Vehicle Drop Height<br>dataType: number<br>defaultValue: Float: 2.0Editor SettingsOutput PinspinId: Phantom Air Drop Drop Modifiers<br>dataType: phantom_air_drop_drop_modifiers<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Phantom Air Drop Drop Modifiers General</summary>
 
+### Input Pins
 
+pinId: Initial Combat State\
+dataType: actor_basic_combat_status\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Passenger Seat Preference\
+dataType: air_drop_passenger_seat_preference\
+defaultValue: Enumerable: PASSENGER_SEAT_PREFERENCE.Both
+#### Editor Settings
+
+pinId: Passenger Drop Height\
+dataType: number\
+defaultValue: Float: 2.0
+#### Editor Settings
+
+pinId: Vehicle Drop Height\
+dataType: number\
+defaultValue: Float: 2.0
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Phantom Air Drop Drop Modifiers\
+dataType: phantom_air_drop_drop_modifiers\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
 <details>
 
-<summary>Phantom Air Drop Ship Modifiers GeneralpinId: Chin Gun Present<br>dataType: bool<br>defaultValue: Bool: trueEditor SettingspinId: Side Gunner Type<br>dataType: phantom_side_gunner<br>defaultValue: String: nilEditor SettingspinId: Attack After Drop Duration<br>dataType: number<br>defaultValue: Float: 0.0Editor SettingsOutput PinspinId: Phantom Air Drop Ship Modifiers<br>dataType: phantom_air_drop_ship_modifiers<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Phantom Air Drop Ship Modifiers General</summary>
 
+### Input Pins
 
+pinId: Chin Gun Present\
+dataType: bool\
+defaultValue: Bool: true
+#### Editor Settings
+
+pinId: Side Gunner Type\
+dataType: phantom_side_gunner\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Attack After Drop Duration\
+dataType: number\
+defaultValue: Float: 0.0
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Phantom Air Drop Ship Modifiers\
+dataType: phantom_air_drop_ship_modifiers\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
 <details>
 
-<summary>Spawn Behavior Overrides GeneralpinId: Braindead<br>dataType: bool<br>defaultValue: Bool: falseEditor SettingspinId: Blind<br>dataType: bool<br>defaultValue: Bool: falseEditor SettingspinId: Deaf<br>dataType: bool<br>defaultValue: Bool: falseEditor SettingspinId: Magic Sight<br>dataType: bool<br>defaultValue: Bool: falseEditor SettingsOutput PinspinId: Spawn Behavior Overrides<br>dataType: spawn_behavior_overrides<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Spawn Behavior Overrides General</summary>
 
+### Input Pins
 
+pinId: Braindead\
+dataType: bool\
+defaultValue: Bool: false
+#### Editor Settings
+
+pinId: Blind\
+dataType: bool\
+defaultValue: Bool: false
+#### Editor Settings
+
+pinId: Deaf\
+dataType: bool\
+defaultValue: Bool: false
+#### Editor Settings
+
+pinId: Magic Sight\
+dataType: bool\
+defaultValue: Bool: false
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Spawn Behavior Overrides\
+dataType: spawn_behavior_overrides\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
@@ -983,7 +1625,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Location
+RequiredProperties:\
+Location
 
 pinId: Location\
 dataType: object
@@ -1006,7 +1649,7 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
@@ -1017,7 +1660,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Area Object
+RequiredProperties:\
+Area Object
 
 pinId: Area Object\
 dataType: object
@@ -1034,23 +1678,99 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
 <details>
 
-<summary>Spawn Overrides GeneralpinId: Initial Combat State<br>dataType: actor_basic_combat_status<br>defaultValue: String: nilEditor SettingspinId: Initial Facing<br>dataType: number<br>defaultValue: String: nilEditor SettingspinId: Spawn Location Override<br>dataType: spawn_location_override<br>defaultValue: String: nilEditor SettingspinId: Spawn Behavior Overrides<br>dataType: spawn_behavior_overrides<br>defaultValue: String: nilEditor SettingsOutput PinspinId: Spawn Overrides<br>dataType: spawn_overrides<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Spawn Overrides General</summary>
 
+### Input Pins
 
+pinId: Initial Combat State\
+dataType: actor_basic_combat_status\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Initial Facing\
+dataType: number\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Spawn Location Override\
+dataType: spawn_location_override\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Spawn Behavior Overrides\
+dataType: spawn_behavior_overrides\
+defaultValue: String: nil
+
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Spawn Overrides\
+dataType: spawn_overrides\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
 <details>
 
-<summary>Targetable Object Overrides GeneralpinId: Vehicle Targetable<br>dataType: bool<br>defaultValue: String: nilEditor SettingspinId: Grenade Targetable<br>dataType: bool<br>defaultValue: String: nilEditor SettingspinId: Minimum Range<br>dataType: number<br>defaultValue: String: nilEditor SettingsMinRange: 0.0<br>MaxRange: 20.0<br>Step: 0.5Editor SettingspinId: Maximum Range<br>dataType: number<br>defaultValue: String: nilEditor SettingsMinRange: 0.0<br>MaxRange: 20.0<br>Step: 0.5Editor SettingsOutput PinspinId: Targetable Object Overrides<br>dataType: targetable_object_overrides<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Targetable Object Overrides General</summary>
 
+### Input Pins
 
+pinId: Vehicle Targetable\
+dataType: bool\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Grenade Targetable\
+dataType: bool\
+defaultValue: String: nil
+
+#### Editor Settings
+
+pinId: Minimum Range\
+dataType: number\
+defaultValue: String: nil
+
+#### Editor Settings\
+MinRange: 0.0\
+MaxRange: 20.0\
+Step: 0.5
+#### Editor Settings
+
+pinId: Maximum Range\
+dataType: number\
+defaultValue: String: nil
+
+#### Editor Settings\
+MinRange: 0.0\
+MaxRange: 20.0\
+Step: 0.5
+#### Editor Settings\
+
+### Output Pins
+
+pinId: Targetable Object Overrides\
+dataType: targetable_object_overrides\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
@@ -1061,7 +1781,8 @@ userData:
 ### Node Rules
 
 ruleID: RequiredNodeInput\
-RequiredProperties: Object
+RequiredProperties:\
+Object
 
 pinId: Object\
 dataType: object
@@ -1078,30 +1799,54 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\_AIToolkit\\
+### Node Category: Unused\_AIToolkit\\
 
 </details>
 
 <details>
 
-<summary>Get Current AI Targetable Object Count GeneralOutput PinspinId: Count<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Get Current AI Targetable Object Count General</summary>
 
+### Output Pins
 
+pinId: Count\
+dataType: number\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
 <details>
 
-<summary>Max AI Targetable Objects GeneralOutput PinspinId: Count<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Max AI Targetable Objects General</summary>
 
+### Output Pins
 
+pinId: Count\
+dataType: number\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
 
 <details>
 
-<summary>Get AI Targetable Objects GeneralOutput PinspinId: Count<br>dataType: object_list<br>userData:Editor SettingsEditor SettingsNode Category: Unused_AIToolkit\</summary>
+<summary>Get AI Targetable Objects General</summary>
 
+### Output Pins
 
+pinId: Count\
+dataType: object_list\
+userData:\
+
+#### Editor Settings
+
+### Node Category: Unused_AIToolkit\
 
 </details>
