@@ -13,24 +13,20 @@ Scope
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Initial Value\
 dataType: encounter
-
-#### Editor Settings
+Editor Settings:
 
 defaultValue: String: nil
 
 pinId: Scope\
 dataType: forge\_variable\_scope
-
-#### Editor Settings
+Editor Settings:
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\_Variables\\
 
@@ -49,29 +45,24 @@ Scope
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Scope\
 dataType: forge\_variable\_scope
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Object\
 dataType: object\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: Out\
 dataType: encounter\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\_Variables\\
 
@@ -93,25 +84,21 @@ dataType: execute
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Value\
 dataType: encounter\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Scope\
 dataType: forge\_variable\_scope
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Object\
 dataType: object\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -119,8 +106,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\_Variables\\
 
@@ -139,24 +125,20 @@ Scope
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Initial Value\
 dataType: squad\_specification
-
-#### Editor Settings
+Editor Settings:
 
 defaultValue: String: nil
 
 pinId: Scope\
 dataType: forge\_variable\_scope
-
-#### Editor Settings
+Editor Settings:
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\_Variables\\
 
@@ -175,29 +157,24 @@ Scope
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Scope\
 dataType: forge\_variable\_scope
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Object\
 dataType: object\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: Out\
 dataType: squad\_specification\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\_Variables\\
 
@@ -219,25 +196,21 @@ dataType: execute
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Value\
 dataType: squad\_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Scope\
 dataType: forge\_variable\_scope
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Object\
 dataType: object\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -245,8 +218,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\_Variables\\
 
@@ -268,13 +240,11 @@ dataType: execute
 
 pinId: Area Object\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Identifier\
 dataType: identifier
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -282,8 +252,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -305,13 +274,11 @@ dataType: execute
 
 pinId: Squad\
 dataType: ai\_squad
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Player\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 properties: propertyName: Radius\
 dataType: number\
@@ -320,8 +287,7 @@ defaultValue: Float: 50.0
 MinRange: 10.0\
 MaxRange: 100.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 propertyName: Refresh Distance\
 dataType: number\
@@ -330,8 +296,7 @@ defaultValue: Float: 30.0
 MinRange: 10.0\
 MaxRange: 100.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 propertyName: Refresh Time\
 dataType: number\
@@ -340,8 +305,7 @@ defaultValue: Float: 5.0
 MinRange: 1.0\
 MaxRange: 30.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -349,8 +313,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -372,13 +335,11 @@ dataType: execute
 
 pinId: Squad\
 dataType: ai\_squad
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Object\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 properties: propertyName: Radius\
 dataType: number\
@@ -387,8 +348,7 @@ defaultValue: Float: 50.0
 MinRange: 10.0\
 MaxRange: 100.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 propertyName: Refresh Distance\
 dataType: number\
@@ -397,8 +357,7 @@ defaultValue: Float: 30.0
 MinRange: 10.0\
 MaxRange: 100.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 propertyName: Refresh Time\
 dataType: number\
@@ -407,8 +366,7 @@ defaultValue: Float: 5.0
 MinRange: 1.0\
 MaxRange: 30.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -416,8 +374,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -439,13 +396,11 @@ dataType: execute
 
 pinId: Squad\
 dataType: ai\_squad
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Position\
 dataType: vector3
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Radius\
 dataType: number\
@@ -454,8 +409,7 @@ defaultValue: Float: 50.0
 MinRange: 10.0\
 MaxRange: 100.0\
 Step: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -463,8 +417,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -485,14 +438,12 @@ dataType: execute
 
 pinId: SquadSpawnDefinition\
 dataType: ai\_squad\_definition
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Identifier\
 dataType: identifier\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -500,8 +451,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -523,13 +473,11 @@ dataType: execute
 
 pinId: Squad\
 dataType: ai\_squad
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Encounter\
 dataType: encounter
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -537,8 +485,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -559,20 +506,17 @@ dataType: execute
 
 pinId: Target\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Team\
 dataType: team\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Bias\
 dataType: number\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 MinRange: -1.0\
 MaxRange: 1.0\
@@ -581,8 +525,7 @@ Step: 0.1
 pinId: Targetable Object Overrides\
 dataType: targetable\_object\_overrides\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
@@ -590,8 +533,7 @@ pinId: ActionComplete\
 dataType: execute
 
 userData:
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -606,7 +548,7 @@ userData:
 pinId: Character Type\
 dataType: ai_brute_character_type\
 defaultValue: String: AICharacterTypeIdTable.brute_minor
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -614,8 +556,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: brute\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -630,7 +571,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_brute_officer_character_type\
 defaultValue: String: AICharacterTypeIdTable.brute_captain
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -638,8 +579,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: brute_officer\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -654,7 +594,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_brute_chieftain_character_type\
 defaultValue: String: AICharacterTypeIdTable.brute_chieftan
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -662,8 +602,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: brute_chieftain\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -678,7 +617,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_grunt_character_type\
 defaultValue: String: AICharacterTypeIdTable.grunt_conscript_a
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -686,8 +625,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: grunt\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -702,7 +640,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_elite_character_type\
 defaultValue: String: AICharacterTypeIdTable.elite_mercenary
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -710,8 +648,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: elite\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -726,7 +663,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_hunter_character_type\
 defaultValue: String: AICharacterTypeIdTable.hunter
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -734,8 +671,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: hunter\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -750,7 +686,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_jackal_character_type\
 defaultValue: String: AICharacterTypeIdTable.jackal_freebooter
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -758,8 +694,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: jackal\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -774,7 +709,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_marine_character_type\
 defaultValue: String: AICharacterTypeIdTable.marine_assault
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -782,8 +717,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: marine\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -798,7 +732,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_skimmer_character_type\
 defaultValue: String: AICharacterTypeIdTable.skimmer
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -806,8 +740,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: skimmer\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -822,7 +755,7 @@ userData:\
 pinId: Character Type\
 dataType: ai_sentinel_boss_character_type\
 defaultValue: String: AICharacterTypeIdTable.adjutant_resolution_spire
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -830,8 +763,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: sentinel_boss\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -847,8 +779,7 @@ pinId: Character Specification\
 dataType: character_specification\
 labels: inquisitor\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Characters\
 
@@ -863,26 +794,22 @@ userData:\
 pinId: Entry1\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -890,8 +817,7 @@ pinId: Squad Specification\
 dataType: squad_specification\
 labels: character_group\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -906,34 +832,29 @@ userData:\
 pinId: Entry1\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Squad Specification\
 dataType: squad_specification\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -948,26 +869,22 @@ userData:\
 pinId: Entry1\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -975,8 +892,7 @@ pinId: Squad Specification\
 dataType: squad_specification\
 labels: phantom_general_passenger_group\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -991,26 +907,22 @@ userData:\
 pinId: Entry1\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1018,8 +930,7 @@ pinId: Phantom Large Passengers\
 dataType: squad_specification\
 labels: phantom_general_passenger_group\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1034,26 +945,22 @@ userData:\
 pinId: Entry1\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1061,8 +968,7 @@ pinId: Phantom Passengers\
 dataType: squad_specification\
 labels: phantom_full_passenger_group\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1077,20 +983,17 @@ userData:\
 pinId: Large Cargo\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Small Cargo 1\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Small Cargo 2\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1098,8 +1001,7 @@ pinId: Phantom Vehicle Cargo\
 dataType: squad_specification\
 labels: phantom_vehicle_cargo_group\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1114,14 +1016,12 @@ userData:\
 pinId: Phantom Passengers\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Phantom Vehicle Cargo\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1129,8 +1029,7 @@ pinId: Phantom Passengers Out\
 dataType: squad_specification\
 labels: phantom_full_loadout\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1145,14 +1044,12 @@ userData:\
 pinId: Driver\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Config\
 dataType: number\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1160,8 +1057,7 @@ pinId: Vehicle Specification Entry\
 dataType: vehicle_specification\
 labels: small_vehicle\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Vehicles\
 
@@ -1176,20 +1072,17 @@ userData:\
 pinId: Driver\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Gunner\
 dataType: character_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Config\
 dataType: number\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1197,8 +1090,7 @@ pinId: Vehicle Specification Entry\
 dataType: vehicle_specification\
 labels: large_vehicle\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit_Vehicles\
 
@@ -1213,26 +1105,22 @@ userData:\
 pinId: Entry1\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: vehicle_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1240,8 +1128,7 @@ pinId: Squad Specification\
 dataType: squad_specification\
 labels: vehicle_group\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1256,26 +1143,22 @@ userData:\
 pinId: Entry1\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry2\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry3\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Entry4\
 dataType: squad_specification\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
@@ -1283,8 +1166,7 @@ pinId: Squad Specification\
 dataType: squad_specification\
 labels: full_squad_specification\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1304,34 +1186,28 @@ Squad Specification
 
 pinId: Encounter\
 dataType: encounter
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Team\
 dataType: team
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Squad Specification\
 dataType: squad\_specification
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Spawn Overrides\
 dataType: spawn\_overrides\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: AI Squad Definition\
 dataType: ai\_squad\_definition\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1346,21 +1222,19 @@ userData:
 pinId: Spawn Time Window\
 dataType: number\
 defaultValue: Float: 3.0
-#### Editor Settings
+Editor Settings:
 
 pinId: Spawn Overrides\
 dataType: spawn_overrides\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Drop Pod Spawn Settings\
 dataType: drop_pod_spawn_settings\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1381,33 +1255,27 @@ Drop Pod Spawn Settings
 
 pinId: Encounter\
 dataType: encounter
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Team\
 dataType: team
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Squad Specification\
 dataType: squad\_specification
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Drop Pod Spawn Settings\
 dataType: drop\_pod\_spawn\_settings
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: AI Squad Definition\
 dataType: ai\_squad\_definition\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1428,33 +1296,27 @@ Phantom Air Drop Settings
 
 pinId: Encounter\
 dataType: encounter
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Team\
 dataType: team
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Squad Specification\
 dataType: squad\_specification
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Phantom Air Drop Settings\
 dataType: phantom\_air\_drop\_settings
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: AI Squad Definition\
 dataType: ai\_squad\_definition\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1472,36 +1334,30 @@ Location
 
 pinId: Location\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Phantom Air Drop Ship Modifiers\
 dataType: phantom\_air\_drop\_ship\_modifiers\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Phantom Air Drop Drop Modifiers\
 dataType: phantom\_air\_drop\_drop\_modifiers\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Spawn Behavior Overrides\
 dataType: spawn\_behavior\_overrides\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: Phantom Air Drop Settings\
 dataType: phantom\_air\_drop\_settings\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1516,31 +1372,29 @@ userData:
 pinId: Initial Combat State\
 dataType: actor_basic_combat_status\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Passenger Seat Preference\
 dataType: air_drop_passenger_seat_preference\
 defaultValue: Enumerable: PASSENGER_SEAT_PREFERENCE.Both
-#### Editor Settings
+Editor Settings:
 
 pinId: Passenger Drop Height\
 dataType: number\
 defaultValue: Float: 2.0
-#### Editor Settings
+Editor Settings:
 
 pinId: Vehicle Drop Height\
 dataType: number\
 defaultValue: Float: 2.0
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Phantom Air Drop Drop Modifiers\
 dataType: phantom_air_drop_drop_modifiers\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1555,26 +1409,24 @@ userData:\
 pinId: Chin Gun Present\
 dataType: bool\
 defaultValue: Bool: true
-#### Editor Settings
+Editor Settings:
 
 pinId: Side Gunner Type\
 dataType: phantom_side_gunner\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Attack After Drop Duration\
 dataType: number\
 defaultValue: Float: 0.0
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Phantom Air Drop Ship Modifiers\
 dataType: phantom_air_drop_ship_modifiers\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1589,30 +1441,29 @@ userData:\
 pinId: Braindead\
 dataType: bool\
 defaultValue: Bool: false
-#### Editor Settings
+Editor Settings:
 
 pinId: Blind\
 dataType: bool\
 defaultValue: Bool: false
-#### Editor Settings
+Editor Settings:
 
 pinId: Deaf\
 dataType: bool\
 defaultValue: Bool: false
-#### Editor Settings
+Editor Settings:
 
 pinId: Magic Sight\
 dataType: bool\
 defaultValue: Bool: false
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Spawn Behavior Overrides\
 dataType: spawn_behavior_overrides\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1630,24 +1481,20 @@ Location
 
 pinId: Location\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Radius\
 dataType: number\
 defaultValue: Float: 1.0
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: Spawn Location Override\
 dataType: spawn\_location\_override\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1665,18 +1512,15 @@ Area Object
 
 pinId: Area Object\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: Spawn Location Override\
 dataType: spawn\_location\_override\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1691,34 +1535,29 @@ userData:
 pinId: Initial Combat State\
 dataType: actor_basic_combat_status\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Initial Facing\
 dataType: number\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Spawn Location Override\
 dataType: spawn_location_override\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Spawn Behavior Overrides\
 dataType: spawn_behavior_overrides\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Spawn Overrides\
 dataType: spawn_overrides\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1733,42 +1572,37 @@ userData:\
 pinId: Vehicle Targetable\
 dataType: bool\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Grenade Targetable\
 dataType: bool\
 defaultValue: String: nil
-
-#### Editor Settings
+Editor Settings:
 
 pinId: Minimum Range\
 dataType: number\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 MinRange: 0.0\
 MaxRange: 20.0\
 Step: 0.5
-#### Editor Settings
+Editor Settings:
 
 pinId: Maximum Range\
 dataType: number\
 defaultValue: String: nil
-
-#### Editor Settings\
+Editor Settings:\
 MinRange: 0.0\
 MaxRange: 20.0\
 Step: 0.5
-#### Editor Settings\
+Editor Settings:\
 
 ### Output Pins
 
 pinId: Targetable Object Overrides\
 dataType: targetable_object_overrides\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1786,18 +1620,15 @@ Object
 
 pinId: Object\
 dataType: object
-
-#### Editor Settings
+Editor Settings:
 
 ### Output Pins
 
 pinId: Is Targetable\
 dataType: bool\
 userData:
-
-#### Editor Settings
-
-#### Editor Settings
+Editor Settings:
+Editor Settings:
 
 ### Node Category: Unused\_AIToolkit\\
 
@@ -1812,8 +1643,7 @@ userData:
 pinId: Count\
 dataType: number\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1828,8 +1658,7 @@ userData:\
 pinId: Count\
 dataType: number\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 
@@ -1844,8 +1673,7 @@ userData:\
 pinId: Count\
 dataType: object_list\
 userData:\
-
-#### Editor Settings
+Editor Settings:
 
 ### Node Category: Unused_AIToolkit\
 

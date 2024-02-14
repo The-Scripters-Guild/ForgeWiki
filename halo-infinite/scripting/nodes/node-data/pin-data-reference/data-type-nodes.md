@@ -2,9 +2,11 @@
 
 <details>
 
-<summary>Number LiteralOutput PinspinId: Out<br>dataType: number<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Number Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: number<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -187,9 +189,11 @@ userData:
 
 <details>
 
-<summary>Bool LiteralOutput PinspinId: Out<br>dataType: bool<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Bool Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: bool<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -458,9 +462,15 @@ userData:
 
 <details>
 
-<summary>Object List ReferenceInput PinspinId: Object 1<br>dataType: object\settings:pinId: Object 2<br>dataType: object\settings:pinId: Object 3<br>dataType: object\settings:pinId: Object 4<br>dataType: object\settings:Output PinspinId: Object List<br>dataType: object_list<br>userData:</summary>
+<summary>Object List Reference</summary>
 
+### Input Pins
 
+pinId: Object 1<br>dataType: object\settings:pinId: Object 2<br>dataType: object\settings:pinId: Object 3<br>dataType: object\settings:pinId: Object 4<br>dataType: object\settings:
+
+### Output Pins
+
+pinId: Object List<br>dataType: object_list<br>userData:
 
 </details>
 
@@ -567,9 +577,11 @@ userData:
 
 <details>
 
-<summary>Team LiteralOutput PinspinId: Out<br>dataType: team<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Team Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: team<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -700,9 +712,15 @@ userData:
 
 <details>
 
-<summary>Vector3 LiteralInput PinspinId: X<br>dataType: number<br>MinRange: -1000<br>MaxRange: 1000<br>Step: 0.1\settings: Float: 0pinId: Y<br>dataType: number<br>MinRange: -1000<br>MaxRange: 1000<br>Step: 0.1\settings: Float: 0pinId: Z<br>dataType: number<br>MinRange: -1000<br>MaxRange: 1000<br>Step: 0.1\settings: Float: 0Output PinspinId: Out<br>dataType: vector3<br>userData:</summary>
+<summary>Vector3 Literal</summary>
 
+### Input Pins
 
+pinId: X<br>dataType: number<br>MinRange: -1000<br>MaxRange: 1000<br>Step: 0.1\settings: Float: 0pinId: Y<br>dataType: number<br>MinRange: -1000<br>MaxRange: 1000<br>Step: 0.1\settings: Float: 0pinId: Z<br>dataType: number<br>MinRange: -1000<br>MaxRange: 1000<br>Step: 0.1\settings: Float: 0
+
+### Output Pins
+
+pinId: Out<br>dataType: vector3<br>userData:
 
 </details>
 
@@ -887,17 +905,21 @@ userData:
 
 <details>
 
-<summary>Slayer Parcel\ Declaration\ GameModeOutput PinspinId: Slayer<br>dataType: mode_slayer<br>userData:userData:Node Category: Unused\</summary>
+<summary>Slayer Parcel\ Declaration\ GameMode
 
+### Output Pins
 
+pinId: Slayer<br>dataType: mode_slayer<br>userData:userData:Node Category: Unused\
 
 </details>
 
 <details>
 
-<summary>Grenade Type LiteralOutput PinspinId: Out<br>dataType: grenade_type<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Grenade Type Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: grenade_type<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -1133,9 +1155,11 @@ userData:
 
 <details>
 
-<summary>String LiteralOutput PinspinId: Out<br>dataType: string_id<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>String Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: string_id<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -1242,9 +1266,11 @@ userData:
 
 <details>
 
-<summary>Vehicle Type LiteralOutput PinspinId: Out<br>dataType: vehicle_type<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Vehicle Type Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: vehicle_type<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -1407,9 +1433,11 @@ userData:
 
 <details>
 
-<summary>Weapon Type LiteralOutput PinspinId: Out<br>dataType: weapon_type<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Weapon Type Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: weapon_type<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -1570,9 +1598,11 @@ userData:
 
 <details>
 
-<summary>Identifier LiteralOutput PinspinId: Identifier<br>dataType: identifier<br>userData:IsEditableOutput: truesettings: String:</summary>
+<summary>Identifier Literal</summary>
 
+### Output Pins
 
+pinId: Identifier<br>dataType: identifier<br>userData:IsEditableOutput: truesettings: String:
 
 </details>
 
@@ -1609,9 +1639,11 @@ settings: String:
 
 <details>
 
-<summary>Equipment Type LiteralOutput PinspinId: Out<br>dataType: equipment_type<br>userData:IsEditableOutput: truesettings:</summary>
+<summary>Equipment Type Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: equipment_type<br>userData:IsEditableOutput: truesettings:
 
 </details>
 
@@ -1847,9 +1879,15 @@ userData:
 
 <details>
 
-<summary>Trait List ReferenceInput PinspinId: Trait A<br>dataType: forge_trait\settings:pinId: Trait B<br>dataType: forge_trait\settings:pinId: Trait C<br>dataType: forge_trait\settings:pinId: Trait D<br>dataType: forge_trait\settings:Output PinspinId: Trait List<br>dataType: trait_list<br>userData:Node Category: Players_Traits\</summary>
+<summary>Trait List Reference</summary>
 
+### Input Pins
 
+pinId: Trait A<br>dataType: forge_trait\settings:pinId: Trait B<br>dataType: forge_trait\settings:pinId: Trait C<br>dataType: forge_trait\settings:pinId: Trait D<br>dataType: forge_trait\settings:
+
+### Output Pins
+
+pinId: Trait List<br>dataType: trait_list<br>userData:Node Category: Players_Traits\
 
 </details>
 
@@ -1956,41 +1994,51 @@ userData:
 
 <details>
 
-<summary>Ambition Type Deliver LiteralOutput PinspinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\</summary>
+<summary>Ambition Type Deliver Literal</summary>
 
+### Output Pins
 
-
-</details>
-
-<details>
-
-<summary>Ambition Type Guard LiteralOutput PinspinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\</summary>
-
-
+pinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\
 
 </details>
 
 <details>
 
-<summary>Ambition Type Interact LiteralOutput PinspinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\</summary>
+<summary>Ambition Type Guard Literal</summary>
 
+### Output Pins
 
-
-</details>
-
-<details>
-
-<summary>Ambition Type Pickup LiteralOutput PinspinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\</summary>
-
-
+pinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\
 
 </details>
 
 <details>
 
-<summary>Bot Difficulty LiteralOutput PinspinId: Out<br>dataType: bot_difficulty<br>userData:IsEditableOutput: truesettings:Node Category: Bots\</summary>
+<summary>Ambition Type Interact Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\
+
+</details>
+
+<details>
+
+<summary>Ambition Type Pickup Literal</summary>
+
+### Output Pins
+
+pinId: Out<br>dataType: bot_ambition_type<br>userData:IsEditableOutput: falseNode Category: Unused\
+
+</details>
+
+<details>
+
+<summary>Bot Difficulty Literal</summary>
+
+### Output Pins
+
+pinId: Out<br>dataType: bot_difficulty<br>userData:IsEditableOutput: truesettings:Node Category: Bots\
 
 </details>
 
@@ -2024,81 +2072,101 @@ userData:
 
 <details>
 
-<summary>Megalo Label LiteralOutput PinspinId: Out<br>dataType: megalo_label<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
+<summary>Megalo Label Literal</summary>
 
+### Output Pins
 
-
-</details>
-
-<details>
-
-<summary>Nav Marker Icon LiteralOutput PinspinId: Out<br>dataType: nav_marker_icon<br>IsEditableOutput: truesettings:userData:Node Category: Unused\</summary>
-
-
+pinId: Out<br>dataType: megalo_label<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
 
 </details>
 
 <details>
 
-<summary>Weapon Addition Method LiteralOutput PinspinId: Out<br>dataType: weapon_addition_method<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
+<summary>Nav Marker Icon Literal</summary>
 
+### Output Pins
 
-
-</details>
-
-<details>
-
-<summary>Forge Variable Scope LiteralOutput PinspinId: Out<br>dataType: forge_variable_scope<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
-
-
+pinId: Out<br>dataType: nav_marker_icon<br>IsEditableOutput: truesettings:userData:Node Category: Unused\
 
 </details>
 
 <details>
 
-<summary>Respawn Message LiteralOutput PinspinId: Out<br>dataType: respawn_message<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
+<summary>Weapon Addition Method Literal</summary>
 
+### Output Pins
 
-
-</details>
-
-<details>
-
-<summary>Movement Curve LiteralOutput PinspinId: Out<br>dataType: curve_built_in<br>IsEditableOutput: truesettings: String: CURVE_BUILT_IN.NoneuserData:Node Category: Variables_Enums\</summary>
-
-
+pinId: Out<br>dataType: weapon_addition_method<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
 
 </details>
 
 <details>
 
-<summary>Forge Audio Zone Effect LiteralOutput PinspinId: Out<br>dataType: forge_audio_zone_effect<br>IsEditableOutput: truesettings: Float: 0userData:Node Category: Variables_Enums\</summary>
+<summary>Forge Variable Scope Literal</summary>
 
+### Output Pins
 
-
-</details>
-
-<details>
-
-<summary>Game Mode Label LiteralOutput PinspinId: Out<br>dataType: game_mode_label<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
-
-
+pinId: Out<br>dataType: forge_variable_scope<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
 
 </details>
 
 <details>
 
-<summary>Generic Zone Control State LiteralOutput PinspinId: Out<br>dataType: generic_zone_control_state<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
+<summary>Respawn Message Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: respawn_message<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
 
 </details>
 
 <details>
 
-<summary>User Label LiteralOutput PinspinId: Out<br>dataType: user_label<br>IsEditableOutput: truesettings:userData:</summary>
+<summary>Movement Curve Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: curve_built_in<br>IsEditableOutput: truesettings: String: CURVE_BUILT_IN.NoneuserData:Node Category: Variables_Enums\
+
+</details>
+
+<details>
+
+<summary>Forge Audio Zone Effect Literal</summary>
+
+### Output Pins
+
+pinId: Out<br>dataType: forge_audio_zone_effect<br>IsEditableOutput: truesettings: Float: 0userData:Node Category: Variables_Enums\
+
+</details>
+
+<details>
+
+<summary>Game Mode Label Literal</summary>
+
+### Output Pins
+
+pinId: Out<br>dataType: game_mode_label<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
+
+</details>
+
+<details>
+
+<summary>Generic Zone Control State Literal</summary>
+
+### Output Pins
+
+pinId: Out<br>dataType: generic_zone_control_state<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
+
+</details>
+
+<details>
+
+<summary>User Label Literal</summary>
+
+### Output Pins
+
+pinId: Out<br>dataType: user_label<br>IsEditableOutput: truesettings:userData:
 
 </details>
 
@@ -2536,9 +2604,15 @@ userData:
 
 <details>
 
-<summary>Generic List ReferenceInput PinspinId: Any A<br>dataType: any\settings:pinId: Any B<br>dataType: any\settings:pinId: Any C<br>dataType: any\settings:pinId: Allow Duplicates<br>dataType: bool<br>settings: String: falseOutput PinspinId: Generic List<br>dataType: generic_list<br>userData:Node Category: Generic_Lists\</summary>
+<summary>Generic List Reference</summary>
 
+### Input Pins
 
+pinId: Any A<br>dataType: any\settings:pinId: Any B<br>dataType: any\settings:pinId: Any C<br>dataType: any\settings:pinId: Allow Duplicates<br>dataType: bool<br>settings: String: false
+
+### Output Pins
+
+pinId: Generic List<br>dataType: generic_list<br>userData:Node Category: Generic_Lists\
 
 </details>
 
@@ -2645,17 +2719,21 @@ userData:
 
 <details>
 
-<summary>AI Character Type LiteralOutput PinspinId: Out<br>dataType: ai_character_type<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
+<summary>AI Character Type Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: ai_character_type<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
 
 </details>
 
 <details>
 
-<summary>AI Species Type LiteralOutput PinspinId: Out<br>dataType: ai_species_type<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\</summary>
+<summary>AI Species Type Literal</summary>
 
+### Output Pins
 
+pinId: Out<br>dataType: ai_species_type<br>IsEditableOutput: truesettings:userData:Node Category: Variables_Enums\
 
 </details>
 
