@@ -1,7 +1,6 @@
 # Manipulation Nodes
 
 <details>
-
 <summary>Add Object To List</summary>
 
 ### Node Rules
@@ -13,12 +12,12 @@ Object To Add
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Object To Add\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -30,14 +29,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Remove Object From List</summary>
 
 ### Node Rules
@@ -49,12 +44,12 @@ Object To Remove
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Object To Remove\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -66,14 +61,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>List Contains Object</summary>
 
 ### Node Rules
@@ -85,12 +76,12 @@ Object
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -102,14 +93,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get List Size</summary>
 
 ### Node Rules
@@ -120,7 +107,7 @@ RequiredProperties: Object List
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
@@ -132,14 +119,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Object at Index</summary>
 
 ### Node Rules
@@ -151,12 +134,12 @@ Index
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Index\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -171,14 +154,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get First N Objects</summary>
 
 ### Node Rules
@@ -190,12 +169,12 @@ N
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: N\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -210,14 +189,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Last N Objects</summary>
 
 ### Node Rules
@@ -229,12 +204,12 @@ N
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: N\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -249,14 +224,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Random N Objects</summary>
 
 ### Node Rules
@@ -268,12 +239,12 @@ N
 ### Input Pins
 
 pinId: Object List\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: N\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -288,14 +259,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Combine Object Lists</summary>
 
 ### Node Rules
@@ -307,12 +274,12 @@ Object List B
 ### Input Pins
 
 pinId: Object List A\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Object List B\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
@@ -324,14 +291,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Shared Objects</summary>
 
 ### Node Rules
@@ -343,12 +306,12 @@ Object List B
 ### Input Pins
 
 pinId: Object List A\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Object List B\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
@@ -360,14 +323,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Unique Objects</summary>
 
 ### Node Rules
@@ -379,12 +338,12 @@ Object List B
 ### Input Pins
 
 pinId: Object List A\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
 pinId: Object List B\
-dataType: object\_list\\
+dataType: object\_list\
 
 #### Editor Settings
 
@@ -396,14 +355,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Object Health</summary>
 
 ### Node Rules
@@ -414,7 +369,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -438,14 +393,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Object Shield</summary>
 
 ### Node Rules
@@ -456,7 +407,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -480,14 +431,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Object Position</summary>
 
 ### Node Rules
@@ -498,7 +445,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -510,14 +457,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\_Transform\\
-
+#### Node Category: Objects\_Transform\
 </details>
 
 <details>
-
 <summary>Get Object Rotation</summary>
 
 ### Node Rules
@@ -528,7 +471,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -540,14 +483,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\_Transform\\
-
+#### Node Category: Objects\_Transform\
 </details>
 
 <details>
-
 <summary>Get Object Velocity</summary>
 
 ### Node Rules
@@ -558,7 +497,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -570,14 +509,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\_Transform\\
-
+#### Node Category: Objects\_Transform\
 </details>
 
 <details>
-
 <summary>Get Object Angular Velocity</summary>
 
 ### Node Rules
@@ -588,7 +523,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -600,14 +535,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\_Transform\\
-
+#### Node Category: Objects\_Transform\
 </details>
 
 <details>
-
 <summary>Get Object Forward Vector</summary>
 
 ### Node Rules
@@ -618,7 +549,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -630,14 +561,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\_Transform\\
-
+#### Node Category: Objects\_Transform\
 </details>
 
 <details>
-
 <summary>Get Object Up Vector</summary>
 
 ### Node Rules
@@ -648,7 +575,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -660,14 +587,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\_Transform\\
-
+#### Node Category: Objects\_Transform\
 </details>
 
 <details>
-
 <summary>Get Personal Score Gameplay</summary>
 
 ### Node Rules
@@ -678,7 +601,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -696,14 +619,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Get Player Score Gameplay</summary>
 
 ### Node Rules
@@ -714,7 +633,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -732,14 +651,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Get Team Score Gameplay</summary>
 
 ### Node Rules
@@ -750,7 +665,7 @@ RequiredProperties: Team
 ### Input Pins
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
@@ -768,14 +683,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Get Object Team</summary>
 
 ### Node Rules
@@ -786,7 +697,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -798,14 +709,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Is Valid Object</summary>
 
 ### Node Rules
@@ -816,7 +723,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -828,14 +735,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Is Player</summary>
 
 ### Node Rules
@@ -846,7 +749,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -858,14 +761,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Is Dead</summary>
 
 ### Node Rules
@@ -876,7 +775,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -888,14 +787,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get All Players On Team</summary>
 
 ### Node Rules
@@ -906,7 +801,7 @@ RequiredProperties: Team
 ### Input Pins
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
@@ -918,38 +813,52 @@ userData:
 
 #### Editor Settings
 
+#### Node Category: Players\
+</details>
+
+<details>
+<summary>Get All Players</summary>
+
+### Output Pins
+
+pinId: Players\
+dataType: object_list\
+userData:
+
 #### Editor Settings
 
-#### Node Category: Players\\
-
+### Node Category: Players\
 </details>
 
 <details>
+<summary>Get Random Player</summary>
 
-<summary>Get All PlayersOutput PinspinId: Players<br>dataType: object_list<br>userData:Editor SettingsEditor SettingsNode Category: Players\</summary>
+### Output Pins
 
+pinId: Player\
+dataType: object\
+userData:
 
+#### Editor Settings
 
+### Node Category: Players\
 </details>
 
 <details>
+<summary>Get Number of Players</summary>
 
-<summary>Get Random PlayerOutput PinspinId: Player<br>dataType: object<br>userData:Editor SettingsEditor SettingsNode Category: Players\</summary>
+### Output Pins
 
+pinId: Player Count\
+dataType: number\
+userData:
 
+#### Editor Settings
 
+### Node Category: Players\
 </details>
 
 <details>
-
-<summary>Get Number of PlayersOutput PinspinId: Player Count<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Players\</summary>
-
-
-
-</details>
-
-<details>
-
 <summary>Get Objects in Prefab</summary>
 
 ### Node Rules
@@ -960,7 +869,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -972,38 +881,52 @@ userData:
 
 #### Editor Settings
 
+#### Node Category: Objects\
+</details>
+
+<details>
+<summary>Get Max Rounds Gameplay</summary>
+
+### Output Pins
+
+pinId: Maximum Rounds\
+dataType: number\
+userData:
+
 #### Editor Settings
 
-#### Node Category: Objects\\
-
+### Node Category: Game_Mode\
 </details>
 
 <details>
+<summary>Get Current Round Gameplay</summary>
 
-<summary>Get Max Rounds GameplayOutput PinspinId: Maximum Rounds<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Game_Mode\</summary>
+### Output Pins
 
+pinId: Current Round\
+dataType: number\
+userData:
 
+#### Editor Settings
 
+### Node Category: Game_Mode\
 </details>
 
 <details>
+<summary>Get Round Time Gameplay</summary>
 
-<summary>Get Current Round GameplayOutput PinspinId: Current Round<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Game_Mode\</summary>
+### Output Pins
 
+pinId: Seconds Remaining\
+dataType: number\
+userData:
 
+#### Editor Settings
 
+### Node Category: Game_Mode\
 </details>
 
 <details>
-
-<summary>Get Round Time GameplayOutput PinspinId: Seconds Remaining<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Game_Mode\</summary>
-
-
-
-</details>
-
-<details>
-
 <summary>Set Round Time Gameplay</summary>
 
 ### Node Rules
@@ -1017,7 +940,7 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Seconds Remaining\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1031,20 +954,24 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
+<summary>Get Score To Win Gameplay</summary>
 
-<summary>Get Score To Win GameplayOutput PinspinId: Score To Win<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Game_Mode\</summary>
+### Output Pins
 
+pinId: Score To Win\
+dataType: number\
+userData:
 
+#### Editor Settings
 
+### Node Category: Game_Mode\
 </details>
 
 <details>
-
 <summary>Set Score To Win Gameplay</summary>
 
 ### Node Rules
@@ -1058,7 +985,7 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Score To Win\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1069,20 +996,24 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
+<summary>Get Number Of Teams</summary>
 
-<summary>Get Number Of TeamsOutput PinspinId: Number of Teams<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Players\</summary>
+### Output Pins
 
+pinId: Number of Teams\
+dataType: number\
+userData:
 
+#### Editor Settings
 
+### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Objects in Area</summary>
 
 ### Node Rules
@@ -1093,7 +1024,7 @@ RequiredProperties: Monitor
 ### Input Pins
 
 pinId: Monitor\
-dataType: area\_monitor\\
+dataType: area\_monitor\
 
 #### Editor Settings
 
@@ -1105,14 +1036,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get Slayer Score Per Kill</summary>
 
 ### Node Rules
@@ -1123,21 +1050,21 @@ RequiredProperties: Slayer
 ### Input Pins
 
 pinId: Slayer\
-dataType: mode\_slayer\\
+dataType: mode\_slayer\
 
 #### Editor Settings
 
 ### Output Pins
 
 pinId: Team Score\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
 userData:
 
 pinId: Player Score\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1145,12 +1072,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Get Slayer Score Per Assist</summary>
 
 ### Node Rules
@@ -1161,21 +1086,21 @@ RequiredProperties: Slayer
 ### Input Pins
 
 pinId: Slayer\
-dataType: mode\_slayer\\
+dataType: mode\_slayer\
 
 #### Editor Settings
 
 ### Output Pins
 
 pinId: Team Score\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
 userData:
 
 pinId: Player Score\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1183,12 +1108,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Get Slayer Suicide Penalty</summary>
 
 ### Node Rules
@@ -1199,21 +1122,21 @@ RequiredProperties: Slayer
 ### Input Pins
 
 pinId: Slayer\
-dataType: mode\_slayer\\
+dataType: mode\_slayer\
 
 #### Editor Settings
 
 ### Output Pins
 
 pinId: Team Penalty\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
 userData:
 
 pinId: Player Penalty\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1221,12 +1144,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Get Slayer Teamkill Penalty</summary>
 
 ### Node Rules
@@ -1237,21 +1158,21 @@ RequiredProperties: Slayer
 ### Input Pins
 
 pinId: Slayer\
-dataType: mode\_slayer\\
+dataType: mode\_slayer\
 
 #### Editor Settings
 
 ### Output Pins
 
 pinId: Team Penalty\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
 userData:
 
 pinId: Player Penalty\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1259,12 +1180,10 @@ userData: userData:
 
 #### Editor Settings
 
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Adjust Personal Score Gameplay</summary>
 
 ### Node Rules
@@ -1279,12 +1198,12 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Score Adjustment\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1297,12 +1216,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Adjust Player Score Gameplay</summary>
 
 ### Node Rules
@@ -1317,12 +1234,12 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Score Adjustment\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1335,12 +1252,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Adjust Team Score Gameplay</summary>
 
 ### Node Rules
@@ -1355,12 +1270,12 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
 pinId: Score Adjustment\
-dataType: number\\
+dataType: number\
 
 #### Editor Settings
 
@@ -1373,12 +1288,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Get Player Holding Item</summary>
 
 ### Node Rules
@@ -1389,7 +1302,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1401,14 +1314,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Get Unit Holding Item</summary>
 
 ### Node Rules
@@ -1419,7 +1328,7 @@ RequiredProperties: Object
 ### Input Pins
 
 pinId: Object\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1431,14 +1340,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Get Player Vehicle</summary>
 
 ### Node Rules
@@ -1449,7 +1354,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1461,14 +1366,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Unit Vehicle</summary>
 
 ### Node Rules
@@ -1479,7 +1380,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1491,14 +1392,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Is Driving Vehicle version: 1</summary>
 
 ### Node Rules
@@ -1509,7 +1406,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1521,20 +1418,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
+#### Node Category: Vehicles\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Gunner In Vehicle version: 1</summary>
 
 ### Node Rules
@@ -1545,7 +1438,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1557,20 +1450,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
+#### Node Category: Vehicles\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Passenger In Vehicle version: 1</summary>
 
 ### Node Rules
@@ -1581,7 +1470,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1593,20 +1482,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
+#### Node Category: Vehicles\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is In Vehicle version: 1</summary>
 
 ### Node Rules
@@ -1617,7 +1502,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1629,20 +1514,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
+#### Node Category: Vehicles\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Vehicle Driver</summary>
 
 ### Node Rules
@@ -1653,7 +1534,7 @@ RequiredProperties: Vehicle
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1665,14 +1546,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Vehicle Gunner</summary>
 
 ### Node Rules
@@ -1683,7 +1560,7 @@ RequiredProperties: Vehicle
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1695,14 +1572,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Vehicle Occupants</summary>
 
 ### Node Rules
@@ -1713,7 +1586,7 @@ RequiredProperties: Vehicle
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1725,14 +1598,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Vehicle Enterable By Player</summary>
 
 ### Node Rules
@@ -1743,7 +1612,7 @@ RequiredProperties: Vehicle
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1755,14 +1624,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Is Camouflaged version: 1</summary>
 
 ### Node Rules
@@ -1773,7 +1638,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1785,20 +1650,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units\\
+#### Node Category: Units\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Grappling</summary>
 
 ### Node Rules
@@ -1809,7 +1670,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1821,14 +1682,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Is Detected version: 1</summary>
 
 ### Node Rules
@@ -1839,7 +1696,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1851,20 +1708,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units\\
+#### Node Category: Units\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Detected by Team version: 1</summary>
 
 ### Node Rules
@@ -1876,12 +1729,12 @@ Team
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
@@ -1893,20 +1746,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units\\
+#### Node Category: Units\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is In Knockback version: 1</summary>
 
 ### Node Rules
@@ -1917,7 +1766,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1929,20 +1778,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units\\
+#### Node Category: Units\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Overshield On</summary>
 
 ### Node Rules
@@ -1953,7 +1798,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1965,14 +1810,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Player Aiming Vector</summary>
 
 ### Node Rules
@@ -1983,7 +1824,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -1995,14 +1836,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Is Airborne version: 1</summary>
 
 ### Node Rules
@@ -2013,7 +1850,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2025,20 +1862,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units\\
+#### Node Category: Units\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Boarding version: 1</summary>
 
 ### Node Rules
@@ -2049,7 +1882,7 @@ RequiredProperties: Unit
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2061,20 +1894,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
+#### Node Category: Vehicles\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Crouching</summary>
 
 ### Node Rules
@@ -2085,7 +1914,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2097,14 +1926,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Is Lunging</summary>
 
 ### Node Rules
@@ -2115,7 +1940,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2127,14 +1952,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Is Zoomed</summary>
 
 ### Node Rules
@@ -2145,7 +1966,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2157,14 +1978,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Mark Is Overridden</summary>
 
 ### Node Rules
@@ -2175,7 +1992,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2187,14 +2004,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Player Grenade Count</summary>
 
 ### Node Rules
@@ -2206,12 +2019,12 @@ Grenade Type
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Grenade Type\
-dataType: grenade\_type\\
+dataType: grenade\_type\
 
 #### Editor Settings
 
@@ -2223,14 +2036,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Get Loadout Grenade Count</summary>
 
 ### Node Rules
@@ -2242,12 +2051,12 @@ Grenade Type
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Grenade Type\
-dataType: grenade\_type\\
+dataType: grenade\_type\
 
 #### Editor Settings
 
@@ -2259,14 +2068,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Are Same Object</summary>
 
 ### Node Rules
@@ -2278,12 +2083,12 @@ Object B
 ### Input Pins
 
 pinId: Object A\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Object B\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2295,14 +2100,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Are Same Player</summary>
 
 ### Node Rules
@@ -2314,12 +2115,12 @@ Player B
 ### Input Pins
 
 pinId: Player A\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Player B\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2331,14 +2132,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Player Equipment Charges</summary>
 
 ### Node Rules
@@ -2349,7 +2146,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2361,14 +2158,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Get Player Weapons</summary>
 
 ### Node Rules
@@ -2379,7 +2172,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2397,38 +2190,76 @@ userData:
 
 #### Editor Settings
 
+#### Node Category: Inventory\
+</details>
+
+<details>
+<summary>End Round</summary>
+
+### Input Pins
+
+pinId: ActionStart\
+dataType: executepinId: End Game\
+dataType: bool\
+settings: defaultValue: Bool: false
+
 #### Editor Settings
 
-#### Node Category: Inventory\\
+### Output Pins
 
+pinId: ActionComplete\
+dataType: execute userData:
+
+#### Editor Settings
+
+### Node Category: Game_Mode\
 </details>
 
 <details>
+<summary>End Round - All Lose</summary>
 
-<summary>End Round GameplayInput PinspinId: ActionStart<br>dataType: executepinId: End Game<br>dataType: bool<br>settings: defaultValue: Bool: falseEditor SettingsOutput PinspinId: ActionComplete<br>dataType: execute userData:Editor SettingsNode Category: Game_Mode\</summary>
+### Input Pins
 
+pinId: ActionStart\
+dataType: executepinId: End Game\
+dataType: bool\
+settings: defaultValue: Bool: false
 
+#### Editor Settings
 
+### Output Pins
+
+pinId: ActionComplete\
+dataType: execute userData:
+
+#### Editor Settings
+
+### Node Category: Game_Mode\
 </details>
 
 <details>
+<summary>End Round - All Tie</summary>
 
-<summary>End Round - All Lose GameplayInput PinspinId: ActionStart<br>dataType: executepinId: End Game<br>dataType: bool<br>settings: defaultValue: Bool: falseEditor SettingsOutput PinspinId: ActionComplete<br>dataType: execute userData:Editor SettingsNode Category: Game_Mode\</summary>
+### Input Pins
 
+pinId: ActionStart\
+dataType: executepinId: End Game\
+dataType: bool\
+settings: defaultValue: Bool: false
 
+#### Editor Settings
 
+### Output Pins
+
+pinId: ActionComplete\
+dataType: execute userData:
+
+#### Editor Settings
+
+### Node Category: Game_Mode\
 </details>
 
 <details>
-
-<summary>End Round - All Tie GameplayInput PinspinId: ActionStart<br>dataType: executepinId: End Game<br>dataType: bool<br>settings: defaultValue: Bool: falseEditor SettingsOutput PinspinId: ActionComplete<br>dataType: execute userData:Editor SettingsNode Category: Game_Mode\</summary>
-
-
-
-</details>
-
-<details>
-
 <summary>End Round - Winning Player Gameplay</summary>
 
 ### Node Rules
@@ -2442,7 +2273,7 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2459,12 +2290,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>End Round - Winning Team Gameplay</summary>
 
 ### Node Rules
@@ -2478,7 +2307,7 @@ pinId: ActionStart\
 dataType: execute
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
@@ -2495,12 +2324,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Get Squared Vehicle Speed Gameplay</summary>
 
 ### Node Rules
@@ -2511,7 +2338,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2523,14 +2350,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Create UI Message</summary>
 
 ### Node Rules
@@ -2541,7 +2364,7 @@ RequiredProperties: Message Template
 ### Input Pins
 
 pinId: Message Template\
-dataType: message\_template\\
+dataType: message\_template\
 
 #### Editor Settings
 
@@ -2571,14 +2394,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: UI\\
-
+#### Node Category: UI\
 </details>
 
 <details>
-
 <summary>Create UI Message B</summary>
 
 ### Node Rules
@@ -2589,7 +2408,7 @@ RequiredProperties: Message Template
 ### Input Pins
 
 pinId: Message Template\
-dataType: message\_template\_b\\
+dataType: message\_template\_b\
 
 #### Editor Settings
 
@@ -2623,14 +2442,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: UI\\
-
+#### Node Category: UI\
 </details>
 
 <details>
-
 <summary>Get Vehicle Type</summary>
 
 ### Node Rules
@@ -2641,7 +2456,7 @@ RequiredProperties: Vehicle
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2653,14 +2468,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Are Same Vehicle Type</summary>
 
 ### Node Rules
@@ -2672,12 +2483,12 @@ Vehicle B
 ### Input Pins
 
 pinId: Vehicle A\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Vehicle B\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2695,14 +2506,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Is Vehicle Type</summary>
 
 ### Node Rules
@@ -2714,12 +2521,12 @@ Vehicle Type
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Vehicle Type\
-dataType: vehicle\_type\\
+dataType: vehicle\_type\
 
 #### Editor Settings
 
@@ -2731,14 +2538,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Is Overturned</summary>
 
 ### Node Rules
@@ -2749,7 +2552,7 @@ RequiredProperties: Vehicle
 ### Input Pins
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2761,14 +2564,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Vehicles\\
-
+#### Node Category: Vehicles\
 </details>
 
 <details>
-
 <summary>Get Weapon Type</summary>
 
 ### Node Rules
@@ -2779,7 +2578,7 @@ RequiredProperties: Weapon
 ### Input Pins
 
 pinId: Weapon\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2792,14 +2591,14 @@ userData:
 #### Editor Settings
 
 pinId: Base Weapon\
-dataType: base\_weapon\_type\\
+dataType: base\_weapon\_type\
 
 #### Editor Settings
 
 userData:
 
 pinId: Configuration\
-dataType: variant\_weapon\_type\\
+dataType: variant\_weapon\_type\
 
 #### Editor Settings
 
@@ -2807,12 +2606,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Are Same Weapon Type</summary>
 
 ### Node Rules
@@ -2824,12 +2621,12 @@ Weapon B
 ### Input Pins
 
 pinId: Weapon A\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Weapon B\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2847,14 +2644,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Get Is Weapon Type</summary>
 
 ### Node Rules
@@ -2866,12 +2659,12 @@ Weapon Type
 ### Input Pins
 
 pinId: Weapon\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Weapon Type\
-dataType: weapon\_type\\
+dataType: weapon\_type\
 
 #### Editor Settings
 
@@ -2883,14 +2676,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Get Is Holding Weapon Type version: 1</summary>
 
 ### Node Rules
@@ -2902,12 +2691,12 @@ Weapon Type
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Weapon Type\
-dataType: weapon\_type\\
+dataType: weapon\_type\
 
 #### Editor Settings
 
@@ -2919,20 +2708,16 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
+#### Node Category: Inventory\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
-
 <summary>Get Is Holding Specific Weapon version: 1</summary>
 
 ### Node Rules
@@ -2944,12 +2729,12 @@ Weapon
 ### Input Pins
 
 pinId: Unit\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Weapon\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -2961,28 +2746,30 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
+#### Node Category: Inventory\
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
-nodeOperations: operation: Rename\\
+nodeOperations: operation: Rename\
 
 pinId: Player\
 data: Unit
-
 </details>
 
 <details>
+<summary>Get Is Forge Mode</summary>
 
-<summary>Get Is Forge ModeOutput PinspinId: Is Forge Mode<br>dataType: bool<br>userData:Editor SettingsEditor SettingsNode Category: Game_Mode\</summary>
+### Output Pins
 
+pinId: Is Forge Mode\
+dataType: bool\
+userData:
 
+#### Editor Settings
 
+### Node Category: Game_Mode\
 </details>
 
 <details>
-
 <summary>Get Is Game Mode</summary>
 
 ### Node Rules
@@ -2993,7 +2780,7 @@ RequiredProperties: Game Mode
 ### Input Pins
 
 pinId: Game Mode\
-dataType: game\_mode\_label\\
+dataType: game\_mode\_label\
 
 #### Editor Settings
 
@@ -3011,14 +2798,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Game\_Mode\\
-
+#### Node Category: Game\_Mode\
 </details>
 
 <details>
-
 <summary>Get Ni1</summary>
 
 ### Node Rules
@@ -3026,7 +2809,7 @@ userData:
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins \\
+### Input Pins \
 
 ### Output Pins
 
@@ -3054,14 +2837,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Get Is Holding Equipment Type</summary>
 
 ### Node Rules
@@ -3073,12 +2852,12 @@ Equipment Type
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Equipment Type\
-dataType: equipment\_type\\
+dataType: equipment\_type\
 
 #### Editor Settings
 
@@ -3090,14 +2869,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Get Equipment Type</summary>
 
 ### Node Rules
@@ -3108,7 +2883,7 @@ RequiredProperties: Equipment
 ### Input Pins
 
 pinId: Equipment\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3126,14 +2901,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Are Same Equipment Type</summary>
 
 ### Node Rules
@@ -3145,12 +2916,12 @@ Equipment B
 ### Input Pins
 
 pinId: Equipment A\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Equipment B\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3162,14 +2933,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Get Is Holding Any Equipment</summary>
 
 ### Node Rules
@@ -3180,7 +2947,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3204,14 +2971,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\_Equipment\\
-
+#### Node Category: Inventory\_Equipment\
 </details>
 
 <details>
-
 <summary>Get Player FFA Allegiance</summary>
 
 ### Node Rules
@@ -3222,7 +2985,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3234,14 +2997,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Player Team</summary>
 
 ### Node Rules
@@ -3252,7 +3011,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3264,14 +3023,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Players\\
-
+#### Node Category: Players\
 </details>
 
 <details>
-
 <summary>Get Respawn Timer Gameplay</summary>
 
 ### Node Rules
@@ -3282,7 +3037,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3294,14 +3049,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Get Respawn Penalty Gameplay</summary>
 
 ### Node Rules
@@ -3312,7 +3063,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3324,22 +3075,24 @@ userData:
 
 #### Editor Settings
 
+#### Node Category: Players\
+</details>
+
+<details>
+<summary>Get All Spawn Points</summary>
+
+### Output Pins
+
+pinId: Spawn Points\
+dataType: object_list\
+userData:
+
 #### Editor Settings
 
-#### Node Category: Players\\
-
+### Node Category: Objects\
 </details>
 
 <details>
-
-<summary>Get All Spawn PointsOutput PinspinId: Spawn Points<br>dataType: object_list<br>userData:Editor SettingsEditor SettingsNode Category: Objects\</summary>
-
-
-
-</details>
-
-<details>
-
 <summary>Get All Spawn Points For Team</summary>
 
 ### Node Rules
@@ -3350,7 +3103,7 @@ RequiredProperties: Team
 ### Input Pins
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
@@ -3362,14 +3115,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Was Melee Kill Gameplay</summary>
 
 ### Node Rules
@@ -3380,7 +3129,7 @@ RequiredProperties: DeathContext
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
@@ -3398,14 +3147,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was Weapon Kill Gameplay</summary>
 
 ### Node Rules
@@ -3416,7 +3161,7 @@ RequiredProperties: DeathContext
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
@@ -3434,14 +3179,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was With Specific Weapon Gameplay</summary>
 
 ### Node Rules
@@ -3453,12 +3194,12 @@ Weapon
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
 pinId: Weapon\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3470,14 +3211,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was With Weapon Type Gameplay</summary>
 
 ### Node Rules
@@ -3489,12 +3226,12 @@ Weapon Type
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
 pinId: Weapon Type\
-dataType: weapon\_type\\
+dataType: weapon\_type\
 
 #### Editor Settings
 
@@ -3506,14 +3243,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was Vehicle Kill Gameplay</summary>
 
 ### Node Rules
@@ -3524,7 +3257,7 @@ RequiredProperties: DeathContext
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
@@ -3542,14 +3275,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was With Specific Vehicle Gameplay</summary>
 
 ### Node Rules
@@ -3561,12 +3290,12 @@ Vehicle
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
 pinId: Vehicle\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3578,14 +3307,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was With Vehicle Type Gameplay</summary>
 
 ### Node Rules
@@ -3597,12 +3322,12 @@ Vehicle Type
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
 pinId: Vehicle Type\
-dataType: vehicle\_type\\
+dataType: vehicle\_type\
 
 #### Editor Settings
 
@@ -3614,14 +3339,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was Grenade Kill Gameplay</summary>
 
 ### Node Rules
@@ -3632,7 +3353,7 @@ RequiredProperties: DeathContext
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
@@ -3644,14 +3365,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was With Grenade Type Gameplay</summary>
 
 ### Node Rules
@@ -3663,12 +3380,12 @@ Grenade Type
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
 pinId: Grenade Type\
-dataType: grenade\_type\\
+dataType: grenade\_type\
 
 #### Editor Settings
 
@@ -3680,14 +3397,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Was Assisted Kill Gameplay</summary>
 
 ### Node Rules
@@ -3698,7 +3411,7 @@ RequiredProperties: DeathContext
 ### Input Pins
 
 pinId: DeathContext\
-dataType: death\_context\\
+dataType: death\_context\
 
 #### Editor Settings
 
@@ -3716,14 +3429,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Death\_Context\\
-
+#### Node Category: Death\_Context\
 </details>
 
 <details>
-
 <summary>Bot Ambition</summary>
 
 ### Node Rules
@@ -3734,7 +3443,7 @@ RequiredProperties: Ambition Type
 ### Input Pins
 
 pinId: Ambition Type\
-dataType: bot\_ambition\_type\\
+dataType: bot\_ambition\_type\
 
 #### Editor Settings
 
@@ -3746,14 +3455,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Unused\\
-
+#### Node Category: Unused\
 </details>
 
 <details>
-
 <summary>Get Bot Is Difficulty</summary>
 
 ### Node Rules
@@ -3765,12 +3470,12 @@ Bot Difficulty
 ### Input Pins
 
 pinId: Bot Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
 pinId: Bot Difficulty\
-dataType: bot\_difficulty\\
+dataType: bot\_difficulty\
 
 #### Editor Settings
 
@@ -3782,14 +3487,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Bots\\
-
+#### Node Category: Bots\
 </details>
 
 <details>
-
 <summary>Get Is Bot</summary>
 
 ### Node Rules
@@ -3800,7 +3501,7 @@ RequiredProperties: Player
 ### Input Pins
 
 pinId: Player\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3812,14 +3513,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Bots\\
-
+#### Node Category: Bots\
 </details>
 
 <details>
-
 <summary>Get Weapon Magazine Ammo</summary>
 
 ### Node Rules
@@ -3830,7 +3527,7 @@ RequiredProperties: Weapon
 ### Input Pins
 
 pinId: Weapon\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3842,14 +3539,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Get Weapon Magazine Capacity</summary>
 
 ### Node Rules
@@ -3860,7 +3553,7 @@ RequiredProperties: Weapon
 ### Input Pins
 
 pinId: Weapon\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3872,14 +3565,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory\\
-
+#### Node Category: Inventory\
 </details>
 
 <details>
-
 <summary>Get Objects By Label</summary>
 
 ### Node Rules
@@ -3890,7 +3579,7 @@ RequiredProperties: Label
 ### Input Pins
 
 pinId: Label\
-dataType: megalo\_label\\
+dataType: megalo\_label\
 
 #### Editor Settings
 
@@ -3902,14 +3591,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Objects\\
-
+#### Node Category: Objects\
 </details>
 
 <details>
-
 <summary>Get All Bots On Team</summary>
 
 ### Node Rules
@@ -3920,7 +3605,7 @@ RequiredProperties: Team
 ### Input Pins
 
 pinId: Team\
-dataType: team\\
+dataType: team\
 
 #### Editor Settings
 
@@ -3932,22 +3617,24 @@ userData:
 
 #### Editor Settings
 
+#### Node Category: Bots\
+</details>
+
+<details>
+<summary>Get All Bots</summary>
+
+### Output Pins
+
+pinId: Players\
+dataType: object_list\
+userData:
+
 #### Editor Settings
 
-#### Node Category: Bots\\
-
+### Node Category: Bots\
 </details>
 
 <details>
-
-<summary>Get All BotsOutput PinspinId: Players<br>dataType: object_list<br>userData:Editor SettingsEditor SettingsNode Category: Bots\</summary>
-
-
-
-</details>
-
-<details>
-
 <summary>Get Generic Zone Control State</summary>
 
 ### Node Rules
@@ -3958,7 +3645,7 @@ RequiredProperties: Zone
 ### Input Pins
 
 pinId: Zone\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -3970,14 +3657,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Objectives\\
-
+#### Node Category: Generic\_Objectives\
 </details>
 
 <details>
-
 <summary>Get Units in Generic Zone</summary>
 
 ### Node Rules
@@ -3988,7 +3671,7 @@ RequiredProperties: Zone
 ### Input Pins
 
 pinId: Zone\
-dataType: object\\
+dataType: object\
 
 #### Editor Settings
 
@@ -4000,14 +3683,10 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Objectives\\
-
+#### Node Category: Generic\_Objectives\
 </details>
 
 <details>
-
 <summary>Get Elapsed Time</summary>
 
 ### Node Rules
@@ -4018,7 +3697,7 @@ RequiredProperties: Identifier
 ### Input Pins
 
 pinId: Identifier\
-dataType: identifier\\
+dataType: identifier\
 
 #### Editor Settings
 
@@ -4030,8 +3709,5 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Stopwatches\\
-
+#### Node Category: Stopwatches\
 </details>
