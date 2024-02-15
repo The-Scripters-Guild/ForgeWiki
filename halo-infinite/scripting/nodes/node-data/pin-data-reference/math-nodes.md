@@ -1,44 +1,7 @@
 # Math Nodes
 
 <details>
-
-<summary>Add nodeCategories: Math</summary>
-
-### Node Rules
-
-ruleID: RequiredNodeInput\
-RequiredProperties: Operand A\
-Operand B
-
-### Input Pins
-
-pinId: Operand A\
-dataType: number
-
-#### Editor Settings
-
-pinId: Operand B\
-dataType: number
-
-#### Editor Settings
-
-### Output Pins
-
-pinId: Result\
-dataType: number\
-userData:
-
-#### Editor Settings
-
-#### Editor Settings
-
-#### Node Category: Math\\
-
-</details>
-
-<details>
-
-<summary>Subtract nodeCategories: Math</summary>
+<summary>Add</summary>
 
 ### Node Rules
 
@@ -66,15 +29,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Multiply nodeCategories: Math</summary>
+<summary>Subtract</summary>
 
 ### Node Rules
 
@@ -102,15 +61,43 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
+<summary>Multiply</summary>
 
-<summary>Divide nodeCategories: Math</summary>
+### Node Rules
+
+ruleID: RequiredNodeInput\
+RequiredProperties: Operand A\
+Operand B
+
+### Input Pins
+
+pinId: Operand A\
+dataType: number
+
+#### Editor Settings
+
+pinId: Operand B\
+dataType: number
+
+#### Editor Settings
+
+### Output Pins
+
+pinId: Result\
+dataType: number\
+userData:
+
+#### Editor Settings
+
+#### Node Category: Math\
+</details>
+
+<details>
+<summary>Divide</summary>
 
 ### Node Rules
 
@@ -150,15 +137,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Convert Degrees to Radians nodeCategories: Math</summary>
+<summary>Convert Degrees to Radians</summary>
 
 ### Node Rules
 
@@ -180,15 +163,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Convert Radians to Degrees nodeCategories: Math</summary>
+<summary>Convert Radians to Degrees</summary>
 
 ### Node Rules
 
@@ -210,15 +189,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Trigonometry - Cos/Sin/Tan nodeCategories: Math</summary>
+<summary>Trigonometry - Cos/Sin/Tan</summary>
 
 ### Node Rules
 
@@ -252,15 +227,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Trigonometry - ArcSin/ArcCos nodeCategories: Math</summary>
+<summary>Trigonometry - ArcSin/ArcCos</summary>
 
 ### Node Rules
 
@@ -288,15 +259,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Trigonometry - ArcTan nodeCategories: Math</summary>
+<summary>Trigonometry - ArcTan</summary>
 
 ### Node Rules
 
@@ -324,23 +291,25 @@ userData:
 
 #### Editor Settings
 
+#### Node Category: Math\
+</details>
+
+<details>
+<summary>Get Pi</summary>
+
+### Output Pins
+
+pinId: Get Pi\
+dataType: number\
+userData:
+
 #### Editor Settings
 
-#### Node Category: Math\\
-
+### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Get Pi nodeCategories: MathOutput PinspinId: Get Pi<br>dataType: number<br>userData:Editor SettingsEditor SettingsNode Category: Math\</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Get Vector Axis Value nodeCategories: Math</summary>
+<summary>Get Vector Axis Value</summary>
 
 ### Node Rules
 
@@ -374,15 +343,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Add_Vectors nodeCategories: Math</summary>
+<summary>Add_Vectors</summary>
 
 ### Node Rules
 
@@ -410,15 +375,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Subtract Vectors nodeCategories: Math</summary>
+<summary>Subtract Vectors</summary>
 
 ### Node Rules
 
@@ -446,15 +407,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Scale Vectors nodeCategories: Math</summary>
+<summary>Scale Vectors</summary>
 
 ### Node Rules
 
@@ -482,15 +439,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Vector Dot Product nodeCategories: Math</summary>
+<summary>Vector Dot Product</summary>
 
 ### Node Rules
 
@@ -518,15 +471,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Vector Cross Product nodeCategories: Math</summary>
+<summary>Vector Cross Product</summary>
 
 ### Node Rules
 
@@ -554,15 +503,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Get Vector Length nodeCategories: Math</summary>
+<summary>Get Vector Length</summary>
 
 ### Node Rules
 
@@ -584,15 +529,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Normalize Vector nodeCategories: Math</summary>
+<summary>Normalize Vector</summary>
 
 ### Node Rules
 
@@ -614,15 +555,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Random nodeCategories: Math</summary>
+<summary>Random</summary>
 
 ### Node Rules
 
@@ -650,15 +587,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Random Boolean nodeCategories: Math</summary>
+<summary>Random Boolean</summary>
 
 ### Node Rules
 
@@ -685,15 +618,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Boolean Logic nodeCategories: Math</summary>
+<summary>Boolean Logic</summary>
 
 ### Node Rules
 
@@ -740,13 +669,11 @@ pinId: XOR
 
 #### Editor Settings
 
-#### Node Category: Logic\\
-
+#### Node Category: Logic\
 </details>
 
 <details>
-
-<summary>Boolean NOT nodeCategories: Math</summary>
+<summary>Boolean NOT</summary>
 
 ### Node Rules
 
@@ -768,15 +695,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Logic\\
-
+#### Node Category: Logic\
 </details>
 
 <details>
-
-<summary>Aboslute Value nodeCategories: Math</summary>
+<summary>Aboslute Value</summary>
 
 ### Node Rules
 
@@ -798,15 +721,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Round to Whole Number nodeCategories: Math</summary>
+<summary>Round to Whole Number</summary>
 
 ### Node Rules
 
@@ -840,15 +759,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
-
-<summary>Square Root nodeCategories: Math</summary>
+<summary>Square Root</summary>
 
 ### Node Rules
 
@@ -870,16 +785,19 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Math\\
-
+#### Node Category: Math\
 </details>
 
 <details>
+<summary>Get Random Rotation</summary>
 
-<summary>Get Random Rotation nodeCategories: MathOutput PinspinId: Rotation<br>dataType: vector3<br>userData:Editor SettingsEditor SettingsNode Category: Math\</summary>
+### Output Pins
 
+pinId: Rotation\
+dataType: vector3\
+userData:
 
+#### Editor Settings
 
+### Node Category: Math
 </details>
