@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>Add Item to Generic List nodeCategories: General</summary>
+<summary>Add Item to Generic List</summary>
 
 ### Node Rules
 
@@ -41,7 +41,7 @@ userData:
 
 <details>
 
-<summary>Remove Item From Generic List nodeCategories: General</summary>
+<summary>Remove Item From Generic List</summary>
 
 ### Node Rules
 
@@ -74,7 +74,7 @@ userData:
 
 <details>
 
-<summary>Combine Generic Lists nodeCategories: General</summary>
+<summary>Combine Generic Lists</summary>
 
 ### Node Rules
 
@@ -113,7 +113,7 @@ userData:
 
 <details>
 
-<summary>Get Shared Items nodeCategories: General</summary>
+<summary>Get Shared Items</summary>
 
 ### Node Rules
 
@@ -146,7 +146,7 @@ userData:
 
 <details>
 
-<summary>Get Unshared Items nodeCategories: General</summary>
+<summary>Get Unshared Items</summary>
 
 ### Node Rules
 
@@ -179,7 +179,7 @@ userData:
 
 <details>
 
-<summary>For Each Generic Item nodeCategories: Function</summary>
+<summary>For Each Generic Item</summary>
 
 ### Node Rules
 
@@ -229,7 +229,7 @@ userData: userData:
 
 <details>
 
-<summary>Get N Items From Generic List nodeCategories: General</summary>
+<summary>Get N Items From Generic List</summary>
 
 ### Node Rules
 
@@ -271,7 +271,7 @@ userData:
 
 <details>
 
-<summary>Get Item at Index nodeCategories: General</summary>
+<summary>Get Item at Index</summary>
 
 ### Node Rules
 
@@ -307,7 +307,7 @@ userData:
 
 <details>
 
-<summary>Get Generic List Size nodeCategories: General</summary>
+<summary>Get Generic List Size</summary>
 
 ### Node Rules
 
@@ -334,7 +334,7 @@ userData:
 
 <details>
 
-<summary>Item Is In Generic List nodeCategories: General</summary>
+<summary>Item Is In Generic List</summary>
 
 ### Node Rules
 
@@ -367,7 +367,7 @@ userData:
 
 <details>
 
-<summary>Cast to Number nodeCategories: General\ Cast</summary>
+<summary>Cast to Number</summary>
 
 ### Node Rules
 
@@ -400,7 +400,7 @@ userData:
 
 <details>
 
-<summary>Cast to Bool nodeCategories: General\ Cast</summary>
+<summary>Cast to Bool</summary>
 
 ### Node Rules
 
@@ -433,7 +433,7 @@ userData:
 
 <details>
 
-<summary>Cast to Object nodeCategories: General\ Cast</summary>
+<summary>Cast to Object</summary>
 
 ### Node Rules
 
@@ -466,7 +466,7 @@ userData:
 
 <details>
 
-<summary>Cast to Team nodeCategories: General\ Cast</summary>
+<summary>Cast to Team</summary>
 
 ### Node Rules
 
@@ -499,7 +499,7 @@ userData:
 
 <details>
 
-<summary>Cast to Vector nodeCategories: General\ Cast</summary>
+<summary>Cast to Vector</summary>
 
 ### Node Rules
 
@@ -532,7 +532,7 @@ userData:
 
 <details>
 
-<summary>Cast to UI Message nodeCategories: General\ Cast</summary>
+<summary>Cast to UI Message</summary>
 
 ### Node Rules
 
@@ -565,7 +565,7 @@ userData:
 
 <details>
 
-<summary>Cast to String nodeCategories: General\ Cast</summary>
+<summary>Cast to String</summary>
 
 ### Node Rules
 
@@ -598,7 +598,7 @@ userData:
 
 <details>
 
-<summary>Cast to Grenade Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Grenade Type</summary>
 
 ### Node Rules
 
@@ -631,7 +631,7 @@ userData:
 
 <details>
 
-<summary>Cast to Equipment Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Equipment Type</summary>
 
 ### Node Rules
 
@@ -664,7 +664,7 @@ userData:
 
 <details>
 
-<summary>Cast to Vehicle Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Vehicle Type</summary>
 
 ### Node Rules
 
@@ -697,7 +697,7 @@ userData:
 
 <details>
 
-<summary>Cast to Weapon Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Weapon Type</summary>
 
 ### Node Rules
 
@@ -730,7 +730,7 @@ userData:
 
 <details>
 
-<summary>Cast to User Label nodeCategories: General\ Cast</summary>
+<summary>Cast to User Label</summary>
 
 ### Node Rules
 
@@ -763,7 +763,7 @@ userData:
 
 <details>
 
-<summary>Cast to Squad Definition nodeCategories: General\ Cast</summary>
+<summary>Cast to Squad Definition</summary>
 
 ### Node Rules
 
@@ -796,7 +796,7 @@ userData:
 
 <details>
 
-<summary>Cast to Squad nodeCategories: General\ Cast</summary>
+<summary>Cast to Squad</summary>
 
 ### Node Rules
 
@@ -829,7 +829,7 @@ userData:
 
 <details>
 
-<summary>Cast to Wave nodeCategories: General\ Cast</summary>
+<summary>Cast to Wave</summary>
 
 ### Node Rules
 
@@ -862,7 +862,7 @@ userData:
 
 <details>
 
-<summary>Cast to Wave Manager nodeCategories: General\ Cast</summary>
+<summary>Cast to Wave Manager</summary>
 
 ### Node Rules
 
