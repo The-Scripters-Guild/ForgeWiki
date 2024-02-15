@@ -1,15 +1,32 @@
 # Trait Nodes
 
 <details>
+<summary>Combine Trait Lists
 
-<summary>Combine Trait ListsInput PinspinId: Trait List A<br>dataType: trait_list<br>settings: defaultValue: String:Editor SettingspinId: Trait List B<br>dataType: trait_list<br>settings: defaultValue: String:Editor SettingspinId: Trait List C<br>dataType: trait_list<br>settings: defaultValue: String:Editor SettingspinId: Trait List D<br>dataType: trait_list<br>settings: defaultValue: String:Editor SettingsOutput PinspinId: Combined Trait List<br>dataType: trait_list<br>userData:Editor SettingsEditor SettingsNode Category: Players_Traits</summary>
+### Input Pins
 
+pinId: Trait List A\
+dataType: trait_list\
+settings: defaultValue: String:Editor SettingspinId: Trait List B\
+dataType: trait_list\
+settings: defaultValue: String:Editor SettingspinId: Trait List C\
+dataType: trait_list\
+settings: defaultValue: String:Editor SettingspinId: Trait List D\
+dataType: trait_list\
+settings: defaultValue: String:Editor Settings
 
+### Output Pins
 
+pinId: Combined Trait List\
+dataType: trait_list\
+userData:
+
+#### Editor Settings
+
+### Node Category: Players_Traits</summary>
 </details>
 
 <details>
-
 <summary>Get Random N Traits</summary>
 
 ### Node Rules
@@ -43,12 +60,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Declare Trait Set Declaration</summary>
 
 ### Node Rules
@@ -87,12 +102,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Create Trait Set</summary>
 
 ### Node Rules
@@ -137,12 +150,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Unused
-
+### Node Category: Unused
 </details>
 
 <details>
-
 <summary>Remove Trait Set From Player Function</summary>
 
 ### Node Rules
@@ -179,12 +190,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Remove All Trait Sets Function</summary>
 
 ### Node Rules
@@ -215,12 +224,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Apply Trait Set To Player Function</summary>
 
 ### Node Rules
@@ -257,12 +264,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Apply Trait Set For Seconds Function</summary>
 
 ### Node Rules
@@ -301,12 +306,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Apply Trait Set Until Death Function</summary>
 
 ### Node Rules
@@ -337,12 +340,10 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Weapon Pickup Gameplay</summary>
 
 ### Node Rules
@@ -367,12 +368,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Grenade Pickup Gameplay</summary>
 
 ### Node Rules
@@ -397,12 +396,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Equipment Pickup Gameplay</summary>
 
 ### Node Rules
@@ -427,12 +424,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Prevent Weapon Firing Gameplay</summary>
 
 ### Node Rules
@@ -457,12 +452,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Prevent Grenade Throwing Gameplay</summary>
 
 ### Node Rules
@@ -487,12 +480,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Weapon Dropping Gameplay</summary>
 
 ### Node Rules
@@ -517,12 +508,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Weapon Damage Gameplay</summary>
 
 ### Node Rules
@@ -550,12 +539,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Weapon Switch Speed Gameplay</summary>
 
 ### Node Rules
@@ -583,12 +570,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Reload Speed Gameplay</summary>
 
 ### Node Rules
@@ -625,12 +610,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Infinite Ammo Gameplay</summary>
 
 ### Node Rules
@@ -655,12 +638,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Bottomless Clip Gameplay</summary>
 
 ### Node Rules
@@ -685,12 +666,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Grenade Damage Gameplay</summary>
 
 ### Node Rules
@@ -718,12 +697,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Grenade Detonation Radius Gameplay</summary>
 
 ### Node Rules
@@ -751,12 +728,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Grenade Impulse Gameplay</summary>
 
 ### Node Rules
@@ -784,12 +759,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Melee Damage Gameplay</summary>
 
 ### Node Rules
@@ -817,12 +790,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Melee Impulse Gameplay</summary>
 
 ### Node Rules
@@ -850,12 +821,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Melee Recovery Speed Gameplay</summary>
 
 ### Node Rules
@@ -886,12 +855,10 @@ Step: 0.05
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Vehicle Passenger Only Gameplay</summary>
 
 ### Node Rules
@@ -916,12 +883,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: VFX - Active Camo Gameplay</summary>
 
 ### Node Rules
@@ -962,12 +927,10 @@ Step: 0.05
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: VFX - Overshield Gameplay</summary>
 
 ### Node Rules
@@ -992,12 +955,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Shield HUD Visible Gameplay</summary>
 
 ### Node Rules
@@ -1022,12 +983,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Motion Tracker Visible Gameplay</summary>
 
 ### Node Rules
@@ -1058,12 +1017,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Motion Tracker Range Gameplay</summary>
 
 ### Node Rules
@@ -1109,12 +1066,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Damage Resistance Gameplay</summary>
 
 ### Node Rules
@@ -1160,12 +1115,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Headshot Protection Gameplay</summary>
 
 ### Node Rules
@@ -1190,12 +1143,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Deathless Gameplay</summary>
 
 ### Node Rules
@@ -1220,12 +1171,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Shield Maximum Gameplay</summary>
 
 ### Node Rules
@@ -1254,12 +1203,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Shield Recharge Gameplay</summary>
 
 ### Node Rules
@@ -1298,12 +1245,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Health Maximum Gameplay</summary>
 
 ### Node Rules
@@ -1332,12 +1277,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Health Recharge Gameplay</summary>
 
 ### Node Rules
@@ -1376,12 +1319,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Vampirism Gameplay</summary>
 
 ### Node Rules
@@ -1418,12 +1359,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Jump Height Gameplay</summary>
 
 ### Node Rules
@@ -1451,12 +1390,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Movement Speed Gameplay</summary>
 
 ### Node Rules
@@ -1484,12 +1421,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Movement Speed With Turret Gameplay</summary>
 
 ### Node Rules
@@ -1517,12 +1452,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Player Gravity Gameplay</summary>
 
 ### Node Rules
@@ -1550,12 +1483,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Sprint Enabled Gameplay</summary>
 
 ### Node Rules
@@ -1580,12 +1511,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Sprint Speed Gameplay</summary>
 
 ### Node Rules
@@ -1622,12 +1551,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Slide Speed Gameplay</summary>
 
 ### Node Rules
@@ -1664,12 +1591,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Sprint Reload Enabled Gameplay</summary>
 
 ### Node Rules
@@ -1694,12 +1619,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Sprint Resets Recharge Gameplay</summary>
 
 ### Node Rules
@@ -1724,12 +1647,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Clamber Enabled Gameplay</summary>
 
 ### Node Rules
@@ -1754,12 +1675,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Clamber Speed Gameplay</summary>
 
 ### Node Rules
@@ -1787,12 +1706,10 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits
-
+### Node Category: Players\_Traits
 </details>
 
 <details>
-
 <summary>Trait: Loadout Weapons Gameplay</summary>
 
 ### Node Rules
@@ -1823,6 +1740,5 @@ userData:
 
 #### Editor Settings
 
-#### Node Category: Players\_Traits\\
-
+### Node Category: Players\_Traits\\
 </details>
