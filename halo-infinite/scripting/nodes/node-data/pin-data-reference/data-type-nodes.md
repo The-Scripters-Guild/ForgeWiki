@@ -48,7 +48,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Number Variable Declaration</summary>
+<summary>Declare Number</summary>
 
 ### Node Rules
 
@@ -74,7 +74,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Number Variable Storage</summary>
+<summary>Get Number</summary>
 
 ### Node Rules
 
@@ -105,7 +105,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Number Variable Storage</summary>
+<summary>Set Number</summary>
 
 ### Node Rules
 
@@ -143,7 +143,7 @@ userData:
 </details>
 
 <details>
-<summary>Increment Number Variable Storage</summary>
+<summary>Increment Number</summary>
 
 ### Node Rules
 
@@ -194,7 +194,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Bool Variable Declaration</summary>
+<summary>Declare Bool</summary>
 
 ### Node Rules
 
@@ -220,7 +220,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Bool Variable Storage</summary>
+<summary>Get Bool</summary>
 
 ### Node Rules
 
@@ -251,7 +251,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Bool Variable Storage</summary>
+<summary>Set Bool</summary>
 
 ### Node Rules
 
@@ -289,7 +289,7 @@ userData:
 </details>
 
 <details>
-<summary>Toggle Boolean Variable Storage</summary>
+<summary>Toggle Boolean</summary>
 
 ### Node Rules
 
@@ -346,7 +346,7 @@ dataType: number
 </details>
 
 <details>
-<summary>Declare Object Variable Declaration</summary>
+<summary>Declare Object</summary>
 
 ### Node Rules
 
@@ -372,7 +372,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Object Variable Storage</summary>
+<summary>Get Object</summary>
 
 ### Node Rules
 
@@ -403,7 +403,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Object Variable Storage</summary>
+<summary>Set Object</summary>
 
 ### Node Rules
 
@@ -467,7 +467,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Object List Variable Declaration</summary>
+<summary>Declare Object List</summary>
 
 ### Node Rules
 
@@ -493,7 +493,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Object List Variable Storage</summary>
+<summary>Get Object List</summary>
 
 ### Node Rules
 
@@ -524,7 +524,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Object List Variable Storage</summary>
+<summary>Set Object List</summary>
 
 ### Node Rules
 
@@ -601,7 +601,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Team Variable Declaration</summary>
+<summary>Declare Team</summary>
 
 ### Node Rules
 
@@ -656,7 +656,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Team Variable Storage</summary>
+<summary>Set Team</summary>
 
 ### Node Rules
 
@@ -724,7 +724,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Vector3 Variable Declaration</summary>
+<summary>Declare Vector3</summary>
 
 ### Node Rules
 
@@ -779,7 +779,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Vector3 Variable Storage</summary>
+<summary>Set Vector3</summary>
 
 ### Node Rules
 
@@ -817,7 +817,7 @@ userData:
 </details>
 
 <details>
-<summary>Area Monitor Parcel\ Declaration\ Literal</summary>
+<summary>Area Monitor Parcel</summary>
 
 ### Node Rules
 
@@ -839,7 +839,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare NavMarker Declaration\ Parcel\ IdentifierDeclaration\ Literal</summary>
+<summary>Declare NavMarker</summary>
 
 ### Node Rules
 
@@ -944,7 +944,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Grenade Type Variable Declaration</summary>
+<summary>Declare Grenade Type</summary>
 
 ### Node Rules
 
@@ -970,7 +970,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Grenade Type Variable Storage</summary>
+<summary>Get Grenade Type</summary>
 
 ### Node Rules
 
@@ -1001,7 +1001,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Grenade Type Variable Storage</summary>
+<summary>Set Grenade Type</summary>
 
 ### Node Rules
 
@@ -1039,7 +1039,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare UI Message Variable Declaration</summary>
+<summary>Declare UI Message</summary>
 
 ### Node Rules
 
@@ -1065,7 +1065,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Message Template Variable Storage</summary>
+<summary>Get Message Template</summary>
 
 ### Node Rules
 
@@ -1096,7 +1096,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Message Template Variable Storage</summary>
+<summary>Set Message Template</summary>
 
 ### Node Rules
 
@@ -1147,7 +1147,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare String Variable Declaration</summary>
+<summary>Declare String</summary>
 
 ### Node Rules
 
@@ -1173,7 +1173,7 @@ userData:
 </details>
 
 <details>
-<summary>Get String Variable Storage</summary>
+<summary>Get String</summary>
 
 ### Node Rules
 
@@ -1204,7 +1204,7 @@ userData:
 </details>
 
 <details>
-<summary>Set String Variable Storage</summary>
+<summary>Set String</summary>
 
 ### Node Rules
 
@@ -1281,7 +1281,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Vehicle Type Variable Declaration</summary>
+<summary>Declare Vehicle Type</summary>
 
 ### Node Rules
 
@@ -1307,7 +1307,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Vehicle Type Variable Storage</summary>
+<summary>Get Vehicle Type</summary>
 
 ### Node Rules
 
@@ -1338,7 +1338,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Vehicle Type Variable Storage</summary>
+<summary>Set Vehicle Type</summary>
 
 ### Node Rules
 
@@ -1441,7 +1441,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Weapon Type Variable Declaration</summary>
+<summary>Declare Weapon Type</summary>
 
 ### Node Rules
 
@@ -1467,7 +1467,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Weapon Type Variable Storage</summary>
+<summary>Get Weapon Type</summary>
 
 ### Node Rules
 
@@ -1498,7 +1498,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Weapon Type Variable Storage</summary>
+<summary>Set Weapon Type</summary>
 
 ### Node Rules
 
@@ -1640,7 +1640,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Equipment Type Variable Declaration</summary>
+<summary>Declare Equipment Type</summary>
 
 ### Node Rules
 
@@ -1666,7 +1666,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Equipment Type Variable Storage</summary>
+<summary>Get Equipment Type</summary>
 
 ### Node Rules
 
@@ -1697,7 +1697,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Equipment Type Variable Storage</summary>
+<summary>Set Equipment Type</summary>
 
 ### Node Rules
 
@@ -1735,7 +1735,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Trait Variable Declaration</summary>
+<summary>Declare Trait</summary>
 
 ### Node Rules
 
@@ -1761,7 +1761,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Trait Variable Storage</summary>
+<summary>Get Trait</summary>
 
 ### Node Rules
 
@@ -1792,7 +1792,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Trait Variable Storage</summary>
+<summary>Set Trait</summary>
 
 ### Node Rules
 
@@ -1857,7 +1857,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Trait List Variable Declaration</summary>
+<summary>Declare Trait List</summary>
 
 ### Node Rules
 
@@ -1883,7 +1883,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Trait List Variable Storage</summary>
+<summary>Get Trait List</summary>
 
 ### Node Rules
 
@@ -1914,7 +1914,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Trait List Variable Storage</summary>
+<summary>Set Trait List</summary>
 
 ### Node Rules
 
@@ -2167,7 +2167,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare User Label Variable Declaration</summary>
+<summary>Declare User Label</summary>
 
 ### Node Rules
 
@@ -2193,7 +2193,7 @@ userData:
 </details>
 
 <details>
-<summary>Get User Label Variable Storage</summary>
+<summary>Get User Label</summary>
 
 ### Node Rules
 
@@ -2224,7 +2224,7 @@ userData:
 </details>
 
 <details>
-<summary>Set User Label Variable Storage</summary>
+<summary>Set User Label</summary>
 
 ### Node Rules
 
@@ -2262,7 +2262,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Squad Definition Variable Declaration</summary>
+<summary>Declare Squad Definition</summary>
 
 ### Node Rules
 
@@ -2288,7 +2288,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Squad Definition Variable Storage</summary>
+<summary>Get Squad Definition</summary>
 
 ### Node Rules
 
@@ -2319,7 +2319,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Squad Definition Variable Storage</summary>
+<summary>Set Squad Definition</summary>
 
 ### Node Rules
 
@@ -2357,7 +2357,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Squad Variable Declaration</summary>
+<summary>Declare Squad</summary>
 
 ### Node Rules
 
@@ -2383,7 +2383,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Squad Variable Storage</summary>
+<summary>Get Squad</summary>
 
 ### Node Rules
 
@@ -2414,7 +2414,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Squad Variable Storage</summary>
+<summary>Set Squad</summary>
 
 ### Node Rules
 
@@ -2478,7 +2478,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Generic Item Variable Declaration</summary>
+<summary>Declare Generic Item</summary>
 
 ### Node Rules
 
@@ -2504,7 +2504,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Generic Item Variable Storage</summary>
+<summary>Get Generic Item</summary>
 
 ### Node Rules
 
@@ -2535,7 +2535,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Generic Item Variable Storage</summary>
+<summary>Set Generic Item</summary>
 
 ### Node Rules
 
@@ -2600,7 +2600,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Generic List Variable Declaration</summary>
+<summary>Declare Generic List</summary>
 
 ### Node Rules
 
@@ -2626,7 +2626,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Generic List Variable Storage</summary>
+<summary>Get Generic List</summary>
 
 ### Node Rules
 
@@ -2657,7 +2657,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Generic List Variable Storage</summary>
+<summary>Set Generic List</summary>
 
 ### Node Rules
 
@@ -2723,7 +2723,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Wave Variable Declaration</summary>
+<summary>Declare Wave</summary>
 
 ### Node Rules
 
@@ -2749,7 +2749,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Wave Variable Storage</summary>
+<summary>Get Wave</summary>
 
 ### Node Rules
 
@@ -2780,7 +2780,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Wave Variable Storage</summary>
+<summary>Set Wave</summary>
 
 ### Node Rules
 
@@ -2818,7 +2818,7 @@ userData:
 </details>
 
 <details>
-<summary>Declare Wave Manager Variable Declaration</summary>
+<summary>Declare Wave Manager</summary>
 
 ### Node Rules
 
@@ -2844,7 +2844,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Wave Manager Variable Storage</summary>
+<summary>Get Wave Manager</summary>
 
 ### Node Rules
 
@@ -2875,7 +2875,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Wave Manager Variable Storage</summary>
+<summary>Set Wave Manager</summary>
 
 ### Node Rules
 

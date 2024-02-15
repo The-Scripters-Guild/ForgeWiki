@@ -591,7 +591,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Personal Score Gameplay</summary>
+<summary>Get Personal Score</summary>
 
 ### Node Rules
 
@@ -623,7 +623,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Player Score Gameplay</summary>
+<summary>Get Player Score</summary>
 
 ### Node Rules
 
@@ -655,7 +655,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Team Score Gameplay</summary>
+<summary>Get Team Score</summary>
 
 ### Node Rules
 
@@ -885,7 +885,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Max Rounds Gameplay</summary>
+<summary>Get Max Rounds</summary>
 
 ### Output Pins
 
@@ -899,7 +899,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Current Round Gameplay</summary>
+<summary>Get Current Round</summary>
 
 ### Output Pins
 
@@ -913,7 +913,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Round Time Gameplay</summary>
+<summary>Get Round Time</summary>
 
 ### Output Pins
 
@@ -927,7 +927,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Round Time Gameplay</summary>
+<summary>Set Round Time</summary>
 
 ### Node Rules
 
@@ -958,7 +958,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>Get Score To Win Gameplay</summary>
+<summary>Get Score To Win</summary>
 
 ### Output Pins
 
@@ -972,7 +972,7 @@ userData:
 </details>
 
 <details>
-<summary>Set Score To Win Gameplay</summary>
+<summary>Set Score To Win</summary>
 
 ### Node Rules
 
@@ -1184,7 +1184,7 @@ userData: userData:
 </details>
 
 <details>
-<summary>Adjust Personal Score Gameplay</summary>
+<summary>Adjust Personal Score</summary>
 
 ### Node Rules
 
@@ -1220,7 +1220,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>Adjust Player Score Gameplay</summary>
+<summary>Adjust Player Score</summary>
 
 ### Node Rules
 
@@ -1256,7 +1256,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>Adjust Team Score Gameplay</summary>
+<summary>Adjust Team Score</summary>
 
 ### Node Rules
 
@@ -1396,7 +1396,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Is Driving Vehicle version: 1</summary>
+<summary>Get Is Driving Vehicle</summary>
 
 ### Node Rules
 
@@ -1428,7 +1428,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is Gunner In Vehicle version: 1</summary>
+<summary>Get Is Gunner In Vehicle</summary>
 
 ### Node Rules
 
@@ -1460,7 +1460,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is Passenger In Vehicle version: 1</summary>
+<summary>Get Is Passenger In Vehicle</summary>
 
 ### Node Rules
 
@@ -1492,7 +1492,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is In Vehicle version: 1</summary>
+<summary>Get Is In Vehicle</summary>
 
 ### Node Rules
 
@@ -1628,7 +1628,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Is Camouflaged version: 1</summary>
+<summary>Get Is Camouflaged</summary>
 
 ### Node Rules
 
@@ -1686,7 +1686,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Is Detected version: 1</summary>
+<summary>Get Is Detected</summary>
 
 ### Node Rules
 
@@ -1718,7 +1718,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is Detected by Team version: 1</summary>
+<summary>Get Is Detected by Team</summary>
 
 ### Node Rules
 
@@ -1756,7 +1756,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is In Knockback version: 1</summary>
+<summary>Get Is In Knockback</summary>
 
 ### Node Rules
 
@@ -1840,7 +1840,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Is Airborne version: 1</summary>
+<summary>Get Is Airborne</summary>
 
 ### Node Rules
 
@@ -1872,7 +1872,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is Boarding version: 1</summary>
+<summary>Get Is Boarding</summary>
 
 ### Node Rules
 
@@ -2260,7 +2260,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>End Round - Winning Player Gameplay</summary>
+<summary>End Round - Winning Player</summary>
 
 ### Node Rules
 
@@ -2294,7 +2294,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>End Round - Winning Team Gameplay</summary>
+<summary>End Round - Winning Team</summary>
 
 ### Node Rules
 
@@ -2328,7 +2328,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>Get Squared Vehicle Speed Gameplay</summary>
+<summary>Get Squared Vehicle Speed</summary>
 
 ### Node Rules
 
@@ -2680,7 +2680,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Is Holding Weapon Type version: 1</summary>
+<summary>Get Is Holding Weapon Type</summary>
 
 ### Node Rules
 
@@ -2718,7 +2718,7 @@ data: Unit
 </details>
 
 <details>
-<summary>Get Is Holding Specific Weapon version: 1</summary>
+<summary>Get Is Holding Specific Weapon</summary>
 
 ### Node Rules
 
@@ -3027,7 +3027,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Respawn Timer Gameplay</summary>
+<summary>Get Respawn Timer</summary>
 
 ### Node Rules
 
@@ -3053,7 +3053,7 @@ userData:
 </details>
 
 <details>
-<summary>Get Respawn Penalty Gameplay</summary>
+<summary>Get Respawn Penalty</summary>
 
 ### Node Rules
 
@@ -3119,7 +3119,7 @@ userData:
 </details>
 
 <details>
-<summary>Was Melee Kill Gameplay</summary>
+<summary>Was Melee Kill</summary>
 
 ### Node Rules
 
@@ -3151,7 +3151,7 @@ userData:
 </details>
 
 <details>
-<summary>Was Weapon Kill Gameplay</summary>
+<summary>Was Weapon Kill</summary>
 
 ### Node Rules
 
@@ -3183,7 +3183,7 @@ userData:
 </details>
 
 <details>
-<summary>Was With Specific Weapon Gameplay</summary>
+<summary>Was With Specific Weapon</summary>
 
 ### Node Rules
 
@@ -3215,7 +3215,7 @@ userData:
 </details>
 
 <details>
-<summary>Was With Weapon Type Gameplay</summary>
+<summary>Was With Weapon Type</summary>
 
 ### Node Rules
 
@@ -3247,7 +3247,7 @@ userData:
 </details>
 
 <details>
-<summary>Was Vehicle Kill Gameplay</summary>
+<summary>Was Vehicle Kill</summary>
 
 ### Node Rules
 
@@ -3279,7 +3279,7 @@ userData:
 </details>
 
 <details>
-<summary>Was With Specific Vehicle Gameplay</summary>
+<summary>Was With Specific Vehicle</summary>
 
 ### Node Rules
 
@@ -3311,7 +3311,7 @@ userData:
 </details>
 
 <details>
-<summary>Was With Vehicle Type Gameplay</summary>
+<summary>Was With Vehicle Type</summary>
 
 ### Node Rules
 
@@ -3343,7 +3343,7 @@ userData:
 </details>
 
 <details>
-<summary>Was Grenade Kill Gameplay</summary>
+<summary>Was Grenade Kill</summary>
 
 ### Node Rules
 
@@ -3369,7 +3369,7 @@ userData:
 </details>
 
 <details>
-<summary>Was With Grenade Type Gameplay</summary>
+<summary>Was With Grenade Type</summary>
 
 ### Node Rules
 
@@ -3401,7 +3401,7 @@ userData:
 </details>
 
 <details>
-<summary>Was Assisted Kill Gameplay</summary>
+<summary>Was Assisted Kill</summary>
 
 ### Node Rules
 
