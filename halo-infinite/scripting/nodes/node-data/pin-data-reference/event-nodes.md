@@ -1,8 +1,7 @@
 # Event Nodes
 
 <details>
-
-<summary>Teleport Unit nodeCategories: Function</summary>
+<summary>Teleport Unit</summary>
 
 ### Node Rules
 
@@ -38,13 +37,11 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Units
-
+### Node Category: Units
 </details>
 
 <details>
-
-<summary>Are Same Unit nodeCategories: General</summary>
+<summary>Are Same Unit</summary>
 
 ### Node Rules
 
@@ -72,23 +69,25 @@ userData:
 
 #### Editor Settings
 
+### Node Category: Units
+</details>
+
+<details>
+<summary>Get All Units</summary>
+
+### Output Pins
+
+pinId: Units\
+dataType: object_list\
+userData:
+
 #### Editor Settings
 
-#### Node Category: Units
-
+### Node Category: Units
 </details>
 
 <details>
-
-<summary>Get All Units nodeCategories: GeneralOutput PinspinId: Units<br>dataType: object_list<br>userData:Editor SettingsEditor SettingsNode Category: Units</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Get All Units On Team nodeCategories: General</summary>
+<summary>Get All Units On Team</summary>
 
 ### Node Rules
 
@@ -110,23 +109,24 @@ userData:
 
 #### Editor Settings
 
+### Node Category: Units
+</details>
+
+<details>
+<summary>Get Random Unit</summary> 
+
+### Output Pins
+
+pinId: Unit\
+dataType: object\
+userData:
 #### Editor Settings
 
-#### Node Category: Units
-
+### Node Category: Units
 </details>
 
 <details>
-
-<summary>Get Random Unit nodeCategories: GeneralOutput PinspinId: Unit<br>dataType: object<br>userData:Editor SettingsEditor SettingsNode Category: Units</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Get Unit Aiming Vector nodeCategories: General</summary>
+<summary>Get Unit Aiming Vector</summary>
 
 ### Node Rules
 
@@ -148,15 +148,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units
-
+### Node Category: Units
 </details>
 
 <details>
-
-<summary>Get Unit Team nodeCategories: General</summary>
+<summary>Get Unit Team</summary>
 
 ### Node Rules
 
@@ -178,15 +174,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units
-
+### Node Category: Units
 </details>
 
 <details>
-
-<summary>Get Unit FFA Allegiance nodeCategories: General</summary>
+<summary>Get Unit FFA Allegiance</summary>
 
 ### Node Rules
 
@@ -208,15 +200,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Units
-
+### Node Category: Units
 </details>
 
 <details>
-
-<summary>Get Unit Weapons nodeCategories: General</summary>
+<summary>Get Unit Weapons</summary>
 
 ### Node Rules
 
@@ -244,15 +232,11 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Inventory
-
+### Node Category: Inventory
 </details>
 
 <details>
-
-<summary>Give Unit New Weapon nodeCategories: Function</summary>
+<summary>Give Unit New Weapon</summary>
 
 ### Node Rules
 
@@ -294,13 +278,11 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Inventory
-
+### Node Category: Inventory
 </details>
 
 <details>
-
-<summary>Give Unit Specific Weapon nodeCategories: General</summary>
+<summary>Give Unit Specific Weapon</summary>
 
 ### Node Rules
 
@@ -342,13 +324,11 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Inventory
-
+### Node Category: Inventory
 </details>
 
 <details>
-
-<summary>Set Unit Camo nodeCategories: Function</summary>
+<summary>Set Unit Camo</summary>
 
 ### Node Rules
 
@@ -381,6 +361,5 @@ dataType: execute userData:
 
 #### Editor Settings
 
-#### Node Category: Units\\
-
+### Node Category: Units\\
 </details>
