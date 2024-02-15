@@ -354,7 +354,7 @@ dataType: execute userData:
 </details>
 
 <details>
-<summary>Trait: Weapon Pickup Gameplay</summary>
+<summary>Trait: Weapon Pickup</summary>
 
 ### Node Rules
 
@@ -382,7 +382,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Grenade Pickup Gameplay</summary>
+<summary>Trait: Grenade Pickup</summary>
 
 ### Node Rules
 
@@ -410,7 +410,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Equipment Pickup Gameplay</summary>
+<summary>Trait: Equipment Pickup</summary>
 
 ### Node Rules
 
@@ -438,7 +438,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Prevent Weapon Firing Gameplay</summary>
+<summary>Trait: Prevent Weapon Firing</summary>
 
 ### Node Rules
 
@@ -466,7 +466,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Prevent Grenade Throwing Gameplay</summary>
+<summary>Trait: Prevent Grenade Throwing</summary>
 
 ### Node Rules
 
@@ -494,7 +494,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Weapon Dropping Gameplay</summary>
+<summary>Trait: Weapon Dropping</summary>
 
 ### Node Rules
 
@@ -522,7 +522,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Weapon Damage Gameplay</summary>
+<summary>Trait: Weapon Damage</summary>
 
 ### Node Rules
 
@@ -553,7 +553,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Weapon Switch Speed Gameplay</summary>
+<summary>Trait: Weapon Switch Speed</summary>
 
 ### Node Rules
 
@@ -584,7 +584,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Reload Speed Gameplay</summary>
+<summary>Trait: Reload Speed</summary>
 
 ### Node Rules
 
@@ -624,7 +624,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Infinite Ammo Gameplay</summary>
+<summary>Trait: Infinite Ammo</summary>
 
 ### Node Rules
 
@@ -652,7 +652,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Bottomless Clip Gameplay</summary>
+<summary>Trait: Bottomless Clip</summary>
 
 ### Node Rules
 
@@ -680,7 +680,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Grenade Damage Gameplay</summary>
+<summary>Trait: Grenade Damage</summary>
 
 ### Node Rules
 
@@ -711,7 +711,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Grenade Detonation Radius Gameplay</summary>
+<summary>Trait: Grenade Detonation Radius</summary>
 
 ### Node Rules
 
@@ -742,7 +742,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Grenade Impulse Gameplay</summary>
+<summary>Trait: Grenade Impulse</summary>
 
 ### Node Rules
 
@@ -773,7 +773,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Melee Damage Gameplay</summary>
+<summary>Trait: Melee Damage</summary>
 
 ### Node Rules
 
@@ -804,7 +804,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Melee Impulse Gameplay</summary>
+<summary>Trait: Melee Impulse</summary>
 
 ### Node Rules
 
@@ -835,7 +835,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Melee Recovery Speed Gameplay</summary>
+<summary>Trait: Melee Recovery Speed</summary>
 
 ### Node Rules
 
@@ -869,7 +869,7 @@ Step: 0.05
 </details>
 
 <details>
-<summary>Trait: Vehicle Passenger Only Gameplay</summary>
+<summary>Trait: Vehicle Passenger Only</summary>
 
 ### Node Rules
 
@@ -897,7 +897,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: VFX - Active Camo Gameplay</summary>
+<summary>Trait: VFX - Active Camo</summary>
 
 ### Node Rules
 
@@ -941,7 +941,7 @@ Step: 0.05
 </details>
 
 <details>
-<summary>Trait: VFX - Overshield Gameplay</summary>
+<summary>Trait: VFX - Overshield</summary>
 
 ### Node Rules
 
@@ -969,7 +969,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Shield HUD Visible Gameplay</summary>
+<summary>Trait: Shield HUD Visible</summary>
 
 ### Node Rules
 
@@ -997,7 +997,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Motion Tracker Visible Gameplay</summary>
+<summary>Trait: Motion Tracker Visible</summary>
 
 ### Node Rules
 
@@ -1031,7 +1031,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Motion Tracker Range Gameplay</summary>
+<summary>Trait: Motion Tracker Range</summary>
 
 ### Node Rules
 
@@ -1080,7 +1080,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Damage Resistance Gameplay</summary>
+<summary>Trait: Damage Resistance</summary>
 
 ### Node Rules
 
@@ -1129,7 +1129,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Headshot Protection Gameplay</summary>
+<summary>Trait: Headshot Protection</summary>
 
 ### Node Rules
 
@@ -1157,7 +1157,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Deathless Gameplay</summary>
+<summary>Trait: Deathless</summary>
 
 ### Node Rules
 
@@ -1185,7 +1185,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Shield Maximum Gameplay</summary>
+<summary>Trait: Shield Maximum</summary>
 
 ### Node Rules
 
@@ -1217,7 +1217,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Shield Recharge Gameplay</summary>
+<summary>Trait: Shield Recharge</summary>
 
 ### Node Rules
 
@@ -1259,7 +1259,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Health Maximum Gameplay</summary>
+<summary>Trait: Health Maximum</summary>
 
 ### Node Rules
 
@@ -1291,7 +1291,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Health Recharge Gameplay</summary>
+<summary>Trait: Health Recharge</summary>
 
 ### Node Rules
 
@@ -1333,7 +1333,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Vampirism Gameplay</summary>
+<summary>Trait: Vampirism</summary>
 
 ### Node Rules
 
@@ -1373,7 +1373,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Jump Height Gameplay</summary>
+<summary>Trait: Jump Height</summary>
 
 ### Node Rules
 
@@ -1404,7 +1404,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Movement Speed Gameplay</summary>
+<summary>Trait: Movement Speed</summary>
 
 ### Node Rules
 
@@ -1435,7 +1435,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Movement Speed With Turret Gameplay</summary>
+<summary>Trait: Movement Speed With Turret</summary>
 
 ### Node Rules
 
@@ -1466,7 +1466,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Player Gravity Gameplay</summary>
+<summary>Trait: Player Gravity</summary>
 
 ### Node Rules
 
@@ -1497,7 +1497,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Sprint Enabled Gameplay</summary>
+<summary>Trait: Sprint Enabled</summary>
 
 ### Node Rules
 
@@ -1525,7 +1525,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Sprint Speed Gameplay</summary>
+<summary>Trait: Sprint Speed</summary>
 
 ### Node Rules
 
@@ -1565,7 +1565,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Slide Speed Gameplay</summary>
+<summary>Trait: Slide Speed</summary>
 
 ### Node Rules
 
@@ -1605,7 +1605,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Sprint Reload Enabled Gameplay</summary>
+<summary>Trait: Sprint Reload Enabled</summary>
 
 ### Node Rules
 
@@ -1633,7 +1633,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Sprint Resets Recharge Gameplay</summary>
+<summary>Trait: Sprint Resets Recharge</summary>
 
 ### Node Rules
 
@@ -1661,7 +1661,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Clamber Enabled Gameplay</summary>
+<summary>Trait: Clamber Enabled</summary>
 
 ### Node Rules
 
@@ -1689,7 +1689,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Clamber Speed Gameplay</summary>
+<summary>Trait: Clamber Speed</summary>
 
 ### Node Rules
 
@@ -1720,7 +1720,7 @@ userData:
 </details>
 
 <details>
-<summary>Trait: Loadout Weapons Gameplay</summary>
+<summary>Trait: Loadout Weapons</summary>
 
 ### Node Rules
 
