@@ -1,19 +1,29 @@
 # Trait Nodes
 
 <details>
-<summary>Combine Trait Lists
+<summary>Combine Trait Lists</summary>
 
 ### Input Pins
 
 pinId: Trait List A\
 dataType: trait_list\
-settings: defaultValue: String:Editor SettingspinId: Trait List B\
+settings: defaultValue: String
+#### Editor Settings
+
+pinId: Trait List B\
 dataType: trait_list\
-settings: defaultValue: String:Editor SettingspinId: Trait List C\
+settings: defaultValue: String
+#### Editor Settings
+
+pinId: Trait List C\
 dataType: trait_list\
-settings: defaultValue: String:Editor SettingspinId: Trait List D\
+settings: defaultValue: String
+#### Editor Settings
+
+pinId: Trait List D\
 dataType: trait_list\
-settings: defaultValue: String:Editor Settings
+settings: defaultValue: String
+#### Editor Settings
 
 ### Output Pins
 
@@ -23,7 +33,7 @@ userData:
 
 #### Editor Settings
 
-### Node Category: Players_Traits</summary>
+### Node Category: Players_Traits
 </details>
 
 <details>
