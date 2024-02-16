@@ -70,4 +70,5 @@ The penalty is also increased by 5. At the start of the next round, the player w
 
 **Contributors**
 
-Mr. Admirals
+Mr. Admirals\
+Captain Punch

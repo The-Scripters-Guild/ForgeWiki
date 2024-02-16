@@ -28,4 +28,5 @@ To perform the initialization, a _Wait For N Seconds_ node can be used with its 
 
 **Contributors**
 
-Mr. Admirals
+Mr. Admirals\
+Cookies
