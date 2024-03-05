@@ -14,10 +14,9 @@ Original iteration's showcase video by ForgeLabs.
 
 [Levels](https://www.halowaypoint.com/halo-infinite/ugc/browse?page=1\&tags=tsg-slipspace-arena)
 
-Game Modes:
-
-* [Slipspace Arena PVP](https://www.halowaypoint.com/halo-infinite/ugc/modes/6460926b-cc23-4c6d-b5bb-b6073e067640)
-* Slipspace Arena PVE (releasing when the PVE example level is complete)
+Game Modes:\
+[Slipspace Arena PVP](https://www.halowaypoint.com/halo-infinite/ugc/modes/6460926b-cc23-4c6d-b5bb-b6073e067640)\
+Slipspace Arena PVE _(releasing when the PVE example level is complete)_
 
 ### Gameplay
 
