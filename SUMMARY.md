@@ -16,7 +16,7 @@
 * [Terms](general/terms-generic.md)
 * [Guides & Tutorials](general/guides-and-tutorials/README.md)
   * [Article Template](general/guides-and-tutorials/article-template.md)
-  * [BitBook Markdown Syntax](general/guides-and-tutorials/gitbook-markdown-syntax.md)
+  * [GitBook Markdown Syntax](general/guides-and-tutorials/gitbook-markdown-syntax.md)
   * [Level Design](general/guides-and-tutorials/level-design/README.md)
     * [A Chunk's Guide to Level Design](general/guides-and-tutorials/level-design/a-chunks-guide-to-level-design.md)
 
