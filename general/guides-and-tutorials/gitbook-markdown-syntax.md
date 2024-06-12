@@ -8,19 +8,19 @@ description: >-
 
 Contrast this page to:
 
-* raw markdown: [https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md](https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md)&#x20;
+* raw markdown: [https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md](https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md)
 * Github's markdown renderer: [https://github.com/audacity/audacity-support/blob/main/community/contributing/tutorials/gitbook-markdown-syntax.md](gitbook-markdown-syntax.md)
 * the live page: [https://support.audacityteam.org/community/contributing/tutorials/gitbook-markdown-syntax](https://support.audacityteam.org/community/contributing/tutorials/gitbook-markdown-syntax)
 
-## Heading 1&#x20;
+## Heading 1
 
 (shows up in the outline)
 
-### Heading 2&#x20;
+### Heading 2
 
 (also shows up in the outline)
 
-#### Heading 3&#x20;
+#### Heading 3
 
 (does not show up in the outline)
 
@@ -29,17 +29,17 @@ Headings can be used anywhere, including inside other blocks.
 ## Inline text formatting options
 
 **Bold**,\
-&#x20;_Italics_,\
-`Code`, \
-~~Strikethrough~~, \
-[Link](https://example.org), \
-[internal link](style-guide.md), \
-[anchor link](gitbook-markdown-syntax.md#undefined), \
-page link: [style-guide.md](style-guide.md "mention"), \
-page anchor link: [#inline-text-formatting-options](gitbook-markdown-syntax.md#inline-text-formatting-options "mention"), \
-<mark style="color:red;">colored text</mark>, \
-<mark style="background-color:green;">colored background</mark>, \
-<mark style="color:yellow;background-color:blue;">both colored</mark>, \
+_Italics_,\
+`Code`,\
+~~Strikethrough~~,\
+[Link](https://example.org),\
+[internal link](style-guide.md),\
+[anchor link](gitbook-markdown-syntax.md#undefined),\
+page link: [style-guide.md](style-guide.md "mention"),\
+page anchor link: [#inline-text-formatting-options](gitbook-markdown-syntax.md#inline-text-formatting-options "mention"),\
+<mark style="color:red;">colored text</mark>,\
+<mark style="background-color:green;">colored background</mark>,\
+<mark style="color:yellow;background-color:blue;">both colored</mark>,\
 LaTeX: $$f(x) = x * e^{2 pi i \xi x}$$
 
 These can be used anywhere.
@@ -65,24 +65,24 @@ These can be used anywhere.
 
 Lists can be used anywhere, including inside other blocks. They can only include inline content and other (nested) lists.
 
-## Infoboxes, quotes and code blocks&#x20;
+## Infoboxes, quotes and code blocks
 
 Infoboxes:
 
 {% hint style="info" %}
-Hint
+**Note:** Info box for communicating important information.
 {% endhint %}
 
 {% hint style="warning" %}
-Caution
+**Caution!:** Warning box for notifying the reader of potential risk.
 {% endhint %}
 
 {% hint style="danger" %}
-Danger
+**Danger!:** Danger box for notifying the reader of a irreversible hazard.
 {% endhint %}
 
 {% hint style="success" %}
-Success
+**Best Practice:** Success box for communicating a successful action. Could be used for "Best Practice" type information.
 {% endhint %}
 
 > A quote block
@@ -133,9 +133,72 @@ Embeds cannot be used inside of other blocks except the Tabs block, nor can othe
 
 ## Tables
 
-<table><thead><tr><th data-type="checkbox">checkbox column</th><th align="center">text column, center-aligned</th><th data-type="number">number column</th><th data-hidden>hidden text column</th></tr></thead><tbody><tr><td>true</td><td align="center">text</td><td>123</td><td>hidden</td></tr><tr><td>false</td><td align="center">text</td><td>456</td><td>hidden</td></tr><tr><td>true</td><td align="center">text</td><td>789</td><td>hidden</td></tr></tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th data-type="checkbox">checkbox column</th>
+      <th align="center">text column, center-aligned</th>
+      <th data-type="number">number column</th>
+      <th data-hidden>hidden text column</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>true</td>
+      <td align="center">text</td>
+      <td>123</td>
+      <td>hidden</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td align="center">text</td>
+      <td>456</td>
+      <td>hidden</td>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td align="center">text</td>
+      <td>789</td>
+      <td>hidden</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><thead><tr><th>select-option column<select multiple><option value="64ea6801db7c43c08cea2bc65f0fe7d1" label="option a" color="blue"></option><option value="36387035f9e34215a942470ccfa8d781" label="option b" color="blue"></option><option value="0084b6cd834d4088bbd2188363ddf09a" label="option c" color="blue"></option></select></th><th data-type="files">files column</th><th data-type="rating" data-max="3">Ratings column</th></tr></thead><tbody><tr><td><span data-option="64ea6801db7c43c08cea2bc65f0fe7d1">option a</span></td><td><a href="../../../.gitbook/assets/ZoomIn.png">ZoomIn.png</a></td><td>3</td></tr><tr><td><span data-option="36387035f9e34215a942470ccfa8d781">option b</span></td><td><a href="../../../.gitbook/assets/transport toolbar.png">transport toolbar.png</a></td><td>2</td></tr><tr><td><span data-option="0084b6cd834d4088bbd2188363ddf09a">option c, </span><span data-option="36387035f9e34215a942470ccfa8d781">option b, </span><span data-option="64ea6801db7c43c08cea2bc65f0fe7d1">option a</span></td><td><a href="../../../.gitbook/assets/ZoomIn.png">ZoomIn.png</a><a href="../../../.gitbook/assets/transport toolbar.png">transport toolbar.png</a><a href="../../../.gitbook/assets/Trim.png">Trim.png</a></td><td>1</td></tr></tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th>select-option column<select multiple><option value="64ea6801db7c43c08cea2bc65f0fe7d1" label="option a" color="blue"></option><option value="36387035f9e34215a942470ccfa8d781" label="option b" color="blue"></option><option value="0084b6cd834d4088bbd2188363ddf09a" label="option c" color="blue"></option></select></th>
+      <th data-type="files">files column</th>
+      <th data-type="rating" data-max="3">Ratings column</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span data-option="64ea6801db7c43c08cea2bc65f0fe7d1">option a</span></td>
+      <td><a href="../../../.gitbook/assets/ZoomIn.png">ZoomIn.png</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><span data-option="36387035f9e34215a942470ccfa8d781">option b</span></td>
+      <td><a href="../../../.gitbook/assets/transport toolbar.png">transport toolbar.png</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><span data-option="0084b6cd834d4088bbd2188363ddf09a">option c, </span><span data-option="36387035f9e34215a942470ccfa8d781">option b, </span><span data-option="64ea6801db7c43c08cea2bc65f0fe7d1">option a</span></td>
+      <td><a href="../../../.gitbook/assets/ZoomIn.png">ZoomIn.png</a><a href="../../../.gitbook/assets/transport toolbar.png">transport toolbar.png</a><a href="../../../.gitbook/assets/Trim.png">Trim.png</a></td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+With markdown
+
+|Column 1 default aligned|Column 2 Center aligned|Column 3 right aligned|Column 4 left aligned|
+|-|:-:|-:|:-|
+|First One|First Two|First Three|First Four|
+|Second One|Second Two|Second Three|Second Four|
+|Third One|Third Two|Third Three|Third Four|
+
 
 {% hint style="warning" %}
 Any table but the most simple option will be converted into HTML, rather than markdown when edited through gitbook.
@@ -145,7 +208,40 @@ Tables cannot be used inside other blocks except the Tabs block, nor can other b
 
 ## Cards
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Card 1 top. Card has an image on top.</td><td>Card 1 mid</td><td>Card 1 bottom</td><td><a href="../../../.gitbook/assets/Card Beats Measures.png">Card Beats Measures.png</a></td><td></td></tr><tr><td>Card 2 top. Entire card links to a page.</td><td>Card 2 mid</td><td>Card 2 bottom</td><td></td><td><a href="../../../">..</a></td></tr><tr><td>Card 3 top. <mark style="color:blue;">With inline formatting.</mark></td><td><strong>Card 3 mid</strong></td><td>Card 3 bottom</td><td></td><td></td></tr></tbody></table>
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th data-hidden data-card-cover data-type="files"></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Card 1 top. Card has an image on top.</td>
+      <td>Card 1 mid</td>
+      <td>Card 1 bottom</td>
+      <td><a href="../../../.gitbook/assets/Card Beats Measures.png">Card Beats Measures.png</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Card 2 top. Entire card links to a page.</td>
+      <td>Card 2 mid</td>
+      <td>Card 2 bottom</td>
+      <td></td>
+      <td><a href="../../../">..</a></td>
+    </tr>
+    <tr>
+      <td>Card 3 top. <mark style="color:blue;">With inline formatting.</mark></td>
+      <td><strong>Card 3 mid</strong></td>
+      <td>Card 3 bottom</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Cards and tables can be converted into each other.
 
