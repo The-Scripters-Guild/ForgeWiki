@@ -2,15 +2,15 @@
 
 <details>
 
-<summary>Add Item to Generic List nodeCategories: General</summary>
+<summary>Add Item to Generic List</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List\
 Any Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic List\
 dataType: any
@@ -28,7 +28,7 @@ settings: defaultValue: String: false
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: New Generic List\
 dataType: generic\_list\
@@ -36,23 +36,21 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Remove Item From Generic List nodeCategories: General</summary>
+<summary>Remove Item From Generic List</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List\
 Any Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic List\
 dataType: any
@@ -64,7 +62,7 @@ dataType: any
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: New Generic List\
 dataType: generic\_list\
@@ -72,23 +70,21 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Combine Generic Lists nodeCategories: General</summary>
+<summary>Combine Generic Lists</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: List A\
 List B
 
-### Input Pins
+#### Input Pins
 
 pinId: List A\
 dataType: any
@@ -106,7 +102,7 @@ settings: defaultValue: String: false
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Combined Generic List\
 dataType: generic\_list\
@@ -114,23 +110,21 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Get Shared Items nodeCategories: General</summary>
+<summary>Get Shared Items</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: List A\
 List B
 
-### Input Pins
+#### Input Pins
 
 pinId: List A\
 dataType: any
@@ -142,7 +136,7 @@ dataType: any
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: New Generic List\
 dataType: generic\_list\
@@ -150,23 +144,21 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Get Unshared Items nodeCategories: General</summary>
+<summary>Get Unshared Items</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: List A\
 List B
 
-### Input Pins
+#### Input Pins
 
 pinId: List A\
 dataType: any
@@ -178,7 +170,7 @@ dataType: any
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: New Generic List\
 dataType: generic\_list\
@@ -186,22 +178,20 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>For Each Generic Item nodeCategories: Function</summary>
+<summary>For Each Generic Item</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -211,7 +201,7 @@ dataType: any
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: On Loop Complete\
 dataType: execute
@@ -239,22 +229,22 @@ userData: userData:
 
 #### Editor Settings
 
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Get N Items From Generic List nodeCategories: General</summary>
+<summary>Get N Items From Generic List</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List\
 N\
 N Type
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic List\
 dataType: any
@@ -274,7 +264,7 @@ dataType: generic\_item\_count\_type
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: New List\
 dataType: generic\_list\
@@ -282,23 +272,21 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Get Item at Index nodeCategories: General</summary>
+<summary>Get Item at Index</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List\
 Index
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic List\
 dataType: any
@@ -313,7 +301,7 @@ dataType: number
 MinRange: 1\
 Step: 1.0
 
-### Output Pins
+#### Output Pins
 
 pinId: Generic Item\
 dataType: generic\_item\
@@ -321,29 +309,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Get Generic List Size nodeCategories: General</summary>
+<summary>Get Generic List Size</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic List\
 dataType: any
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Size\
 dataType: number\
@@ -351,23 +337,21 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Item Is In Generic List nodeCategories: General</summary>
+<summary>Item Is In Generic List</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic List\
 Any Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic List\
 dataType: any
@@ -379,7 +363,7 @@ dataType: any
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Contains Item\
 dataType: bool\
@@ -387,29 +371,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\\
+**Node Category: Generic\_Lists\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Number nodeCategories: General\ Cast</summary>
+<summary>Cast to Number</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Number\
 dataType: number\
@@ -423,29 +405,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Bool nodeCategories: General\ Cast</summary>
+<summary>Cast to Bool</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Boolean\
 dataType: bool\
@@ -459,29 +439,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Object nodeCategories: General\ Cast</summary>
+<summary>Cast to Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Object\
 dataType: object\
@@ -495,29 +473,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Team nodeCategories: General\ Cast</summary>
+<summary>Cast to Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Team\
 dataType: team\
@@ -531,29 +507,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Vector nodeCategories: General\ Cast</summary>
+<summary>Cast to Vector</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Vector\
 dataType: vector3\
@@ -567,29 +541,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to UI Message nodeCategories: General\ Cast</summary>
+<summary>Cast to UI Message</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: UI Message\
 dataType: ui\_message\
@@ -603,29 +575,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to String nodeCategories: General\ Cast</summary>
+<summary>Cast to String</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: String\
 dataType: string\_id\
@@ -639,29 +609,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Grenade Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Grenade Type</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Grenade Type\
 dataType: grenade\_type\
@@ -675,29 +643,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Equipment Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Equipment Type</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Equipment Type\
 dataType: equipment\_type\
@@ -711,29 +677,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Vehicle Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Vehicle Type</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Vehicle Type\
 dataType: vehicle\_type\
@@ -747,29 +711,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Weapon Type nodeCategories: General\ Cast</summary>
+<summary>Cast to Weapon Type</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Weapon Type\
 dataType: weapon\_type\
@@ -783,29 +745,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to User Label nodeCategories: General\ Cast</summary>
+<summary>Cast to User Label</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: User Label\
 dataType: user\_label\
@@ -819,29 +779,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Squad Definition nodeCategories: General\ Cast</summary>
+<summary>Cast to Squad Definition</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Squad Definition\
 dataType: ai\_squad\_definition\
@@ -855,29 +813,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Squad nodeCategories: General\ Cast</summary>
+<summary>Cast to Squad</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Squad\
 dataType: ai\_squad\
@@ -891,29 +847,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Wave nodeCategories: General\ Cast</summary>
+<summary>Cast to Wave</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Wave\
 dataType: ai\_wave\
@@ -927,29 +881,27 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
 
 <details>
 
-<summary>Cast to Wave Manager nodeCategories: General\ Cast</summary>
+<summary>Cast to Wave Manager</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Generic Item
 
-### Input Pins
+#### Input Pins
 
 pinId: Generic Item\
 dataType: generic\_item
 
 #### Editor Settings
 
-### Output Pins
+#### Output Pins
 
 pinId: Wave Manager\
 dataType: ai\_wave\_manager\
@@ -963,8 +915,6 @@ userData:
 
 #### Editor Settings
 
-#### Editor Settings
-
-#### Node Category: Generic\_Lists\_Casts\\
+**Node Category: Generic\_Lists\_Casts\\**
 
 </details>
