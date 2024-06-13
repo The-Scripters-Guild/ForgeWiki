@@ -6,7 +6,11 @@ description: >-
 
 # Gitbook Markdown syntax
 
+<<<<<<< HEAD
 Contrast this page to: 123123123
+=======
+Contrast this page to:
+>>>>>>> upstream/main
 
 * raw markdown: [https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md](https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md)
 * Github's markdown renderer: [https://github.com/audacity/audacity-support/blob/main/community/contributing/tutorials/gitbook-markdown-syntax.md](gitbook-markdown-syntax.md)
