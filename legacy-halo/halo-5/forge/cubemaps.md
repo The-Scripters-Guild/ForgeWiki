@@ -6,33 +6,33 @@ Whenever I start a map nowadays, I build it with the location of the cube map in
 
 <summary>Cube Map Locations</summary>
 
-**PARALLAX**: \
+**PARALLAX**:\
 Blue Planet = -700,\~2000,\~1750 (outside forgeable space)\
-Exosphere = 0,0,0 \
-Ascendence = -700,\~2000,\~1750 (outside forgeable space) \
-Halo Ring = 0,0,0&#x20;
+Exosphere = 0,0,0\
+Ascendence = -700,\~2000,\~1750 (outside forgeable space)\
+Halo Ring = 0,0,0
 
-**TIDAL** Paradise = 0,0,120  \
-Stormy = 0,0,120  \
-Meteor Shower = 0,0,120  \
-Clear = 0,0,-248&#x20;
+**TIDAL** Paradise = 0,0,120\
+Stormy = 0,0,120\
+Meteor Shower = 0,0,120\
+Clear = 0,0,-248
 
-**ALPINE** \
+**ALPINE**\
 Cirrus = -200,-80,-30\
 Sunset = -200,-80,-30\
-Overcast = -200,-80,-30&#x20;
+Overcast = -200,-80,-30
 
-**GLACIER** \
-Midday = 50,-90,230 \
-Nighttime = 50,-90,230  \
+**GLACIER**\
+Midday = 50,-90,230\
+Nighttime = 50,-90,230\
 Sunrise = 50,-90,230
 
-**BARRENS** \
-Twilight = 0,0,0 \
-Dust Storm = 0,0,48 \
+**BARRENS**\
+Twilight = 0,0,0\
+Dust Storm = 0,0,48\
 Sunrise = 0,0,60
 
-**DEPTHS** \
+**DEPTHS**\
 Depths = 0,0,24
 
 </details>
@@ -77,12 +77,10 @@ For example, one could surround the cube map location in a box. If the box is da
 
 <img src="http://i.imgur.com/5G4Adgu.jpg" alt="Example" data-size="original">
 
-![Example 2](http://i.imgur.com/u4q7Ipw.png) \
+![Example 2](http://i.imgur.com/u4q7Ipw.png)\
 _Scripting not necessary ;)_
 
-<img src="http://i.imgur.com/PfATR0P.jpg" alt="Example 3" data-size="original">
-
-<img src="http://i.imgur.com/o8A6xlZ.png" alt="Example 4" data-size="original">
+<img src="http://i.imgur.com/PfATR0P.jpg" alt="Example 3" data-size="original"> <img src="http://i.imgur.com/o8A6xlZ.png" alt="Example 4" data-size="original">
 
 The map Reliquary is another good example. On it darkprince909 created a mini mountain scape around the camera so when players see a reflection, they see the "mountains" around them and not the outside boundaries of the map.
 

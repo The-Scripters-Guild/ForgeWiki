@@ -4,12 +4,12 @@
 
 <summary>Spawn Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Spawn
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -17,16 +17,16 @@ dataType: execute
 pinId: Object To Spawn\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -34,12 +34,12 @@ dataType: execute
 
 <summary>Reset Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Reset
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -47,34 +47,34 @@ dataType: execute
 pinId: Object To Reset\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Reset Position\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Reset Rotation\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Reset Velocity\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -82,12 +82,12 @@ dataType: execute
 
 <summary>Set Object Team To Neutral</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Set To Neutral
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -95,16 +95,16 @@ dataType: execute
 pinId: Object To Set To Neutral\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -112,12 +112,12 @@ dataType: execute
 
 <summary>Delete Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Delete
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -125,16 +125,16 @@ dataType: execute
 pinId: Object To Delete\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -142,13 +142,13 @@ dataType: execute
 
 <summary>Damage Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Damage\
 Damage Amount
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -156,25 +156,25 @@ dataType: execute
 pinId: Object To Damage\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Damage Amount\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 MaxRange: 1000\
 Step: 0.5
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -182,13 +182,13 @@ dataType: execute
 
 <summary>Set Object Health Percentage</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object\
 Percentage
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -196,25 +196,25 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Percentage\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 1\
 MaxRange: 100\
 Step: 0.5
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -222,13 +222,13 @@ dataType: execute
 
 <summary>Set Object Health Absolute</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object\
 Health Amount
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -236,25 +236,25 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Health Amount\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 1\
 MaxRange: 1000\
 Step: 0.5
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -262,13 +262,13 @@ dataType: execute
 
 <summary>Set Object Position</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Move\
 Position
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -276,27 +276,27 @@ dataType: execute
 pinId: Object To Move\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Is Relative Position\
 dataType: bool\
 settings: defaultValue: Bool: false
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -304,13 +304,13 @@ dataType: execute
 
 <summary>Set Object Velocity</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Move\
 Velocity
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -318,27 +318,27 @@ dataType: execute
 pinId: Object To Move\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Velocity\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Is Relative\
 dataType: bool\
 settings: defaultValue: Bool: false
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -346,13 +346,13 @@ dataType: execute
 
 <summary>Set Object Rotation</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Move\
 Rotation
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -360,35 +360,35 @@ dataType: execute
 pinId: Object To Move\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Rotation\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Is Relative\
 dataType: bool\
 settings: defaultValue: Bool: false
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object To Move\
 Angular Velocity
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -396,27 +396,27 @@ dataType: execute
 pinId: Object To Move\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Angular Velocity\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Is Relative\
 dataType: bool\
 settings: defaultValue: Bool: false
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -424,13 +424,13 @@ dataType: execute
 
 <summary>Start Object Audio Loop</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object\
 Sound Tag
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -438,35 +438,35 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Is Enemy Sound\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Is Ally Sound\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
 properties: propertyName: Sound Tag\
 dataType: tag
 
-#### Editor Settings
+**Editor Settings**
 
 TagType: sound\_looping
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -474,12 +474,12 @@ dataType: execute
 
 <summary>Stop Object Audio Loop</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -487,28 +487,28 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Stop Ally Sound\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Stop Enemy Sound\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -516,12 +516,12 @@ dataType: execute
 
 <summary>Play Audio For All Players</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Position
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -529,22 +529,22 @@ dataType: execute
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute properties: propertyName: Sound Tag\
 dataType: tag
 
-#### Editor Settings
+**Editor Settings**
 
 TagType: sound\_response\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -552,13 +552,13 @@ settings: defaultValue: String: nil
 
 <summary>Play Audio For Players On Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team\
 Position
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -566,27 +566,27 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute properties: propertyName: Sound Tag\
 dataType: tag
 
-#### Editor Settings
+**Editor Settings**
 
 TagType: sound\_response\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -594,13 +594,13 @@ settings: defaultValue: String: nil
 
 <summary>Play Audio For Players Not On Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team\
 Position
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -608,27 +608,27 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute properties: propertyName: Sound Tag\
 dataType: tag
 
-#### Editor Settings
+**Editor Settings**
 
 TagType: sound\_response\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -636,12 +636,12 @@ settings: defaultValue: String: nil
 
 <summary>Branch General</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Condition
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -649,23 +649,23 @@ dataType: execute
 pinId: Condition\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: Execute If True\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Execute If False\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Logic
+**Node Category: Logic**
 
 </details>
 
@@ -673,12 +673,12 @@ dataType: execute
 
 <summary>For Each Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Objects
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -686,33 +686,33 @@ dataType: execute
 pinId: Objects\
 dataType: object\_list
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: On Loop Complete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Execute Per Object\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Index\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Logic
+**Node Category: Logic**
 
 </details>
 
@@ -720,12 +720,12 @@ dataType: number
 
 <summary>For Each Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Objects
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -733,33 +733,33 @@ dataType: execute
 pinId: Objects\
 dataType: object\_list
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: On Loop Complete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Execute Per Player\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Index\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Logic
+**Node Category: Logic**
 
 </details>
 
@@ -767,12 +767,12 @@ dataType: number
 
 <summary>For Each Bot</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Objects
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -780,33 +780,33 @@ dataType: execute
 pinId: Objects\
 dataType: object\_list
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: On Loop Complete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Execute Per Bot\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Bot\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Index\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Logic
+**Node Category: Logic**
 
 </details>
 
@@ -814,12 +814,12 @@ dataType: number
 
 <summary>For N Iterations</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Iteration Count
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -827,31 +827,31 @@ dataType: execute
 pinId: Iteration Count\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: On Loop Complete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Execute Iteration\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Current Iteration\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Logic
+**Node Category: Logic**
 
 </details>
 
@@ -859,14 +859,14 @@ dataType: number
 
 <summary>Trigger Custom Event</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: ValidUserIdentifier\
 IdentifierKey: Identifier\
 DeclarationNodeType: On Custom Event ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -874,34 +874,34 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object\
 dataType: object\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Number\
 dataType: number\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object List\
 dataType: object\_list\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Events\_Custom
+**Node Category: Events\_Custom**
 
 </details>
 
@@ -909,12 +909,12 @@ dataType: execute
 
 <summary>Trigger Custom Event Global</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -922,34 +922,34 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object\
 dataType: object\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Number\
 dataType: number\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object List\
 dataType: object\_list\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Events\_Custom
+**Node Category: Events\_Custom**
 
 </details>
 
@@ -957,12 +957,12 @@ dataType: execute
 
 <summary>Trigger Custom Event Global Async</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -970,34 +970,34 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object\
 dataType: object\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Number\
 dataType: number\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object List\
 dataType: object\_list\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Events\_Custom
+**Node Category: Events\_Custom**
 
 </details>
 
@@ -1005,14 +1005,14 @@ dataType: execute
 
 <summary>Set Slayer Score Per Kill</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Slayer\
 Team Score\
 Player Score
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1020,26 +1020,26 @@ dataType: execute
 pinId: Slayer\
 dataType: mode\_slayer
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team Score\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Player Score\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -1047,14 +1047,14 @@ dataType: execute
 
 <summary>Set Slayer Score Per Assist</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Slayer\
 Team Score\
 Player Score
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1062,26 +1062,26 @@ dataType: execute
 pinId: Slayer\
 dataType: mode\_slayer
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team Score\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Player Score\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -1089,14 +1089,14 @@ dataType: execute
 
 <summary>Set Slayer Suicide Penalty</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Slayer\
 Team Penalty\
 Player Penalty
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1104,26 +1104,26 @@ dataType: execute
 pinId: Slayer\
 dataType: mode\_slayer
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team Penalty\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Player Penalty\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -1131,14 +1131,14 @@ dataType: execute
 
 <summary>Set Slayer Teamkill Penalty</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Slayer\
 Team Penalty\
 Player Penalty
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1146,26 +1146,26 @@ dataType: execute
 pinId: Slayer\
 dataType: mode\_slayer
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team Penalty\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Player Penalty\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -1173,13 +1173,13 @@ dataType: execute
 
 <summary>Set NavMarker Icon</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker\
 IconIndex
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1187,21 +1187,21 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: IconIndex\
 dataType: nav\_marker\_icon
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1209,13 +1209,13 @@ dataType: execute
 
 <summary>Set NavMarker Text</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker\
 String
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1223,21 +1223,21 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: String\
 dataType: string\_id
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1245,14 +1245,14 @@ dataType: execute
 
 <summary>Attach NavMarker To Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker\
 Object\
 Offset
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1260,26 +1260,26 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Offset\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1287,13 +1287,13 @@ dataType: execute
 
 <summary>Set NavMarker Position</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker\
 Position
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1301,21 +1301,21 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1323,12 +1323,12 @@ dataType: execute
 
 <summary>Set NavMarker Enabled</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1336,23 +1336,23 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enabled\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
 settings: defaultValue: Bool: true
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1360,14 +1360,14 @@ dataType: execute
 
 <summary>Set NavMarker Team Visibility</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker\
 Team\
 IsNegate
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1375,26 +1375,26 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: IsNegate\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1402,13 +1402,13 @@ dataType: execute
 
 <summary>Set NavMarker Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker\
 Team
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1416,21 +1416,21 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1438,12 +1438,12 @@ dataType: execute
 
 <summary>Clear NavMarker Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: NavMarker
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1451,16 +1451,16 @@ dataType: execute
 pinId: NavMarker\
 dataType: nav\_marker
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI\_Nav\_Markers
+**Node Category: UI\_Nav\_Markers**
 
 </details>
 
@@ -1468,13 +1468,13 @@ dataType: execute
 
 <summary>Teleport Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Position
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1482,27 +1482,27 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Teleport Player's Vehicle\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -1510,13 +1510,13 @@ dataType: execute
 
 <summary>Set Player Camo</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Duration in Seconds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1524,24 +1524,24 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 MaxRange: 20
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -1549,13 +1549,13 @@ dataType: execute
 
 <summary>Set Player Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Team
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1563,21 +1563,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -1585,14 +1585,14 @@ dataType: execute
 
 <summary>Adjust Player Grenades</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Grenade Type\
 Grenade Count
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1600,30 +1600,30 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Grenade Type\
 dataType: grenade\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Grenade Count\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: -99\
 MaxRange: 99\
 Step: 1.0
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -1631,12 +1631,12 @@ dataType: execute
 
 <summary>Refill Default Grenades</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1644,16 +1644,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -1661,12 +1661,12 @@ dataType: execute
 
 <summary>Empty Player Grenades</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1674,16 +1674,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -1691,12 +1691,12 @@ dataType: execute
 
 <summary>Empty Player Ammo</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1704,16 +1704,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1721,12 +1721,12 @@ dataType: execute
 
 <summary>Refill Player Ammo</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1734,16 +1734,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1751,13 +1751,13 @@ dataType: execute
 
 <summary>Add Player Ammo - Primary</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Refill Percent
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1765,25 +1765,25 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Refill Percent\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0.0\
 MaxRange: 100\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1791,13 +1791,13 @@ dataType: execute
 
 <summary>Add Player Ammo - Secondary</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Refill Percent
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1805,25 +1805,25 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Refill Percent\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 MaxRange: 100\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1831,14 +1831,14 @@ dataType: execute
 
 <summary>Give Player New Weapon</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Weapon Type\
 Weapon Addition Method
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1846,32 +1846,32 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon Addition Method\
 dataType: weapon\_addition\_method
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Wait Until Completion\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1879,14 +1879,14 @@ dataType: execute
 
 <summary>Give Player Specific Weapon General</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Weapon\
 Weapon Addition Method
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1894,32 +1894,32 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon Addition Method\
 dataType: weapon\_addition\_method
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Wait Until Completion\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1927,13 +1927,13 @@ dataType: execute
 
 <summary>Switch to First Weapon of Type</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Weapon Type
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1941,21 +1941,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1963,13 +1963,13 @@ dataType: execute
 
 <summary>Drop Specific Weapon General</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Weapon
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -1977,21 +1977,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -1999,13 +1999,13 @@ dataType: execute
 
 <summary>Drop Weapon of Type General</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit\
 Weapon Type
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2013,21 +2013,21 @@ dataType: execute
 pinId: Unit\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\\
+**Node Category: Inventory\\**
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
 nodeOperations: operation: Rename\\
@@ -2041,12 +2041,12 @@ data: Unit
 
 <summary>Wait For N Seconds Gameplay</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Seconds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2054,18 +2054,18 @@ dataType: execute
 pinId: Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Logic
+**Node Category: Logic**
 
 </details>
 
@@ -2073,12 +2073,12 @@ dataType: execute
 
 <summary>Set Vehicle Enterable By Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Vehicle
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2086,22 +2086,22 @@ dataType: execute
 pinId: Vehicle\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enterable By Player\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2109,12 +2109,12 @@ dataType: execute
 
 <summary>Print Boolean To Killfeed</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Boolean
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2122,16 +2122,16 @@ dataType: execute
 pinId: Boolean\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Debug
+**Node Category: Debug**
 
 </details>
 
@@ -2139,12 +2139,12 @@ dataType: execute
 
 <summary>Print Number To Killfeed</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Number
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2152,16 +2152,16 @@ dataType: execute
 pinId: Number\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Debug
+**Node Category: Debug**
 
 </details>
 
@@ -2169,12 +2169,12 @@ dataType: execute
 
 <summary>Print Player To Killfeed</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2182,16 +2182,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Debug
+**Node Category: Debug**
 
 </details>
 
@@ -2199,12 +2199,12 @@ dataType: execute
 
 <summary>Print Team To Killfeed</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2212,16 +2212,16 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Debug
+**Node Category: Debug**
 
 </details>
 
@@ -2229,12 +2229,12 @@ dataType: execute
 
 <summary>Print Vector3 To Killfeed</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Vector
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2242,16 +2242,16 @@ dataType: execute
 pinId: Vector\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Debug
+**Node Category: Debug**
 
 </details>
 
@@ -2259,12 +2259,12 @@ dataType: execute
 
 <summary>Print Control State To Killfeed</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Control State
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2272,16 +2272,16 @@ dataType: execute
 pinId: Control State\
 dataType: generic\_zone\_control\_state
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Debug
+**Node Category: Debug**
 
 </details>
 
@@ -2289,12 +2289,12 @@ dataType: execute
 
 <summary>Empty Player Equipment</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2302,16 +2302,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -2319,12 +2319,12 @@ dataType: execute
 
 <summary>Refill Player Equipment</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2332,16 +2332,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -2349,13 +2349,13 @@ dataType: execute
 
 <summary>Attempt to Enter Vehicle</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit\
 Vehicle
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2363,27 +2363,27 @@ dataType: execute
 pinId: Unit\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Vehicle\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Preferred Seat\
 dataType: seat\_type\
 settings: defaultValue: String: Any
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles\\
+**Node Category: Vehicles\\**
 
 nodeVersionRule: ruleID: NodeVersionRuleUpdatePinProperty\
 nodeOperations: operation: Rename\\
@@ -2399,12 +2399,12 @@ pinId: Preferred Seat
 
 <summary>Kick Player From Vehicle</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2412,16 +2412,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2429,12 +2429,12 @@ dataType: execute
 
 <summary>Kick Unit From Vehicle</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2442,16 +2442,16 @@ dataType: execute
 pinId: Unit\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2459,12 +2459,12 @@ dataType: execute
 
 <summary>Clear Splash for All Players</summary>
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 Node Category: Unused
 
@@ -2474,12 +2474,12 @@ Node Category: Unused
 
 <summary>Clear Splash for Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2487,16 +2487,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI
+**Node Category: UI**
 
 </details>
 
@@ -2504,12 +2504,12 @@ dataType: execute
 
 <summary>Push Splash to All Players</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Message
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2518,23 +2518,23 @@ pinId: Duration in Seconds\
 dataType: number\
 settings: defaultValue: Float: 5
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 2.5
 
 pinId: Message\
 dataType: ui\_message
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -2542,13 +2542,13 @@ dataType: execute
 
 <summary>Push Splash to Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Message
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2556,29 +2556,29 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number\
 settings: defaultValue: Float: 5
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 2.5
 
 pinId: Message\
 dataType: ui\_message
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI
+**Node Category: UI**
 
 </details>
 
@@ -2586,13 +2586,13 @@ dataType: execute
 
 <summary>Push Splash to Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team\
 Message
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2600,29 +2600,29 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number\
 settings: defaultValue: Float: 5
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 2.5
 
 pinId: Message\
 dataType: ui\_message
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -2630,13 +2630,13 @@ dataType: execute
 
 <summary>Update Objective Banner for Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Enabled
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2644,28 +2644,28 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enabled\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Message\
 dataType: ui\_message
 
-#### Editor Settings
+**Editor Settings**
 
 settings: defaultValue: String: nil
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: UI
+**Node Category: UI**
 
 </details>
 
@@ -2673,13 +2673,13 @@ dataType: execute
 
 <summary>Set Spawn In Vehicle For All Players</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Enabled\
 Vehicle Type
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2687,21 +2687,21 @@ dataType: execute
 pinId: Enabled\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Vehicle Type\
 dataType: vehicle\_type
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2709,14 +2709,14 @@ dataType: execute
 
 <summary>Set Spawn In Vehicle For Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Enabled\
 Player\
 Vehicle Type
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2724,26 +2724,26 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enabled\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Vehicle Type\
 dataType: vehicle\_type
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2751,14 +2751,14 @@ dataType: execute
 
 <summary>Set Spawn In Vehicle For Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Enabled\
 Team\
 Vehicle Type
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2766,26 +2766,26 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enabled\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Vehicle Type\
 dataType: vehicle\_type
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -2793,12 +2793,12 @@ dataType: execute
 
 <summary>Flip Vehicle</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Vehicle
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2806,16 +2806,16 @@ dataType: execute
 pinId: Vehicle\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2823,13 +2823,13 @@ dataType: execute
 
 <summary>Scale and Destroy Vehicle</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Vehicle\
 Duration in Seconds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2837,23 +2837,23 @@ dataType: execute
 pinId: Vehicle\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Vehicles
+**Node Category: Vehicles**
 
 </details>
 
@@ -2861,14 +2861,14 @@ dataType: execute
 
 <summary>Set Loadout Weapons For All Players</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Primary Weapon Type\
 Secondary Weapon Type\
 Apply Immediately
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2876,26 +2876,26 @@ dataType: execute
 pinId: Primary Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Secondary Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Apply Immediately\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -2903,7 +2903,7 @@ dataType: execute
 
 <summary>Set Loadout Weapons For Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
@@ -2911,7 +2911,7 @@ Primary Weapon Type\
 Secondary Weapon Type\
 Apply Immediately
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2919,31 +2919,31 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Primary Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Secondary Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Apply Immediately\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -2951,7 +2951,7 @@ dataType: execute
 
 <summary>Set Loadout Weapons For Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team\
@@ -2959,7 +2959,7 @@ Primary Weapon Type\
 Secondary Weapon Type\
 Apply Immediately
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -2967,31 +2967,31 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Primary Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Secondary Weapon Type\
 dataType: weapon\_type
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Apply Immediately\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -2999,12 +2999,12 @@ dataType: execute
 
 <summary>Clear Loadout Weapons For All Players</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Apply Immediately
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3012,16 +3012,16 @@ dataType: execute
 pinId: Apply Immediately\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3029,13 +3029,13 @@ dataType: execute
 
 <summary>Clear Loadout Weapons For Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Apply Immediately
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3043,21 +3043,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Apply Immediately\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3065,13 +3065,13 @@ dataType: execute
 
 <summary>Clear Loadout Weapons For Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team\
 Apply Immediately
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3079,21 +3079,21 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Apply Immediately\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3101,17 +3101,17 @@ dataType: execute
 
 <summary>Override Loadouts For All Players</summary>
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 Node Category: Unused
 
@@ -3121,12 +3121,12 @@ Node Category: Unused
 
 <summary>Override Loadouts For Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3134,16 +3134,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3151,12 +3151,12 @@ dataType: execute
 
 <summary>Override Loadouts For Team</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3164,16 +3164,16 @@ dataType: execute
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3181,13 +3181,13 @@ dataType: execute
 
 <summary>Give Player New Equipment</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Equipment Type
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3195,21 +3195,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Equipment Type\
 dataType: equipment\_type
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -3217,13 +3217,13 @@ dataType: execute
 
 <summary>Adjust Player Equipment Charges</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Charge Count
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3231,25 +3231,25 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Charge Count\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: -99\
 MaxRange: 99\
 Step: 1.0
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -3257,13 +3257,13 @@ dataType: execute
 
 <summary>Set Player Equipment Charges</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Charge Count
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3271,25 +3271,25 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Charge Count\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 MaxRange: 99\
 Step: 1.0
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory\_Equipment
+**Node Category: Inventory\_Equipment**
 
 </details>
 
@@ -3297,13 +3297,13 @@ dataType: execute
 
 <summary>Set Player FFA Allegiance</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Team
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3311,21 +3311,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team\
 dataType: team
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -3333,13 +3333,13 @@ dataType: execute
 
 <summary>Set Respawn Penalty</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Penalty Seconds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3347,24 +3347,24 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Penalty Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -3372,12 +3372,12 @@ dataType: execute
 
 <summary>Set Spawn Point Enabled</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Spawn Point
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3385,22 +3385,22 @@ dataType: execute
 pinId: Spawn Point\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enabled\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects
+**Node Category: Objects**
 
 </details>
 
@@ -3408,13 +3408,13 @@ dataType: execute
 
 <summary>Block Player Respawns</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Respawn Message
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3422,21 +3422,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Respawn Message\
 dataType: respawn\_message
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -3444,12 +3444,12 @@ dataType: execute
 
 <summary>Unblock Respawns for Player</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3457,16 +3457,16 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -3474,13 +3474,13 @@ dataType: execute
 
 <summary>Add Bot Ambition To Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Target Object\
 Bot Ambition
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3488,27 +3488,27 @@ dataType: execute
 pinId: Target Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Bot Ambition\
 dataType: forge\_bot\_ambition
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team\
 dataType: team\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3516,12 +3516,12 @@ dataType: execute
 
 <summary>Remove Bot Ambitions From Object</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Target Object
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3529,28 +3529,28 @@ dataType: execute
 pinId: Target Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Only Specific Ambition Type\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Ambition Type\
 dataType: bot\_ambition\_type\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3558,12 +3558,12 @@ dataType: execute
 
 <summary>Add Bot To Match</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Bot Difficulty
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3571,22 +3571,22 @@ dataType: execute
 pinId: Bot Difficulty\
 dataType: bot\_difficulty
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Team\
 dataType: team\
 settings: defaultValue: String: nil
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Bots
+**Node Category: Bots**
 
 </details>
 
@@ -3594,17 +3594,17 @@ dataType: execute
 
 <summary>Remove All Bots From Match</summary>
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
 Node Category: Bots
 
@@ -3614,12 +3614,12 @@ Node Category: Bots
 
 <summary>Remove Specific Bot From Match</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Bot Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3627,16 +3627,16 @@ dataType: execute
 pinId: Bot Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Bots
+**Node Category: Bots**
 
 </details>
 
@@ -3644,13 +3644,13 @@ dataType: execute
 
 <summary>Set Player Mark Override</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player\
 Override Enabled
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3658,21 +3658,21 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Override Enabled\
 dataType: bool
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Players
+**Node Category: Players**
 
 </details>
 
@@ -3680,14 +3680,14 @@ dataType: execute
 
 <summary>Translate Object To Point</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object\
 Position\
 Duration in Seconds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3695,17 +3695,17 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Position\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0
 
@@ -3713,16 +3713,16 @@ pinId: Movement Curve\
 dataType: curve\_built\_in\
 settings: defaultValue: String: CURVE\_BUILT\_IN.None
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -3730,14 +3730,14 @@ dataType: execute
 
 <summary>Rotate Object To Point</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object\
 Rotation\
 Duration in Seconds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3745,17 +3745,17 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Rotation\
 dataType: vector3
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0
 
@@ -3763,16 +3763,16 @@ pinId: Movement Curve\
 dataType: curve\_built\_in\
 settings: defaultValue: String: CURVE\_BUILT\_IN.None
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -3780,7 +3780,7 @@ dataType: execute
 
 <summary>Move Object To Transform</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Object\
@@ -3788,7 +3788,7 @@ Destination Object\
 Duration in Seconds\
 Movement Curve
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3796,33 +3796,33 @@ dataType: execute
 pinId: Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Destination Object\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Duration in Seconds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0
 
 pinId: Movement Curve\
 dataType: curve\_built\_in
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Objects\_Transform
+**Node Category: Objects\_Transform**
 
 </details>
 
@@ -3830,12 +3830,12 @@ dataType: execute
 
 <summary>Set Player Weapons Lowered</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Player
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3843,22 +3843,22 @@ dataType: execute
 pinId: Player\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Enabled\
 dataType: bool\
 settings: defaultValue: Bool: true
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Inventory
+**Node Category: Inventory**
 
 </details>
 
@@ -3866,13 +3866,13 @@ dataType: execute
 
 <summary>Set Weapon Total Rounds</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Weapon\
 Rounds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3880,24 +3880,24 @@ dataType: execute
 pinId: Weapon\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Rounds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3905,13 +3905,13 @@ dataType: execute
 
 <summary>Set Weapon Magazine Ammo</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Weapon\
 Magazine Rounds
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3919,24 +3919,24 @@ dataType: execute
 pinId: Weapon\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Magazine Rounds\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3944,13 +3944,13 @@ dataType: execute
 
 <summary>Set Weapons Reserve Ammo</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Weapon\
 Percent
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3958,25 +3958,25 @@ dataType: execute
 pinId: Weapon\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Percent\
 dataType: number
 
-#### Editor Settings
+**Editor Settings**
 
 MinRange: 0\
 MaxRange: 100\
 Step: 1
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Unused
+**Node Category: Unused**
 
 </details>
 
@@ -3984,13 +3984,13 @@ dataType: execute
 
 <summary>Register Audio Zone</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Monitor\
 Audio Zone Effect
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -3998,21 +3998,21 @@ dataType: execute
 pinId: Monitor\
 dataType: area\_monitor
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Audio Zone Effect\
 dataType: forge\_audio\_zone\_effect
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -4020,12 +4020,12 @@ dataType: execute
 
 <summary>Unregister Audio Zone</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Monitor
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4033,16 +4033,16 @@ dataType: execute
 pinId: Monitor\
 dataType: area\_monitor
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Audio
+**Node Category: Audio**
 
 </details>
 
@@ -4050,12 +4050,12 @@ dataType: execute
 
 <summary>Activate Generic Zone</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Zone
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4063,16 +4063,16 @@ dataType: execute
 pinId: Zone\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Generic\_Objectives
+**Node Category: Generic\_Objectives**
 
 </details>
 
@@ -4080,12 +4080,12 @@ dataType: execute
 
 <summary>Deactivate Generic Zone</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Zone
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4093,16 +4093,16 @@ dataType: execute
 pinId: Zone\
 dataType: object
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Generic\_Objectives
+**Node Category: Generic\_Objectives**
 
 </details>
 
@@ -4110,12 +4110,12 @@ dataType: execute
 
 <summary>Create Stopwatch</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4123,22 +4123,22 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
 pinId: Start Immediately\
 dataType: bool\
 settings: defaultValue: Bool: false
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Stopwatches
+**Node Category: Stopwatches**
 
 </details>
 
@@ -4146,12 +4146,12 @@ dataType: execute
 
 <summary>Start Stopwatch</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4159,16 +4159,16 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Stopwatches
+**Node Category: Stopwatches**
 
 </details>
 
@@ -4176,12 +4176,12 @@ dataType: execute
 
 <summary>Restart Stopwatch</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4189,16 +4189,16 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Stopwatches
+**Node Category: Stopwatches**
 
 </details>
 
@@ -4206,12 +4206,12 @@ dataType: execute
 
 <summary>Reset Stopwatch</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4219,16 +4219,16 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Stopwatches
+**Node Category: Stopwatches**
 
 </details>
 
@@ -4236,12 +4236,12 @@ dataType: execute
 
 <summary>Pause Stopwatch</summary>
 
-### Node Rules
+#### Node Rules
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Identifier
 
-### Input Pins
+#### Input Pins
 
 pinId: ActionStart\
 dataType: execute
@@ -4249,15 +4249,15 @@ dataType: execute
 pinId: Identifier\
 dataType: identifier
 
-#### Editor Settings
+**Editor Settings**
 
-### Output Pins
+#### Output Pins
 
 pinId: ActionComplete\
 dataType: execute
 
-#### Editor Settings
+**Editor Settings**
 
-#### Node Category: Stopwatches\\
+**Node Category: Stopwatches\\**
 
 </details>

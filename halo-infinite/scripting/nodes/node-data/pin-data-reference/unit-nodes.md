@@ -4,13 +4,13 @@
 
 <summary>Teleport Unit</summary>
 
-#### Node Rules
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit\
 Position
 
-#### Input Pins
+**Input Pins**
 
 pinId: ActionStart\
 dataType: execute
@@ -31,14 +31,14 @@ settings: defaultValue: Bool: true
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: ActionComplete\
 dataType: execute userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -46,15 +46,15 @@ dataType: execute userData:
 
 <summary>Are Same Unit</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit A\
 Unit B
 
-#### Input Pins
+**Input Pins**
 
 pinId: Unit A\
 dataType: object
@@ -66,7 +66,7 @@ dataType: object
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: Are Same Unit\
 dataType: bool\
@@ -74,7 +74,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -82,7 +82,7 @@ userData:
 
 <summary>Get All Units</summary>
 
-#### Output Pins
+**Output Pins**
 
 pinId: Units\
 dataType: object\_list\
@@ -90,7 +90,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -98,21 +98,21 @@ userData:
 
 <summary>Get All Units On Team</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Team
 
-#### Input Pins
+**Input Pins**
 
 pinId: Team\
 dataType: team
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: Units\
 dataType: object\_list\
@@ -120,7 +120,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -128,7 +128,7 @@ userData:
 
 <summary>Get Random Unit</summary>
 
-#### Output Pins
+**Output Pins**
 
 pinId: Unit\
 dataType: object\
@@ -136,7 +136,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -144,21 +144,21 @@ userData:
 
 <summary>Get Unit Aiming Vector</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit
 
-#### Input Pins
+**Input Pins**
 
 pinId: Unit\
 dataType: object
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: Aiming Vector\
 dataType: vector3\
@@ -166,7 +166,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -174,21 +174,21 @@ userData:
 
 <summary>Get Unit Team</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit
 
-#### Input Pins
+**Input Pins**
 
 pinId: Unit\
 dataType: object
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: Team\
 dataType: team\
@@ -196,7 +196,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -204,21 +204,21 @@ userData:
 
 <summary>Get Unit FFA Allegiance</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit
 
-#### Input Pins
+**Input Pins**
 
 pinId: Unit\
 dataType: object
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: Team\
 dataType: team\
@@ -226,7 +226,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
 
@@ -234,21 +234,21 @@ userData:
 
 <summary>Get Unit Weapons</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit
 
-#### Input Pins
+**Input Pins**
 
 pinId: Unit\
 dataType: object
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: Equipped Weapon\
 dataType: object\
@@ -262,7 +262,7 @@ userData:
 
 **Editor Settings**
 
-#### Node Category: Inventory\\
+**Node Category: Inventory\\**
 
 </details>
 
@@ -270,14 +270,14 @@ userData:
 
 <summary>Give Unit New Weapon</summary>
 
-#### Node Rules
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit\
 Weapon Type\
 Weapon Addition Method
 
-#### Input Pins
+**Input Pins**
 
 pinId: ActionStart\
 dataType: execute
@@ -303,14 +303,14 @@ settings: defaultValue: Bool: true
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: ActionComplete\
 dataType: execute userData:
 
 **Editor Settings**
 
-#### Node Category: Inventory\\
+**Node Category: Inventory\\**
 
 </details>
 
@@ -318,16 +318,16 @@ dataType: execute userData:
 
 <summary>Give Unit Specific Weapon</summary>
 
-####
 
-#### Node Rules
+
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit\
 Weapon\
 Weapon Addition Method
 
-#### Input Pins
+**Input Pins**
 
 pinId: ActionStart\
 dataType: execute
@@ -353,14 +353,14 @@ settings: defaultValue: Bool: true
 
 **Editor Settings**
 
-#### Output Pins
+**Output Pins**
 
 pinId: ActionComplete\
 dataType: execute userData:
 
 **Editor Settings**
 
-#### Node Category: Inventory\\
+**Node Category: Inventory\\**
 
 </details>
 
@@ -368,13 +368,13 @@ dataType: execute userData:
 
 <summary>Set Unit Camo</summary>
 
-#### Node Rules
+**Node Rules**
 
 ruleID: RequiredNodeInput\
 RequiredProperties: Unit\
 Duration in Seconds
 
-#### Input Pins
+**Input Pins**
 
 pinId: ActionStart\
 dataType: execute
@@ -392,13 +392,13 @@ dataType: number
 MinRange: 0\
 MaxRange: 20
 
-#### Output Pins
+**Output Pins**
 
 pinId: ActionComplete\
 dataType: execute userData:
 
 **Editor Settings**
 
-#### Node Category: Units\\
+**Node Category: Units\\**
 
 </details>
