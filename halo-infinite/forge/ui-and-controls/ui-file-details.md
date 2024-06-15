@@ -1,2 +1,0 @@
-# UI - File Details
-

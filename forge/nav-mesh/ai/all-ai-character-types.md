@@ -1,0 +1,2 @@
+# All AI Character Types
+

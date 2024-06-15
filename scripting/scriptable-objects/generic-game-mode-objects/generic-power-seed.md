@@ -1,0 +1,2 @@
+# Generic Power Seed
+
