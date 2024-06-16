@@ -1,16 +1,16 @@
 ---
-description: This article shows formatting examples for a TSG wiki entry.
+description: Formatting examples for a TSG Forge Wiki ar.
 ---
 
 # Article Template
 
-## Section title
+### Section title
 
 Text here for a section topic.
 
-### Section sub-title
+#### Section sub-title
 
-All titles made with the # leading like the example titles above will be shown in the "On this page" content table on the top right of the wiki article page to help quickly navigate the article.
+All titles made with the ## leading like the example titles above will be shown in the "On this page" content table on the top right of the wiki article page to help quickly navigate the article.
 
 * Here is information about this topic explained in a easily understandable manner. Here is an example of [a hyperlink](../../../halo-infinite/forge/lighting/fog/) that can be used to redirect the user to a different place.
   * Here is an indentation section.
@@ -83,7 +83,7 @@ This is a tutorial video on getting started using the Blender2Forge Printer for 
 
 {% embed url="https://docs.google.com/spreadsheets/d/1IjdYZVDX7YUFcsg0xcCBEzxoybJl_pYeA2hJ29OUb24" %}
 
-### Info hint
+### Hints
 
 {% hint style="info" %}
 This is a transparent info box that can be used to convey highlight information like a clarification to the reader about a topic. The formatting of this info box won't preview properly in VS Code.
