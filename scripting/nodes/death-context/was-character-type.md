@@ -1,0 +1,2 @@
+# Was Character Type
+

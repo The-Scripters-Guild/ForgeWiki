@@ -1,0 +1,2 @@
+# Are Same Weapon Type
+

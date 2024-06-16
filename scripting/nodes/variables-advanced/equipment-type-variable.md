@@ -1,0 +1,2 @@
+# Equipment Type Variable
+

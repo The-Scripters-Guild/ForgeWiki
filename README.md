@@ -1,4 +1,7 @@
 ---
+description: >-
+  TSG Forge Wiki provides adequate documentation surrounding Halo Infinite's
+  Forge mode and the scripting system that comes with it.
 cover: .gitbook/assets/banner-tsg-logo-no-background.png
 coverY: 0
 layout:
@@ -17,29 +20,29 @@ layout:
     visible: true
 ---
 
-# Landing Zone
+# Welcome
 
-#### -- PARDON OUR DUST WHILE THE WIKI IS REDEPLOYED --
+## Purpose of The Wiki
 
-## What is this all about?
-
-The purpose of this wiki is to provide adequate documentation surrounding Halo Infinite's Forge mode and the scripting system that comes with it. Scripting, especially for newcomers, can be an insurmountable obstacle without proper reference material. Our goal is to provide knowledge and information to help you navigate some of the obstacles that may come your way.\
+Halo Infinite's Forge and Scripting, especially for newcomers, can be an insurmountable obstacle without proper reference material. Our goal is to provide knowledge and information to help you navigate some of the obstacles that may come your way.\
 \
 Keep in mind, this is an entirely volunteer effort and all information here is provided and maintained by community members going out of their way to collect, organize, and format it appropriately.
 
-## I'm new to Forge/scripting...where do I start?
+## Where To Start
 
-While there aren't any quick-start guides to Forge on the wiki (yet), the [🔰](https://emojipedia.org/japanese-symbol-for-beginner) Getting Started page is a great place to go to get enough of a foundation with scripting in Halo Infinite that, after reading The Basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error.
+For Forge related topics, head over to \[Forge Basics and UI]\(link) and for Scripting information, go to \[Node Graph Basics and UI]\(link).
+
+The [🔰](https://emojipedia.org/japanese-symbol-for-beginner) Getting Started page is a great place to go to get enough of a foundation with scripting in Halo Infinite that, after reading The Basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error.
 
 {% content-ref url="scripting/node-graph-basics-and-ui/getting-started.md" %}
 [getting-started.md](scripting/node-graph-basics-and-ui/getting-started.md)
 {% endcontent-ref %}
 
-## I can't find the information I need here on the wiki.
+## I can't find the information I need on the wiki
 
 The wiki is an ever-evolving work in progress largely managed by just a handful of people. The source of nearly all of the information on the wiki is The Scripter's Guild Discord server, where the information is collected and discussed.
 
-If you've looked around the wiki and still have questions, hop to the discord and put a question in the \[#🤷 | Scripting Questions] forum. Your question and the answer to it may end up being the source of an article, as many others have been.
+If you've looked around the wiki and still have questions, hop to the discord and put a question in the \[#🤷 | scripting-help] or \[#🤷 | forge-help] forum. Your question and the answer to it may end up being the source of an article, as many others have been.
 
 <details>
 
@@ -51,7 +54,7 @@ _TSG is a server based around UGC and game dev, founded by Halo creators. We wro
 
 {% embed url="https://discord.gg/ZpE3tcpZy9" %}
 
-## How do I contribute?
+## How Do I Contribute?
 
 You _can_ just interact with this like any other repo, or you can get in on the conversation with the people working on this project in a dedicated fashion via our Discord server.\
 \

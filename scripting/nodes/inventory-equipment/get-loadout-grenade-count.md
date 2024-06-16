@@ -1,0 +1,2 @@
+# Get Loadout Grenade Count
+

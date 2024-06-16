@@ -1,0 +1,2 @@
+# Weapon Type Variable
+

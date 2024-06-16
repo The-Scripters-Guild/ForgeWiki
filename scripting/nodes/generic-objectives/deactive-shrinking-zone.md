@@ -1,0 +1,2 @@
+# Deactive Shrinking Zone
+

@@ -2,7 +2,7 @@
 description: >-
   Read the basics and the linked articles. If you still have questions and can't
   find info elsewhere on the wiki, hop to the discord and put a question in the
-  [#🤷 | Scripting Questions] forum.
+  [#🤷 | scripting-help] forum.
 ---
 
 # 🔰 Getting Started
@@ -25,8 +25,8 @@ In Forge, there are multiple 'modes' that can be accessed. By default, the user 
 
 ## Articles to Read:
 
-{% content-ref url="../nodes.md" %}
-[nodes.md](../nodes.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="../node-data/connection-pins.md" %}

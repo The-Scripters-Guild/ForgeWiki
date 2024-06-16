@@ -1,0 +1,2 @@
+# Trait: Sprint Reload Enabled
+

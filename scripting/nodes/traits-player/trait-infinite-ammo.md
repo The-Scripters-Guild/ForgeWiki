@@ -1,0 +1,2 @@
+# Trait: Infinite Ammo
+

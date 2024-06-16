@@ -1,0 +1,2 @@
+# Trait: Weapon Pickup
+

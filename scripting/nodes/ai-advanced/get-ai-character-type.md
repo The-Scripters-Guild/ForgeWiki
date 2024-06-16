@@ -1,0 +1,2 @@
+# Get AI Character Type
+

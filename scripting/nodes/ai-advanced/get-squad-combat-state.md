@@ -1,0 +1,2 @@
+# Get Squad Combat State
+

@@ -1,0 +1,2 @@
+# Set Squad Stop Following
+

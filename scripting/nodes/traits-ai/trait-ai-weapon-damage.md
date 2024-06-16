@@ -1,0 +1,2 @@
+# Trait AI: Weapon Damage
+

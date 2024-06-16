@@ -1,0 +1,2 @@
+# Deactive Generic Zone
+

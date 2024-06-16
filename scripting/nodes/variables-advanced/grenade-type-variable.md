@@ -1,0 +1,2 @@
+# Grenade Type Variable
+

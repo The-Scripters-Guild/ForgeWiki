@@ -1,0 +1,2 @@
+# Get Generic List Variable
+

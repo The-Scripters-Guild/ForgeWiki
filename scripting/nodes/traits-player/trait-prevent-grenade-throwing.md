@@ -1,0 +1,2 @@
+# Trait: Prevent Grenade Throwing
+

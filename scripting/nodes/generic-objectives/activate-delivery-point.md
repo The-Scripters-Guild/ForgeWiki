@@ -1,0 +1,2 @@
+# Activate Delivery Point
+

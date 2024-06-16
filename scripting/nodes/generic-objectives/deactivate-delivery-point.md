@@ -1,0 +1,2 @@
+# Deactivate Delivery Point
+

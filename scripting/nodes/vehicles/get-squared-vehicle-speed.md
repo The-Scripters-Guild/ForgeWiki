@@ -1,0 +1,2 @@
+# Get Squared Vehicle Speed
+

@@ -1,0 +1,2 @@
+# Trait: Prevent Weapon Firing
+

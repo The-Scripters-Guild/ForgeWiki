@@ -1,0 +1,2 @@
+# On Squad Remaining Percent
+
