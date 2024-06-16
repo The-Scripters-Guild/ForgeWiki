@@ -429,7 +429,7 @@
     * [On Player Crouch](scripting/nodes/events-players/on-player-crouch.md)
     * [On Player Exited](scripting/nodes/events-players/on-player-exited.md)
     * [On Player Joined](scripting/nodes/events-players/on-player-joined.md)
-    * [On Player Killed](scripting/nodes/events-players/nodes-on-player-killed.md)
+    * [On Player Killed](scripting/nodes/events-players/on-player-killed.md)
     * [On Player Mark](scripting/nodes/events-players/on-player-mark.md)
     * [On Player Spawned](scripting/nodes/events-players/on-player-spawned.md)
     * [On Player Team Change](scripting/nodes/events-players/on-player-team-change.md)
