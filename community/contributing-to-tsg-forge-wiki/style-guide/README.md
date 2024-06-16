@@ -159,11 +159,11 @@ Here is an image of a cat that you should pay attention to.
 {% hint style="danger" %}
 Here are two dangerous cats side by side!
 
-<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the left" data-size="original">text 2<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the right" data-size="original">
+<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the left" data-size="original"> <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the right" data-size="original">
 {% endhint %}
 
 {% hint style="success" %}
-And here we have three small cats who are the same size as the text: <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="Small cat on the left" data-size="line"><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="Small cat in the center" data-size="line"><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="Small cat on the right" data-size="line">
+And here we have three small cats who are the same size as the text: <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="Small cat on the left" data-size="line"> <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="Small cat in the center" data-size="line"> <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="Small cat on the right" data-size="line">
 {% endhint %}
 
 ## Tables
