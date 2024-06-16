@@ -16,6 +16,8 @@ There are different ways of formatting text that can be useful in wiki articles.
 * External link: [This is a link](https://example.org/)
   * Internal link: [This is another link](../../../forge/lighting/)
 
+<!---->
+
 * [x] <mark style="color:red;">Colored text</mark>
   * [ ] <mark style="background-color:red;">Background colored text</mark>
   * [x] <mark style="color:yellow;background-color:green;">Both colored</mark>
@@ -186,7 +188,28 @@ explanation
 
 #### Image on left, text on right
 
-here1
+//Simple Block
+![](https://gitbook.com/images/gitbook.png)
+
+//Block with Caption
+![The GitBook Logo](https://gitbook.com/images/gitbook.png)
+
+//Block with Alt text
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"></figure>
+
+//Block with Caption and Alt text
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
+
+//Block with different image for dark and light mode, with caption
+<figure>
+  <picture>
+    <source srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" media="(prefers-color-scheme: dark)">
+    <img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png" alt="GitHub logo">
+  </picture>
+  <figcaption>Caption text</figcaption>
+</figure>
 
 #### Text on left, image on right
 
