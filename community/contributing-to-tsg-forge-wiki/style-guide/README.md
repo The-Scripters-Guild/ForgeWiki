@@ -159,7 +159,7 @@ Here is an image of a cat that you should pay attention to.
 {% hint style="danger" %}
 Here are two dangerous cats side by side!
 
-<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the left" data-size="original"> <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the right" data-size="original">
+<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the left" data-size="original">  <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the right" data-size="original">
 {% endhint %}
 
 {% hint style="success" %}
