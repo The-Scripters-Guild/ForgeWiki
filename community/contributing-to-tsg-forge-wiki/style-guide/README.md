@@ -16,8 +16,6 @@ There are different ways of formatting text that can be useful in wiki articles.
 * External link: [This is a link](https://example.org/)
   * Internal link: [This is another link](../../../forge/lighting/)
 
-<!---->
-
 * [x] <mark style="color:red;">Colored text</mark>
   * [ ] <mark style="background-color:red;">Background colored text</mark>
   * [x] <mark style="color:yellow;background-color:green;">Both colored</mark>
@@ -42,7 +40,11 @@ Here are some ways to format single images placed in an article:
 
 Fit – Removes all size specifications and displays either at full size or capped at a maximum width of 735 pixels for larger images.
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat that is fitted to the article width</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+  <figcaption>
+    <p>A cat that is fitted to the article width</p>
+  </figcaption>
+</figure>
 
 #### Full-width
 
@@ -50,7 +52,11 @@ Full-width – Spans the full width of the window. Not ideal in most cases as it
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat that spans the width of the entire page!</p></figcaption></figure>
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat that spans the width of the entire page!</p>
+    </figcaption>
+  </figure>
 
 </div>
 
@@ -58,21 +64,31 @@ Full-width – Spans the full width of the window. Not ideal in most cases as it
 
 Large – 75% of the image size
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="" width="563"><figcaption><p>A large-sized cat</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="" width="563">
+  <figcaption>
+    <p>A large-sized cat</p>
+  </figcaption>
+</figure>
 
 #### Medium-sized
 
 Medium – 50% of the image size
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="" width="375"><figcaption><p>A medium-sized cat</p></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="" width="375">
+  <figcaption>
+    <p>A medium-sized cat</p>
+  </figcaption>
+</figure>
 
 #### Small-sized
 
 Small – 25% of the image size
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="" width="188"><figcaption><p>A small-sized cat</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="" width="188">
+  <figcaption>
+    <p>A small-sized cat</p>
+  </figcaption>
+</figure>
 
 ### Multiple images
 
@@ -80,11 +96,19 @@ Small – 25% of the image size
 
 <div align="center">
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the left</p></figcaption></figure>
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the left</p>
+    </figcaption>
+  </figure>
 
- 
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the right</p></figcaption></figure>
+
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the right</p>
+    </figcaption>
+  </figure>
 
 </div>
 
@@ -92,15 +116,27 @@ Small – 25% of the image size
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the left</p></figcaption></figure>
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the left</p>
+    </figcaption>
+  </figure>
 
- 
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat in the center</p></figcaption></figure>
 
- 
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat in the center</p>
+    </figcaption>
+  </figure>
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the right</p></figcaption></figure>
+
+
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the right</p>
+    </figcaption>
+  </figure>
 
 </div>
 
@@ -110,21 +146,37 @@ Just two two-image groups on top of each other.
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the top left</p></figcaption></figure>
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the top left</p>
+    </figcaption>
+  </figure>
 
- 
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the top right</p></figcaption></figure>
+
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the top right</p>
+    </figcaption>
+  </figure>
 
 </div>
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the bottom left</p></figcaption></figure>
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the bottom left</p>
+    </figcaption>
+  </figure>
 
- 
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the bottom right</p></figcaption></figure>
+
+  <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="">
+    <figcaption>
+      <p>A cat on the bottom right</p>
+    </figcaption>
+  </figure>
 
 </div>
 
@@ -196,33 +248,56 @@ And here we have three small cats who are the same size as the text: <img src=".
 
 Keep information organized and make documenting data easier by adding a table to your page.
 
-### HTML
+### Regular table
 
 | Header left | Header center | Header right |
 | ----------- | ------------- | ------------ |
 | Info left 1 | Info center 1 | Info right 1 |
 | Info left 2 | Info center 2 | Info right 2 |
 
-### Markdown
-
-table here
-
 ### Relevant column types
 
-<table><thead><tr><th>Text</th><th data-type="number">Number</th><th data-type="checkbox">Checkbox</th><th data-type="rating" data-max="5">Rating</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Text 1</td><td>123</td><td>true</td><td>1</td><td><a href="../../the-scripters-guild.md">the-scripters-guild.md</a></td></tr><tr><td>Text 2</td><td>1234</td><td>false</td><td>2</td><td><a href="http://example.org/">http://example.org/</a></td></tr><tr><td>Text 3</td><td>123456789</td><td>true</td><td>5</td><td><a href="../../../scripting/nodes/events/on-gameplay-start.md">on-gameplay-start.md</a></td></tr></tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th data-type="number">Number</th>
+      <th data-type="checkbox">Checkbox</th>
+      <th data-type="rating" data-max="5">Rating</th>
+      <th data-type="content-ref">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Text 1</td>
+      <td>123</td>
+      <td>true</td>
+      <td>1</td>
+      <td><a href="../../the-scripters-guild.md">the-scripters-guild.md</a></td>
+    </tr>
+    <tr>
+      <td>Text 2</td>
+      <td>1234</td>
+      <td>false</td>
+      <td>2</td>
+      <td><a href="http://example.org/">http://example.org/</a></td>
+    </tr>
+    <tr>
+      <td>Text 3</td>
+      <td>123456789</td>
+      <td>true</td>
+      <td>5</td>
+      <td><a href="../../../scripting/nodes/events/on-gameplay-start.md">on-gameplay-start.md</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Column alignment
-
-#### HTML
 
 | Left aligned header | Center aligned header | Right aligned header |
 | ------------------- | :-------------------: | -------------------: |
 | Info left 1         |     Info center 1     |         Info right 1 |
 | Info left 2         |     Info center 2     |         Info right 2 |
-
-#### Markdown
-
-here
 
 ## Cards
 
@@ -230,11 +305,62 @@ Cards can be used to display information in neat blocks. GitBook card groups are
 
 ### Card group 1
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>A card with a cat image. Here you can write more info about this if needed.</td><td><a href="../../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>This card will link you to the "Welcome" page on click</td><td></td><td><a href="../../../">..</a></td></tr><tr><td>This card has a cat image and will take you to the "File Screenshots" page on click!</td><td><a href="../../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td><a href="../../../ugc/metadata-and-file-management/file-screenshots.md">file-screenshots.md</a></td></tr></tbody></table>
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th></th>
+      <th data-hidden data-card-cover data-type="files"></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A card with a cat image. Here you can write more info about this if needed.</td>
+      <td><a href="../../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>This card will link you to the "Welcome" page on click</td>
+      <td></td>
+      <td><a href="../../../">..</a></td>
+    </tr>
+    <tr>
+      <td>This card has a cat image and will take you to the "File Screenshots" page on click!</td>
+      <td><a href="../../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td>
+      <td><a href="../../../ugc/metadata-and-file-management/file-screenshots.md">file-screenshots.md</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Card group 2
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Here is a separate card group</td><td>that can have text</td><td>on multiple lines</td><td><a href="../../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>Click this card</td><td>to find out the basics</td><td>about Halo Infinite's Forge!</td><td></td><td><a href="../../../forge/forge-basics-and-ui/">forge-basics-and-ui</a></td></tr></tbody></table>
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th data-hidden data-card-cover data-type="files"></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Here is a separate card group</td>
+      <td>that can have text</td>
+      <td>on multiple lines</td>
+      <td><a href="../../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Click this card</td>
+      <td>to find out the basics</td>
+      <td>about Halo Infinite's Forge!</td>
+      <td></td>
+      <td><a href="../../../forge/forge-basics-and-ui/">forge-basics-and-ui</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Expandable sections
 
@@ -274,7 +400,7 @@ And here is what's in the second tab...
 
 like this cat!
 
-&#x20;![A cat hidden in the second tab](../../../.gitbook/assets/placeholderCat.jpg)
+![A cat hidden in the second tab](../../../.gitbook/assets/placeholderCat.jpg)
 {% endtab %}
 
 {% tab title="Third Tab" %}
@@ -312,7 +438,7 @@ Wake up, it's 2007!
 A spreadsheet showing various Forge data collected by TSG members
 {% endembed %}
 
-In the case of embeds that don't allow you to go to the source page, be sure to [include the link to them](https://docs.google.com/spreadsheets/d/1nWTARlv1CZKfNVOramvxRC6u56VvK4GrqpLJZP4IPbQ/) afterwards, if it's beneficial to the reader.
+In the case of embeds that don't link to the source page, be sure to [include the link to them](https://docs.google.com/spreadsheets/d/1nWTARlv1CZKfNVOramvxRC6u56VvK4GrqpLJZP4IPbQ/) afterwards, if it's beneficial for the reader.
 
 #### <mark style="color:green;">Contributors</mark>
 
