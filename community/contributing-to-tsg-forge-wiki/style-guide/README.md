@@ -1,5 +1,7 @@
 ---
-description: A style guide to use as a base for writing an article for the TSG Forge Wiki.
+description: >-
+  A style guide to reference and copy blocks from when writing an article for
+  the TSG Forge Wiki.
 ---
 
 # Style Guide
@@ -159,7 +161,7 @@ Here is an image of a cat that you should pay attention to.
 {% hint style="danger" %}
 Here are two dangerous cats side by side!
 
-<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the left" data-size="original">  <img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the right" data-size="original">
+<img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the left" data-size="original"><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="A cat on the right" data-size="original">
 {% endhint %}
 
 {% hint style="success" %}
@@ -280,6 +282,4 @@ In the case of embeds that don't link to the source page, be sure to [include th
 
 #### <mark style="color:green;">Contributors</mark>
 
-Okom\
-Someone else\
-Another user
+Okom

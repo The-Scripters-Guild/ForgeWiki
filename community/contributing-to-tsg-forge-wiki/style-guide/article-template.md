@@ -1,150 +1,86 @@
 ---
-description: Formatting examples for a TSG Forge Wiki ar.
+description: Shortly describe the topic in this description field.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Article Template
 
-### Section title
+Give a brief introduction to the topic that the article is about here.
 
-Text here for a section topic.
+<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="In this image alt text, write a short purpose of the topic in the article and what it can be used for such as: &#x22;Respawn Points are used to respawn the player&#x22;"><figcaption></figcaption></figure>
 
-#### Section sub-title
+## First section title
 
-All titles made with the ## leading like the example titles above will be shown in the "On this page" content table on the top right of the wiki article page to help quickly navigate the article.
+Write about the first section in this article topic. This section title will show up on the sidebar on the right.
 
-* Here is information about this topic explained in a easily understandable manner. Here is an example of [a hyperlink](../../../halo-infinite/forge/lighting/fog/) that can be used to redirect the user to a different place.
-  * Here is an indentation section.
+### Sub-section title
 
-<figure><img src="../../../.gitbook/assets/template-image.jpg" alt="Image of a peculiar question mark (this text will show if the image can&#x27;t load)"><figcaption><p>A white question mark on a grey background (a description of what is in the picture)</p></figcaption></figure>
+Write about a potential sub-section in this article topic. This section title will show up on the sidebar on the right.
 
-***
+#### Sub-sub-section
 
-## Lists
+Write about a potential sub-sub-section in this article topic. This section title will _not_ show up on the sidebar on the right.
 
-### Unorderd list
+## Second section title
 
-With markdown
+Write more topics here.
 
-* List item
-* List item
-* List item
 
-Or HTML
 
-* List item
-* List item
-* List item
 
-### Ordered list
 
-With markdown
 
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
 
-Or HTML
 
-1. Item 1
-2. Item 2
-3. Item 3
-4.
-   1. Item 3a
-   2. Item 3b
 
-### Table
 
-With markdown
 
-| Column 1   | Column 2   | Column 3     | Column 4    |
-| ---------- | ---------- | ------------ | ----------- |
-| First One  | First Two  | First Three  | First Four  |
-| Second One | Second Two | Second Three | Second Four |
-| Third One  | Third Two  | Third Three  | Third Four  |
 
-Or HTML
 
-| Column 1   | Column 2   | Column 3     |
-| ---------- | ---------- | ------------ |
-| First One  | First Two  | First Three  |
-| Second One | Second Two | Second Three |
 
-## Interactive things
 
-### Video embed
 
-{% embed url="https://youtu.be/A4cyNZ35xEY" %}
-This is a tutorial video on getting started using the Blender2Forge Printer for Halo Infinite. (this text will show under the video embed)
-{% endembed %}
 
-### Google Doc embed
 
-{% embed url="https://docs.google.com/spreadsheets/d/1IjdYZVDX7YUFcsg0xcCBEzxoybJl_pYeA2hJ29OUb24" %}
 
-### Hints
 
-{% hint style="info" %}
-This is a transparent info box that can be used to convey highlight information like a clarification to the reader about a topic. The formatting of this info box won't preview properly in VS Code.
-{% endhint %}
 
-## Dropdown details and links to other articles
 
-Dropdown
 
-<details>
 
-<summary>Wave Options</summary>
 
-* Custom Wave A
-* Custom Wave B
-* Custom Wave C
-* Custom Wave D
-* Custom Wave E
-* Custom Wave F
-* Custom Wave G
 
-</details>
 
-Other article link boxes
 
-{% content-ref url="../../../general/guides-and-tutorials/halo-infinite/scripting/getting-started.md" %}
-[getting-started.md](../../../general/guides-and-tutorials/halo-infinite/scripting/getting-started.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../../general/guides-and-tutorials/readme/contributing-via-pull-requests.md" %}
-[contributing-via-pull-requests.md](../../../general/guides-and-tutorials/readme/contributing-via-pull-requests.md)
-{% endcontent-ref %}
 
-## Text formatting
 
-### Emphasis
 
-_This text will be italic_\
-_This will also be italic_
 
-**This text will be bold**\
-**This will also be bold**
 
-_You **can** combine them_
 
-### Quotes and code demonstration
 
-> This is a blockquote. Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
-> > Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
-```
-This is a block of code
-let message = 'Hello world';
-alert(message);
-```
 
-This is an example of `an inline code section`.
 
-***
 
-**Contributors**\
-Okom\
-Another contributor name
+
+
+
+
+
+#### <mark style="color:green;">Contributors</mark>
+
+First article contributor\
+Someone else\
+Another user
