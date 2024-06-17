@@ -1,23 +1,12 @@
 ---
 description: Shortly describe the topic in this description field.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Article Template
 
 Give a brief introduction to the topic that the article is about here.
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt="In this image alt text, write a short purpose of the topic in the article and what it can be used for such as: &#x22;Respawn Points are used to respawn the player&#x22;"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" style="aspect-ratio: 21 / 9; object-fit: cover;" alt="In this image alt text, write a short purpose of the topic in the article and what it can be used for such as: &#x22;Respawn Points are used to respawn the player&#x22;"><figcaption></figcaption></figure>
 
 ## First section title
 
