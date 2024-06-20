@@ -110,6 +110,22 @@ We've created a [Style Guide](style-guide/) that showcases the most common artic
 
 {% embed url="https://docs.gitbook.com/content-editor/blocks/paragraph" %}
 
+### Before adding content
+
+Search the Wiki for existing information about the topic you are looking for. Use the the Search bar in the top right of the site. The search will index any instances of the search term, which is very useful for finding any mentions of the information you are trying to find.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/wiki-search1.jpg" alt=""><figcaption><p>Searching for an article name</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/wiki-search2.jpg" alt=""><figcaption><p>Searching for a mention of a term within an article</p></figcaption></figure>
+
+</div>
+
+Based on if relevant information already exists or not, you can make a decision on whether to [edit  existing content](submitting-content-to-the-wiki.md#editing-existing-articles), [add new content](submitting-content-to-the-wiki.md#adding-new-articles) or to drop the initiative.
+
 ### Article formatting guidelines
 
 The articles for the TSG Forge Wiki follow a standardized formatting syntax for consistency and readability:
@@ -129,7 +145,7 @@ Editing an existing article is very simple as all of the back-end functionality 
 
 If you're making fixes to an already formatted and written article, just stick to the guidelines shown above when making edits.
 
-For writing new content to an empty page, copy the entire page formatting from the [Article Template](style-guide/article-template.md) page and paste it into the page you're about to write. The said template is made to keep the article formatting consistent and easily digestable.
+For writing new content to an empty page, copy the entire page formatting from the [Article Template](style-guide/article-template.md) page and paste it into the page you're about to write. The said template is made to keep the article formatting consistent and easily digestible.
 
 ### Adding new articles
 

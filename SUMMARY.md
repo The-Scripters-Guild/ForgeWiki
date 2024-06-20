@@ -870,7 +870,6 @@
     * [Set Spawn In Vehicle For All Players](scripting/nodes/vehicles/set-spawn-in-vehicle-for-all-players.md)
     * [Set Spawn In Vehicle For Player](scripting/nodes/vehicles/set-spawn-in-vehicle-for-player.md)
     * [Set Vehicle Enterable By Player](scripting/nodes/vehicles/set-vehicle-enterable-by-player.md)
-  * [Hidden Nodes](scripting/nodes/hidden-nodes.md)
 * [Node Data](scripting/node-data/README.md)
   * [Connection Pins](scripting/node-data/connection-pins.md)
   * [Pin Data Reference](scripting/node-data/pin-data-reference/README.md)
