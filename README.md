@@ -2,17 +2,6 @@
 description: >-
   TSG Forge Wiki provides adequate documentation surrounding Halo Infinite's
   Forge mode and the scripting system that comes with it.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Welcome
