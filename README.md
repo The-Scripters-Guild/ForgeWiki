@@ -40,12 +40,9 @@ _TSG is a server based around UGC and game dev, founded by Halo creators. We wro
 
 ## How do I contribute?
 
-You _can_ just interact with this like any other repository, or you can get in on the conversation with the people working on this project in a dedicated fashion via our Discord server.
-
-Connected GitHub repository:\
-[https://github.com/The-Scripters-Guild/ForgeWiki](https://github.com/The-Scripters-Guild/ForgeWiki)\
+The TSG Forge Wiki works based off of a public [GitHub repository](https://github.com/The-Scripters-Guild/ForgeWiki) and changes to the Wiki are made via Pull Requests to the repo. If you don't want to go through all the effort of submitting a pull request change to the repo with your Wiki additions, you can also submit bits of information via the [Wiki Discussion](https://discord.com/channels/220766496635224065/1032391999740969011) forum in the TSG Discord server.\
 \
-More information about contributing to the TSG Forge Wiki can be found here:
+More information about how to contribute to the TSG Forge Wiki can be found here:
 
 {% content-ref url="community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
 [submitting-content-to-the-wiki.md](community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
