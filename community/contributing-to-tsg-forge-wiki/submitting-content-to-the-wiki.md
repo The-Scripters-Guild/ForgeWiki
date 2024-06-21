@@ -90,7 +90,7 @@ When making edits to the cloned repo, Wiki contributors should always work in a 
 
 For effective and standardized branch naming, read these articles:
 
-{% embed url="https://github.com/rukavinaet/git-naming-conventions" %}
+[Git Naming Conventions – GitHub, rukavinaet](https://github.com/rukavinaet/git-naming-conventions)
 
 {% embed url="https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534" %}
 
@@ -106,7 +106,7 @@ When making edits to the repo, it's important to follow some standards and guide
 
 We've created a [Style Guide](style-guide/) that showcases the most common article formatting techniques for TSG Forge Wiki articles. Some important and useful external resources to also read through and take note of are listed below:
 
-{% embed url="https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/Rules.md" %}
+[Markdown Formatting Rules – GitHub, markdownlint](https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/Rules.md)
 
 {% embed url="https://docs.gitbook.com/content-editor/blocks/paragraph" %}
 
