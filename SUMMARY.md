@@ -997,6 +997,7 @@
     * [Bookmarked Films Do Not Fetch Info Correctly](guides-and-knowledge/ugc/ugc-bugs/bookmarked-films-do-not-fetch-info-correctly.md)
     * [Mode Option Changes Stay Cached Until Game Reset](guides-and-knowledge/ugc/ugc-bugs/mode-option-changes-stay-cached-until-game-reset.md)
     * [Inability to Start a Session](guides-and-knowledge/ugc/ugc-bugs/inability-to-start-a-session.md)
+    * [Bookmarked Files Stay On The Latest Published Version At The Time Of Bookmark](guides-and-knowledge/ugc/ugc-bugs/bookmarked-files-stay-on-the-latest-published-version-at-the-time-of-bookmark.md)
   * [UGC Tips and Tricks](guides-and-knowledge/ugc/ugc-tips-and-tricks/README.md)
     * [Gathering Players in Open Lobbies](guides-and-knowledge/ugc/ugc-tips-and-tricks/gathering-players-in-open-lobbies.md)
   * [UGC Exploits](guides-and-knowledge/ugc/ugc-exploits/README.md)
@@ -1054,7 +1055,13 @@
   * [Markdown Formatting Rules](https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/Rules.md)
   * [Official GitBook Feature Docs](https://docs.gitbook.com/content-editor/blocks/paragraph)
   * [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
-  * [TODO](community/contributing-to-tsg-forge-wiki/todo.md)
+  * [TODO](community/contributing-to-tsg-forge-wiki/todo/README.md)
+    * [Capture The Flag](community/contributing-to-tsg-forge-wiki/todo/capture-the-flag.md)
+    * [Dev Respan Point Amounts](community/contributing-to-tsg-forge-wiki/todo/dev-respawn-point-amounts.md)
+    * [Managing Nav Markers](community/contributing-to-tsg-forge-wiki/todo/managing-nav-markers.md)
+    * [Materials](community/contributing-to-tsg-forge-wiki/todo/materials.md)
+    * [Using Custom Events and Variables Across Mode and Script Brains](community/contributing-to-tsg-forge-wiki/todo/using-custom-events-and-variables-across-mode-and-script-brains.md)
+    * [Video Tutorials](community/contributing-to-tsg-forge-wiki/todo/video-tutorials.md)
 * [Other Halo/Forge Wikis](community/other-halo-forge-wikis.md)
 
 ## External Tools
