@@ -9,7 +9,7 @@ description: >-
 
 In order to efficiently submit content to the TSG Forge Wiki, it's important to follow some guidelines that we've setup to make sure that the articles are made properly and the Wiki structure works correctly. Here you will find information on how to do just that.
 
-<figure><img src="../../.gitbook/assets/cover-contributing.jpg" alt="A cat looking up"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cover-contributing.jpg" alt="VS Code and the Wiki GitHub repo side by side"><figcaption></figcaption></figure>
 
 ## How the TSG Forge Wiki operates
 
@@ -104,7 +104,7 @@ Branches should be named meaningfully and with as few words as possible required
 
 When making edits to the repo, it's important to follow some standards and guidelines so that there's less work for the Wiki moderators to correct. Along the way you'll also learn some Markdown standards.
 
-We've created a [Style Guide](style-guide/) that showcases the most common article formatting techniques for TSG Forge Wiki articles. Some important and useful external resources to also read through and take note of are listed below:
+We've created a [Style Guide](style-guide.md) that showcases the most common article formatting techniques for TSG Forge Wiki articles. Some important and useful external resources to also read through and take note of are listed below:
 
 [Markdown Formatting Rules – GitHub, markdownlint](https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/Rules.md)
 
@@ -145,7 +145,7 @@ Editing an existing article is very simple as all of the back-end functionality 
 
 If you're making fixes to an already formatted and written article, just stick to the guidelines shown above when making edits.
 
-For writing new content to an empty page, copy the entire page formatting from the [Article Template](style-guide/article-template.md) page and paste it into the page you're about to write. The said template is made to keep the article formatting consistent and easily digestible.
+For writing new content to an empty page, copy the entire page formatting from the [Article Template](folder-template/article-template.md) page and paste it into the page you're about to write. The said template is made to keep the article formatting consistent and easily digestible. When editing a folder that has articles nested in it, the folder formatting should be copied from [Folder Template](folder-template/) and adapted accordingly.
 
 ### Adding new articles
 
@@ -153,7 +153,7 @@ When adding new articles that don't have a `.md` file and a `SUMMARY.md` entry f
 
 #### Standalone pages
 
-Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md)). This file will act as the page file that can be edited.
+Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](broken-reference)). This file will act as the page file that can be edited.
 
 <div align="left">
 
@@ -176,6 +176,14 @@ Also known as the main file of a folder. Create a folder with the name of the pa
 If a new `.md` file is created in the structure, it has to also be added to `SUMMARY.md` in the right line and with the correct indentation for it to work.
 
 <figure><img src="../../.gitbook/assets/vscode-summarymd-entry.jpg" alt=""><figcaption><p>The Nav Mesh Generation page represented in SUMMARY.md</p></figcaption></figure>
+
+#### Moving or removing an article
+
+Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md](broken-reference)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
+
+Removing an article can also have this same effect, if the article was the only page in a folder group, as then that folder should become a standalone page. (from /folder/path/README.md -> /folder/path/article-name.md)
+
+The GitBook editor automatically updates all internal references to an article if it's moved with the GUI, which saves half of the trouble. If you don't have a GitBook app environment set up for this purpose, [open an issue](https://github.com/The-Scripters-Guild/ForgeWiki/issues) on the repo and detail what article needs to be moved and why.
 
 
 

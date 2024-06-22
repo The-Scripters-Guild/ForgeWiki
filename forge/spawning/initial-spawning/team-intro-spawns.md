@@ -6,7 +6,7 @@ description: >-
 
 # Team Intro Spawns
 
-A Team Intro Spawn is a [Forge Kit](../../../scripting/node-graph-basics-and-ui/node-graph-controls-and-menus/referencing-objects/forge-kit-objects.md) object consisting of four Initial Spawn Points and a Camera. This object is used to spawn in four players at the start of a match or round, and it has a built-in camera movement cycle that showcases each player before the initial [Gameplay Start](../../../scripting/nodes/events/on-gameplay-start.md).
+A Team Intro Spawn is a [Forge Kit](../../../guides-and-knowledge/forge/forge-tips-and-tricks/forge-kit-objects.md) object consisting of four Initial Spawn Points and a Camera. This object is used to spawn in four players at the start of a match or round, and it has a built-in camera movement cycle that showcases each player before the initial [Gameplay Start](../../../scripting/nodes/events/on-gameplay-start.md).
 
 Team Intro Spawns can be assigned to different Teams, and the Squad setting should be adjusted if more than four players per team should spawn on separate Team Intro Spawns.
 
