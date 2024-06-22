@@ -181,7 +181,7 @@ Keep information organized and make documenting data easier by adding a table to
 
 ### Relevant column types
 
-<table><thead><tr><th>Text</th><th data-type="number">Number</th><th data-type="checkbox">Checkbox</th><th data-type="rating" data-max="5">Rating</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Text 1</td><td>123</td><td>true</td><td>1</td><td><a href="../the-scripters-guild.md">the-scripters-guild.md</a></td></tr><tr><td>Text 2</td><td>1234</td><td>false</td><td>2</td><td><a href="http://example.org/">http://example.org/</a></td></tr><tr><td>Text 3</td><td>123456789</td><td>true</td><td>5</td><td><a href="../../scripting/nodes/events/on-gameplay-start.md">on-gameplay-start.md</a></td></tr></tbody></table>
+<table><thead><tr><th>Text</th><th data-type="number">Number</th><th data-type="checkbox">Checkbox</th><th data-type="rating" data-max="5">Rating</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Text 1</td><td>123</td><td>true</td><td>1</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td>Text 2</td><td>1234</td><td>false</td><td>2</td><td><a href="http://example.org/">http://example.org/</a></td></tr><tr><td>Text 3</td><td>123456789</td><td>true</td><td>5</td><td><a href="../../scripting/nodes/events/on-gameplay-start.md">on-gameplay-start.md</a></td></tr></tbody></table>
 
 ### Column alignment
 
@@ -224,7 +224,7 @@ A cool image <img src="../../.gitbook/assets/placeholderCat.jpg" alt="" data-siz
 
 Small inline image <img src="../../.gitbook/assets/placeholderCat.jpg" alt="" data-size="line">of a cat.
 
-An inline link to the page: [Scripting Basics, or something](../../scripting/node-graph-basics-and-ui/)
+An inline link to the page: [Scripting Basics, or something](../../scripting/scripting-basics-and-ui/)
 
 </details>
 

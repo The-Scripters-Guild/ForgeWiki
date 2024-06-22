@@ -153,7 +153,7 @@ When adding new articles that don't have a `.md` file and a `SUMMARY.md` entry f
 
 #### Standalone pages
 
-Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md)). This file will act as the page file that can be edited.
+Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](broken-reference)). This file will act as the page file that can be edited.
 
 <div align="left">
 
@@ -179,7 +179,7 @@ If a new `.md` file is created in the structure, it has to also be added to `SUM
 
 #### Moving or removing an article
 
-Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md](../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
+Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md](broken-reference)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
 
 Removing an article can also have this same effect, if the article was the only page in a folder group, as then that folder should become a standalone page. (from /folder/path/README.md -> /folder/path/article-name.md)
 

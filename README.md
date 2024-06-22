@@ -10,29 +10,47 @@ Halo Infinite's Forge and Scripting, especially for newcomers, can be an insurmo
 \
 Keep in mind, this is an entirely volunteer effort and all information here is provided and maintained by community members going out of their way to collect, organize, and format it appropriately.
 
-<figure><img src=".gitbook/assets/banner-tsg-logo-no-background.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/banner-tsg-logo-no-background.png" alt="The Scripter&#x27;s Guild logo"><figcaption></figcaption></figure>
 
-## Where to start
+## Where to start?
 
-For Forge related topics, head over to [Forge Basics and UI](forge/forge-basics-and-ui/) and for Scripting information, go to [Node Graph Basics and UI](scripting/node-graph-basics-and-ui/).
+For Forge related topics, head over to [Forge](broken-reference), for Scripting information, go to [Scripting](broken-reference) and for User-Generated Content and working with files, [UGC](broken-reference).
 
-The [🔰](https://emojipedia.org/japanese-symbol-for-beginner) Getting Started page is a great place to go to get enough of a foundation with scripting in Halo Infinite that, after reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error.
-
-{% content-ref url="scripting/node-graph-basics-and-ui/getting-started.md" %}
-[getting-started.md](scripting/node-graph-basics-and-ui/getting-started.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge and Scripting, check out the [Guides and Knowledge](broken-reference) section.
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+
 
 ## I can't find the information I need on the wiki
 
 The wiki is an ever-evolving work in progress largely managed by just a handful of people. The source of nearly all of the information on the wiki is The Scripter's Guild Discord server, where the information is collected and discussed.
 
-If you've looked around the wiki and still have questions, hop to the discord and put a question in the \[#🤷 | scripting-help] or \[#🤷 | forge-help] forum. Your question and the answer to it may end up being the source of an article, as many others have been.
+If you've looked around the wiki and still have questions, hop to the discord and put a question in the `[#🤷 | forge-help]` or `[#🤷 | scripting-help]` forum. Your question and the answer to it may end up being the source of an article, as many others have been.
 
 <details>
 
-<summary><em>About The Scripter's Guild</em></summary>
+<summary>About The Scripter's Guild</summary>
 
-_TSG is a server based around UGC and game dev, founded by Halo creators. We wrote the wiki for Halo 5 scripting as it existed on ForgeHub and are responsible for many enhancements to content for Halo 5 matchmaking, including the creation of the Mythic KotH, Assymetric 1 Flag CTF for BTB, Pig of the Hill, and Roaming King modes, systems for weather volumes w/ excluded interiors and static spawn timers for weapons, as well as a myriad of other creations._
+The Scripter's Guild (TSG) is a server based around UGC and game dev, founded by Halo creators. We wrote the wiki for Halo 5 scripting as it existed on ForgeHub and are responsible for many enhancements to content for Halo 5 matchmaking, including the creation of the Mythic KotH, Assymetric 1 Flag CTF for BTB, Pig of the Hill, and Roaming King modes, systems for weather volumes w/ excluded interiors and static spawn timers for weapons, as well as a myriad of other creations.
+
+Memebers of The Scripter's Guild community help each other on the Discord server and are discovering new things about Halo daily. \
+\
+Read more on [The Scripter's Guild](community/the-scripters-guild.md) article.
 
 </details>
 
