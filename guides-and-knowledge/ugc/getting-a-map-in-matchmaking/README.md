@@ -1,4 +1,4 @@
-# Terrain
+# Getting a Map In Matchmaking
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.

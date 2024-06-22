@@ -1,4 +1,4 @@
-# Designing a Map
+# Level Art
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -16,7 +16,7 @@ Give a brief explanation of the topic this folder is about and at the end, list 
 
 ## Learn more about
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Level Design Guidelines</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="level-design-guidelines/">level-design-guidelines</a></td></tr><tr><td>Level Art Guidelines</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="level-art-guidelines/">level-art-guidelines</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Creating an Art Palette</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="creating-an-art-palette.md">creating-an-art-palette.md</a></td></tr><tr><td>Art Techniques</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="art-techniques.md">art-techniques.md</a></td></tr></tbody></table>
 
 
 

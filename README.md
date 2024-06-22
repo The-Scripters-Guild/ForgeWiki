@@ -14,25 +14,21 @@ Keep in mind, this is an entirely volunteer effort and all information here is p
 
 ## Where to start?
 
-For Forge related topics, head over to [Forge](broken-reference), for Scripting information, go to [Scripting](broken-reference) and for User-Generated Content and working with files, [UGC](broken-reference).
+For Forge related topics, head over to [Forge Basics and UI](forge/forge-basics-and-ui/), for Scripting information, go to [Scripting Basics and UI](scripting/scripting-basics-and-ui/) and for User-Generated Content and working with files, [Metadata and File Management](ugc/metadata-and-file-management/).
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="forge/forge-basics-and-ui/" %}
+[forge-basics-and-ui](forge/forge-basics-and-ui/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="scripting/scripting-basics-and-ui/" %}
+[scripting-basics-and-ui](scripting/scripting-basics-and-ui/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="ugc/metadata-and-file-management/" %}
+[metadata-and-file-management](ugc/metadata-and-file-management/)
 {% endcontent-ref %}
 
-After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge and Scripting, check out the [Guides and Knowledge](broken-reference) section.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Guides and Knowledge](guides-and-knowledge/forge/) section.
 
 
 
