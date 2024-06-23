@@ -1,4 +1,14 @@
-# Movement & Player Character Information
+# Movement and Player Character Info
+
+{% hint style="warning" %}
+This article is a stub. You can help TSG Forge Wiki by expanding it.
+{% endhint %}
+
+{% content-ref url="../../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
+[submitting-content-to-the-wiki.md](../../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
+{% endcontent-ref %}
+
+
 
 Units in this table are Halo World Units. 1 WU = 10 Units in the Infinite Forge UI.
 
@@ -25,6 +35,7 @@ Units in this table are Halo World Units. 1 WU = 10 Units in the Infinite Forge 
 
 Note: N/A indicates that the value is not applicable or not available for that particular Halo game.
 
-**Contributors**\
+#### <mark style="color:green;">Contributors</mark>
+
 Kwatzy\
 Captain Punch

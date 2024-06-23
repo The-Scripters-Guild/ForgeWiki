@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Adjustable lighting settings within a light source object.
 ---
 
 # Settings, Object-Based Lighting
 
-The x section focuses on&#x20;
+Detailed information about what the various lighting settings do on a light source object. The basic light settings including brightness and color are combined into a single article, while the other options have their own article as each setting is unique in their own way.
 
 
 

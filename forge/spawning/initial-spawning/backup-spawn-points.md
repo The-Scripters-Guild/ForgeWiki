@@ -14,8 +14,6 @@ Despite the object being able to be selected from the Forge Menu, it is rumored 
 
 On each map there is at least one invisible Backup Spawn Point object which can't be seen, selected nor deleted by the player. These are placed by 343 to prevent the player or Forge monitor from not being able to spawn on the map after deleting every object on the map.
 
-Your browser does not support the video tag.
-
 ### Positioning
 
 Here are the positions of each invisible Backup Spawn Point on the listed maps that have been reverse-engineered:

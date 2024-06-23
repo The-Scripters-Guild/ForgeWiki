@@ -1,4 +1,4 @@
-# Interaction With Small Objects That Have a Complex Collision Mesh Causes Performance Loss
+# Forge Misc
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.

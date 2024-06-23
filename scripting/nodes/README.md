@@ -1,3 +1,7 @@
+---
+description: Topics about
+---
+
 # Nodes
 
 Node types are a way to organize nodes based on what they do. While there are nodes of various categories within Halo Infinite, _Node Types_, specifically designates nodes based on their characteristics.
@@ -22,7 +26,12 @@ Data Nodes
 * May feed into one or many execution nodes within the same event.
 * Some Data Nodes have their output restricted to only working within a single chain of execution/circuit.
 
-Contributors
+
+
+***
+
+#### <mark style="color:green;">Contributors</mark>
 
 Captain Punch\
-AgentZero
+AgentZero\
+Okom
