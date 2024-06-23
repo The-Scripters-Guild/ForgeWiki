@@ -1,10 +1,12 @@
 ---
-description: Topics about
+description: >-
+  Topics about the capabilities of audio manipulation in Halo Infinite's Forge
+  tool.
 ---
 
 # Audio
 
-The x section focuses on&#x20;
+The Audio section focuses on all the ways audio can be manipulated on a Halo Infinite level using the Forge tool. What are the capabilities of audio manipulation via objects and scripting, and how to build audio data that makes audio on your level sound realistic.
 
 
 

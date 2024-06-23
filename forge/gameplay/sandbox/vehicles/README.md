@@ -6,7 +6,7 @@ description: >-
 
 # Vehicles
 
-The x section focuses on&#x20;
+Information about the vehicles in Halo Infinite. A list of all vehicles, how to spawn them on your level and extra researched information can be found.
 
 
 

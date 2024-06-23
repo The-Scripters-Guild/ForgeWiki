@@ -1,7 +1,5 @@
 ---
-description: >-
-  Topics about gameplay objects, their purposes and properties in Halo
-  Infinite's Forge tool.
+description: Topics about gameplay objects in Halo Infinite, their purposes and properties.
 ---
 
 # Gameplay

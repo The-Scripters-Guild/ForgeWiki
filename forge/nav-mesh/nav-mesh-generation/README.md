@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Topics about nav mesh generation in Halo Infinite using the Forge tool.
 ---
 
 # Nav Mesh Generation
 
-The x section focuses on&#x20;
+Knowing the fundamentals of generating nav mesh on a level in Halo Infinite will save you a lot of time as there are some not so obvious aspects surrounding the topic that took the Forge community some time to figure out and overcome.
 
 
 

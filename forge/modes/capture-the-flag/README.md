@@ -1,10 +1,32 @@
 ---
-description: Topics about
+description: >-
+  The gameplay loop and different variants of the Capture The Flag mode in Halo
+  Infinite.
 ---
 
 # Capture The Flag
 
-The x section focuses on&#x20;
+{% hint style="warning" %}
+This article is a stub. You can help TSG Forge Wiki by expanding it.
+{% endhint %}
+
+{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
+[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
+{% endcontent-ref %}
+
+
+
+There are multiple variations of the Capture The Flag (CTF) mode in Halo Infinite, but all of them share the basic idea of fetching a target flag and bringing it to your team's Delivery Point. This article will explain the basic concept of CTF in Halo Infinite and the properties of the objects used in the mode.
+
+The different ways how this mode changes and what is required to set up it's variations can be found in the [Learn more about](./#learn-more-about) section.
+
+
+
+Flag Spawn
+
+
+
+Flag Delivery Point
 
 
 

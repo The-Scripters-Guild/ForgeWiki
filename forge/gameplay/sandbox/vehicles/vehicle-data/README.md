@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: A compilation of technical information about vehicles in Halo Infinite.
 ---
 
 # Vehicle Data
 
-The x section focuses on&#x20;
+Reverse-engineered technical data about Halo Infinite vehicles. The information in the spreadsheets has been compiled by [Implied Skill](https://twitter.com/impliedskill).
 
 
 
@@ -16,4 +16,5 @@ The x section focuses on&#x20;
 
 #### <mark style="color:green;">Contributors</mark>
 
-Okom
+Okom\
+Implied Skill

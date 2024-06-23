@@ -1,10 +1,10 @@
 ---
-description: Topics About
+description: Topics about sandbox objects in Halo Infinite, their purposes and properties.
 ---
 
 # Sandbox
 
-The Sandbox section focuses on
+The Sandbox section focuses on the sandbox objects in Halo Infinite. The three main categories of these are Weapons, Equipment and Vehicles. Ordnance pods' technical properties fall into both Weapons and Equipment, but their general info is explained separately. The Spawn Properties category explains the function of the common spawn properties of sandbox objects.
 
 
 

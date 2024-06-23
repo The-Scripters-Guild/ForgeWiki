@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Different ways of spawning in equipment on a level in Halo Infinite.
 ---
 
 # Equipment Spawning
 
-The x section focuses on&#x20;
+All ways to spawn equipment in Halo Infinite. The first spawner objects in the list are the most common ones.
 
 
 

@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Topics about the camera objects in Halo Infinite's Forge tool.
 ---
 
 # Cameras
 
-The x section focuses on&#x20;
+The Cameras section focuses on the different camera objects available in Halo Infinite's Forge tool, what they are used for and how to set them up correctly.
 
 
 

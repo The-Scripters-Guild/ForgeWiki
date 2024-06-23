@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Objects used to alter the generation of nav mesh in Halo Infinite's Forge
 ---
 
 # Nav Objects
 
-The x section focuses on&#x20;
+Nav Objects are objects used to alter the generation of nav mesh in Halo Infinite's Forge, which will impact how [bots](../npc-units/bots/) and [AI](../npc-units/ai/) navigate around the level. Usually nav mesh should be built once and then the nav mesh coverage inspected to see what is missing and can be fixed with the help of the nav objects.
 
 
 

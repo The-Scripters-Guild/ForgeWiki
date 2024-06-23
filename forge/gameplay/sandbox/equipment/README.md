@@ -6,7 +6,7 @@ description: >-
 
 # Equipment
 
-The x section focuses on&#x20;
+Information about the equipment in Halo Infinite. A list of all equipment and grenades, how to spawn them on your level, as well as extra researched information can be found.
 
 
 
