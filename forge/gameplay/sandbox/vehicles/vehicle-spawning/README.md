@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Different ways of spawning in vehicles on a level in Halo Infinite.
 ---
 
 # Vehicle Spawning
 
-The x section focuses on&#x20;
+All ways to spawn vehicles in Halo Infinite. The first spawner objects in the list are the most common ones.
 
 
 

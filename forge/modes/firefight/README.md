@@ -1,10 +1,12 @@
 ---
-description: Topics about
+description: >-
+  The gameplay loop and different variants of the Firefight mode in Halo
+  Infinite.
 ---
 
 # Firefight
 
-The x section focuses on&#x20;
+There are two variants of Firefight in Halo Infinite: Firefight:King of The Hill (FFKOTH) and Firefight:Custom. FFKOTH is considered the core mode of Firefight and Firefight:Custom is a base mode for Forgers to build custom experiences on.
 
 
 

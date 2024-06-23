@@ -5,7 +5,7 @@ description: >-
   Wiki.
 ---
 
-# Submitting content to the Wiki
+# Submitting Content to the Wiki
 
 In order to efficiently submit content to the TSG Forge Wiki, it's important to follow some guidelines that we've setup to make sure that the articles are made properly and the Wiki structure works correctly. Here you will find information on how to do just that.
 
@@ -177,13 +177,23 @@ If a new `.md` file is created in the structure, it has to also be added to `SUM
 
 <figure><img src="../../.gitbook/assets/vscode-summarymd-entry.jpg" alt=""><figcaption><p>The Nav Mesh Generation page represented in SUMMARY.md</p></figcaption></figure>
 
-#### Moving or removing an article
+#### Moving or removing an article, or adding a sub-page to a standalone page
 
-Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/generating-nav-mesh.md](broken-reference)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/generating-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
+{% hint style="danger" %}
+Important! Read carefully if your edit falls into this category.
+{% endhint %}
 
-Removing an article can also have this same effect, if the article was the only page in a folder group, as then that folder should become a standalone page. (from /folder/path/README.md -> /folder/path/article-name.md)
+Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh.md](../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh/)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/building-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/building-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
 
-The GitBook editor automatically updates all internal references to an article if it's moved with the GUI, which saves half of the trouble. If you don't have a GitBook app environment set up for this purpose, [open an issue](https://github.com/The-Scripters-Guild/ForgeWiki/issues) on the repo and detail what article needs to be moved and why.
+Removing an article can have this same effect, if the article was the only page in a folder group, as then that folder should become a standalone page. (from `/folder/path/README.md` -> `/folder/path/article-name.md`)
+
+And in addition to removing an article causing this, also adding a sub-page to an existing standalone page will have the same effect as now all of the references pointing to `/folder/path/article-name.md` should point to `/folder/path/README.md`, but it's not done automatically outside of the GitBook editor.
+
+The GitBook editor automatically updates all internal references to an article if it's moved with the GUI, which saves half of the trouble. If you don't have a GitBook app environment set up for this purpose, [open an issue](https://github.com/The-Scripters-Guild/ForgeWiki/issues) on the repo and detail what article needs to be moved and why. Temporarily place your articles in the [TODO](todo/) folder so they are still present on the repo.
+
+{% hint style="info" %}
+If you are working in an editor other than the GitBook editor and have to move or remove an article, or add a sub-page to a standalone page, open up a GitHub issue about it instead and temporarily place your articles in the TODO folder so a TSG staff member can correctly adjust the article placement.
+{% endhint %}
 
 
 

@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Different ways of spawning in grenades on a level in Halo Infinite.
 ---
 
 # Grenade Spawning
 
-The x section focuses on&#x20;
+Information about the equipment in Halo Infinite. A list of all equipment and grenades, and how to spawn them on your level.
 
 
 
