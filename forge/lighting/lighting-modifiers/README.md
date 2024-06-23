@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Ways to modify the light bounce data accuracy and reflections on a level.
 ---
 
 # Lighting Modifiers
 
-The x section focuses on&#x20;
+Lighting Modifiers are a new addition to the Forge tool in the Halo franchise, allowing for more granular modification of the final lighting build on a level. These modifiers may often be ignored as Forgers are not used to working with this level of lighting manipulation so information in this section can be very useful even for veteran Forgers.
 
 
 

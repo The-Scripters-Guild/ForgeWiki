@@ -6,7 +6,7 @@ description: >-
 
 # Lighting
 
-The Lighting section focuses on the different ways lighting can be modified on a level in Halo Infinite. The adjustment capabilities that Halo Infinite's Forge allows are the more vast than any previous Halo titles, ranging from broad strokes with the sunlight settings to small adjustments of reflections, light probes and a myriad of object-based lighting options.
+The Lighting section focuses on the different ways lighting can be modified on a level in Halo Infinite. The lighting adjustment capabilities that Halo Infinite's Forge allows are the more vast than any previous Halo titles, ranging from broad strokes with the sunlight settings to small adjustments of reflections, light probes and a myriad of object-based lighting options.
 
 
 

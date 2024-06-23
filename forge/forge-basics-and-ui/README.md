@@ -14,6 +14,8 @@ This section will explain to you the basics of the Forge tool in Halo Infinite, 
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

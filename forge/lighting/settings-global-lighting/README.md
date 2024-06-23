@@ -1,10 +1,10 @@
 ---
-description: Topics about
+description: Adjustable lighting settings on a global, level-wide scale.
 ---
 
 # Settings, Global Lighting
 
-The x section focuses on&#x20;
+Detailed information about the available options to manipulate the global lighting on a level such as adjusting the sky and sun color. These settings can be adjusted both on Forge canvas-based levels and dev-made levels.
 
 
 

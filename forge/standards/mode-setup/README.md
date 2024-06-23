@@ -1,10 +1,18 @@
 ---
-description: Topics about
+description: Setup standards and requirements for different mode experiences.
 ---
 
 # Mode Setup
 
-The x section focuses on&#x20;
+In order to have a consistent experience across multiple levels, mode setup standards have been created to ensure players know what to expect and to keep a general baseline consistency between different levels while playing the same mode.
+
+Gathering this information has been a burden on the Forge community with some experienced Forgers still asking around for standard mode setup information as 343 has not shared their internal documentation on the topic, or the small bits that have been shared between Forgers are lacking or straight up contradicting some setup procedures seen across dev-made levels in Halo Infinite.
+
+{% hint style="warning" %}
+These mode setup standards are documented by the Forge community by means of reverse-engineering the gameplay setups on dev-made levels in Halo Infinite and piecing together bits of information from official sources.
+
+Even though some of the information is not officially confirmed to be true by 343, it is commonly accepted amongst Forgers to be true, and community levels with gameplay setups that follow these standards can be seen in Matchmaking and 343 hasn't brought up issues regarding them.
+{% endhint %}
 
 
 
