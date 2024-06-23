@@ -1,16 +1,13 @@
+---
+description: >-
+  Topics about creating level art for a map, how to do it efficiently and
+  understand what the limits are of Halo Infinite's Forge tool when it comes to
+  arting a level.
+---
+
 # Level Art
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
-
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
-
-
-
-Give a brief explanation of the topic this folder is about and at the end, list all the articles that this folder contains within the cards. The cover image of the cards should be the same 21:9 cover image that is used on the linked article. The Folder Template page itself doesn't need a cover image.
+The Level Art section focuses on some general guidance on how to start with arting a level and showcases some art techniques that are useful to know with Halo Infinite's forge Tool.
 
 
 

@@ -1,16 +1,12 @@
+---
+description: >-
+  Topics about the various ways of influencing player spawn weighting on a level
+  in Halo Infinite.
+---
+
 # Spawn Influence
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
-
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
-
-
-
-Give a brief explanation of the topic this folder is about and at the end, list all the articles that this folder contains within the cards. The cover image of the cards should be the same 21:9 cover image that is used on the linked article. The Folder Template page itself doesn't need a cover image.
+The Spawn Influence section focuses on the different ways player spawn weighting can be influenced with Forge objects and via player actions during gameplay. Also included are the properties of each associated Forge object and best practices.
 
 
 
