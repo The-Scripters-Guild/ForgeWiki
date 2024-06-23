@@ -16,8 +16,8 @@ description: Solutions to common errors that prevent Nav Mesh from building.
 
 ### "Navigation data generation failed"
 
-* Make sure at least one [Nav Mesh generation root point](../../../../halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points/) is not blocked by e.g. geometry or a Nav Cutter, and is able to generate nav mesh. Nav Mesh generation root points include Nav Seed Points and all Spawn Point objects, except AI Spawners.
-  * This error often occurs when you have no Spawn Points or Nav Seed Points placed on your map and you are blocking all of the [invisible Blackup Spawn Points](../../../../halo-infinite/forge/player-spawning/backup-spawn-points/) on the canvas floor with a Nav Cutter.
+* Make sure at least one [Nav Mesh generation root point](../nav-mesh-generation-root-points.md) is not blocked by e.g. geometry or a Nav Cutter, and is able to generate nav mesh. Nav Mesh generation root points include Nav Seed Points and all Spawn Point objects, except AI Spawners.
+  * This error often occurs when you have no Spawn Points or Nav Seed Points placed on your map and you are blocking all of the [invisible Blackup Spawn Points](../../../spawning/initial-spawning/backup-spawn-points.md#invisible-backup-spawn-points) on the canvas floor with a Nav Cutter.
 
 <figure><img src="../../../../.gitbook/assets/nav-data-failed1.webp" alt="Image of the first Nav Mesh generation error"><figcaption><p>The error message for "Navigation data generation failed"</p></figcaption></figure>
 
@@ -26,12 +26,12 @@ description: Solutions to common errors that prevent Nav Mesh from building.
 ### "Navigation data generation failed Data size exceeded maximum. Reduce the amount or complexity of related content in the map."
 
 * Reduce the complexity of the generated Nav Mesh data.\
-  To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the eye icon in the [folder structure](../../../../halo-infinite/guides-and-tutorials/forge/folder-structure/) or cover said objects within the boundary of a Nav Cutter.
+  To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the eye icon in the [folder structure](../../../forge-basics-and-ui/forge-controls-and-menus/folders/) or cover said objects within the boundary of a Nav Cutter.
   * Hiding objects or covering them with Nav Cutters will exclude them from the data that the Nav Mesh generation has to parse through.
 * After disabling excess object geo, make sure that the Nav Mesh data is not generating on the canvas floor and possibly escaping the playable canvas area. These factors can add a lot of complexity to your Nav Mesh data especially on complex canvases like Mires.
-  * The most common reason why Nav Mesh might generate on the canvas floor is due to [invisible Blackup Spawn Points](../../../../halo-infinite/forge/player-spawning/backup-spawn-points/) acting as [Nav Mesh generation root points](../../../../halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points/). To mitigate this, block said root points so they do not cause Nav Mesh to generate from them.
+  * The most common reason why Nav Mesh might generate on the canvas floor is due to invisible Blackup Spawn Points acting as Nav Mesh generation root points. To mitigate this, block said root points so they do not cause Nav Mesh to generate from them.
 * This error means that you are hitting a hard-coded limit of Nav Mesh data size, instead of a server timeout limit. Reducing the complexity of the generated Nav Mesh data should work here.
-  * This can be confirmed by trying to build Nav Mesh on the same map version in [Forge via Custom Game](../../../../halo-infinite/guides-and-tutorials/forge/forge-via-custom-game/), which will result in the same error, instead of no error, as this is not a session timeout issue.
+  * This can be confirmed by trying to build Nav Mesh on the same map version in [Forge via Custom Game](../../../../guides-and-knowledge/forge/forge-exploits/forge-via-custom-game.md), which will result in the same error, instead of no error, as this is not a session timeout issue.
 
 <figure><img src="../../../../.gitbook/assets/nav-data-failed2.webp" alt="Image of the second Nav Mesh generation error"><figcaption><p>The error message for "Navigation data generation failed, Data size exceeded maximum. Reduce the amount or complexity of related content in the map."</p></figcaption></figure>
 
@@ -43,9 +43,9 @@ description: Solutions to common errors that prevent Nav Mesh from building.
   To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the folder structure or cover said objects within the boundary of a Nav Cutter.
   * Hiding objects or covering them with Nav Cutters will exclude them from the data that the Nav Mesh generation has to parse through.
 * After disabling excess object geo, make sure that the Nav Mesh data is not generating on the canvas floor and possibly escaping the playable canvas area. These factors can add a lot of complexity to your Nav Mesh data especially on complex canvases like Mires.
-  * The most common reason why Nav Mesh might generate on the canvas floor is due to [invisible Blackup Spawn Points](../../../../halo-infinite/forge/player-spawning/backup-spawn-points/) acting as [Nav Mesh generation root points](../../../../halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points/). To mitigate this, block said root points so they do not cause Nav Mesh to generate from them.
+  * The most common reason why Nav Mesh might generate on the canvas floor is due to invisible Blackup Spawn Points acting as Nav Mesh generation root points. To mitigate this, block said root points so they do not cause Nav Mesh to generate from them.
 * This error means that you are hitting an arbitrary session timeout threshold, which kicks you out of the Forge session if it detects that nothing has happened for a set amount of time.
-  * This can be confirmed by trying to build Nav Mesh on the same map version in [Forge via Custom Game](../../../../halo-infinite/guides-and-tutorials/forge/nav-mesh/halo-infinite/guides-and-tutorials/forge/forge-via-custom-game/), which will show the true result of the Nav Mesh generation as there is no session timeout threshold in custom games Forge.
+  * This can be confirmed by trying to build Nav Mesh on the same map version in Forge via Custom Game, which will show the true result of the Nav Mesh generation as there is no session timeout threshold in custom games Forge.
   * Often times you will see that the Nav Mesh will generate in custom games Forge just fine. Use this method to evaluate whether your map would be able to build Nav Mesh if there were no timeout restrictions in place.
   * The custom games Forge Nav Mesh build method will not make the built Nav Mesh show up on your live Forge file, it is merely a way to debug the issue at hand, but not necessarily a way to solve it.
 
@@ -67,5 +67,8 @@ description: Solutions to common errors that prevent Nav Mesh from building.
 * Refer to the solution for the error: "There was a problem with the Dedicated Server.\
   Please try again.".
 
-**Contributors**\
+
+
+#### <mark style="color:green;">Contributors</mark>
+
 Okom
