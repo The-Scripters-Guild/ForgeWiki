@@ -271,7 +271,9 @@ Just have scraps of info to share, like a weird interaction between two objects 
 
 
 
+***
+
 #### <mark style="color:green;">**Contributors**</mark>
 
-Captain Punch\
-Okom
+Okom\
+Captain Punch

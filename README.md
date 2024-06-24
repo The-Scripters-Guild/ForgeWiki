@@ -16,6 +16,8 @@ Keep in mind, this is an entirely volunteer effort and all information here is p
 
 For Forge related topics, head over to [Forge Basics and UI](forge/forge-basics-and-ui/), for Scripting information, go to [Scripting Basics and UI](scripting/scripting-basics-and-ui/) and for User-Generated Content and working with files, [Metadata and File Management](ugc/metadata-and-file-management/).
 
+The categories are structured in a way where the most useful and most commonly used information is at the top of each category/folder.
+
 {% content-ref url="forge/forge-basics-and-ui/" %}
 [forge-basics-and-ui](forge/forge-basics-and-ui/)
 {% endcontent-ref %}

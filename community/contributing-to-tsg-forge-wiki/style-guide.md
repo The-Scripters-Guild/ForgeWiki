@@ -24,6 +24,15 @@ There are different ways of formatting text that can be useful in wiki articles.
   * [ ] <mark style="background-color:red;">Background colored text</mark>
   * [x] <mark style="color:yellow;background-color:green;">Both colored</mark>
 
+For referencing Xbox controller buttons:
+
+* Main buttons: <mark style="color:blue;">`X`</mark> <mark style="color:yellow;">`Y`</mark> <mark style="color:red;">`B`</mark> <mark style="color:green;">`A`</mark>
+* Bumpers: `LB` `RB`
+* Triggers: `LT` `RT`
+* Menu: `≡`
+* Directions: `←` `↑` `→` `↓`
+* Dpad: **`+`**
+
 ### Heading with a custom anchor link -> <a href="#cat" id="cat"></a>
 
 By clicking the `#` on the right of the heading above, the page URL will get the anchor ID of that heading attached to it. This can be used to link readers straight to a specific section of the article.
@@ -281,6 +290,10 @@ A spreadsheet showing various Forge data collected by TSG members
 {% endembed %}
 
 In the case of embeds that don't link to the source page, be sure to [include the link to them](https://docs.google.com/spreadsheets/d/1nWTARlv1CZKfNVOramvxRC6u56VvK4GrqpLJZP4IPbQ/) afterwards, if it's beneficial for the reader.
+
+
+
+***
 
 #### <mark style="color:green;">Contributors</mark>
 

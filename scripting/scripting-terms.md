@@ -1,4 +1,14 @@
-# Terms
+---
+description: >-
+  Terms used in scripting and game development that are applicable to Halo
+  Infinite
+---
+
+# Scripting Terms
+
+Knowing the vocabulary of common scripting terms will help you understand what other people mean when referencing something related to scripting and will also let you express your scripting topics in a way that others can grasp more easily.
+
+<figure><img src="../.gitbook/assets/cover-tsg-placeholder.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Variables
 
@@ -100,6 +110,11 @@ A technique used to simulate a 3D environment by projecting rays from the camera
 
 A software framework designed to aid in the creation and development of video games.
 
-#### Contributors
 
-Captain Punch
+
+***
+
+#### <mark style="color:green;">Contributors</mark>
+
+Captain Punch\
+Okom

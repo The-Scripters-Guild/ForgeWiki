@@ -5,7 +5,6 @@
 ## Forge
 
 * [Forge Basics and UI](forge/forge-basics-and-ui/README.md)
-  * [What Is Forge?](forge/forge-basics-and-ui/what-is-forge.md)
   * [Loading Into Forge](forge/forge-basics-and-ui/loading-into-forge/README.md)
     * [Forge Canvases](forge/forge-basics-and-ui/loading-into-forge/forge-canvases.md)
   * [Play Mode and Test Mode](forge/forge-basics-and-ui/play-mode-and-test-mode.md)
@@ -214,7 +213,6 @@
 ## Scripting
 
 * [Scripting Basics and UI](scripting/scripting-basics-and-ui/README.md)
-  * [How To Script In Halo Infinite?](scripting/scripting-basics-and-ui/how-to-script-in-halo-infinite.md)
   * [Node Graph Controls and Menus](scripting/scripting-basics-and-ui/node-graph-controls-and-menus/README.md)
     * [Controls](scripting/scripting-basics-and-ui/node-graph-controls-and-menus/controls.md)
     * [Node Browser](scripting/scripting-basics-and-ui/node-graph-controls-and-menus/node-browser.md)
@@ -921,7 +919,7 @@
     * [Generic Shrinking Zone](scripting/scriptable-objects/generic-game-mode-objects/generic-shrinking-zone.md)
     * [Generic Skull](scripting/scriptable-objects/generic-game-mode-objects/generic-skull.md)
     * [Generic Zone](scripting/scriptable-objects/generic-game-mode-objects/generic-zone.md)
-* [Terms](scripting/terms-generic.md)
+* [Scripting Terms](scripting/scripting-terms.md)
 
 ## UGC
 
