@@ -8,7 +8,7 @@ description: >-
 
 This section shows the basics of the Forge tool in Halo Infinite, what it's capable of and how it compares to previous Forge tools.
 
-<figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cover-forgebasics.jpg" alt="Forge icon on a grid"><figcaption></figcaption></figure>
 
 ## What is Forge?
 
