@@ -23,6 +23,8 @@ For demonstration purposes, there are six cards of the Article Template article 
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 First folder contributor\
