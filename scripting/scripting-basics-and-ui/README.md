@@ -8,7 +8,7 @@ description: >-
 
 This section will teach you what Scripting means in Halo Infinite, and how to use the Node Graph interface to create scripts.
 
-<figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="TSG logo in the node graph"><figcaption></figcaption></figure>
 
 ## How to Script in Halo Infinite?
 

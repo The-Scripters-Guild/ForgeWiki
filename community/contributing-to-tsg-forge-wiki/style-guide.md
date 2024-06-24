@@ -6,6 +6,12 @@ description: >-
 
 # Style Guide
 
+Use this style guide to browse the most common "blocks" available in the GitBook documentation suite to get a good overview of what is possible to include in an article to convey information to the reader.
+
+The raw markdown text formatting of this page can be found at [https://raw.githubusercontent.com/The-Scripters-Guild/ForgeWiki/main/community/contributing-to-tsg-forge-wiki/style-guide.md](https://raw.githubusercontent.com/The-Scripters-Guild/ForgeWiki/main/community/contributing-to-tsg-forge-wiki/style-guide.md)
+
+<figure><img src="../../.gitbook/assets/cover-styleguide.jpg" alt="White paint brush over a grid"><figcaption></figcaption></figure>
+
 ## Formatting text
 
 There are different ways of formatting text that can be useful in wiki articles. The example below will show these along with how to make different lists.
