@@ -30,7 +30,7 @@ The categories are structured in a way where the most useful and most commonly u
 [metadata-and-file-management](ugc/metadata-and-file-management/)
 {% endcontent-ref %}
 
-After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Guides and Knowledge](guides-and-knowledge/forge/) section.
+After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Guides and Knowledge](guides-and-knowledge/forge-know-how/) section.
 
 
 

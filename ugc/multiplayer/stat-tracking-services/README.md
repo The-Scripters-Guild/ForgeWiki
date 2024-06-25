@@ -1,16 +1,14 @@
+---
+description: >-
+  Various community stat tracking services for Halo Infinite matchmaking and
+  custom games.
+---
+
 # Stat Tracking Services
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+Even though 343 has a robust API that documents a lot of your stats for each game, they have done quite a bad job at displaying this info to the average user. Due to this, Halo community members have reverse-engineered the undocumented Halo Infinite API and created their own stat tracking services utilizing the information that can be obtained from this API.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
-
-
-
-Give a brief explanation of the topic this folder is about and at the end, list all the articles that this folder contains within the cards. The cover image of the cards should be the same 21:9 cover image that is used on the linked article. The Folder Template page itself doesn't need a cover image.
+Luckily thanks to these TSG recommended websites, you as the user don't need to know more information than to just input your gamertag into one of these websites to search up your stats in a well-formatted manner.
 
 
 
