@@ -1,4 +1,4 @@
-# Advanced Folder Structure
+# Reflections
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -10,7 +10,8 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 
 Bullet points of the topic:
 
-* Advanced and detailed folder structure
-* Reasons for having a detailed structure
-* Disadvantages
+* What are Reflections
+* Use for reflections
+* Reflection Volume
+* Global Reflection Point (0,0,1000)
 *

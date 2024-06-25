@@ -1,4 +1,4 @@
-# Lighting FX Objects
+# Art Techniques, Brick
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -10,6 +10,6 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 
 Bullet points of the topic:
 
-* Use case for the objects
-* Techniques
+* How to make convincing brick art
+* Pieces to use for brick art
 *

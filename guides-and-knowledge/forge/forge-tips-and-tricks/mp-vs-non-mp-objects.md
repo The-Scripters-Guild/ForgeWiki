@@ -1,4 +1,4 @@
-# Lighting FX Objects
+# MP vs Non-MP Objects
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -10,6 +10,7 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 
 Bullet points of the topic:
 
-* Use case for the objects
-* Techniques
+* What MP and Non-MP objects are
+* Artistic rationale for using either one
+* Level of Detail (LOD) issues (ref: [Object Level of Detail](object-level-of-detail.md))
 *
