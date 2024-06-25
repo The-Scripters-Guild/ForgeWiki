@@ -11,6 +11,6 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 Bullet points of the topic:
 
 * How to make smooth terrain
-* Small Terrain Rugged issues (ref: [Interaction With Small Objects That Have a Complex Collision Mesh Causes Performance Loss](../../../../guides-and-knowledge/forge/forge-bugs/interaction-with-small-objects-that-have-a-complex-collision-mesh-causes-performance-loss.md))
+* Small Terrain Rugged issues (ref: [Interaction With Small Objects That Have a Complex Collision Mesh Causes Performance Loss](../../../../guides-and-knowledge/forge-know-how/forge-bugs/interaction-with-small-objects-that-have-a-complex-collision-mesh-causes-performance-loss.md))
 * How to blend terrain textures
 *

@@ -1,10 +1,12 @@
 ---
-description: Topics about
+description: >-
+  Topics about the controls and menu functionality of the scripting node graph
+  in Halo Infinite.
 ---
 
 # Node Graph Controls and Menus
 
-The x section focuses on&#x20;
+This section will explain what controls and shortcuts are available in Halo Infinite's scripting node graph and what the purpose of each menu element is.
 
 
 
