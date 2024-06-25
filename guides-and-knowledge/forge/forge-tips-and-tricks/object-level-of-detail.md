@@ -1,4 +1,4 @@
-# Lighting FX Objects
+# Object Level of Detail
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -10,6 +10,6 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 
 Bullet points of the topic:
 
-* Use case for the objects
-* Techniques
+* What is LOD
+* Issues with LOD
 *

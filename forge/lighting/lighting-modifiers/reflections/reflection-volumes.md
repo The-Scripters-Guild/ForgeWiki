@@ -1,4 +1,4 @@
-# Advanced Folder Structure
+# Reflection Volumes
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -10,7 +10,10 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 
 Bullet points of the topic:
 
-* Advanced and detailed folder structure
-* Reasons for having a detailed structure
-* Disadvantages
+* Object path
+* Placement
+* Usage
+* Properties
 *
+
+Reference the article on [Team Intro Spawns](../../../spawning/initial-spawning/team-intro-spawns.md) for an idea of the structure of an article explaining an object and it's properties.

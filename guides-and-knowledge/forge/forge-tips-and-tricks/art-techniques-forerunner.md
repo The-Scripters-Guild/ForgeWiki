@@ -1,4 +1,4 @@
-# Reflections
+# Art Techniques, Forerunner
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
@@ -8,3 +8,9 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 [submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
 {% endcontent-ref %}
 
+Bullet points of the topic:
+
+* Creating convincing Forerunner art
+* What pieces to use
+* Standard Forerunner angles?
+*
