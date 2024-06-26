@@ -16,6 +16,8 @@ The Terrain section focuses on informing the reader about the different terrain 
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

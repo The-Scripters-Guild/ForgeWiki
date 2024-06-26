@@ -35,6 +35,10 @@ Units in this table are Halo World Units. 1 WU = 10 Units in the Infinite Forge 
 
 Note: N/A indicates that the value is not applicable or not available for that particular Halo game.
 
+
+
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Kwatzy\

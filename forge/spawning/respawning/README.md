@@ -14,6 +14,8 @@ The Respawning section focuses on the different ways of respawning on a level, w
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

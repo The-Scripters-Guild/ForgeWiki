@@ -14,6 +14,8 @@ The Spawning section focuses on the different ways players can spawn on a level,
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

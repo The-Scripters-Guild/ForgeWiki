@@ -265,9 +265,17 @@ A personal GitBook app environment of the TSG Forge Wiki can majorly simplify th
 
 ## Submitting via Discord (optional) <a href="#submitting-via-discord" id="submitting-via-discord"></a>
 
-Just have scraps of info to share, like a weird interaction between two objects or systems, and don't think it's enough to create a post in the [Wiki Discussion](https://discord.com/channels/220766496635224065/1032391999740969011) on the Discord or to do a whole pull request on GitHub? Use the Infodump Form ([https://dyno.gg/form/6ecec55c](https://dyno.gg/form/6ecec55c)) and it will get added to the pile of other scraps of info that are used as reference when writing wiki articles.
+If learning the GitHub Pull Request process isn't your thing, but you want to contribute to the wiki, you can do so by making a post message in the [Wiki Discussion](https://discord.com/channels/220766496635224065/1032391999740969011) forum on the TSG Discord about your article topic. From there, wiki moderators will collect the information and convert them into articles.
 
 {% embed url="https://discord.gg/ZpE3tcpZy9" %}
+
+As this is a very manual process by the wiki moderators, it's important to format your post correctly so there is a higher chance that the volunteer moderators will want to convert them into wiki articles. For more guidelines on Discord message formatting for wiki articles, see: [Discord Message Article Template](folder-template/discord-message-article-template.md).
+
+{% content-ref url="folder-template/discord-message-article-template.md" %}
+[discord-message-article-template.md](folder-template/discord-message-article-template.md)
+{% endcontent-ref %}
+
+Just have scraps of info to share, like a weird interaction between two objects or systems, and don't think it's enough to create a pull request on GitHub or to post in the Wiki Discussion forum on the Discord? In this case, you can use the [Infodump Form](https://dyno.gg/form/6ecec55c) and it will get added to the pile of other scraps of info that are used as reference when writing wiki articles
 
 
 

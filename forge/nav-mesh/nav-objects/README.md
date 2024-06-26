@@ -14,6 +14,8 @@ Nav Objects are objects used to alter the generation of nav mesh in Halo Infinit
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

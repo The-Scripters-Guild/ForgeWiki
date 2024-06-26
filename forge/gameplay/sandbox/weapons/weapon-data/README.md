@@ -14,6 +14,8 @@ Reverse-engineered technical data about Halo Infinite weapons. The information i
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom\

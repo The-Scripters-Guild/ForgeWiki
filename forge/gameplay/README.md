@@ -14,6 +14,8 @@ The Gameplay section focuses on all things related to the gameplay of Halo Infin
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

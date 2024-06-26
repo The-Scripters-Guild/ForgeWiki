@@ -16,6 +16,8 @@ This section will explain what controls and shortcuts are available in Halo Infi
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

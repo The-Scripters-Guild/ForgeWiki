@@ -14,6 +14,8 @@ Reverse-engineered technical data about Halo Infinite vehicles. The information 
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom\

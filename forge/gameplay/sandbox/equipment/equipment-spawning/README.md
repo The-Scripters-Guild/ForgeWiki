@@ -14,8 +14,8 @@ All ways to spawn equipment in Halo Infinite. The first spawner objects in the l
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
-First folder contributor\
-Someone else\
-Another user
+Okom
