@@ -14,6 +14,8 @@ Information about the weapons in Halo Infinite. A list of all weapons, how to sp
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

@@ -17,6 +17,8 @@ The Level Art section focuses on some general guidance on how to start with arti
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

@@ -16,6 +16,8 @@ There are two variants of Firefight in Halo Infinite: Firefight:King of The Hill
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

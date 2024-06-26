@@ -14,6 +14,8 @@ Detailed information about the available options to manipulate the global lighti
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

@@ -56,12 +56,11 @@ Read more on [The Scripter's Guild](community/the-scripters-guild.md) article.
 
 ## How do I contribute?
 
-The TSG Forge Wiki works based off of a public [GitHub repository](https://github.com/The-Scripters-Guild/ForgeWiki) and changes to the Wiki are made via Pull Requests to the repo. If you don't want to go through all the effort of submitting a pull request change to the repo with your Wiki additions, you can also submit bits of information via the [Wiki Discussion](https://discord.com/channels/220766496635224065/1032391999740969011) forum in the TSG Discord server.\
-\
-More information about how to contribute to the TSG Forge Wiki can be found here:
+The TSG Forge Wiki works based off of a public [GitHub repository](https://github.com/The-Scripters-Guild/ForgeWiki) and changes to the Wiki are made via Pull Requests to the repo. More information about how to contribute to the TSG Forge Wiki can be found here:
 
 {% content-ref url="community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
 [submitting-content-to-the-wiki.md](community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
 {% endcontent-ref %}
 
 If you have questions or issues, or if you've submitted a pull request and haven't seen any action on it, reach out to `Captain Punch` (server admin) or a `Guild Officer` via Discord.
+

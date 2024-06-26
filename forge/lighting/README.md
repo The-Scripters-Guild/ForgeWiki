@@ -16,6 +16,8 @@ The Lighting section focuses on the different ways lighting can be modified on a
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

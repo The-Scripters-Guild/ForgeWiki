@@ -16,6 +16,8 @@ Information about the vehicles in Halo Infinite. A list of all vehicles, how to 
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

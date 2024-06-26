@@ -1,10 +1,9 @@
+---
+description: >-
+  A collection of tools created by the Halo community that help with finding
+  bugs or flaws on Forge maps in Halo Infinite that might otherwise go
+  unnoticed.
+---
+
 # Debug Tools
-
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
-
-{% content-ref url="../../contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
 

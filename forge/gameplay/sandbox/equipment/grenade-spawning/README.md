@@ -14,6 +14,8 @@ Information about the equipment in Halo Infinite. A list of all equipment and gr
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom

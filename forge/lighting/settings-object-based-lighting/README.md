@@ -14,6 +14,8 @@ Detailed information about what the various lighting settings do on a light sour
 
 
 
+***
+
 #### <mark style="color:green;">Contributors</mark>
 
 Okom
