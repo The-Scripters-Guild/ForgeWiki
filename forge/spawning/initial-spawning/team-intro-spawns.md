@@ -362,8 +362,8 @@ Make sure that the Team Designator and Squad values are setup correctly for the 
 
 Read more about Labels:
 
-{% content-ref url="../../forge-basics-and-ui/forge-controls-and-menus/object-properties/labels.md" %}
-[labels.md](../../forge-basics-and-ui/forge-controls-and-menus/object-properties/labels.md)
+{% content-ref url="../../forge-basics-and-ui/forge-interface-and-controls/object-properties/labels.md" %}
+[labels.md](../../forge-basics-and-ui/forge-interface-and-controls/object-properties/labels.md)
 {% endcontent-ref %}
 
 

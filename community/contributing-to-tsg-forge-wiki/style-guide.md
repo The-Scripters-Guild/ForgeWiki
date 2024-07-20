@@ -211,7 +211,7 @@ Cards can be used to display information in neat blocks. GitBook card groups are
 
 ### Card group 1
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>A card with a cat image. Here you can write more info about this if needed.</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>This card will link you to the "Welcome" page on click</td><td></td><td><a href="../../">..</a></td></tr><tr><td>This card has a cat image and will take you to the "File Screenshots" page on click!</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td><a href="../../ugc/metadata-and-file-management/file-screenshots.md">file-screenshots.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>A card with a cat image. Here you can write more info about this if needed.</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>This card will link you to the "Welcome" page on click</td><td></td><td><a href="../../">..</a></td></tr><tr><td>This card has a cat image and will take you to the "File Screenshots" page on click!</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td><a href="../../ugc/metadata-and-file-management/working-with-files/file-screenshots.md">file-screenshots.md</a></td></tr></tbody></table>
 
 ### Card group 2
 

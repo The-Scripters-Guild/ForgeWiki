@@ -4,9 +4,9 @@ description: >-
   Infinite.
 ---
 
-# Forge Controls and Menus
+# Forge Interface and Controls
 
-This section will explain what controls and shortcuts are available in Halo Infinite's Forge and what the purpose of each menu element is.
+This section will explain what the purpose of each menu element is and what controls and shortcuts are available in Halo Infinite's Forge.
 
 ## Introduction
 

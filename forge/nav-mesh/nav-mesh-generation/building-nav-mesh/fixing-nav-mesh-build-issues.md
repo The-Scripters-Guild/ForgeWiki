@@ -26,7 +26,7 @@ description: Solutions to common errors that prevent Nav Mesh from building.
 ### "Navigation data generation failed Data size exceeded maximum. Reduce the amount or complexity of related content in the map."
 
 * Reduce the complexity of the generated Nav Mesh data.\
-  To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the eye icon in the [folder structure](../../../forge-basics-and-ui/forge-controls-and-menus/folders/) or cover said objects within the boundary of a Nav Cutter.
+  To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the eye icon in the [folder structure](../../../forge-basics-and-ui/forge-interface-and-controls/folders/) or cover said objects within the boundary of a Nav Cutter.
   * Hiding objects or covering them with Nav Cutters will exclude them from the data that the Nav Mesh generation has to parse through.
 * After disabling excess object geo, make sure that the Nav Mesh data is not generating on the canvas floor and possibly escaping the playable canvas area. These factors can add a lot of complexity to your Nav Mesh data especially on complex canvases like Mires.
   * The most common reason why Nav Mesh might generate on the canvas floor is due to invisible Blackup Spawn Points acting as Nav Mesh generation root points. To mitigate this, block said root points so they do not cause Nav Mesh to generate from them.
