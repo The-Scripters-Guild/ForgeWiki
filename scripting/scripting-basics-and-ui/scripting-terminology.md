@@ -1,14 +1,14 @@
 ---
 description: >-
-  Terms used in scripting and game development that are applicable to Halo
+  Terminology used in scripting and game development that are applicable to Halo
   Infinite
 ---
 
-# Scripting Terms
+# Scripting Terminology
 
 Knowing the vocabulary of common scripting terms will help you understand what other people mean when referencing something related to scripting and will also let you express your scripting topics in a way that others can grasp more easily.
 
-<figure><img src="../.gitbook/assets/cover-tsg-placeholder.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Variables
 

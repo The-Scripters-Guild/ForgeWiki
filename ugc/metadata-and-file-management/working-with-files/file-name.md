@@ -1,4 +1,4 @@
-# Removing a User From the File Credits
+# File Name
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.

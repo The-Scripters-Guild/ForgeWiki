@@ -1,4 +1,4 @@
-# File Collaborators
+# Working with Nodes
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.

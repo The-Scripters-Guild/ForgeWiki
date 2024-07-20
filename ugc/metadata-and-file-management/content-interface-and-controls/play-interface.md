@@ -1,4 +1,4 @@
-# Copy Protection and Saving a Copy
+# Play Interface
 
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
