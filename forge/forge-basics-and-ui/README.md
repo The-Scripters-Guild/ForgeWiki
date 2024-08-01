@@ -24,9 +24,13 @@ Halo Infinite is missing a surface-level editor such as the Forge from Halo 3 or
 Halo Infinite's Forge tool has a lot of features, which has turned away some beginner Forgers. This effect is amplified by information about Halo Infinite's Forge not being readily available nor shared by 343 Industries, leading to information sharing being in the hands of the Forge community.
 {% endhint %}
 
+### Always Online
+
+Anything that you do in Forge and want to be saved will be saved to 343's servers. Forge can be loaded in [Offline Mode](../../guides-and-knowledge/forge-know-how/forge-tips-and-tricks/forge-offline.md) or [via Custom Game](../../guides-and-knowledge/forge-know-how/forge-exploits/forge-via-custom-game-ucn.md), but saving of the map file is prevented in these modes. To learn more about managing your saved files, see [Metadata and File Management](../../ugc/metadata-and-file-management/).
+
 ## TSG Forge Wiki
 
-The TSG Forge Wiki aims to help new and experienced forgers fill in the gaps of knowledge of the tool that using Halo Infinite's Forge is bound to cause. 343 Industries has not provided any official documentation of Halo Infinite's Forge tool nor it's features ever since the launch of Forge in November, 2022, so this community-based Wiki aims to fill that gap.
+The TSG Forge Wiki aims to help new and experienced forgers fill in the gaps of knowledge of the tool that using Halo Infinite's Forge is bound to cause. 343 Industries has not provided any official documentation of Halo Infinite's Forge tool nor it's features ever since the launch of Forge in November, 2022, so this community-based Wiki aims to provide that.
 
 
 

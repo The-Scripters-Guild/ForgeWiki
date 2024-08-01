@@ -1,6 +1,6 @@
 ---
 description: >-
-  Team Intro Spawns are the main way for players to spawn initially in
+  Team Intro Spawns are the main way for players to initially spawn in
   team-based modes.
 ---
 
