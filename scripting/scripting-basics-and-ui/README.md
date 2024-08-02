@@ -22,12 +22,12 @@ Option 1:
 
 Option 2:
 
-1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface-and-controls/object-browser.md) from `Gameplay` -> `Scripting` -> Script Brain
+1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface/object-browser.md) from `Gameplay` -> `Scripting` -> Script Brain
 2. With the Script Brain selected, Hold `Q` to open the Tools Menu and select the top option: "Node Graph"
 {% endtab %}
 
 {% tab title="Controller" %}
-1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface-and-controls/object-browser.md) from `Gameplay` -> `Scripting` -> Script Brain
+1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface/object-browser.md) from `Gameplay` -> `Scripting` -> Script Brain
 2. With the Script Brain selected, Hold <mark style="color:yellow;">`Y`</mark> to open the Tools Menu and select the top option: "Node Graph"
 {% endtab %}
 {% endtabs %}
@@ -58,7 +58,7 @@ To test scripting in Forge, the user must enter Play Mode, which spawns the play
 
 ## Learn more about
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Node Graph Interface and Controls</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-interface-and-controls/">node-graph-interface-and-controls</a></td></tr><tr><td>Working with Nodes</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="working-with-nodes.md">working-with-nodes.md</a></td></tr><tr><td>Script Brains and Mode Brains</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="script-brains-and-mode-brains.md">script-brains-and-mode-brains.md</a></td></tr><tr><td>Node Graph Properties</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-properties.md">node-graph-properties.md</a></td></tr><tr><td>Scripting Terminology</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="scripting-terminology.md">scripting-terminology.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Node Graph Interfaces</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-interface/">node-graph-interface</a></td></tr><tr><td>Controls and Shortcuts</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="controls-and-shortcuts.md">controls-and-shortcuts.md</a></td></tr><tr><td>Working with Nodes</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="working-with-nodes.md">working-with-nodes.md</a></td></tr><tr><td>Script Brains and Mode Brains</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="script-brains-and-mode-brains.md">script-brains-and-mode-brains.md</a></td></tr><tr><td>Node Graph Properties</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-properties.md">node-graph-properties.md</a></td></tr><tr><td>Scripting Terminology</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="scripting-terminology.md">scripting-terminology.md</a></td></tr></tbody></table>
 
 
 

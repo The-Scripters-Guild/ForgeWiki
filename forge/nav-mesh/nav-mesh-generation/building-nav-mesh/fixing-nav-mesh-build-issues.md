@@ -26,12 +26,12 @@ description: Solutions to common errors that prevent Nav Mesh from building.
 ### "Navigation data generation failed Data size exceeded maximum. Reduce the amount or complexity of related content in the map."
 
 * Reduce the complexity of the generated Nav Mesh data.\
-  To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the eye icon in the [folder structure](../../../forge-basics-and-ui/forge-interface-and-controls/folders/) or cover said objects within the boundary of a Nav Cutter.
+  To reduce complexity, either hide objects that are contributing to the Nav Mesh data via the eye icon in the [folder structure](../../../forge-basics-and-ui/forge-interface/folders/) or cover said objects within the boundary of a Nav Cutter.
   * Hiding objects or covering them with Nav Cutters will exclude them from the data that the Nav Mesh generation has to parse through.
 * After disabling excess object geo, make sure that the Nav Mesh data is not generating on the canvas floor and possibly escaping the playable canvas area. These factors can add a lot of complexity to your Nav Mesh data especially on complex canvases like Mires.
   * The most common reason why Nav Mesh might generate on the canvas floor is due to invisible Blackup Spawn Points acting as Nav Mesh generation root points. To mitigate this, block said root points so they do not cause Nav Mesh to generate from them.
 * This error means that you are hitting a hard-coded limit of Nav Mesh data size, instead of a server timeout limit. Reducing the complexity of the generated Nav Mesh data should work here.
-  * This can be confirmed by trying to build Nav Mesh on the same map version in [Forge via Custom Game](../../../../guides-and-knowledge/forge-know-how/forge-exploits/forge-via-custom-game.md), which will result in the same error, instead of no error, as this is not a session timeout issue.
+  * This can be confirmed by trying to build Nav Mesh on the same map version in [Forge via Custom Game](../../../../guides-and-knowledge/forge-know-how/forge-exploits/forge-via-custom-game-ucn.md), which will result in the same error, instead of no error, as this is not a session timeout issue.
 
 <figure><img src="../../../../.gitbook/assets/nav-data-failed2.webp" alt="Image of the second Nav Mesh generation error"><figcaption><p>The error message for "Navigation data generation failed, Data size exceeded maximum. Reduce the amount or complexity of related content in the map."</p></figcaption></figure>
 

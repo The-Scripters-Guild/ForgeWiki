@@ -1,6 +1,6 @@
 ---
 description: >-
-  Team Intro Spawns are the main way for players to spawn initially in
+  Team Intro Spawns are the main way for players to initially spawn in
   team-based modes.
 ---
 
@@ -362,8 +362,8 @@ Make sure that the Team Designator and Squad values are setup correctly for the 
 
 Read more about Labels:
 
-{% content-ref url="../../forge-basics-and-ui/forge-interface-and-controls/object-properties/labels.md" %}
-[labels.md](../../forge-basics-and-ui/forge-interface-and-controls/object-properties/labels.md)
+{% content-ref url="../../forge-basics-and-ui/forge-interface/object-properties/labels.md" %}
+[labels.md](../../forge-basics-and-ui/forge-interface/object-properties/labels.md)
 {% endcontent-ref %}
 
 
