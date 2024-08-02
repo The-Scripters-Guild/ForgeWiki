@@ -123,7 +123,7 @@ Visibility of the Controls Helper can be toggled from [Tool Settings](tool-setti
 
 ***
 
-Pressing <img src="../../../.gitbook/assets/keyboard-r.png" alt="Small cat on the left" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Small cat on the left" data-size="line"> (controller) opens up the **Forge Menu**, which houses more options:
+Pressing <img src="../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> (controller) opens up the **Forge Menu**, which houses more options:
 
 <figure><img src="../../../.gitbook/assets/forge-interface-controls-forge-menu.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -187,13 +187,13 @@ The [Object Positional Data](./#object-positional-data) menu changes slightly wh
 
 The transform gizmos can be cycled between with the following shortcuts:
 
-* Movement: <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-w.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Small cat on the left" data-size="line"> (controller)
-* Rotation: <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-e.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-rt.png" alt="Small cat on the left" data-size="line"> (controller)
-* Size: <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-r.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/controller-rt.png" alt="Small cat on the left" data-size="line"> (controller)
-* Cycle between all: <img src="../../../.gitbook/assets/keyboard-tab.png" alt="Small cat on the left" data-size="line"> (keyboard)
+* Movement: <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-w.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line"> (controller)
+* Rotation: <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line"> (controller)
+* Size: <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line"> (controller)
+* Cycle between all: <img src="../../../.gitbook/assets/keyboard-tab.png" alt="Key icon" data-size="line"> (keyboard)
 
 {% hint style="info" %}
-Another way to isolate the Object Positional Data without selecting an object is to hover your cursor over the object and press <img src="../../../.gitbook/assets/keyboard-tab.png" alt="Small cat on the left" data-size="line"> (keyboard) to cycle between the gizmos. This has no real use and is most likely a bug. A potential purpose of this is to act as a hacky way to simulate hovering over objects and previewing their properties as the movement gizmo is not rendered and is the default gizmo here.
+Another way to isolate the Object Positional Data without selecting an object is to hover your cursor over the object and press <img src="../../../.gitbook/assets/keyboard-tab.png" alt="Key icon" data-size="line"> (keyboard) to cycle between the gizmos. This has no real use and is most likely a bug. A potential purpose of this is to act as a hacky way to simulate hovering over objects and previewing their properties as the movement gizmo is not rendered and is the default gizmo here.
 {% endhint %}
 
 If the same gizmo shortcut is entered while that gizmo is already selected, the gizmo will disappear and the Object Positional Data menu will return to showing all values highlighted while still having an object selected.
@@ -220,7 +220,7 @@ If the same gizmo shortcut is entered while that gizmo is already selected, the 
 
 ### Transform Snap and Coordinate Space
 
-The **Transform Snap and Coordinate Space** menu is located in the top right of the screen, and displays the snap values and coordinate space of the currently selected transform gizmo. The snap values can be adjusted with <img src="../../../.gitbook/assets/keyboard-plus.png" alt="Small cat on the left" data-size="line">/<img src="../../../.gitbook/assets/keyboard-numpad-plus.png" alt="Small cat on the left" data-size="line"> and <img src="../../../.gitbook/assets/keyboard-minus.png" alt="Small cat on the left" data-size="line">/<img src="../../../.gitbook/assets/keyboard-numpad-minus.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Small cat on the left" data-size="line">/<img src="../../../.gitbook/assets/controller-rt.png" alt="Small cat on the left" data-size="line">/<img src="../../../.gitbook/assets/controller-lt.png" alt="Small cat on the left" data-size="line"> & <img src="../../../.gitbook/assets/controller-rt.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/controller-dpad-horizontal.png" alt="Small cat on the left" data-size="line"> (controller), and the space/type can be cycled with <img src="../../../.gitbook/assets/keyboard-5.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Small cat on the left" data-size="line">/<img src="../../../.gitbook/assets/controller-rt.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/controller-dpad-vertical.png" alt="Small cat on the left" data-size="line"> (controller).
+The **Transform Snap and Coordinate Space** menu is located in the top right of the screen, and displays the snap values and coordinate space of the currently selected transform gizmo. The snap values can be adjusted with <img src="../../../.gitbook/assets/keyboard-plus.png" alt="Key icon" data-size="line">/<img src="../../../.gitbook/assets/keyboard-numpad-plus.png" alt="Key icon" data-size="line"> and <img src="../../../.gitbook/assets/keyboard-minus.png" alt="Key icon" data-size="line">/<img src="../../../.gitbook/assets/keyboard-numpad-minus.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line">/<img src="../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line">/<img src="../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line"> & <img src="../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/controller-dpad-horizontal.png" alt="Key icon" data-size="line"> (controller), and the space/type can be cycled with <img src="../../../.gitbook/assets/keyboard-5.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line">/<img src="../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/controller-dpad-vertical.png" alt="Key icon" data-size="line"> (controller).
 
 The available snap values are as follows:
 
@@ -243,7 +243,7 @@ For more information about spaces, see [Coordinate Spaces](#user-content-fn-6)[^
 
 ## Actions Menu
 
-Holding <img src="../../../.gitbook/assets/keyboard-e.png" alt="Small cat on the left" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Small cat on the left" data-size="line"> (controller) at any time while in Monitor Mode will open the radial **Actions Menu**:
+Holding <img src="../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> (controller) at any time while in Monitor Mode will open the radial **Actions Menu**:
 
 <figure><img src="../../../.gitbook/assets/forge-interface-actions-menu.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -449,7 +449,7 @@ The **Object Browser** tab is located on the top left of the radial Actions Menu
 
 ## Tools Menu
 
-Holding <img src="../../../.gitbook/assets/keyboard-q.png" alt="Small cat on the left" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-y.png" alt="Small cat on the left" data-size="line"> (controller) at any time while in Monitor Mode will open the radial Tools Menu:
+Holding <img src="../../../.gitbook/assets/keyboard-q.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-y.png" alt="Key icon" data-size="line"> (controller) at any time while in Monitor Mode will open the radial Tools Menu:
 
 <figure><img src="../../../.gitbook/assets/forge-interface-tools-menu.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -457,7 +457,7 @@ Holding <img src="../../../.gitbook/assets/keyboard-q.png" alt="Small cat on the
 
 ### Node Graph
 
-The **Node Graph** tab is located on the top of the radial Tools Menu and is used to open the Node Graph to create scripts. The Node Graph Interface can also be opened with <img src="../../../.gitbook/assets/keyboard-n.png" alt="Small cat on the left" data-size="line"> (keyboard).
+The **Node Graph** tab is located on the top of the radial Tools Menu and is used to open the Node Graph to create scripts. The Node Graph Interface can also be opened with <img src="../../../.gitbook/assets/keyboard-n.png" alt="Key icon" data-size="line"> (keyboard).
 
 Learn more about [Node Graph Interface and Controls](../../../scripting/scripting-basics-and-ui/node-graph-interface/).
 
@@ -502,7 +502,7 @@ Due to all the warning symbols appearing right after even a single object's posi
 
 ### Quicksave
 
-The **Quicksave** tab is located on the bottom of the radial Tools Menu and is used to save the current map version with no custom version note added. After activation, a message will show in the killfeed indicating that the map version has been saved successfully. A quicksave can also be done with <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Small cat on the left" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-s.png" alt="Small cat on the left" data-size="line"> (keyboard).
+The **Quicksave** tab is located on the bottom of the radial Tools Menu and is used to save the current map version with no custom version note added. After activation, a message will show in the killfeed indicating that the map version has been saved successfully. A quicksave can also be done with <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-s.png" alt="Key icon" data-size="line"> (keyboard).
 
 <figure><img src="../../../.gitbook/assets/forge-interface-quicksave.jpg" alt=""><figcaption><p>Message "{Gamertag} Map saved successfully." displaying in the killfeed after a quicksave</p></figcaption></figure>
 
@@ -514,7 +514,7 @@ Learn more about: [Saving Assets](../saving-assets.md).
 
 ## Play Mode
 
-If Play Mode is entered with <img src="../../../.gitbook/assets/keyboard-f6.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-view.png" alt="Small cat on the left" data-size="line"> (controller), the Forge interface changes to show information relevant to gameplay:
+If Play Mode is entered with <img src="../../../.gitbook/assets/keyboard-f6.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-view.png" alt="Key icon" data-size="line"> (controller), the Forge interface changes to show information relevant to gameplay:
 
 <figure><img src="../../../.gitbook/assets/forge-interface-controls-play-mode.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -606,7 +606,7 @@ Visibility of the Play Mode Global Log can be toggled from [Tool Settings](tool-
 
 ### Controls Helper
 
-The **Controls Helper** is located in the top right of the screen, and displays controls and shortcuts for various actions. In Play Mode, it only displays the control to return to Monitor Mode, <img src="../../../.gitbook/assets/keyboard-f6.png" alt="Small cat on the left" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-view.png" alt="Small cat on the left" data-size="line"> (controller).
+The **Controls Helper** is located in the top right of the screen, and displays controls and shortcuts for various actions. In Play Mode, it only displays the control to return to Monitor Mode, <img src="../../../.gitbook/assets/keyboard-f6.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-view.png" alt="Key icon" data-size="line"> (controller).
 
 
 
