@@ -82,8 +82,8 @@ You may notice a message in the bottom left killfeed stating "Navigation data do
 
 ## Next Steps
 
-{% content-ref url="../forge-interface-and-controls/" %}
-[forge-interface-and-controls](../forge-interface-and-controls/)
+{% content-ref url="../forge-interface/" %}
+[forge-interface](../forge-interface/)
 {% endcontent-ref %}
 
 {% content-ref url="../coordinate-system-and-spaces.md" %}
@@ -98,8 +98,8 @@ You may notice a message in the bottom left killfeed stating "Navigation data do
 [editor-modes.md](../editor-modes.md)
 {% endcontent-ref %}
 
-{% content-ref url="../saving.md" %}
-[saving.md](../saving.md)
+{% content-ref url="../saving-assets.md" %}
+[saving-assets.md](../saving-assets.md)
 {% endcontent-ref %}
 
 
