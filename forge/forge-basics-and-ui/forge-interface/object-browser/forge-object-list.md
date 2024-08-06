@@ -270,7 +270,7 @@ Barrel Closed Worn
 
 Barrel Open
 
-UNSC Barrel&#x20;
+UNSC Barrel
 
 Water Barrel
 
@@ -285,8 +285,6 @@ Barrel Closed Striped MP
 Barrel Closed Worn MP
 
 UNSC Barrel MP
-
-
 
 
 
@@ -305,6 +303,8 @@ Tire w/Tread
 Tire w/Wheel
 
 Wheel
+
+
 
 ### Bazaar MP
 
@@ -632,11 +632,11 @@ UNSC Deployable Cover Small
 
 Concrete Barrier Long MP
 
-Concrete Barrier Short MP&#x20;
+Concrete Barrier Short MP
 
 Gabion Rock Filled Tall MP
 
-Gabion Sand Filled Large MP&#x20;
+Gabion Sand Filled Large MP
 
 Gabion Sand Filled MP
 
@@ -712,7 +712,7 @@ Ammo Case Open MP
 
 Ammo Case Pioneer MP
 
-Ammo Case SpecOps MP&#x20;
+Ammo Case SpecOps MP
 
 Crate Pallet Tan MP
 
@@ -944,7 +944,7 @@ Clay Pot B MP
 
 Clay Pot C MP
 
-Clay Pot C w/ Palm Tree A MP&#x20;
+Clay Pot C w/ Palm Tree A MP
 
 Clay Pot C w/ Palm Tree B MP
 
@@ -1112,8 +1112,6 @@ Vent X Joint
 
 
 
-
-
 ### Fences
 
 Chain link Fence
@@ -1127,6 +1125,8 @@ Chain link Fence Gate
 Chain link Fence Gateway
 
 Fence Single
+
+
 
 ### Fences MP
 
@@ -1208,7 +1208,7 @@ Blightlands Growth Flat D MP
 
 Blightlands Growth Flat E MP
 
-Blightlands Growth Flat F MP&#x20;
+Blightlands Growth Flat F MP
 
 Blightlands Growth Flat G MP
 
@@ -1354,7 +1354,7 @@ Forerunner Behemoth Hatch w/Material Swap
 
 Forerunner Catwalk Beam
 
-Forerunner Catwalk Left A&#x20;
+Forerunner Catwalk Left A
 
 Forerunner Catwalk Left B
 
@@ -1372,7 +1372,7 @@ Forerunner Catwalk Right B
 
 Forerunner Catwalk Rate C
 
-Forerunner Catwalk Right D&#x20;
+Forerunner Catwalk Right D
 
 Forerunner Catwalk Right E
 
@@ -1396,7 +1396,7 @@ Forerunner Cover Half Right B
 
 Forerunner Dead Door Small
 
-Forerunner Decorative Pylon&#x20;
+Forerunner Decorative Pylon
 
 Forerunner Door Small Animated
 
@@ -1858,7 +1858,7 @@ UNSC Railing Covered Angled C
 
 UNSC Railing Covered Corner A
 
-UNSC Railing Covered Slanted A&#x20;
+UNSC Railing Covered Slanted A
 
 UNSC Railing Covered Slanted B
 
@@ -1870,7 +1870,7 @@ UNSC Railing Slanted Inner C
 
 UNSC Railing Slanted Outer A
 
-UNSC Railing Slanted Outer B&#x20;
+UNSC Railing Slanted Outer B
 
 UNSC Railing Slanted Outer C
 
@@ -2034,7 +2034,7 @@ Exit Sign
 
 Fronk’s
 
-Hospital Sign&#x20;
+Hospital Sign
 
 Hotel Sign
 
@@ -2066,7 +2066,7 @@ Scaffolding B
 
 Scaffolding C
 
-Single Sided Bracket&#x20;
+Single Sided Bracket
 
 Skeletonized Bracket
 
@@ -2186,7 +2186,7 @@ Floor Podium
 
 Floor Storage
 
-Floor Tower&#x20;
+Floor Tower
 
 Folding Chair
 
@@ -2200,7 +2200,7 @@ Generator Standalone
 
 Gun Mount Flap A
 
-Gun Mount Flap B&#x20;
+Gun Mount Flap B
 
 Gun Mount Girder
 
@@ -2222,7 +2222,7 @@ Metal Beam
 
 Metal Shutter
 
-Mounted Speaker&#x20;
+Mounted Speaker
 
 Overhead Track
 
@@ -2262,7 +2262,7 @@ Trim Beam Corner
 
 Truss/Girder
 
-UNSC Bot Separation Pen&#x20;
+UNSC Bot Separation Pen
 
 UNSC Catwalk Long
 
@@ -2288,7 +2288,7 @@ UNSC Roof Panel Shield
 
 UNSC Wall Tech Extra Large A
 
-UNSC Wall Tech Extra Large B&#x20;
+UNSC Wall Tech Extra Large B
 
 UNSC Wall Tech Extra Large C
 
@@ -2298,7 +2298,7 @@ UNSC Wall Tech Large A
 
 UNSC Wall Tech Large B
 
-UNSC Wall Tech Med A&#x20;
+UNSC Wall Tech Med A
 
 UNSC Wall Tech Med B
 
@@ -4990,6 +4990,8 @@ Stones
 
 Streak
 
+
+
 ### Flood
 
 Blightlands Growth A
@@ -6760,11 +6762,11 @@ Kinetic Launcher UNSC
 
 Map Intro Camera
 
-[Team Intro Arrow Front](../../../spawning/initial-spawning/team-intro-spawns.md)
+Team Intro Arrow Front
 
-[Team Intro Line Left](../../../spawning/initial-spawning/team-intro-spawns.md)
+Team Intro Line Left
 
-[Team Intro Line Right](../../../spawning/initial-spawning/team-intro-spawns.md)
+Team Intro Line Right
 
 Winning Team Outro
 
@@ -8628,7 +8630,7 @@ Forerunner Ramp
 
 Forerunner Stairs Connector
 
-Forerunner Stairs&#x20;
+Forerunner Stairs
 
 Forerunner Stairs M
 
