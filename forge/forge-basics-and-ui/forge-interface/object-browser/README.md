@@ -168,6 +168,10 @@ A showcase of the hidden objects of Season 5 can be seen in this YouTube video:
 * Search for the byte `50C3140` in the Halo Infinite executable with Cheat Engine and flip it's value to `0`
 * Apply the changes and the hidden categories should be available
 
+The hidden categories are named "Hidden", "Kits" and "Templates":
+
+<figure><img src="../../../../.gitbook/assets/object-browser-hidden-categories.jpg" alt=""><figcaption><p>Hidden categories in the Object Browser</p></figcaption></figure>
+
 ### Notable Hidden Objects&#x20;
 
 #### Argyle Lift
@@ -206,7 +210,7 @@ Leaks B is a colorable decal that looks like a liquid leak. In addition to being
 
 <figure><img src="../../../../.gitbook/assets/object-browser-hidden-object-leaks-b.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-When Forgers found Leaks B with the release of Season 5 on 17th Oct, 2024 within the hidden objects, it was the first object of it's kind and Forgers quickly started integrating the object into their maps. Forgers were disappointed when the Leaks B object was removed from the game on 5th Dec, 2023, which left a lot of maps that had utilized the object, looking empty. 343 was made abundantly clear about the want for the return of Leaks B by the Forgers via varous channels of communication.
+When Forgers found Leaks B with the release of Season 5 on 17th Oct, 2023 within the hidden objects, it was the first object of it's kind and Forgers quickly started integrating the object into their maps. Forgers were disappointed when the Leaks B object was removed from the game on 5th Dec, 2023, which left a lot of maps that had utilized the object, looking empty. 343 was made abundantly clear about the want for the return of Leaks B by the Forgers via varous channels of communication.
 
 <div>
 
