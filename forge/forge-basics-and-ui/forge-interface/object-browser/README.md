@@ -151,7 +151,7 @@ Full object list of all spawnable objects in Halo Infinite Forge:
 
 ## Hidden Categories
 
-There are hidden categories in the Object Browser which hold assets that have not been validated for Forge yet, but may have been used by 343 on their internal builds while making Forge maps. It also holds depreciated objects that have been replaced by a new variant. Most of these are objects that have had their origin point changed.
+There are hidden categories in the Object Browser which hold assets that have not been validated for Forge yet, but may have been used by 343 on their internal builds while making Forge maps. It also holds depreciated objects, that have been replaced by a new variant. Most of these are objects that have had their origin point changed.
 
 A showcase of the hidden objects of Season 5 can be seen in this YouTube video:
 
