@@ -22,12 +22,12 @@ Option 1:
 
 Option 2:
 
-1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface/object-browser.md) from `Gameplay` -> `Scripting` -> Script Brain
+1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface/object-browser/) from `Gameplay` -> `Scripting` -> Script Brain
 2. With the Script Brain selected, Hold `Q` to open the Tools Menu and select the top option: "Node Graph"
 {% endtab %}
 
 {% tab title="Controller" %}
-1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface/object-browser.md) from `Gameplay` -> `Scripting` -> Script Brain
+1. Spawn the Script Brain from the [Object Browser](../../forge/forge-basics-and-ui/forge-interface/object-browser/) from `Gameplay` -> `Scripting` -> Script Brain
 2. With the Script Brain selected, Hold <mark style="color:yellow;">`Y`</mark> to open the Tools Menu and select the top option: "Node Graph"
 {% endtab %}
 {% endtabs %}

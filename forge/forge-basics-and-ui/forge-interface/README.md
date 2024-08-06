@@ -21,7 +21,7 @@ Halo Infinite's Forge interface has some quality-of-life limitations as it has a
 
 When you open a map in Forge, you will see the following interface:
 
-<figure><img src="../../../.gitbook/assets/forge-interface-controls-main.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/forge-interface-main.jpg" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="./#level-viewport">Level Viewport</a></td><td>Displays the contents of your Level, with the other menus overlaid on top.</td></tr><tr><td>2</td><td><a href="./#budget-meter">Budget Meter</a></td><td>Displays the Game Simulation Memory usage of the map.</td></tr><tr><td>3</td><td><a href="./#object-positional-data">Object Positional Data</a></td><td>Displays the position, rotation and size of the last selected object.</td></tr><tr><td>4</td><td><a href="./#controls-helper">Controls Helper</a></td><td>Displays controls and shortcuts for various actions.</td></tr></tbody></table>
 
@@ -121,37 +121,13 @@ Visibility of the Controls Helper can be toggled from [Tool Settings](tool-setti
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Controls and Shortcuts</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="../controls-and-shortcuts.md">controls-and-shortcuts.md</a></td></tr></tbody></table>
 
-***
-
-Pressing <img src="../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> (controller) opens up the **Forge Menu**, which houses more options:
-
-<figure><img src="../../../.gitbook/assets/forge-interface-controls-forge-menu.jpg" alt=""><figcaption></figcaption></figure>
-
-<table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>5</td><td><a href="./#forge-menu">Forge Menu</a></td><td>Displays various properties related to Forge objects and map settings</td></tr></tbody></table>
-
-### Forge Menu
-
-The **Forge Menu** is located on the top left corner of the screen and it displays various properties related to Forge objects and map settings. The menu is divided into five unique tabs housing the most important information a Forger needs.
-
-| Name                                      | Description                                                                                   |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Object Browser](object-browser.md)       | A list of available objects to spawn in Forge.                                                |
-| [Object Properties](./#object-properties) | Properties for the selected object(s).                                                        |
-| [Folders](folders/)                       | A hierarchical tree view of all objects placed on the map.                                    |
-| [Map Options](map-options.md)             | Options for changing map lighting, wind and sound, and inspecting budget usage.               |
-| [Tool Settings](tool-settings/)           | Options for changing the Forge tool properties, and toggling various debug options and menus. |
-
-**Learn more about:**
-
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Browser</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="object-browser.md">object-browser.md</a></td></tr><tr><td>Object Properties</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="object-properties/">object-properties</a></td></tr><tr><td>Folders</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="folders/">folders</a></td></tr><tr><td>Map Options</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="map-options.md">map-options.md</a></td></tr><tr><td>Tool Settings</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="tool-settings/">tool-settings</a></td></tr></tbody></table>
-
 
 
 ## Selected Object Interface
 
 If an object is selected, the Forge interface changes slightly, revealing more information:
 
-<figure><img src="../../../.gitbook/assets/forge-interface-controls-selected-object.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/forge-interface-selected-object.jpg" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="./#selected-object-count">Selected Object Count</a></td><td>Displays the amount of objects currently selected. A maximum of 150 can be selected at the same time.</td></tr><tr><td>2</td><td><a href="./#object-information">Object Information</a></td><td>Displays the Object Mode, Physics and Name of the last selected object.</td></tr><tr><td>3</td><td><a href="./#isolated-object-positional-data">Isolated Object Positional Data</a></td><td>Highlights the positional data of the currently selected transform gizmo.</td></tr><tr><td>4</td><td><a href="./#transform-snap-and-coordinate-space">Transform Snap and Coordinate Space</a></td><td>Displays the snap values and coordinate space of the currently selected transform gizmo.</td></tr></tbody></table>
 
@@ -241,13 +217,95 @@ The available space/type values are as follows:
 
 For more information about spaces, see [Coordinate Spaces](#user-content-fn-6)[^6].
 
+
+
+## Forge Menu
+
+Pressing <img src="../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> (controller) opens up the **Forge Menu**, which houses more options:
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu.jpg" alt=""><figcaption></figcaption></figure>
+
+The **Forge Menu** is located on the top left corner of the screen and it displays various properties related to Forge objects and map settings. The menu is divided into five unique tabs housing the most important information a Forger needs.
+
+The tabs on the Forge Menu can be changed with <img src="../../../.gitbook/assets/keyboard-q.png" alt="Key icon" data-size="line"> & <img src="../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-lb.png" alt="Key icon" data-size="line"> & <img src="../../../.gitbook/assets/controller-rb.png" alt="Key icon" data-size="line"> (controller).
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu-main.jpg" alt=""><figcaption><p>The Forge Menu interface houses essential Forging tools</p></figcaption></figure>
+
+<table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="object-browser/">Object Browser</a></td><td>A list of objects to spawn in Forge.</td></tr><tr><td>2</td><td><a href="./#object-properties">Object Properties</a></td><td>Properties for the selected object(s).</td></tr><tr><td>3</td><td><a href="folders/">Folders</a></td><td>A hierarchical tree view of all objects placed on the map.</td></tr><tr><td>4</td><td><a href="map-options.md">Map Options</a></td><td>Options for changing map lighting, wind and sound, and inspecting budget usage.</td></tr><tr><td>5</td><td><a href="tool-settings/">Tool Settings</a></td><td>Options for changing the Forge tool properties, and toggling various debug options and menus.</td></tr></tbody></table>
+
+### Object Browser
+
+The **Object Browser** tab is the first tab at the top of the Forge Menu and it displays a list of objects to spawn in Forge.
+
+The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-1.png" alt="Key icon" data-size="line"> (keyboard).
+
+<div align="center">
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu-object-browser.jpg" alt=""><figcaption><p>The Object Browser tab in the Forge Menu</p></figcaption></figure>
+
+</div>
+
+**Learn more about:**
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Browser</td><td><a href="../../../.gitbook/assets/cover-object-browser.jpg">cover-object-browser.jpg</a></td><td><a href="object-browser/">object-browser</a></td></tr></tbody></table>
+
+### Object Properties
+
+The **Object Properties** tab is the second tab at the top of the Forge Menu and it displays properties for the selected object(s).
+
+The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-2.png" alt="Key icon" data-size="line"> (keyboard).
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu-object-properties.jpg" alt=""><figcaption><p>The Object Properties tab in the Forge Menu</p></figcaption></figure>
+
+**Learn more about:**
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Properties</td><td><a href="../../../.gitbook/assets/cover-object-properties.jpg">cover-object-properties.jpg</a></td><td><a href="object-properties/">object-properties</a></td></tr></tbody></table>
+
+### Folders
+
+The **Folders** tab is the third tab at the top of the Forge Menu and it displays a hierarchical tree view of all objects placed on the map.
+
+The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-3.png" alt="Key icon" data-size="line"> (keyboard).
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu-folders.jpg" alt=""><figcaption><p>The Folders tab in the Forge Menu</p></figcaption></figure>
+
+**Learn more about:**
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Folders</td><td><a href="../../../.gitbook/assets/cover-folders.jpg">cover-folders.jpg</a></td><td><a href="folders/">folders</a></td></tr></tbody></table>
+
+### Map Options
+
+The **Map Options** tab is the fourth tab at the top of the Forge Menu and it displays options for changing map lighting, wind and sound, and inspecting budget usage.
+
+The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-4.png" alt="Key icon" data-size="line"> (keyboard).
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu-map-options.jpg" alt=""><figcaption><p>The Map Options tab in the Forge Menu</p></figcaption></figure>
+
+**Learn more about:**
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Map Options</td><td><a href="../../../.gitbook/assets/cover-map-options.jpg">cover-map-options.jpg</a></td><td><a href="map-options.md">map-options.md</a></td></tr></tbody></table>
+
+### Tool Settings
+
+The **Tool Settings** tab is the fifth tab at the top of the Forge Menu and it displays options for changing the Forge tool properties, and toggling various debug options and menus.
+
+The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../.gitbook/assets/keyboard-5.png" alt="Key icon" data-size="line"> (keyboard).
+
+<figure><img src="../../../.gitbook/assets/forge-interface-forge-menu-tool-settings.jpg" alt=""><figcaption><p>The Tool Settings tab in the Forge Menu</p></figcaption></figure>
+
+**Learn more about:**
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Tool Settings</td><td><a href="../../../.gitbook/assets/cover-tool-settings.jpg">cover-tool-settings.jpg</a></td><td><a href="tool-settings/">tool-settings</a></td></tr></tbody></table>
+
+
+
 ## Actions Menu
 
 Holding <img src="../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> (controller) at any time while in Monitor Mode will open the radial **Actions Menu**:
 
 <figure><img src="../../../.gitbook/assets/forge-interface-actions-menu.jpg" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="./#create-prefab-create-mode-prefab">Create Prefab / Create Mode Prefab</a></td><td>Create a savable group of a minimum two objects.</td></tr><tr><td>2</td><td><a href="./#object-properties">Object Properties</a></td><td>Modify the properties of the selected object(s).</td></tr><tr><td>3</td><td><a href="./#add-to-prefab">Add To Prefab</a></td><td>Combine the selected objects into an existing selected prefab.</td></tr><tr><td>4</td><td><a href="./#weld">Weld</a></td><td>Group together Dynamic objects. The origin object has to have Normal physics.</td></tr><tr><td>5</td><td><a href="./#save-prefab">Save Prefab</a></td><td>Save a selected Prefab to My Files.</td></tr><tr><td>6</td><td><a href="./#unweld">Unweld</a></td><td>Break the weld from a group of welded Dynamic objects, making the object group into a prefab.</td></tr><tr><td>7</td><td><a href="./#ungroup">Ungroup</a></td><td>Disconnect a group of prefabbed objects or a group of welded Dynamic objects.</td></tr><tr><td>8</td><td><a href="./#object-browser">Object Browser</a></td><td>Open the Object Browser menu to see a list of available objects to spawn in Forge.</td></tr></tbody></table>
+<table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="./#create-prefab-create-mode-prefab">Create Prefab / Create Mode Prefab</a></td><td>Create a savable group of a minimum two objects.</td></tr><tr><td>2</td><td><a href="./#object-properties">Object Properties</a></td><td>Modify the properties of the selected object(s).</td></tr><tr><td>3</td><td><a href="./#add-to-prefab">Add To Prefab</a></td><td>Combine the selected objects into an existing selected prefab.</td></tr><tr><td>4</td><td><a href="./#weld">Weld</a></td><td>Group together Dynamic objects. The origin object has to have Normal physics.</td></tr><tr><td>5</td><td><a href="./#save-prefab">Save Prefab</a></td><td>Save a selected Prefab to My Files.</td></tr><tr><td>6</td><td><a href="./#unweld">Unweld</a></td><td>Break the weld from a group of welded Dynamic objects, making the object group into a prefab.</td></tr><tr><td>7</td><td><a href="./#ungroup">Ungroup</a></td><td>Disconnect a group of prefabbed objects or a group of welded Dynamic objects.</td></tr><tr><td>8</td><td><a href="./#object-browser">Object Browser</a></td><td>Open the Object Browser menu to see a list of objects to spawn in Forge.</td></tr></tbody></table>
 
 ### Create Prefab / Create Mode Prefab
 
@@ -421,7 +479,7 @@ Learn more about: [Bypassing 150-Object Prefab Limit](../../../guides-and-knowle
 
  
 
-<figure><img src="../../../.gitbook/assets/prefab-over150-deselected.jpg" alt=""><figcaption><p>Objects deselected, leaving the remaining 56 objects with a green outline </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/prefab-over150-deselected.jpg" alt=""><figcaption><p>Objects deselected, leaving the remaining 56 objects with a green outline</p></figcaption></figure>
 
 </div>
 
@@ -439,13 +497,11 @@ Learn more about: [Bypassing 150-Object Prefab Limit](../../../guides-and-knowle
 
 ### Object Browser
 
-The **Object Browser** tab is located on the top left of the radial Actions Menu and is used to open the Object Browser menu to see a list of available objects to spawn in Forge.
+The **Object Browser** tab is located on the top left of the radial Actions Menu and is used to open the Object Browser menu to see a list of objects to spawn in Forge.
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Browser</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="object-browser.md">object-browser.md</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Browser</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="object-browser/">object-browser</a></td></tr></tbody></table>
 
 ## Tools Menu
 
@@ -516,7 +572,7 @@ Learn more about: [Saving Assets](../saving-assets.md).
 
 If Play Mode is entered with <img src="../../../.gitbook/assets/keyboard-f6.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-view.png" alt="Key icon" data-size="line"> (controller), the Forge interface changes to show information relevant to gameplay:
 
-<figure><img src="../../../.gitbook/assets/forge-interface-controls-play-mode.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/forge-interface-play-mode.jpg" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th data-type="number">Number</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="./#runtime-budget-meter">Runtime Budget Meter</a></td><td>Displays the runtime budget which is the most full based on the current state of the map.</td></tr><tr><td>2</td><td><a href="./#score-and-timer">Score and Timer</a></td><td>Displays the score of two teams and an unlimited timer that counts upwards.</td></tr><tr><td>3</td><td><a href="./#global-log">Global Log</a></td><td>Displays the runtime state of the Node Graph including potential errors and warnings.</td></tr><tr><td>4</td><td><a href="./#controls-helper-1">Controls Helper</a></td><td>Displays controls and shortcuts for various actions</td></tr></tbody></table>
 
@@ -595,7 +651,7 @@ The **Global Log** is located in the top right of the screen, and displays the r
 
 The syntax for an error is as follows:
 
-> <mark style="color:red;">**Warning**</mark>/<mark style="color:yellow;">**Caution**</mark> <{Script Brain Name}>  {error statement}\
+> <mark style="color:red;">**Warning**</mark>/<mark style="color:yellow;">**Caution**</mark> <{Script Brain Name}> {error statement}\
 > \--- Node Graph **failed to build**
 
 <figure><img src="../../../.gitbook/assets/forge-interface-global-log-errors.jpg" alt=""><figcaption><p>The Global Log displaying Warning and Caution messages indicating a script that did not execute properly.</p></figcaption></figure>
@@ -608,8 +664,6 @@ Visibility of the Play Mode Global Log can be toggled from [Tool Settings](tool-
 
 The **Controls Helper** is located in the top right of the screen, and displays controls and shortcuts for various actions. In Play Mode, it only displays the control to return to Monitor Mode, <img src="../../../.gitbook/assets/keyboard-f6.png" alt="Key icon" data-size="line"> (keyboard) or \[Hold] <img src="../../../.gitbook/assets/controller-view.png" alt="Key icon" data-size="line"> (controller).
 
-
-
 ## Trivia
 
 At a glance, Halo Infinite's Forge is modeled heavily after Halo 5's. The default control scheme for controllers is also reminiscent of Halo 5's defaults. Users of previous titles have control schemes available to choose from to have an experience closer to those titles.
@@ -619,8 +673,6 @@ While the menus are similarly placed and handle very similarly to Halo 5's, ther
 It is apparent via node graphs, the expanded lighting options, and more, that many cues have been taken from more fully-featured game dev IDEs and repackaged to work well and have parity between console and pc.
 
 As with any tool of this complexity and depth, there is a learning curve present with the tool, but it remains that the surface-level is still accessible enough to build simple levels. The forger will just need to know the majority of the toolset in order to bring their level to a higher standard, which wasn't previously possible, and now is expected of the top performing levels.
-
-
 
 ***
 
