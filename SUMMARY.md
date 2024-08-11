@@ -11,8 +11,7 @@
   * [Forge Interface](forge/forge-basics-and-ui/forge-interface/README.md)
     * [Object Browser](forge/forge-basics-and-ui/forge-interface/object-browser/README.md)
       * [Forge Object List](forge/forge-basics-and-ui/forge-interface/object-browser/forge-object-list.md)
-    * [Object Properties](forge/forge-basics-and-ui/forge-interface/object-properties/README.md)
-      * [Labels](forge/forge-basics-and-ui/forge-interface/object-properties/labels.md)
+    * [Object Properties](forge/forge-basics-and-ui/forge-interface/object-properties.md)
     * [Folders](forge/forge-basics-and-ui/forge-interface/folders/README.md)
       * [Basic Folder Structure](forge/forge-basics-and-ui/forge-interface/folders/basic-folder-structure.md)
       * [Advanced Folder Structure](forge/forge-basics-and-ui/forge-interface/folders/advanced-folder-structure.md)
@@ -1074,6 +1073,7 @@
     * [Getting a Map In Matchmaking](guides-and-knowledge/ugc-know-how/ugc-misc/getting-a-map-in-matchmaking/README.md)
       * [Matchmaking Forger Discord Server](guides-and-knowledge/ugc-know-how/ugc-misc/getting-a-map-in-matchmaking/matchmaking-forger-discord-server.md)
     * [Special Earnable Rewards](guides-and-knowledge/ugc-know-how/ugc-misc/special-earnable-rewards.md)
+    * [Invalid Flagged Strings](guides-and-knowledge/ugc-know-how/ugc-misc/invalid-flagged-strings.md)
 
 ## Community
 

@@ -4,9 +4,9 @@ description: All spawnable objects from the Object Browser in Halo Infinite Forg
 
 # Forge Object List
 
-A searchable list of all spawnable objects from the Object Browser in Halo Infinite Forge. The object list has to be updated manually by a wiki contrubitor when changes are made to Halo Infinite.
+A searchable list of all spawnable objects from the Object Browser in Halo Infinite Forge. The object list has to be updated manually by a wiki contributor when changes are made to Halo Infinite.
 
-<figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cover-forge-object-list.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
 ## Object List Versions
 

@@ -360,11 +360,7 @@ Alternative spawns
 Make sure that the Team Designator and Squad values are setup correctly for the alternative mode spawns as well. If no other Team Intro Spawns are present for a Team in the alternative mode, the Squad value needs to start from Alpha.
 {% endhint %}
 
-Read more about Labels:
-
-{% content-ref url="../../forge-basics-and-ui/forge-interface/object-properties/labels.md" %}
-[labels.md](../../forge-basics-and-ui/forge-interface/object-properties/labels.md)
-{% endcontent-ref %}
+Read more about: [Labels](../../forge-basics-and-ui/forge-interface/object-properties.md#labels).
 
 
 
