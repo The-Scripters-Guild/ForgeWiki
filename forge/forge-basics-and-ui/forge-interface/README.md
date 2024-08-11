@@ -83,7 +83,7 @@ Visibility of the Budget Meter can be toggled from [Tool Settings](tool-settings
 
 ### Object Positional Data
 
-The **Object Positional Data** menu is located at the bottom middle of the screen and displays axis values of the position, rotation and size of the last selected object. While the counterpart to this positional data interface in [Object Properties](object-properties/) > Transform can only display a maximum value of 9999.90 and a minimum of -9999.90, this on-screen menu can display values up to 2147483647.00 and down to -2147483647.00, which is the maximum value for a 32-bit signed binary integer. All values beyond those will display "EE".
+The **Object Positional Data** menu is located at the bottom middle of the screen and displays axis values of the position, rotation and size of the last selected object. While the counterpart to this positional data interface in [Object Properties](object-properties.md) > Transform can only display a maximum value of 9999.90 and a minimum of -9999.90, this on-screen menu can display values up to 2147483647.00 and down to -2147483647.00, which is the maximum value for a 32-bit signed binary integer. All values beyond those will display "EE".
 
 For more functionality of this menu, see [Isolated Object Positional Data](./#isolated-object-positional-data).
 
@@ -259,7 +259,7 @@ The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Properties</td><td><a href="../../../.gitbook/assets/cover-object-properties.jpg">cover-object-properties.jpg</a></td><td><a href="object-properties/">object-properties</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Properties</td><td><a href="../../../.gitbook/assets/cover-object-properties.jpg">cover-object-properties.jpg</a></td><td><a href="object-properties.md">object-properties.md</a></td></tr></tbody></table>
 
 ### Folders
 
@@ -347,7 +347,7 @@ The **Object Properties** tab is located on the top right of the radial Actions 
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Properties</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="object-properties/">object-properties</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Properties</td><td><a href="../../../.gitbook/assets/cover-object-properties.jpg">cover-object-properties.jpg</a></td><td><a href="object-properties.md">object-properties.md</a></td></tr></tbody></table>
 
 ### Add To Prefab
 
@@ -501,7 +501,7 @@ The **Object Browser** tab is located on the top left of the radial Actions Menu
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Browser</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="object-browser/">object-browser</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Object Browser</td><td><a href="../../../.gitbook/assets/cover-object-browser.jpg">cover-object-browser.jpg</a></td><td><a href="object-browser/">object-browser</a></td></tr></tbody></table>
 
 ## Tools Menu
 
