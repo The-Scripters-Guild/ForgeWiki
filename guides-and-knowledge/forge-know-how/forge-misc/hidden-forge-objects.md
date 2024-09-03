@@ -14,6 +14,10 @@ A showcase of the hidden objects of Season 5 can be seen in this YouTube video:
 
 ### Enabling the Hidden Categories
 
+* Use [Surasia's InfiniteExt tool](https://github.com/Surasia/InfiniteExt) and the Forge Hidden Category Enabler
+
+Alternatively:
+
 * Inspect the Halo Infinite executable with a Interactive Disassembler like IDA PRO, find the function for `Forge_DisableForgeHiddenCategory`, which should point to a byte: `50C3140`
 * Open Halo Infinite without Easy Anti Cheat by replacing the HaloInfinite.exe file from the install directory with the HaloInfinite.exe file from `\game`, and running the executable
 * Search for the byte `50C3140` in the Halo Infinite executable with Cheat Engine and flip it's value to `0`

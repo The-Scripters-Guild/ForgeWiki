@@ -157,6 +157,10 @@ The Object Mode indicator color is white for Static objects and orange for Dynam
 
 <figure><img src="../../../.gitbook/assets/forge-interface-object-info-none.jpg" alt=""><figcaption><p>Object Mode: None</p></figcaption></figure>
 
+Objects that have been locked from the [Folders](./#folders) tab of the [Forge Menu](./#forge-menu) will have a red lock icon to the left of the Object Mode indicator.
+
+<figure><img src="../../../.gitbook/assets/folders-locked-object.jpg" alt=""><figcaption><p>Locked object displaying a red lock icon</p></figcaption></figure>
+
 ### Isolated Object Positional Data
 
 The [Object Positional Data](./#object-positional-data) menu changes slightly when an object is selected and one of the three [Transform Gizmos](#user-content-fn-4)[^4] are selected; The positional data of the currently selected transform gizmo is highlighted, and the other data displays are made less opaque.

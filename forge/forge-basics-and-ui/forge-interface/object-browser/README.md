@@ -10,7 +10,7 @@ The Object Browser tab is the first tab at the top of the Forge Menu and it disp
 
 ## Interface
 
-The Object Browser tab consists of object categories and subcategories, within which are spawnable objects. The categories can be opened and closed, and their state will persist until the Forge session is closed, and a short description of the selected item is shown under the main interface. In addition to object categories, there are also categories for recently used objects, and Modes and Prefabs that you are a [Collaborator](../../../../ugc/metadata-and-file-management/working-with-files/file-collaborators.md) on or have bookmarked.
+The Object Browser tab consists of object categories and subcategories, within which are spawnable objects. The categories can be opened and closed, and their state will persist until the Forge session is closed. A short description of the selected item is shown under the main interface. In addition to object categories, there are also categories for recently used objects, and Modes and Prefabs that you are a [Collaborator](../../../../ugc/metadata-and-file-management/working-with-files/file-collaborators.md) on or have bookmarked.
 
 <div>
 
@@ -34,65 +34,39 @@ Controls related to navigating the Object Browser tab. Options for both Keyboard
 
 {% tabs %}
 {% tab title="Keyboard and Mouse" %}
-*   Open Object Browser: <img src="../../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../../.gitbook/assets/keyboard-1.png" alt="Key icon" data-size="line">
-
-    * Alternative: <img src="../../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line"> -> <img src="../../../../.gitbook/assets/keyboard-q.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line">
-    * Alternative: \[Hold] <img src="../../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> -> Object Browser <img src="../../../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-space.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-enter.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-numpad-enter.png" alt="Key icon" data-size="line">
-
-
-* Close Object Browser: <img src="../../../../.gitbook/assets/keyboard-backspace.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Open the Object Browser tab</mark>: <img src="../../../../.gitbook/assets/keyboard-ctrl-left.png" alt="Key icon" data-size="line"> + <img src="../../../../.gitbook/assets/keyboard-1.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line"> → <img src="../../../../.gitbook/assets/keyboard-q.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line">
+  * Alternative: \[Hold] <img src="../../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> → Object Browser <img src="../../../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-space.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-enter.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/keyboard-numpad-enter.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Close the Object Browser tab</mark>: <img src="../../../../.gitbook/assets/keyboard-backspace.png" alt="Key icon" data-size="line">
   * Alternative: <img src="../../../../.gitbook/assets/keyboard-r.png" alt="Key icon" data-size="line">
-  *   Alternative: <img src="../../../../.gitbook/assets/keyboard-esc.png" alt="Key icon" data-size="line">
-
-
-*   Navigation: <img src="../../../../.gitbook/assets/keyboard-w.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-a.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-s.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-d.png" alt="Key icon" data-size="line">
-
-    * Alternative: <img src="../../../../.gitbook/assets/keyboard-arrow-up.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-arrow-down.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-arrow-left.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-arrow-right.png" alt="Key icon" data-size="line">
-    * Alternative: <img src="../../../../.gitbook/assets/mouse-scroll.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/mouse-click-middle.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/mouse-click-right.png" alt="Key icon" data-size="line">
-
-
-*   Quick Scroll Up: <img src="../../../../.gitbook/assets/keyboard-pgup.png" alt="Key icon" data-size="line">
-
-    * Alternative: <img src="../../../../.gitbook/assets/keyboard-z.png" alt="Key icon" data-size="line">
-
-
-* Quick Scroll Down: <img src="../../../../.gitbook/assets/keyboard-pgdn.png" alt="Key icon" data-size="line">
-  * Alternative: <img src="../../../../.gitbook/assets/keyboard-x.png" alt="Key icon" data-size="line">\
-
-*   Select Item / Expand/Collapse Category: <img src="../../../../.gitbook/assets/keyboard-space.png" alt="Key icon" data-size="line">
-
-    * Alternative: <img src="../../../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line">
-    * Alternative: <img src="../../../../.gitbook/assets/keyboard-enter.png" alt="Key icon" data-size="line">
-    * Alternative: <img src="../../../../.gitbook/assets/keyboard-numpad-enter.png" alt="Key icon" data-size="line">
-
-
-* Expand/Collapse All Categories: <img src="../../../../.gitbook/assets/keyboard-tab.png" alt="Key icon" data-size="line">\
-
-* Go Back: <img src="../../../../.gitbook/assets/keyboard-backspace.png" alt="Key icon" data-size="line">
-  * Alternative: <img src="../../../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line"> (on the subcategory name at the top)
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-esc.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Navigation</mark>: <img src="../../../../.gitbook/assets/keyboard-w.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-a.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-s.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-d.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-arrow-up.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-arrow-down.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-arrow-left.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/keyboard-arrow-right.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/mouse-scroll.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/mouse-click-middle.png" alt="Key icon" data-size="line">, <img src="../../../../.gitbook/assets/mouse-click-right.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Quick Scroll Up</mark>: <img src="../../../../.gitbook/assets/keyboard-pgup.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-z.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Quick Scroll Down</mark>: <img src="../../../../.gitbook/assets/keyboard-pgdn.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-x.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Select Item / Expand/Collapse Category</mark>: <img src="../../../../.gitbook/assets/keyboard-space.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-enter.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/keyboard-numpad-enter.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Expand/Collapse All Categories</mark>: <img src="../../../../.gitbook/assets/keyboard-tab.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Go Back</mark>: <img src="../../../../.gitbook/assets/keyboard-backspace.png" alt="Key icon" data-size="line">
+  * Alternative: \[Hover] Subcategory Name at the top → <img src="../../../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line">
 {% endtab %}
 
 {% tab title="Contoller" %}
-* Open Object Browser: <img src="../../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> -> <img src="../../../../.gitbook/assets/controller-lb.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/controller-rb.png" alt="Key icon" data-size="line">
-  * Alternative: \[Hold] <img src="../../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> -> Object Browser <img src="../../../../.gitbook/assets/controller-stick-left.png" alt="Key icon" data-size="line">\
-
-*   Close Object Browser: <img src="../../../../.gitbook/assets/controller-b.png" alt="Key icon" data-size="line">
-
-
-* Navigation: <img src="../../../../.gitbook/assets/controller-stick-left.png" alt="Key icon" data-size="line">
-  *   Alternative: <img src="../../../../.gitbook/assets/controller-dpad-all-directions.png" alt="Key icon" data-size="line">
-
-
-*   Quick Scroll Up: <img src="../../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line">
-
-
-* Quick Scroll Down: <img src="../../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line">\
-
-* Select Item / Expand/Collapse Category: <img src="../../../../.gitbook/assets/controller-a.png" alt="Key icon" data-size="line">\
-
-* Expand/Collapse All Categories: <img src="../../../../.gitbook/assets/controller-stick-right-click.png" alt="Key icon" data-size="line">\
-
-* Go Back: <img src="../../../../.gitbook/assets/controller-b.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Open the Object Browser tab</mark>: <img src="../../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> → <img src="../../../../.gitbook/assets/controller-lb.png" alt="Key icon" data-size="line"> / <img src="../../../../.gitbook/assets/controller-rb.png" alt="Key icon" data-size="line">
+  * Alternative: \[Hold] <img src="../../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> → Object Browser <img src="../../../../.gitbook/assets/controller-stick-left.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Close the Object Browser tab</mark>: <img src="../../../../.gitbook/assets/controller-b.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Navigation</mark>: <img src="../../../../.gitbook/assets/controller-stick-left.png" alt="Key icon" data-size="line">
+  * Alternative: <img src="../../../../.gitbook/assets/controller-dpad-all-directions.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Quick Scroll Up</mark>: <img src="../../../../.gitbook/assets/controller-lt.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Quick Scroll Down</mark>: <img src="../../../../.gitbook/assets/controller-rt.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Select Item / Expand/Collapse Category</mark>: <img src="../../../../.gitbook/assets/controller-a.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Expand/Collapse All Categories</mark>: <img src="../../../../.gitbook/assets/controller-stick-right-click.png" alt="Key icon" data-size="line">
+* <mark style="color:yellow;">Go Back</mark>: <img src="../../../../.gitbook/assets/controller-b.png" alt="Key icon" data-size="line">
 {% endtab %}
 {% endtabs %}
 
