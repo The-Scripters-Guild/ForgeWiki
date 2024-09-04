@@ -90,7 +90,7 @@ When making edits to the cloned repo, Wiki contributors should always work in a 
 
 For effective and standardized branch naming, read these articles:
 
-[Git Naming Conventions – GitHub, rukavinaet](https://github.com/rukavinaet/git-naming-conventions)
+[Branch Naming – GitHub, farbodsaraf](https://github.com/naming-convention/naming-convention-guides/blob/master/git/branch-naming.md)
 
 {% embed url="https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534" %}
 
@@ -153,7 +153,7 @@ When adding new articles that don't have a `.md` file and a `SUMMARY.md` entry f
 
 #### Standalone pages
 
-Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](broken-reference)). This file will act as the page file that can be edited.
+Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh/)). This file will act as the page file that can be edited.
 
 <div align="left">
 

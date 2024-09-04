@@ -166,7 +166,7 @@ Sets the selected folder as the directory where all newly created objects will b
 
 ### Set as Root Folder
 
-Turns the selected subfolder into a main folder and turns it into the root folder. All objects within the subfolder will be transferred to the new main folder. The of a map root folder is set as the [working folder](./#set-as-working-folder) by default when a Forge session is loaded.
+Turns the selected subfolder into a main folder and turns it into the root folder. All objects within the subfolder will be transferred to the new main folder. The root folder of a map is set as the [working folder](./#set-as-working-folder) by default when a Forge session is loaded.
 
 {% hint style="info" %}
 This option arguably causes more harm than good as it's often only be useful when setting up the folder structure of a map in the first place, and most if not all presses of the button afterwards are misinputs from trying to select "Set As Working Folder", resulting in a ton of unnecessary headache.
@@ -212,7 +212,7 @@ Tips from experienced forgers about using the Folders tab to it's fullest.
 
 ### Selecting Objects
 
-The quickest way to select groups of individual objects where selecting the entire folder isn't applicable is by selecting the object with <img src="../../../../.gitbook/assets/keyboard-f.png" alt="Key icon" data-size="line">, pressing <img src="../../../../.gitbook/assets/keyboard-w.png" alt="Key icon" data-size="line"> or <img src="../../../../.gitbook/assets/keyboard-s.png" alt="Key icon" data-size="line"> to go to the next object, and repeating the cycle. If you want to then move that group of objects, read the instructions on how to [safely and consistently do so](./#object-selection-bug).
+The quickest way to select groups of individual objects where selecting the entire folder isn't applicable is by selecting the object with (keyboard) <img src="../../../../.gitbook/assets/keyboard-f.png" alt="Key icon" data-size="line">, pressing <img src="../../../../.gitbook/assets/keyboard-w.png" alt="Key icon" data-size="line"> or <img src="../../../../.gitbook/assets/keyboard-s.png" alt="Key icon" data-size="line"> to go to the next object, and repeating the cycle. If you want to then move that group of objects, read the instructions on how to [safely and consistently do so](./#object-selection-bug).
 
 ### Naming
 
@@ -224,23 +224,23 @@ The folder structure doesn't have to be overly complicated to work efficiently. 
 
 A great folder structure allows the forgers who care about folderizing objects to do so while still keeping newly placed objects organized in one place if the forger forgot to set a working folder. Below are references to recommended folder structures used by experienced forgers that have been tried and tested over multiple different maps to work efficiently.
 
-### Basic Folder Structures
+### Basic Folder Structure
 
 For categorizing objects into large categories that still differentiate them enough to be understandable.
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Basic Folder Structures</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="basic-folder-structure.md">basic-folder-structure.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Basic Folder Structure</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="basic-folder-structure.md">basic-folder-structure.md</a></td></tr></tbody></table>
 
 
 
-### Advanced Folder Structures
+### Advanced Folder Structure
 
 For categorizing every object type efficiently and semantically. Takes a bit longer to set up and takes up more budget, but is much more useful on larger projects or feature-rich maps.
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Advanced Folder Structures</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="advanced-folder-structure.md">advanced-folder-structure.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Advanced Folder Structure</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="advanced-folder-structure.md">advanced-folder-structure.md</a></td></tr></tbody></table>
 
 
 
