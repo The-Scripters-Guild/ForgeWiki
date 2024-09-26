@@ -44,10 +44,10 @@ In more recent times with Halo Infinite, some notable creations are:
 
 ### Community highlight content
 
-To discover more great content produced by TSG members and the Halo community at large, see the [Highlight Content](highlight-content/) section.
+To discover more great content produced by TSG members and the Halo community at large, see the [Highlight Content](content/) section.
 
-{% content-ref url="highlight-content/" %}
-[highlight-content](highlight-content/)
+{% content-ref url="content/" %}
+[content](content/)
 {% endcontent-ref %}
 
 
