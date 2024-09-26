@@ -277,7 +277,7 @@ As the lowest invisible Backup Spawn Points on each Forge canvas are at Z: 505, 
 
 To overcome this issue, one must block the [Root Points' effective radius](../../nav-mesh/nav-mesh-generation/nav-mesh-generation-root-points.md#effective-radius) so they can't spread the Nav mesh data. A universal way is to add a Nav Cutter over each invisible Backup Spawn point.
 
-* A prefab consisting of 27 Nav Cutters at each location of the invisible Backup Spawn Points on the listed Forge canvases has been made by TSG community members to help players overcome this issue. Read more here: [tsg navCutters](../../../community/highlight-content/map-mode-setup/tsg-navcutters.md).
+* A prefab consisting of 27 Nav Cutters at each location of the invisible Backup Spawn Points on the listed Forge canvases has been made by TSG community members to help players overcome this issue. Read more here: [tsg navCutters](../../../community/content/map-mode-setup/tsg-navcutters.md).
 
 <figure><img src="../../../.gitbook/assets/tsg-navcutters-boundaries.jpg" alt="Image showing boundaries of Nav Cutters at the locations of 27 invisible Backup Spawn Points"><figcaption><p>Nav Cutter boundaries at the locations of the 27 invisible Backup Spawn Points from the tsg navCutters prefab</p></figcaption></figure>
 

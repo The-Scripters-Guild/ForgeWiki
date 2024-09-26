@@ -6,9 +6,11 @@ description: >-
 
 # Article Template
 
-Give a brief explanation of the topic that the article is about. What the purpose of the thing is and what kind of adjustments can be done to it. Keep it short, as the sections below should be used for further explanation.
-
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption><p>This is a cover image with the aspect ratio of 21:9. This is a custom cropped image just for this purpose, and one should be made for each article, if possible. In a real article, leave this text caption field blank for the cover image. Remember to change the alt text of the image.</p></figcaption></figure>
+
+Give a brief overview of the topic that the article is about to introduce the reader into the topic. Keep it short, as the sections below should be used for further explanation.
+
+## Notes
 
 Temporary section for general notes about the article; write down things quickly that you want to write about so you can easily recall them later. Delete this section when the article is finished:
 
