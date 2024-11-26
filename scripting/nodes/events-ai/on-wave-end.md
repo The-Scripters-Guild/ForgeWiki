@@ -1,5 +1,8 @@
 # On Wave End
 
+## Description
+Event called when a wave from the Wave Manager ends. Also outputs the Victory Reason and Elapsed Time of the wave.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

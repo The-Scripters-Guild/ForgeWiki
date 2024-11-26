@@ -1,5 +1,9 @@
 # Assign Squad To Team
 
+## Description
+Assigns the Squad to the Team
+
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

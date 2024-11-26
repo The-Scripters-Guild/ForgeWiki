@@ -1,5 +1,8 @@
 # Get All Squads
 
+## Description
+Returns a Squad List containing all currently-spawned squads. The order of list entries is random.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

@@ -1,5 +1,6 @@
 # Get All AI Spawners
 
+## Description
 Returns an *Object List* containing all AI spawners on the map.
 
 ## Inputs

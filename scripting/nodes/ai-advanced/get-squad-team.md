@@ -1,5 +1,9 @@
 # Get Squad Team
 
+## Description
+Returns the Team that the Squad is on
+
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

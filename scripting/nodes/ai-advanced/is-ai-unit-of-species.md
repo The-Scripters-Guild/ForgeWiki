@@ -1,5 +1,8 @@
 # Is AI Unit Of Species
 
+## Description
+Checks if the AI belongs to the AI Species, such as Grunt
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

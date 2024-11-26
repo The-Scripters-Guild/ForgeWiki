@@ -1,5 +1,6 @@
 # Trigger AI Spawner
 
+## Description
 Spawns a squad from the *AI Spawner* based off its *Object Properties*.
 
 ## Inputs

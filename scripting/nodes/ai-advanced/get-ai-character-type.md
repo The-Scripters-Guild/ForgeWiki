@@ -1,5 +1,9 @@
 # Get AI Character Type
 
+## Description
+Returns the Character Type for an AI Unit, such as Grunt Conscript A
+
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

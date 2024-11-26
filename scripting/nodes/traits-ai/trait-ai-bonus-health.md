@@ -1,5 +1,8 @@
 # Trait AI: Bonus Health
 
+## Description
+Gives an AI Unit's bonus health as a percent of their base health. A Scalar of 0.0 is the default.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

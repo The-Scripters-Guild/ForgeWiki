@@ -1,5 +1,9 @@
 # Get Squad Definition AI Unit Count
 
+## Description
+Returns the number of AI units contained in the Squad Definition and checks if the whole squad can be spawned
+
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

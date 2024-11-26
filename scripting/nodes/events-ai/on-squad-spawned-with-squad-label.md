@@ -1,5 +1,8 @@
 # On Squad Spawned With Squad Label
 
+## Description
+Event called when any Squad with the Squad Label spawns
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

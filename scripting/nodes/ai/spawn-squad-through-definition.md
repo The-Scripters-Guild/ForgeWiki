@@ -1,5 +1,8 @@
 # Spawn Squad Through Definition
 
+## Description
+Spawns a Squad according to the Spawn Definition
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

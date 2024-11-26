@@ -1,5 +1,8 @@
 # On Wave Start
 
+## Description
+Event called when a wave from the Wave Manager starts. Also outputs the total original AI Unit Count in the wave, a list of the current Surviving Players, a list of the wave's Active Squads, and the Wave Type.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

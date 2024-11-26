@@ -1,5 +1,9 @@
 # Get Available AI Unit Count
 
+## Description
+Returns the number of AI units that can be spawned before reaching the runtime budget limit
+
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

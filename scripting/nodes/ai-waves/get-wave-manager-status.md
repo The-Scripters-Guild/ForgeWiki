@@ -1,5 +1,8 @@
 # Get Wave Manager Status
 
+## Description
+Returns whether the Wave Manager has an active wave. The Queue Size includes the active wave.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

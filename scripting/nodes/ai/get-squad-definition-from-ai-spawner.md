@@ -1,5 +1,7 @@
 # Get Squad Definition From AI Spawner
 
+## Description
+
 Returns a squad definition from the *AI Spawner*, which contains unit and spawning data based off of the spawner's 
 *Object Properties*. Optionally apply *Squad Overrides* before returning.
 

@@ -1,5 +1,8 @@
 # Get AI Units From Squad
 
+## Description
+Returns a list of AI Units in the Squad that are still alive. The order of list entries is random.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

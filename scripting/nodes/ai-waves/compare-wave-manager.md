@@ -1,5 +1,8 @@
 # Compare Wave Manager
 
+## Description
+Compares two Wave Manager values
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

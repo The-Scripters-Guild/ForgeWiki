@@ -1,5 +1,9 @@
 # Get Squads From Spawner
 
+## Description
+Returns a Squad List containing all currently-spawned squads that came from the AI Spawner. The order of list entries is random.
+
+
 Returns a *Squad List* containing all currently-spawned squads that came from the *AI Spawner*. The order of list entries is random.
 
 ## Inputs

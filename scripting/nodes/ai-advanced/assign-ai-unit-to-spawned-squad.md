@@ -1,5 +1,9 @@
 # Assign AI Unit To Spawned Squad
 
+## Description
+Assigns the AI Unit to the spawned Squad
+
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

@@ -1,5 +1,8 @@
 # Set Squad Follow Object
 
+## Description
+Forces a Squad to follow the Target Object. The Follow Radius defines the area around the object that the Squad must stay in.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}
