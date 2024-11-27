@@ -1,5 +1,5 @@
 # Get Available AI Unit Count
-
+![alt text](get-available-ai-unit-count.png)
 ## Description
 Returns the number of AI units that can be spawned before reaching the runtime budget limit
 

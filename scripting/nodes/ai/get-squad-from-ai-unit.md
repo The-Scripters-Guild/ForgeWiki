@@ -1,5 +1,5 @@
 # Get Squad From AI Unit
-
+![alt text](get-squad-from-ai-unit.png)
 ## Description
 Returns the Squad that the AI Unit belongs to
 

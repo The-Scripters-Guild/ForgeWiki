@@ -1,5 +1,5 @@
 # Trigger AI Spawner
-
+![alt text](trigger-ai-spawner.png)
 ## Description
 Spawns a squad from the *AI Spawner* based off its *Object Properties*.
 

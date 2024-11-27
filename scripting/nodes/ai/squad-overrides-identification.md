@@ -1,5 +1,5 @@
 # Squad Overrides Identification
-
+![alt text](squad-overrides-identification.png)
 ## Description
 Returns Spawn Overrides for the Team and Squad Label when a squad spawns
 

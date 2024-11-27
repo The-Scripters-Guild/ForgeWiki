@@ -1,5 +1,5 @@
 # Spawn Squad Through Definition
-
+![alt text](spawn-squad-through-definition.png)
 ## Description
 Spawns a Squad according to the Spawn Definition
 

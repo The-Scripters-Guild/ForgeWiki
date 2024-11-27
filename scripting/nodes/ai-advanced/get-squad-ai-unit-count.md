@@ -1,5 +1,5 @@
 # Get Squad AI Unit Count
-
+![alt text](get-squad-ai-unit-count.png)
 ## Description
 Returns the Original Unit Count of a Squad and its Remaining Unit Count as a number or percentage
 

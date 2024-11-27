@@ -1,5 +1,5 @@
 # Get Squad Team
-
+![alt text](get-squad-team.png)
 ## Description
 Returns the Team that the Squad is on
 

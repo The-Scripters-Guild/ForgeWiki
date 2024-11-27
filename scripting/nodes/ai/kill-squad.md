@@ -1,5 +1,5 @@
 # Kill Squad
-
+![alt text](kill-squad.png)
 ## Description
 Kills the Squad
 

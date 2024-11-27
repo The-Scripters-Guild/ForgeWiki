@@ -1,5 +1,5 @@
 # Assign Squad To Zone
-
+![alt text](assign-squad-to-zone.png)
 ## Description
 Assigns the Squad to the Move Zone
 

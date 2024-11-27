@@ -1,5 +1,5 @@
 # Get Squads With Squad Label
-
+![alt text](get-squads-with-squad-label.png)
 ## Description
 Returns a Squad List containing all Squads that have the Squad Label. The order of list entries is random. 
 

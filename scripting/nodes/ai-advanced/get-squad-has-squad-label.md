@@ -1,5 +1,5 @@
 # Get Squad Has Squad Label
-
+![alt text](get-squad-has-squad-label.png)
 ## Description
 Returns whether the Squad has the given Squad Label
 

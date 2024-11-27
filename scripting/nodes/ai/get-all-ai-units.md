@@ -1,5 +1,5 @@
 # Get All AI Units
-
+![alt text](get-all-ai-units.png)
 ## Description
 Returns all currently-spawned AI Units, with options for the AI Unit Count and a Random AI Unit from the list. The order of list entries is random.
 

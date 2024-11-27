@@ -1,5 +1,5 @@
 # Kill All Squads
-
+![alt text](kill-all-squads.png)
 ## Description
 Kills all squads on the map
 

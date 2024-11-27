@@ -1,5 +1,5 @@
 # Get AI Character Type
-
+![alt text](get-ai-character-type.png)
 ## Description
 Returns the Character Type for an AI Unit, such as Grunt Conscript A
 
