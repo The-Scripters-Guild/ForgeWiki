@@ -3,12 +3,22 @@
 ## Description
 Assigns the AI Unit to the spawned Squad
 
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node executes a function and is therefore an Execution node.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| AI Unit | Object | Yes | The AI Unit to be assigned to a Squad.  |
+| Squad | Squad | Yes | The Squad that the AI Unit will be assigned to. |
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
 
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

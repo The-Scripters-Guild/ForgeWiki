@@ -5,6 +5,9 @@
 Returns a squad definition from the *AI Spawner*, which contains unit and spawning data based off of the spawner's 
 *Object Properties*. Optionally apply *Squad Overrides* before returning.
 
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
+
 ## Inputs
 | Input            | Type             | Required | Description												    |
 |------------------|------------------|----------|--------------------------------------------------------------|
@@ -16,6 +19,9 @@ Returns a squad definition from the *AI Spawner*, which contains unit and spawni
 |------------------|------------------|-----------------------------------------------------------------------|
 | Squad Definition | Squad Definition | The squad definition from the AI spawner with any overrides applied. |
 
+\
+\
 **Contributors**
 
-Mr. Admirals
+Mr. Admirals\
+AddiCt3d 2CHa0s

@@ -3,11 +3,21 @@
 ## Description
 Returns all currently-spawned AI Units on the team, with options for the AI Unit Count and a Random AI Unit from the list. The order of list entries is random.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Team | Team | Yes | Specify which Team to get AI Units from. |
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| AI Units | Object List | A list of all surviving AI Units on specified team. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
