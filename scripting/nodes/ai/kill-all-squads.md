@@ -1,10 +1,10 @@
 # Kill All Squads
-![alt text](kill-all-squads.png)
+![alt text](../../../.gitbook/assets/kill-all-squads.png)
 ## Description
 Kills all squads on the map
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node executes a function and is therefore an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input            | Type             | Required | Description												    |

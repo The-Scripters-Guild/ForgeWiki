@@ -1,10 +1,10 @@
 # Kill Squad
-![alt text](kill-squad.png)
+![alt text](../../../.gitbook/assets/kill-squad.png)
 ## Description
 Kills the Squad
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node executes a function and is therefore an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input            | Type             | Required | Description												    |

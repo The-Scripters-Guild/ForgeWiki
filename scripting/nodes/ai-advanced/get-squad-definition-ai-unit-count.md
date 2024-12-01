@@ -1,5 +1,6 @@
 # Get Squad Definition AI Unit Count
-![alt text](get-squad-definition-ai-unit-count.png)
+![alt text](../../../.gitbook/assets/get-squad-definition-ai-unit-count.png)
+
 ## Description
 Returns the number of AI units contained in the Squad Definition and checks if the whole squad can be spawned
 

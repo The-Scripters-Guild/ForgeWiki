@@ -1,5 +1,6 @@
 # Get Squads From Spawner
-![alt text](get-squads-from-spawner.png)
+![alt text](../../../.gitbook/assets/get-squads-from-spawner.png)
+
 ## Description
 Returns a *Squad List* containing all currently-spawned squads that came from the *AI Spawner*. The order of list entries is random.
 

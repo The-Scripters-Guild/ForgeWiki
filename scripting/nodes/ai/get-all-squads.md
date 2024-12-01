@@ -1,5 +1,5 @@
 # Get All Squads
-![alt text](get-all-squads.png)
+![alt text](../../../.gitbook/assets/get-all-squads.png)
 ## Description
 Returns a Squad List containing all currently-spawned squads. The order of list entries is random.
 

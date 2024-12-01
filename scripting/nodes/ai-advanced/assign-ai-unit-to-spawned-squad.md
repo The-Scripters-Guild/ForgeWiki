@@ -1,10 +1,11 @@
 # Assign AI Unit To Spawned Squad
-![alt text](assign-ai-unit-to-spawned-squad.png)
+![alt text](../../../.gitbook/assets/assign-ai-unit-to-spawned-squad.png)
+
 ## Description
 Assigns the AI Unit to the spawned Squad
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node executes a function and is therefore an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input            | Type             | Required | Description												    |

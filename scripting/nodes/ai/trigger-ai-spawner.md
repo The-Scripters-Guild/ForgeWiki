@@ -1,10 +1,10 @@
 # Trigger AI Spawner
-![alt text](trigger-ai-spawner.png)
+![alt text](../../../.gitbook/assets/trigger-ai-spawner.png)
 ## Description
 Spawns a squad from the *AI Spawner* based off its *Object Properties*.
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node executes a function and is therefore an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input            | Type             | Required | Description												    |
@@ -20,4 +20,5 @@ Nodes fall into two basic categories: Data and Execution. This node executes a f
 \
 **Contributors**
 
-Mr. Admirals
+Mr. Admirals\
+AddiCt3d 2CHa0s

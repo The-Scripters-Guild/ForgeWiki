@@ -1,5 +1,6 @@
 # Get Squad Team
-![alt text](get-squad-team.png)
+![alt text](../../../.gitbook/assets/get-squad-team.png)
+
 ## Description
 Returns the Team that the Squad is on
 

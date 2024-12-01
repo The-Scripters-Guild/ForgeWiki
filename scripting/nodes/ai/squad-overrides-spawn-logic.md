@@ -1,5 +1,5 @@
 # Squad Overrides Spawn Logic
-![alt text](squad-overrides-spawn-logic.png)
+![alt text](../../../.gitbook/assets/squad-overrides-spawn-logic.png)
 ## Description
 Returns Squad Overrides for the assigned Move Zone, Initial Combat State, and Initial Facing Yaw in degrees when a squad spawns
 

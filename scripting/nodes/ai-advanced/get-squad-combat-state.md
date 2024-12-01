@@ -1,5 +1,6 @@
 # Get Squad Combat State
-![alt text](get-squad-combat-state.png)
+![alt text](../../../.gitbook/assets/get-squad-combat-state.png)
+
 ## Description
 Returns the Combat State of a Squad. This state is the highest alertness that any squad member currently has.
 

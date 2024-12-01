@@ -1,10 +1,11 @@
 # Ally Squad With FFA Player
-![alt text](ally-squad-with-ffa-player.png)
+![alt text](../../../.gitbook/assets/ally-squad-with-ffa-player.png)
+
 ## Description
 Makes the AI units in the Squad friendly to the Player and assigns them the same FFA allegiance as the Player. Leave the Player empty to break the alliance and remove the AI units' FFA allegiance. Has no effect in Team games.
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node executes a function and is therefore an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input | Type | Required | Description |

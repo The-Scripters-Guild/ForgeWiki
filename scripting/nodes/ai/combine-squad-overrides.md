@@ -1,5 +1,5 @@
 # Combine Squad Overrides
-![alt text](combine-squad-overrides.png)
+![alt text](../../../.gitbook/assets/combine-squad-overrides.png)
 ## Description
 Returns a Squad Overrides containing the input Squad Overrides
 
