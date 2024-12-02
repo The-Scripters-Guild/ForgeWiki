@@ -1,5 +1,8 @@
 # Set AI Unit Perception
 
+## Description
+Sets the Deaf and Blind behaviors on an AI Unit
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

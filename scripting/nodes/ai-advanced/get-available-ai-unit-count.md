@@ -1,10 +1,24 @@
 # Get Available AI Unit Count
+![alt text](../../../.gitbook/assets/get-available-ai-unit-count.png)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+Returns the number of AI units that can be spawned before reaching the runtime budget limit
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| N/A | N/A | N/A  | N/A |
+
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| Available AI Unit Count | Number | Total Count of AI Units that can be spawned before reaching runtime budge limit.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

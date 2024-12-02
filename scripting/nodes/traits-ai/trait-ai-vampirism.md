@@ -1,5 +1,8 @@
 # Trait AI: Vampirism
 
+## Description
+Nodes that interact with traits that modify base AI behavior
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

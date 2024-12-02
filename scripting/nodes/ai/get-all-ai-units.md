@@ -1,10 +1,23 @@
 # Get All AI Units
+![alt text](../../../.gitbook/assets/get-all-ai-units.png)
+## Description
+Returns all currently-spawned AI Units, with options for the AI Unit Count and a Random AI Unit from the list. The order of list entries is random.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| None | N/A | N/A | N/A |
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| AI Units | Object List | All surviving AI Units in the game.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

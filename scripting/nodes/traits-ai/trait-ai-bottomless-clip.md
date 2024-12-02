@@ -1,5 +1,8 @@
 # Trait AI: Bottomless Clip
 
+## Description
+When enabled, affected AI Units will have infinite ammo and will not need to reload
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

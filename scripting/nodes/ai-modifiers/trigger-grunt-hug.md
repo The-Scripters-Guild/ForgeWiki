@@ -1,5 +1,8 @@
 # Trigger Grunt Hug
 
+## Description
+Strongly encourages all Grunts in the Squad to demonstrate their affection using plasma grenades
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

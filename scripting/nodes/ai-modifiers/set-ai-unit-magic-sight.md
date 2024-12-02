@@ -1,5 +1,8 @@
 # Set AI Unit Magic Sight
 
+## Description
+Sets the Magic Sight behavior on an AI Unit
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

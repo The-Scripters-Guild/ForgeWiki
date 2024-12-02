@@ -1,5 +1,8 @@
 # On Squad State Changed
 
+## Description
+Event called when any Squad's combat state changes between Idle, Alert, and Active
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

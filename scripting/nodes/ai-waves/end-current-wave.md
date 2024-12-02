@@ -1,5 +1,8 @@
 # End Current Wave
 
+## Description
+Ends the current wave, optionally killing the Active Squads from the current wave and Straggler Squads left over from previous waves
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

@@ -1,5 +1,8 @@
 # Wave Options
 
+## Description
+Options that control a wave's messaging, whether it waits for room in the AI budget or attempts a partial spawn, and the wave's Extermination Percentage - the percentage of units that need to be killed before the wave ends.
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}

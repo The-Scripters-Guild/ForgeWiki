@@ -1,5 +1,8 @@
 # On Squad Arrived
 
+## Description
+Event called when any Squad finishes moving to their assigned move zone
+
 {% hint style="warning" %}
 This article is a stub. You can help TSG Forge Wiki by expanding it.
 {% endhint %}
