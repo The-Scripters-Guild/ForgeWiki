@@ -15,7 +15,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Outputs
 | Output           | Type             | Description												     |
 |------------------|------------------|--------------------------------------------------------------|
-| Squad List | Squad List | List of Squads using the specified Squad Label. |
+| Squad List | Generic List | List of Squads using the specified Squad Label. |
 
 \
 \
