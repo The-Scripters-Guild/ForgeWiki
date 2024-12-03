@@ -1,13 +1,24 @@
 # Trait AI: Bottomless Clip
+![alt text](../../../.gitbook/assets/trait-ai-bottomless-clip.png)
 
 ## Description
 When enabled, affected AI Units will have infinite ammo and will not need to reload
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Enabled | Boolean | Yes | If TRUE, Bottomless Clip will be applied, and AI will have endless ammunition. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Trait | Trait | Enables or disables Bottomless Clip for AI. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

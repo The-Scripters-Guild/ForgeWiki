@@ -1,13 +1,24 @@
 # On Squad Arrived
+![alt text](../../../.gitbook/assets/on-squad-arrived.png)
 
 ## Description
 Event called when any Squad finishes moving to their assigned move zone
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This Execution node fires when something happens in the game that triggers it, and starts off the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| N/A | N/A | N/A | N/A |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Squad | Squad | Which Squad has arrived at any zone.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

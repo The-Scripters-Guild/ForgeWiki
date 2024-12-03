@@ -1,13 +1,25 @@
 # On Squad Spawned With Squad Label
+![alt text](../../../.gitbook/assets/on-squad-spawned-with-squad-label.png)
 
 ## Description
 Event called when any Squad with the Squad Label spawns
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This Execution node fires when something happens in the game that triggers it, and starts off the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Squad Label | Squad Label | Yes | The Squad Label to monitor for spawned Squads.|
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Squad | Squad | Which Squad has spawned with the specified Squad Label. |
+| Team | Team | What team the Squad is on.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
