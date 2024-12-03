@@ -1,13 +1,25 @@
 # Compare Wave Victory Reason
+![alt text](../../../.gitbook/assets/compare-wave-victory-reason.png)
 
 ## Description
 Compares two Victory Reason values
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Victory Reason A | Victory Reason | Yes | A Victory Reason that you are checking is the same. (Custom 1-8, Extermination, and Duration)|
+| Victory Reason B | Victory Reason | Yes | A Victory Reason that you are checking is the same. (Custom 1-8, Extermination, and Duration)|
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| Are Same Victory Reason | Boolean | If both Victory Reasons are the same the output will be TRUE, otherwise it will be FALSE. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

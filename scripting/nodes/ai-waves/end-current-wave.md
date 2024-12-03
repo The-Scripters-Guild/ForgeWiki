@@ -1,13 +1,28 @@
 # End Current Wave
+![alt text](../../../.gitbook/assets/end-current-wave.png)
 
 ## Description
 Ends the current wave, optionally killing the Active Squads from the current wave and Straggler Squads left over from previous waves
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Wave Manager | Wave Manager | Yes | The Wave Manager that will stop spawning squads.|
+| Victory Reason | Victory Reason | Yes | The Victory Reason that the wave was ended. (Custom 1-8, Extermination, Duration)|
+| Kill Active Squads | Boolean | Yes | Whether or not to kill any currently remaining AI from this wave.|
+| Kill Straggler Squads | Boolean | Yes | Whether or not to kill any currently remaining AI from other waves.|
+
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
 

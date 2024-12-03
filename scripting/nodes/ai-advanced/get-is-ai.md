@@ -10,7 +10,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Inputs
 | Input            | Type             | Required | Description												    |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Object | Object | Yes | Object to check if it's an AI.|
+| Object | Object | Yes | Check if this object is an AI.|
 
 ## Outputs
 | Output           | Type             | Description												     |

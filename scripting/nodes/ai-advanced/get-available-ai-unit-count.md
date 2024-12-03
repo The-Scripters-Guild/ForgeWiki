@@ -15,7 +15,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Outputs
 | Output           | Type             | Description												     |
 |------------------|------------------|--------------------------------------------------------------|
-| Available AI Unit Count | Number | Total Count of AI Units that can be spawned before reaching runtime budge limit.|
+| Available AI Unit Count | Number | Total Count of AI Units that can be spawned before reaching runtime budget limit.|
 
 \
 \

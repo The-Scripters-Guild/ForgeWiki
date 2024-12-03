@@ -1,13 +1,25 @@
 # Set AI Unit Magic Sight
+![alt text](../../../.gitbook/assets/set-ai-unit-magic-sight.png)
 
 ## Description
 Sets the Magic Sight behavior on an AI Unit
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| AI Unit | Object | Yes | The AI Unit to set Magic Sight for.|
+| Is Sight Magical | Boolean | Yes | If set to TRUE, AI has Magic Sight, if FALSE AI does not.
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| N\A | N\A | N\A |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

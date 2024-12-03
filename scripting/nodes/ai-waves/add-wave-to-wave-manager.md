@@ -1,13 +1,25 @@
 # Add Wave To Wave Manager
+![alt text](../../../.gitbook/assets/add-wave-to-wave-manager.png)
 
 ## Description
 Adds a wave to the queue of a Wave Manager, which automatically spawns waves until its queue is empty. There can be up to 8 wave managers running simultaneously.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Wave | Wave | Yes | The Wave that is being added to the Wave Manager.|
+| Wave Manager | Wave Manager | Yes | Which Wave Manager to add the Wave to.|
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
