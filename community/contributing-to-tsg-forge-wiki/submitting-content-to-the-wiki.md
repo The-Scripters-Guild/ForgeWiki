@@ -114,15 +114,7 @@ We've created a [Style Guide](style-guide.md) that showcases the most common art
 
 Search the Wiki for existing information about the topic you are looking for. Use the the Search bar in the top right of the site. The search will index any instances of the search term, which is very useful for finding any mentions of the information you are trying to find.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/wiki-search1.jpg" alt=""><figcaption><p>Searching for an article name</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/wiki-search2.jpg" alt=""><figcaption><p>Searching for a mention of a term within an article</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/wiki-search1.jpg" alt=""><figcaption><p>Searching for an article name</p></figcaption></figure> <figure><img src="../../.gitbook/assets/wiki-search2.jpg" alt=""><figcaption><p>Searching for a mention of a term within an article</p></figcaption></figure></div>
 
 Based on if relevant information already exists or not, you can make a decision on whether to [edit  existing content](submitting-content-to-the-wiki.md#editing-existing-articles), [add new content](submitting-content-to-the-wiki.md#adding-new-articles) or to drop the initiative.
 
@@ -155,21 +147,13 @@ When adding new articles that don't have a `.md` file and a `SUMMARY.md` entry f
 
 Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh/)). This file will act as the page file that can be edited.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/vscode-naming-page.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/vscode-naming-page.jpg" alt=""><figcaption></figcaption></figure></div>
 
 #### Pages with sub-pages
 
 Also known as the main file of a folder. Create a folder with the name of the page in kebab-case (`nav-mesh-generation` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/)); create a file inside the folder with the name `README.md`. The `README.md` file will act as the page file that can be edited.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/vscode-naming-subpage.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/vscode-naming-subpage.jpg" alt=""><figcaption></figcaption></figure></div>
 
 #### Updating SUMMARY.md
 
@@ -237,11 +221,7 @@ Once your pull request gets merged, the changes will update to the live Wiki pag
 
 If changes to the repo have been done by someone other than you and the copy of the repo on your local machine is outdated, the local repo will have to be synced to the repo on GitHub. To do this from VS Code, click the "Synchronize Changes" button in the bottom left.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/vscode-repo-sync.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/vscode-repo-sync.jpg" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -251,7 +231,7 @@ If you want to get a very accurate preview of what your added content will look 
 
 When working with a forked repo, you have to constantly make sure that it's synced to the main repo so that you won't make changes that have already been made in the main repo. Do this via the "Sync Fork" button in your forked repo on GitHub, then [sync the changes](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment) to your local cloned repo in VS Code.
 
-As GitBook has it's own adaptation of the [Markdown syntax](https://commonmark.org/), that VS Code can't preview accurately it can be beneficial to be able to see the correct preview of what GitBook-specific [Blocks](https://docs.gitbook.com/content-editor/blocks) will look like. VS Code has some extensions to make the Markdown preview look like Git_Hub_'s preview, but not for GitBook. The use of these extensions is explained in the section [Useful Visual Studio Code extensions](submitting-content-to-the-wiki.md#useful-visual-studio-code-extensions).
+As GitBook has it's own adaptation of the [Markdown syntax](https://commonmark.org/), that VS Code can't preview accurately it can be beneficial to be able to see the correct preview of what GitBook-specific [Blocks](https://docs.gitbook.com/content-editor/blocks) will look like. VS Code has some extensions to make the Markdown preview look like Gi&#x74;_&#x48;ub_'s preview, but not for GitBook. The use of these extensions is explained in the section [Useful Visual Studio Code extensions](submitting-content-to-the-wiki.md#useful-visual-studio-code-extensions).
 
 <figure><img src="../../.gitbook/assets/gitbook-article-preview.jpg" alt=""><figcaption><p>Image from the GitBook editing interface that this article was written in</p></figcaption></figure>
 

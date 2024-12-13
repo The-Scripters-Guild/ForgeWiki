@@ -10,15 +10,7 @@ description: How to configure your own Firefight KOTH modes and levels.
 
 By default, the mode is set up with predetermined squad definitions and the overrides to allow this built-in config are enabled.
 
-<div>
-
-<figure><img src="../../../../.gitbook/assets/firefight-override-map-ai-placements.png" alt=""><figcaption><p>Overriding the AI Spawners on the level is required for the Override AI Placements Source setting to matter.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/firefight-override-ai-placement-source.png" alt=""><figcaption><p>This setting determines if the mode will use 343's preconfigured Firefight experience, or if it will override it.</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../.gitbook/assets/firefight-override-map-ai-placements.png" alt=""><figcaption><p>Overriding the AI Spawners on the level is required for the Override AI Placements Source setting to matter.</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/firefight-override-ai-placement-source.png" alt=""><figcaption><p>This setting determines if the mode will use 343's preconfigured Firefight experience, or if it will override it.</p></figcaption></figure></div>
 
 These settings can be changed to make the mode pull lists from the Mode Options, or from the level itself. By default, the mode will override the settings on spawners placed on the level and use a configuration that we cannot see nor edit provided by 343 as the stock behavior of the mode.
 
@@ -26,7 +18,7 @@ The stock mode options provides a robust experience with a variety of enemies pr
 
 Using the custom waves gives players easy ways to create modes like Gruntpocalypse and expect to be able to play them on any level that is properly configured for the base mode. To use the custom waves in the game mode settings, Override Map AI Placements must be set to `TRUE` and Override AI Placements Source must be set to `Custom`.\
 \
-To use the settings of spawners to decide which enemies to spawn, Override Map AI Placements simply needs to be set to `FALSE`.&#x20;
+To use the settings of spawners to decide which enemies to spawn, Override Map AI Placements simply needs to be set to `FALSE`.
 
 ### Wave Config
 
@@ -67,7 +59,7 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 
 </details>
 
-<figure><img src="../../../../.gitbook/assets/Firefight - Custom Waves Options.jpg" alt=""><figcaption><p>Custom Waves can be set up with up to 5 unit types apiece. <br>All spawnable units are available to be selected.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Firefight - Custom Waves Options.jpg" alt=""><figcaption><p>Custom Waves can be set up with up to 5 unit types apiece.<br>All spawnable units are available to be selected.</p></figcaption></figure>
 
 ## Minimum Object Placements
 
@@ -87,11 +79,11 @@ To use the settings of spawners to decide which enemies to spawn, Override Map A
 
 \* _Not required for the mode to function, but required for full UX and for Matchmaking standards_\
 \*\* _Required because the "Weapon Drop" code can't run without them, which breaks the mode logic._\
-_\*\*\* This is because there is currently an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10._
+&#xNAN;_\*\*\* This is because there is currently an off-by-one error, Subgroup Index 1 does nothing, Subgroup Index 2 behaves as Subgroup Index 1 should and 3-10 cycle instead of 2-10._
 
 ## Configuring Hills
 
-Aside from applying the `Firefight Objective`  and `Firefight KOTH Include` labels, and setting the desired size of the boundary, each hill only needs the Group Index set. The Group Index is what determines the order of the hills as the game progresses.&#x20;
+Aside from applying the `Firefight Objective` and `Firefight KOTH Include` labels, and setting the desired size of the boundary, each hill only needs the Group Index set. The Group Index is what determines the order of the hills as the game progresses.
 
 * Group Index 1 will always be the first, as this allows you to curate the player's experience at spawn and create more consistent experiences, which can make or break someone's enjoyment when they play your content for the first time.\*
 * Group Indexes 2-10 will cycle randomly by default, but will progress in order if Sequential Sets is set to `TRUE` in the mode settings.\*
@@ -104,7 +96,7 @@ Aside from applying the `Firefight Objective`  and `Firefight KOTH Include` labe
 
 WARNING: It appears that duplicating spawners can cause issues with their Group Index configuration. If you are having issues with your spawners you can't explain and you created them by duplicating other spawners, it may be as simple as replacing them with freshly placed spawners from the menu.
 
-Aside from setting up enemies for bespoke experiences, which is not required for stock Firefight KoTH, the important settings for Spawners are all in the Indexes section. To be clear, this means you only need to set up the enemies on the spawners themselves if you are using a variant of the mode that doesn't have Override Map AI Placements enabled.&#x20;
+Aside from setting up enemies for bespoke experiences, which is not required for stock Firefight KoTH, the important settings for Spawners are all in the Indexes section. To be clear, this means you only need to set up the enemies on the spawners themselves if you are using a variant of the mode that doesn't have Override Map AI Placements enabled.
 
 ### Group Index
 
@@ -140,14 +132,14 @@ Subgroup Indexes are different in that spawners can be assigned none or all of t
 
 ## Match Flow
 
-Each phase of play consists of a hill spawning in and being captured, followed by progression to the next phase. In the mode settings, these phases are referred to as 'Sets'.&#x20;
+Each phase of play consists of a hill spawning in and being captured, followed by progression to the next phase. In the mode settings, these phases are referred to as 'Sets'.
 
 Hills and Spawners are assigned to each set using the Group Index setting. For an unmodified Firefight KotH, only Group Indexes 1-5 are relevant, but 6-10 will also work if used and paired with a properly configured mode variant.
 
 ### Set Start
 
 * Hill Incoming Nav appears
-* &#x20;"Initial Guards" spawn
+* "Initial Guards" spawn
   * The mode selects up to 4 spawners with the current Set's Group Index that are assigned to Subgroup Index 1 and triggers them.\*
   * Less than 4 spawners being available will still function, but will reduce the number of AI that spawn. Smaller levels, like Live Fire, only use 3 spawners for Subgroup Index 1 for each Set.\*
 
@@ -166,9 +158,9 @@ Hills and Spawners are assigned to each set using the Group Index setting. For a
 
 * Once Team 1 has reached 75% capture progress, the Boss Wave triggers and no new reinforcements will be spawned for the current Set.
   * Because this can happen right after reinforcements spawn, this can cause spawners to be used in quick succession. This can cause issues with phantom spawners and in tight spaces with regular spawners.
-* The boss enemy themselves will be prioritized to spawn from a phantom spawner if one is available and will use a random (properly configured for the current set) spawner if one is not.&#x20;
+* The boss enemy themselves will be prioritized to spawn from a phantom spawner if one is available and will use a random (properly configured for the current set) spawner if one is not.
 * Spawners not used by the boss enemy during the boss wave will spawn support squads. Because of this, it is prudent to not spread these out too much, or the boss wave might be too easy.
-* Defeating the boss and their cadre does not automatically capture the hill, but it does put the hill in  an 'accelerated capture' state, where capture progress is considerably faster.
+* Defeating the boss and their cadre does not automatically capture the hill, but it does put the hill in an 'accelerated capture' state, where capture progress is considerably faster.
 
 ### Capture
 

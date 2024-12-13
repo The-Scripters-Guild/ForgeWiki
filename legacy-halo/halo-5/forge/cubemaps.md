@@ -78,7 +78,7 @@ For example, one could surround the cube map location in a box. If the box is da
 <img src="http://i.imgur.com/5G4Adgu.jpg" alt="Example" data-size="original">
 
 ![Example 2](http://i.imgur.com/u4q7Ipw.png)\
-_Scripting not necessary ;)_
+&#xNAN;_&#x53;cripting not necessary ;)_
 
 <img src="http://i.imgur.com/PfATR0P.jpg" alt="Example 3" data-size="original"> <img src="http://i.imgur.com/o8A6xlZ.png" alt="Example 4" data-size="original">
 

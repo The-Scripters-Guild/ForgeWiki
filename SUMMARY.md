@@ -1113,6 +1113,8 @@
       * [Havens](community/content/modes/tsg-modes/havens.md)
       * [Conquest](community/content/modes/tsg-modes/conquest.md)
       * [Sportsball](community/content/modes/tsg-modes/sportsball.md)
+      * [Warzone Fiesta](community/content/modes/tsg-modes/warzone-fiesta/README.md)
+        * [Supported Maps](community/content/modes/tsg-modes/warzone-fiesta/supported-maps.md)
     * [Bot Backfill Modes](community/content/modes/bot-backfill-modes.md)
     * [Mode Functionality Test Modes](community/content/modes/mode-functionality-test-modes.md)
     * [Multi-Team Modes](community/content/modes/multi-team-modes.md)
