@@ -1,13 +1,24 @@
 # Trait AI: Prevent Weapon Firing
+![alt text](../../../.gitbook/assets/trait-ai-prevent-weapon-firing.png)
 
 ## Description
 Nodes that interact with traits that modify base AI behavior
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Prevent Firing | Boolean | Yes | If TRUE, AI will not be able to fire weapons. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Trait | Trait | Outputs whether the Prevent Weapon Firing Trait is active or not.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

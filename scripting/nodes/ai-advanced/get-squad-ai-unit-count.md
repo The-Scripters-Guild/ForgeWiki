@@ -10,12 +10,12 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Inputs
 | Input            | Type             | Required | Description												    |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Squad | Squad | Yes | Squad to use to get AI Count.|
+| Squad | Squad | Yes | Which Squad node is counting.|
 
 ## Outputs
 | Output           | Type             | Description												     |
 |------------------|------------------|--------------------------------------------------------------|
-| Original Unit Count | Number | Total number of AI Units that spawned with squad. |
+| Original Unit Count | Number | Total number of AI Units that spawn with squad. |
 | Remaining Unit Count | Number | Total number of AI Units in squad that are still alive. |
 | Percent Remaining | Number | Percent of AI Units in squad that are still alive. |
 

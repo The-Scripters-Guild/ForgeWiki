@@ -1,13 +1,24 @@
 # Trait AI: Weapon Damage
+![alt text](../../../.gitbook/assets/trait-ai-weapon-damage.png)
 
 ## Description
 Affects how much damage AI Unit deals with their weapons. A Scalar of 1.0 is default. Higher values mean the AI Unit deals more damage.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Scalar | Number (0.0 - 10,000) | Yes | How much additional damage AI will do to other Units.|
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Trait | Trait | Outputs the Trait that will give AI the extra damage. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
