@@ -58,7 +58,7 @@ To discover more great content produced by TSG members and the Halo community at
 >
 > Thanks to AddiCt3d 2CHa0s, Agent ZeroBS, Exterestr1al, Noykard, Randy 355, Ray Benefield, Sn1p3r\_C, Yumudas Beegbut, the rest of our TSG veterans and Journeyman, and the Forge team for their support over the years\
 > \
-> _She’s a good ship. Keep treating her well and she’ll be seaworthy for years to come. Welcome to it._\
+> &#xNAN;_&#x53;he’s a good ship. Keep treating her well and she’ll be seaworthy for years to come. Welcome to it._\
 > \- Captain Punch (Admin)
 
 
