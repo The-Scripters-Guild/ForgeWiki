@@ -16,6 +16,9 @@ Published maps with full support for Warzone Fiesta include:
 * [Death Island Evolved](https://www.halowaypoint.com/halo-infinite/ugc/maps/f6964687-52ea-4269-b34e-445c2446b3e2)
 * [Blood Triangulch | WZ Fiesta](https://www.halowaypoint.com/halo-infinite/ugc/maps/c090a9ae-5c2d-45f5-b4a3-74c124aa816c)
 * [Plunderland](https://www.halowaypoint.com/halo-infinite/ugc/maps/e084c228-acbf-4c12-a5c9-173cd75d025a)
+* [Hollow](https://www.halowaypoint.com/halo-infinite/ugc/maps/ebe54426-33cf-42ec-8275-c580772d933d)
+* [Breakpoint](https://www.halowaypoint.com/halo-infinite/ugc/maps/9c5c468c-b108-476b-b71a-c7c6a589e53f)
+* [Escarpment](https://www.halowaypoint.com/halo-infinite/ugc/maps/ec0ef411-02f6-4950-9505-9a24553f8c15)
 
 
 
