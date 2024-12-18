@@ -11,10 +11,13 @@ A searchable list of all spawnable objects from the Object Browser in Halo Infin
 ## Object List Versions
 
 * [CU29](https://docs.google.com/document/d/1c\_6PJL1bz11M54poWW99SGxyDhjmCS-25MKICdCzZ-M)
+* [CU34, Fleetcom Operation Update](https://github.com/The-Scripters-Guild/ForgeWiki/blob/e498f4f809d7a1fbf49041f5fd450b8853cd0b3d/forge/forge-basics-and-ui/forge-interface/object-browser/forge-object-list.md)
 
-Current list up-to-date as of [CU34, Fleetcom Operation Update](https://support.halowaypoint.com/hc/en-us/articles/28737969381780-Halo-Infinite-Fleetcom-Operation-Update-Patch-Notes).
+Current list up-to-date as of [Snowbound Operation Update](https://support.halowaypoint.com/hc/en-us/articles/32659387053844-Halo-Infinite-Snowbound-Operation-Update-Patch-Notes).
+
 
 ## Accents
+
 
 ### Antennas
 
@@ -47,7 +50,6 @@ UNSC Satellite Dish Portable
 UNSC Satellite Dish Trailer
 
 
-
 ### Antennas MP
 
 Radar Ball MP
@@ -58,10 +60,9 @@ UHF Antenna MP
 
 UNSC Antenna Boom MP
 
-UNSC Satellite DIsh Mounted MP
+UNSC Satellite Dish Mounted MP
 
 UNSC Satellite Dish Portable MP
-
 
 
 ### Arena
@@ -77,12 +78,13 @@ Arena Cover A
 Arena Octagon Cover
 
 
-
 ### Banished
 
 Attach Shield A
 
 Attach Thruster A
+
+Banished Food Container A
 
 Barricade Cover Half B
 
@@ -156,15 +158,13 @@ Elevator Tunnel Platform A
 
 Floor Grating
 
-Food Container A
-
 Food Container Stack
 
 Gate Outpost Engine
 
 Grating Floor Upper Connection
 
-Crating Floor Upper Short
+Grating Floor Upper Short
 
 Harvester Antenna
 
@@ -251,11 +251,9 @@ Watchtower Base A
 Watchtower Main A
 
 
-
 ### Banished MP
 
 Control Room Window
-
 
 
 ### Barrels
@@ -275,7 +273,6 @@ UNSC Barrel
 Water Barrel
 
 
-
 ### Barrels MP
 
 Barrel Closed Rusty Striped MP
@@ -285,7 +282,6 @@ Barrel Closed Striped MP
 Barrel Closed Worn MP
 
 UNSC Barrel MP
-
 
 
 ### Bazaar
@@ -303,7 +299,6 @@ Tire w/Tread
 Tire w/Wheel
 
 Wheel
-
 
 
 ### Bazaar MP
@@ -331,7 +326,6 @@ Tire w/Wheel MP
 UNSC Duffle Bag MP
 
 Wheel MP
-
 
 
 ### Bodies
@@ -396,11 +390,11 @@ Sentinel Wreckage B
 
 Sentinel Wreckage C
 
-Spartan Griffin's Amor
+Spartan Griffin's Armor
 
-Spartan Hovarth's Amor
+Spartan Hovarth's Armor
 
-Spartan Kovan's Amor
+Spartan Kovan's Armor
 
 Spartan Makovich's Armor
 
@@ -408,14 +402,13 @@ Spartan Sorel's Armor
 
 Spartan Sorel's Armor Infected
 
-Spartan Stone's Amor
+Spartan Stone's Armor
 
-Spartan Stone's Amor Infected
+Spartan Stone's Armor Infected
 
-Spartan Vettel's Amor
+Spartan Vettel's Armor
 
-Spartan Vettel's Amor Infected
-
+Spartan Vettel's Armor Infected
 
 
 ### City Props
@@ -489,7 +482,6 @@ Wall Air Machine
 Window Facade
 
 
-
 ### City Props MP
 
 AC Unit Large MP
@@ -523,7 +515,6 @@ Ventilation Unit Roof MP
 Ventilation Unit Wall MP
 
 Wall Air Machine MP
-
 
 
 ### Covenant
@@ -599,7 +590,6 @@ High Charity Door
 High Charity Doorframe
 
 
-
 ### Cover
 
 Concrete Barrier Long
@@ -627,7 +617,6 @@ UNSC Deployable Cover Large
 UNSC Deployable Cover Small
 
 
-
 ### Cover MP
 
 Concrete Barrier Long MP
@@ -649,7 +638,6 @@ Steel Concrete Barrier Short MP
 UNSC Deployable Cover Large MP
 
 UNSC Deployable Cover Small MP
-
 
 
 ### Crates
@@ -695,7 +683,6 @@ UNSC Top Load Case
 Water Pallet
 
 Weapon Crate
-
 
 
 ### Crates MP
@@ -783,7 +770,6 @@ Water Pallet MP
 Weapon Crate MP
 
 
-
 ### Destructibles
 
 Clay Pot A
@@ -792,7 +778,7 @@ Clay Pot B
 
 Clay Pot C w/Palm A
 
-Play Pot C w/Palm B
+Clay Pot C w/Palm B
 
 Clay Pot C w/Palm C
 
@@ -862,8 +848,6 @@ Target Dummy Grunt
 
 Wall Keypad
 
-Wooden Bench
-
 Wooden Bookcase A
 
 Wooden Bookcase B
@@ -911,7 +895,6 @@ Wooden Railing Broken B
 Wooden Railing Stairs
 
 Woven Basket
-
 
 
 ### Destructibles MP
@@ -1022,7 +1005,7 @@ Wood Plank A MP
 
 Wood Plank B MP
 
-What Plank C MP
+Wood Plank C MP
 
 Wood Plank Pile A MP
 
@@ -1085,7 +1068,6 @@ Wooden Table MP
 Woven Basket MP
 
 
-
 ### Ducts
 
 Vent 15° Corner
@@ -1111,7 +1093,6 @@ Vent T Joint
 Vent X Joint
 
 
-
 ### Fences
 
 Chain link Fence
@@ -1127,7 +1108,6 @@ Chain link Fence Gateway
 Fence Single
 
 
-
 ### Fences MP
 
 Chain link Fence Corner MP
@@ -1141,7 +1121,6 @@ Fence Tall MP
 Gates Commercial District A MP
 
 Gates Commercial District B MP
-
 
 
 ### Flood
@@ -1165,7 +1144,6 @@ Human Brutalist Rebar Broken B
 Human Brutalist Rebar Broken C
 
 Human Brutalist Rebar Broken D
-
 
 
 ### Flood MP
@@ -1335,7 +1313,6 @@ Human Brutalist Rebar Broken D MP
 Human Brutalist Rebar MP
 
 
-
 ### Forerunner
 
 Forerunner 24 x 60 x 24 Angled Support
@@ -1370,7 +1347,7 @@ Forerunner Catwalk Right A
 
 Forerunner Catwalk Right B
 
-Forerunner Catwalk Rate C
+Forerunner Catwalk Right C
 
 Forerunner Catwalk Right D
 
@@ -1511,7 +1488,6 @@ Forerunner Totem Ring Chunk
 Forerunner Totem Ring Debris
 
 
-
 ### Forerunner MP
 
 Forerunner Beam A MP
@@ -1540,7 +1516,7 @@ Forerunner Catwalk Right A MP
 
 Forerunner Catwalk Right B MP
 
-Forerunner Catwalk Rate C MP
+Forerunner Catwalk Right C MP
 
 Forerunner Catwalk Right D MP
 
@@ -1563,6 +1539,8 @@ Forerunner Cover Half Left B MP
 Forerunner Cover Half Right B MP
 
 Forerunner Dead Door Small
+
+Forerunner Door Inquisitor MP
 
 Forerunner Hex Pillar 128 x 384 MP
 
@@ -1657,7 +1635,6 @@ Forerunner Totem Ring Debris MP
 Hacking Terminal MP
 
 
-
 ### Garbage
 
 Bottle Glass
@@ -1685,7 +1662,6 @@ Trash Bin A
 Trash Can Closed
 
 Warthog Tire Flat
-
 
 
 ### Garbage MP
@@ -1741,7 +1717,6 @@ Trashbag B MP
 Warthog Tire Flat MP
 
 
-
 ### Glass
 
 Glass Transparent 10%
@@ -1763,7 +1738,6 @@ Glass Transparent 80%
 Glass Transparent 90%
 
 
-
 ### Holograms
 
 Hologram Ring A
@@ -1771,7 +1745,6 @@ Hologram Ring A
 Hologram Ring B
 
 Prison Structure Hologram
-
 
 
 ### Missiles
@@ -1785,13 +1758,11 @@ Sabre Missile
 Sabre Missile Rack
 
 
-
 ### Missiles MP
 
 Sabre Missile MP
 
 Sabre Missile Rack MP
-
 
 
 ### Panels
@@ -1805,7 +1776,6 @@ Tapered Panel
 Tech Panel
 
 Y Panel
-
 
 
 ### Pipes
@@ -1827,7 +1797,6 @@ Pipe T Joint
 Pipe X Joint
 
 Pipe Y Joint
-
 
 
 ### Railings
@@ -1875,7 +1844,6 @@ UNSC Railing Slanted Outer B
 UNSC Railing Slanted Outer C
 
 
-
 ### Railings MP
 
 UNSC Railing A MP
@@ -1921,7 +1889,6 @@ UNSC Railing Slanted Outer B MP
 UNSC Railing Slanted Outer C MP
 
 
-
 ### Rubble
 
 Rubble Pile A
@@ -1933,7 +1900,6 @@ Rubble Pile C
 UNSC Rubble Pile Small
 
 
-
 ### Sandbags
 
 Sandbag
@@ -1942,7 +1908,7 @@ Sandbag Curve Large
 
 Sandbag Curve Medium
 
-Sandbag Curves Small
+Sandbag Curve Small
 
 Sandbag Pallet Large
 
@@ -1975,7 +1941,6 @@ Sandbag Wall - 8ft
 UNSC Sandbag
 
 UNSC Sandbag Halfcover
-
 
 
 ### Sandbags MP
@@ -2023,7 +1988,6 @@ UNSC Sandbag Halfcover MP
 UNSC Sandbag MP
 
 
-
 ### Signs
 
 Blank Sign
@@ -2032,7 +1996,7 @@ Cinema Sign
 
 Exit Sign
 
-Fronk’s
+Fronk's
 
 Hospital Sign
 
@@ -2041,14 +2005,13 @@ Hotel Sign
 Star Neon
 
 
-
 ### Supports
 
 Angled Boomerang
 
 Bracket
 
-Ceiling Support
+Ceiling support
 
 Double Sided Bracket
 
@@ -2093,7 +2056,6 @@ Thick Wall Bracket
 Y Beam Support
 
 
-
 ### Tools MP
 
 Duct Tape Roll MP
@@ -2117,7 +2079,6 @@ Tool - Torch MP
 Tool - Torque Wrench MP
 
 Tool - Wrench MP
-
 
 
 ### UNSC
@@ -2234,7 +2195,7 @@ Panel Cover
 
 Patch Kit
 
-Radio Receiver
+Radio Reciever
 
 Rectangle Cover
 
@@ -2337,7 +2298,6 @@ Wreckage Panel D
 Wreckage Panel E
 
 
-
 ### UNSC MP
 
 Angled Wire Fence MP
@@ -2346,7 +2306,7 @@ Bridge Support Pillar MP
 
 Canvas Bag MP
 
-Clip-on Light A MP
+Clip-on Light MP
 
 Concrete Block MP
 
@@ -2459,7 +2419,6 @@ Wreckage Panel D MP
 Wreckage Panel E MP
 
 
-
 ### Vehicles
 
 Civilian Van
@@ -2477,7 +2436,6 @@ UNSC Submarine
 UNSC Truck Wheel
 
 
-
 ### Vehicles MP
 
 Forklift MP
@@ -2493,7 +2451,6 @@ UNSC Pelican (Landed)
 UNSC Sabre MP
 
 UNSC Truck Wheel MP
-
 
 
 ### Wires
@@ -2515,7 +2472,6 @@ UNSC Hanging Wires D
 UNSC Hanging Wires E
 
 
-
 ### Wires MP
 
 Curved Wires MP
@@ -2527,7 +2483,6 @@ UNSC Hanging Wires C MP
 UNSC Hanging Wires D MP
 
 UNSC Hanging Wires E MP
-
 
 
 ### Workstations
@@ -2545,7 +2500,6 @@ Workstation C
 Workstation D
 
 Workstation Partition
-
 
 
 ### Workstations MP
@@ -2567,8 +2521,8 @@ Workstation D MP
 Workstation Partition MP
 
 
-
 ## Biomes
+
 
 ### Alien Planet
 
@@ -2730,11 +2684,11 @@ Nebulous Weeds B MP
 
 Nebulous Weeds C MP
 
-Neon Piles A MP
+Neon Pilea A MP
 
-Neon Piles B MP
+Neon Pilea B MP
 
-Neon Piles C MP
+Neon Pilea C MP
 
 Octorose Plant MP
 
@@ -2807,7 +2761,6 @@ Wall Calendrum B MP
 Wall Calendrum C MP
 
 
-
 ### Bushes
 
 Alpine Bush A
@@ -2831,7 +2784,6 @@ Pine Bush C
 Pine Bush D
 
 Pine Bush E
-
 
 
 ### Bushes MP
@@ -2881,7 +2833,6 @@ Snow Covered Pine Bush C MP
 Snow Covered Pine Bush Cluster A MP
 
 Snow Covered Pine Bush D MP
-
 
 
 ### Flora
@@ -2999,7 +2950,6 @@ Weed Patch M
 Weed Patch S
 
 Weed Patch XL
-
 
 
 ### Flora MP
@@ -3275,7 +3225,6 @@ Weed Patch S MP
 Weed Patch XL MP
 
 
-
 ### Ice and Snow MP
 
 Ice Shard A L MP
@@ -3345,7 +3294,6 @@ Snowball Cluster A MP
 Snowball D MP
 
 Snowball Pile A MP
-
 
 
 ### Rocks - Alien Planet
@@ -3421,7 +3369,6 @@ Opal Cracked Boulder C MP
 Opal Cracked Boulder D MP
 
 
-
 ### Rocks - Alpine
 
 Alpine Boulder
@@ -3481,7 +3428,6 @@ Alpine Stalactites D
 Alpine Stalactites E
 
 Alpine Stalactites F
-
 
 
 ### Rocks - Burnt Forest
@@ -3545,7 +3491,6 @@ Burnt Forest Stalactites E
 Burnt Forest Stalactites F
 
 
-
 ### Rocks - Desert
 
 Desert Boulder
@@ -3607,16 +3552,15 @@ Desert Stalactites E
 Desert Stalactites F
 
 
-
 ### Rocks - Glacier
 
 Glacier Boulder
 
-Glacier Chunk L
+Glacier Chunk L MP
 
-Glacier Chunk M
+Glacier Chunk M MP
 
-Glacier Chunk S
+Glacier Chunk S MP
 
 Glacier Rock Arch
 
@@ -3675,7 +3619,6 @@ Glacier Stalactites E
 Glacier Stalactites F
 
 
-
 ### Rocks - Misc
 
 Eroded Terrain Column A
@@ -3686,14 +3629,13 @@ Eroded Terrain D
 
 Eroded Terrain E
 
-Eroded Terrain E \[TI]
+Eroded Terrain E [TI]
 
 Terrain Hex Granite A
 
 Terrain Hex Granite A - Original
 
 Terrain Hex Granite C
-
 
 
 ### Rocks - Space
@@ -3757,7 +3699,6 @@ Space Stalactites E
 Space Stalactites F
 
 
-
 ### Rocks - Tidal
 
 Tidal Boulder
@@ -3817,7 +3758,6 @@ Tidal Stalactites D
 Tidal Stalactites E
 
 Tidal Stalactites F
-
 
 
 ### Rocks - Wetlands
@@ -3881,7 +3821,6 @@ Wetlands Stalactites E
 Wetlands Stalactites F
 
 
-
 ### Stumps
 
 Broken Stump A
@@ -3889,7 +3828,6 @@ Broken Stump A
 Broken Stump B
 
 Broken Stump C
-
 
 
 ### Stumps MP
@@ -3907,69 +3845,67 @@ Burnt Broken Stump B MP
 Burnt Broken Stump C MP
 
 
-
 ### Terrain
 
 Bank Full
 
-Bank Full \[TI]
+Bank Full (TI)
 
 Bank Half
 
-Bank Half \[TI]
+Bank Half (TI)
 
 Bowl/Hill
 
-Bowl/Hill \[TI]
+Bowl/Hill (TI)
 
 Ramp
 
-Ramp \[TI]
+Ramp (TI)
 
 Ramp Corner Exterior
 
-Ramp Corner Exterior \[TI]
+Ramp Corner Exterior (TI)
 
 Ramp Corner Interior
 
-Ramp Corner Interior \[TI]
+Ramp Corner Interior (TI)
 
 Ramp Transition
 
-Ramp Transition \[TI]
+Ramp Transition (TI)
 
 Slope Helper 20°
 
-Slope Helper 20° \[TI]
+Slope Helper 20° (TI)
 
 Slope Helper 40°
 
-Slope Helper 40° \[TI]
+Slope Helper 40° (TI)
 
 Slope Helper 60°
 
-Slope Helper 60° \[TI]
+Slope Helper 60° (TI)
 
 Sphere Terrain
 
-Sphere Terrain \[TI]
+Sphere Terrain (TI)
 
 Terrace Terrain
 
-Terrace Terrain \[TI]
+Terrace Terrain (TI)
 
 Terrain Flat
 
-Terrain Flat \[TI]
+Terrain Flat (TI)
 
 Terrain Rugged
 
-Terrain Rugged \[TI]
+Terrain Rugged (TI)
 
 Trench Terrain
 
-Trench Terrain \[TI]
-
+Trench Terrain (TI)
 
 
 ### Trees
@@ -4041,7 +3977,6 @@ Tree Larch Small A
 Tree Larch Small B
 
 
-
 ### Trees - Logs
 
 Fallen Tree A
@@ -4053,7 +3988,6 @@ Fallen Tree C
 Fallen Tree D
 
 Fallen Tree E
-
 
 
 ### Trees - Logs MP
@@ -4125,7 +4059,6 @@ Snagged Log C MP
 Snagged Log D MP
 
 
-
 ### Trees - Roots MP
 
 Burnt Root Cluster MP
@@ -4161,7 +4094,6 @@ Roots Frozen C MP
 Roots Hanging A MP
 
 Roots Hanging B MP
-
 
 
 ### Trees MP
@@ -4281,7 +4213,6 @@ Sub Alpine Fir Small B MP
 Sub Alpine Fir Small C MP
 
 
-
 ### Water
 
 Water Plane
@@ -4289,8 +4220,8 @@ Water Plane
 Water Plane Reactive
 
 
-
 ## Blockers
+
 
 ### One Way Blockers
 
@@ -4361,8 +4292,7 @@ One Way Blocker 8x32x4
 One Way Blocker 8x8x8
 
 
-
-### Players Blockers
+### Player Blockers
 
 Player Blocker 128x128x128
 
@@ -4429,7 +4359,6 @@ Player Blocker 8x2x4
 Player Blocker 8x32x4
 
 Player Blocker 8x8x8
-
 
 
 ### Projectile Blockers
@@ -4501,7 +4430,6 @@ Projectile Blocker 8x32x4
 Projectile Blocker 8x8x8
 
 
-
 ### Scalable Blockers
 
 Scalable One Way Blocker
@@ -4512,10 +4440,9 @@ Scalable Projectile Blocker
 
 Scalable Team Blocker
 
-Scalable Universal blocker
+Scalable Universal Blocker
 
 Scalable Vehicle Blocker
-
 
 
 ### Team Blockers
@@ -4587,7 +4514,6 @@ Team Blocker 8x32x4
 Team Blocker 8x8x8
 
 
-
 ### Universal Blockers
 
 Universal Blocker 128x128x128
@@ -4657,8 +4583,7 @@ Universal Blocker 8x32x4
 Universal Blocker 8x8x8
 
 
-
-### Team Blockers
+### Vehicle Blockers
 
 Vehicle Blocker 128x128x128
 
@@ -4727,8 +4652,8 @@ Vehicle Blocker 8x32x4
 Vehicle Blocker 8x8x8
 
 
-
 ## Decals
+
 
 ### Alien Planet
 
@@ -4775,7 +4700,6 @@ Web Extraterrestrial E
 Web Extraterrestrial F
 
 
-
 ### Banished
 
 Banished Glyph 01
@@ -4807,7 +4731,6 @@ Banished Glyph 13
 Banished Glyph 14
 
 Banished Glyph 15
-
 
 
 ### Building Signage
@@ -4853,7 +4776,6 @@ Power Generator
 Storage
 
 Supply Depot
-
 
 
 ### Covenant
@@ -4967,7 +4889,6 @@ Covenant Tech Glyph E
 Covenant Tech Glyph F
 
 
-
 ### Editable
 
 Cracks
@@ -4989,7 +4910,6 @@ Stain
 Stones
 
 Streak
-
 
 
 ### Flood
@@ -5017,7 +4937,6 @@ Blightlands Mold C
 Blightlands Tendrils A
 
 Blightlands Tendrils B
-
 
 
 ### Forerunner
@@ -5121,110 +5040,6 @@ Glyph C24 Emissive
 Glyph C25
 
 Glyph C25 Emissive
-
-Glyph C26
-
-Glyph C26 Emissive
-
-Glyph C27
-
-Glyph C27 Emissive
-
-Glyph C28
-
-Glyph C28 Emissive
-
-Glyph C29
-
-Glyph C29 Emissive
-
-Glyph C30
-
-Glyph C30 Emissive
-
-Glyph C31
-
-Glyph C31 Emissive
-
-Glyph C32
-
-Glyph C32 Emissive
-
-Glyph C33
-
-Glyph C33 Emissive
-
-Glyph C34
-
-Glyph C34 Emissive
-
-Glyph C35
-
-Glyph C35 Emissive
-
-Glyph C36
-
-Glyph C36 Emissive
-
-Glyph C37
-
-Glyph C37 Emissive
-
-Glyph C38
-
-Glyph C38 Emissive
-
-Glyph C39
-
-Glyph C39 Emissive
-
-Glyph C40
-
-Glyph C40 Emissive
-
-Glyph C41
-
-Glyph C41 Emissive
-
-Glyph C42
-
-Glyph C42 Emissive
-
-Glyph C43
-
-Glyph C43 Emissive
-
-Glyph C44
-
-Glyph C44 Emissive
-
-Glyph C45
-
-Glyph C45 Emissive
-
-Glyph C46
-
-Glyph C46 Emissive
-
-Glyph C47
-
-Glyph C47 Emissive
-
-Glyph C48
-
-Glyph C48 Emissive
-
-Glyph C49
-
-Glyph C49 Emissive
-
-Glyph C50
-
-Glyph C50 Emissive
-
-Glyph C51
-
-Glyph C51 Emissive
 
 Rune Set 01
 
@@ -5411,7 +5226,6 @@ Symbol B24
 Symbol B24 Emissive
 
 
-
 ### Letters
 
 'A' Large
@@ -5449,7 +5263,6 @@ Symbol B24 Emissive
 'F' Med
 
 'F' Med Variant
-
 
 
 ### Numbered Symbols
@@ -5507,7 +5320,6 @@ Striped '7'
 Striped '8'
 
 Striped '9'
-
 
 
 ### Numbers
@@ -5571,7 +5383,6 @@ Striped '9'
 '9' Med
 
 '9' Med Variant
-
 
 
 ### UNSC
@@ -5735,8 +5546,8 @@ Yellow Striped Tape
 Yellow Triangle
 
 
-
 ## FX
+
 
 ### Alien Planet
 
@@ -5751,7 +5562,6 @@ Alien Petals B
 Opale Cloud A
 
 Opale Cloud B
-
 
 
 ### Ambient Life
@@ -5771,7 +5581,6 @@ Forerunner Insect Swarm Medium
 Gnats Medium
 
 Gnats Small
-
 
 
 ### Atmospherics
@@ -5832,7 +5641,7 @@ Snow Falling C
 
 Steam Falling Large
 
-Steam Felling Large Unlit
+Steam Falling Large Unlit
 
 Steam Fill
 
@@ -5869,7 +5678,6 @@ Steam Vent Rising Large
 Steam Vent Rising Medium
 
 Steam Vent Rising Small
-
 
 
 ### Energy
@@ -6058,7 +5866,7 @@ Plasma Beam Full 8x8
 
 Plasma Energy Large
 
-Plasma Energy Medium
+Plasma Energy Medium 
 
 Plasma Energy Small
 
@@ -6068,8 +5876,7 @@ Plasma Energy Sphere Medium
 
 Plasma Energy Sphere Small
 
-Plasma Energy Tiny
-
+Plasma Energy Tiny 
 
 
 ### Explosions
@@ -6093,7 +5900,6 @@ UNSC Air Explosion Multiple Medium
 UNSC Explosion Huge
 
 UNSC Explosion Medium
-
 
 
 ### Fire
@@ -6153,7 +5959,6 @@ UNSC Wreckage Fire Small Light No Smoke
 UNSC Wreckage Fire Small No Smoke
 
 
-
 ### Flood
 
 Flood Drops A
@@ -6179,7 +5984,6 @@ Spores Disposal B
 Swarm A
 
 Swarm B
-
 
 
 ### General
@@ -6224,7 +6028,7 @@ Slipspace Close
 
 Slipspace Idle
 
-Splispace Open
+Slipspace Open
 
 Square Blinking
 
@@ -6237,7 +6041,6 @@ Triangle Blinking
 Triangle Line
 
 Triangle Solid
-
 
 
 ### Holograms
@@ -6275,7 +6078,6 @@ Starfield Large
 UNSC Cortana Orb
 
 
-
 ### Lens Flares
 
 Forerunner Lens Flare Medium
@@ -6303,7 +6105,6 @@ Lensflare Vertical Sharp Flicker
 Lensflare Vertical Soft
 
 Lensflare Vertical Soft Flicker
-
 
 
 ### Light Rays
@@ -6351,12 +6152,11 @@ Light Rays Static Single Soft
 Light Rays Static Soft
 
 
-
 ### Liquids
 
-&#x20;Water Splashes Turbulent 2x16
+ Water Splashes Turbulent 2x16
 
-Bubbles Aerial 4
+Bubbles Aerial 4x8
 
 Bubbles Rising 2x16
 
@@ -6405,7 +6205,6 @@ Water Splashes Turbulent 4x4
 Water Splashes Turbulent 4x8
 
 
-
 ### Smoke
 
 Covenant Smoke Large
@@ -6417,7 +6216,6 @@ UNSC Smoke Burning Embers Medium
 UNSC Smoke Glowing Embers Medium
 
 UNSC Smoke Large
-
 
 
 ### Sparks
@@ -6469,12 +6267,12 @@ Sparks Welding Small
 Spherical Electric Field
 
 
-
 ## Gameplay
+
 
 ### AI
 
-AI Dropped Spawner
+AI Droppod Spawner
 
 AI Move Zone
 
@@ -6485,11 +6283,9 @@ AI Spawner
 AI Vehicle Spawner
 
 
-
 ### Audio
 
 Audio Emitter
-
 
 
 ### Equipment
@@ -6517,7 +6313,6 @@ Spike Grenade
 Team Banner
 
 Team Banner Pole MP version
-
 
 
 ### Game Modes
@@ -6573,7 +6368,6 @@ Stronghold Capture Zone
 Total Control Zone
 
 Zone Capture Plate
-
 
 
 ### Gravity Slides
@@ -6699,7 +6493,6 @@ Gravity Slide 032x128
 Gravity Slide 032x128 (Invisible)
 
 
-
 ### Jump Pads
 
 Gravity Bouncer 04x04
@@ -6739,7 +6532,6 @@ Gravity Bouncer 64x64
 Gravity Bouncer 64x64 (Invisible)
 
 
-
 ### Launchers / Lifts
 
 Gravity Lift (Invisible)
@@ -6757,7 +6549,6 @@ Kinetic Launcher Forerunner
 Kinetic Launcher UNSC
 
 
-
 ### Match Flow
 
 Map Intro Camera
@@ -6769,7 +6560,6 @@ Team Intro Line Left
 Team Intro Line Right
 
 Winning Team Outro
-
 
 
 ### Nav Mesh
@@ -6797,17 +6587,15 @@ Nav Cutter
 Nav Seed Point
 
 
-
 ### Player Spawning
 
-Spawn Point \[Backup]
+Spawn Point [Backup]
 
-Spawn Point \[Initial]
+Spawn Point [Initial]
 
-Spawn Point \[Respawn]
+Spawn Point [Respawn]
 
-Spawn Volume \[Respawn]
-
+Spawn Volume [Respawn]
 
 
 ### Sandbox
@@ -6837,7 +6625,6 @@ Hacking Terminal
 Shield Emitter
 
 
-
 ### Scripting
 
 Mode Brain
@@ -6861,13 +6648,11 @@ Scriptable Switch Forerunner Terminal Worn
 Scriptable Switch UNSC Console
 
 
-
 ### Teleporters
 
 Teleporter
 
 Teleporter (Invisible)
-
 
 
 ### Vehicles
@@ -6903,13 +6688,11 @@ Wasp
 Wraith
 
 
-
 ### Vehicles - Damaged
 
 Ghost - Damaged
 
 Warthog - Damaged
-
 
 
 ### Volumes
@@ -6937,7 +6720,6 @@ Soft Kill Safe Volume
 Soft Kill Volume
 
 
-
 ### Weapon Spawners
 
 Weapon Pad
@@ -6961,7 +6743,6 @@ Weapon Rack Back Plate - Green Ancients MP
 Weapon Rack Back Plate - Top
 
 Weapon Trunk
-
 
 
 ### Weapons
@@ -7015,6 +6796,8 @@ M41 Tracker
 MA40 Assault Rifle
 
 MA40 Longshot
+
+MA5K Avenger
 
 MLRS-2 Hydra
 
@@ -7083,8 +6866,8 @@ VK78 Commando Rifle
 Volatile Skewer
 
 
-
 ## Halo Design Set
+
 
 ### Columns
 
@@ -7111,7 +6894,6 @@ Volatile Skewer
 6x6 Square Column A
 
 6x6 Square Column B
-
 
 
 ### Columns MP
@@ -7141,7 +6923,6 @@ Volatile Skewer
 6x6 Square Column B MP
 
 
-
 ### Cover
 
 Ankle Cover Half Size
@@ -7159,7 +6940,6 @@ Half Cover Standard Size
 Rock Half Cover A
 
 Rock Half Cover B
-
 
 
 ### Cover MP
@@ -7181,8 +6961,7 @@ Rock Half Cover A MP
 Rock Half Cover B MP
 
 
-
-### Crates&#x20;
+### Crates
 
 4.5x8 Crate
 
@@ -7193,7 +6972,6 @@ Rock Half Cover B MP
 8x16 Crate
 
 8x8 Crate
-
 
 
 ### Crates MP
@@ -7207,7 +6985,6 @@ Rock Half Cover B MP
 8x16 Crate MP
 
 8x8 Crate MP
-
 
 
 ### Doorways
@@ -7229,7 +7006,6 @@ Single Doorway A
 Single Doorway B
 
 
-
 ### Doorways MP
 
 Angled Double Doorway MP
@@ -7249,7 +7025,6 @@ Single Doorway A MP
 Single Doorway B MP
 
 
-
 ### Floors
 
 Floor Angled Standard A
@@ -7263,7 +7038,6 @@ Floor Half B
 Floor Quadruple Size
 
 Floor Standard
-
 
 
 ### Floors MP
@@ -7281,7 +7055,6 @@ Floor Quadruple Size MP
 Floor Standard MP
 
 
-
 ### Railings
 
 Curved Railing Half Size
@@ -7293,7 +7066,6 @@ Railing Half Size
 Railing Standard Size
 
 
-
 ### Railings MP
 
 Curved Railing Half Size MP
@@ -7303,7 +7075,6 @@ Curved Railing Standard Size MP
 Railing Half Size MP
 
 Railing Standard Size MP
-
 
 
 ### Ramps
@@ -7341,7 +7112,6 @@ Curved Ramp Standard - Right
 Four Way Ramp Eighth
 
 
-
 ### Ramps MP
 
 1 over 3 Ramp Eighth A MP
@@ -7375,11 +7145,9 @@ Curved Ramp Standard - Right MP
 Four Way Ramp Eighth MP
 
 
-
 ### Scale Objects
 
 Player Scale Object
-
 
 
 ### Walls
@@ -7437,7 +7205,6 @@ Wall Window A
 Wall Window B
 
 
-
 ### Walls MP
 
 Angle Wall Half MP
@@ -7493,14 +7260,452 @@ Wall Window A MP
 Wall Window B MP
 
 
+## Hidden
+
+Camera
+
+Generic Skull, Escalation
+
+Team Banner Pole
+
+UNSC Heavy Door
+
+UNSC Heavy Door Base Wear MP
+
+
+### Decals
+
+Glyph C26
+
+Glyph C26 Emissive
+
+Glyph C27
+
+Glyph C27 Emissive
+
+Glyph C28
+
+Glyph C28 Emissive
+
+Glyph C29
+
+Glyph C29 Emissive
+
+Glyph C30
+
+Glyph C30 Emissive
+
+Glyph C31
+
+Glyph C31 Emissive
+
+Glyph C32
+
+Glyph C32 Emissive
+
+Glyph C33
+
+Glyph C33 Emissive
+
+Glyph C34
+
+Glyph C34 Emissive
+
+Glyph C35
+
+Glyph C35 Emissive
+
+Glyph C36
+
+Glyph C36 Emissive
+
+Glyph C37
+
+Glyph C37 Emissive
+
+Glyph C38
+
+Glyph C38 Emissive
+
+Glyph C39
+
+Glyph C39 Emissive
+
+Glyph C40
+
+Glyph C40 Emissive
+
+Glyph C41
+
+Glyph C41 Emissive
+
+Glyph C42
+
+Glyph C42 Emissive
+
+Glyph C43
+
+Glyph C43 Emissive
+
+Glyph C44
+
+Glyph C44 Emissive
+
+Glyph C45
+
+Glyph C45 Emissive
+
+Glyph C46
+
+Glyph C46 Emissive
+
+Glyph C47
+
+Glyph C47 Emissive
+
+Glyph C48
+
+Glyph C48 Emissive
+
+Glyph C49
+
+Glyph C49 Emissive
+
+Glyph C50
+
+Glyph C50 Emissive
+
+Glyph C51
+
+Glyph C51 Emissive
+
+
+### Gameplay
+
+
+
+Ball Stand DM
+
+Banished Gravity Lift MP
+
+CPC Plant Object MP
+
+Class Spawner All
+
+Class Spawner Assault Rifle
+
+Class Spawner Equipment
+
+Class Spawner Grenade
+
+Class Spawner Launcher
+
+Class Spawner Melee
+
+Class Spawner Pistol
+
+Class Spawner Power-Up
+
+Class Spawner SMG
+
+Class Spawner Shotgun
+
+Class Spawner Sniper Rifle
+
+Class Spawner Tactical Rifle
+
+Class Spawner Vehicle
+
+Damage Emitter
+
+Flag Spawn MP version
+
+Flag Spawn Sand
+
+Gauss Hog
+
+Gravity Volume 128x128x128
+
+Gravity Volume 128x128x128 (Invisible)
+
+Gravity Volume 128x128x128 Strong
+
+Gravity Volume 128x128x128 Strong (Invisible)
+
+Gravity Volume 128x128x256
+
+Gravity Volume 128x128x256 (Invisible)
+
+Gravity Volume 128x256x128
+
+Gravity Volume 128x256x128 (Invisible)
+
+Gravity Volume 16x16x16
+
+Gravity Volume 16x16x16 (Invisible)
+
+Gravity Volume 16x16x16 Strong
+
+Gravity Volume 16x16x16 Strong (Invisible)
+
+Gravity Volume 16x16x32
+
+Gravity Volume 16x16x32 (Invisible)
+
+Gravity Volume 16x32x16
+
+Gravity Volume 16x32x16 (Invisible)
+
+Gravity Volume 16x32x16 Strong
+
+Gravity Volume 16x32x16 Strong (Invisible)
+
+Gravity Volume 256x256x256
+
+Gravity Volume 256x256x256 (Invisible)
+
+Gravity Volume 32x32x32
+
+Gravity Volume 32x32x32 (Invisible)
+
+Gravity Volume 32x32x32 Strong
+
+Gravity Volume 32x32x32 Strong (Invisible)
+
+Gravity Volume 32x32x64
+
+Gravity Volume 32x32x64 (Invisible)
+
+Gravity Volume 32x64x32
+
+Gravity Volume 32x64x32 (Invisible)
+
+Gravity Volume 32x64x32 Strong
+
+Gravity Volume 32x64x32 Strong (Invisible)
+
+Gravity Volume 64x128x64
+
+Gravity Volume 64x128x64 (Invisible)
+
+Gravity Volume 64x128x64 Strong
+
+Gravity Volume 64x128x64 Strong (Invisible)
+
+Gravity Volume 64x64x128
+
+Gravity Volume 64x64x128 (Invisible)
+
+Gravity Volume 64x64x64
+
+Gravity Volume 64x64x64 (Invisible)
+
+Gravity Volume 64x64x64 Strong
+
+Gravity Volume 64x64x64 Strong (Invisible)
+
+Gravity Volume 8x16x8
+
+Gravity Volume 8x16x8 (Invisible)
+
+Gravity Volume 8x16x8 Strong
+
+Gravity Volume 8x16x8 Strong (Invisible)
+
+Gravity Volume 8x8x16
+
+Gravity Volume 8x8x16 (Invisible)
+
+Gravity Volume 8x8x8
+
+Gravity Volume 8x8x8 (Invisible)
+
+Gravity Volume 8x8x8 Strong
+
+Gravity Volume 8x8x8 Strong (Invisible)
+
+Invisible Forerunner Kinetic Launcher MP
+
+Launchsite Large Gravity Lift MP
+
+Launchsite Small Gravity Lift MP
+
+Pelican Drop
+
+Phantom
+
+Vehicle Damage Volume
+
+### Objects
+
+Ammo Case Open Muddy
+
+Arena Starting Platform
+
+BTB Total Control Zone
+
+Banished Cone original
+
+Banished Cube
+
+Banished Gravity Lift
+
+Banished Ramp
+
+Cardboard Box B
+
+Chainlink Fence Tall
+
+Classic Weapon Spawn
+
+Concrete Block B MP
+
+Concrete Doorway MP
+
+Design Arrow
+
+Dirt Pile B MP
+
+Dirt Pile D MP
+
+Electrical Box D MP
+
+Engine Rotor 08
+
+Floating Platform
+
+Forerunner 24 x 60 x 24 Angled Support - Original
+
+Forerunner Cover Half A - Original
+
+Forerunner Door Medium MP
+
+Forerunner Floor Trim Light MP
+
+Forerunner Floor Trim Light w/Light - Original
+
+Forerunner Sphere - Original Pivot
+
+Forerunner Support Pillar w/Light MP
+
+Generator Standalone MP
+
+Gravity Lift Banished - Original
+
+Large Vent Hatch A
+
+Midship Proxy
+
+Mombasa Traffic Cone
+
+Multibulb Two Bulb Grill w/Light MP
+
+Mutilator
+
+Overhead Light - Original
+
+Potted Plant A
+
+Potted Plant B
+
+Primitive Ring Half - Original Magnets
+
+Primitive Sphere - Original Pivot
+
+Puck Round w/Light MP
+
+Pyramoid
+
+Pyramoid Block
+
+Pyramoid Ramp
+
+Radio
+
+Relic Proxy
+
+Shade Turret
+
+Soccer Ball - Original
+
+Street Cover
+
+Street Light w/Light - Original
+
+SubSurfaceScatting Grunt Test
+
+UNSC Antenna Dome
+
+UNSC Cargo Container Base Wear B MP
+
+UNSC Cargo Container Green MP
+
+UNSC Cargo Container Sandy MP
+
+UNSC Cargo Container Sandy Tan MP
+
+UNSC Infantry Bridge Angle Corner - Original
+
+UNSC Railing B
+
+UNSC Railing B MP
+
+UNSC Railing C
+
+UNSC Railing C MP
+
+UNSC Railing Corner Inner C
+
+UNSC Railing Corner Inner C MP
+
+UNSC Railing Corner Outer C
+
+UNSC Railing Corner Outer C MP
+
+UNSC Railing Covered B
+
+UNSC Railing Covered B MP
+
+UNSC Railing Covered C
+
+UNSC Railing Covered C MP
+
+UNSC Railing Covered Corner B
+
+UNSC Railing Covered Corner B MP
+
+UNSC Satellite Dish Trailer MP
+
+UNSC Spartan Door - Original
+
+UNSC Sphere - Original Pivot
+
+UNSC Stairs XS - Original
+
+UNSC Vehicle Bridge - Original
+
+UNSC Vehicle Bridge Elbow Corner - Original
+
+UNSC Vehicle Door - Original
+
+UNSC Wall Generic 45 In A - Original
+
+UNSC Wall Window Straight B - Original
+
+Vehicle Lift
+
+Wooden Bench
 
 ## Lights
+
 
 ### Banished Light
 
 Flood Light A w/Light
 
 Ground Light A w/Light
+
+Overhead Light w/Light
 
 Wall Light A w/Light
 
@@ -7509,19 +7714,19 @@ Wall Light B w/Light
 Wall Puck Light w/Light
 
 
-
 ### Banished No Light
 
-Flood Light A
+Flood Light A 
 
 Ground Light A
+
+Overhead Light
 
 Wall Light A
 
 Wall Light B
 
 Wall Puck Light
-
 
 
 ### Forerunner Light
@@ -7557,8 +7762,7 @@ Forerunner Support Pillar w/Light
 Forerunner Weapon Post A w/Light
 
 
-
-### Forerunner Light MP&#x20;
+### Forerunner Light MP
 
 Forerunner Block Light w/Light MP
 
@@ -7581,7 +7785,6 @@ Forerunner Light F w/Light MP
 Forerunner Light G w/Light MP
 
 Forerunner Light H w/Light MP
-
 
 
 ### Forerunner No Light
@@ -7617,7 +7820,6 @@ Forerunner Support Pillar
 Forerunner Weapon Post A
 
 
-
 ### Forerunner No Light MP
 
 Forerunner Block Light MP
@@ -7643,7 +7845,6 @@ Forerunner Light H MP
 Forerunner Support Pillar MP
 
 
-
 ### Generic Light Objects
 
 Light
@@ -7651,7 +7852,6 @@ Light
 Light probe marker
 
 Reflection Volume
-
 
 
 ### UNSC Light
@@ -7721,7 +7921,6 @@ Street Light w/Light
 Work Light Grill w/Light
 
 
-
 ### UNSC Light MP
 
 Exterior Wall w/Light MP
@@ -7776,8 +7975,6 @@ Panel Small w/Light MP
 
 Puck Round Small w/Light MP
 
-Puck Round w/Light MP
-
 Spot Round Angled w/Light MP
 
 Spot Round Straight w/Light MP
@@ -7787,7 +7984,6 @@ Street Light w/Light MP
 Work Light Grill w/Light MP
 
 Work Light w/Light MP
-
 
 
 ### UNSC No Light
@@ -7875,7 +8071,6 @@ Work Light Trailer
 Work Light w/o Light
 
 
-
 ### UNSC No Light MP
 
 Exterior Wall w/o Light MP
@@ -7924,7 +8119,7 @@ Overhead Mount Quad MP
 
 Overhead Mount Single MP
 
-Overhead Round Large ht MP
+Overhead Round Large w/o Light MP
 
 Panel Flush Large w/o Light MP
 
@@ -7957,8 +8152,8 @@ Work Light Trailer MP
 Work Light w/o Light MP
 
 
-
 ## Primitives
+
 
 ### Blocks
 
@@ -7971,7 +8166,6 @@ Forerunner Block
 Primitive Block
 
 UNSC Block
-
 
 
 ### Cones
@@ -7987,7 +8181,6 @@ Primitive Cone
 UNSC Cone
 
 
-
 ### Cylinders
 
 Banished Cylinder
@@ -8001,7 +8194,6 @@ Primitive Cylinder
 UNSC Cylinder
 
 
-
 ### Pyramids
 
 Banished Pyramid
@@ -8013,7 +8205,6 @@ Forerunner Pyramid
 Primitive Pyramid
 
 UNSC Pyramid
-
 
 
 ### Rings
@@ -8059,7 +8250,6 @@ UNSC Ring Half
 UNSC Ring Quarter
 
 
-
 ### Spheres
 
 Banished Sphere
@@ -8071,7 +8261,6 @@ Forerunner Sphere
 Primitive Sphere
 
 UNSC Sphere
-
 
 
 ### Trapezoids
@@ -8087,7 +8276,6 @@ Primitive Trapezoid
 UNSC Trapezoid
 
 
-
 ### Triangles
 
 Banished Triangle
@@ -8101,15 +8289,14 @@ Primitive Triangle
 UNSC Triangle
 
 
-
 ## Props
+
 
 ### Sports
 
 Golf Ball
 
 Soccer Ball
-
 
 
 ### Summertime
@@ -8121,7 +8308,6 @@ Beach Parasol
 Party Cup
 
 Surfboard
-
 
 
 ### Toys
@@ -8163,8 +8349,8 @@ The Pilot
 Warden Eternal
 
 
-
 ## Structures
+
 
 ### Beams
 
@@ -8199,7 +8385,6 @@ UNSC Beam Corner
 UNSC Beam T Joint
 
 UNSC Beam X Joint
-
 
 
 ### Bridges
@@ -8243,7 +8428,6 @@ UNSC Vehicle Bridge Chamfered Corner
 UNSC Vehicle Bridge Elbow Corner
 
 
-
 ### Bridges MP
 
 Forerunner Lightbridge A MP
@@ -8251,7 +8435,6 @@ Forerunner Lightbridge A MP
 Forerunner Lightbridge B MP
 
 Recharge Bridge MP
-
 
 
 ### Columns
@@ -8275,7 +8458,6 @@ UNSC Round Column
 UNSC Square Column
 
 
-
 ### Columns MP
 
 Bismuth Column A MP
@@ -8291,7 +8473,6 @@ Opal Cracked Column MP
 Opal Unrefined Column A MP
 
 Opal Unrefined Column B MP
-
 
 
 ### Cover
@@ -8325,7 +8506,6 @@ Human Brutalist Cover Half B
 UNSC Full Cover
 
 UNSC Half Cover
-
 
 
 ### Cover MP
@@ -8373,7 +8553,6 @@ Opal Unrefined Cover Tall B MP
 Opal Unrefined Cover Tall C MP
 
 Opal Unrefined Cover Tall D MP
-
 
 
 ### Doors
@@ -8465,7 +8644,6 @@ Welded Double Security Door
 Welded Security Door
 
 
-
 ### Doors MP
 
 Forerunner Door Animated MP
@@ -8525,7 +8703,6 @@ Wooden Door MP
 Wooden Doorframe MP
 
 
-
 ### Floors
 
 Banished Floor
@@ -8553,7 +8730,6 @@ Opal Unrefined Floor D
 UNSC Floor
 
 UNSC Level Start Floor
-
 
 
 ### Floors MP
@@ -8591,7 +8767,6 @@ Opal Unrefined Floor C MP
 Opal Unrefined Floor D MP
 
 
-
 ### Slopes
 
 Banished Ramp
@@ -8612,8 +8787,6 @@ Banished Wedge
 
 Covenant Ramp
 
-Covenant Stairs Connector
-
 Covenant Stairs L
 
 Covenant Stairs M
@@ -8630,7 +8803,7 @@ Forerunner Ramp
 
 Forerunner Stairs Connector
 
-Forerunner Stairs
+Forerunner Stairs L
 
 Forerunner Stairs M
 
@@ -8689,22 +8862,21 @@ UNSC Stairs XS
 UNSC Wedge
 
 
-
 ### Slopes MP
 
 Human Brutalist Ramp A Clean MP
 
 Human Brutalist Ramp A MP
 
-Human Brutalist Ramp Clean B MP
+Human Brutalist Ramp B Clean MP
 
 Human Brutalist Ramp B MP
 
-Human Brutalist Ramp Clean C MP
+Human Brutalist Ramp C Clean MP
 
 Human Brutalist Ramp C MP
 
-Human Brutalist Ramp Clean D MP
+Human Brutalist Ramp D Clean MP
 
 Human Brutalist Ramp D MP
 
@@ -8747,7 +8919,6 @@ Opal Unrefined Wedge B MP
 Opal Unrefined Wedge Fossil A MP
 
 Opal Unrefined Wedge Fossil B MP
-
 
 
 ### Walls
@@ -8806,8 +8977,6 @@ UNSC Wall
 
 UNSC Wall Corner
 
-UNSC Wall Generic
-
 UNSC Wall Generic 45 In A
 
 UNSC Wall Generic 45 In B
@@ -8823,7 +8992,6 @@ UNSC Wall Window Straight A
 UNSC Wall Window Straight B
 
 UNSC Window Wall
-
 
 
 ### Walls MP
@@ -8890,11 +9058,10 @@ Opal Unrefined Wall D MP
 
 Opal Unrefined Wall E MP
 
-
-
 ***
 
 #### <mark style="color:green;">Contributors</mark>
 
 Okom\
-AddiCt3d 2CHa0s
+AddiCt3d 2CH\
+Surasia
