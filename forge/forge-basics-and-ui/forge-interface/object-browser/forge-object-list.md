@@ -11,9 +11,9 @@ A searchable list of all spawnable objects from the Object Browser in Halo Infin
 ## Object List Versions
 
 * [CU29](https://docs.google.com/document/d/1c\_6PJL1bz11M54poWW99SGxyDhjmCS-25MKICdCzZ-M)
-* [CU35](https://docs.google.com/spreadsheets/d/1kGqsaHBkRu1bODk3oWNxvnKceDoaBg_MstogLsysjeY)
+* [CU34, Fleetcom Operation Update](https://github.com/The-Scripters-Guild/ForgeWiki/blob/e498f4f809d7a1fbf49041f5fd450b8853cd0b3d/forge/forge-basics-and-ui/forge-interface/object-browser/forge-object-list.md)
 
-Current list up-to-date as of [CU35, Snowbound Operation Update](https://support.halowaypoint.com/hc/en-us/articles/32659387053844-Halo-Infinite-Snowbound-Operation-Update-Patch-Notes).
+Current list up-to-date as of [Snowbound Operation Update](https://support.halowaypoint.com/hc/en-us/articles/32659387053844-Halo-Infinite-Snowbound-Operation-Update-Patch-Notes).
 
 
 ## Accents
