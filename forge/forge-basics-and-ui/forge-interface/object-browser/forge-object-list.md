@@ -6532,10 +6532,7 @@ Gravity Bouncer 64x64
 Gravity Bouncer 64x64 (Invisible)
 
 
-### Launchers 
-
-
-#######  Lifts
+### Launchers / Lifts
 
 Gravity Lift (Invisible)
 
