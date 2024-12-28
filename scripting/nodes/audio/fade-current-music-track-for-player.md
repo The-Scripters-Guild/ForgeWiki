@@ -1,7 +1,7 @@
-# Stop Object 3D Audio Loop
-![alt text](../../../.gitbook/assets/stop-object-3d-audio-loop.png)
+# Fade Current Music Track For Player
+![alt text](../../../.gitbook/assets/fade-current-music-track-for-player.png)
 ## Description
-Stops the audio loop currently playing on the Object. Can stop sounds playing for allied or opposing players independently.
+Fades the currently playing music track for a given player.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
@@ -9,9 +9,9 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Inputs
 | Input            | Type             | Required | Description												    |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Object | Object | Yes | Which object is used to play the audio at it's location.|
-| Stop For Allies | Boolean | Yes | Whether or not the audio will top for allies of the object's team.|
-| Stop For Enemies | Boolean | Yes | Whether or not the audio will stop for enemies of the object's team.|
+| Target Volume | Number (1-10)| Yes | How loud the music will play after fading in.|
+| Fade Time | Number (0.00-1,000.00)| Yes | How long it takes music to get to full volume.|
+| Player | Player | Yes | Which player to play the music for.|
 
 ## Outputs
 | Output           | Type             | Description												     |

@@ -1,7 +1,7 @@
-# Stop Object 3D Audio Loop
-![alt text](../../../.gitbook/assets/stop-object-3d-audio-loop.png)
+# Play Announcer Voiceover For Player
+![alt text](../../../.gitbook/assets/play-announcer-voiceover-for-player.png)
 ## Description
-Stops the audio loop currently playing on the Object. Can stop sounds playing for allied or opposing players independently.
+Plays an Announcer voiceover line for given player. The voiceover line is selected in the Object Properties menu.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
@@ -9,9 +9,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Inputs
 | Input            | Type             | Required | Description												    |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Object | Object | Yes | Which object is used to play the audio at it's location.|
-| Stop For Allies | Boolean | Yes | Whether or not the audio will top for allies of the object's team.|
-| Stop For Enemies | Boolean | Yes | Whether or not the audio will stop for enemies of the object's team.|
+| Player | Player | Yes | Which player Announcer voiceover plays for. |
 
 ## Outputs
 | Output           | Type             | Description												     |
@@ -23,3 +21,4 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 **Contributors**
 
 AddiCt3d 2CHa0s
+
