@@ -1,10 +1,23 @@
 # Ambition Type: Deliver
+![alt text](../../../.gitbook/assets/ambition-type-deliver.png)
+## Description
+When pursuing this behavior, a bot will try to deliver its held objective item (Oddball, Flag, etc) to the target object. Use with **Ambition Type: Pickup**.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) | N/A  | N/A  | |
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| Ambition Type | Ambition Type  | This node passes the Deliver Ambition Type to an Execution node.  |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
