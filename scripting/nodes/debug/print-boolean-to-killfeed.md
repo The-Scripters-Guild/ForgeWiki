@@ -1,10 +1,24 @@
 # Print Boolean To Killfeed
+![alt text](../../../.gitbook/assets/print-boolean-to-killfeed.png)
+## Description
+Prints a *Boolean* to the killfeed as TRUE or FALSE. Use this to help debug nodes in Play mode.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Boolean | Boolean | Yes | Debug will print this to killfeed. |
+
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | N/A  | N/A  |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
 

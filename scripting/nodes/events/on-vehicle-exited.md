@@ -1,10 +1,24 @@
 # On Vehicle Exited
+![alt text](../../../.gitbook/assets/on-vehicle-exited.png)
+## Description
+Event called when a unit exits a vehicle
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This Execution node fires when something happens in the game that triggers it, and starts off the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) | N/A  | N/A  | |
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| Exiting Unit | Object  | Which unit has exited the vehicle. |
+| Vehicle | Object  | Which vehicle was exited by a unit. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
