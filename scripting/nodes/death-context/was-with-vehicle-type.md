@@ -1,5 +1,6 @@
 # Was With Vehicle Type
 ![alt text](../../../.gitbook/assets/was-with-vehicle-type.png)
+## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Returns true if the killing blow came from a matching Vehicle Type. Unreliable if the player has left the vehicle since the kill.
 
 ## Node Type
