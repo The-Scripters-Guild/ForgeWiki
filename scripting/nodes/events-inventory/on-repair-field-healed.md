@@ -1,10 +1,26 @@
 # On Repair Field Healed
+![alt text](../../../.gitbook/assets/on-repair-field-healed.png)
+## Description
+Event called when an object is healed by a Repair Field
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node listens for an Event, then triggers it's node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| N/A | N/A | N/A | |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Repair Field Object | Object | Object that is repairing.|
+| Healed Object | Object | Object that is being repaired.|
+| Healed Amount | Number | How much is healed.|
+| Full Regen Completed | Boolean | True if the object being healed was healed completely.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
