@@ -1,10 +1,24 @@
 # On Extraction Zone Conversion Completed
+![alt text](../../../.gitbook/assets/on-extraction-zone-conversion-completed.png)
+## Description
+Event called whenever any *Extraction Zone* conversion is completed successfully.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node listens for an Event, then triggers it's node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| N/A | N/A | N/A | |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Player | Object | Which player armed the Extraction Zone that was just converted.|
+| Extraction Zone | Object | The zone that was just converted.|
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
