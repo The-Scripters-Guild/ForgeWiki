@@ -1,20 +1,20 @@
-# Set Points To Win
-![alt text](../../../.gitbook/assets/set-points-to-win.png)
+# Get Lifepool Lives Remaining
+![alt text](../../../.gitbook/assets/get-lifepool-lives-remaining.png)
 ## Description
-Sets the point total required to win the current round
+Returns the number of lives remaining for *Team*
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Score To Win | Number | Yes | Total number of Points needed to win the game. |
+| Team | Team | Yes | Which player to check Lifepool for. |
 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| N/A | N/A | N/A |
+| Life Count | Number | How many lives the team has. |
 
 \
 \

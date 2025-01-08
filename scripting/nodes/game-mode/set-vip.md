@@ -1,7 +1,7 @@
-# Set Points To Win
-![alt text](../../../.gitbook/assets/set-points-to-win.png)
+# Set VIP
+![alt text](../../../.gitbook/assets/set-vip.png)
 ## Description
-Sets the point total required to win the current round
+Sets the Player as the team's VIP. Also removes the team's current VIP.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
@@ -9,7 +9,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Score To Win | Number | Yes | Total number of Points needed to win the game. |
+| Player | Object | Yes | Which Player to make a VIP|
 
 ## Outputs
 | Output | Type | Description |

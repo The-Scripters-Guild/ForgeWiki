@@ -1,20 +1,20 @@
-# Set Points To Win
-![alt text](../../../.gitbook/assets/set-points-to-win.png)
+# Get Is VIP
+![alt text](../../../.gitbook/assets/get-is-vip.png)
 ## Description
-Sets the point total required to win the current round
+Returns true if the *Player* is a VIP
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Score To Win | Number | Yes | Total number of Points needed to win the game. |
+| Player | Player | Yes | Which player to check if they're VIP. |
 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| N/A | N/A | N/A |
+| Is VIP | Boolean | TRUE when player in input pin is a VIP. |
 
 \
 \
