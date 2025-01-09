@@ -1,10 +1,23 @@
 # Deactive Shrinking Zone
+![alt text](../../../.gitbook/assets/deactivate-shrinking-zone.png)
+## Description
+Despawns the Shrinking Zone. Use instead of Delete Object to avoid breaking references.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Generic Shrinking Zone | Object | Yes | Which Generic Shrinking Zone will be deactivated. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

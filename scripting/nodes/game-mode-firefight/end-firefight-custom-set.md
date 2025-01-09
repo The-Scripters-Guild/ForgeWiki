@@ -1,10 +1,24 @@
 # End Firefight Custom Set
+![alt text](../../../.gitbook/assets/end-firefight-custom-set.png)
+## Description
+Ends the currently running Firefight Custom Set. THe defending (Eagle) team will gain a point if Defenders Successful is TRUE; otherwise, Cobra will earn a point. Only works in Firefight Custom. If called between Sets, will have no effect.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Defenders Successful | Boolean | Yes | Sets whether or not defence or offense will get a point. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A | |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

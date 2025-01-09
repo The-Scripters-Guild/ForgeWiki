@@ -1,7 +1,7 @@
-# Get Generic Zone Control State
-![alt text](../../../.gitbook/assets/get-generic-zone-control-state.png)
+# Get Generic Zone Progress
+![alt text](../../../.gitbook/assets/get-generic-zone-progress.png)
 ## Description
-Returns the current Control State from the Generic Zone object.
+Returns the current capture progress from the Generic Zone object
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
@@ -9,12 +9,13 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Generic Zone | Object | Yes | Which Generic Zone to get control state from. |
+| Generic Zone | Object | Yes | Which Generic Zone to get progress from. |
 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| Current Control State | Control State | What control state the generic zone from input pin is currently in. |
+| Progress | Number | Current capture progress for the zone. |
+
 
 \
 \

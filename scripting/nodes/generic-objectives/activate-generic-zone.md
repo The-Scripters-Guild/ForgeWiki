@@ -1,10 +1,23 @@
 # Activate Generic Zone
+![alt text](../../../.gitbook/assets/activate-generic-zone.png)
+## Description
+Activates the Generic Zone, causing it to spawn. The zone does not have to set the Triggered By Script property to use this node.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Generic Zone | Object | Yes | Which Generic Zone will be activated. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

@@ -1,10 +1,23 @@
 # Get Players In Generic Zone
+![alt text](../../../.gitbook/assets/get-players-in-generic-zone.png)
+## Description
+Creates an object list that contains all of the players currently within the Generic Zone's boundary. The zone must be active (incoming or capturable) to return players.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Generic Zone | Object | Yes | Which Generic Zone to get players from. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Players | Object List | List of all players currently in the zone. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
