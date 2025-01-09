@@ -1,10 +1,26 @@
 # Get All Bots
+![alt text](../../../.gitbook/assets/get-all-bots.png)
+## Description
+Returns a list of all players who are bots.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) | N/A | N/A  | |
+
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| Bot Players | Object List  | Returns all bots currently in game. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
+
+
 

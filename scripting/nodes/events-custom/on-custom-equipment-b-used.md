@@ -1,10 +1,24 @@
 # On Custom Equipment B Used
+![alt text](../../../.gitbook/assets/on-custom-equipment-b-used.png)
+## Description
+Event called in the same conditions as **On Equipment Used** but only when the equipment used is Custom Equipment B.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This Execution node fires when something happens in the game that triggers it, and starts off the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) | N/A | N/A | |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Activating Player | Object | Player who used the equipment. |
+| Equipment Type | Equipment Type | Which type of Equipment player used. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

@@ -1,10 +1,25 @@
 # Add Bot Ambition To Object
+![alt text](../../../.gitbook/assets/add-bot-ambition-to-object.png)
+## Description
+Applies the *Bot Ambition* to the *Target Object*, which affects how bots will behave towards the object or player. If specified, only bots from the Team will respond to the ambition in Team games.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Target Object | Object | Yes | Which Object will have Bot Ambition. |
+| Bot Ambition | Bot Ambition | Yes | What type of Ambition object will get (Deliver, Target, Interact, Pickup) |
+| Team | Team | No | Only bots on this team will respond to the ambition.|
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | N/A  | N/A  |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

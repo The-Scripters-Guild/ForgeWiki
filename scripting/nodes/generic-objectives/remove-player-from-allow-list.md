@@ -1,10 +1,26 @@
 # Remove Player From Allow List
+![alt text](../../../.gitbook/assets/remove-player-from-allow-list.png)
+## Description
+Removes player from the Generic Zone's Allow List which determines who is able to capture the zone. This only works if the Generic Zone's Restrict Capture property is set to Allow List.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| AI Spawner | AI Spawner | Yes | Which AI Spawner to override. |
+| Squad Tier | Number | Yes | Squad health and damage level (1-5) |
+| Squad Intensity | Number | Yes | Squad attack level (1-3) |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Squad Definition | Squad Definition | New squad definition for the AI Spawner in the input pin. |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

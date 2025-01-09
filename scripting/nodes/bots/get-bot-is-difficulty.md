@@ -1,10 +1,24 @@
 # Get Bot Is Difficulty
+![alt text](../../../.gitbook/assets/get-bot-is-difficulty.png)
+## Description
+Returns true if the *Bot Player* matches the given *Bot Difficulty*. Always returns false if the *Bot Player* is not actually a bot.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Bot Players | Object  | Yes | Which bot to check Difficulty. |
+| Bot Difficulty | Bot Difficulty  | Yes | Which Difficulty to compare if it's the same as the bot. |
 
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| Bot Is Difficulty | Boolean | Returns true if bot's difficulty matches.  |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

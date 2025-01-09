@@ -1,10 +1,24 @@
 # On Player Joined
+![alt text](../../../.gitbook/assets/on-player-joined.png)
+## Description
+Event called when a player has joined and is acive in the game. Joined In Progress will be true if the match had already started when the player joined.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node listens for an Event, then triggers it's node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| N/A | N/A | N/A | |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Player | Object | The player who has joined the game. |
+| Joined In Progress | Boolean | TRUE if player joins when the game has already started. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

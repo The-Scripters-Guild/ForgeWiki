@@ -1,10 +1,23 @@
 # Activate Shrinking Zone
+![alt text](../../../.gitbook/assets/activate-shrinking-zone.png)
+## Description
+Activates the designated Shrinking Zone sequence. Delays set in the object properties will execute when the zone is triggered.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Generic Shrinking Zone | Object | Yes | Which Generic Shrinking Zone will be activated. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

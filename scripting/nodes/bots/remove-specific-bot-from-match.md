@@ -1,10 +1,24 @@
 # Remove Specific Bot From Match
+![alt text](../../../.gitbook/assets/remove-specific-bot-from-match.png)
+## Description
+Removes the Bot Player from the game. If the player is not actually a bot, there is no effect.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input            | Type             | Required | Description												    |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Bot Player | Object | Yes | Which bot to remove from the game. |
+
+## Outputs
+| Output           | Type             | Description												     |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | N/A  | N/A  |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
 

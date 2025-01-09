@@ -1,10 +1,25 @@
 # On Player Team Change
+![alt text](../../../.gitbook/assets/on-player-team-change.png)
+## Description
+Event called when any player changes teams
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node listens for an Event, then triggers it's node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| N/A | N/A | N/A | |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Player | Object | The player who has changed teams. |
+| Old Team | Team | Which team player was on before the change. |
+| New Team | Team | Which team player changed to. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

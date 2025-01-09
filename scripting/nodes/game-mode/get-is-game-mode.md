@@ -1,10 +1,24 @@
 # Get Is Game Mode
+![alt text](../../../.gitbook/assets/get-is-game-mode.png)
+## Description
+Returns true if the *Game Mode* input matches the curently running game mode. The second pin determines the behavior in Forge Mode for testing.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Game Mode | Game Mode | Yes | What gametype current game is (See Game Mode page). |
+| Result In Forge Mode | Boolean | Yes | Whether or not this debug prints in Forge. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Is Game Mode | Boolean | TRUE when current gametype matches Game Mode input. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
