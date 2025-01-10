@@ -1,5 +1,5 @@
 # On Capture Zone Neutralized
-![alt text](../../../.gitbook/assets/on-capture-zone-neutralized.png)
+![](../../../.gitbook/assets/on-capture-zone-neutralized.png)
 ## Description
 Event called when the *Controlling Team* for any *Capturable Zone* is reverted to nil, making the zone unowned.
 

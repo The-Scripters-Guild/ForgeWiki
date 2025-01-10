@@ -1,5 +1,5 @@
 # Trigger Grunt Hug
-![alt text](../../../.gitbook/assets/trigger-grunt-hug.png)
+![](../../../.gitbook/assets/trigger-grunt-hug.png)
 
 ## Description
 Strongly encourages all Grunts in the Squad to demonstrate their affection using plasma grenades

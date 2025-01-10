@@ -1,5 +1,5 @@
 # On Round End
-![alt text](../../../.gitbook/assets/on-round-end.png)
+![](../../../.gitbook/assets/on-round-end.png)
 ## Description
 Event called when a round ends
 

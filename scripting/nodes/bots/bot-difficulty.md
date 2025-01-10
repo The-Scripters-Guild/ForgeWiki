@@ -1,5 +1,5 @@
 # Bot Difficulty
-![alt text](../../../.gitbook/assets/bot-difficulty.png)
+![](../../../.gitbook/assets/bot-difficulty.png)
 
 ## Description
 Returns a bot difficulty level. *Recruit* is the weakest, and *Spartan* is the strongest.

@@ -1,5 +1,5 @@
 # Print Player To Killfeed
-![alt text](../../../.gitbook/assets/print-player-to-killfeed.png)
+![](../../../.gitbook/assets/print-player-to-killfeed.png)
 ## Description
 Prints a the name of the *Player* in the killfeed. Use this to help debug nodes in Play mode.
 

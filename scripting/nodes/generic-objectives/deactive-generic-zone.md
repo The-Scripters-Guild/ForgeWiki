@@ -1,5 +1,5 @@
 # Deactive Generic Zone
-![alt text](../../../.gitbook/assets/deactivate-generic-zone.png)
+![](../../../.gitbook/assets/deactivate-generic-zone.png)
 ## Description
 Despawns the Generic Zone. Use instead of Delete Object to avoid breaking Event registrations.
 

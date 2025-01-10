@@ -1,5 +1,5 @@
 # On Socket Removed
-![alt text](../../../.gitbook/assets/on-socket-removed.png)
+![](../../../.gitbook/assets/on-socket-removed.png)
 ## Description
 Event called when an *Object* is removed from a socket
 

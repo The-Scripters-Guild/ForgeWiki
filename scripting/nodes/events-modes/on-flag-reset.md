@@ -1,5 +1,5 @@
 # On Flag Reset
-![alt text](../../../.gitbook/assets/on-flag-reset.png)
+![](../../../.gitbook/assets/on-flag-reset.png)
 ## Description
 Event called whenever the Flag has been dropped for long enough to trigger the Flag reset
 

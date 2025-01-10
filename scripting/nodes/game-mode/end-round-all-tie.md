@@ -1,5 +1,5 @@
 # End Round - All Tie
-![alt text](../../../.gitbook/assets/end-round-all-tie.png)
+![](../../../.gitbook/assets/end-round-all-tie.png)
 ## Description
 Ends the current round immediately, recording a tie for all participants regardless of score. If *End Game* is set to true, the game will end regardless of how many rounds were remaining.
 

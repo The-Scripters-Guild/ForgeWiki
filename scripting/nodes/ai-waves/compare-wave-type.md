@@ -1,5 +1,5 @@
 # Compare Wave Type
-![alt text](../../../.gitbook/assets/compare-wave-type.png)
+![](../../../.gitbook/assets/compare-wave-type.png)
 
 ## Description
 Compares two Wave Type values

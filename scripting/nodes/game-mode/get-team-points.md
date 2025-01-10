@@ -1,5 +1,5 @@
 # Get Team Points
-![alt text](../../../.gitbook/assets/get-team-points.png)
+![](../../../.gitbook/assets/get-team-points.png)
 ## Description
 Gets the point total for the *Team*. Returns points for the current round as well as the whole match.
 

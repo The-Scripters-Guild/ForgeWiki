@@ -1,5 +1,5 @@
 # Compare Wave Manager
-![alt text](../../../.gitbook/assets/compare-wave-manager.png)
+![](../../../.gitbook/assets/compare-wave-manager.png)
 
 ## Description
 Compares two Wave Manager values

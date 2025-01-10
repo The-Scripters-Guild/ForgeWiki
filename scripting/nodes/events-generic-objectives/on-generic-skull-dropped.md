@@ -1,5 +1,5 @@
 # On Generic Skull Dropped
-![alt text](../../../.gitbook/assets/on-generic-skull-dropped.png)
+![](../../../.gitbook/assets/on-generic-skull-dropped.png)
 ## Description
 Event called whenever the given *Generic Skull* leaves a player's hands
 

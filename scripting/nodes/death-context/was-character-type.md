@@ -1,5 +1,5 @@
 # Was Character Type
-![alt text](../../../.gitbook/assets/was-character-type.png)
+![](../../../.gitbook/assets/was-character-type.png)
 ## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Checks if the dead AI unit's *Character Type* and *Species* match the specified input.
 

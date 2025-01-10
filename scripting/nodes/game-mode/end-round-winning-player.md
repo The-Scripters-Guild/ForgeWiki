@@ -1,5 +1,5 @@
 # End Round - Winning Player
-![alt text](../../../.gitbook/assets/end-round-winning-player.png)
+![](../../../.gitbook/assets/end-round-winning-player.png)
 ## Description
 Ends the current round immediately, recording a win for the *Player* regardless of score. If *End Game* is set to true, the game will end regardless of how many rounds were remaining.
 

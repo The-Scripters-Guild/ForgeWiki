@@ -1,5 +1,5 @@
 # On Vehicle Hijacked By AI
-![alt text](../../../.gitbook/assets/on-vehicle-hijacked-by-ai.png)
+![](../../../.gitbook/assets/on-vehicle-hijacked-by-ai.png)
 ## Description
 Event called when an AI unit hijacks a vehicle
 

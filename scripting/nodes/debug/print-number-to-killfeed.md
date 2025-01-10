@@ -1,5 +1,5 @@
 # Print Number To Killfeed
-![alt text](../../../.gitbook/assets/print-number-to-killfeed.png)
+![](../../../.gitbook/assets/print-number-to-killfeed.png)
 ## Description
 Prints a *Number* in the killfeed. Use this to help debug nodes in Play mode.
 

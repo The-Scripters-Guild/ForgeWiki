@@ -1,5 +1,5 @@
 # On Object Exited Area
-![alt text](../../../.gitbook/assets/on-object-exited-area.png)
+![](../../../.gitbook/assets/on-object-exited-area.png)
 ## Description
 Event called when an object exits the Area Monitor's boundary. Returns which object has exited the boundary.
 

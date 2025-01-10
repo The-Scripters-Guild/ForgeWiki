@@ -1,5 +1,5 @@
 # Ambition Type: Deliver
-![alt text](../../../.gitbook/assets/ambition-type-deliver.png)
+![](../../../.gitbook/assets/ambition-type-deliver.png)
 ## Description
 When pursuing this behavior, a bot will try to deliver its held objective item (Oddball, Flag, etc) to the target object. Use with **Ambition Type: Pickup**.
 

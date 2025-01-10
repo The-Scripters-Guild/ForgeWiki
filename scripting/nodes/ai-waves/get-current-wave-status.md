@@ -1,5 +1,5 @@
 # Get Current Wave Status
-![alt text](../../../.gitbook/assets/get-current-wave-status.png)
+![](../../../.gitbook/assets/get-current-wave-status.png)
 
 ## Description
 Returns the Active Squads, Percent Remaining, and Duration Remaining in the current wave, along with any Straggler Squads that are left over from previous waves

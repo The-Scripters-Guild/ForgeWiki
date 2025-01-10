@@ -1,5 +1,5 @@
 # On Generic Zone Score End
-![alt text](../../../.gitbook/assets/on-generic-zone-score-end.png)
+![](../../../.gitbook/assets/on-generic-zone-score-end.png)
 ## Description
 Event called whenever the *Controlling Team* loses scoring control of the *Generic Zone* and the zone stops emitting **On Generic Zone Score Tick** events.
 

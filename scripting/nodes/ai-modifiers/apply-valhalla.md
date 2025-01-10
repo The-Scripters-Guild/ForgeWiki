@@ -1,5 +1,5 @@
 # Apply Valhalla
-![alt text](../../../.gitbook/assets/apply-valhalla.png)
+![](../../../.gitbook/assets/apply-valhalla.png)
 
 ## Description
 Sets the Valhalla game option according to Enabled

@@ -1,5 +1,5 @@
 # On Extraction Zone Arming Interrupted
-![alt text](../../../.gitbook/assets/on-extraction-zone-arming-interrupted.png)
+![](../../../.gitbook/assets/on-extraction-zone-arming-interrupted.png)
 ## Description
 Event called whenever any *Extraction Zone* arming is interrupted
 

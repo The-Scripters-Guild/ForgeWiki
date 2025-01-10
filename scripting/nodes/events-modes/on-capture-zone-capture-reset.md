@@ -1,5 +1,5 @@
 # On Capture Zone Capture Reset
-![alt text](../../../.gitbook/assets/on-capture-zone-capture-reset.png)
+![](../../../.gitbook/assets/on-capture-zone-capture-reset.png)
 ## Description
 Event called whenever any *Capturable Zone*'s capture progress is reduced to 0 by something other than the *Controlling Team*. This is almost always due to Control Decay in an unoccupied zone in 2-team games. See On **Generic Capture Zone Capture Secured** for when the owning team successfully defends their own zone.
 

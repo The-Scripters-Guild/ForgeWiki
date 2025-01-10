@@ -1,5 +1,5 @@
 # Get Is VIP
-![alt text](../../../.gitbook/assets/get-is-vip.png)
+![](../../../.gitbook/assets/get-is-vip.png)
 ## Description
 Returns true if the *Player* is a VIP
 

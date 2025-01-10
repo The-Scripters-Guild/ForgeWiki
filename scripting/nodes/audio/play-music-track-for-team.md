@@ -1,5 +1,5 @@
 # Play Music Track For Team
-![alt text](../../../.gitbook/assets/play-music-track-for-team.png)
+![](../../../.gitbook/assets/play-music-track-for-team.png)
 ## Description
 Plays a music track for a given team. The music track line is selected in the Object Properties menu.
 

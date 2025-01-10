@@ -1,5 +1,5 @@
 # On Generic Zone Neutralized
-![alt text](../../../.gitbook/assets/on-generic-zone-neutralized.png)
+![](../../../.gitbook/assets/on-generic-zone-neutralized.png)
 ## Description
 Event called when the *Controlling Team* for the *Generic Zone* is reverted to nil, making the zone unowned.
 

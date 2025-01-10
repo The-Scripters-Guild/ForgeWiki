@@ -1,5 +1,5 @@
 # On Oddball Spawned
-![alt text](../../../.gitbook/assets/on-oddball-spawned.png)
+![](../../../.gitbook/assets/on-oddball-spawned.png)
 ## Description
 Event called whenever the Oddball has spawned. This occurs after the incoming state completes.
 

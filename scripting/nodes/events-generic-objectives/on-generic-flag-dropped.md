@@ -1,5 +1,5 @@
 # On Generic Flag Dropped
-![alt text](../../../.gitbook/assets/on-generic-flag-dropped.png)
+![](../../../.gitbook/assets/on-generic-flag-dropped.png)
 ## Description
 Event called whenever a player carrying the *Generic Flag* has dropped the *Generic Flag*. Event also fires whenever a player carrying the *Generic Flag* has been killed.
 

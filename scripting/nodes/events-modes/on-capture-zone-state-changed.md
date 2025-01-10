@@ -1,5 +1,5 @@
 # On Capture Zone State Changed
-![alt text](../../../.gitbook/assets/on-capture-zone-state-changed.png)
+![](../../../.gitbook/assets/on-capture-zone-state-changed.png)
 ## Description
 Event called whenever any *Capturable Zone* enters a new Control State
 

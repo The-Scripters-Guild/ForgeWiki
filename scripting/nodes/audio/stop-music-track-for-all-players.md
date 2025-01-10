@@ -1,5 +1,5 @@
 # Stop Music Track For All Players
-![alt text](../../../.gitbook/assets/stop-music-track-for-all-players.png)
+![](../../../.gitbook/assets/stop-music-track-for-all-players.png)
 ## Description
 Stops the currently playing music track for all players.
 

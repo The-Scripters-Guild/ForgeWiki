@@ -1,7 +1,7 @@
 # On Equipment Pickup
-![alt text](../../../.gitbook/assets/on-equipment-pickup.png)
+![](../../../.gitbook/assets/on-equipment-pickup.png)
 ## Description
-Event called when a player picks up equipment. Unlike the **On Weapon Pickup** event, ammo refills DO triger this event.
+Event called when a player picks up equipment. Unlike the **On Weapon Pickup** event, ammo refills DO trigger this event.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node listens for an Event, then triggers it's node string.

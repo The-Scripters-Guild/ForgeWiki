@@ -1,5 +1,5 @@
 # On Generic Zone Neutralize Reset
-![alt text](../../../.gitbook/assets/on-generic-zone-neutralize-reset.png)
+![](../../../.gitbook/assets/on-generic-zone-neutralize-reset.png)
 ## Description
 Event called when the *Controlling Team* that owns the *Generic Zone* resets their Control Decay to 0, affectively securing the zone.
 

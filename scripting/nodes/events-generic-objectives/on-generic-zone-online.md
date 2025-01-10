@@ -1,5 +1,5 @@
 # On Generic Zone Online
-![alt text](../../../.gitbook/assets/on-generic-zone-online.png)
+![](../../../.gitbook/assets/on-generic-zone-online.png)
 ## Description
 Event called whenever the *Generic Zone* completes the Incoming state (if enabled) and becomes capturable.
 

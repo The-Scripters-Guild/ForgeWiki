@@ -1,5 +1,5 @@
 # On Capture Zone Lifetime Expired
-![alt text](../../../.gitbook/assets/on-capture-zone-lifetime-expired.png)
+![](../../../.gitbook/assets/on-capture-zone-lifetime-expired.png)
 ## Description
 Event called whenever any *Capturable Zone* expires and despawns. Does not fire if the Lifetime Timer is set to 0.
 

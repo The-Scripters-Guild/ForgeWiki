@@ -1,5 +1,5 @@
 # Kill Squad
-![alt text](../../../.gitbook/assets/kill-squad.png)
+![](../../../.gitbook/assets/kill-squad.png)
 ## Description
 Kills the Squad
 

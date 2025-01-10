@@ -1,5 +1,5 @@
 # Adjust Lifepool
-![alt text](../../../.gitbook/assets/adjust-lifepool.png)
+![](../../../.gitbook/assets/adjust-lifepool.png)
 ## Description
 Adjusts the *Team*'s lifepool by the provided *Life Count*, if teams and lifepools are enabled. Negative values will subtract lives.
 

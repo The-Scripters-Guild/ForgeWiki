@@ -1,5 +1,5 @@
 # Activate Shrinking Zone
-![alt text](../../../.gitbook/assets/activate-shrinking-zone.png)
+![](../../../.gitbook/assets/activate-shrinking-zone.png)
 ## Description
 Activates the designated Shrinking Zone sequence. Delays set in the object properties will execute when the zone is triggered.
 

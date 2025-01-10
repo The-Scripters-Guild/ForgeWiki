@@ -1,5 +1,5 @@
 # Set VIP
-![alt text](../../../.gitbook/assets/set-vip.png)
+![](../../../.gitbook/assets/set-vip.png)
 ## Description
 Sets the Player as the team's VIP. Also removes the team's current VIP.
 

@@ -1,5 +1,5 @@
 # On Weapon Refill Pickup
-![alt text](../../../.gitbook/assets/on-weapon-refill-pickup.png)
+![](../../../.gitbook/assets/on-weapon-refill-pickup.png)
 ## Description
 Event called when a weapon is picked up for an ammo refill. *Is Fully Picked Up* will return true if the weapon was despawned.
 

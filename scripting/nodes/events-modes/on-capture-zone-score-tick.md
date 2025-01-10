@@ -1,5 +1,5 @@
 # On Capture Zone Score Tick
-![alt text](../../../.gitbook/assets/on-capture-zone-score-tick.png)
+![](../../../.gitbook/assets/on-capture-zone-score-tick.png)
 ## Description
 Event called every interval after any *Capturable Zone* is fully captured and begins scoring. The interval is in seconds and is set by the zone's Scoring Event Interval object property.
 

@@ -1,5 +1,5 @@
 # Set AI Unit Inactive
-![alt text](../../../.gitbook/assets/set-ai-unit-inactive.png)
+![](../../../.gitbook/assets/set-ai-unit-inactive.png)
 
 ## Description
 Sets the Inactive behavior on an AI Unit

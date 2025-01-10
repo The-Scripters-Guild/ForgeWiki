@@ -1,5 +1,5 @@
 # On Shrinking Zone Start
-![alt text](../../../.gitbook/assets/on-shrinking-zone-start.png)
+![](../../../.gitbook/assets/on-shrinking-zone-start.png)
 ## Description
 Event called when the *Shrinking Zone* starts its shrinking sequence. This is triggered every time the zone starts to shrink.
 

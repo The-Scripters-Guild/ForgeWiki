@@ -1,5 +1,5 @@
 # Print Team To Killfeed
-![alt text](../../../.gitbook/assets/print-team-to-killfeed.png)
+![](../../../.gitbook/assets/print-team-to-killfeed.png)
 ## Description
 Prints the name of the *Team* from in the killfeed. Use this to help debug nodes in Play mode.
 

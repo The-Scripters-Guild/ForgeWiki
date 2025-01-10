@@ -1,5 +1,5 @@
 # On Capture Zone Entered
-![alt text](../../../.gitbook/assets/on-capture-zone-entered.png)
+![](../../../.gitbook/assets/on-capture-zone-entered.png)
 ## Description
 Event called whenever a player enters any *Capturable Zone*'s boundary. Behaves like an Area Monitor, but only tracks players and players in vehicles.
 

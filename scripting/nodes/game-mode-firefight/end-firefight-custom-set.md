@@ -1,5 +1,5 @@
 # End Firefight Custom Set
-![alt text](../../../.gitbook/assets/end-firefight-custom-set.png)
+![](../../../.gitbook/assets/end-firefight-custom-set.png)
 ## Description
 Ends the currently running Firefight Custom Set. THe defending (Eagle) team will gain a point if Defenders Successful is TRUE; otherwise, Cobra will earn a point. Only works in Firefight Custom. If called between Sets, will have no effect.
 

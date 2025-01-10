@@ -1,5 +1,5 @@
 # Print Control State To Killfeed
-![alt text](../../../.gitbook/assets/print-control-state-to-killfeed.png)
+![](../../../.gitbook/assets/print-control-state-to-killfeed.png)
 ## Description
 Prints a *Control State* from a Generic Zone in the killfeed. Use this to help debug nodes in Play mode.
 

@@ -1,5 +1,5 @@
 # On Generic Zone Capture Secured
-![alt text](../../../.gitbook/assets/on-generic-zone-capture-secured.png)
+![](../../../.gitbook/assets/on-generic-zone-capture-secured.png)
 ## Description
 Event called whenever the *Generic Zone*'s capture progress is reduced to 0 (by the)_*Controlling Team*. In other words, this event fires when the team that owns the zone successfully resets an attacker's capture progress.
 

@@ -1,5 +1,5 @@
 # On Weapon No Ammo
-![alt text](../../../.gitbook/assets/on-weapon-no-ammo.png)
+![](../../../.gitbook/assets/on-weapon-no-ammo.png)
 ## Description
 Event called when a weapon runs out of ammo or energy
 

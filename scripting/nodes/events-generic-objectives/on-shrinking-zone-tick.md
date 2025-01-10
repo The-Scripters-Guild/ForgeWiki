@@ -1,5 +1,5 @@
 # On Shrinking Zone Tick
-![alt text](../../../.gitbook/assets/on-shrinking-zone-tick.png)
+![](../../../.gitbook/assets/on-shrinking-zone-tick.png)
 ## Description
 Event called whenever players take damage from the *Shrinking Zone*
 

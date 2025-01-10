@@ -1,5 +1,5 @@
 # Compare Wave Victory Reason
-![alt text](../../../.gitbook/assets/compare-wave-victory-reason.png)
+![](../../../.gitbook/assets/compare-wave-victory-reason.png)
 
 ## Description
 Compares two Victory Reason values

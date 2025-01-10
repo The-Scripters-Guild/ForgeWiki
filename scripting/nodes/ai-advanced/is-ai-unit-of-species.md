@@ -1,5 +1,5 @@
 # Is AI Unit Of Species
-![alt text](../../../.gitbook/assets/is-ai-unit-of-species.png)
+![](../../../.gitbook/assets/is-ai-unit-of-species.png)
 
 ## Description
 Checks if the AI belongs to the AI Species, such as Grunt

@@ -1,5 +1,5 @@
 # Deactivate Delivery Point
-![alt text](../../../.gitbook/assets/deactivate-delivery-point.png)
+![](../../../.gitbook/assets/deactivate-delivery-point.png)
 ## Description
 Deactivates the Delivery Point. Use instead of Delete Object to avoid breaking references.
 

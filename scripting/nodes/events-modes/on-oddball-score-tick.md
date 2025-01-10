@@ -1,5 +1,5 @@
 # On Oddball Score Tick
-![alt text](../../../.gitbook/assets/on-oddball-score-tick.png)
+![](../../../.gitbook/assets/on-oddball-score-tick.png)
 ## Description
 Event called every interval after the Oddball object is picked up and the Player scores a point. The interval is in seconds. This node only works in Oddball game modes.
 

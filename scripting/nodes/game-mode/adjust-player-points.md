@@ -1,5 +1,5 @@
 # Adjust Player Points
-![alt text](../../../.gitbook/assets/adjust-player-points.png)
+![](../../../.gitbook/assets/adjust-player-points.png)
 ## Description
 Adjusts the point total of the *Player* for current round by the *Score Adjustment* amount. Negative values will subtract points.
 

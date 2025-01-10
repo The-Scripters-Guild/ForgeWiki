@@ -1,5 +1,5 @@
 # Trigger Custom Event, Global
-![alt text](../../../.gitbook/assets/trigger-custom-event-global.png)
+![](../../../.gitbook/assets/trigger-custom-event-global.png)
 ## Description
 Triggers a custom event with a matching *Identifier* in ANY script brain and waits for completion before resuming. Only triggers **On Custom Event, Global** nodes. Unless you have a specific need for multiple script brains, it is best to use the non-global version of **Trigger Custom Event**.
 

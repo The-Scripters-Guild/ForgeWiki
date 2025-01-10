@@ -1,5 +1,5 @@
 # Modify AI Targetable Object Methods
-![alt text](../../../.gitbook/assets/modify-ai-targetable-object-methods.png)
+![](../../../.gitbook/assets/modify-ai-targetable-object-methods.png)
 
 ## Description
 Sets whether an Object that is currently registered to be targetable by AI can be attacked by grenades and vehicles. Attacks with melee weapons can also be discouraged.

@@ -1,5 +1,5 @@
 # Get Is Forge Mode
-![alt text](../../../.gitbook/assets/get-is-forge-mode.png)
+![](../../../.gitbook/assets/get-is-forge-mode.png)
 ## Description
 Returns true if the game is currently Forge mode. Will return false in custom games. Use for debugging purposes.
 

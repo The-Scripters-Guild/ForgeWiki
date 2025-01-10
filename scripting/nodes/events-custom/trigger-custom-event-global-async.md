@@ -1,5 +1,5 @@
 # Trigger Custom Event, Global Async
-![alt text](../../../.gitbook/assets/trigger-custom-event-global-async.png)
+![](../../../.gitbook/assets/trigger-custom-event-global-async.png)
 ## Description
 Triggers a custom event with a matching *Identifier* in ANY script brain and resumes execution immediately after triggering. Only triggers **On Custom Event, Global Async** nodes. Unless you have a specific need for asynchronous execution, it is best to use **Trigger Custom Event, Global**.
 

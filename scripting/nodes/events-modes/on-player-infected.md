@@ -1,5 +1,5 @@
 # On Player Infected
-![alt text](../../../.gitbook/assets/on-player-infected.png)
+![](../../../.gitbook/assets/on-player-infected.png)
 ## Description
 Event called when any player is infected during the Infection game mode. Infecting Player will return nil if not caused by an infected player.
 

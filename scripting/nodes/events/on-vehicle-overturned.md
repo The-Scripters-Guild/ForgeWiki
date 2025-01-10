@@ -1,5 +1,5 @@
 # On Vehicle Overturned
-![alt text](../../../.gitbook/assets/on-vehicle-overturned.png)
+![](../../../.gitbook/assets/on-vehicle-overturned.png)
 ## Description
 Event called when a vehicle flips and evicts a unit from a seat. Event  is called once for each evicted unit.
 

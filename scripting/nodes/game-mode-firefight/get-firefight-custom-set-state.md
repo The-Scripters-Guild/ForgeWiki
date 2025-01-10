@@ -1,5 +1,5 @@
 # Get Firefight Custom Set State
-![alt text](../../../.gitbook/assets/get-firefight-custom-state-set.png)
+![](../../../.gitbook/assets/get-firefight-custom-state-set.png)
 ## Description
 Returns information about the currently running Firefight Custom Set. If no Custom Set is active, Custom Set Active will be FALSE and 1 as appropriate. Input pins determine the value in Forge to facilitate script testing. Only works in Firefight Custom.
 

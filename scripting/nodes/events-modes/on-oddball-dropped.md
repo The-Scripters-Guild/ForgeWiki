@@ -1,5 +1,5 @@
 # On Oddball Dropped
-![alt text](../../../.gitbook/assets/on-oddball-dropped.png)
+![](../../../.gitbook/assets/on-oddball-dropped.png)
 ## Description
 Event called whenever a player carrying the Oddball has dropped the flag. Event also fires whenver a player carrying the Oddball has been killed.
 

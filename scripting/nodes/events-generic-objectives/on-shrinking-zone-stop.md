@@ -1,5 +1,5 @@
 # On Shrinking Zone Stop
-![alt text](../../../.gitbook/assets/on-shrinking-zone-stop.png)
+![](../../../.gitbook/assets/on-shrinking-zone-stop.png)
 ## Description
 Event called when the *Shrinking Zone* stops its shrinking sequence. This is triggered every time the zone stops shrinking.
 

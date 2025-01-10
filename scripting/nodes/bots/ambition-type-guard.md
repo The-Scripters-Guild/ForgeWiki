@@ -1,5 +1,5 @@
 # Ambition Type: Guard
-![alt text](../../../.gitbook/assets/ambition-type-guard.png)
+![](../../../.gitbook/assets/ambition-type-guard.png)
 ## Description
 When pursuing this behavior, a bot will move to the target object and stand near it. If that object has a Boundary defined, the bot will try to stay within that Boundary. If applied to an enemy player, the bot will engage in combat with the target object.
 

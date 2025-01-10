@@ -1,5 +1,5 @@
 # Get All Bots
-![alt text](../../../.gitbook/assets/get-all-bots.png)
+![](../../../.gitbook/assets/get-all-bots.png)
 ## Description
 Returns a list of all players who are bots.
 

@@ -1,5 +1,5 @@
 # Get Firefight Boss Spawners
-![alt text](../../../.gitbook/assets/get-firefight-boss-spawners.png)
+![](../../../.gitbook/assets/get-firefight-boss-spawners.png)
 ## Description
 Returns a randomly ordered Object List of AI Spawner objects that have the Firefight Spawner game mode label and a matching Group Index. List contents will be filtered to first provide Phantom spawners up to the max, and then the rest from all other spawner types. Only returns up to 32 spawners. Works in all game modes.
 

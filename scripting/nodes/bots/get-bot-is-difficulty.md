@@ -1,5 +1,5 @@
 # Get Bot Is Difficulty
-![alt text](../../../.gitbook/assets/get-bot-is-difficulty.png)
+![](../../../.gitbook/assets/get-bot-is-difficulty.png)
 ## Description
 Returns true if the *Bot Player* matches the given *Bot Difficulty*. Always returns false if the *Bot Player* is not actually a bot.
 

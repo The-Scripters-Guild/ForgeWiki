@@ -1,5 +1,5 @@
 # On Grenade Throw
-![alt text](../../../.gitbook/assets/on-grenade-throw.png)
+![](../../../.gitbook/assets/on-grenade-throw.png)
 ## Description
 Event called when a player throws a grenade. Doesn't trigger for AI units.
 

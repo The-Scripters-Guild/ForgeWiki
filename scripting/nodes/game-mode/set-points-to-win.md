@@ -1,5 +1,5 @@
 # Set Points To Win
-![alt text](../../../.gitbook/assets/set-points-to-win.png)
+![](../../../.gitbook/assets/set-points-to-win.png)
 ## Description
 Sets the point total required to win the current round
 

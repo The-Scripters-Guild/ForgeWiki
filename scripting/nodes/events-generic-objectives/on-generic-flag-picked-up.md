@@ -1,5 +1,5 @@
 # On Generic Flag Picked Up
-![alt text](../../../.gitbook/assets/on-generic-flag-picked-up.png)
+![](../../../.gitbook/assets/on-generic-flag-picked-up.png)
 ## Description
 Event called whenever a player carrying the *Generic Flag* has picked up the *Generic Flag*. Event also fires whenever a player is given the *Generic Flag*.
 

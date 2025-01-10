@@ -1,5 +1,5 @@
 # Add Bot
-![alt text](../../../.gitbook/assets/add-bot.png)
+![](../../../.gitbook/assets/add-bot.png)
 ## Description
 Adds a bot of the given *Bot Difficulty* to the *Team*. The *Team* pin is ignored in Free-For-All games. REMINDER: Remember to bake Nav Mesh in the Build Menu to allow bots to navigate your map.
 

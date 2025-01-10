@@ -1,5 +1,5 @@
 # Set Squad Stop Following
-![alt text](../../../.gitbook/assets/set-squad-stop-following.png)
+![](../../../.gitbook/assets/set-squad-stop-following.png)
 
 ## Description
 Tells a Squad to stop following an object if they were following one. The Squad will return to their previously-assigned zone.

@@ -1,5 +1,5 @@
 # Spawn Squad Through Definition
-![alt text](../../../.gitbook/assets/spawn-squad-through-definition.png)
+![](../../../.gitbook/assets/spawn-squad-through-definition.png)
 ## Description
 Spawns a Squad according to the Spawn Definition
 

@@ -1,5 +1,5 @@
 # Get Generic Zone Progress
-![alt text](../../../.gitbook/assets/get-generic-zone-progress.png)
+![](../../../.gitbook/assets/get-generic-zone-progress.png)
 ## Description
 Returns the current capture progress from the Generic Zone object
 

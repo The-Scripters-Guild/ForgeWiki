@@ -1,5 +1,5 @@
 # On Player Team Change
-![alt text](../../../.gitbook/assets/on-player-team-change.png)
+![](../../../.gitbook/assets/on-player-team-change.png)
 ## Description
 Event called when any player changes teams
 

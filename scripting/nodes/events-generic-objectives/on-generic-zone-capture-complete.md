@@ -1,5 +1,5 @@
 # On Generic Zone Capture Complete
-![alt text](../../../.gitbook/assets/on-generic-zone-capture-complete.png)
+![](../../../.gitbook/assets/on-generic-zone-capture-complete.png)
 ## Description
 Event called whenever the *Generic Zone* is cussessfully captured and a new *Controlling Team* is set.
 

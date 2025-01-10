@@ -1,5 +1,5 @@
 # On Generic Zone Neutralize Start
-![alt text](../../../.gitbook/assets/on-generic-zone-neutralize-start.png)
+![](../../../.gitbook/assets/on-generic-zone-neutralize-start.png)
 ## Description
 Event called whenever Control Decay begins for the *Controlling Team* that owns the *Generic Zone*. Overlaps with **On Generic Zone Score End** if the Logic Template prevents scoring.
 

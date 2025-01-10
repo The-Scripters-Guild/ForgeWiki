@@ -1,5 +1,5 @@
 # Get Is Game Mode
-![alt text](../../../.gitbook/assets/get-is-game-mode.png)
+![](../../../.gitbook/assets/get-is-game-mode.png)
 ## Description
 Returns true if the *Game Mode* input matches the curently running game mode. The second pin determines the behavior in Forge Mode for testing.
 

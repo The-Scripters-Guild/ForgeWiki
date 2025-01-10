@@ -1,5 +1,5 @@
 # On Wave End
-![alt text](../../../.gitbook/assets/on-wave-end.png)
+![](../../../.gitbook/assets/on-wave-end.png)
 
 ## Description
 Event called when a wave from the Wave Manager ends. Also outputs the Victory Reason and Elapsed Time of the wave.

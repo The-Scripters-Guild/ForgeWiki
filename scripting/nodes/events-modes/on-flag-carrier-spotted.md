@@ -1,5 +1,5 @@
 # On Flag Carrier Spotted
-![alt text](../../../.gitbook/assets/on-flag-carrier-spotted.png)
+![](../../../.gitbook/assets/on-flag-carrier-spotted.png)
 ## Description
 Event called whenever a player carrying the Flag has been spotted. This event only fires in modes that allow hiding and spotting of the Flag Carrier.
 

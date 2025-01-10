@@ -1,5 +1,5 @@
 # On Player Mark
-![alt text](../../../.gitbook/assets/on-player-mark.png)
+![](../../../.gitbook/assets/on-player-mark.png)
 ## Description
 Event called when a player pings an object within range using the Mark system. Targest List returns an object list with any dynamic objects the callout hits and will return an empty list if there are no valid targets.
 

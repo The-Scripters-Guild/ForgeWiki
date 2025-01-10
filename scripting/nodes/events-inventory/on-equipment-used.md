@@ -1,5 +1,5 @@
 # On Equipment Used
-![alt text](../../../.gitbook/assets/on-equipment-used.png)
+![](../../../.gitbook/assets/on-equipment-used.png)
 ## Description
 Event called when a player uses a piece of equipment
 

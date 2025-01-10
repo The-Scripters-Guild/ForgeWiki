@@ -1,5 +1,5 @@
 # On Player Crouch
-![alt text](../../../.gitbook/assets/on-player-crouch.png)
+![](../../../.gitbook/assets/on-player-crouch.png)
 ## Description
 Event called when any player changes their crouch state. Is Crouching will be true when a player crouches and false when they stand back up.
 

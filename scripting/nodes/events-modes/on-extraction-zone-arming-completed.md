@@ -1,5 +1,5 @@
 # On Extraction Zone Arming Completed
-![alt text](../../../.gitbook/assets/on-extraction-zone-arming-completed.png)
+![](../../../.gitbook/assets/on-extraction-zone-arming-completed.png)
 ## Description
 Event called whenever any *Extraction Zone* arming is completed successfully
 

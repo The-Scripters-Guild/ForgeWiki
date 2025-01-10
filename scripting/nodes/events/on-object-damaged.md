@@ -1,5 +1,5 @@
 # On Object Damaged
-![alt text](../../../.gitbook/assets/on-object-damaged.png)
+![](../../../.gitbook/assets/on-object-damaged.png)
 ## Description
 Event called when the Object is damaged by any source. This event won't trigger when Players, or objects that don't have health values, are used as the object referenced.
 

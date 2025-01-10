@@ -1,5 +1,5 @@
 # On Weapon Low Ammo
-![alt text](../../../.gitbook/assets/on-weapon-low-ammo.png)
+![](../../../.gitbook/assets/on-weapon-low-ammo.png)
 ## Description
 Event called when a weapon gets low on ammo or energy
 

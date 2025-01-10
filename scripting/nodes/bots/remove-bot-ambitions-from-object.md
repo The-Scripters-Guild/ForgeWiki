@@ -1,5 +1,5 @@
 # Remove Bot Ambitions From Object
-![alt text](../../../.gitbook/assets/remove-bot-ambitions-from-object.png)
+![](../../../.gitbook/assets/remove-bot-ambitions-from-object.png)
 ## Description
 Clears all ambitions from the *Target Object* for all teams. If *Only Specific Ambition Type* is set, only ambitions that match the *Ambition Type* will be removed.
 

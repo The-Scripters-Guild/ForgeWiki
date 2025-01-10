@@ -1,5 +1,5 @@
 # On Generic Zone Capture Start
-![alt text](../../../.gitbook/assets/on-generic-zone-capture-start.png)
+![](../../../.gitbook/assets/on-generic-zone-capture-start.png)
 ## Description
 Event called whenever the *Generic Zone* begins to be captured by a new *Capture Team*. The *Controlling Team* is whoever currently owns the zone and may be invalid if the zone is neutral.
 

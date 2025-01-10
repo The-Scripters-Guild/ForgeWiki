@@ -1,5 +1,5 @@
 # On Capture Zone Contested End
-![alt text](../../../.gitbook/assets/on-capture-zone-contested-end.png)
+![](../../../.gitbook/assets/on-capture-zone-contested-end.png)
 ## Description
 Event called whenever any *Capturable Zone* exits a Contested state and resumes capture progress. The *Capture Team* is the team currently making capture progress after the Contested state was resolved.
 

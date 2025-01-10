@@ -1,5 +1,5 @@
 # Trigger Custom Event
-![alt text](../../../.gitbook/assets/trigger-custom-event.png)
+![](../../../.gitbook/assets/trigger-custom-event.png)
 ## Description
 Triggers a custom event with a matching Identifier in the SAME script brain. Only triggers On Custom Event nodes.
 

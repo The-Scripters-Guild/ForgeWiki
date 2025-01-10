@@ -1,5 +1,5 @@
 # On Vehicle Hijacked By Player
-![alt text](../../../.gitbook/assets/on-vehicle-hijacked-by-player.png)
+![](../../../.gitbook/assets/on-vehicle-hijacked-by-player.png)
 ## Description
 Event called when a player hijacks a vehicle
 

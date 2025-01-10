@@ -1,5 +1,5 @@
 # On Flag Incoming
-![alt text](../../../.gitbook/assets/on-flag-incoming.png)
+![](../../../.gitbook/assets/on-flag-incoming.png)
 ## Description
 Event called whenever the Flag enters an Incoming state. Does not fire if the Incoming state is disabled.
 

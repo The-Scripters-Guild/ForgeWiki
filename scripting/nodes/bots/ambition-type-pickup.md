@@ -1,5 +1,5 @@
 # Ambition Type: Pickup
-![alt text](../../../.gitbook/assets/ambition-type-pickup.png)
+![](../../../.gitbook/assets/ambition-type-pickup.png)
 ## Description
 When pursuing this behavior, a bot will try to locate the target object, pick it up, and hold it. Only works on objective items (Oddball, Flag, etc.)
 

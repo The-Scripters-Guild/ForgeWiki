@@ -1,5 +1,5 @@
 # Get Player Points
-![alt text](../../../.gitbook/assets/get-player-points.png)
+![](../../../.gitbook/assets/get-player-points.png)
 ## Description
 Gets the *Player*'s point total. Provides points for the current round as well as the whole match.
 

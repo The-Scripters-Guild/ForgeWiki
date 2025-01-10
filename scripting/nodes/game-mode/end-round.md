@@ -1,5 +1,5 @@
 # End Round
-![alt text](../../../.gitbook/assets/end-round.png)
+![](../../../.gitbook/assets/end-round.png)
 ## Description
 Ends the current round immediately, calculating score appropriate to the game mode. If *End Game* is set to true, the game will end regardless of how many rounds were remaining.
 

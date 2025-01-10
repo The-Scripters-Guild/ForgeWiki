@@ -1,5 +1,5 @@
 # Set AI Unit Magic Sight
-![alt text](../../../.gitbook/assets/set-ai-unit-magic-sight.png)
+![](../../../.gitbook/assets/set-ai-unit-magic-sight.png)
 
 ## Description
 Sets the Magic Sight behavior on an AI Unit

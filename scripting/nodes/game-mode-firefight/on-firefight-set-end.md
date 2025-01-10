@@ -1,5 +1,5 @@
 # On Firefight Set End
-![alt text](../../../.gitbook/assets/on-firefight-set-end.png)
+![](../../../.gitbook/assets/on-firefight-set-end.png)
 ## Description
 Event called when any Firefight game variant ends a Set. Returns the Group Index the Set was launched with, which determines which spawners and objectives were triggered for that Set. Only works in Firefight variants.
 

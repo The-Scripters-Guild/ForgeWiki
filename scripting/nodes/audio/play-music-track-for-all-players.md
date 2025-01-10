@@ -1,5 +1,5 @@
 # Play Music Track For All Players
-![alt text](../../../.gitbook/assets/play-music-track-for-all-players.png)
+![](../../../.gitbook/assets/play-music-track-for-all-players.png)
 ## Description
 Plays a music track for all players. The music track line is selected in the Object Properties menu.
 

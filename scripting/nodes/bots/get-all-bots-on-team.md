@@ -1,5 +1,5 @@
 # Get All Bots On Team
-![alt text](../../../.gitbook/assets/get-all-bots-on-team.png)
+![](../../../.gitbook/assets/get-all-bots-on-team.png)
 ## Description
 Returns a list of all players who are bots assigned to the *Team*.
 

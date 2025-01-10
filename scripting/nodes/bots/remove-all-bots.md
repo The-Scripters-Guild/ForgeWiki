@@ -1,5 +1,5 @@
 # Remove All Bots
-![alt text](../../../.gitbook/assets/remove-all-bots.png)
+![](../../../.gitbook/assets/remove-all-bots.png)
 ## Description
 Removes all bots from all teams.
 

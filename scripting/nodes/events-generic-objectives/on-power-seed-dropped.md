@@ -1,5 +1,5 @@
 # On Power Seed Dropped
-![alt text](../../../.gitbook/assets/on-power-seed-dropped.png)
+![](../../../.gitbook/assets/on-power-seed-dropped.png)
 ## Description
 Event called whenever the given *Power Seed* leaves a player's hands
 

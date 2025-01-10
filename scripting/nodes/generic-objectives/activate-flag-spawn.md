@@ -1,5 +1,5 @@
 # Activate Flag Spawn
-![alt text](../../../.gitbook/assets/activate-flag-spawn.png)
+![](../../../.gitbook/assets/activate-flag-spawn.png)
 ## Description
 Activates the Generic Flag SPawn, causing it to spawn. The object does not have to set the Triggered By Script property to use this node.
 

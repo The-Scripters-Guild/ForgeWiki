@@ -1,5 +1,5 @@
 # Adjust Team Points
-![alt text](../../../.gitbook/assets/adjust-team-points.png)
+![](../../../.gitbook/assets/adjust-team-points.png)
 ## Description
 Adjusts the point total of the *Team* for current round by the *Score Adjustment* amount. Negative values will subtract points.
 

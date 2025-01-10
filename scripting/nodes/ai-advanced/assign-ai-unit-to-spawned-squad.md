@@ -1,5 +1,5 @@
 # Assign AI Unit To Spawned Squad
-![alt text](../../../.gitbook/assets/assign-ai-unit-to-spawned-squad.png)
+![](../../../.gitbook/assets/assign-ai-unit-to-spawned-squad.png)
 
 ## Description
 Assigns the AI Unit to the spawned Squad

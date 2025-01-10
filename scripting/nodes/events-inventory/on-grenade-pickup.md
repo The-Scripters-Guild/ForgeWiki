@@ -1,5 +1,5 @@
 # On Grenade Pickup
-![alt text](../../../.gitbook/assets/on-grenade-pickup.png)
+![](../../../.gitbook/assets/on-grenade-pickup.png)
 ## Description
 Event called when a player explicitly picks up a grenade
 

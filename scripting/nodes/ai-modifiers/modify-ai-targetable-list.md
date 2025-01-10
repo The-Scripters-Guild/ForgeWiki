@@ -1,5 +1,5 @@
 # Modify AI Targetable List
-![alt text](../../../.gitbook/assets/modifty-ai-targetable-list.png)
+![](../../../.gitbook/assets/modifty-ai-targetable-list.png)
 
 ## Description
 Adds or removes an Object that can be targetable by AI, who will perceive it to be on a Team and will prioritize attacking it based off Priority. The priority value can be negative which reduces the likelihood of being attacked by AI.

@@ -1,5 +1,5 @@
 # Squad Overrides Behavior
-![alt text](../../../.gitbook/assets/squad-overrides-behavior.png)
+![](../../../.gitbook/assets/squad-overrides-behavior.png)
 ## Description
 Returns Spawn Overrides for Blind, Deaf, Inactive, and Magic Sight behavior when a squad spawns
 

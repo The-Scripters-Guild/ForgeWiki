@@ -1,5 +1,5 @@
 # On Flag Captured
-![alt text](../../../.gitbook/assets/on-flag-captured.png)
+![](../../../.gitbook/assets/on-flag-captured.png)
 ## Description
 Event called whenever a Flag is captured, returning the Player who captured the flag and their team. This node only works in CTF game modes.
 

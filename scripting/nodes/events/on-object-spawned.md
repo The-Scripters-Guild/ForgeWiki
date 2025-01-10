@@ -1,5 +1,5 @@
 # On Object Spawned
-![alt text](../../../.gitbook/assets/on-object-spawned.png)
+![](../../../.gitbook/assets/on-object-spawned.png)
 ## Description
 Event called when the Object is spawned, including initial spawn at map start if applicable
 

@@ -1,5 +1,5 @@
 # On Player Level Up
-![alt text](../../../.gitbook/assets/on-player-level-up.png)
+![](../../../.gitbook/assets/on-player-level-up.png)
 ## Description
 Event called when any player levels up during specific game modes
 

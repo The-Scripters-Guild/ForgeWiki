@@ -1,5 +1,5 @@
 # On Extraction Zone Extraction Completed
-![alt text](../../../.gitbook/assets/on-extraction-zone-extraction-completed.png)
+![](../../../.gitbook/assets/on-extraction-zone-extraction-completed.png)
 ## Description
 Event called whenever any *Extraction Zone* conversion is completed successfully.
 

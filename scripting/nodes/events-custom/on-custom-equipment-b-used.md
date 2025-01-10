@@ -1,5 +1,5 @@
 # On Custom Equipment B Used
-![alt text](../../../.gitbook/assets/on-custom-equipment-b-used.png)
+![](../../../.gitbook/assets/on-custom-equipment-b-used.png)
 ## Description
 Event called in the same conditions as **On Equipment Used** but only when the equipment used is Custom Equipment B.
 

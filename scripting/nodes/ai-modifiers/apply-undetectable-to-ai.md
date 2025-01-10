@@ -1,5 +1,5 @@
 # Apply Undetectable To AI
-![alt text](../../../.gitbook/assets/apply-undetectable-to-ai.png)
+![](../../../.gitbook/assets/apply-undetectable-to-ai.png)
 
 ## Description
 Sets the Undetectable To AI game option according to Enabled

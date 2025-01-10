@@ -1,5 +1,5 @@
 # On Generic Zone Expired
-![alt text](../../../.gitbook/assets/on-generic-zone-expired.png)
+![](../../../.gitbook/assets/on-generic-zone-expired.png)
 ## Description
 Event called whenever the *Generic Zone* expires and despawns. Does not fire if the Lifetime Timer is set to 0.
 

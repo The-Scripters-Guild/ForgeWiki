@@ -1,5 +1,5 @@
 # Activate Delivery Point
-![alt text](../../../.gitbook/assets/activate-delivery-point.png)
+![](../../../.gitbook/assets/activate-delivery-point.png)
 ## Description
 Actrivates the Delivery Point, causing it to spawn. The object does not have to set the Triggered By Script property to use this node.
 

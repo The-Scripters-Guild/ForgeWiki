@@ -1,5 +1,5 @@
 # On Weapon Dropped
-![alt text](../../../.gitbook/assets/on-weapon-dropped.png)
+![](../../../.gitbook/assets/on-weapon-dropped.png)
 ## Description
 Event called when a weapon is dropped by a unit
 

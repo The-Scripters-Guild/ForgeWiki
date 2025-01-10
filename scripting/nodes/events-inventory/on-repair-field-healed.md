@@ -1,5 +1,5 @@
 # On Repair Field Healed
-![alt text](../../../.gitbook/assets/on-repair-field-healed.png)
+![](../../../.gitbook/assets/on-repair-field-healed.png)
 ## Description
 Event called when an object is healed by a Repair Field
 

@@ -1,5 +1,5 @@
 # On Revive Orb Spawned
-![alt text](../../../.gitbook/assets/on-revive-orb-spawned.png)
+![](../../../.gitbook/assets/on-revive-orb-spawned.png)
 ## Description
 Event called when a revive Orb has been spawned for Player.
 

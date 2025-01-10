@@ -1,5 +1,5 @@
 # On Generic Zone Contested Start
-![alt text](../../../.gitbook/assets/on-generic-zone-contested-start.png)
+![](../../../.gitbook/assets/on-generic-zone-contested-start.png)
 ## Description
 Event called whenever the *Generic Zone* starts to be captured and enters a Contested state. The *Previous Capture* Team is the last team that was making capture progress before the zone entered the Contested state.
 

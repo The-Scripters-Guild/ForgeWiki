@@ -1,5 +1,5 @@
 # Stop Music Track For Team
-![alt text](../../../.gitbook/assets/stop-music-track-for-team.png)
+![](../../../.gitbook/assets/stop-music-track-for-team.png)
 ## Description
 Stops the currently playing music track for a given team.
 

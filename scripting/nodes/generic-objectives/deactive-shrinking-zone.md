@@ -1,5 +1,5 @@
 # Deactive Shrinking Zone
-![alt text](../../../.gitbook/assets/deactivate-shrinking-zone.png)
+![](../../../.gitbook/assets/deactivate-shrinking-zone.png)
 ## Description
 Despawns the Shrinking Zone. Use instead of Delete Object to avoid breaking references.
 

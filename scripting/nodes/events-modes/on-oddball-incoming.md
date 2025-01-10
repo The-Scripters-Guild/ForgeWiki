@@ -1,5 +1,5 @@
 # On Oddball Incoming
-![alt text](../../../.gitbook/assets/on-oddball-incoming.png)
+![](../../../.gitbook/assets/on-oddball-incoming.png)
 ## Description
 Event called whenever the Oddball enters an Incoming state. Does not fire if the Incoming state is disabled.
 
