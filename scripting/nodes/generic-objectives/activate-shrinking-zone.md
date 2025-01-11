@@ -1,7 +1,7 @@
 # Activate Shrinking Zone
 ![](../../../.gitbook/assets/activate-shrinking-zone.png)
 ## Description
-Activates the designated Shrinking Zone sequence. Delays set in the object properties will execute when the zone is triggered.
+Activates the designated *Shrinking Zone* sequence. Delays set in the object properties will execute when the zone is triggered.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.

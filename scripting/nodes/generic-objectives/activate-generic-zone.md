@@ -1,7 +1,7 @@
 # Activate Generic Zone
 ![](../../../.gitbook/assets/activate-generic-zone.png)
 ## Description
-Activates the Generic Zone, causing it to spawn. The zone does not have to set the Triggered By Script property to use this node.
+Activates the *Generic Zone*, causing it to spawn. The zone does not have to set the **Triggered By Script** property to use this node.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.

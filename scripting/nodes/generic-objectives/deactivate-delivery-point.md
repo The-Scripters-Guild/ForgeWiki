@@ -1,7 +1,7 @@
 # Deactivate Delivery Point
 ![](../../../.gitbook/assets/deactivate-delivery-point.png)
 ## Description
-Deactivates the Delivery Point. Use instead of Delete Object to avoid breaking references.
+Deactivates the *Delivery Point*. Use instead of **Delete Object** to avoid breaking references.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.

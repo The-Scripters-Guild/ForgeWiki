@@ -1,7 +1,7 @@
 # Activate Flag Spawn
 ![](../../../.gitbook/assets/activate-flag-spawn.png)
 ## Description
-Activates the Generic Flag SPawn, causing it to spawn. The object does not have to set the Triggered By Script property to use this node.
+Activates the *Generic Flag SPawn*, causing it to spawn. The object does not have to set the **Triggered By Script** property to use this node.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.

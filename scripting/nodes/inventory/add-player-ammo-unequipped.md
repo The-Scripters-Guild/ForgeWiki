@@ -1,10 +1,26 @@
 # Add Player Ammo - Unequipped
+![](../../../.gitbook/assets/add-player-ammo-unequipped.png)
+## Description
+Adds a percentage of total ammo to the weapon the Player has in their backpack. Refill Percent takes a value between 0 and 100.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Object | Yes | Which player to give ammo to. |
+| Refill Percent | Number | Yes | What percentage of weapon's total ammo to add to the weapon. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

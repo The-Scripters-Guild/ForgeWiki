@@ -1,7 +1,7 @@
 # Deactivate Flag Spawn
 ![](../../../.gitbook/assets/deactivate-flag-spawn.png)
 ## Description
-Deactivates the Generic Flag Spawn. Use instead of Delete Object to avoid breaking references.
+Deactivates the *Generic Flag Spawn*. Use instead of **Delete Object** to avoid breaking references.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.

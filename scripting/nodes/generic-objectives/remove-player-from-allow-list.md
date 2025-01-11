@@ -1,7 +1,7 @@
 # Remove Player From Allow List
 ![](../../../.gitbook/assets/remove-player-from-allow-list.png)
 ## Description
-Removes player from the Generic Zone's Allow List which determines who is able to capture the zone. This only works if the Generic Zone's Restrict Capture property is set to Allow List.
+Removes player from the *Generic Zone*'s Allow List which determines who is able to capture the zone. This only works if the *Generic Zone*'s **Restrict Capture** property is set to Allow List.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.

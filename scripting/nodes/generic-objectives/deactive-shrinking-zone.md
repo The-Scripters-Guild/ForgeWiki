@@ -1,7 +1,7 @@
 # Deactive Shrinking Zone
 ![](../../../.gitbook/assets/deactivate-shrinking-zone.png)
 ## Description
-Despawns the Shrinking Zone. Use instead of Delete Object to avoid breaking references.
+Despawns the *Shrinking Zone*. Use instead of **Delete Object** to avoid breaking references.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
