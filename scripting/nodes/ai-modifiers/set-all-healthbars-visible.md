@@ -1,5 +1,5 @@
 # Set All Healthbars Visible
-![alt text](../../../.gitbook/assets/set-all-healthbars-visible.png)
+![](../../../.gitbook/assets/set-all-healthbars-visible.png)
 
 ## Description
 Sets the visibility of healthbars on all AI units

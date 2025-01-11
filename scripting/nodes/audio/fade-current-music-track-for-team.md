@@ -1,5 +1,5 @@
 # Fade Current Music Track For Team
-![alt text](../../../.gitbook/assets/fade-current-music-track-for-team.png)
+![](../../../.gitbook/assets/fade-current-music-track-for-team.png)
 ## Description
 Fades the currently playing music track for a given team.
 

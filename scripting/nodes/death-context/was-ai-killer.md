@@ -1,5 +1,5 @@
 # Was AI Killer
-![alt text](../../../.gitbook/assets/was-ai-killer.png)
+![](../../../.gitbook/assets/was-ai-killer.png)
 ## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Returns true if the killing unit was an AI.
 

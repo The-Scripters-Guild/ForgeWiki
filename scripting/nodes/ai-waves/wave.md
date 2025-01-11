@@ -1,5 +1,5 @@
 # Wave
-![alt text](../../../.gitbook/assets/wave.png)
+![](../../../.gitbook/assets/wave.png)
 
 ## Description
 Define a wave of AI units that spawn from a Spawner List. The wave will end once all units are killed or, if the Duration is non-zero, when enough seconds have passed. The Spawner List can be left blank for an Intermission wave which spawns no units.

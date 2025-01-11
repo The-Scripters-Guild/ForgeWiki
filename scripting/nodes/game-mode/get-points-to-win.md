@@ -1,5 +1,5 @@
 # Get Points To Win
-![alt text](../../../.gitbook/assets/get-points-to-win.png)
+![](../../../.gitbook/assets/get-points-to-win.png)
 ## Description
 Gets the point total needed to win the current round
 

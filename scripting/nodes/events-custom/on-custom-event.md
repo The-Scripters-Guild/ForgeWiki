@@ -1,5 +1,5 @@
 # On Custom Event
-![alt text](../../../.gitbook/assets/on-custom-event.png)
+![](../../../.gitbook/assets/on-custom-event.png)
 ## Description
 Event called when **Trigger Custom Event** is called with a matching *Identifier* from the same script brain. You may only have one **On Custom Event** node (with the same identifier) per script brain.
 

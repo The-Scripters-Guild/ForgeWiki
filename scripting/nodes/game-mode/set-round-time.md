@@ -1,5 +1,5 @@
 # Set Round Time
-![alt text](../../../.gitbook/assets/set-round-time.png)
+![](../../../.gitbook/assets/set-round-time.png)
 ## Description
 Sets the time left in the round to the specified Seconds Remaining
 

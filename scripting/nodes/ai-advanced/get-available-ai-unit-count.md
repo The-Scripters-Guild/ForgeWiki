@@ -1,5 +1,5 @@
 # Get Available AI Unit Count
-![alt text](../../../.gitbook/assets/get-available-ai-unit-count.png)
+![](../../../.gitbook/assets/get-available-ai-unit-count.png)
 
 ## Description
 Returns the number of AI units that can be spawned before reaching the runtime budget limit

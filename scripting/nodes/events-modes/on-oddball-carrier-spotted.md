@@ -1,5 +1,5 @@
 # On Oddball Carrier Spotted
-![alt text](../../../.gitbook/assets/on-oddball-carrier-spotted.png)
+![](../../../.gitbook/assets/on-oddball-carrier-spotted.png)
 ## Description
 Event called whenever a player carrying the Oddball has been spotted. This event only fires in modes that allow hiding and spotting of the Oddball Carrier.
 

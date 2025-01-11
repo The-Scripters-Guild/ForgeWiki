@@ -1,5 +1,5 @@
 # On Power Seed Picked Up
-![alt text](../../../.gitbook/assets/on-power-seed-picked-up.png)
+![](../../../.gitbook/assets/on-power-seed-picked-up.png)
 ## Description
 Event called when a player explicitly picks up the given *Power Seed*
 

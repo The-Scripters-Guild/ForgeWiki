@@ -1,5 +1,5 @@
 # On Generic Zone Score Start
-![alt text](../../../.gitbook/assets/on-generic-zone-score-start.png)
+![](../../../.gitbook/assets/on-generic-zone-score-start.png)
 ## Description
 Event called whenever the *Controlling Team* gains scoring control (i.e. uncontested, no delay, etc.) of the *Generic Zone* and the zone begins emitting **On Generic Zone Score Tick** events.
 

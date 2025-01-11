@@ -1,5 +1,5 @@
 # On Extraction Zone Conversion Started
-![alt text](../../../.gitbook/assets/on-extraction-zone-conversion-started.png)
+![](../../../.gitbook/assets/on-extraction-zone-conversion-started.png)
 ## Description
 Event called whenever any *Extraction Zone* conversion starts.
 

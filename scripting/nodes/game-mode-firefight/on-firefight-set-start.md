@@ -1,5 +1,5 @@
 # On Firefight Set Start
-![alt text](../../../.gitbook/assets/on-firefight-set-start.png)
+![](../../../.gitbook/assets/on-firefight-set-start.png)
 ## Description
 Event called when any Firefight game variant starts a new Set. Returns the Group Index the Set was launched with, which determines which spawners and objectives will be triggered for that Set. Only works in Firefight variants.
 

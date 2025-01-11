@@ -1,5 +1,5 @@
 # Play 3D Audio For Team
-![alt text](../../../.gitbook/assets/play-3d-audio-for-team.png)
+![](../../../.gitbook/assets/play-3d-audio-for-team.png)
 ## Description
 Plays a 3D audio clip audible to all players on the Team within range of the Position.
 

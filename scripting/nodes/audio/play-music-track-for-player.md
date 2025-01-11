@@ -1,5 +1,5 @@
 # Play Music Track For Player
-![alt text](../../../.gitbook/assets/play-music-track-for-player.png)
+![](../../../.gitbook/assets/play-music-track-for-player.png)
 ## Description
 Plays a music track for a given player. The music track line is selected in the Object Properties menu.
 

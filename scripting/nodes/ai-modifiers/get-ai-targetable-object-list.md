@@ -1,5 +1,5 @@
 # Get AI Targetable Object List
-![alt text](../../../.gitbook/assets/get-ai-targetable-object-list.png)
+![](../../../.gitbook/assets/get-ai-targetable-object-list.png)
 
 ## Description
 Gets a list of the current Objects that can be targeted by AI, as well as the number of Used and Remaining slots in that list

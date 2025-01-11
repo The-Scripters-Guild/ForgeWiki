@@ -1,5 +1,5 @@
 # Get All AI Units On Team
-![alt text](../../../.gitbook/assets/get-all-ai-units-on-team.png)
+![](../../../.gitbook/assets/get-all-ai-units-on-team.png)
 ## Description
 Returns all currently-spawned AI Units on the team, with options for the AI Unit Count and a Random AI Unit from the list. The order of list entries is random.
 

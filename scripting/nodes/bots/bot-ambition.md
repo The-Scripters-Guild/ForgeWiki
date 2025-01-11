@@ -1,5 +1,5 @@
 # Bot Ambition
-![alt text](../../../.gitbook/assets/bot-ambition.png)
+![](../../../.gitbook/assets/bot-ambition.png)
 ## Description
 Defines a **Bot Ambition** of the specified *Ambition Type*.
 

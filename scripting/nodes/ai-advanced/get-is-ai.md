@@ -1,5 +1,5 @@
 # Get Is AI
-![alt text](../../../.gitbook/assets/get-is-ai.png)
+![](../../../.gitbook/assets/get-is-ai.png)
 
 ## Description
 Returns true of the Object is an AI unit

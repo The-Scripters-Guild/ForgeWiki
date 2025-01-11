@@ -1,5 +1,5 @@
 # On Generic Flag Scored
-![alt text](../../../.gitbook/assets/on-generic-flag-scored.png)
+![](../../../.gitbook/assets/on-generic-flag-scored.png)
 ## Description
 Event called whenever a *Generic Flag* is captured, returning the Player who captured the flag and their team
 

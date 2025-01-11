@@ -1,5 +1,5 @@
 # Unregister Audio Zone
-![alt text](../../../.gitbook/assets/unregister-audio-zone.png)
+![](../../../.gitbook/assets/unregister-audio-zone.png)
 ## Description
 Unregisters an Area Monitor as an Audio Zone so that it no longer applies Audio Effects to players in its Boundary. When the zone is unregistered, it will remove its audio effect on any players standing in its Boundary.
 

@@ -1,5 +1,5 @@
 # On Socket Planted
-![alt text](../../../.gitbook/assets/on-socket-planted.png)
+![](../../../.gitbook/assets/on-socket-planted.png)
 ## Description
 Event called when an *Object* is planted into a socket
 

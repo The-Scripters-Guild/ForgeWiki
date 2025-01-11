@@ -1,5 +1,5 @@
 # On Map Intro
-![alt text](../../../.gitbook/assets/on-map-intro.png)
+![](../../../.gitbook/assets/on-map-intro.png)
 ## Description
 Event called when a map intro starts
 

@@ -1,5 +1,5 @@
 # On Vehicle Entered
-![alt text](../../../.gitbook/assets/on-vehicle-entered.png)
+![](../../../.gitbook/assets/on-vehicle-entered.png)
 ## Description
 Event called when a unit enters a vehicle
 

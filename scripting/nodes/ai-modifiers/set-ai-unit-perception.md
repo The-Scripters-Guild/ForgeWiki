@@ -1,5 +1,5 @@
 # Set AI Unit Perception
-![alt text](../../../.gitbook/assets/set-ai-unit-perception.png)
+![](../../../.gitbook/assets/set-ai-unit-perception.png)
 
 ## Description
 Sets the Deaf and Blind behaviors on an AI Unit

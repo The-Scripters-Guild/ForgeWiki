@@ -1,5 +1,5 @@
 # On Flag Spawned
-![alt text](../../../.gitbook/assets/on-flag-spawned.png)
+![](../../../.gitbook/assets/on-flag-spawned.png)
 ## Description
 Event called whenever the Flag has been spawned. This occurs after the incoming state completes.
 

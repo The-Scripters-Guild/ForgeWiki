@@ -1,5 +1,5 @@
 # On Oddball Reset
-![alt text](../../../.gitbook/assets/on-oddball-reset.png)
+![](../../../.gitbook/assets/on-oddball-reset.png)
 ## Description
 Event called whenever the Oddball has been dropped for long enough to trigger the Oddball reset
 

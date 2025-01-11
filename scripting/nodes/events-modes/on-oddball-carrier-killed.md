@@ -1,5 +1,5 @@
 # On Oddball Carrier Killed
-![alt text](../../../.gitbook/assets/on-oddball-carrier-killed.png)
+![](../../../.gitbook/assets/on-oddball-carrier-killed.png)
 ## Description
 Event called whenever a player carrying the Oddball has been killed
 

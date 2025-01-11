@@ -1,5 +1,5 @@
 # End Round - Winning Team
-![alt text](../../../.gitbook/assets/end-round-winning-team.png)
+![](../../../.gitbook/assets/end-round-winning-team.png)
 ## Description
 Ends the current round immediately, recording a tie for all participants regardless of score. If the *End Game* is set to true, the game will end regardless of how many rounds were remaining.
 

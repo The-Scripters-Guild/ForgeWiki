@@ -1,5 +1,5 @@
 # Kill All Squads
-![alt text](../../../.gitbook/assets/kill-all-squads.png)
+![](../../../.gitbook/assets/kill-all-squads.png)
 ## Description
 Kills all squads on the map
 

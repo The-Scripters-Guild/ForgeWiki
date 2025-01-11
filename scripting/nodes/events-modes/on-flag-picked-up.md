@@ -1,5 +1,5 @@
 # On Flag Picked Up
-![alt text](../../../.gitbook/assets/on-flag-picked-up.png)
+![](../../../.gitbook/assets/on-flag-picked-up.png)
 ## Description
 Event called whenever a player carrying the Flag has picked up the Flag. Event also fires whenever a player is given the Flag.
 

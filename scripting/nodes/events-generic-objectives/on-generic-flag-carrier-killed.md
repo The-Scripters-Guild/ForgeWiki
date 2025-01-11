@@ -1,5 +1,5 @@
 # On Generic Flag Carrier Killed
-![alt text](../../../.gitbook/assets/on-generic-flag-carrier-killed.png)
+![](../../../.gitbook/assets/on-generic-flag-carrier-killed.png)
 ## Description
 Event called whenever a player carrying the *Generic Flag* has been killed
 

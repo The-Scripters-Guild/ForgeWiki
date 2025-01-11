@@ -1,5 +1,5 @@
 # Was Assisted Kill
-![alt text](../../../.gitbook/assets/was-assisted-kill.png)
+![](../../../.gitbook/assets/was-assisted-kill.png)
 ## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Returns true if other players assisted in the kill.
 

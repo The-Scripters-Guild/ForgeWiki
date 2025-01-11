@@ -1,5 +1,5 @@
 # Set Squad Follow Object
-![alt text](../../../.gitbook/assets/set-squad-follow-object.png)
+![](../../../.gitbook/assets/set-squad-follow-object.png)
 
 ## Description
 Forces a Squad to follow the Target Object. The Follow Radius defines the area around the object that the Squad must stay in.

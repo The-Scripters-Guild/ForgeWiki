@@ -1,5 +1,5 @@
 # On Capture Zone Neutralize Start
-![alt text](../../../.gitbook/assets/on-capture-zone-neutralize-start.png)
+![](../../../.gitbook/assets/on-capture-zone-neutralize-start.png)
 ## Description
 Event called whenever Control Decay begins for the *Controlling Team* that owns any Zone. Overlaps with **On Zone Score End** if the Logic Template prevents scoring.
 

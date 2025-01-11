@@ -1,5 +1,5 @@
 # On Custom Event, Global
-![alt text](../../../.gitbook/assets/on-custom-event-global.png)
+![](../../../.gitbook/assets/on-custom-event-global.png)
 ## Description
 Event called when **Trigger Custom Event, Global** is called from ANY script brain with a matching *Identifier*. Unless you have specific need for multiple script brains, it is always best to use the non-global version of **On Custom Event**.
 

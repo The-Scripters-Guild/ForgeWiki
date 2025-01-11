@@ -1,5 +1,5 @@
 # Play Announcer Voiceover For Team
-![alt text](../../../.gitbook/assets/play-announcer-voiceover-for-team.png)
+![](../../../.gitbook/assets/play-announcer-voiceover-for-team.png)
 ## Description
 Plays an Announcer voiceover line for a given team. The voiceover line is selected in the Object Properties menu.
 

@@ -1,5 +1,5 @@
 # Print Victory Reason To Killfeed
-![alt text](../../../.gitbook/assets/print-victory-reason-to-killfeed.png)
+![](../../../.gitbook/assets/print-victory-reason-to-killfeed.png)
 ## Description
 Prints a *Victory Reason* from a wave in the killfeed. Use this to help debug nodes in Play mode.
 

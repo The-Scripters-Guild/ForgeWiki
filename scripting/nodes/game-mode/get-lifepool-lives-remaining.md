@@ -1,5 +1,5 @@
 # Get Lifepool Lives Remaining
-![alt text](../../../.gitbook/assets/get-lifepool-lives-remaining.png)
+![](../../../.gitbook/assets/get-lifepool-lives-remaining.png)
 ## Description
 Returns the number of lives remaining for *Team*
 

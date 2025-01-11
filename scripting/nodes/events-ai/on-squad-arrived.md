@@ -1,5 +1,5 @@
 # On Squad Arrived
-![alt text](../../../.gitbook/assets/on-squad-arrived.png)
+![](../../../.gitbook/assets/on-squad-arrived.png)
 
 ## Description
 Event called when any Squad finishes moving to their assigned move zone

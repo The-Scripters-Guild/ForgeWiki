@@ -1,5 +1,5 @@
 # On Custom Event, Global Async
-![alt text](../../../.gitbook/assets/on-custom-event-global-async.png)
+![](../../../.gitbook/assets/on-custom-event-global-async.png)
 ## Description
 Event called when **Trigger Custom Event, Global** (Async) is called from ANY script brain with a matching Identifier. Runs asynchronously. **WARNING!** Running too many async events at the same time can cause script and/or game instability.
 

@@ -1,5 +1,5 @@
 # On Capture Zone Exited
-![alt text](../../../.gitbook/assets/on-capture-zone-exited.png)
+![](../../../.gitbook/assets/on-capture-zone-exited.png)
 ## Description
 Event called whenever a player exits any *Capturable Zone*'s boundary. Behaves like an Area Monitor, but only tracks players and players in vehicles.
 

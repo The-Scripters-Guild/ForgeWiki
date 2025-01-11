@@ -1,5 +1,5 @@
 # On VIP Killed
-![alt text](../../../.gitbook/assets/on-vip-killed.png)
+![](../../../.gitbook/assets/on-vip-killed.png)
 ## Description
 Event called when a VIP is killed
 

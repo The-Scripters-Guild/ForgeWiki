@@ -1,5 +1,5 @@
 # Adjust Personal Score
-![alt text](../../../.gitbook/assets/adjust-personal-score.png)
+![](../../../.gitbook/assets/adjust-personal-score.png)
 ## Description
 Adjusts the score of the *Player* for the current round which affects placement order in the scoreboard, among other things. Affects a different value than **Adjust Player Points**.
 

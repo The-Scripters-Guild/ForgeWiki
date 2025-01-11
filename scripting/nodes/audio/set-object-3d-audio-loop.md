@@ -1,5 +1,5 @@
 # Set Object 3D Audio Loop
-![alt text](../../../.gitbook/assets/set-object-3d-audio-loop.png)
+![](../../../.gitbook/assets/set-object-3d-audio-loop.png)
 ## Description
 Sets a 3D audio loop to play on the Object. Can be set to play only for allied or opposing players, which uses the objects Team setting in the Object Properties menu.
 

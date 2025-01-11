@@ -1,5 +1,5 @@
 # On Generic Skull Pickup
-![alt text](../../../.gitbook/assets/on-generic-skull-pickup.png)
+![](../../../.gitbook/assets/on-generic-skull-pickup.png)
 ## Description
 Event called when a player explicitly picks up the given *Generic Skull*
 

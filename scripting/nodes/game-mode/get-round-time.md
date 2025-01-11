@@ -1,5 +1,5 @@
 # Get Round Time
-![alt text](../../../.gitbook/assets/get-round-time.png)
+![](../../../.gitbook/assets/get-round-time.png)
 ## Description
 Gets the *Seconds Remaining* in the current round
 

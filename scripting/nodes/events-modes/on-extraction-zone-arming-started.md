@@ -1,5 +1,5 @@
 # On Extraction Zone Arming Started
-![alt text](../../../.gitbook/assets/on-extraction-zone-arming-started.png)
+![](../../../.gitbook/assets/on-extraction-zone-arming-started.png)
 ## Description
 Event called whenever any *Extraction Zone* arming starts.
 

@@ -1,5 +1,5 @@
 # On Generic Zone Score Tick
-![alt text](../../../.gitbook/assets/on-generic-zone-score-tick.png)
+![](../../../.gitbook/assets/on-generic-zone-score-tick.png)
 ## Description
 Event called every interval after the *Generic Zone* is fully captured and begins scoring. The interval is in seconds and is set by the zone's **Scoring Event Interval** object propery.
 

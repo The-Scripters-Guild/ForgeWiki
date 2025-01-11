@@ -1,5 +1,5 @@
 # On Player Spawned
-![alt text](../../../.gitbook/assets/on-player-spawned.png)
+![](../../../.gitbook/assets/on-player-spawned.png)
 ## Description
 Event called when any player spawns or respawns
 

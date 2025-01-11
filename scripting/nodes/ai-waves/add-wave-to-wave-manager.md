@@ -1,5 +1,5 @@
 # Add Wave To Wave Manager
-![alt text](../../../.gitbook/assets/add-wave-to-wave-manager.png)
+![](../../../.gitbook/assets/add-wave-to-wave-manager.png)
 
 ## Description
 Adds a wave to the queue of a Wave Manager, which automatically spawns waves until its queue is empty. There can be up to 8 wave managers running simultaneously.

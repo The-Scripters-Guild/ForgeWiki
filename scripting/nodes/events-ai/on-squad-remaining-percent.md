@@ -1,5 +1,5 @@
 # On Squad Remaining Percent
-![alt text](../../../.gitbook/assets/on-squad-remaining-percent.png)
+![](../../../.gitbook/assets/on-squad-remaining-percent.png)
 
 ## Description
 Event called when the percent of the remaining AI units in any Squad falls to or below the specified input. The Killing Unit and Death Context are for the most recent death in that squad.

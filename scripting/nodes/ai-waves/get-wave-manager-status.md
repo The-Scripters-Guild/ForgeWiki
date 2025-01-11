@@ -1,5 +1,5 @@
 # Get Wave Manager Status
-![alt text](../../../.gitbook/assets/get-wave-manager-status.png)
+![](../../../.gitbook/assets/get-wave-manager-status.png)
 
 ## Description
 Returns whether the Wave Manager has an active wave. The Queue Size includes the active wave.

@@ -1,5 +1,5 @@
 # On Generic Zone State Changed
-![alt text](../../../.gitbook/assets/on-generic-zone-state-changed.png)
+![](../../../.gitbook/assets/on-generic-zone-state-changed.png)
 ## Description
 Event called whenever the *Generic Zone* enters a new *Control State*
 

@@ -1,5 +1,5 @@
 # Get Players In Generic Zone
-![alt text](../../../.gitbook/assets/get-players-in-generic-zone.png)
+![](../../../.gitbook/assets/get-players-in-generic-zone.png)
 ## Description
 Creates an object list that contains all of the players currently within the Generic Zone's boundary. The zone must be active (incoming or capturable) to return players.
 

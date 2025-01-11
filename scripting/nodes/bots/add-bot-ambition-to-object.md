@@ -1,5 +1,5 @@
 # Add Bot Ambition To Object
-![alt text](../../../.gitbook/assets/add-bot-ambition-to-object.png)
+![](../../../.gitbook/assets/add-bot-ambition-to-object.png)
 ## Description
 Applies the *Bot Ambition* to the *Target Object*, which affects how bots will behave towards the object or player. If specified, only bots from the Team will respond to the ambition in Team games.
 

@@ -1,5 +1,5 @@
 # Play 3D Audio For All Players
-![alt text](../../../.gitbook/assets/play-3d-audio-for-all-players.png)
+![](../../../.gitbook/assets/play-3d-audio-for-all-players.png)
 ## Description
 Plays a 3D audio clip audible to all players within range of the Position.
 

@@ -1,5 +1,5 @@
 # Override AI Spawner
-![alt text](../../../.gitbook/assets/override-ai-spawner.png)
+![](../../../.gitbook/assets/override-ai-spawner.png)
 ## Description
 Overrides the units on the given AI Spawner spawner with a squad definition from the Firefight enemy tables. Higher Difficulty and/or higher Intensity will produce harder squads. Works in any game mode.
 

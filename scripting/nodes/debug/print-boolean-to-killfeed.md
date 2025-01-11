@@ -1,5 +1,5 @@
 # Print Boolean To Killfeed
-![alt text](../../../.gitbook/assets/print-boolean-to-killfeed.png)
+![](../../../.gitbook/assets/print-boolean-to-killfeed.png)
 ## Description
 Prints a *Boolean* to the killfeed as TRUE or FALSE. Use this to help debug nodes in Play mode.
 

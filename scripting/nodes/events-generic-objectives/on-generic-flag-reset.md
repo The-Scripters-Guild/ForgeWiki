@@ -1,5 +1,5 @@
 # On Generic Flag Reset
-![alt text](../../../.gitbook/assets/on-generic-flag-reset.png)
+![](../../../.gitbook/assets/on-generic-flag-reset.png)
 ## Description
 Event called whenever the *Generic Flag* has been dropped for long enough to trigger the *Generic Flag* reset
 

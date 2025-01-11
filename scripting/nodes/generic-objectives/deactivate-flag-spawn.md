@@ -1,5 +1,5 @@
 # Deactivate Flag Spawn
-![alt text](../../../.gitbook/assets/deactivate-flag-spawn.png)
+![](../../../.gitbook/assets/deactivate-flag-spawn.png)
 ## Description
 Deactivates the Generic Flag Spawn. Use instead of Delete Object to avoid breaking references.
 

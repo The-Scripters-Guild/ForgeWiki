@@ -1,5 +1,5 @@
 # On Generic Zone Exited
-![alt text](../../../.gitbook/assets/on-generic-zone-exited.png)
+![](../../../.gitbook/assets/on-generic-zone-exited.png)
 ## Description
 Event called whenever a player exits the *Generic Zone*'s boundary. Behaves like an Area Monitor, but only tracks players and players in vehicles.
 

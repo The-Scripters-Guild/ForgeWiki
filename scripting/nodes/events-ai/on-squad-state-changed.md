@@ -1,5 +1,5 @@
 # On Squad State Changed
-![alt text](../../../.gitbook/assets/on-squad-state-changed.png)
+![](../../../.gitbook/assets/on-squad-state-changed.png)
 
 ## Description
 Event called when any Squad's combat state changes between Idle, Alert, and Active

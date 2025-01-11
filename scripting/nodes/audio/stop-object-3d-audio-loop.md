@@ -1,5 +1,5 @@
 # Stop Object 3D Audio Loop
-![alt text](../../../.gitbook/assets/stop-object-3d-audio-loop.png)
+![](../../../.gitbook/assets/stop-object-3d-audio-loop.png)
 ## Description
 Stops the audio loop currently playing on the Object. Can stop sounds playing for allied or opposing players independently.
 

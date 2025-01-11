@@ -1,5 +1,5 @@
 # End Round - All Lose
-![alt text](../../../.gitbook/assets/end-round-all-lose.png)
+![](../../../.gitbook/assets/end-round-all-lose.png)
 ## Description
 Ends the current round immediately, recording a loss for all participants regardless of score. If *End Game* is set to true, the game will end regardless of how many rounds were remaining.
 

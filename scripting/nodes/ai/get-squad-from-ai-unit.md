@@ -1,5 +1,5 @@
 # Get Squad From AI Unit
-![alt text](../../../.gitbook/assets/get-squad-from-ai-unit.png)
+![](../../../.gitbook/assets/get-squad-from-ai-unit.png)
 ## Description
 Returns the Squad that the AI Unit belongs to
 

@@ -1,5 +1,5 @@
 # Get AI Units From Squad
-![alt text](../../../.gitbook/assets/get-ai-units-from-squad.png)
+![](../../../.gitbook/assets/get-ai-units-from-squad.png)
 ## Description
 Returns a list of AI Units in the Squad that are still alive. The order of list entries is random.
 

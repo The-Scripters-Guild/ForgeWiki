@@ -1,5 +1,5 @@
 # Remove Player From Allow List
-![alt text](../../../.gitbook/assets/remove-player-from-allow-list.png)
+![](../../../.gitbook/assets/remove-player-from-allow-list.png)
 ## Description
 Removes player from the Generic Zone's Allow List which determines who is able to capture the zone. This only works if the Generic Zone's Restrict Capture property is set to Allow List.
 

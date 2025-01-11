@@ -1,5 +1,5 @@
 # On Weapon Added
-![alt text](../../../.gitbook/assets/on-weapon-added.png)
+![](../../../.gitbook/assets/on-weapon-added.png)
 ## Description
 Event called when a weapon is added to a player's inventory. Ammo refills for a weapon a player is already holding will NOT trigger this event.
 

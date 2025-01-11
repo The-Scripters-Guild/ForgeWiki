@@ -1,5 +1,5 @@
 # Was With Grenade Type
-![alt text](../../../.gitbook/assets/was-with-grenade-type.png)
+![](../../../.gitbook/assets/was-with-grenade-type.png)
 ## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Returns true if the killing blow came from a matching Grenade Type.
 

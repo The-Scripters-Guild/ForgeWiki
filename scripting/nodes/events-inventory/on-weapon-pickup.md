@@ -1,5 +1,5 @@
 # On Weapon Pickup
-![alt text](../../../.gitbook/assets/on-weapon-pickup.png)
+![](../../../.gitbook/assets/on-weapon-pickup.png)
 ## Description
 Event called when a player explicitly picks up a weapon. Ammo refills for a weapon a player is already holding will NOT trigger this event.
 

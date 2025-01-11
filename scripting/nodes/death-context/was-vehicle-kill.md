@@ -1,5 +1,5 @@
 # Was Vehicle Kill
-![alt text](../../../.gitbook/assets/was-vehicle-kill.png)
+![](../../../.gitbook/assets/was-vehicle-kill.png)
 ## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Returns true if the killing blow came from a vehicle damage source.
 

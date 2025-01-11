@@ -1,5 +1,5 @@
 # On Extraction Zone Conversion Interrupted
-![alt text](../../../.gitbook/assets/on-extraction-zone-conversion-interrupted.png)
+![](../../../.gitbook/assets/on-extraction-zone-conversion-interrupted.png)
 ## Description
 Event called whenever any *Extraction Zone* conversion is interrupted.
 

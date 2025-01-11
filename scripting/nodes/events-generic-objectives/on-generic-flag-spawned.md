@@ -1,5 +1,5 @@
 # On Generic Flag Spawned
-![alt text](../../../.gitbook/assets/on-generic-flag-spawned.png)
+![](../../../.gitbook/assets/on-generic-flag-spawned.png)
 ## Description
 Event called whenever the *Generic Flag* has been spawned. This occurs after the incoming state completes.
 

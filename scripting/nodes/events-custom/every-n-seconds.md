@@ -1,5 +1,5 @@
 # Every N Seconds
-![alt text](../../../.gitbook/assets/every-n-seconds.png)
+![](../../../.gitbook/assets/every-n-seconds.png)
 ## Description
 Waits for the Initial Delay and then executes connected functions every time the number of Seconds elapses. WARNING! Setting Seconds to 0 will allow continuous execution but may negatively affect performance. Use with care.
 

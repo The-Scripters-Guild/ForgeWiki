@@ -1,5 +1,5 @@
 # Get All Squads On Team
-![alt text](../../../.gitbook/assets/get-all-squads-on-team.png)
+![](../../../.gitbook/assets/get-all-squads-on-team.png)
 ## Description
 Returns a Squad List containing all Squads that are on the Team. The order of list entries is random. 
 

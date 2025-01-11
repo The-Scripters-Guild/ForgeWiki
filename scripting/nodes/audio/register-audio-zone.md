@@ -1,5 +1,5 @@
 # Register Audio Zone
-![alt text](../../../.gitbook/assets/register-audio-zone.png)
+![](../../../.gitbook/assets/register-audio-zone.png)
 ## Description
 Registers an Area Monitor as an Audio Zone. Audio Zones apply an Audio Effect to players inside their Boundary, affecting how those players hear other sounds in game. Audio Zones can only have one Audio Effect active at a time.
 

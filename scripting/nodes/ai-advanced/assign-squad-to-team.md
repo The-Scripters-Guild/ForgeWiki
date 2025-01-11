@@ -1,5 +1,5 @@
 # Assign Squad To Team
-![alt text](../../../.gitbook/assets/assign-squad-to-team.png)
+![](../../../.gitbook/assets/assign-squad-to-team.png)
 
 ## Description
 Assigns the Squad to the Team

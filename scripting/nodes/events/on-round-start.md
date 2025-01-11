@@ -1,5 +1,5 @@
 # On Round Start
-![alt text](../../../.gitbook/assets/on-round-start.png)
+![](../../../.gitbook/assets/on-round-start.png)
 ## Description
 Event called when a round starts
 

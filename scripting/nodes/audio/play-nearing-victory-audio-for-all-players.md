@@ -1,5 +1,5 @@
 # Play Nearing Victory Audio For All Players
-![alt text](../../../.gitbook/assets/play-nearing-victory-audio-for-all-players.png)
+![](../../../.gitbook/assets/play-nearing-victory-audio-for-all-players.png)
 ## Description
 Plays a VO to all players announcing that Player Nearing Victory is nearing victory. Also plays the music that usually plays with the VO in standard game modes.
 

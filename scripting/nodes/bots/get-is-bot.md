@@ -1,5 +1,5 @@
 # Get Is Bot
-![alt text](../../../.gitbook/assets/get-is-bot.png)
+![](../../../.gitbook/assets/get-is-bot.png)
 ## Description
 Returns true if the *Player* is a multiplayer bot.
 

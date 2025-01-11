@@ -1,5 +1,5 @@
 # Play Announcer Voiceover For All Players
-![alt text](../../../.gitbook/assets/play-announcer-voiceover-for-all-players.png)
+![](../../../.gitbook/assets/play-announcer-voiceover-for-all-players.png)
 ## Description
 Plays an Announcer voiceover line for all players. The voiceover line is selected in the Object Properties menu.
 

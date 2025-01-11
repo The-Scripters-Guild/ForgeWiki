@@ -1,5 +1,5 @@
 # Was Weapon Kill
-![alt text](../../../.gitbook/assets/was-weapon-kill.png)
+![](../../../.gitbook/assets/was-weapon-kill.png)
 ## Description
 Queries a *DeathContext* from the **On Player Killed** or **On AI Unit Killed** event. Returns true if the killing blow came froma weapon damage source.
 

@@ -1,5 +1,5 @@
 # Get All AI Spawners
-![alt text](../../../.gitbook/assets/get-all-ai-spawners.png)
+![](../../../.gitbook/assets/get-all-ai-spawners.png)
 
 ## Description
 Returns an *Object List* containing all AI spawners on the map.

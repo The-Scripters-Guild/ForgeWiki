@@ -1,5 +1,5 @@
 # Fail Firefight Custom Perfect Set
-![alt text](../../../.gitbook/assets/fail-firefight-custom-perfect-set.png)
+![](../../../.gitbook/assets/fail-firefight-custom-perfect-set.png)
 ## Description
 Causes the defending (Eagle) team in the Firefight variant to fail their perfect Set, preventing them from earning Skulls after the Set completes. Only works in Firefight Custom when dynamic Skulls are enabled.
 

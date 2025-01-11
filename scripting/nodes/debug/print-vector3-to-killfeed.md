@@ -1,5 +1,5 @@
 # Print Vector3 To Killfeed
-![alt text](../../../.gitbook/assets/print-vector3-to-killfeed.png)
+![](../../../.gitbook/assets/print-vector3-to-killfeed.png)
 ## Description
 Prints a *Vector3* in the killfeed with the format of [x, y, z]. Use this to help debug nodes in Play mode.
 

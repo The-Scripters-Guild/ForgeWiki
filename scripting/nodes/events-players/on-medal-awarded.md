@@ -1,5 +1,5 @@
 # On Medal Awarded
-![alt text](../../../.gitbook/assets/on-medal-awarded.png)
+![](../../../.gitbook/assets/on-medal-awarded.png)
 ## Description
 Event called when a medal is awarded to Player
 

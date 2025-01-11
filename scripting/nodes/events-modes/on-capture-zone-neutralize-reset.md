@@ -1,5 +1,5 @@
 # On Capture Zone Neutralize Reset
-![alt text](../../../.gitbook/assets/on-capture-zone-neutralize-reset.png)
+![](../../../.gitbook/assets/on-capture-zone-neutralize-reset.png)
 ## Description
 Event called when the *Controlling Team* that owns any *Capturable Zone* resets their Control Decay to 0, effectivvely securing the zone.
 

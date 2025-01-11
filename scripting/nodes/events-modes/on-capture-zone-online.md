@@ -1,5 +1,5 @@
 # On Capture Zone Online
-![alt text](../../../.gitbook/assets/on-capture-zone-online.png)
+![](../../../.gitbook/assets/on-capture-zone-online.png)
 ## Description
 Event called whenever any *Capturable Zone* completes the Incoming state (if enabled) and becomes capturable.
 

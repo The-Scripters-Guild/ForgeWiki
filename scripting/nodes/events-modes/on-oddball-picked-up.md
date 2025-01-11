@@ -1,5 +1,5 @@
 # On Oddball Picked Up
-![alt text](../../../.gitbook/assets/on-oddball-picked-up.png)
+![](../../../.gitbook/assets/on-oddball-picked-up.png)
 ## Description
 Event called whenever a player carrying the Oddball has picked up the Oddball. Event also fires whenever a player is given the Oddball.
 

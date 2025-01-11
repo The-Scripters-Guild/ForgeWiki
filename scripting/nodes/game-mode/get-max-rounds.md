@@ -1,5 +1,5 @@
 # Get Max Rounds
-![alt text](../../../.gitbook/assets/get-max-rounds.png)
+![](../../../.gitbook/assets/get-max-rounds.png)
 ## Description
 Returns true if the game is currently Forge mode. Will return false in custom games. Use for debugging purposes.
 

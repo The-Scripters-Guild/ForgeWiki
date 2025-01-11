@@ -1,5 +1,5 @@
 # On Object Interacted
-![alt text](../../../.gitbook/assets/on-object-interacted.png)
+![](../../../.gitbook/assets/on-object-interacted.png)
 ## Description
 Event called when a player interacts with the *Object*. Most commonly used with a scriptable switch.
 

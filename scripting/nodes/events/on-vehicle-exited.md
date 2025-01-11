@@ -1,5 +1,5 @@
 # On Vehicle Exited
-![alt text](../../../.gitbook/assets/on-vehicle-exited.png)
+![](../../../.gitbook/assets/on-vehicle-exited.png)
 ## Description
 Event called when a unit exits a vehicle
 

@@ -1,5 +1,5 @@
 # Clear Team VIP
-![alt text](../../../.gitbook/assets/clear-team-vip.png)
+![](../../../.gitbook/assets/clear-team-vip.png)
 ## Description
 Clears the Team's VIP
 

@@ -1,5 +1,5 @@
 # Remove Upcoming Waves
-![alt text](../../../.gitbook/assets/remove-upcoming-waves.png)
+![](../../../.gitbook/assets/remove-upcoming-waves.png)
 
 ## Description
 Removes any queued waves after the current one from the Wave Manager

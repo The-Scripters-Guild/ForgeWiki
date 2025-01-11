@@ -1,5 +1,5 @@
 # On Object Entered Area
-![alt text](../../../.gitbook/assets/on-object-entered-area.png)
+![](../../../.gitbook/assets/on-object-entered-area.png)
 ## Description
 Event called when an object enters the Area Monitor's boundary. Returns which object has entered the boundary.
 

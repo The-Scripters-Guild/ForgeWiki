@@ -1,5 +1,5 @@
 # On Flag Carrier Killed
-![alt text](../../../.gitbook/assets/on-flag-carrier-killed.png)
+![](../../../.gitbook/assets/on-flag-carrier-killed.png)
 ## Description
 Event called whenever a player carrying the Flag has been killed
 

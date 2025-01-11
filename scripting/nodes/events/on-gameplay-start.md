@@ -1,5 +1,5 @@
 # On Gameplay Start
-![alt text](../../../.gitbook/assets/on-gameplay-start.png)
+![](../../../.gitbook/assets/on-gameplay-start.png)
 ## Description
 Event called at the start of each round when the gameplay begins. Similar to On Round Start, but fires AFTER intro cameras finish and the first human player can move.
 

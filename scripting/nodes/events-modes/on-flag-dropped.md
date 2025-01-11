@@ -1,5 +1,5 @@
 # On Flag Dropped
-![alt text](../../../.gitbook/assets/on-flag-dropped.png)
+![](../../../.gitbook/assets/on-flag-dropped.png)
 ## Description
 Event called whenever a player carrying the Flag has dropped the Flag. Event also fires whenever a player carrying the Flag has been killed.
 

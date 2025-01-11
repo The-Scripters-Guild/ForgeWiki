@@ -1,5 +1,5 @@
 # On Player Killed
-![alt text](../../../.gitbook/assets/on-player-killed.png)
+![](../../../.gitbook/assets/on-player-killed.png)
 ## Description
 Event called when any player dies
 

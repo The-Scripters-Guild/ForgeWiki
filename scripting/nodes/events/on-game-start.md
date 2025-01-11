@@ -1,5 +1,5 @@
 # On Game Start
-![alt text](../../../.gitbook/assets/on-game-start.png)
+![](../../../.gitbook/assets/on-game-start.png)
 ## Description
 Event called when the game starts
 

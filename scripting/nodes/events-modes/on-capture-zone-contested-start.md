@@ -1,5 +1,5 @@
 # On Capture Zone Contested Start
-![alt text](../../../.gitbook/assets/on-capture-zone-contested-start.png)
+![](../../../.gitbook/assets/on-capture-zone-contested-start.png)
 ## Description
 Event called whenever any *Capturable Zone* starts to be captured and enters a Contested state. The *Previous Capture Team* is the last team that was making capture progress before the zone entered the Contested state.
 

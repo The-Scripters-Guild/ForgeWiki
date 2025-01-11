@@ -1,5 +1,5 @@
 # On Player Exited
-![alt text](../../../.gitbook/assets/on-player-exited.png)
+![](../../../.gitbook/assets/on-player-exited.png)
 ## Description
 Event called when a player leaves the game
 

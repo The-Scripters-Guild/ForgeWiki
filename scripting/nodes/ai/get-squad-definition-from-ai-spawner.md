@@ -1,5 +1,5 @@
 # Get Squad Definition From AI Spawner
-![alt text](../../../.gitbook/assets/get-squad-definition-from-ai-spawner.png)
+![](../../../.gitbook/assets/get-squad-definition-from-ai-spawner.png)
 ## Description
 
 Returns a squad definition from the *AI Spawner*, which contains unit and spawning data based off of the spawner's 

@@ -1,5 +1,5 @@
 # On Capture Zone Score End
-![alt text](../../../.gitbook/assets/on-capture-zone-score-end.png)
+![](../../../.gitbook/assets/on-capture-zone-score-end.png)
 ## Description
 Event called whenever the *Controlling Team* loses scoring control of any *Capturable Zone* and the zone stops emitting **On Zone Score Tick** events.
 

@@ -1,5 +1,5 @@
 # On Generic Ball Dropped
-![alt text](../../../.gitbook/assets/on-generic-ball-dropped.png)
+![](../../../.gitbook/assets/on-generic-ball-dropped.png)
 ## Description
 Event called whenever the given *Generic Ball* leaves a player's hands
 

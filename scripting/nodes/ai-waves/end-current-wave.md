@@ -1,5 +1,5 @@
 # End Current Wave
-![alt text](../../../.gitbook/assets/end-current-wave.png)
+![](../../../.gitbook/assets/end-current-wave.png)
 
 ## Description
 Ends the current wave, optionally killing the Active Squads from the current wave and Straggler Squads left over from previous waves

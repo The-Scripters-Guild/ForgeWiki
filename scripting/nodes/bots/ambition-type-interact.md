@@ -1,5 +1,5 @@
 # Ambition Type: Interact
-![alt text](../../../.gitbook/assets/ambition-type-interact.png)
+![](../../../.gitbook/assets/ambition-type-interact.png)
 ## Description
 When pursuing this behavior, a bot will try to locate the target object and then interact with it.
 

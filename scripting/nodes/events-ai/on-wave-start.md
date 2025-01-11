@@ -1,5 +1,5 @@
 # On Wave Start
-![alt text](../../../.gitbook/assets/on-wave-start.png)
+![](../../../.gitbook/assets/on-wave-start.png)
 ## Description
 Event called when a wave from the Wave Manager starts. Also outputs the total original AI Unit Count in the wave, a list of the current Surviving Players, a list of the wave's Active Squads, and the Wave Type.
 

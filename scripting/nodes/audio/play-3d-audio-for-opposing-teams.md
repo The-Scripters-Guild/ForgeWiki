@@ -1,5 +1,5 @@
 # Play 3D Audio For Opposing Teams
-![alt text](../../../.gitbook/assets/play-3d-audio-for-opposing-teams.png)
+![](../../../.gitbook/assets/play-3d-audio-for-opposing-teams.png)
 ## Description
 Plays a 3D audio clip audible to all players NOT on the Team within range of the Position.
 

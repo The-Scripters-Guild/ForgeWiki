@@ -1,5 +1,5 @@
 # On Capture Zone Incoming
-![alt text](../../../.gitbook/assets/on-capture-zone-incoming.png)
+![](../../../.gitbook/assets/on-capture-zone-incoming.png)
 ## Description
 Event called whenever any *Capturable Zone* enters an Incoming state. Does not fire if the Incoming state is disabled.
 

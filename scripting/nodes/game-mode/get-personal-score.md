@@ -1,5 +1,5 @@
 # Get Personal Score
-![alt text](../../../.gitbook/assets/get-personal-score.png)
+![](../../../.gitbook/assets/get-personal-score.png)
 ## Description
 Gets the *Player* Personal Score, which affects placement order in the scoreboard, among other things. Provides Personal Score for the current round as well as the whole match. Use **Get Player Points** if you want to measure progress to victory.
 

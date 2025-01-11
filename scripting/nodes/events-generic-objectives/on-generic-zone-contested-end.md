@@ -1,5 +1,5 @@
 # On Generic Zone Contested End
-![alt text](../../../.gitbook/assets/on-generic-zone-contested-end.png)
+![](../../../.gitbook/assets/on-generic-zone-contested-end.png)
 ## Description
 Event called whenever the *Generic Zone* exits a Contested state and resumes capture progress. The *Capture Team* is the team currently making capture progress after the Contested state was resolved.
 

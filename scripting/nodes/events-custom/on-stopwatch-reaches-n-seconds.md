@@ -1,5 +1,5 @@
 # On Stopwatch Reaches N Seconds
-![alt text](../../../.gitbook/assets/on-stopwatch-reaches-n-seconds.png)
+![](../../../.gitbook/assets/on-stopwatch-reaches-n-seconds.png)
 ## Description
 Event that fires each time the stopwatch with the given *Identifier* reaches the specified number of Seconds.
 

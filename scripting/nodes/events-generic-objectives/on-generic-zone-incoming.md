@@ -1,5 +1,5 @@
 # On Generic Zone Incoming
-![alt text](../../../.gitbook/assets/on-generic-zone-incoming.png)
+![](../../../.gitbook/assets/on-generic-zone-incoming.png)
 ## Description
 Event called whenever the *Generic Zone* enters an Incoming state. Does not fire if the Incoming state is disabled.
 

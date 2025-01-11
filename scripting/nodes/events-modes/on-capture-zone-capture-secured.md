@@ -1,5 +1,5 @@
 # On Capture Zone Capture Secured
-![alt text](../../../.gitbook/assets/on-capture-zone-capture-secured.png)
+![](../../../.gitbook/assets/on-capture-zone-capture-secured.png)
 ## Description
 Event called whenever any *Capturable Zone*'s capture progress is reduced to 0 by the *Controlling Team*. In other words, this event fires when the team that owns the zone successfully resets an attacker's capture progress.
 

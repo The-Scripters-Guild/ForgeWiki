@@ -1,5 +1,5 @@
 # On Capture Zone Capture Complete
-![alt text](../../../.gitbook/assets/on-capture-zone-capture-complete.png)
+![](../../../.gitbook/assets/on-capture-zone-capture-complete.png)
 ## Description
 Event called whenever any *Capturable Zone* is successfully captured and a new *Controlling Team* is set.
 

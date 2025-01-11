@@ -1,5 +1,5 @@
 # Remove Specific Bot From Match
-![alt text](../../../.gitbook/assets/remove-specific-bot-from-match.png)
+![](../../../.gitbook/assets/remove-specific-bot-from-match.png)
 ## Description
 Removes the Bot Player from the game. If the player is not actually a bot, there is no effect.
 

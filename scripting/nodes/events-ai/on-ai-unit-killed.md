@@ -1,5 +1,5 @@
 # On AI Unit Killed
-![alt text](../../../.gitbook/assets/on-ai-unit-killed.png)
+![](../../../.gitbook/assets/on-ai-unit-killed.png)
 
 ## Description
 Event called when any AI Unit dies.

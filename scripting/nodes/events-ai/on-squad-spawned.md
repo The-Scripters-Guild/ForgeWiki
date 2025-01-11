@@ -1,5 +1,5 @@
 # On Squad Spawned
-![alt text](../../../.gitbook/assets/on-squad-spawned.png)
+![](../../../.gitbook/assets/on-squad-spawned.png)
 
 ## Description
 Event called when any Squad spawns

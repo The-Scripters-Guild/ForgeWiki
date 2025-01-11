@@ -1,5 +1,5 @@
 # Get Current Round
-![alt text](../../../.gitbook/assets/get-current-round.png)
+![](../../../.gitbook/assets/get-current-round.png)
 ## Description
 Gets the current round number
 

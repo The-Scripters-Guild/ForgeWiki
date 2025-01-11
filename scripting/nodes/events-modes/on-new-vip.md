@@ -1,5 +1,5 @@
 # On New VIP
-![alt text](../../../.gitbook/assets/on-new-vip.png)
+![](../../../.gitbook/assets/on-new-vip.png)
 ## Description
 Event called when a new VIP is selected
 

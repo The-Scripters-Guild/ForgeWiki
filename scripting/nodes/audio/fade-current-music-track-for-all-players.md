@@ -1,5 +1,5 @@
 # Fade Current Music Track For All Players
-![alt text](../../../.gitbook/assets/fade-current-music-track-for-all-players.png)
+![](../../../.gitbook/assets/fade-current-music-track-for-all-players.png)
 ## Description
 Fades the currently playing music track for all players.
 

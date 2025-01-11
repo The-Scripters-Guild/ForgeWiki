@@ -1,5 +1,5 @@
 # On Player Joined
-![alt text](../../../.gitbook/assets/on-player-joined.png)
+![](../../../.gitbook/assets/on-player-joined.png)
 ## Description
 Event called when a player has joined and is acive in the game. Joined In Progress will be true if the match had already started when the player joined.
 

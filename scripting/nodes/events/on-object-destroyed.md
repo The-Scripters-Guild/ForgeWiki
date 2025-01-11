@@ -1,5 +1,5 @@
 # On Object Destroyed
-![alt text](../../../.gitbook/assets/on-object-destroyed.png)
+![](../../../.gitbook/assets/on-object-destroyed.png)
 ## Description
 Event called when the Object is destroyed or despawned
 

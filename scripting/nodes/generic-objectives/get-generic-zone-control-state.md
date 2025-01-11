@@ -1,5 +1,5 @@
 # Get Generic Zone Control State
-![alt text](../../../.gitbook/assets/get-generic-zone-control-state.png)
+![](../../../.gitbook/assets/get-generic-zone-control-state.png)
 ## Description
 Returns the current Control State from the Generic Zone object.
 
