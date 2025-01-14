@@ -1,10 +1,27 @@
 # Adjust Player Grenades
+![](../../../.gitbook/assets/adjust-player-grenades.png)
+## Description
+Adjusts the number of grenades in the *Player*'s inventory. Negative values will subtract grenades. Doesn't work with AI units.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Object | Yes | Which player to give ammo to. |
+| Grenade Type | Grenade Type | Yes | What type of grenade to adjust count of. |
+| Refill Percent | Number | Yes | How many grenades to give or take from player. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

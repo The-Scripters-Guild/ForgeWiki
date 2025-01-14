@@ -1,10 +1,26 @@
 # Set Player Equipment Charges
+![](../../../.gitbook/assets/set-player-equipment-charges.png)
+## Description
+Sets the equipment charges in a *Player*'s inventory to the *Charge Count*
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Object | Yes | Which player to give equipment charges to. |
+| Charge Count | Number | Yes | How many equipment charges to give to player. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
