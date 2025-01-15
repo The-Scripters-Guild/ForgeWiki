@@ -1,10 +1,25 @@
 # Refill Player Equipment
+![](../../../.gitbook/assets/refill-player-equipment.png)
+## Description
+Refills the *Player*'s equipment to the maximum number of charges that their equipment can hold
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Object | Yes | Which player to give equipment charges to. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

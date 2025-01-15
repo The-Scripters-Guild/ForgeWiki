@@ -604,6 +604,7 @@
     * [Cast To Boolean](scripting/nodes/lists-casts/cast-to-boolean.md)
     * [Cast To Equipment Type](scripting/nodes/lists-casts/cast-to-equipment-type.md)
     * [Cast To Grenade Type](scripting/nodes/lists-casts/cast-to-grenade-type.md)
+    * [Cast To Nav Marker](scripting/nodes/lists-casts/cast-to-nav-marker.md)
     * [Cast To Number](scripting/nodes/lists-casts/cast-to-number.md)
     * [Cast To Object](scripting/nodes/lists-casts/cast-to-object.md)
     * [Cast To Squad](scripting/nodes/lists-casts/cast-to-squad.md)

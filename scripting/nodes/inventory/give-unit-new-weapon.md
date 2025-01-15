@@ -1,10 +1,27 @@
 # Give Unit New Weapon
+![](../../../.gitbook/assets/give-unit-new-weapon.png)
+## Description
+Attempts to create a new weapon of the Weapon Type and add it to the Unit's inventory. Optionally blocks script execution until the operation is finished. If the unit is in a vehicle, this function is ignored.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+### Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Unit | Object | Yes | Which unir to give weapon to. |
+| Weapon | Object | Yes | Which weapon to give to unir. |
+| Weapon Addition Method | | Yes | |
+| Wait Until Completion | Boolean | Yes | |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

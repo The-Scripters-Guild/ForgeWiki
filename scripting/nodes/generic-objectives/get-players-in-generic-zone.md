@@ -1,7 +1,7 @@
 # Get Players In Generic Zone
 ![](../../../.gitbook/assets/get-players-in-generic-zone.png)
 ## Description
-Creates an object list that contains all of the players currently within the Generic Zone's boundary. The zone must be active (incoming or capturable) to return players.
+Creates an object list that contains all of the players currently within the *Generic Zone*'s boundary. The zone must be active (incoming or capturable) to return players.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.

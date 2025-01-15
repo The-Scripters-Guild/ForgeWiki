@@ -1,10 +1,25 @@
 # Switch To First Weapon Of Type
+![](../../../.gitbook/assets/switch-to-first-weapon-of-type.png)
+## Description
+Force the Player to switch to the first weapon in their inventory that matches the Weapon Type. Has no effect if the Player already has that weapon equipped or does not have a matching weapon.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Object | Yes | Which player to switch weapons for. |
+| Weapon Type | Weapon Type | Yes | Weapon Type to switch to if player has it. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| N/A | N/A | N/A |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

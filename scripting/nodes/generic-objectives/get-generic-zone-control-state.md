@@ -1,7 +1,7 @@
 # Get Generic Zone Control State
 ![](../../../.gitbook/assets/get-generic-zone-control-state.png)
 ## Description
-Returns the current Control State from the Generic Zone object.
+Returns the current Control State from the *Generic Zone* object.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.

@@ -1,7 +1,7 @@
 # Get Generic Zone Progress
 ![](../../../.gitbook/assets/get-generic-zone-progress.png)
 ## Description
-Returns the current capture progress from the Generic Zone object
+Returns the current capture progress from the *Generic Zone* object
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
