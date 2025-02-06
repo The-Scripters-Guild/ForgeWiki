@@ -1,7 +1,7 @@
-# Compare Grenade Types
-![](../../../.gitbook/assets/compare-grenade-types.png)
+# Compare Medals
+![](../../../.gitbook/assets/compare-medals.png)
 ## Description
-Compares two Grenade Type values
+Compares two Medals values
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
@@ -9,13 +9,13 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Grenade Type A | Grenade Type | Yes | Grenade Type to compare to other input. |
-| Grenade Type B | Grenade Type | Yes | Grenade Type to compare to other input. |
+| Medal | Medal | Yes | Medal to compare to other input. |
+| Medal | Medal | Yes | Medal to compare to other input. |
 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| A == B | Boolean | Outputs TRUE if both Grenade Types are the same. |
+| A == B | Boolean | Outputs TRUE if both Medals are the same. |
 
 \
 \

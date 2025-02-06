@@ -635,6 +635,7 @@
     * [Compare Control States](scripting/nodes/logic-compare/compare-control-states.md)
     * [Compare Equipment Types](scripting/nodes/logic-compare/compare-equipment-types.md)
     * [Compare Grenade Types](scripting/nodes/logic-compare/compare-grenade-types.md)
+    * [Compare Medals](scripting/nodes/logic-compare/compare-medals.md)
     * [Compare Squad State](scripting/nodes/logic-compare/compare-squad-state.md)
     * [Compare Squads](scripting/nodes/logic-compare/compare-squads.md)
     * [Compare Teams](scripting/nodes/logic-compare/compare-teams.md)
