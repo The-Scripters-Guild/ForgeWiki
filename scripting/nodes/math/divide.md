@@ -1,10 +1,26 @@
 # Divide
+![](../../../.gitbook/assets/divide.png)
+## Description
+Returns the quotient, whole number, and remainder of the two input values
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Operand A | Number | Yes | A number to be divided. |
+| Operand B | Number | Yes | What to divide Operand A into. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Quotient | Number | Outputs the result of Operand A divided by Operand B. |
+| Whole | Number | The Quotient rounded to the nearest whole number. |
+| Remainder | Number | The remainder left over after Operand A is divided by Operand B. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

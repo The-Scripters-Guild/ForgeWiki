@@ -1,5 +1,5 @@
 # Trait AI: Weapon Damage
-![alt text](../../../.gitbook/assets/trait-ai-weapon-damage.png)
+![](../../../.gitbook/assets/trait-ai-weapon-damage.png)
 
 ## Description
 Affects how much damage AI Unit deals with their weapons. A Scalar of 1.0 is default. Higher values mean the AI Unit deals more damage.

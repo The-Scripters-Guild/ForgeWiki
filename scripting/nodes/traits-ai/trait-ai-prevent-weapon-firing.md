@@ -1,5 +1,5 @@
 # Trait AI: Prevent Weapon Firing
-![alt text](../../../.gitbook/assets/trait-ai-prevent-weapon-firing.png)
+![](../../../.gitbook/assets/trait-ai-prevent-weapon-firing.png)
 
 ## Description
 Nodes that interact with traits that modify base AI behavior

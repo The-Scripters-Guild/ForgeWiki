@@ -1,10 +1,24 @@
 # Combine Object Lists
+![](../../../.gitbook/assets/combine-object-lists.png)
+## Description
+Create a list with all objects in either Object List
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object List | Object List | Yes | An object list to combine into a new list. |
+| Object List | Object List | Yes | An object list to combine into a new list. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Combined List | Object List | A new list of the two lists combined. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

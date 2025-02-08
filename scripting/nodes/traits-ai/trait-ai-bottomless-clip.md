@@ -1,5 +1,5 @@
 # Trait AI: Bottomless Clip
-![alt text](../../../.gitbook/assets/trait-ai-bottomless-clip.png)
+![](../../../.gitbook/assets/trait-ai-bottomless-clip.png)
 
 ## Description
 When enabled, affected AI Units will have infinite ammo and will not need to reload

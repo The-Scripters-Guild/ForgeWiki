@@ -1,10 +1,25 @@
 # Get Object Shield
+![](../../../.gitbook/assets/get-object-shield.png)
+## Description
+Gets the current shield value (percentage) of the Object
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object | Object | Yes | Object to get shields of. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Percent Shield | Number | What percent of entire health object currently has. |
+| Current Shield | Number | How much health object currently has. |
+| Max Shield | Number | Maximum health object can have. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

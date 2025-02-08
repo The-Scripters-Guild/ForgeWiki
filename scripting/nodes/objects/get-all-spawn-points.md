@@ -1,10 +1,23 @@
 # Get All Spawn Points
+![](../../../.gitbook/assets/get-all-spawn-points.png)
+## Description
+Get a list of all spawn points (128, maximum) on the map. Excludes initial spawn points and backup spawn points.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) |  |  |  |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Spawn Points | Object List | A list of all valid Spawn Point objects in the game. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
