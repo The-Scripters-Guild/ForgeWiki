@@ -1,10 +1,26 @@
 # Rotate Object To Point
+![](../../../.gitbook/assets/rotate-object-to-point.png)
+## Description
+Rotates the Object to the desired Rotation over the Duration in Seconds. Optionally provide a Movement Curve to make the animation non-linear. Use Move Object To Transform if moving something in sequence.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object | Object | Yes | Object to rotate. |
+| Rotation | Vector3 | Yes | Rotation to move object to. |
+| Duration In Seconds | Number | Yes | How many seconds to take for the rotate animation. |
+| Movement Curve | Movement Curve | Yes | What type of curve to use for the rotation start and stop animation speed. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
