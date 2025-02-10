@@ -4,7 +4,7 @@
 Translates and rotates the Object to match the position and rotation of the Destination Object over the Duration in Seconds. Optionally provide a Movement Curve to make the animation non-linear.
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input | Type | Required | Description |

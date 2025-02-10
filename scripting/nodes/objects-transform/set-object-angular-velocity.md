@@ -4,7 +4,7 @@
 Sets the angular (rotation) velocity of the Object.
 
 ## Node Type
-Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
 ## Inputs
 | Input | Type | Required | Description |
