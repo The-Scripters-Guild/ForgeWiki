@@ -1,10 +1,24 @@
 # Get Random N Traits
+![](../../../.gitbook/assets/get-random-n-traits.png)
+## Description
+Gets N traits from the Trait List at random.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Trait List | Trait List | Yes | A list of traits to pull random traits from. |
+| Trait Count | Number | Yes | Max random traits to pull from the list. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| New Trait List | Trait List | List of the random traits. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

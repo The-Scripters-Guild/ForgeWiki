@@ -1,10 +1,26 @@
 # Remove Trait Set
+![](../../../.gitbook/assets/remove-trait-set.png)
+## Description
+Removes the Trait Set with the matching Identifier from the Unit. Optionally Remove Immediately or wait for the next respawn to take effect.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Identifier | String | Yes | Which Trait Set to remove. |
+| Unit | Unit | Yes | Which unit to remove all trait sets from. |
+| Remove Immediately | Boolean | Yes | Set to TRUE to remove immediately, FALSE to remove on respawn. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
