@@ -486,7 +486,7 @@
     * [On Player Level Up](scripting/nodes/events-modes/on-player-level-up.md)
     * [On VIP Killed](scripting/nodes/events-modes/on-vip-killed.md)
   * [EVENTS PLAYERS](scripting/nodes/events-players/README.md)
-    * [On Player Awarded](scripting/nodes/events-players/on-player-awarded.md)
+    * [On Medal Awarded](scripting/nodes/events-players/on-medal-awarded.md)
     * [On Player Crouch](scripting/nodes/events-players/on-player-crouch.md)
     * [On Player Exited](scripting/nodes/events-players/on-player-exited.md)
     * [On Player Joined](scripting/nodes/events-players/on-player-joined.md)
