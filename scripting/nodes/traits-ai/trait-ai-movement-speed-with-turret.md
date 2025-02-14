@@ -1,5 +1,5 @@
 # Trait AI: Movement Speed With Turret
-![alt text](../../../.gitbook/assets/trait-ai-movement-speed-with-turret.png)
+![](../../../.gitbook/assets/trait-ai-movement-speed-with-turret.png)
 
 ## Description
 Affects how fast AI Unit moves when holding aheavy object like a detached machine gun turret. A Scalar of 1.0 is default. Higher values mean the AI Unit moves faster.

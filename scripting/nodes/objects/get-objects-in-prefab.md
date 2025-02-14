@@ -1,10 +1,23 @@
 # Get Objects In Prefab
+![](../../../.gitbook/assets/get-objects-in-prefab.png)
+## Description
+Creates an object list that contains all of the objects in the prefab that the Object is part of
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object | Object | Yes | An object in the prefab. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Objects | Object List | A list of all objects in the given object's prefab. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

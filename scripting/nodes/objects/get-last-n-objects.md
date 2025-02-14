@@ -1,10 +1,24 @@
 # Get Last N Objects
+![](../../../.gitbook/assets/get-last-n-objects.png)
+## Description
+Gets the last N objects from the Object List
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object List | Object List | Yes | Object list that objects will be pulled from. |
+| Object Count | Number | Yes | How many objects to pull from the list. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| New Object List | Object List | A new object list containing the objects. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

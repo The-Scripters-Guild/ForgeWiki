@@ -1,10 +1,24 @@
 # Subtract Vectors
+![](../../../.gitbook/assets/subtract-vectors.png)
+## Description
+Returns the difference between two input vectors
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Operand A | Vector3 | Yes | A vector to find the difference from. |
+| Operand B | Vector3 | Yes | A vector to find the difference from. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Result | Vector3 | The difference between the given vectors. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

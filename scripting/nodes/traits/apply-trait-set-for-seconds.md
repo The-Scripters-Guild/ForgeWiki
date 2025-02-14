@@ -1,10 +1,26 @@
 # Apply Trait Set For Seconds
+![](../../../.gitbook/assets/apply-trait-set-for-seconds.png)
+## Description
+Applies the Trait Set with the matching Identifier to the Unit for the specified number of Seconds.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Identifier | String | Yes | Custom name of this variable. |
+| Unit | Unit | Yes | Which unit to apply trait set to. |
+| Seconds | Number | Yes | How many seconds unit will have trait before it is removed. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

@@ -1,10 +1,24 @@
 # Get Shared Objects
+![](../../../.gitbook/assets/get-shared-objects.png)
+## Description
+Create a list with all objects that are included in both Object Lists
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object List | Object List | Yes | Object list to check against other list if any objects are shared. |
+| Object List | Object List | Yes | Object list to check against other list if any objects are shared. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Shared Objects | Object List | A new list containing any objects that are found in both lists. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

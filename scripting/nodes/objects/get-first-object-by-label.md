@@ -1,10 +1,23 @@
 # Get First Object By Label
+![](../../../.gitbook/assets/get-first-object-by-label.png)
+## Description
+Returns the first object with the matching Label in their Object Properties
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Label | User Label | Yes | Which label to find an object of. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Object | Object | First object found with the given label. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

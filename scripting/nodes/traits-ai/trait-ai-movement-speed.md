@@ -1,5 +1,5 @@
 # Trait AI: Movement Speed
-![alt text](../../../.gitbook/assets/trait-ai-movement-speed.png)
+![](../../../.gitbook/assets/trait-ai-movement-speed.png)
 
 ## Description
 Affects how fast AI Unit moves. A Scalar of 1.0 is default. Higher values mean the AI Unit moves faster.

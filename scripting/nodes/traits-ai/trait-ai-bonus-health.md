@@ -1,5 +1,5 @@
 # Trait AI: Bonus Health
-![alt text](../../../.gitbook/assets/trait-ai-bonus-health.png)
+![](../../../.gitbook/assets/trait-ai-bonus-health.png)
 
 ## Description
 Gives an AI Unit's bonus health as a percent of their base health. A Scalar of 0.0 is the default.

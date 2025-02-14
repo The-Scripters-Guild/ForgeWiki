@@ -1,10 +1,23 @@
 # Square Root
+![](../../../.gitbook/assets/square-root.png)
+## Description
+Returns the square root of the Operand. Negative inputs will return the square root of their absolute values.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Operand | Number | Yes | Number to get the square root of. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Result | Number | The scale root of given number. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

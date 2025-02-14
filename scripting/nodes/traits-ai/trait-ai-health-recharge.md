@@ -1,5 +1,5 @@
 # Trait AI: Health Recharge
-![alt text](../../../.gitbook/assets/trait-ai-health-recharge.png)
+![](../../../.gitbook/assets/trait-ai-health-recharge.png)
 
 ## Description
 Affects how quickly AI Unit's health (non-shield) recharges. Higher values for the Recharge Delay Scalar means the health will wait longer before it begins recharging. Higher values for the Recharge Rate Scalar mean the health will fill up faster.

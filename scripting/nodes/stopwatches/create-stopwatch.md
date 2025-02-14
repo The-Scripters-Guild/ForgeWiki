@@ -1,10 +1,24 @@
 # Create Stopwatch
+![](../../../.gitbook/assets/create-stopwatch.png)
+## Description
+Creates a stopwatch to keep tim using the given Identifier. Use Start Immediately to begin ticking without calling the Start Stopwatch node.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Stopwatch Identifier | String | Yes | Custom name of this stopwatch. |
+| Start Immediately | Boolean | Yes | If TRUE, stopwatch starts immediately, if FALSE stopwatch must be started using scripts. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

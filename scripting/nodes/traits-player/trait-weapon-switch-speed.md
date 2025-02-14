@@ -1,10 +1,24 @@
 # Trait: Weapon Switch Speed
+![](../../../.gitbook/assets/trait-weapon-switch-speed.png)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+Affects how fast a player switches weapons. A Scalar of 1.0 is default. Higher values mean the player switches weapons faster.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Scalar | Number (0.0 - 10) | Yes | What percentage of default. |
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Trait | Trait | Outputs this trait. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

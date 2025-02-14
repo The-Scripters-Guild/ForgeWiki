@@ -1,10 +1,24 @@
 # Get Objects In Area Monitor
+![](../../../.gitbook/assets/get-objects-in-area-monitor.png)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+Creates an object list that contains all of the objects currently within the Area Monitor's boundary
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Area Monitor | Area Monitor | Yes | The area monitor to get objects from it's boundary. |
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Objects | Object List | A list of all valid objects in the area monitor's boundary. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

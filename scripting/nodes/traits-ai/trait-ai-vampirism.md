@@ -1,5 +1,5 @@
 # Trait AI: Vampirism
-![alt text](../../../.gitbook/assets/trait-ai-vampirism.png)
+![](../../../.gitbook/assets/trait-ai-vampirism.png)
 
 ## Description
 Nodes that interact with traits that modify base AI behavior

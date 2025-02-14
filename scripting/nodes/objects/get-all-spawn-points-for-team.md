@@ -1,10 +1,23 @@
 # Get All Spawn Points For Team
+![](../../../.gitbook/assets/get-all-spawn-points-for-team.png)
+## Description
+Get a list of all spawn points (128, maximum) that are set to a specific Team. Excludes initial spawn points and backup spawn points.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Team | Team | Yes | Only spawn points set to this team will be added to the output list. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Spawn Points | Object List | Object List containing all spawn points of given team. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

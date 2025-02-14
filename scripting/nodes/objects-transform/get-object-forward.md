@@ -1,10 +1,23 @@
 # Get Object Forward
+![](../../../.gitbook/assets/get-object-forward.png)
+## Description
+Gets the Object's current forward vector (the direction the object faces)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Object | Object | Yes | Object to get forward of. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Forward | Vector3 | Current forward of given object. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

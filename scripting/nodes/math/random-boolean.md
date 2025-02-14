@@ -1,10 +1,24 @@
 # Random Boolean
+![](../../../.gitbook/assets/random-boolean.png)
+## Description
+Returns a random true/false value, with the given chance to return true. For example, choose a Percent Weighting of 60 to return true 60% of the time.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Percent Weighting | Number | Yes | Percentage of times boolean should output TRUE. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Result | Boolean | The resulting random boolean. |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
