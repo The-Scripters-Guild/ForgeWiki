@@ -14,7 +14,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| Current Control State | Control State | What control state the generic zone from input pin is currently in. |
+| Current Control State | Control State | What control state the generic zone from input pin is currently in. See Control State page for a list. |
 
 \
 \
