@@ -1,10 +1,24 @@
 # Set Nav Marker Icon
+![](../../../.gitbook/assets/set-nav-marker-icon.JPG)
+## Description
+Sets the icon of the Nav Marker
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Nav Marker | Nav Marker | Yes | Which nav marker is affected by this node. |
+| Nav Icon | Nav Icon | No | Which icon to display on nav (Active Camo, Alpha, Attack, Bomb, Boss, Bravo, Charlie, Dead, Defend, Delta, Destroyed, Echo, Equipment, Flag, Foxtrot, Generic, Generic Arrow, Grenade, Hacking Terminal, KOTH, Kill, Oddball, Overshield, Power Seed, Quantum Translocator, Vehicle, Weapon). |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

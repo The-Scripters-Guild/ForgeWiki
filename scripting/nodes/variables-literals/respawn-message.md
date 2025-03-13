@@ -1,10 +1,18 @@
 # Respawn Message
+![](../../../.gitbook/assets/respawn-message.JPG)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+The template of the message displayed to a player with blocked spawns
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data.
 
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) |  |  |  |
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Respawn Message | Respawn Message | Challenge Failed, Game Over, Out of Lives, Respawning Disabled, You Died |

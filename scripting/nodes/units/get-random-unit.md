@@ -1,10 +1,23 @@
 # Get Random Unit
+![](../../../.gitbook/assets/get-random-unit.png)
+## Description
+Returns a random Unit
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) | |  |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Unit | Object | Outputs a random unit. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

@@ -1,10 +1,23 @@
 # Get Vehicle Occupants
+![](../../../.gitbook/assets/get-vehicle-occupants.JPG)
+## Description
+Returns a list of all players who occupy a seat in the Vehicle
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Vehicle | Object | Yes | Which vehicle to check for occupants. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Occupant List | Object List | An object list of all occupants in the vehicle. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

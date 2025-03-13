@@ -1,10 +1,18 @@
 # Weapon Addition Method
+![](../../../.gitbook/assets/weapon-addition-method.JPG)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+The means by which a weapon is added to a unit
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data.
 
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) |  |  |  |
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Weapon Addition Method | Weapon Addition Method | Default, If Room, Replace All, Swap Primary, Swap Secondary |

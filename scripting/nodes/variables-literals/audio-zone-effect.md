@@ -1,10 +1,18 @@
 # Audio Zone Effect
+![](../../../.gitbook/assets/audio-zone-effect.JPG)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+The types of effects applied to players within an Audio Zone
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data.
 
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) |  |  |  |
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Audio Zone Effect | Audio Zone Effect | Footsteps Muffled, Footsteps Muted |

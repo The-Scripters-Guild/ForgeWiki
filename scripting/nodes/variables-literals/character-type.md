@@ -1,10 +1,18 @@
 # Character Type
+![](../../../.gitbook/assets/character-type.JPG)
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Description
+An AI character type, such as Grunt Conscript A
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data.
 
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| (none) |  |  |  |
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Character Type | Character Type | See Character Type page for a list of options. |

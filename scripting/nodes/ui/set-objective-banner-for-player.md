@@ -1,10 +1,26 @@
 # Set Objective Banner For Player
+![](../../../.gitbook/assets/set-objective-banner-for-player.JPG)
+## Description
+Enables or disables a custom Objective Banner for the Player. When Enabled, the contents of the Message will be displayed. Use a Create UI Message node to construct a Message.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Player | Yes | Which player to set objective banner for. |
+| Enabled | Boolean | Yes | If TRUE, banner will display. If FALSE, banner will hide. |
+| Message | String | Yes | A Create Message node plugs in here to display for player. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

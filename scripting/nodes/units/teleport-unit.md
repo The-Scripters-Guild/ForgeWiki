@@ -1,10 +1,25 @@
 # Teleport Unit
+![](../../../.gitbook/assets/teleport-unit.png)
+## Description
+Teleports a Unit to an absolute Position, optionally bringing their vehicle along
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Unit | Object | Yes | Which unit to teleport. |
+| Position | Vector3 | Yes | World position to teleport Unit to. |
+| Teleport Unit's Vehicle | Boolean | Yes | Whether or not to also teleport unit's vehicle if they're in one. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

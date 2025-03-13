@@ -1,10 +1,27 @@
 # Create UI Message \[B]
+![](../../../.gitbook/assets/create-ui-message-b.JPG)
+## Description
+Creates a message string just as Create UI Message but with a different selection of templates. Numbers will always be rounded to the nearest integer.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Message Template | Message Template | Yes | Which template message will use. |
+| String 1 | String | Yes | The string to be used in this message template. |
+| X | Number | Yes | A number to be used in this message template. |
+| Y | Number | No | A number to be used in this message template. |
 
+
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Message | String | The final string that will display for player. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

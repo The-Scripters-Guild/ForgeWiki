@@ -1,10 +1,23 @@
 # Get Squared Vehicle Speed
+![](../../../.gitbook/assets/get-squared-vehicle-speed.JPG)
+## Description
+Returns the squared speed in world units per second of the vehicle the Player is in. Returns 0 if the Player is not in a vehicle.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Player | Player | Yes | Which player to check vehicle speed for. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Squared Vehicle Speed | Number | Squared speed. 0 if not in a vehicle. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

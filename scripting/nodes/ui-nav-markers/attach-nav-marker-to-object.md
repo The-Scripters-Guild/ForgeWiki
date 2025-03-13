@@ -1,10 +1,25 @@
 # Attach Nav Marker To Object
+![](../../../.gitbook/assets/attach-nav-marker-to-object.JPG)
+## Description
+Attaches the Nav Marker to the Object with an optional Offset
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Nav Marker | Nav Marker | Yes | Which nav marker is affected by this node. |
+| Object | Object | Yes | Which object nav marker will attach to. |
+| Offset | Vector3 | No | Adds an offset to where nav marker appears on object's local position. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| (none) | | |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
