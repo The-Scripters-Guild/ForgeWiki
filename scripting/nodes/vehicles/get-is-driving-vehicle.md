@@ -1,10 +1,23 @@
 # Get Is Driving Vehicle
+![](../../../.gitbook/assets/get-is-driving-vehicle.JPG)
+## Description
+Returns true if the Unit is the driver of their vehicle
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Node Type
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
 
-{% content-ref url="../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+## Inputs
+| Input | Type | Required | Description |
+|------------------|------------------|----------|--------------------------------------------------------------|
+| Unit | Object | Yes | Which unit to check. |
 
+## Outputs
+| Output | Type | Description |
+|------------------|------------------|--------------------------------------------------------------|
+| Is Driving | Boolean | True if unit is driving, false if not. |
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

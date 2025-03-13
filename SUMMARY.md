@@ -979,6 +979,7 @@
     * [Flip Vehicle](scripting/nodes/vehicles/flip-vehicle.md)
     * [Get Is Boarding](scripting/nodes/vehicles/get-is-boarding.md)
     * [Get Is Driving Vehicle](scripting/nodes/vehicles/get-is-driving-vehicle.md)
+    * [Get Is Gunner In Vehicle](scripting/nodes/vehicles/get-is-gunner-in-vehicle.md)
     * [Get Is In Vehicle](scripting/nodes/vehicles/get-is-in-vehicle.md)
     * [Get Is Overturned](scripting/nodes/vehicles/get-is-overturned.md)
     * [Get Is Passenger In Vehicle](scripting/nodes/vehicles/get-is-passenger-in-vehicle.md)

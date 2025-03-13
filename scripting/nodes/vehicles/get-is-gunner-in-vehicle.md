@@ -1,7 +1,7 @@
-# Get Is In Vehicle
-![](../../../.gitbook/assets/get-is-in-vehicle.JPG)
+# Get Is Driving Vehicle
+![](../../../.gitbook/assets/get-is-gunner-in-vehicle.JPG)
 ## Description
-Returns true if the Unit is seated in a vehicle
+Returns true if the Unit is a gunner in their vehicle. Drivers who control their vehicle's weapons, like in Ghosts, are also considered to be gunners.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
@@ -14,7 +14,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| Is In Vehicle | Boolean | True if unit is in vehicle, false if not. |
+| Is Gunner | Boolean | True if unit is gunner, false if not. |
 
 \
 \
