@@ -940,7 +940,6 @@
     * [Team Variable](scripting/nodes/variables-advanced/team-variable.md)
     * [UI Message Variable](scripting/nodes/variables-advanced/ui-message-variable.md)
     * [User Label Variable](scripting/nodes/variables-advanced/user-label-variable.md)
-    * [Declare Vector 3 Variable](scripting/nodes/variables-advanced/declare-vector-3-variable.md)
     * [Vehicle Type Variable](scripting/nodes/variables-advanced/vehicle-type-variable.md)
     * [Wave Manager Variable](scripting/nodes/variables-advanced/wave-manager-variable.md)
     * [Wave Variable](scripting/nodes/variables-advanced/wave-variable.md)
