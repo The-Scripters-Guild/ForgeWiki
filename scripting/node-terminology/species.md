@@ -1,10 +1,18 @@
 # Species
+All Units are categorized into Species Type, what type of creature they are. To filter Species further see the Character Type page.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Species Types
+* Brute
+* Elite
+* Grunt
+* Human
+* Hunter
+* Jackal
+* Sentinel
+* Skimmer
 
-{% content-ref url="../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+\
+\
+**Contributors**
 
+AddiCt3d 2CHa0s

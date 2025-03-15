@@ -1,10 +1,14 @@
 # Grenade Type
+Grenade Type can be detected and filtered using nodes such as Get Grenade Type, On Grenade Pickup and On Grenade Throw.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Grenade Types
+* Dynamo
+* Fragmentation
+* Plasma
+* Spike
 
-{% content-ref url="../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+\
+\
+**Contributors**
 
+AddiCt3d 2CHa0s

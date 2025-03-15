@@ -1,10 +1,23 @@
 # Death Context
+Death Context is tables of information that are output when a Unit dies, organized by type of information. These tables include who killed the Unit, what Character Type of Unit killed and was killed, what object they used to kill, and whether or not there was an assist.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## "Death Context" Category Nodes
+* Was AI Killer
+* Was Assisted Kill
+* Was Character Type
+* Was Grenade Kill
+* Was Last AI Unit in Squad
+* Was Melee Kill
+* Was Vehicle Kill
+* Was Weapon Kill
+* Was With Grenade Type
+* Was With Specific Vehicle
+* Was With Specific Weapon
+* Was With Vehicle Type
+* Was With Weapon Type
 
-{% content-ref url="../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+\
+\
+**Contributors**
 
+AddiCt3d 2CHa0s

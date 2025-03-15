@@ -1,10 +1,14 @@
 # Bot Difficulty
+Bots can be spawned with different difficulty levels, that affect how aggressively they attack, how much damage their attacks have, and how resistent they are to weapon damage.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Bot Difficulties
+* Marine
+* ODST
+* Recruit
+* Spartan
 
-{% content-ref url="../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+\
+\
+**Contributors**
 
+AddiCt3d 2CHa0s
