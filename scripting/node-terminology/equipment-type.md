@@ -1,10 +1,25 @@
 # Equipment Type
+There are several different Equipments that players can pickup and use in Halo Infinite. We can detect when they're used, and set up scripts to run functions accordingly. Custom Equipments do nothing unless nodes are set up to run when they're used.
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Equipment Types
+* Active Camo
+* Custom Equipment A
+* Custom Equipment B
+* Custom Equipment C
+* Custom Equipment D
+* Drop Wall
+* Grappleshot
+* Overshield
+* Quantum Translocator
+* Repair Field
+* Repulsor
+* Shroud Screen
+* Threat Seeker
+* Threat Sensor
+* Thruster
 
-{% content-ref url="../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+\
+\
+**Contributors**
 
+AddiCt3d 2CHa0s

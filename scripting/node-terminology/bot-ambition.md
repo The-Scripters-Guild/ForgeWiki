@@ -1,10 +1,14 @@
 # Bot Ambition
+Bot Ambition is a way to influence bots to display certain behaviors with objects in games. Ambition can be applied to any dynamic object, including players, and bots will attempt the Ambition when the object is in their range. 
 
-{% hint style="warning" %}
-This article is a stub. You can help TSG Forge Wiki by expanding it.
-{% endhint %}
+## Bot Ambitions
+* Deliver
+* Target
+* Interact
+* Pickup
 
-{% content-ref url="../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md" %}
-[submitting-content-to-the-wiki.md](../../community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
-{% endcontent-ref %}
+\
+\
+**Contributors**
 
+AddiCt3d 2CHa0s
