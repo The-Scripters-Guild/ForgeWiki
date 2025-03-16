@@ -1,7 +1,7 @@
 # Object Variable
 
-{% hint style="info" %}
-\ # All variables require a Declare
+{% hint style="important" %}
+**All variables require a Declare**
 
 Each Variable type has a Declare, a Set, and a Get node. Variables must be declared to be recognized by their get and set nodes, which must use the same custom identifier and scope. See infos for all three below.
 {% endhint %}
