@@ -19,14 +19,12 @@ Published maps with full support for Warzone Fiesta include:
 * [Hollow](https://www.halowaypoint.com/halo-infinite/ugc/maps/ebe54426-33cf-42ec-8275-c580772d933d)
 * [Breakpoint](https://www.halowaypoint.com/halo-infinite/ugc/maps/9c5c468c-b108-476b-b71a-c7c6a589e53f)
 * [Escarpment](https://www.halowaypoint.com/halo-infinite/ugc/maps/ec0ef411-02f6-4950-9505-9a24553f8c15)
-
-
+* [de\_dust2](https://www.halowaypoint.com/halo-infinite/ugc/maps/f907c60f-1e69-4745-a3b7-2c5267eaf328)
+* [Darkstar Preview](https://www.halowaypoint.com/halo-infinite/ugc/maps/3bab2f42-089c-4a03-a1fa-78942cc55471)
 
 {% hint style="success" %}
 Note, that all maps support Warzone Fiesta by default, but they will be missing around 20 weapons including the turrets, sandwich and [projectile weapons](https://okom.one/blog/warzone-fiesta-released#projectile-weapons).
 {% endhint %}
-
-
 
 ***
 
