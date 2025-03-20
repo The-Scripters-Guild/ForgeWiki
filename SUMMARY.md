@@ -1008,6 +1008,7 @@
   * [Grenade Type](scripting/node-terminology/grenade-type.md)
   * [Group Index](scripting/node-terminology/group-index.md)
   * [Medal](scripting/node-terminology/medal.md)
+  * [Nav Marker Terms](scripting/node-terminology/nav-marker-terms.md)
   * [Species](scripting/node-terminology/species.md)
   * [Vehicle Type](scripting/node-terminology/vehicle-type.md)
   * [Weapon Type](scripting/node-terminology/weapon-type.md)
