@@ -4,7 +4,7 @@ description: Different ways of spawning in weapons on a level in Halo Infinite.
 
 # Weapon Spawning
 
-All ways to spawn weapons in Halo Infinite. The first spawner objects in the list are the most common ones.
+All ways to spawn weapons in Halo Infinite via Forge objects. The first spawner objects in the list are the most common ones.
 
 
 

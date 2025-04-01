@@ -6,7 +6,7 @@ description: >-
 
 # Weapons
 
-Information about the weapons in Halo Infinite. A list of all weapons, how to spawn them on your level and extra researched information can be found.
+Information about the weapons in Halo Infinite via Forge objects. A list of all weapons, how to spawn them on your level and extra researched information can be found.
 
 ## Learn more about
 
