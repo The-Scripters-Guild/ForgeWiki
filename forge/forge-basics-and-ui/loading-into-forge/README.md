@@ -4,9 +4,9 @@ description: How to load into a map using the Forge level editor tool in Halo In
 
 # Loading Into Forge
 
-The first step of using Forge is actually loading into the editor on your selected map. This guide will show how that is done in Halo Infinite.
-
 <figure><img src="../../../.gitbook/assets/cover-loading-forge.jpg" alt="The default Arid canvas map loaded in Forge"><figcaption></figcaption></figure>
+
+The first step of using Forge is actually loading into the editor on your selected map. This guide will show how that is done in Halo Infinite.
 
 ## Step-By-Step Process
 

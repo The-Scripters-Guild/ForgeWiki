@@ -4,37 +4,17 @@ description: An interface that displays adjustable properties for the selected o
 
 # Object Properties
 
-The Object Properties tab is the second tab at the top of the Forge Menu and it displays properties for the selected object(s).
-
 <figure><img src="../../../.gitbook/assets/cover-object-properties.jpg" alt="The Object Browser and it&#x27;s tab icon"><figcaption></figcaption></figure>
+
+The Object Properties tab is the second tab at the top of the Forge Menu and it displays properties for the selected object(s).
 
 ## Interface
 
-The Object Properties tab consists of categories and subcategories, within which are object options and settings. The categories can be opened and closed, and their state will persist until the Forge session is closed. A short description of the selected item is shown under the main interface. The common adjustable object properties include Object Mode, Transform, Visuals & Gameplay.
+The Object Properties tab consists of categories and subcategories, within which are object options and settings. The categories can be opened and closed, and their state will persist until the Forge session is closed. A short description of the selected item is shown under the main interface. The common adjustable object properties include Object Mode, Transform, Visuals, and Gameplay.
 
-<div>
+<div><figure><img src="../../../.gitbook/assets/object-properties-open.jpg" alt=""><figcaption><p>Object Properties tab with a selected object</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/object-properties-color.jpg" alt=""><figcaption><p>Color selection of a region on an object</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/object-properties-selection.jpg" alt=""><figcaption><p>Swatch selection of a region on an object</p></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/object-properties-open.jpg" alt=""><figcaption><p>Object Properties tab with a selected object</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/object-properties-color.jpg" alt=""><figcaption><p>Color selection of a region on an object</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/object-properties-selection.jpg" alt=""><figcaption><p>Swatch selection of a region on an object</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../../.gitbook/assets/object-properties-closed.jpg" alt=""><figcaption><p>Object Properties tab with all categories collapsed</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/object-properties-no-selection.jpg" alt=""><figcaption><p>Object Properties tab with no selected object</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/object-properties-closed.jpg" alt=""><figcaption><p>Object Properties tab with all categories collapsed</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/object-properties-no-selection.jpg" alt=""><figcaption><p>Object Properties tab with no selected object</p></figcaption></figure></div>
 
 
 
@@ -103,7 +83,7 @@ Some strings of characters or words are flagged as invalid, and won't be allowed
 
 #### Object Mode
 
-Toggles between Static and Dynamic object mode. Static object can be scaled, but are not movable in-game or scriptable. Dynamic objects are scriptable and movable in-game. Static objects consume [Static Geo](#user-content-fn-1)[^1] budget. Dynamic object take up more [Game Simulation](#user-content-fn-2)[^2] budget than static objects, but consume no Static Geo budget.
+Toggles between Static and Dynamic object mode. Static object can be scaled, but are not movable in-game or scriptable. Dynamic objects are scriptable and movable in-game. Static objects consume [Static Geo](#user-content-fn-1)[^1] budget. Dynamic object take up more [Game Simulation](#user-content-fn-1)[^1] budget than static objects, but consume no Static Geo budget.
 
 <details>
 
@@ -131,33 +111,9 @@ Scale Multiplier means that the object's minimum and maximum scale limits are de
 
 Input range (Scale Multiplier): `Default scale * {min multiplier}` - `Default scale * {max multiplier}`
 
-<div>
+<div><figure><img src="../../../.gitbook/assets/hirt-scale-multiplier-slope-20.jpg" alt=""><figcaption><p>Slope Helper 20° (TI) scaling multipliers</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/hirt-scale-multiplier-ankle-cover.jpg" alt=""><figcaption><p>Ankle Cover Half Size scaling multipliers</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/hirt-scale-multiplier-dry-marker.jpg" alt=""><figcaption><p>Dry Erase Marker scaling multipliers</p></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/hirt-scale-multiplier-slope-20.jpg" alt=""><figcaption><p>Slope Helper 20° (TI) scaling multipliers</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/hirt-scale-multiplier-ankle-cover.jpg" alt=""><figcaption><p>Ankle Cover Half Size scaling multipliers</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/hirt-scale-multiplier-dry-marker.jpg" alt=""><figcaption><p>Dry Erase Marker scaling multipliers</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-min.jpg" alt=""><figcaption><p>Minimum scale of the Slope Helper 20° (TI). (0.1 x default)</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-default.jpg" alt=""><figcaption><p>Default scale of the Slope Helper 20° (TI)</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-max.jpg" alt=""><figcaption><p>Maximum scale of the Slope Helper 20° (TI). (20 x default)</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-min.jpg" alt=""><figcaption><p>Minimum scale of the Slope Helper 20° (TI). (0.1 x default)</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-default.jpg" alt=""><figcaption><p>Default scale of the Slope Helper 20° (TI)</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-max.jpg" alt=""><figcaption><p>Maximum scale of the Slope Helper 20° (TI). (20 x default)</p></figcaption></figure></div>
 
 > Tool: [HIRT](https://github.com/urium1186/HIRT)
 
@@ -169,7 +125,7 @@ The most used object that has a Scale Limit Type of Scale Multiplier is the Halo
 
 <figure><img src="../../../.gitbook/assets/object-properties-object-mode-size-scale-multiplier-anklecover-0.001.jpg" alt=""><figcaption><p>Ankle Cover Half Size scaled to X: 0.001. Note: that the UI can't show this.</p></figcaption></figure>
 
-Note, that even if the object can be scaled below 0.10, the Object Browser size value input interface doesn't take values lower than 0.10, nor will it show values lower than that. To get an object lower than 0.10, the Scaling Snap of `<none>` has to be selected and the object has to be manually scaled using the [Scale Gizmo](#user-content-fn-3)[^3].
+Note, that even if the object can be scaled below 0.10, the Object Browser size value input interface doesn't take values lower than 0.10, nor will it show values lower than that. To get an object lower than 0.10, the Scaling Snap of `<none>` has to be selected and the object has to be manually scaled using the [Scale Gizmo](#user-content-fn-2)[^2].
 
 {% hint style="info" %}
 Object scaling limits can also be bypassed with an exploit. Read more about: [Bypassing Object Scaling Limits](../../../guides-and-knowledge/forge-know-how/forge-exploits/bypassing-object-scaling-limits.md).
@@ -216,10 +172,6 @@ Change the object's X (forward), Y (horizontal) and Z: (vertical) position.
 #### Rotational Values
 
 Change the object's Roll (X), Pitch (Y) and Yaw (Z) rotation.
-
-{% hint style="info" %}
-Currently the rotation of Dynamic objects is affected by a bug causing an additional rotation of 0.70 degrees to be applied to the object. Read more about: [0.7 Degree Rotation Bug](../../../guides-and-knowledge/forge-know-how/forge-bugs/0.7-degree-rotation-bug.md).
-{% endhint %}
 
 ### Quickly Duplicating Positional Values Between Objects
 
@@ -303,7 +255,7 @@ Input range: `0.00` - `1.00`
 
 #### Team
 
-Changes the object's Team affiliation. Most useful on [Team Blockers](#user-content-fn-4)[^4] that allow players from only the assigned team to pass through the blocker. Otherwise used on gameplay-related objects such as CTF Flag Stands.
+Changes the object's Team affiliation. Most useful on [Team Blockers](#user-content-fn-3)[^3] that allow players from only the assigned team to pass through the blocker. Otherwise used on gameplay-related objects such as CTF Flag Stands.
 
 ### Labels
 
@@ -431,8 +383,6 @@ Okom
 
 [^1]: Add link when ready
 
-[^2]: Add link when ready
+[^2]: Add link when done
 
-[^3]: Add link when done
-
-[^4]: Link when done
+[^3]: Link when done

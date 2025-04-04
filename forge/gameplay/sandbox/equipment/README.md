@@ -6,7 +6,7 @@ description: >-
 
 # Equipment
 
-Information about the equipment in Halo Infinite. A list of all equipment and grenades, how to spawn them on your level, as well as extra researched information can be found.
+Information about the equipment in Halo Infinite via Forge objects. A list of all equipment and grenades, how to spawn them on your level, as well as extra researched information can be found.
 
 
 

@@ -4,7 +4,7 @@ description: Different ways of spawning in vehicles on a level in Halo Infinite.
 
 # Vehicle Spawning
 
-All ways to spawn vehicles in Halo Infinite. The first spawner objects in the list are the most common ones.
+All ways to spawn vehicles in Halo Infinite via Forge objects. The first spawner objects in the list are the most common ones.
 
 
 

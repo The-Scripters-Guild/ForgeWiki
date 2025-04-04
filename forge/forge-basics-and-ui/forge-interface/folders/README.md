@@ -4,37 +4,17 @@ description: An interface that allows for object organization with folders.
 
 # Folders
 
-The Folders tab is the third tab at the top of the Forge Menu and it allows users to create folders and subfolders where objects can be moved into.
-
 <figure><img src="../../../../.gitbook/assets/cover-folders.jpg" alt="The Object Browser and it&#x27;s tab icon"><figcaption></figcaption></figure>
+
+The Folders tab is the third tab at the top of the Forge Menu and it allows users to create folders and subfolders where objects can be moved into.
 
 ## Interface
 
 The Folders tab consists of main folders and subfolders where forge objects placed on the map are stored. The main folders and subfolders can be opened and closed, and their state will persist until the Forge session is closed. The folders can be renamed, and their positioning is based on alphabetical order. A folder and the objects within the folder can be locked or hidden. These options prevent the object from being selected and hide their visibility respectfully.
 
-<div>
+<div><figure><img src="../../../../.gitbook/assets/forge-interface-forge-menu-folders.jpg" alt=""><figcaption><p>Default folder structure and objects on the Arid canvas</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/folders-default-open.png" alt=""><figcaption><p>Objects selected, hidden and locked in the Folders tab</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/folders-custom-subfolders.png" alt=""><figcaption><p>Custom folder structure for the 4v4 map HighGear</p></figcaption></figure></div>
 
-<figure><img src="../../../../.gitbook/assets/forge-interface-forge-menu-folders.jpg" alt=""><figcaption><p>Default folder structure and objects on the Arid canvas</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/folders-default-open.png" alt=""><figcaption><p>Objects selected, hidden and locked in the Folders tab</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/folders-custom-subfolders.png" alt=""><figcaption><p>Custom folder structure for the 4v4 map HighGear</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../../../.gitbook/assets/folders-custom-closed.png" alt=""><figcaption><p>Advanced folder structure with 10 main folders as categories</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/folders-custom-open.png" alt=""><figcaption><p>Inspecting the contents of the custom folder structure</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../.gitbook/assets/folders-custom-closed.png" alt=""><figcaption><p>Advanced folder structure with 10 main folders as categories</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/folders-custom-open.png" alt=""><figcaption><p>Inspecting the contents of the custom folder structure</p></figcaption></figure></div>
 
 ## Controls
 

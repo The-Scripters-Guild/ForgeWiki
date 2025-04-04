@@ -208,6 +208,7 @@
     * [Light Probe Blending Issues](forge/lighting/building-lighting/light-probe-blending-issues.md)
   * [FX](forge/lighting/fx/README.md)
     * [Lighting FX Objects](forge/lighting/fx/lighting-fx-objects.md)
+    * [FX-Emitting Objects](forge/lighting/fx/fx-emitting-objects.md)
 * [Standards](forge/standards/README.md)
   * [Mode Setup](forge/standards/mode-setup/README.md)
     * [Arena](forge/standards/mode-setup/arena.md)

@@ -4,27 +4,15 @@ description: An interface that displays a list of objects to spawn in Forge.
 
 # Object Browser
 
-The Object Browser tab is the first tab at the top of the Forge Menu and it displays a list of objects to spawn in Halo Infinite Forge.
-
 <figure><img src="../../../../.gitbook/assets/cover-object-browser.jpg" alt="The Object Browser and it&#x27;s tab icon"><figcaption></figcaption></figure>
+
+The Object Browser tab is the first tab at the top of the Forge Menu and it displays a list of objects to spawn in Halo Infinite Forge.
 
 ## Interface
 
 The Object Browser tab consists of object categories and subcategories, within which are spawnable objects. The categories can be opened and closed, and their state will persist until the Forge session is closed. A short description of the selected item is shown under the main interface. In addition to object categories, there are also categories for recently used objects, and Modes and Prefabs that you are a [Collaborator](../../../../ugc/metadata-and-file-management/working-with-files/file-collaborators.md) on or have bookmarked.
 
-<div>
-
-<figure><img src="../../../../.gitbook/assets/forge-interface-forge-menu-object-browser.jpg" alt=""><figcaption><p>Object Browser tab with all categories collapsed</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/object-browser-open.jpg" alt=""><figcaption><p>Object Browser tab with two categories open</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/object-browser-accents-forerunner.jpg" alt=""><figcaption><p>Accents > Forerunner category open in the Object Browser tab</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../.gitbook/assets/forge-interface-forge-menu-object-browser.jpg" alt=""><figcaption><p>Object Browser tab with all categories collapsed</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/object-browser-open.jpg" alt=""><figcaption><p>Object Browser tab with two categories open</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/object-browser-accents-forerunner.jpg" alt=""><figcaption><p>Accents > Forerunner category open in the Object Browser tab</p></figcaption></figure></div>
 
 
 
@@ -86,19 +74,7 @@ A list of Forge Modes that you are a collaborator on, or have bookmarked. The mo
 
 When a Forge session is loaded, each player requests all of their owned and bookmarked modes to be loaded so the game can display these in the Modes category. This happens for both modes and prefabs. For players who have a lot of these, it can cause upwards of 1000 network requests just from loading the same modes and prefabs every time a new Forge session is loaded.
 
-<div>
-
-<figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-start1.jpg" alt=""><figcaption><p>Prefabs and modes start loading right after the map loads</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-mid1.jpg" alt=""><figcaption><p>Over 100 asset requests in</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-end1.jpg" alt=""><figcaption><p>Around 1130 asset requests by joining a Forge session</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-start1.jpg" alt=""><figcaption><p>Prefabs and modes start loading right after the map loads</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-mid1.jpg" alt=""><figcaption><p>Over 100 asset requests in</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-end1.jpg" alt=""><figcaption><p>Around 1130 asset requests by joining a Forge session</p></figcaption></figure></div>
 
 > Tool: [InfiniteMITM](https://github.com/Alexis-Bize/InfiniteMITM)
 
@@ -108,15 +84,7 @@ This results in not being able to easily select modes or prefabs from the corres
 
 A list of Object Prefabs that you are a collaborator on, or have bookmarked. The prefabs can be placed on the map straight from the menu. When a Forge session is loaded, each player requests all of their owned and bookmarked prefabs to be loaded so the game can display these in the Prefabs category.
 
-<div>
-
-<figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-start2.jpg" alt=""><figcaption><p>Forge map load started at request #1244</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-end2.jpg" alt=""><figcaption><p>After 1123 requests, all the assets are loaded</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-start2.jpg" alt=""><figcaption><p>Forge map load started at request #1244</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/infinite-mitm-prefab-mode-calls-end2.jpg" alt=""><figcaption><p>After 1123 requests, all the assets are loaded</p></figcaption></figure></div>
 
 ### Forge Object List
 

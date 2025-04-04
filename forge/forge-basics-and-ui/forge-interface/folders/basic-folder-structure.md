@@ -4,9 +4,9 @@ description: Examples of a basic folder structure to use on Halo Infinite Forge 
 
 # Basic Folder Structure
 
-The folder structure doesn't have to be overly complicated to work efficiently. Below are some examples of basic folder structures that experienced forgers have come up with, and are tuned to work for the common object groups in a Forge map. A basic folder structure is useful for categorizing objects into large categories that still differentiate them enough to be understandable.
-
 <figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
+
+The folder structure doesn't have to be overly complicated to work efficiently. Below are some examples of basic folder structures that experienced forgers have come up with, and are tuned to work for the common object groups in a Forge map. A basic folder structure is useful for categorizing objects into large categories that still differentiate them enough to be understandable.
 
 ## Advantages
 
@@ -37,9 +37,7 @@ Examples of basic folder structures used by experienced forgers:
 
 * 00 Blockout
 
-<!---->
-
-* 01 Sandbox
+- 01 Sandbox
   * Gamemodes
   * Lighting
   * Misc.
@@ -49,15 +47,9 @@ Examples of basic folder structures used by experienced forgers:
   * Volumes
   * Weapons Equipment
 
-<!---->
-
 * 02 Scripts
 
-<!---->
-
-* 03 Containment
-
-<!---->
+- 03 Containment
 
 * 04 Art
 
