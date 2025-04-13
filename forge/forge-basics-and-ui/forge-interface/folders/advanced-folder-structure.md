@@ -16,16 +16,12 @@ The advantages to having an advanced folder structure are:
 * Selecting or hiding specific groups of objects is easy and streamlined
 * You are more willing to folderize objects correctly, when a good folder structure is set up
 
-
-
 ## Disadvantages
 
 The disadvantages to having an advanced folder structure are:
 
 * More budget usage as every folder takes up Forge Simulation memory. This only becomes an issue on maps with the Forge Simulation memory almost at 100% when attempting to re-do the folder structure
 * Some forgers may find it too intimidating to use
-
-
 
 ## Examples
 
@@ -35,13 +31,15 @@ Examples of advanced folder structures used by experienced forgers:
 
 <details>
 
-<summary>General</summary>
+<summary>General purpose</summary>
 
 * .Non-Folderized Objects `root folder`
 
 - 00.Layout
+  * 0.Blockout
   * 1.Main Layout
   * 2.Skybox
+  * 3.Detail (Collision)
   * 3.Detail (No Collision)
   * Terrain
 
@@ -58,9 +56,7 @@ Examples of advanced folder structures used by experienced forgers:
   * Lifts and Teleporters
   * Named Locations
   * Ordnance, Cobra
-  * Ordnance, Cobra, Event
   * Ordnance, Eagle
-  * Ordnance, Eagle, Event
   * Ordnance, LSS
   * Ordnance, Middle
   * Vehicles
@@ -68,6 +64,7 @@ Examples of advanced folder structures used by experienced forgers:
   * Weapons, Variant
 
 * 03.Modes
+  * Assault
   * Attrition
   * CTF
   * Elimination
@@ -93,6 +90,7 @@ Examples of advanced folder structures used by experienced forgers:
   * Temp. Geo
 
 * 05\. Lighting
+  * Emissives
   * FX
   * Lighting Modifiers
   * Lights
@@ -104,9 +102,13 @@ Examples of advanced folder structures used by experienced forgers:
 
 * 07.Scripting
   * Script1
+  * Script2
+  * Script3
 
 - 08.Misc
   * Palette1
+  * Palette2
+  * Palette3
 
 </details>
 
@@ -114,7 +116,7 @@ Examples of advanced folder structures used by experienced forgers:
 
 <details>
 
-<summary>General</summary>
+<summary>General purpose</summary>
 
 * 00 Blockout
 * 01 Gamemodes
@@ -261,6 +263,8 @@ Examples of advanced folder structures used by experienced forgers:
 - 99.TEMP
 
 </details>
+
+If you're confused what the `root folder` means, see [Set as Root Folder](./#set-as-root-folder).
 
 
 

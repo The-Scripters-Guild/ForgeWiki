@@ -70,6 +70,8 @@ Examples of basic folder structures used by experienced forgers:
 
 </details>
 
+If you're confused what the `root folder` means, see [Set as Root Folder](./#set-as-root-folder)
+
 
 
 ***
