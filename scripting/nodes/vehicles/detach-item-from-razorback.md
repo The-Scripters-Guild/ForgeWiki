@@ -1,7 +1,7 @@
-# Damage Object
-![](../../../.gitbook/assets/damage-object.png)
+# Detach Item From Razorback
+![](../../../.gitbook/assets/detach-item-from-razorback.JPG)
 ## Description
-Deals the Damage Amount as raw damage to the Object. Final damage dealt value is affected by the material of the Object. Use Get Object Health and Print Number to Killfeed to determine final value if needed.
+Forces the Item to detach from the Razorback it is attached to. Has no effect if the item is not attached to a Razorback.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
@@ -9,14 +9,12 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Object| Object | Yes | Object that is to take damage. |
-| Damage Amount | Number | Yes | How much damage to apply to Object. |
-| Damage Source Object | Object | No | What object to attribute damage to. |
+| Item | Object | Yes | Which object to detach. |
 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| (none) |  |  |
+| (none) | | |
 
 \
 \

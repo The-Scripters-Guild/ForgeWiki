@@ -1,7 +1,7 @@
-# Damage Object
-![](../../../.gitbook/assets/damage-object.png)
+# Register Object For Kill Volume Events
+![](../../../.gitbook/assets/register-object-for-kill-volume-events.png)
 ## Description
-Deals the Damage Amount as raw damage to the Object. Final damage dealt value is affected by the material of the Object. Use Get Object Health and Print Number to Killfeed to determine final value if needed.
+Registers the Object to emit events related to kill volumes.
 
 ## Node Type
 Nodes fall into two basic categories: Data and Execution. This node Executes a function directly in the node string.
@@ -9,14 +9,13 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Object| Object | Yes | Object that is to take damage. |
-| Damage Amount | Number | Yes | How much damage to apply to Object. |
-| Damage Source Object | Object | No | What object to attribute damage to. |
+| Object | Object | Yes | Which object to register. |
+| Operation | Operation | Yes | Whether to add or remove object from events. |
 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| (none) |  |  |
+| (none) | | |
 
 \
 \
