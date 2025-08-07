@@ -1,5 +1,5 @@
 # Get All Players With Spawn Order
-![](../../../.gitbook/assets/get-all-players-with-spawn-order.PNG)
+![](../../../.gitbook/assets/get-all-players-with-spawn-order.png)
 ## Description
 Returns a list of all players with the matching Spawn Order
 
