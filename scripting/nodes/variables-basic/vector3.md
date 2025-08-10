@@ -18,3 +18,10 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
 | Vector | Vector3 | The final Vector 3 using the input pins. |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

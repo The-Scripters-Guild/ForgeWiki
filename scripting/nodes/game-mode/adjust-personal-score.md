@@ -11,6 +11,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 |------------------|------------------|----------|--------------------------------------------------------------|
 | Player | Player | Which player has their score adjusted. |
 | Score Adjustment | Number | Adds this number to player's personal score. |
+| Message | Message | Displays this message for player when score is adjusted. |
 
 ## Outputs
 | Output | Type | Description |
@@ -21,4 +22,5 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 \
 **Contributors**
 
-AddiCt3d 2CHa0s
+AddiCt3d 2CHa0s \
+Okom

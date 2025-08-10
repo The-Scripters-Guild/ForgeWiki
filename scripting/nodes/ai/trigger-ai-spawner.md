@@ -12,9 +12,9 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 | AI Spawner | AI Spawner | Yes | The AI spawner object that will be used to spawn a Squad.  |
 
 ## Outputs
-| Output            | Type             | Required | Description												    |
-|------------------|------------------|----------|--------------------------------------------------------------|
-| None | N/A | N/A | N/A |													     |
+| Output           | Type             | Description |
+|------------------|------------------|-------------|
+| None | N/A | N/A | N/A |
 
 \
 \

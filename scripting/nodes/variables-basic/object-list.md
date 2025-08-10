@@ -19,3 +19,10 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
 | Object List | Object List | Contains all of the objects from the input pins. |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

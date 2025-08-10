@@ -11,6 +11,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 |------------------|------------------|----------|--------------------------------------------------------------|
 | Object List | Object List | Yes | An object list to combine into a new list. |
 | Object List | Object List | Yes | An object list to combine into a new list. |
+| Combine To First List | Boolean | Yes | Whether or not to automatically update the first Object List variable by adding the items to it from the second list. |
 
 ## Outputs
 | Output | Type | Description |
@@ -21,4 +22,5 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 \
 **Contributors**
 
-AddiCt3d 2CHa0s
+AddiCt3d 2CHa0s \
+Okom

@@ -17,3 +17,10 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
 | Weapon Type | Weapon Type | The new Weapon Type created by combining the weapons. |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s
