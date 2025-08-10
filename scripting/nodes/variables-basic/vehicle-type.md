@@ -16,3 +16,10 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
 | Vehicle Type | Vehicle Type | Current value of this node. See Vehicle Type page for more infos.|
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

@@ -16,3 +16,10 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
 | Object | Object | A direct reference to the object. |
+
+
+\
+\
+**Contributors**
+
+AddiCt3d 2CHa0s

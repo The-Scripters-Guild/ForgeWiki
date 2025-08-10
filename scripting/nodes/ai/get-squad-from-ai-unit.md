@@ -12,8 +12,8 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | AI Unit | Object | Yes      | The AI Unit to pull the Squad from. |
 
 ## Outputs
-| Output           | Type             | Description												     |
-|------------------|------------------|--------------------------------------------------------------|
+| Output           | Type             | Description |
+|------------------|------------------|-------------|
 | Squad | Squad | The Squad belonging to the specified AI Unit. |
 
 \

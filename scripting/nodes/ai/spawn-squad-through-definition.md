@@ -12,9 +12,9 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 | Squad Definition | Squad Definition | Yes | The Squad Definition that the spawned Squad will inherit.|
 
 ## Outputs
-| Output            | Type             | Required | Description												    |
-|------------------|------------------|----------|--------------------------------------------------------------|
-| None | N/A | N/A | N/A |
+| Output           | Type             | Description |
+|------------------|------------------|-------------|
+| None | N/A | N/A |
 
 \
 \
