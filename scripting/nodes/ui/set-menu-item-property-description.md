@@ -10,7 +10,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
 | Menu Item | Menu Item | Yes | Which menu item to set property of.|
-| Message | String | Yes | What message to use to set as the property. |
+| Message | String | Yes | Any message output pin plugs in here. |
 
 ## Outputs
 | Output | Type | Description |

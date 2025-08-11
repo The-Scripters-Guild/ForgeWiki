@@ -9,7 +9,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Inputs
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
-| Message | String | Yes | A Create Message node plugs in here to display for player. |
+| Message | String | Yes | Any message output pin plugs in here to display for player. |
 
 ## Outputs
 | Output | Type | Description |

@@ -1,4 +1,9 @@
 # Register On Weapon No Ammo
+
+{% hint style="important" %}
+This node was originally created to cover instances where weapons created using **Spawn Mode Object** might not trigger the **On Weapon No Ammo** Event, but they do, so it's currently not needed.
+{% endhint %}
+
 ![](../../../.gitbook/assets/register-on-weapon-no-ammo.png)
 ## Description
 (Registers a weapon so an) Event executes when the given _Weapon_ runs out of ammo.  
@@ -14,11 +19,9 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| Player | Object | Which player is holding weapon when it runs out of ammo.|
-| Weapon | Object | The weapon that has run out of ammo.|
+| Player | Object | Deprecated. |
+| Weapon | Object | Deprecated. |
 
-## Notes
-This node was originally created to cover instances where weapons created using **Spawn Mode Object** might not trigger the **On Weapon No Ammo** Event, but they do, so it's currently not needed.
 
 \
 \
