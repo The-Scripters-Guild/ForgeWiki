@@ -14,7 +14,7 @@ Nodes fall into two basic categories: Data and Execution. This Execution node fi
 ## Outputs
 | Output           | Type             | Description												     |
 |------------------|------------------|--------------------------------------------------------------|
-| Object | Object  | The Object that was detected entering a Kill Volume.  |
+| Object | Object  | The Object that was detected exiting a Kill Volume.  |
 
 \
 \

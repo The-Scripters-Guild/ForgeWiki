@@ -34,7 +34,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 
 ***
 
-\
+***
 
 
 ## Get Vector3 Variable
@@ -65,7 +65,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 
 ***
 
-\
+***
 
 
 ## Set Vector3 Variable

@@ -15,6 +15,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
 | Team | Team | Team of the object. |
+| Is Neutral | Boolean | Outputs TRUE if object's Team is neutral, FALSE if not. |
 
 \
 \

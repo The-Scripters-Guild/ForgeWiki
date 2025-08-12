@@ -1,4 +1,9 @@
 # Register On Weapon Pickup
+
+{% hint style="important" %}
+This node was originally created to cover instances where weapons created using **Spawn Mode Object** might not trigger the **On Weapon Pickup** Event, but they do, so it's currently not needed.
+{% endhint %}
+
 ![](../../../.gitbook/assets/register-on-weapon-pickup.png)
 ## Description
 (Registers a weapon so an) Event executes when a player explicitly picks up the given _Weapon_.  
@@ -14,11 +19,9 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| Acquiring Player | Player | Which player picked up the weapon.|
-| Pickup Position | Vector3 | Location weapon was at when it was picked up.|
+| Acquiring Player | Player | Deprecated. |
+| Pickup Position | Vector3 | Deprecated. |
 
-## Notes
-This node was originally created to cover instances where weapons created using **Spawn Mode Object** might not trigger the **On Weapon Pickup** Event, but they do, so it's currently not needed.
 
 \
 \

@@ -10,7 +10,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 | Input | Type | Required | Description |
 |------------------|------------------|----------|--------------------------------------------------------------|
 | Player | Player | Yes | Which player to print message for. |
-| Message | String | Yes | A Message node plugs in here to display for player. |
+| Message | String | Yes | Any message output pin plugs in here to display for player. |
 
 ## Outputs
 | Output | Type | Description |

@@ -19,7 +19,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 | Input         | Type   | Required | Description |
 | ------------- | ------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Identifier | String | Yes | The custom string id for this variable. |
-| Initial Value | String | No | What the variable holds when the game starts. |
+| Initial Value | Menu | No | What the variable holds when the game starts. |
 | Scope | Scope | Yes | Local scope can only be accessed within the same script brain. Global and Object can be accessed by any script brain. Object scoped variables use the Object pin, to associate the variable with an object in the game. |
 
 ## Outputs
@@ -30,7 +30,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 
 ***
 
-\
+***
 
 
 ## Get Menu Variable
@@ -57,7 +57,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 
 ***
 
-\
+***
 
 
 ## Set Menu Variable
@@ -73,7 +73,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 | Input      | Type   | Required | Description                                                          |
 | ---------- | ------ | -------- | -------------------------------------------------------------------- |
 | Identifier | String | Yes  | The custom string id for this variable. |
-| Value | Menu | Yes | The Menu for this variable. |
+| Value | Menu | Yes | The Menu that is being set for this variable. |
 | Scope | Scope  | Yes | Must match scope of declared variable with the same identifier. |
 | Object | Object | No | Used to associate variable with an object when Object scope is used. |
 

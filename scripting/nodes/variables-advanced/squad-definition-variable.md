@@ -34,7 +34,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 
 ***
 
-\
+***
 
 
 ## Get Squad Definition Variable
@@ -65,7 +65,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 
 ***
 
-\
+***
 
 
 ## Set Squad Definition Variable

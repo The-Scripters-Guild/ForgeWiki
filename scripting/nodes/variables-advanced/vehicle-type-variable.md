@@ -34,7 +34,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 
 ***
 
-\
+***
 
 
 ## Get Vehicle Type Variable
@@ -65,7 +65,7 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 
 ***
 
-\
+***
 
 
 ## Set Vehicle Type Variable

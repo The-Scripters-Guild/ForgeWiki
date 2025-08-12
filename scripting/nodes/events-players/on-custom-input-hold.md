@@ -14,7 +14,7 @@ Nodes fall into two basic categories: Data and Execution. This node listens for 
 ## Outputs
 | Output | Type | Description |
 |------------------|------------------|--------------------------------------------------------------|
-| Player | Player | The player who is holding custom input. |
+| Player | Object | The player who is holding custom input. |
 
 \
 \

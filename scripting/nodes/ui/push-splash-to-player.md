@@ -11,7 +11,7 @@ Nodes fall into two basic categories: Data and Execution. This node Executes a f
 |------------------|------------------|----------|--------------------------------------------------------------|
 | Player | Player | Yes | Which player to push splash for. |
 | Duration In Seconds | Number | No | How many seconds splash will display for (2.5 minimum). |
-| Message | String | Yes | A Create Message node plugs in here to display for player. |
+| Message | String | Yes | Any message output pin plugs in here to display for player. |
 
 ## Outputs
 | Output | Type | Description |
