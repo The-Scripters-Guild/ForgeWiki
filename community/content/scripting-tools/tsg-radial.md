@@ -66,9 +66,9 @@ Menu Variables are the core of each Menu. These must be declared via the `Declar
 
 The Menu Variables follow these parameters:
 
-* **Identifier**: A custom name for the Menu; suggested to use the exact same naming pattern: `radial{Digit 1}_{category}` as used for the `Custom Event, Global` for creating the Menu as it's more streamlined.
+* **Identifier**: A custom name for the Menu; suggested to use the exact same naming pattern: `radial{Digit 1}_{category}` as used for the `Custom Event, Global` for creating the Menu as it's more streamlined
 * **Scope**: Global
-  * Optimally object-scope should be used for player-based menus, but a current bug is preventing object-scoped menus from functioning correctly.
+  * Optimally object-scope should be used for player-based menus, but a current bug is preventing object-scoped menus from functioning correctly
 
 <div><figure><img src="../../../.gitbook/assets/declare-menu-variable-example.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/get-menu-variable-example.png" alt=""><figcaption></figcaption></figure></div>
 
