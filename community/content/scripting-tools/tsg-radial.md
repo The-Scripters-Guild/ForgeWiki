@@ -26,6 +26,10 @@ In `tsg radial` a Menu is opened by calling a `Custom Event, Global` associated 
 
 <div><figure><img src="../../../.gitbook/assets/radial-opening.png" alt=""><figcaption><p>Triggers and Events for opening Menus</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/radial-main.png" alt=""><figcaption><p>An example menu</p></figcaption></figure></div>
 
+{% hint style="info" %}
+The Custom Event, Global Async `On Custom Input Tap` serves the same purpose as the node with the same name, but is a workaround for a bug. The source of Custom Event can be seen in the [initialization events](tsg-radial.md#initialization-events-and-declarations).
+{% endhint %}
+
 The events for opening a Menu rely on the following parameters:
 
 * **Identifier**: A custom name for the event; suggested to use the naming pattern: `radial{Digit 1}_{category}` as it helps you keep track of what radial belongs where
@@ -105,6 +109,10 @@ When a Menu Item is selected, a comparison is done to determine which menu the s
 Also a Boolean Variable `radialOpen` is set to False, which is used elsewhere to track whether the player has a Menu open or not, as this is not natively tracked.
 
 <figure><img src="../../../.gitbook/assets/menu-item-selected-code1.png" alt=""><figcaption><p>Comparison tree determining which Menu a selection was made in</p></figcaption></figure>
+
+The reason why the `On Menu Item Selected` node is immediately being turned into a Custom Event, Global is so the comparison tree can be continued on another Script Brain. Below is an example on how to do so:
+
+<div><figure><img src="../../../.gitbook/assets/menu-selection-continue1.png" alt=""><figcaption><p>Continuing the Menu selection comparison tree. The Object and Number connections come from the <code>On Menu Item Selected</code> Custom Event.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/menu-selection-continue2.png" alt=""><figcaption><p>Continued Menu selection comparison tree</p></figcaption></figure></div>
 
 The event for the item selection relies on the following parameters:
 
@@ -188,7 +196,7 @@ Declarations for all variables and traits in one place. More variable declaratio
 
 Essential events for tracking if a player has a Menu open, logging the menu values, and ways of forcefully closing the menu.
 
-<div><figure><img src="../../../.gitbook/assets/tsg-radial-radialOpen.png" alt=""><figcaption><p>Menu state tracking</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-forceClose.png" alt=""><figcaption><p>Fallback for closing the Menu by moving the aim vector</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/tsg-radial-radialOpen.png" alt=""><figcaption><p>Menu state tracking</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-forceClose.png" alt=""><figcaption><p>Fallback for closing the Menu by changing the aim rotation</p></figcaption></figure></div>
 
 <div><figure><img src="../../../.gitbook/assets/tsg-radial-logMenu.png" alt=""><figcaption><p>Logging the Menu Number value and applying a bug workaround</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-closeMenu.png" alt=""><figcaption><p>Forceful closing of the player's current Menu</p></figcaption></figure></div>
 
@@ -241,6 +249,62 @@ This Menu Module also contains examples of granting every type of weapon, equipm
 {% embed url="https://www.halowaypoint.com/halo-infinite/ugc/modes/1729aa11-2af2-4275-980f-9bfda14bb8db" %}
 
 {% embed url="https://www.youtube.com/watch?v=0tnwkerfBoc" %}
+
+
+
+## Trivia
+
+### Bug workarounds
+
+There's a few mentions of some features in `tsg radial` being workarounds for bugs, so here's an explanation of all of them. Some of them are known issues listed by Halo Studios which are found [here](https://support.halowaypoint.com/hc/en-us/articles/39737155177492-Halo-Infinite-Fall-Update-2025-Patch-Notes#h_01JJQG5B1RQSM8HW3RTC7D1G9F).
+
+#### Only one node instance working
+
+_Using any of the nodes listed below more than once will result in only one instance of the node functioning:_
+
+* _On Custom Input Tap_
+* _On Custom Input Hold_
+* _On Menu Item Selected_
+* _On Player Started Sprinting_
+* _On Player Stopped Sprinting_
+
+The workaround for this is to immediately turn the node into a `Custom Event, Global Async` that serves the same purpose and can be used in multiple scripts. In `tsg radial` this is done with the nodes: On Custom Input Tap & On Menu Item Selected.
+
+
+
+<div><figure><img src="../../../.gitbook/assets/workaround-on-custom-input-tap.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/workaround-on-menu-item-selected.png" alt=""><figcaption></figcaption></figure></div>
+
+
+
+#### Unprompted Menus displaying for players
+
+_Radial menus may appear during gameplay without players invoking them._
+
+The workaround for this isn't mentioned in the documentation as it's a stealthy fix, but all that's required is to disable the visibility of the current Menu using the `Show Menu To Player` node right after the `On Menu Item Selected` & `On Menu Close` nodes.
+
+<div><figure><img src="../../../.gitbook/assets/workaround-on-menu-item-selected.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/workaround-show-menu-to-player.png" alt=""><figcaption></figcaption></figure></div>
+
+#### Menu Item selection doesn't work
+
+_Selecting a Menu Item from a global-scoped Menu that has been disabled after the Menu has been shown to the player doesn't prompt a Menu Item selection._
+
+This is not a bug, but something we have to workaround as object-scoped Menus are broken in their own ways currently, requiring us to use global-scoped menus. For the workaround, all of the Menu Items in the Menu that was just shown to the player are set to Enabled so issues don't arise for anyone who had the Menu previously open.
+
+<figure><img src="../../../.gitbook/assets/tsg-radial-logMenu.png" alt=""><figcaption><p>The latter part of the logMenu event has the bug workaround.</p></figcaption></figure>
+
+#### Undetected Menu closing
+
+Opening two instances of the same global-scoped Menu simultaneously may close one instance of the Menu.
+
+Another workaround required when working with global-scoped Menus since all players are trying to access the same global-scoped menu, some player may get caught in the process of the menu being built for some other player, and have the Menu just not show up for them when prompted.
+
+What this results in is the custom tracking for `radialOpen` still being True cause it's assumed that the Menu got shown, but now the player is stuck with the movement locking traits. The workaround is a fallback to remove said traits by just changing the aim rotation, which is often the first thing players will do when they want to start moving again.
+
+It's also convenient that you can't change your aim rotation while a Menu is open, so it works as a good fallback for removing the traits if something else were to prompt the Menu closing without the scripting catching on.
+
+<figure><img src="../../../.gitbook/assets/tsg-radial-forceClose.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
