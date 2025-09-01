@@ -52,7 +52,6 @@ Examples of advanced folder structures used by experienced forgers:
   * Audio
   * Cameras
   * Equipment
-  * Equipment, Variant
   * Lifts and Teleporters
   * Named Locations
   * Ordnance, Cobra
@@ -61,7 +60,6 @@ Examples of advanced folder structures used by experienced forgers:
   * Ordnance, Middle
   * Vehicles
   * Weapons
-  * Weapons, Variant
 
 * 03.Modes
   * Assault
@@ -90,8 +88,8 @@ Examples of advanced folder structures used by experienced forgers:
   * Temp. Geo
 
 * 05\. Lighting
-  * Emissives
   * FX
+  * Hide For Lighting Build
   * Lighting Modifiers
   * Lights
 
@@ -265,8 +263,6 @@ Examples of advanced folder structures used by experienced forgers:
 </details>
 
 If you're confused what the `root folder` means, see [Set as Root Folder](./#set-as-root-folder).
-
-
 
 ***
 
