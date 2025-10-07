@@ -1293,6 +1293,7 @@
     * [Other Halo/Forge Wikis](community/content/external-resources/other-halo-forge-wikis.md)
   * [Misc Content](community/content/misc-content/README.md)
     * [Forge Map Lore](community/content/misc-content/forge-map-lore.md)
+    * [Survive The Undead Strategy Guide](community/content/misc-content/survive-the-undead-strategy-guide.md)
 * [The Scripter's Guild](community/the-scripters-guild.md)
 * [Contributing to TSG Forge Wiki](community/contributing-to-tsg-forge-wiki/README.md)
   * [Submitting Content to the Wiki](community/contributing-to-tsg-forge-wiki/submitting-content-to-the-wiki.md)
