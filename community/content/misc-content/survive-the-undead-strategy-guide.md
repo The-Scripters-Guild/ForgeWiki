@@ -133,7 +133,7 @@ Make sure to share points to your teammates with the 2000-point share interface 
 
 General tips to help you understand how to play the mode better and more efficiently.
 
-### Best loadout
+### Best weapons
 
 **Heatwave + Purging Shock Rifle**
 
@@ -226,6 +226,12 @@ A weapon that shoots only a single explosive projectile per shot such as the M39
 #### Last chance to get an ideal weapon
 
 You can survive to about wave 14 (first Escharum) with the default loadout of Mk50 Sidekick and MA40 AR, full perks and a Repulsor. After that, the enemy count and difficulty will become too much for the default weapons to handle. So if by wave 14 you haven't had good luck with the Mystery Box on getting an ideal weapon, you might just be out of luck.
+
+#### Secret best weapon grant
+
+By getting a kill with the Skewer + Unbound Plasma Pistol, a Heatwave + Purging Shock Rifle combo will be given to the killer. This can only feasibly be achieved by getting the Insta Kill powerup and then getting a kill with the Skewer combo.
+
+<figure><img src="../../../.gitbook/assets/stu-secret-weapon-grant.png" alt=""><figcaption></figcaption></figure>
 
 ### Prioritize yourself first
 
