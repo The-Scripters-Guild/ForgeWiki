@@ -32,7 +32,7 @@ Succeeding in a match of Survive The Undead is based a lot on the decisions you 
 1. Spend points on the Mystery Box 5 times and try to get a Heatwave, Pulse Carbine or Plasma Pistol (the "ideal weapons"). Only exchange one gun at this point.
    * Activate the Mystery Box while holding the worst weapon in your inventory, as that will be replaced. The MA40 AR has more ammo and is a better secondary fallback.
    * If you don't get one of the ideal weapons after 5 tries and you don't have Health 4/4, jump to step 3; if you have Health 4/4, jump to step 5.
-2. Upgrade the ideal weapon at the 1000-point machine and try to get one of these combos:
+2. Upgrade the ideal weapon at the 2500-point machine and try to get one of these combos:
    * Heatwave + Purging Shock Rifle
    * Pulse Carbine + Scatterbound Heatwave
    * Pulse Carbine + Convergence Bulldog
@@ -55,17 +55,31 @@ Try as many times as you deem appropriate and move to the next step.
 Purchase Max Ammo when about to run out of ammo.
 {% endhint %}
 
+{% hint style="success" %}
+#### Temporary price decreases
+
+At the beginning of an intermission period after wave 6 has passed, a message displaying "1/x Price" can show up on a 25% chance. This makes all the purchasable items be a fraction of their price for 20 seconds. The available fractions are:
+
+* 1/10 = a tenth of normal price
+* 1/4 = a quarter of normal price
+* 1/2 = half of normal price
+
+<img src="../../../.gitbook/assets/stu-price-decrease.png" alt="" data-size="original">
+
+When these are active and you're saving up to purchase something, it's recommended to go for the most expensive option first such as taking a chance at the 2500-point weapon upgrade machine to try and get an ideal or endgame weapon.
+{% endhint %}
+
 ### Endgame
 
 1. After wave 13 at the latest, Spend all your accumulated points on the Mystery Box and try to get a Heatwave or Pulse Carbine (the "endgame weapons") depending on which ones you are missing. The goal is to have a Heatwave and a Pulse Carbine as your two weapons.
    * Activate the Mystery Box while holding the worst weapon in your inventory, as that will be replaced.
    * Keep trying until you get either one of the endgame weapons. If you don't already have an endgame weapon, don't attempt to get both yet.
-2. Upgrade the endgame weapon at the 1000-point machine and try to get these combos:
+2. Upgrade the endgame weapon at the 2500-point machine and try to get these combos:
    * Pulse Carbine + Scatterbound Heatwave (shows the Pulse Carbine icon)
    * Heatwave + Purging Shock Rifle
 
 {% hint style="danger" %}
-The Heatwave + Calcine Disruptor is a bad combo which can kill you unintentionally due to its explosive Disruptor shots if they land close to you. Due to this, it's recommended to only use the upgrade machine when you have at least 2000 points. If you get the Calcine Disruptor combo, you can change it for another one immediately to avoid accidental death when fighting enemies close by
+The Heatwave + Calcine Disruptor is a bad combo which can kill you unintentionally due to its explosive Disruptor shots if they land close to you. Due to this, it's recommended to only use the upgrade machine when you have at least 5000 points. If you get the Calcine Disruptor combo, you can change it for another one immediately to avoid accidental death when fighting enemies close by
 {% endhint %}
 
 1. If you don't have both of the endgame weapons, jump to step 1.
@@ -101,21 +115,14 @@ Make sure to share points to your teammates with the 2000-point share interface 
 #### During the current round
 
 1. Revive all teammates approximately 30 seconds before you predict the round to end. Reviving a teammate gives them 30 seconds of 4x damage resistance which should keep them alive even if enemies are attacking them. If they survive until the intermission, they've now gained extra time to gather back their loadout.
-2. The revived players must purchase Health 4/4, Damage 4/4, a 500-point Calcine Disruptor off the wall and upgrade the Disruptor at the 1000-point machine and try to get the Disruptor + Volatile Skewer combo weapon.
+2. The revived players must purchase Health 4/4, Damage 4/4, a 500-point Calcine Disruptor off the wall and upgrade the Disruptor at the 2500-point machine and try to get the Disruptor + Volatile Skewer combo weapon.
 
 #### Intermission 1
 
 1. Alive players with the endgame loadout must share all of their points on the 2000-point Point Share interface to give the revived players enough points for the next steps.
-2. Revived players must purchase a M392 Bandit off the wall for 200 points and upgrade it to try and get the Volatile Skewer combo.
-   * If possible, upgrade the weapon just before the wave begins to make full use of the 40-second unlimited ammo period.
-3. Revived players must stick close to the alive players in order to survive the next wave.
-
-#### Intermission 2
-
-1. Alive players with the endgame loadout must share all of their points on the 2000-point Point Share interface to give the revived players enough points for the next steps.
 2. Revived players must do the [Midgame](survive-the-undead-strategy-guide.md#midgame) purchasing steps excluding the perk upgrades. So attempting the mystery box to get the ideal weapons.
 
-#### Intermission 3 onwards
+#### Intermission 2 onwards
 
 1. Alive players with the endgame loadout should share all of their points on the 2000-point Point Share interface to give the revived players enough points for them to progress.
 2. Revived players must continue doing the [Midgame](survive-the-undead-strategy-guide.md#midgame) and [Endgame](survive-the-undead-strategy-guide.md#endgame) steps until they have the endgame loadout.
@@ -163,7 +170,7 @@ The bouncing shots can damage and kill the shooter unexpectedly.
 **Disruptor + Volatile Skewer**
 
 * 48 exploding Skewer shots which can one-shot enemies even in later waves. 12 shots per magazine.
-* A potentially very low investment as it can be purchased off the wall for only 500 points, making the only randomness be the 25% chance of getting the right combo at the 1000-point upgrade machine.
+* A potentially very low investment as it can be purchased off the wall for only 500 points, making the only randomness be the 25% chance of getting the right combo at the 2500-point upgrade machine.
 * Can easily carry a whole team to wave 14.
 
 {% hint style="danger" %}
@@ -205,7 +212,7 @@ The **Pulse Carbine** is the safest weapon to upgrade as it has only three varia
 * Unbound Plasma Pistol
 
 {% hint style="info" %}
-Unbound Plasma Pistol being the only bad variant. This means if you get a Pulse Carbine, you need a maximum of 2000 points to guarantee an ideal weapon.
+Unbound Plasma Pistol being the only bad variant. This means if you get a Pulse Carbine, you need a minimum of 5000 points to guarantee an ideal weapon.
 {% endhint %}
 
 If you get the Unbound Plasma Pistol variant on your first upgrade, you are guaranteed to get either the Scatterbound Heatwave or the Convergence Bulldog variant on the second upgrade as the machine won't give you the same variant twice.
