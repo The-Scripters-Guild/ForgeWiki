@@ -23,40 +23,58 @@ Succeeding in a match of Survive The Undead is based a lot on the decisions you 
    * Melee with the Mk50 Sidekick for faster melees.
    * If players steal your kills, shoot the enemies with the Mk50 Sidekick.
    * Much more enemies will come at wave 4, where you can start to gather some points back if you didn't get much in the first 3.
-2. Purchase Damage 2/4 and Health 1/4 immediately when you have enough points.
-3. Save all points until wave 6 (first Berserker Brutes) is complete.
+2. Purchase Damage 2/4 and Health 4/4 immediately when you have enough points.
+   * Health 4/4 gives health vampirism from dealt damage and is crucial in later waves.
+3. Save all remaining points until wave 6 (first Berserker Brutes) is complete.
    * Use the Mk50 Sidekick until it's empty. There should be no need to buy Max Ammo up to this point if you've followed the steps.
 
 ### Midgame
 
-1. Spend points on the Mystery Box 5 times and try to get a Heatwave, Pulse Carbine or Plasma Pistol (the "ideal weapons"). Only exchange one gun at this point.
+1. Spend points on the Mystery Box 3 times and try to get an "<mark style="color:yellow;">endgame</mark>" or "<mark style="color:green;">ideal</mark>" base weapon.
+   * List of all obtainable weapons from the Mystery Box in the preferred order with the ideal base weapons being highlighted:
+     * <mark style="color:yellow;">Heatwave</mark>
+     * <mark style="color:yellow;">Pulse Carbine</mark>
+     * <mark style="color:green;">Plasma Pistol</mark>
+     * Impact Commando
+     * Fuel Rod SPNKr
+     * Purging Shock Rifle
+     * Calcine Disruptor
+     * Mutilator
+     * Arcane Sentinel Beam
+     * Backdraft Cindershot
+     * Cindershot
+     * Ravager
+     * VK78 Commando
+     * Stalker Rifle
+     * MA40 AR
+     * M41 SPNKr
+     * MLRS-2 Hydra
+     * Mangler
+     * Sentinel Beam
+     * Mk50 Sidekick
+     * S7 Flexfire
+     * S7 Sniper
+     * Skewer
+     * Energy Sword
+     * M392 Bandit
+     * Shock Rifle
+     * CQS48 Bulldog
+     * MA5K Avenger
+     * Disruptor
+     * Needler
    * Activate the Mystery Box while holding the worst weapon in your inventory, as that will be replaced. The MA40 AR has more ammo and is a better secondary fallback.
-   * If you don't get one of the ideal weapons after 5 tries and you don't have Health 4/4, jump to step 3; if you have Health 4/4, jump to step 5.
-2. Upgrade the ideal weapon at the 2500-point machine and try to get one of these combos:
-   * Heatwave + Purging Shock Rifle
-   * Pulse Carbine + Scatterbound Heatwave
-   * Pulse Carbine + Convergence Bulldog
-   * Plasma Pistol + Scatterbound Heatwave
-
-{% hint style="info" %}
-Try as many times as you deem appropriate and move to the next step.
-{% endhint %}
-
-3. Purchase Health 4/4 as you want to prioritize staying alive.
-   * Health 4/4 gives vampirism, which grants health for kills and is crucial in later waves.
-4. If you don't have any of the ideal weapons, jump to step 1.
-5. Purchase Damage 4/4
-6. If you don't have any of the ideal weapons, jump to step 1.
-7. Purchase the Repulsor equipment.
-   * Allows you to push enemies away from you as well as escape tight situations by jumping over enemies on the maps that allow it.
-8. Purchase Speed 4/4
-
-{% hint style="info" %}
-Purchase Max Ammo when about to run out of ammo.
-{% endhint %}
+   * Replace weapons in the order shown in the list. The Impact Commando and Fuel Rod SPNKr are the next best guns to keep ahold of if you don't get lucky with any of the endgame or ideal base weapons.
+   * If you don't get one of the endgame or ideal base weapons after 3 tries, jump to step 3.
+2. Upgrade the endgame or ideal base weapon at the 2500-point machine and try to get one of the endgame or ideal weapons once.
+   * List of the <mark style="color:yellow;">endgame</mark> and <mark style="color:green;">ideal</mark> weapons (combos):
+     * <mark style="color:yellow;">Heatwave + Purging Shock Rifle</mark>
+     * <mark style="color:yellow;">Pulse Carbine + Scatterbound Heatwave</mark>
+     * <mark style="color:green;">Pulse Carbine + Convergence Bulldog</mark>
+     * <mark style="color:green;">Plasma Pistol + Scatterbound Heatwave</mark>
+     * <mark style="color:green;">Plasma Pistol + Convergence Bulldog</mark>
 
 {% hint style="success" %}
-#### Temporary price decreases
+#### Temporary price decrease
 
 At the beginning of an intermission period after wave 6 has passed, a message displaying "1/x Price" can show up on a 25% chance. This makes all the purchasable items be a fraction of their price for 20 seconds. The available fractions are:
 
@@ -66,28 +84,38 @@ At the beginning of an intermission period after wave 6 has passed, a message di
 
 <img src="../../../.gitbook/assets/stu-price-decrease.png" alt="" data-size="original">
 
-When these are active and you're saving up to purchase something, it's recommended to go for the most expensive option first such as taking a chance at the 2500-point weapon upgrade machine to try and get an ideal or endgame weapon.
+When these are active and you're saving up to purchase something, it's recommended to go for the most expensive option first such as taking a chance at the 2500-point weapon upgrade or getting the maximum speed upgrade.
 {% endhint %}
+
+3. Purchase Damage 4/4
+4. If you don't have any of the endgame or ideal base weapons, jump to step 1.
+5. Purchase the Repulsor equipment.
+   * Allows you to push enemies away from you as well as escape tight situations by jumping over enemies on the maps that allow it.
+6. Purchase Speed 4/4
+7. If you don't have any of the endgame or ideal weapons (combos), jump to step 2.
+
+{% hint style="info" %}
+Purchase Max Ammo when about to run out of ammo.
+{% endhint %}
+
+#### Price decrease good weapon purchase strategy
+
+If a temporary price decrease of 1/4 or 1/10 appears before you have at least one ideal weapon, immediately purchase a Disruptor or M392 Bandit off the wall–favoring the Disruptor–, and attempt upgrading it to get an "[alternative good weapon](survive-the-undead-strategy-guide.md#alternative-good-weapons)". These can substitute an [ideal weapon](survive-the-undead-strategy-guide.md#ideal-weapons-excluding-endgame) until you get an [endgame weapon](survive-the-undead-strategy-guide.md#endgame-items).
 
 ### Endgame
 
-1. After wave 13 at the latest, Spend all your accumulated points on the Mystery Box and try to get a Heatwave or Pulse Carbine (the "endgame weapons") depending on which ones you are missing. The goal is to have a Heatwave and a Pulse Carbine as your two weapons.
+1. After wave 13 at the latest, Spend all your accumulated points on the Mystery Box and try to get an endgame base weapon (<mark style="color:yellow;">Heatwave</mark> / <mark style="color:yellow;">Pulse Carbine</mark>) depending on which ones you are missing. The goal is to have both of them.
    * Activate the Mystery Box while holding the worst weapon in your inventory, as that will be replaced.
-   * Keep trying until you get either one of the endgame weapons. If you don't already have an endgame weapon, don't attempt to get both yet.
-2. Upgrade the endgame weapon at the 2500-point machine and try to get these combos:
-   * Pulse Carbine + Scatterbound Heatwave (shows the Pulse Carbine icon)
-   * Heatwave + Purging Shock Rifle
-
-{% hint style="danger" %}
-The Heatwave + Calcine Disruptor is a bad combo which can kill you unintentionally due to its explosive Disruptor shots if they land close to you. Due to this, it's recommended to only use the upgrade machine when you have at least 5000 points. If you get the Calcine Disruptor combo, you can change it for another one immediately to avoid accidental death when fighting enemies close by
-{% endhint %}
-
-1. If you don't have both of the endgame weapons, jump to step 1.
-2. During intermission, purchase max ammo.
-3. Purchase the Repulsor equipment back if it has been used up.
+   * Keep trying until you get either one of the endgame base weapons. If you don't already have an endgame weapon, don't attempt to get both yet.
+2. Upgrade the endgame base weapon at the 2500-point machine and try to get these combos:
+   * <mark style="color:yellow;">Pulse Carbine + Scatterbound Heatwave</mark>
+   * <mark style="color:yellow;">Heatwave + Purging Shock Rifle</mark>
+3. If you don't have both of the endgame weapons, jump to step 1.
+4. During intermission, purchase max ammo.
+5. Purchase the Repulsor equipment back if it has been used up.
 
 {% hint style="success" %}
-This loadout is the "**endgame loadout**". You've achieved it if you have nothing more to spend your points on except more ammo, potential revives and point shares. You should have the Heatwave + Purging Shock Rifle and Pulse Carbine + Scatterbound Heatwave combo weapons, max perks and a Repulsor.
+This loadout is the "**endgame loadout**". You've achieved it if you have nothing more to spend your points on except more ammo, potential revives, repulsors and point shares. You should have the Heatwave + Purging Shock Rifle and Pulse Carbine + Scatterbound Heatwave combo weapons, max perks and a Repulsor.
 {% endhint %}
 
 
@@ -110,22 +138,27 @@ If you or a teammate is revived, follow these steps to get the revived player ba
 
 #### Before reviving
 
-Make sure to share points to your teammates with the 2000-point share interface so they have a minimum of 6300 points saved up. And preferably more, such as 9300. These points will be used up quickly to get perks and an upgraded weapon after being revived.
+Make sure to share points to your teammates with the 2000-point share interface so they have a minimum of 5400 points saved up. And preferably more, such as 10400. These points will be used up quickly to get perks and an upgraded weapon after being revived.
 
 #### During the current round
 
 1. Revive all teammates approximately 30 seconds before you predict the round to end. Reviving a teammate gives them 30 seconds of 4x damage resistance which should keep them alive even if enemies are attacking them. If they survive until the intermission, they've now gained extra time to gather back their loadout.
-2. The revived players must purchase Health 4/4, Damage 4/4, a 500-point Calcine Disruptor off the wall and upgrade the Disruptor at the 2500-point machine and try to get the Disruptor + Volatile Skewer combo weapon.
+2. The revived players must purchase Health 4/4 and a 500-point Calcine Disruptor off the wall, and upgrade the Disruptor at the 2500-point machine trying to get the Disruptor + Volatile Skewer combo weapon. This is where the extra points will come in handy as there is only a 25% chance of getting the Volatile Skewer combination.
 
 #### Intermission 1
 
 1. Alive players with the endgame loadout must share all of their points on the 2000-point Point Share interface to give the revived players enough points for the next steps.
-2. Revived players must do the [Midgame](survive-the-undead-strategy-guide.md#midgame) purchasing steps excluding the perk upgrades. So attempting the mystery box to get the ideal weapons.
+2. Revived players must get ready in the area where the endgame player will be holding off the enemies in.
+
+#### During the next wave
+
+1. The revived players must stay close to the endgame player and shoot at far away enemies with the explosive Disruptor to aid the team and to keep themselves healed using the vampirism of Health 4/4.
 
 #### Intermission 2 onwards
 
 1. Alive players with the endgame loadout should share all of their points on the 2000-point Point Share interface to give the revived players enough points for them to progress.
-2. Revived players must continue doing the [Midgame](survive-the-undead-strategy-guide.md#midgame) and [Endgame](survive-the-undead-strategy-guide.md#endgame) steps until they have the endgame loadout.
+2. Revived players must do the [Midgame](survive-the-undead-strategy-guide.md#midgame) and [Endgame](survive-the-undead-strategy-guide.md#endgame) steps until they have the endgame loadout.
+3. Revived players must get ready in the area where the endgame player will be holding off the enemies in if the revived players don't have the endgame loadout.
 
 
 
@@ -134,6 +167,8 @@ Make sure to share points to your teammates with the 2000-point share interface 
 General tips to help you understand how to play the mode better and more efficiently.
 
 ### Best weapons
+
+#### Endgame items
 
 **Heatwave + Purging Shock Rifle**
 
@@ -165,21 +200,10 @@ The bouncing shots can damage and kill the shooter unexpectedly.
 * Allows you to push enemies away from you as well as escape tight situations by jumping over enemies on the maps that allow it.
 * 5 charges per purchase.
 
-#### Alternative good weapons
-
-**Disruptor + Volatile Skewer**
-
-* 48 exploding Skewer shots which can one-shot enemies even in later waves. 12 shots per magazine.
-* A potentially very low investment as it can be purchased off the wall for only 500 points, making the only randomness be the 25% chance of getting the right combo at the 2500-point upgrade machine.
-* Can easily carry a whole team to wave 14.
-
-{% hint style="danger" %}
-Shoots explosive shots, which can also damage and kill the shooter.
-{% endhint %}
+#### Ideal weapons
 
 **Plasma Pistol + Scatterbound Heatwave**
 
-* Temporary secondary along with a Heatwave.
 * Scatterbound Heatwave projectiles pass through enemies and bounce off walls, dealing damage to multiple enemies with a single burst.
 * Overheats if shot too fast, which is often necessary.
 * 114 semi-auto shots instead of 125 burst-fire shots compared to the Pulse Carbine + Scatterbound Heatwave combo.
@@ -190,18 +214,40 @@ The bouncing shots can damage and kill the shooter unexpectedly.
 
 **Pulse Carbine + Convergence Bulldog**
 
-* Temporary secondary along with a Heatwave.
 * Kills single enemies fast.
 * Ammo doesn't last long.
 * Doesn't keep up with the pace required at later waves.
 
 **Plasma Pistol + Convergence Bulldog**
 
-* Temporary secondary along with a Heatwave.
 * Kills single enemies fast.
 * Ammo doesn't last long.
 * Overheats if shot too fast, which is often necessary.
 * Doesn't keep up with the pace required at later waves.
+
+#### Alternative good weapons
+
+**Disruptor + Volatile Skewer**
+
+* 48 exploding Skewer shots which can one-shot enemies even in later waves. 12 shots per magazine.
+* A potentially very low investment as it can be purchased off the wall for only 500 points, making the only randomness be the 25% chance of getting the right combo at the 2500-point upgrade machine, but getting bad luck will leave you with a useless weapon.
+* Can easily carry a whole team to wave 14 if used cautiously.
+* A good weapon to purchase right after being revived to keep yourself alive.
+
+{% hint style="danger" %}
+#### Explosive projectile caution
+
+Explosive projectiles such as the Skewer, Rockets or Calcine Disruptor shot can damage the player easily which will unintentionally kill you when the enemy count starts becoming higher and they start appearing next to you.
+
+The explosion can be survived point-blank if the shooter has Health 4/4 as they will also regenerate health from the damage dealt. Any more than one explosion nearby will very quickly kill the shooter.
+{% endhint %}
+
+**M392 Bandit + Volatile Skewer**
+
+* 45 exploding Skewer shots which can one-shot enemies even in later waves. 15 shots per magazine.
+* A potentially very low investment as it can be purchased off the wall for only 200 points, making the only randomness be the 25% chance of getting the right combo at the 2500-point upgrade machine, but getting bad luck will leave you with a useless weapon.
+* Can easily carry a whole team to wave 14 if used cautiously.
+* A good weapon to purchase right after being revived to keep yourself alive.
 
 #### Safest weapon to upgrade
 
@@ -215,14 +261,6 @@ The **Pulse Carbine** is the safest weapon to upgrade as it has only three varia
 Unbound Plasma Pistol being the only bad variant. This means if you get a Pulse Carbine, you need a minimum of 5000 points to guarantee an ideal weapon.
 {% endhint %}
 
-If you get the Unbound Plasma Pistol variant on your first upgrade, you are guaranteed to get either the Scatterbound Heatwave or the Convergence Bulldog variant on the second upgrade as the machine won't give you the same variant twice.
-
-**Explosive projectile caution**
-
-Explosive projectiles such as the Skewer, Rockets or Calcine Disruptor shot can damage the player easily which will unintentionally kill you when the enemy count starts becoming higher and they start appearing next to you.
-
-A weapon that shoots only a single explosive projectile per shot such as the M392 Bandit + Volatile Skewer combo can be survived point-blank if the shooter has Health 4/4 as they will also regenerate health from the damage dealt. Any more than one explosion nearby will very quickly kill the shooter.
-
 #### Last chance to get an ideal weapon
 
 You can survive to about wave 14 (first Escharum) with the default loadout of Mk50 Sidekick and MA40 AR, full perks and a Repulsor. After that, the enemy count and difficulty will become too much for the default weapons to handle. So if by wave 14 you haven't had good luck with the Mystery Box on getting an ideal weapon, you might just be out of luck.
@@ -232,6 +270,10 @@ You can survive to about wave 14 (first Escharum) with the default loadout of Mk
 By getting a kill with the Skewer + Unbound Plasma Pistol, a Heatwave + Purging Shock Rifle combo will be given to the killer. This can only feasibly be achieved by getting the Insta Kill powerup and then getting a kill with the Skewer combo.
 
 <figure><img src="../../../.gitbook/assets/stu-secret-weapon-grant.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+This should only be attempted if you already possess an ideal weapon, as otherwise it's too risky.
+{% endhint %}
 
 ### Prioritize yourself first
 
@@ -256,6 +298,7 @@ It's then important to try and not let enemies damage you too much when an Insta
 **Escharum**
 
 * Always prioritize killing Escharum if present on the map. He can kill you very quickly if you don't focus fire on him intentionally.
+* Escharum has stages where he can't be damaged. These happen right after his shield breaks, when he is recharging the shield, and when he changes to the melee berserker mode. Don't try to damage him at these stages as he will take no damage.
 
 **Jega 'Rdomnai**
 
@@ -274,7 +317,7 @@ Personal Score is what gets converted into XP. The ways to get personal score ar
 * AI Kill = 20
 * Assisting AI Kill = 10
 
-The Score Attack powerup multiplies the points gained as well as score gained. One Score Attack powerup is worth a 2x multiplier, and multiple of them can be stacked to increase the multiplier.
+The Score Attack powerup multiplies the points gained as well as score gained. One Score Attack powerup is worth a 2x multiplier, and multiple of them can be stacked to increase the multiplier always by 1x more.
 
 ### Solo strategy
 
