@@ -54,6 +54,10 @@ Each menu in `tsg radial` is built right before the menu is shown to the player.
 
 <figure><img src="../../../.gitbook/assets/radial-main-code.png" alt=""><figcaption><p>Code for a building, showing and logging a Menu</p></figcaption></figure>
 
+{% hint style="warning" %}
+The "Set Generic List Variable" node `previousMenuValues` being reset should only be present in the first radial of a Module, and must be removed for any sub-radials so the menu logging will work.
+{% endhint %}
+
 #### Menu Items
 
 Radial Menus consist of a maximum 8 Menu Items (selectable sectors) per Menu, which each must be declared in the code so display the desired Title, Description, Icon and Enabled state. The Title and Description utilize a `Create UI Message` node, and the Icon and Enabled state are set by opening the properties of the `Menu Item` node.
@@ -71,8 +75,7 @@ Menu Variables are the core of each Menu. These must be declared via the `Declar
 The Menu Variables follow these parameters:
 
 * **Identifier**: A custom name for the Menu; suggested to use the exact same naming pattern: `radial{Digit 1}_{category}` as used for the `Custom Event, Global` for creating the Menu as it's more streamlined
-* **Scope**: Global
-  * Optimally object-scope should be used for player-based menus, but a current bug is preventing object-scoped menus from functioning correctly
+* **Scope**: Object
 
 <div><figure><img src="../../../.gitbook/assets/declare-menu-variable-example.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/get-menu-variable-example.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -89,10 +92,6 @@ After a Menu is displayed to a player, its Number value is stored at the end of 
 Also a Boolean Variable `radialOpen` is set to True, which is used elsewhere to track whether the player has a Menu open or not, as this is not natively tracked.
 
 <figure><img src="../../../.gitbook/assets/tsg-radial-logMenu.png" alt=""><figcaption><p>Logging the Menu Number value in a Generic List</p></figcaption></figure>
-
-{% hint style="info" %}
-Extra code for a bug workaround is appended to the function that may become unnecessary in the future.
-{% endhint %}
 
 
 
@@ -180,11 +179,11 @@ Here's an example following how the value `110` is filtered:
 
 ## Background events
 
-The essential background events that serve as the foundation for some features of `tsg radial`. These events should be left untouched when using the scripting module.
+The essential background events that serve as the foundation for some features of `tsg radial`.
 
 ### Initialization events and declarations
 
-Custom Events created to ensure smooth timing and predictable execution of the rest of the code.
+Custom Events created to ensure smooth timing and predictable execution of the rest of the code. These events should be left untouched when using the scripting module.
 
 <figure><img src="../../../.gitbook/assets/tsg-radial-init.png" alt=""><figcaption><p>Initialization events</p></figcaption></figure>
 
@@ -199,6 +198,12 @@ Essential events for tracking if a player has a Menu open, logging the menu valu
 <div><figure><img src="../../../.gitbook/assets/tsg-radial-radialOpen.png" alt=""><figcaption><p>Menu state tracking</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-forceClose.png" alt=""><figcaption><p>Fallback for closing the Menu by changing the aim rotation</p></figcaption></figure></div>
 
 <div><figure><img src="../../../.gitbook/assets/tsg-radial-logMenu.png" alt=""><figcaption><p>Logging the Menu Number value and applying a bug workaround</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-closeMenu.png" alt=""><figcaption><p>Forceful closing of the player's current Menu</p></figcaption></figure></div>
+
+### Radial Refreshing
+
+An event for refreshing a desired Menu for any player who currently has it open. Useful for forcefully refreshing the "Enabled" state of Menu Items so that players can or cannot select them after the refresh.
+
+<figure><img src="../../../.gitbook/assets/tsg-radial-radialRefresh.png" alt=""><figcaption><p>Forcefully refreshing a Menu for players who currently have it open</p></figcaption></figure>
 
 
 
@@ -242,7 +247,7 @@ A display of more example setups covering nearly everything `tsg radial` is capa
 
 ### tsg radial-machinima
 
-A Machinima control Radial Menu built from `tsg radial`. Options for Camera Mode toggle, Weapon lowering, Fists and empty Sword grant, Fly mode toggle and item grants. Can be loaded as a standalone mode on any map. Bookmark the mode prefab below or find the it through the in-game UGC browser by searching with keywords or tags.
+A Machinima control Menu built from `tsg radial`. Options for Camera Mode toggle, Weapon lowering, Fists and empty Sword grant, Fly mode toggle and item grants, and more. Can be loaded as a standalone mode on any map. Bookmark the mode prefab below or find the it through the in-game UGC browser by searching with keywords or tags.
 
 This Menu Module also contains examples of granting every type of weapon, equipment, vehicle and grenade.
 
@@ -284,15 +289,7 @@ The workaround for this isn't mentioned in the documentation as it's a stealthy 
 
 <div><figure><img src="../../../.gitbook/assets/workaround-on-menu-item-selected.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/workaround-show-menu-to-player.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Menu Item selection doesn't work
-
-_Selecting a Menu Item from a global-scoped Menu that has been disabled after the Menu has been shown to the player doesn't prompt a Menu Item selection._
-
-This is not a bug, but something we have to workaround as object-scoped Menus are broken in their own ways currently, requiring us to use global-scoped menus. For the workaround, all of the Menu Items in the Menu that was just shown to the player are set to Enabled so issues don't arise for anyone who had the Menu previously open.
-
-<figure><img src="../../../.gitbook/assets/tsg-radial-logMenu.png" alt=""><figcaption><p>The latter part of the logMenu event has the bug workaround.</p></figcaption></figure>
-
-#### Undetected Menu closing
+#### Unintended Menu closing
 
 Opening two instances of the same global-scoped Menu simultaneously may close one instance of the Menu.
 
@@ -312,10 +309,9 @@ It's also convenient that you can't change your aim rotation while a Menu is ope
 
 A list of known issues that couldn't be fixed:
 
-* Two players opening the same Menu at the simultaneously may often result in one player's Menu not displaying.
-* Two players opening the same Menu at the simultaneously may rarely result in one player's Menu displaying for the other player.
-* Two players opening the same Menu at the simultaneously may rarely result in one player's Menu showing all Menu Items in the Enabled state.
+* Two players opening the same Menu at the simultaneously may often result in one player's Menu not displaying. This is not caused by tsg radial, but is instead something with the Radial Menu nodes themselves.
 * Navigation between nested Menus becomes slower with latency to the server.
+* Radial Menus don't work in offline matches.
 
 
 

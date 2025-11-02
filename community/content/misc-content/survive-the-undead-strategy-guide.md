@@ -35,11 +35,11 @@ Succeeding in a match of Survive The Undead is based a lot on the decisions you 
      * <mark style="color:yellow;">Heatwave</mark>
      * <mark style="color:yellow;">Pulse Carbine</mark>
      * <mark style="color:green;">Plasma Pistol</mark>
+     * Mutilator
      * Impact Commando
      * Fuel Rod SPNKr
      * Purging Shock Rifle
      * Calcine Disruptor
-     * Mutilator
      * Arcane Sentinel Beam
      * Backdraft Cindershot
      * Cindershot
@@ -63,7 +63,7 @@ Succeeding in a match of Survive The Undead is based a lot on the decisions you 
      * Disruptor
      * Needler
    * Activate the Mystery Box while holding the worst weapon in your inventory, as that will be replaced. The MA40 AR has more ammo and is a better secondary fallback.
-   * Replace weapons in the order shown in the list. The Impact Commando and Fuel Rod SPNKr are the next best guns to keep ahold of if you don't get lucky with any of the endgame or ideal base weapons.
+   * Replace weapons in the order shown in the list. The Mutilator and Impact Commando are the next best guns to keep ahold of if you don't get lucky with any of the endgame or ideal base weapons.
    * If you don't get one of the endgame or ideal base weapons after 3 tries, jump to step 3.
 2. Upgrade the endgame or ideal base weapon at the 2500-point machine and try to get one of the endgame or ideal weapons once.
    * List of the <mark style="color:yellow;">endgame</mark> and <mark style="color:green;">ideal</mark> weapons (combos):
@@ -104,7 +104,7 @@ If a temporary price decrease of 1/4 or 1/10 appears before you have at least on
 
 ### Endgame
 
-1. After wave 13 at the latest, Spend all your accumulated points on the Mystery Box and try to get an endgame base weapon (<mark style="color:yellow;">Heatwave</mark> / <mark style="color:yellow;">Pulse Carbine</mark>) depending on which ones you are missing. The goal is to have both of them.
+1. After wave 13 at the latest, Spend all your accumulated points on the Mystery Box and try to get an endgame base weapon (<mark style="color:yellow;">Heatwave</mark> / <mark style="color:yellow;">Pulse Carbine</mark>) depending on which ones you are missing. The first goal is to have both of them.
    * Activate the Mystery Box while holding the worst weapon in your inventory, as that will be replaced.
    * Keep trying until you get either one of the endgame base weapons. If you don't already have an endgame weapon, don't attempt to get both yet.
 2. Upgrade the endgame base weapon at the 2500-point machine and try to get these combos:
@@ -118,7 +118,15 @@ If a temporary price decrease of 1/4 or 1/10 appears before you have at least on
 This loadout is the "**endgame loadout**". You've achieved it if you have nothing more to spend your points on except more ammo, potential revives, repulsors and point shares. You should have the Heatwave + Purging Shock Rifle and Pulse Carbine + Scatterbound Heatwave combo weapons, max perks and a Repulsor.
 {% endhint %}
 
+#### Endgame round strategy
 
+1. Save a Nuke powerup at the end of the previous intermission and pick it up after the Black Eye skull gets enabled.
+   * This will kill the Escharums that spawn at the beginning which are the biggest threat.
+2. Always pick up Nuke powerups after the Black Eye skull gets enabled unless the round is about to end as you want to save it for the start of the next round for step 1.
+3. Pick up Insta Kill powerups if there are still Escharums alive or you feel the need to help your teammates get faster kills.
+   * Be aware of the [negative effects the Insta Kill powerup has on health vampirism](survive-the-undead-strategy-guide.md#insta-kill-caution).
+4. Pay attention to your ammo count and purchase Max Ammo when required.
+5. Revive dead teammates if you need overshield quickly.
 
 ## Reviving
 
@@ -248,6 +256,17 @@ The explosion can be survived point-blank if the shooter has Health 4/4 as they 
 * A potentially very low investment as it can be purchased off the wall for only 200 points, making the only randomness be the 25% chance of getting the right combo at the 2500-point upgrade machine, but getting bad luck will leave you with a useless weapon.
 * Can easily carry a whole team to wave 14 if used cautiously.
 * A good weapon to purchase right after being revived to keep yourself alive.
+
+**Mutilator**
+
+* Extremely powerful melee blast when Cowbell and Boom skulls are enabled.
+* Melee blast can kill any AI they get sent into a wall at a high enough speed.
+
+{% hint style="danger" %}
+#### Lag caution
+
+The melee blast of the Mutilator creates effects which seem to not get cleaned up properly. Eventually after meleeing for too long, the map's performance will drop to an unplayable state so this weapon is not ideal for long games.
+{% endhint %}
 
 #### Safest weapon to upgrade
 
