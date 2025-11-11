@@ -34,21 +34,18 @@ Examples of advanced folder structures used by experienced forgers:
 <summary>General purpose</summary>
 
 * .Non-Folderized Objects `root folder`
-
-- 00.Layout
+* 00.Layout
   * 0.Blockout
   * 1.Main Layout
   * 2.Skybox
   * 3.Detail (Collision)
   * 3.Detail (No Collision)
   * Terrain
-
 * 01.Spawning
   * Initial Spawns
   * Respawn Points
   * Spawn Influence
-
-- 02.Gameplay
+* 02.Gameplay
   * Audio
   * Cameras
   * Equipment
@@ -60,7 +57,6 @@ Examples of advanced folder structures used by experienced forgers:
   * Ordnance, Middle
   * Vehicles
   * Weapons
-
 * 03.Modes
   * Assault
   * Attrition
@@ -80,30 +76,27 @@ Examples of advanced folder structures used by experienced forgers:
   * Stockpile
   * Strongholds
   * Total Control
-
-- 04.Nav Mesh
+* 04.Nav Mesh
   * Cutters
+  * Helpers
   * Markers
   * Seed Points
   * Temp. Geo
-
 * 05\. Lighting
   * FX
   * Hide For Lighting Build
   * Lighting Modifiers
   * Lights
-
-- 06.Containment
+* 06.Containment
   * Inside Map
   * Kill Volumes
   * Outside Map
-
 * 07.Scripting
   * Script1
   * Script2
   * Script3
-
-- 08.Misc
+* 08.Misc
+  * Easter Eggs
   * Palette1
   * Palette2
   * Palette3
@@ -164,8 +157,7 @@ Examples of advanced folder structures used by experienced forgers:
   * Spawns, Respawn - COBRA
   * Spawns, Respawn - EAGLE
   * Spawns, Respawn - MID
-
-- 02.Modes
+* 02.Modes
   * m01.Weapons, Equipment
   * m02.Vehicles - 0
   * m03.Coils
@@ -191,28 +183,23 @@ Examples of advanced folder structures used by experienced forgers:
   * m21.FFKOTH.5
   * m21.FFKOTH.Weapons, Equipment
   * m22.Headhunter
-
 * 03.Volumes
   * Kill, Hard
   * Kill, Soft
   * Named Locations
-
-- 04.Nav Mesh, Objects
+* 04.Nav Mesh, Objects
   * Nav Cutters
   * Nav Helpers
   * Nav Markers
   * Nav Seeds
-
 * 05.Lighting
   * Lights
   * Probe, Reflections
-
-- 06.Player Containment
+* 06.Player Containment
   * Bounds Blockers
   * Exploit Blockers
   * FFKOTH Exclude Blockers
   * Smooth Blockers
-
 * 10.Base.COBRA
   * C.BaseBottom
   * C.BaseTop01
@@ -220,8 +207,7 @@ Examples of advanced folder structures used by experienced forgers:
   * C.Spire\_Platform
   * C.Tower1
   * C.Tower2
-
-- 10.Base.EAGLE
+* 10.Base.EAGLE
   * E.BaseBottom
   * E.BaseTop01
   * E.BaseTop02
@@ -238,14 +224,11 @@ Examples of advanced folder structures used by experienced forgers:
   * M.Ground
   * M.Monument
   * M.Spires
-
 * 10.Misc
-
-- 10.StageSpires
+* 10.StageSpires
   * S.Spire1
   * S.Spire2
   * S.Spire3
-
 * 11.Geology
   * G.Cave
   * G.Ground
@@ -253,12 +236,9 @@ Examples of advanced folder structures used by experienced forgers:
   * G.Rocks, Bounds
   * G.Rubble, Snow
   * G.Terrain
-
-- 12.Foliage
-
+* 12.Foliage
 * 13.Decals
-
-- 99.TEMP
+* 99.TEMP
 
 </details>
 
