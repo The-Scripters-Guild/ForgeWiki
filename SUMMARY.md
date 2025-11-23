@@ -407,6 +407,8 @@
     * [On Generic Flag Reset](scripting/nodes/events-generic-objectives/on-generic-flag-reset.md)
     * [On Generic Flag Scored](scripting/nodes/events-generic-objectives/on-generic-flag-scored.md)
     * [On Generic Flag Spawned](scripting/nodes/events-generic-objectives/on-generic-flag-spawned.md)
+    * [On Generic Flag Zone Entered](scripting/nodes/events-generic-objectives/on-generic-flag-zone-entered.md)
+    * [On Generic Flag Zone Exited](scripting/nodes/events-generic-objectives/on-generic-flag-zone-exited.md)
     * [On Generic Skull Dropped](scripting/nodes/events-generic-objectives/on-generic-skull-dropped.md)
     * [On Generic Skull Pickup](scripting/nodes/events-generic-objectives/on-generic-skull-pickup.md)
     * [On Generic Zone Capture Complete](scripting/nodes/events-generic-objectives/on-generic-zone-capture-complete.md)

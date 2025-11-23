@@ -17,10 +17,12 @@ Nodes fall into two basic categories: Data and Execution. This Execution node fi
 |------------------|------------------|--------------------------------------------------------------|
 | Killing Unit | Object | The Unit that killed this AI |
 | Squad | Squad | Which Squad the killed AI belongs to. |
+| Killed Unit Position | Vector3 | The position unit died at. |
 | Death Context | Death Context | How the AI died. |
 
 \
 \
 **Contributors**
 
-AddiCt3d 2CHa0s
+AddiCt3d 2CHa0s\
+Okom

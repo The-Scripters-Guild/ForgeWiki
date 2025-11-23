@@ -67,6 +67,36 @@ Nodes fall into two basic categories: Data and Execution. This node supplies Dat
 
 ***
 
+## Get Object Variable Without Refresh
+
+![](../../../.gitbook/assets/get-object-variable-without-refresh.png)
+
+## Description
+
+This node works similarly to **Get Object Variable**. This version of the node is meant to be used with objects created through the **Spawn Mode Object** node, particularly when an object reference is used to make multiple copies of an object, and they are later stored as variables.
+
+## Node Type
+
+Nodes fall into two basic categories: Data and Execution. This node supplies Data for an Execution node.
+
+## Inputs
+
+| Input      | Type   | Required | Description                                                          |
+| ---------- | ------ | -------- | -------------------------------------------------------------------- |
+| Identifier | String | Yes      | The custom string id for this variable.                              |
+| Scope      | Scope  | Yes      | Must match scope of declared variable with the same identifier.      |
+| Object     | Object | No       | Used to associate variable with an object when Object scope is used. |
+
+## Outputs
+
+| Output | Type   | Description                     |
+| ------ | ------ | ------------------------------- |
+| Value  | Object | Current value of this variable. |
+
+***
+
+***
+
 
 ## Set Object Variable
 
