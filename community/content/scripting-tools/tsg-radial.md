@@ -26,10 +26,6 @@ In `tsg radial` a Menu is opened by calling a `Custom Event, Global` associated 
 
 <div><figure><img src="../../../.gitbook/assets/radial-opening.png" alt=""><figcaption><p>Triggers and Events for opening Menus</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/radial-main.png" alt=""><figcaption><p>An example menu</p></figcaption></figure></div>
 
-{% hint style="info" %}
-The Custom Event, Global Async `On Custom Input Tap` serves the same purpose as the node with the same name, but is a workaround for a bug. The source of Custom Event can be seen in the [initialization events](tsg-radial.md#initialization-events-and-declarations).
-{% endhint %}
-
 The events for opening a Menu rely on the following parameters:
 
 * **Identifier**: A custom name for the event; suggested to use the naming pattern: `radial{Digit 1}_{category}` as it helps you keep track of what radial belongs where
@@ -66,7 +62,7 @@ Radial Menus consist of a maximum 8 Menu Items (selectable sectors) per Menu, wh
 
 Each Menu Item is fed into a `Generic List` running through a `For Each Generic Item` loop that adds each Menu Item to the Menu at the index where it shows up in the Generic List. A blank Menu Item can be created by picking a new Menu Item node, leaving the Icon selection as empty, and making the Enabled state False.
 
-<div><figure><img src="../../../.gitbook/assets/empty-menu-item-code.png" alt=""><figcaption><p>Code for creating five blank Menu Items in a Menu</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/radial-empty-menu-item.png" alt=""><figcaption><p>Menu Items 4-8 showing as blank and unselectable</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/empty-menu-item-code.png" alt=""><figcaption><p>Code for creating five blank Menu Items in a Menu</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/radial-empty-menu-item.png" alt=""><figcaption><p>Menu Items 4-8 showing as blank and un-selectable</p></figcaption></figure></div>
 
 #### Menu Variables
 
@@ -97,7 +93,7 @@ Also a Boolean Variable `radialOpen` is set to True, which is used elsewhere to 
 
 ### Menu forwards navigation
 
-The Menu can be navigated with the controller movement stick, mouse movement, or keyboard WASD keys and various inputs for selecting the Menu Items. Selecting a Menu Item will take you to a separate Menu or result in an action such as being granted a weapon.
+The Menu can be navigated with the controller movement stick, mouse movement, or keyboard <kbd>WASD</kbd> keys and various inputs for selecting the Menu Items. Selecting a Menu Item will take you to a separate Menu or result in an action such as being granted a weapon.
 
 <div><figure><img src="../../../.gitbook/assets/radial-main-select.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/radial-weapons-select.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/radial-weapons2-select.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -109,9 +105,9 @@ Also a Boolean Variable `radialOpen` is set to False, which is used elsewhere to
 
 <figure><img src="../../../.gitbook/assets/menu-item-selected-code1.png" alt=""><figcaption><p>Comparison tree determining which Menu a selection was made in</p></figcaption></figure>
 
-The reason why the `On Menu Item Selected` node is immediately being turned into a Custom Event, Global is so the comparison tree can be continued on another Script Brain. Below is an example on how to do so:
+If all the menus you want to compare can't fit in one Script Brain, another comparison tree can be made in a separate Script Brain, just with an added tick (0.00 s rounds up to nearest tick) wait after it to ensure it runs in the correct order and doesn't cause issues.
 
-<div><figure><img src="../../../.gitbook/assets/menu-selection-continue1.png" alt=""><figcaption><p>Continuing the Menu selection comparison tree. The Object and Number connections come from the <code>On Menu Item Selected</code> Custom Event.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/menu-selection-continue2.png" alt=""><figcaption><p>Continued Menu selection comparison tree</p></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/menu-selection-continue.png" alt=""><figcaption><p>Continued Menu selection comparison tree with an additional tick wait</p></figcaption></figure>
 
 The event for the item selection relies on the following parameters:
 
@@ -195,7 +191,7 @@ Declarations for all variables and traits in one place. More variable declaratio
 
 Essential events for tracking if a player has a Menu open, logging the menu values, and ways of forcefully closing the menu.
 
-<div><figure><img src="../../../.gitbook/assets/tsg-radial-radialOpen.png" alt=""><figcaption><p>Menu state tracking</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-forceClose.png" alt=""><figcaption><p>Fallback for closing the Menu by changing the aim rotation</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/tsg-radial-radialOpen.png" alt=""><figcaption><p>Menu state tracking</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-forceClose.png" alt=""><figcaption><p>Fallback for closing the Menu by moving the aim rotation</p></figcaption></figure></div>
 
 <div><figure><img src="../../../.gitbook/assets/tsg-radial-logMenu.png" alt=""><figcaption><p>Logging the Menu Number value and applying a bug workaround</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tsg-radial-closeMenu.png" alt=""><figcaption><p>Forceful closing of the player's current Menu</p></figcaption></figure></div>
 
@@ -262,24 +258,6 @@ This Menu Module also contains examples of granting every type of weapon, equipm
 ### Bug workarounds
 
 There's a few mentions of some features in `tsg radial` being workarounds for bugs, so here's an explanation of all of them. Some of them are known issues listed by Halo Studios which are found [here](https://support.halowaypoint.com/hc/en-us/articles/39737155177492-Halo-Infinite-Fall-Update-2025-Patch-Notes#h_01JJQG5B1RQSM8HW3RTC7D1G9F).
-
-#### Only one node instance working
-
-_Using any of the nodes listed below more than once will result in only one instance of the node functioning:_
-
-* _On Custom Input Tap_
-* _On Custom Input Hold_
-* _On Menu Item Selected_
-* _On Player Started Sprinting_
-* _On Player Stopped Sprinting_
-
-The workaround for this is to immediately turn the node into a `Custom Event, Global Async` that serves the same purpose and can be used in multiple scripts. In `tsg radial` this is done with the nodes: On Custom Input Tap & On Menu Item Selected.
-
-
-
-<div><figure><img src="../../../.gitbook/assets/workaround-on-custom-input-tap.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/workaround-on-menu-item-selected.png" alt=""><figcaption></figcaption></figure></div>
-
-
 
 #### Unprompted Menus displaying for players
 
