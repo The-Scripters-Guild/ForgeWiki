@@ -6,58 +6,42 @@ description: >-
 
 # Article Template
 
-<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption><p>This is a cover image with the aspect ratio of 21:9. This is a custom cropped image just for this purpose, and one should be made for each article, if possible. In a real article, leave this text caption field blank for the cover image. Remember to change the alt text of the image.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Give a brief overview of the topic that the article is about to introduce the reader into the topic. Keep it short, as the sections below should be used for further explanation.
+In this section give a brief overview of the topic that the article is about to introduce the reader into the topic. Keep it short, as the sections below should be used for further explanation.
 
-## Notes
+## Main feature
 
-Temporary section for general notes about the article; write down things quickly that you want to write about so you can easily recall them later. Delete this section when the article is finished:
+In this section write about the main features. This section's header will show up on the navigation sidebar on the right.
 
-*
-*
-*
+### Main feature detail
 
-## First heading 1 title
+In this section write about a sub-section of the feature above. This section's header will show up on the navigation sidebar on the right.
 
-Write about a branch of the main topic. This section title will show up on the sidebar on the right.
+Below are some examples of image placement, which can be removed if images are not needed.
 
-### Sub-heading 2 title
+<div><figure><img src="../../../.gitbook/assets/tsg-placeholder.jpg" alt=""><figcaption><p>TSG logo in the node graph</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>Pink cat used as a placeholder image</p></figcaption></figure></div>
 
-Write about a sub-section of the topic above. This section title will show up on the sidebar on the right.
+Write more about the main feature here if necessary.
 
-<div>
+#### Optional sub-section for more detail
 
-<figure><img src="../../../.gitbook/assets/tsg-placeholder.jpg" alt=""><figcaption><p>TSG logo in the node graph</p></figcaption></figure>
+In this section write about a sub-section of the sub-section above. This section title will _not_ show up on the navigation sidebar on the right.
 
- 
+## Secondary feature
 
-<figure><img src="../../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>Mysterious cat</p></figcaption></figure>
-
-</div>
-
-More text here about the topic.
-
-#### Sub-heading 3 title
-
-Write about a topic. This section title will _not_ show up on the sidebar on the right.
-
-
-
-## Second heading 1 title
-
-Write more topics here.
+In this section write about a secondary feature that still relates to the topic of the article.
 
 {% hint style="success" %}
-Leave a one-paragraph gap before a new "heading 1" title (`## Title name`) to make the large sections more separated and distinguishable.
+Highlighted information that the reader should know can be written in alerts like this.
 {% endhint %}
 
-
+Write more about the secondary feature here if necessary.
 
 ***
 
 #### <mark style="color:green;">Contributors</mark>
 
 First article contributor\
-Someone else\
-Another user
+Second contributor\
+Third contributor
