@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-While some prefabs may contain static objects that prevent them from being classified as modes, there are specific workflows available to convert any prefab into a Mode Prefab.
+While prefabs containing static objects are typically prevented from being classified as modes, specific workflows allow these to be converted into Mode Prefabs.
 
 ## Conversion Methods
 
@@ -31,12 +31,26 @@ A second method involves the specific order in which objects are selected before
 * Include a Mode Prefab within the selection.
 * Do not select the Mode Prefab as the first object.
 
+## Script Brain vs. Mode Brain
+
+Mode Brains offer several advantages over regular Script Brains:
+
+* They can be colored.
+* They can be converted into Mode Prefabs.
+* They allow for updates while maintaining the asset link.
+
+Regular Script Brains are primarily useful for creating prefabs that contain only dynamic objects and should be classified as standard prefabs rather than modes.
+
 ## Benefits of Mode Prefabs
 
 Converting a standard prefab into a Mode Prefab provides a significant advantage regarding content updates. When a Mode Prefab is updated, any new placement of that prefab will automatically receive the updates for every user. This eliminates the need for users to manually re-bookmark the prefab to see changes.
 
 {% hint style="success" %}
 Using Mode Prefabs allows you to push updates to all new placements of that prefab automatically.
+{% endhint %}
+
+{% hint style="info" %}
+An update arriving on 2026-05-01 is expected to fix the exploit that allows players to create Mode Prefabs from any normal Prefab. This will not break existing Mode Prefabs.
 {% endhint %}
 
 ***
