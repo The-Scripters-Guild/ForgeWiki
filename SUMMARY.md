@@ -1181,6 +1181,7 @@
     * [Forge via Custom Game (UCN)](knowledge/forge/exploits/forge-via-custom-game-ucn.md)
     * [Using "nan" as the Value Instead of a Number](knowledge/forge/exploits/using-nan-as-the-value-instead-of-a-number.md)
     * [Applying Inaccessible Object Properties](knowledge/forge/exploits/applying-inaccessible-object-properties.md)
+* [Get All Vehicles?](knowledge/get-all-vehicles.md)
 * [Scripting](knowledge/scripting/README.md)
   * [Guides and Info](knowledge/scripting/guides-and-info/README.md)
     * [Creating an Equipment Object Reference with Mode Scripting](knowledge/scripting/guides-and-info/creating-an-equipment-object-reference-with-mode-scripting.md)
