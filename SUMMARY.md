@@ -1187,6 +1187,7 @@
 * [Scripting Know-how](guides-and-knowledge/scripting-know-how/README.md)
   * [How to debug vfx and server crashes](guides-and-knowledge/scripting-know-how/how-to-debug-vfx-and-server-crashes.md)
   * [Scripting Tips and Tricks](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/README.md)
+    * [Make Wraiths Take Longer to Destroy](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/make-wraiths-take-longer-to-destroy.md)
     * [Mode-Based Player Proximity Detection to Objects via Spawned Generic Zones](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/mode-based-player-proximity-detection-to-objects-via-spawned-generic-zones.md)
     * [N Iterations Skip](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/n-iterations-skip.md)
     * [Patterns](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/README.md)
