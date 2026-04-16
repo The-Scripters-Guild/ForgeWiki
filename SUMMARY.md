@@ -1181,6 +1181,7 @@
     * [Forge via Custom Game (UCN)](knowledge/forge/exploits/forge-via-custom-game-ucn.md)
     * [Using "nan" as the Value Instead of a Number](knowledge/forge/exploits/using-nan-as-the-value-instead-of-a-number.md)
     * [Applying Inaccessible Object Properties](knowledge/forge/exploits/applying-inaccessible-object-properties.md)
+* [Restore Player Shield Instantly](knowledge/restore-player-shield-instantly.md)
 * [Scripting](knowledge/scripting/README.md)
   * [Guides and Info](knowledge/scripting/guides-and-info/README.md)
     * [Patterns](knowledge/scripting/guides-and-info/patterns/README.md)
