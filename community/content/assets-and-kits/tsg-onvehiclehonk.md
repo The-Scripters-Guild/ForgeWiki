@@ -8,11 +8,11 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Found in the "Modes" category of the Forge Object Browser, `tsg onVehicleHonk` is a script module designed to detect when a vehicle driver honks or fires. This module provides a more reliable alternative to previous methods that required disabling weapon damage, which could lead to unintended consequences for the driver.
+`tsg onVehicleHonk` is a script module designed to detect when a vehicle driver honks or fires. This module provides a more reliable alternative to previous methods that required nullifying weapon damage, which could lead to unintended consequences for the driver.
 
 ## Detection Mechanism
 
-The module avoids the side effects of traditional weapon-based detection by utilizing the `Spawn Mode Object` capability. Instead of providing a weapon that might accidentally deal damage, the system duplicates a pre-placed weapon that has been configured with a nearly empty magazine.
+The module avoids the side effects of traditional weapon-based detection by utilizing the `Spawn Mode Object` node's capabilities. Instead of providing a weapon that might accidentally deal damage, the system duplicates a pre-placed weapon that has been configured with a nearly empty magazine that actually fires no projectile, but still processes the `On Weapon No Ammo` node.
 
 ### Weapon Configuration
 
@@ -24,7 +24,7 @@ To use this module, it must be marked to apply the honk detection to a vehicle. 
 
 ### Tuning and Cadence
 
-While the driver may still experience local visual and auditory feedback of the honk or shot, the action is not visible or audible to other players. Users can adjust the delay between successive honk detections by utilizing the `vehicleShotCadence` variable.
+While the driver may still experience local visual and auditory feedback of the honk, the action is not visible or audible to other players. Users can adjust the delay between successive honk detections by utilizing the `vehicleShotCadence` variable.
 
 {% hint style="success" %}
 By using a low-energy duplicate weapon instead of a damage-disabled weapon, drivers can maintain their full damage potential while still allowing for reliable honk detection.
@@ -38,7 +38,4 @@ By using a low-energy duplicate weapon instead of a damage-disabled weapon, driv
 
 #### <mark style="color:green;">Contributors</mark>
 
-Okom\
-Artifice\
-Toast\
-AbeStrange
+Okom
