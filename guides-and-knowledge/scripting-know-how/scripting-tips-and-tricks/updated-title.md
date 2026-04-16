@@ -10,6 +10,8 @@ description: >-
 
 Because vehicles do not have a built-in damage resistance attribute, developers can use scripting to simulate increased durability. This technique makes units like AI Wraiths more resilient to sustained fire, requiring players to focus damage within a specific window to destroy them.
 
+This is a change to the article made by Okom.
+
 <figure><img src="assets/wraith-4cw7.jpg" alt="Updated title source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 ## Constant Health Regeneration
