@@ -1205,6 +1205,7 @@
       * [Polling Player Health](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/polling-player-health.md)
       * [Managing Nav Markers](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/managing-nav-markers.md)
       * [Using Custom Events and Variables Across Mode and Script Brains](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/using-custom-events-and-variables-across-mode-and-script-brains.md)
+    * [Player Look Static Raycast Max Distance](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/player-look-static-raycast-max-distance.md)
     * [Variables](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/variables/README.md)
       * [Object Lists](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/variables/object-lists.md)
       * [Understanding Scope](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/variables/understanding-scope.md)
