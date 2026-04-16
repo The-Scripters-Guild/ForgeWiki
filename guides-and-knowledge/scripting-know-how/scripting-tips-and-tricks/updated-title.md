@@ -4,15 +4,13 @@ description: >-
   regeneration or damage restoration scripts.
 ---
 
-# Make Wraiths Take Longer to Destroy
+# Updated title
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
 Because vehicles do not have a built-in damage resistance attribute, developers can use scripting to simulate increased durability. This technique makes units like AI Wraiths more resilient to sustained fire, requiring players to focus damage within a specific window to destroy them.
 
-This is a change to the article made by Okom.
-
-<figure><img src="assets/wraith.jpg" alt="Make Wraiths Take Longer to Destroy source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
+<figure><img src="assets/wraith-4cw7.jpg" alt="Updated title source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 ## Constant Health Regeneration
 
@@ -22,7 +20,7 @@ One method for increasing a vehicle's effective health is to constantly increase
 
 A simple implementation involves running a loop every 0.10 seconds that increments the vehicle's health.
 
-* **Logic:** Every 0.10 Seconds $\rightarrow$ [Set Object Health Percent](https://wiki.thescriptersguild.com/scripting/nodes/objects/set-object-health-percent) (using [Get Object Health](https://wiki.thescriptersguild.com/scripting/nodes/objects/get-object-health) + 0.01).
+* **Logic:** Every 0.10 Seconds → [Set Object Health Percent](https://wiki.thescriptersguild.com/scripting/nodes/objects/set-object-health-percent) (using [Get Object Health](https://wiki.thescriptersguild.com/scripting/nodes/objects/get-object-health) + 0.01).
 
 #### Limitations
 
@@ -56,7 +54,7 @@ For example, if a vehicle with 1000 health takes 100 damage and the `damage_resi
 To ensure these scripts only affect specific units, such as AI Wraiths, you can maintain an object list of valid targets.
 
 * Use the [On Vehicle Entered](https://wiki.thescriptersguild.com/scripting/nodes/events/on-vehicle-entered) node.
-* Use a Branch with [Get Is AI](https://wiki.thescriptersguild.com/scripting/nodes/ai-advanced/get-is-ai) to verify the occupant.
+* Use a Branch with [Get Is AI](https://wiki.thescriptersguild.com/scripting/nodes/ai-advanced/get-is-ai) or by checking for a specific team (e.g., Team 8) to verify the occupant.
 * If true, use the **Add To Object List** node to add the vehicle to your tracking list.
 
 ## Optimization and Performance
@@ -70,6 +68,10 @@ Replacing an "Every N Seconds" node with a recursive global custom event that on
 ### Tick Rates
 
 When setting up the loop, avoid using a "Do every 0 seconds" node. Skipping multiple ticks increases the risk that a burst of damage will destroy the vehicle before the script can react. A consistent 0.10-second interval is recommended to balance performance with responsiveness.
+
+## Future Considerations
+
+A dedicated node for adjusting vehicle damage resistance is expected to be released in 2027. Once available, this will allow developers to adjust resistance directly, making these scripting workarounds unnecessary.
 
 ***
 
