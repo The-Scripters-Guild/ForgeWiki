@@ -30,13 +30,13 @@ The categories are structured in a way where the most useful and most commonly u
 [metadata-and-file-management](ugc/metadata-and-file-management/)
 {% endcontent-ref %}
 
-After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Guides and Knowledge](knowledge/forge/) section.
+After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Knowledge](knowledge/forge/) section.
 
 ## I can't find the information I need on the wiki
 
 The wiki is an ever-evolving work in progress largely managed by just a handful of people. The source of nearly all of the information on the wiki is The Scripter's Guild Discord server, where the information is collected and discussed.
 
-If you've looked around the wiki and still have questions, hop to the discord and put a question in the `[#🤷 | forge-help]` or `[#🤷 | scripting-help]` forum. Your question and the answer to it may end up being the source of an article, as many others have been.
+If you've looked around the wiki and still have questions, hop to the Discord and put a question in the `[#🤷 | help-infinite]` forum. Your question and the answer to it may end up being the source of an article, as many others have been.
 
 <details>
 
