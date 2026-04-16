@@ -52,5 +52,4 @@ In testing environments, such as Operation Eden, the script has demonstrated the
 
 #### <mark style="color:green;">Contributors</mark>
 
-swagonflyyyy\
-parthenopaeus_v
+swagonflyyyy
