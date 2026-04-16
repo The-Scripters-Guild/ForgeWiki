@@ -1184,6 +1184,7 @@
     * [Forge Kit Objects](guides-and-knowledge/forge-know-how/forge-misc/forge-kit-objects.md)
     * [Hidden Forge Objects](guides-and-knowledge/forge-know-how/forge-misc/hidden-forge-objects.md)
 * [Scripting Know-how](guides-and-knowledge/scripting-know-how/README.md)
+  * [How to debug vfx and server crashes](guides-and-knowledge/scripting-know-how/how-to-debug-vfx-and-server-crashes.md)
   * [Scripting Tips and Tricks](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/README.md)
     * [Mode-Based Player Proximity Detection to Objects via Spawned Generic Zones](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/mode-based-player-proximity-detection-to-objects-via-spawned-generic-zones.md)
     * [N Iterations Skip](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/n-iterations-skip.md)
