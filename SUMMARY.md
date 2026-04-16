@@ -1186,6 +1186,7 @@
 * [Scripting Know-how](guides-and-knowledge/scripting-know-how/README.md)
   * [Scripting Tips and Tricks](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/README.md)
     * [Mode-Based Player Proximity Detection to Objects via Spawned Generic Zones](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/mode-based-player-proximity-detection-to-objects-via-spawned-generic-zones.md)
+    * [N Iterations Skip](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/n-iterations-skip.md)
     * [Patterns](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/README.md)
       * [Telefragging](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/telefragging.md)
       * [Checking Object Types](guides-and-knowledge/scripting-know-how/scripting-tips-and-tricks/patterns/patterns-checking-object-types.md)
