@@ -1,5 +1,7 @@
 ---
-description: Documentation regarding the maximum detection distance and default hit position behavior for the Get Player Look Static Raycast Result node.
+description: >-
+  Documentation regarding the maximum detection distance and default hit
+  position behavior for the Get Player Look Static Raycast Result node.
 ---
 
 # Player Look Static Raycast Max Distance
@@ -20,7 +22,7 @@ If the raycast fails to find a valid hit, the node provides a default "hit posit
 
 When no hit is detected, the node's default hit position is set to `0,0,0`. Consequently, if you are measuring the distance from the player to the reported hit position during a failed raycast, the resulting value represents the distance between the player and the world origin (`0,0,0`).
 
-<figure><img src="assets/player-look-static-raycast-max-distance-source-1451609883165331609-1451609884306047097-2025-12-19-haloinfinite-vvkl.png" alt="Player Look Static Raycast Max Distance source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/player-look-static-raycast-max-distance-source-1451609883165331609-1451609884306047097-2025-12-19-haloinfinite-vvkl.png" alt="Player Look Static Raycast Max Distance source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 For instance, a reported distance of 511.33 units in a scenario where no hit is detected indicates the distance from the player to the `0,0,0` coordinate.
 
@@ -32,8 +34,8 @@ The "Hit Detected" pin will only return `TRUE` for targets within 1000.00 units 
 
 ## Source Data
 
-- Discord thread: <https://discord.com/channels/220766496635224065/1451609883165331609/1451609883165331609>
+* Discord thread: [https://discord.com/channels/220766496635224065/1451609883165331609/1451609883165331609](https://discord.com/channels/220766496635224065/1451609883165331609/1451609883165331609)
 
 #### <mark style="color:green;">Contributors</mark>
 
-Okom\
+Okom\\

@@ -1,4 +1,4 @@
-# Light Bounce
+# Light Bounce (old)
 
 ## Light Bounce
 
@@ -13,7 +13,7 @@ Light bounce is a combination of the Sun, Local lights, and any Emissives near a
 | Intensity     | Changes the brightness of the bounce lighting from the Sun, Local lights, and emissives |
 | Tint Override | Changes color of bounce light (Reference Image Tint Override)                           |
 
-![Tint Override](../../../.gitbook/assets/tint-override.gif)
+![Tint Override](../../../.gitbook/assets/inscattering.gif)
 
 #### Contributors
 

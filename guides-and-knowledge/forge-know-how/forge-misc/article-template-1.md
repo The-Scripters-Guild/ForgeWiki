@@ -16,6 +16,8 @@ In this section give a brief overview of the topic that the article is about to 
 
 In this section write about the main features. This section's header will show up on the navigation sidebar on the right.
 
+<figure><img src="../../../.gitbook/assets/2026-04-16_HaloInfinite-emGM.jpg" alt=""><figcaption></figcaption></figure>
+
 ### Main feature detail
 
 In this section write about a sub-section of the feature above. This section's header will show up on the navigation sidebar on the right.
