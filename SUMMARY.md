@@ -1265,6 +1265,7 @@
   * [Assets and Kits](community/content/assets-and-kits/README.md)
     * [tsg botsDriveVehicles](community/content/assets-and-kits/tsg-botsdrivevehicles.md)
     * [tsg haloRing](community/content/assets-and-kits/tsg-haloring.md)
+    * [tsg onVehicleHonk](community/content/assets-and-kits/tsg-onvehiclehonk.md)
     * [TSG Tornado](community/content/assets-and-kits/tsg-tornado.md)
     * [tsg unarmedFists](community/content/assets-and-kits/tsg-unarmedfists.md)
     * [All Placeable Objects Gallery](community/content/assets-and-kits/all-placeable-objects-gallery.md)
