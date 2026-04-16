@@ -1180,6 +1180,7 @@
     * [Applying Inaccessible Object Properties](guides-and-knowledge/forge-know-how/forge-exploits/applying-inaccessible-object-properties.md)
   * [Forge Misc](guides-and-knowledge/forge-know-how/forge-misc/README.md)
     * [Forge Data](guides-and-knowledge/forge-know-how/forge-misc/reference-documents.md)
+    * [Article Template 1](guides-and-knowledge/forge-know-how/forge-misc/article-template-1.md)
     * [Forge Kit Objects](guides-and-knowledge/forge-know-how/forge-misc/forge-kit-objects.md)
     * [Hidden Forge Objects](guides-and-knowledge/forge-know-how/forge-misc/hidden-forge-objects.md)
 * [Scripting Know-how](guides-and-knowledge/scripting-know-how/README.md)
