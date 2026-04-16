@@ -737,6 +737,7 @@
     * [Spawn Object](scripting/nodes/objects/spawn-object.md)
   * [OBJECTS FILTERS](scripting/nodes/objects-filters/README.md)
     * [Does Player Pass Object Filter](scripting/nodes/objects-filters/does-player-pass-object-filter.md)
+    * [How To Get All Vehicles on Map](scripting/nodes/objects-filters/how-to-get-all-vehicles-on-map.md)
     * [Remove All Filters On Object](scripting/nodes/objects-filters/remove-all-filters-on-object.md)
     * [Set Player Filter On Object](scripting/nodes/objects-filters/set-player-filter-on-object.md)
     * [Set Team Filter On Object](scripting/nodes/objects-filters/set-team-filter-on-object.md)
