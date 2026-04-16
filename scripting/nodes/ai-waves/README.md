@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the AI WAVES category on Halo Infinite.
+description: Scripting nodes in the AI Waves category on Halo Infinite.
 ---
 
-# AI WAVES
+# AI Waves
 

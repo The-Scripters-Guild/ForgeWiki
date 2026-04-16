@@ -16,8 +16,6 @@ The Object Properties tab consists of categories and subcategories, within which
 
 <div><figure><img src="../../../.gitbook/assets/object-properties-closed.jpg" alt=""><figcaption><p>Object Properties tab with all categories collapsed</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/object-properties-no-selection.jpg" alt=""><figcaption><p>Object Properties tab with no selected object</p></figcaption></figure></div>
 
-
-
 ## Controls
 
 Controls related to navigating the Object Properties tab. Options for both Keyboard and Mouse, and Controller are provided:
@@ -57,13 +55,9 @@ Controls related to navigating the Object Properties tab. Options for both Keybo
 {% endtab %}
 {% endtabs %}
 
-
-
 ## Main Categories ↓
 
 The sections below detail the different categories within the Object Properties tab. Includes the most common categories and properties; some listed properties may be missing from your selected object(s). Object-specific properties are not explained in this general article.
-
-
 
 ## General
 
@@ -75,7 +69,7 @@ Sets the name of the selected object. The name is displayed in [Folders](folders
 
 The number at the end of objects is a part of the object name. If an object with a duplicate name is created, an incrementing number will be appended to the end of the object name. If an object's name is already 40 characters long, a number won't be appended.
 
-Some strings of characters or words are flagged as invalid, and won't be allowed in the Object Name. A list of the discovered ones has been compiled in: [Invalid Flagged Strings](../../../guides-and-knowledge/ugc-know-how/ugc-misc/invalid-flagged-strings.md).
+Some strings of characters or words are flagged as invalid, and won't be allowed in the Object Name. A list of the discovered ones has been compiled in: [Invalid Flagged Strings](../../../community/content/misc-content/invalid-flagged-strings.md).
 
 <figure><img src="../../../.gitbook/assets/object-properties-object-name-invalid.jpg" alt=""><figcaption><p>The word "support" being classified as invalid, and can't be in the Object Name</p></figcaption></figure>
 
@@ -118,7 +112,7 @@ Input range (Scale Multiplier): `Default scale * {min multiplier}` - `Default sc
 > Tool: [HIRT](https://github.com/urium1186/HIRT)
 
 {% hint style="warning" %}
-The object size values may not match the calculations correctly. This is because currently the visual object size and the object size values are affected by a major bug. Read more about the [Incorrect Object Visual Model Scaling Bug](../../../guides-and-knowledge/forge-know-how/forge-bugs/incorrect-object-visual-model-scaling-bug.md).
+The object size values may not match the calculations correctly. This is because currently the visual object size and the object size values are affected by a major bug. Read more about the [Incorrect Object Visual Model Scaling Bug](../../../knowledge/forge/bugs/incorrect-object-visual-model-scaling-bug.md).
 {% endhint %}
 
 The most used object that has a Scale Limit Type of Scale Multiplier is the Halo Design Set > Cover > Ankle Cover Half Size, having scaling multipliers of minimum `0.001` and maximum `100`. Forgers use this object to make flat, rectangular pieces that can scale lower than 0.50. As the default scale of the object is `X: 1.00`, `Y: 8.00`, `Z: 1.50`, the X axis can scale down to 0.001 units.
@@ -128,7 +122,7 @@ The most used object that has a Scale Limit Type of Scale Multiplier is the Halo
 Note, that even if the object can be scaled below 0.10, the Object Browser size value input interface doesn't take values lower than 0.10, nor will it show values lower than that. To get an object lower than 0.10, the Scaling Snap of `<none>` has to be selected and the object has to be manually scaled using the [Scale Gizmo](#user-content-fn-2)[^2].
 
 {% hint style="info" %}
-Object scaling limits can also be bypassed with an exploit. Read more about: [Bypassing Object Scaling Limits](../../../guides-and-knowledge/forge-know-how/forge-exploits/bypassing-object-scaling-limits.md).
+Object scaling limits can also be bypassed with an exploit. Read more about: [Bypassing Object Scaling Limits](../../../knowledge/forge/exploits/bypassing-object-scaling-limits.md).
 {% endhint %}
 
 Some objects can only be scaled on select axes. In these cases, the Scale Gizmo will be gray on the axes that cannot be scaled and the Size properties in the Object Properties tab may be hidden for those axes. Objects such as [_Biomes > Water_](object-browser/forge-object-list.md#water) _> Water Plane_, and [_Structures > Slopes_](object-browser/forge-object-list.md#slopes) _> Banished Stairs M_ fall into this category.
@@ -153,11 +147,9 @@ Phased
 
 </details>
 
-Read more about the quirks of [Fixed vs Phased Physics](../../../guides-and-knowledge/forge-know-how/forge-tips-and-tricks/fixed-vs-phased-physics.md).
+Read more about the quirks of [Fixed vs Phased Physics](../../../knowledge/forge/guides-and-info/fixed-vs-phased-physics.md).
 
-Some objects restrict their Physics selection such as everything under [_Gameplay > Vehicles_](object-browser/forge-object-list.md#vehicles-1), but this can be bypassed with an exploit: [Applying Inaccessible Object Properties](../../../guides-and-knowledge/forge-know-how/forge-exploits/applying-inaccessible-object-properties.md) as long as the object has an Object Mode of Dynamic.
-
-
+Some objects restrict their Physics selection such as everything under [_Gameplay > Vehicles_](object-browser/forge-object-list.md#vehicles-1), but this can be bypassed with an exploit: [Applying Inaccessible Object Properties](../../../knowledge/forge/exploits/applying-inaccessible-object-properties.md) as long as the object has an Object Mode of Dynamic.
 
 ## Transform
 
@@ -177,9 +169,7 @@ Change the object's Roll (X), Pitch (Y) and Yaw (Z) rotation.
 
 By first selecting the object you want to copy the positional data from, and then selecting all other objects to apply them to, opening the Object Properties will show the positional data of the first object, but entering the same data again will now apply those values to all objects in the selection.
 
-Read more about [Applying Identical Positional Data Between Objects](../../../guides-and-knowledge/forge-know-how/forge-tips-and-tricks/applying-identical-positional-data-between-objects.md).
-
-
+Read more about [Applying Identical Positional Data Between Objects](../../../knowledge/forge/guides-and-info/applying-identical-positional-data-between-objects.md).
 
 ## Visuals
 
@@ -229,9 +219,7 @@ Determines how rough the swatch in this region will appear. From looking beat-up
 
 Input range: `0.00` - `1.00`
 
-
-
-### Scratch And Grime&#x20;
+### Scratch And Grime
 
 #### Scratch Amount
 
@@ -248,8 +236,6 @@ Changes the grime type of the selected objects. Grime is often used to add some 
 Determines how much grime will be applied to the object.
 
 Input range: `0.00` - `1.00`
-
-
 
 ## Gameplay
 
@@ -275,13 +261,9 @@ Modify properties to adjust the size/shape of the object's boundary which can be
 
 Spawn order, despawn and respawn settings. Mostly used on mounted turrets to determine their spawning properties, as they cannot be spawned from [Weapon Spawners](../../gameplay/sandbox/weapons/weapon-spawning/).
 
-
-
 ## Advanced Properties
 
 Object-specific properties related mostly to the core functionality of the object.
-
-
 
 ## AI Zone
 
@@ -291,31 +273,21 @@ The AI Move Zone object that the AI Spawner's AI units will be assigned to. Link
 
 To clear an assigned AI Move Zone link, select the selected AI Spawner from the list of options when assigning a new move zone.
 
-
-
 ## Object-Specific Categories ↓
 
 The sections below detail different object-specific categories that are not found on most objects. These sections are explained on a general level.
-
-
 
 ## Launcher
 
 Options for [Launcher objects](object-browser/forge-object-list.md#launchers-lifts) to change the trajectory taken by an object that enters the launcher.
 
-
-
 ## Light
 
 Options to modify a light object's properties.
 
-
-
 ## Light Probe Marker Settings
 
 Options to change the size and probe spacing of the Light Probe Marker object.
-
-
 
 ## Location
 
@@ -323,25 +295,17 @@ Options to change the size and probe spacing of the Light Probe Marker object.
 
 Change the name of the location displayed to players within the Named Location Volume's boundary.
 
-
-
 ## Reflection Volume Settings
 
 Options to change the behavior of the Reflection Volume object.
-
-
 
 ## Spawn Point
 
 Modifiers to change how spawning on the selected spawn point should be affected.
 
-
-
 ## Spawn Volume
 
 Options to change the behavior of the Spawn Volume object.
-
-
 
 ## Vehicle
 
@@ -353,9 +317,7 @@ Changes how closely the camera will follow the vehicle. Mounted turrets are also
 
 Input range: `0.10` - `5.00`
 
-The value "nan" can be applied to this option to make the camera distance go to 0.00, but a side-effect is that the weapon projectiles on the vehicle stop working. Read more about: [Using "nan" as the Value Instead of a Number](../../../guides-and-knowledge/forge-know-how/forge-exploits/using-nan-as-the-value-instead-of-a-number.md).
-
-
+The value "nan" can be applied to this option to make the camera distance go to 0.00, but a side-effect is that the weapon projectiles on the vehicle stop working. Read more about: [Using "nan" as the Value Instead of a Number](../../../knowledge/forge/exploits/using-nan-as-the-value-instead-of-a-number.md).
 
 ## Weapon
 
@@ -372,8 +334,6 @@ Input range: `1` - `16`
 The amount of energy the weapon has. This is commonly used to limit the amout of shots that the Scorpion Tail has; with a value of 0.02, it has 4 total shots.
 
 Input range: `0.00` - `1.00`
-
-
 
 ***
 

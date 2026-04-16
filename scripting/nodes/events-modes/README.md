@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the EVENTS MODES category on Halo Infinite.
+description: Scripting nodes in the Events Modes category on Halo Infinite.
 ---
 
-# EVENTS MODES
+# Events Modes
 

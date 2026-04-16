@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the OBJECTS TRANSFORM category on Halo Infinite.
+description: Scripting nodes in theObjects Transform category on Halo Infinite.
 ---
 
-# OBJECTS TRANSFORM
+# Objects Transform
 

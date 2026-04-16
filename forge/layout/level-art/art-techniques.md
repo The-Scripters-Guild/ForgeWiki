@@ -11,5 +11,5 @@ This article is a stub. You can help TSG Forge Wiki by expanding it.
 Bullet points about the topic:
 
 * Reasoning for following art techniques
-* Link to art techniques explained in articles in the [Forge Tips and Tricks](../../../guides-and-knowledge/forge-know-how/forge-tips-and-tricks/) section
+* Link to art techniques explained in articles in the [Forge Tips and Tricks](../../../knowledge/forge/guides-and-info/) section
 *

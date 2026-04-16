@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the LOGIC COMPARE category on Halo Infinite.
+description: Scripting nodes in the Logic Compare category on Halo Infinite.
 ---
 
-# LOGIC COMPARE
+# Logic Compare
 

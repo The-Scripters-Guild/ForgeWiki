@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the TRAITS category on Halo Infinite.
+description: Scripting nodes in the Traits category on Halo Infinite.
 ---
 
-# TRAITS
+# Traits
 

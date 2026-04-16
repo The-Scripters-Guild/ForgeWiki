@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the AI ADVANCED category on Halo Infinite.
+description: Scripting nodes in the AI Advanced category on Halo Infinite.
 ---
 
-# AI ADVANCED
+# AI Advanced
 

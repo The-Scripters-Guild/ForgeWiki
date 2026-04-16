@@ -14,8 +14,6 @@ The Object Browser tab consists of object categories and subcategories, within w
 
 <div><figure><img src="../../../../.gitbook/assets/forge-interface-forge-menu-object-browser.jpg" alt=""><figcaption><p>Object Browser tab with all categories collapsed</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/object-browser-open.jpg" alt=""><figcaption><p>Object Browser tab with two categories open</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/object-browser-accents-forerunner.jpg" alt=""><figcaption><p>Accents > Forerunner category open in the Object Browser tab</p></figcaption></figure></div>
 
-
-
 ## Controls
 
 Controls related to navigating the Object Browser tab. Options for both Keyboard and Mouse, and Controller are provided:
@@ -58,8 +56,6 @@ Controls related to navigating the Object Browser tab. Options for both Keyboard
 {% endtab %}
 {% endtabs %}
 
-
-
 ## Categories ↓
 
 The sections below detail the different categories within the Object Browser tab, and their contents in detail. The [Forge Object List](./#forge-object-list) section acts as a searchable full object list for Halo Infinite Forge.
@@ -92,8 +88,6 @@ Full object list of all spawnable objects in Halo Infinite Forge:
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Forge Object List</td><td><a href="../../../../.gitbook/assets/cover-forge-object-list.jpg">cover-forge-object-list.jpg</a></td><td><a href="forge-object-list.md">forge-object-list.md</a></td></tr></tbody></table>
 
-
-
 ## Hidden Categories
 
 There are hidden categories in the Object Browser which hold assets that have not been validated for Forge yet, but may have been used by 343 on their internal builds while making Forge maps. It also holds depreciated objects, that have been replaced by a new variant. Most of these are objects that have had their origin point changed.
@@ -112,9 +106,7 @@ The hidden categories are named "Hidden", "Kits" and "Templates":
 
 **Learn more about:**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Hidden Forge Objects</td><td><a href="../../../../.gitbook/assets/cover-hidden-forge-objects.jpg">cover-hidden-forge-objects.jpg</a></td><td><a href="../../../../guides-and-knowledge/forge-know-how/forge-misc/hidden-forge-objects.md">hidden-forge-objects.md</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Hidden Forge Objects</td><td><a href="../../../../.gitbook/assets/cover-hidden-forge-objects.jpg">cover-hidden-forge-objects.jpg</a></td><td><a href="hidden-forge-objects.md">hidden-forge-objects.md</a></td></tr></tbody></table>
 
 ***
 

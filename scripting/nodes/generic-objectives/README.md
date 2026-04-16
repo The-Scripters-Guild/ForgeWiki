@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the GENERIC OBJECTIVES category on Halo Infinite.
+description: Scripting nodes in the Generic Objectives category on Halo Infinite.
 ---
 
-# GENERIC OBJECTIVES
+# Generic Objectives
 

@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the DEBUG category on Halo Infinite.
+description: Scripting nodes in the Debug category on Halo Infinite.
 ---
 
-# DEBUG
+# Debug
 

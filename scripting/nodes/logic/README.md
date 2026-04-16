@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the LOGIC category on Halo Infinite.
+description: Scripting nodes in the Logic category on Halo Infinite.
 ---
 
-# LOGIC
+# Logic
 

@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the TRAITS PLAYER category on Halo Infinite.
+description: Scripting nodes in the Traits Player category on Halo Infinite.
 ---
 
-# TRAITS PLAYER
+# Traits Player
 

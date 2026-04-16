@@ -6,7 +6,7 @@ description: >-
 
 # Team Intro Spawns
 
-A Team Intro Spawn is a [Forge Kit](../../../guides-and-knowledge/forge-know-how/forge-misc/forge-kit-objects.md) object consisting of four Initial Spawn Points and a Camera. This object is used to spawn in four players at the start of a match or round, and it has a built-in camera movement cycle that showcases each player before the initial [Gameplay Start](../../../scripting/nodes/events/on-gameplay-start.md).
+A Team Intro Spawn is a [Forge Kit](../../forge-basics-and-ui/forge-interface/object-browser/forge-kit-objects.md) object consisting of four Initial Spawn Points and a Camera. This object is used to spawn in four players at the start of a match or round, and it has a built-in camera movement cycle that showcases each player before the initial [Gameplay Start](../../../scripting/nodes/events/on-gameplay-start.md).
 
 Team Intro Spawns can be assigned to different Teams, and the Squad setting should be adjusted if more than four players per team should spawn on separate Team Intro Spawns.
 
@@ -34,33 +34,13 @@ The Team Intro Spawn should be placed where a group of four players on a Team sh
 
 After the [Map Intro Camera](../../gameplay/cameras/map-intro-cameras/) sequence has ended and all players have successfully spawned in the game, the Camera in the Team Intro Spawn object will go through a static cycle showcasing all four players on it. After the four players have been shown, the Camera will move to the static position shown on the Forge Kit object.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-player1.jpg" alt=""><figcaption><p>Camera sequence 1</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-player2.jpg" alt=""><figcaption><p>Camera sequence 2</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-regular-ingame.jpg" alt=""><figcaption><p>Camera sequence 3</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-player1.jpg" alt=""><figcaption><p>Camera sequence 1</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-player2.jpg" alt=""><figcaption><p>Camera sequence 2</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-regular-ingame.jpg" alt=""><figcaption><p>Camera sequence 3</p></figcaption></figure></div>
 
 #### Line-of-sight blockers
 
 Make sure that no objects are blocking the view of the Camera. Otherwise, the Camera movement will look weird as it's passing through solid geometry or blocking the view towards the players at the end.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-blocked1.jpg" alt=""><figcaption><p>Geometry partly blocking visibility of the Camera from a Team Intro Arrow Front</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-blocked2.jpg" alt=""><figcaption><p>The Camera view at the end of the Team Intro sequence</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-blocked1.jpg" alt=""><figcaption><p>Geometry partly blocking visibility of the Camera from a Team Intro Arrow Front</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-blocked2.jpg" alt=""><figcaption><p>The Camera view at the end of the Team Intro sequence</p></figcaption></figure></div>
 
 #### Height
 
@@ -68,27 +48,11 @@ The spawn points can intersect the ground by 1.5 units and still let a player sp
 
 <figure><img src="../../../.gitbook/assets/team-intro-spawn-height-1.5units-down.jpg" alt=""><figcaption><p>A spawn point can be 1.5 units under the ground and still spawn a player</p></figcaption></figure>
 
-In situations where the ground is uneven and some spawns may be floating, the view of the final Camera should be prioritized over the height positioning of the spawn points.&#x20;
+In situations where the ground is uneven and some spawns may be floating, the view of the final Camera should be prioritized over the height positioning of the spawn points.
 
-<div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-high-forge.jpg" alt=""><figcaption><p>High camera positioning in Forge</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-high-ingame.jpg" alt=""><figcaption><p>High camera positioning in gameplay</p></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-high-forge.jpg" alt=""><figcaption><p>High camera positioning in Forge</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-high-ingame.jpg" alt=""><figcaption><p>High camera positioning in gameplay</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-low-forge.jpg" alt=""><figcaption><p>Low camera positioning in Forge</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-low-ingame.jpg" alt=""><figcaption><p>Low camera positioning in gameplay</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-low-forge.jpg" alt=""><figcaption><p>Low camera positioning in Forge</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-height-low-ingame.jpg" alt=""><figcaption><p>Low camera positioning in gameplay</p></figcaption></figure></div>
 
 {% hint style="success" %}
 Prioritize the final Camera placement over spawn point height as long as all players are able to spawn on their spawn point. This ensures that all players are fully visible in the final Camera view.
@@ -98,57 +62,23 @@ Prioritize the final Camera placement over spawn point height as long as all pla
 
 Placing the spawns lower than 1.5 units into the ground will cause them to be blocked. If a player can't spawn on their designated spawn point of the Team Intro Spawn, they will be relocated to a [Respawn Point](../respawning/respawn-points/) on the map. If no Respawn Points are available, [Backup Spawn Points](backup-spawn-points.md) will be used.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-forge.jpg" alt=""><figcaption><p>Spawn positioning too low causing some players to be blocked from spawning</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-ingame.jpg" alt=""><figcaption><p>3/4 players are unable to spawn on blocked spawn points</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-forge.jpg" alt=""><figcaption><p>Spawn positioning too low causing some players to be blocked from spawning</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-ingame.jpg" alt=""><figcaption><p>3/4 players are unable to spawn on blocked spawn points</p></figcaption></figure></div>
 
 #### Rotation
 
 The Team Intro Spawn can be rotated without issues, as long as no spawn points get blocked in the process. The final Camera view will take on the rotation of the Camera in the Forge Kit object.
 
-<div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-tilt-forge.jpg" alt=""><figcaption><p>Team Intro Spawn tilted to the left</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-tilt-ingame.jpg" alt=""><figcaption><p>One spawn was blocked due to the tilt</p></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-tilt-forge.jpg" alt=""><figcaption><p>Team Intro Spawn tilted to the left</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-tilt-ingame.jpg" alt=""><figcaption><p>One spawn was blocked due to the tilt</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-sideways-forge.jpg" alt=""><figcaption><p>Team Intro Spawn 90° sideways</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-sideways-ingame.jpg" alt=""><figcaption><p>All of the spawns still work even with the object sideways</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-sideways-forge.jpg" alt=""><figcaption><p>Team Intro Spawn 90° sideways</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-sideways-ingame.jpg" alt=""><figcaption><p>All of the spawns still work even with the object sideways</p></figcaption></figure></div>
 
 If the Team Intro Spawn is placed upside-down, the player showcase order is reversed, and the final Camera rotation will be upside-down.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-upsidedown-forge.jpg" alt=""><figcaption><p>Team Intro Spawn upside-down</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-upsidedown-ingame.jpg" alt=""><figcaption><p>All of the spawns work when the object is upside-down</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-upsidedown-forge.jpg" alt=""><figcaption><p>Team Intro Spawn upside-down</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-rotation-upsidedown-ingame.jpg" alt=""><figcaption><p>All of the spawns work when the object is upside-down</p></figcaption></figure></div>
 
 {% hint style="info" %}
 While it is possible to rotate the Team Intro Spawn to manipulate the final Camera view, it's not standard practice and will often look weird.
 {% endhint %}
-
-
 
 ## Properties
 
@@ -195,15 +125,7 @@ When more than four players are present on a Team, the Squad order will be used 
 
 Here are examples on how to set up Team Intro Spawns in practice.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-cobra.jpg" alt=""><figcaption><p>Three Team Intro Spawns on Cobra Team</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-eagle.jpg" alt=""><figcaption><p>Three Team Intro Spawns on Eagle Team</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-cobra.jpg" alt=""><figcaption><p>Three Team Intro Spawns on Cobra Team</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-eagle.jpg" alt=""><figcaption><p>Three Team Intro Spawns on Eagle Team</p></figcaption></figure></div>
 
 ### 4v4
 
@@ -326,21 +248,11 @@ Read more about Infection and Firefight:King of The Hill:
 [firefight-koth](../../modes/firefight/firefight-koth/)
 {% endcontent-ref %}
 
-
-
 ## Labeling
 
 In some cases, it can be useful to have players spawn in a different location in asymmetrical modes that may be played on the same map where a symmetrical Team Intro Spawn setup is present. For these situations, Labels can be used to include and exclude certain spawns.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-ctf-exclude.jpg" alt=""><figcaption><p>CTF Exclude label on a Cobra spawn</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/team-intro-spawn-ctf-include.jpg" alt=""><figcaption><p>CTF Include label on another Cobra spawn</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/team-intro-spawn-ctf-exclude.jpg" alt=""><figcaption><p>CTF Exclude label on a Cobra spawn</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-ctf-include.jpg" alt=""><figcaption><p>CTF Include label on another Cobra spawn</p></figcaption></figure></div>
 
 ### Assigning Labels
 
@@ -361,8 +273,6 @@ Make sure that the Team Designator and Squad values are setup correctly for the 
 {% endhint %}
 
 Read more about: [Labels](../../forge-basics-and-ui/forge-interface/object-properties.md#labels).
-
-
 
 ***
 

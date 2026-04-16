@@ -57,7 +57,7 @@ For more functionality of this menu, see [Isolated Object Positional Data](./#is
 
 <div><figure><img src="../../../.gitbook/assets/forge-interface-object-pos-32int.jpg" alt=""><figcaption><p>Object with a Y scale of 20700212480.00</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/forge-interface-object-pos-ee.jpg" alt=""><figcaption><p>Object with a Y scale larger than 2147483647.00, displaying EE as the value</p></figcaption></figure></div>
 
-How a scale of this size was achieved was with an exploit to [Bypass Object Scaling Limits](../../../guides-and-knowledge/forge-know-how/forge-exploits/bypassing-object-scaling-limits.md).
+How a scale of this size was achieved was with an exploit to [Bypass Object Scaling Limits](../../../knowledge/forge/exploits/bypassing-object-scaling-limits.md).
 
 ### Controls Helper
 
@@ -73,8 +73,6 @@ Visibility of the Controls Helper can be toggled from [Tool Settings](tool-setti
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Controls and Shortcuts</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="../controls-and-shortcuts.md">controls-and-shortcuts.md</a></td></tr></tbody></table>
 
-
-
 ## Selected Object Interface
 
 If an object is selected, the Forge interface changes slightly, revealing more information:
@@ -85,7 +83,7 @@ If an object is selected, the Forge interface changes slightly, revealing more i
 
 ### Selected Object Count
 
-The **Selected Object Count** indicator is located in the bottom middle of the screen, and displays the amount of objects currently selected. A maximum of 150 objects can be selected at the same time, but more may be selected if some of the items in the selection are in a prefab. Learn more about [Bypassing 150-Object Prefab Limit](../../../guides-and-knowledge/forge-know-how/forge-exploits/bypassing-150-object-prefab-limit.md).
+The **Selected Object Count** indicator is located in the bottom middle of the screen, and displays the amount of objects currently selected. A maximum of 150 objects can be selected at the same time, but more may be selected if some of the items in the selection are in a prefab. Learn more about [Bypassing 150-Object Prefab Limit](../../../knowledge/forge/exploits/bypassing-150-object-prefab-limit.md).
 
 ### Object Information
 
@@ -148,8 +146,6 @@ The available space/type values are as follows:
 * Rotation: `World`, `Camera` & `Object`
 
 For more information about spaces, see [Coordinate Spaces](#user-content-fn-1)[^1].
-
-
 
 ## Forge Menu
 
@@ -225,8 +221,6 @@ The shortcut for opening this tab is <img src="../../../.gitbook/assets/keyboard
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Tool Settings</td><td><a href="../../../.gitbook/assets/cover-tool-settings.jpg">cover-tool-settings.jpg</a></td><td><a href="tool-settings/">tool-settings</a></td></tr></tbody></table>
 
-
-
 ## Actions Menu
 
 Holding <img src="../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-size="line"> (keyboard) or <img src="../../../.gitbook/assets/controller-x.png" alt="Key icon" data-size="line"> (controller) at any time while in Monitor Mode will open the radial **Actions Menu**:
@@ -292,7 +286,7 @@ Welding is often used to create vehicles that have objects attached to them:
 > Map: [Just Keep Driving - Sandtrap](https://www.halowaypoint.com/halo-infinite/ugc/maps/acf53d3b-de15-453f-8e40-901fd8272aad)
 
 {% hint style="info" %}
-The vehicles were momentarily made to have Phased physics with an exploit before welding in order to phase the cover objects into them because the only physics option for vehicles is Normal. Learn more about: [Applying Inaccessible Object Properties](../../../guides-and-knowledge/forge-know-how/forge-exploits/applying-inaccessible-object-properties.md).
+The vehicles were momentarily made to have Phased physics with an exploit before welding in order to phase the cover objects into them because the only physics option for vehicles is Normal. Learn more about: [Applying Inaccessible Object Properties](../../../knowledge/forge/exploits/applying-inaccessible-object-properties.md).
 {% endhint %}
 
 Welds can also be used to make interactable map objects, sometimes using clever tricks:
@@ -317,7 +311,7 @@ Welded Prefabs have a setting called "Massless Children" found in the Object Pro
 
 Although welds can be used as useful gameplay elements, there are a ton of bugs surrounding them, which makes working with welded prefabs extremely annoying, sometimes to the point of having to scrap the idea that would have worked if there weren't some obscure issues happening to them.
 
-Learn more about [Welded Prefab Bugs](../../../guides-and-knowledge/forge-know-how/forge-bugs/welded-prefab-bugs.md).
+Learn more about [Welded Prefab Bugs](../../../knowledge/forge/bugs/welded-prefab-bugs.md).
 
 ### Save Prefab
 
@@ -331,7 +325,7 @@ The **Unweld** tab is located on the bottom left of the radial Actions Menu and 
 
 After unwelding, the group of objects will turn into a prefab.
 
-Be aware of the [Welded Prefab Bugs](../../../guides-and-knowledge/forge-know-how/forge-bugs/welded-prefab-bugs.md) that may occur when unwelding a welded prefab.
+Be aware of the [Welded Prefab Bugs](../../../knowledge/forge/bugs/welded-prefab-bugs.md) that may occur when unwelding a welded prefab.
 
 ### Ungroup
 
@@ -339,7 +333,7 @@ The **Ungroup** tab is located on the left of the radial Actions Menu and is use
 
 After ungrouping, the group of objects that made up the prefab will stay selected. If the prefab included more than 150 objects, only the first 150 objects will stay in the selection. If the remaining objects are Static, they will keep a green outline until a temporary hover-over selection is performed on them.
 
-Learn more about: [Bypassing 150-Object Prefab Limit](../../../guides-and-knowledge/forge-know-how/forge-exploits/bypassing-150-object-prefab-limit.md).
+Learn more about: [Bypassing 150-Object Prefab Limit](../../../knowledge/forge/exploits/bypassing-150-object-prefab-limit.md).
 
 <div><figure><img src="../../../.gitbook/assets/prefab-over150-prefabbed.jpg" alt=""><figcaption><p>A 206-object prefab</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/prefab-over150-ungrouped.jpg" alt=""><figcaption><p>Prefab ungrouped, 150 objects left in the selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/prefab-over150-deselected.jpg" alt=""><figcaption><p>Objects deselected, leaving the remaining 56 objects with a green outline</p></figcaption></figure></div>
 

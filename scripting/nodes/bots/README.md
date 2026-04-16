@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the BOTS category on Halo Infinite.
+description: Scripting nodes in the Bots category on Halo Infinite.
 ---
 
-# BOTS
+# Bots
 

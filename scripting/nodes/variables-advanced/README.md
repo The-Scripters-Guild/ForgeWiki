@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the VARIABLES ADVANCED category on Halo Infinite.
+description: Scripting nodes in the Variables Advanced category on Halo Infinite.
 ---
 
-# VARIABLES ADVANCED
+# Variables Advanced
 

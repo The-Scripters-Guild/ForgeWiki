@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the LISTS category on Halo Infinite.
+description: Scripting nodes in the Lists category on Halo Infinite.
 ---
 
-# LISTS
+# Lists
 

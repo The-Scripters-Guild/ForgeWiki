@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the STOPWATCHES category on Halo Infinite.
+description: Scripting nodes in the Stopwatches category on Halo Infinite.
 ---
 
-# STOPWATCHES
+# Stopwatches
 

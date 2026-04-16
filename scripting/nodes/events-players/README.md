@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the EVENTS PLAYERS category on Halo Infinite.
+description: Scripting nodes in the Events Players category on Halo Infinite.
 ---
 
-# EVENTS PLAYERS
+# Events Players
 

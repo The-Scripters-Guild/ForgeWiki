@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the INVENTORY EQUIPMENT category on Halo Infinite.
+description: Scripting nodes in the Inventory Equipment category on Halo Infinite.
 ---
 
-# INVENTORY EQUIPMENT
+# Inventory Equipment
 

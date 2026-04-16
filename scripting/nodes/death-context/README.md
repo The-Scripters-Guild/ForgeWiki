@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the DEATH CONTEXT category on Halo Infinite.
+description: Scripting nodes in the Death Context category on Halo Infinite.
 ---
 
-# DEATH CONTEXT
+# Death Context
 

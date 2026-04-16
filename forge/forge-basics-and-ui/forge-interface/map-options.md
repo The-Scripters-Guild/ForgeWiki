@@ -16,8 +16,6 @@ The Map Options tab consists of categories and subcategories, within which are a
 
 <figure><img src="../../../.gitbook/assets/map-options-collapsed.png" alt=""><figcaption><p>Map Options tab with all categories collapsed</p></figcaption></figure>
 
-
-
 ## Controls
 
 Controls related to navigating the Map Options tab. Options for both Keyboard and Mouse, and Controller are provided:
@@ -57,19 +55,13 @@ Controls related to navigating the Map Options tab. Options for both Keyboard an
 {% endtab %}
 {% endtabs %}
 
-
-
 ## Main Categories ↓
 
 The sections below detail the different categories within the Map Options tab.
 
-
-
 ## Lights & Atmosphere
 
 Settings to adjust the lighting, fog and wind.
-
-
 
 ### Sunlight
 
@@ -97,8 +89,6 @@ Changes the position of the sun in relation to the time of day. In simpler terms
 
 Input range: `0.00` - `360.00`
 
-
-
 ### Light Bounce
 
 Settings to control how bounce light affects the level. For more details, see [Light Bounce](../../lighting/settings-global-lighting/light-bounce.md).
@@ -112,8 +102,6 @@ Input range: `0.00` - `100.00`
 #### Tint Override
 
 Changes the color of bounce light.
-
-
 
 ### Sky Light
 
@@ -148,8 +136,6 @@ Changes the color of sky lighting coming from the east side of the map.
 #### West Override
 
 Changes the color of sky lighting coming from the west side of the map.
-
-
 
 ### Sky Rendering
 
@@ -188,8 +174,6 @@ Sets the color of the sun. Note that this doesn't change the color of the sunlig
 #### Sun Tint Intensity
 
 Sets how intense the sun color is.
-
-
 
 ### Atmospheric Fog
 
@@ -251,8 +235,6 @@ Sets a false color scatter throughout the atmosphere.
 The [Atmospheric Fog Inscattering](map-options.md#inscattering) value must be under 1.00 for the color to show.
 {% endhint %}
 
-
-
 ### Volumetric Fog
 
 Volumetric fog settings simulate 3D fog as cost from a light source. For more details, see [Fog](../../lighting/settings-global-lighting/fog.md).
@@ -287,8 +269,6 @@ Sets the distance from player where the volumetric fog stops rendering.
 
 Input range: `0.00` - `1,000.00`
 
-
-
 ### Wind
 
 Wind settings affect the movement of some dynamic objects such MP Trees, as well as Screen Effects.
@@ -314,8 +294,6 @@ Input range: `-180.00` - `180.00`
 Changes the speed of the wind.
 
 Input range: `1.00` - `12.00`
-
-
 
 ## Screen Effects
 
@@ -343,7 +321,7 @@ Embers Light
 
 Embers Medium
 
-Motes Heavy&#x20;
+Motes Heavy
 
 Motes Light
 
@@ -379,8 +357,6 @@ Snow Medium
 Having global Screen Effects _on_ may cause issues on maps with multiple [FX-emitting objects](../../lighting/fx/fx-emitting-objects.md) such as [Weapon Spawners](../../gameplay/sandbox/weapons/weapon-spawning/). Turning the Screen Effects off in these cases helps prevent issues with FX overload.
 {% endhint %}
 
-
-
 ## Decorators
 
 #### Enabled
@@ -390,8 +366,6 @@ Toggles the visibility of decorators in the map. Decorators are small foliage de
 {% hint style="info" %}
 Decorators are usually disabled, as many maps aren't built directly on the canvas floor to visually benefit from them, and the performance impact of having them enabled is unknown.
 {% endhint %}
-
-
 
 ## Ambient Sound
 
@@ -519,8 +493,6 @@ Setting an Audio Effect on a map is uncommon, as not many maps suit the theme, b
 
 Toggles the playing of primary and secondary ambient sounds during Forge edit mode.
 
-
-
 ## Budget
 
 Object placement limits and the current costs of various elements in the map. The budgets show a progress bar of how much of a specific budget has been used up. If a budget reaches 80%, a yellow warning icon shows up in the Map Options tab. If a budget reaches 100%, its progress bar turns red and a red warning icon shows up in the Map Options tab.
@@ -557,8 +529,6 @@ Forge Simulation often reaches 100.00% before Game Simulation, as the interfaces
 The Forge Simulation budget used by Forge Modes via Mode Brains are separate from the on-level budgets. It's best practice to load as much scripting from a Forge Mode, instead of from on-level scripting in order to relieve Game- and Forge Simulation budget to use on the map.
 {% endhint %}
 
-
-
 ### Forge Simulation Detail
 
 A breakdown of the categories of the Forge Simulation budget.
@@ -592,8 +562,6 @@ Budget range: `0.0%` - `100.00%`
 {% hint style="info" %}
 [Prefabs](../../../ugc/metadata-and-file-management/prefabs/) and [Folder](folders/) names take up Forge Simulation budget, but the impact is negligible to take into consideration. If the Forge Simulation budget is at 100.00%, you may not be able to create prefabs or rename folders.
 {% endhint %}
-
-
 
 ### Object Limits
 
@@ -630,7 +598,7 @@ The number of movers in the map. This is a hard limit and cannot be exceeded.
 Budget range: `0` - `48` / 48
 
 {% hint style="info" %}
-Only one object is known to fall into this category, being the _Vehicle Lift_ [hidden object](../../../guides-and-knowledge/forge-know-how/forge-misc/hidden-forge-objects.md).
+Only one object is known to fall into this category, being the _Vehicle Lift_ [hidden object](object-browser/hidden-forge-objects.md).
 {% endhint %}
 
 #### Animations
@@ -662,8 +630,6 @@ Budget range: `0.0%` - `100.00%`
 {% hint style="success" %}
 Never reported as being the cause of issues.
 {% endhint %}
-
-
 
 ## Level Bound Probes
 
@@ -706,8 +672,6 @@ Estimated number of light probes based on the current settings across the Level 
 
 Value range: `0` - `14000` / 14000
 
-
-
 ## Reset
 
 #### Reset Map Properties
@@ -725,8 +689,6 @@ Delete all unlocked objects in the map. For more details about locked and unlock
 {% hint style="danger" %}
 This action cannot be undone.
 {% endhint %}
-
-
 
 ***
 

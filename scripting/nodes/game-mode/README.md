@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the GAME MODE category on Halo Infinite.
+description: Scripting nodes in the Game Mode category on Halo Infinite.
 ---
 
-# GAME MODE
+# Game Mode
 

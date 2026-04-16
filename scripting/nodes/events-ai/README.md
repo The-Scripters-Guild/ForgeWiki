@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the EVENTS AI category on Halo Infinite.
+description: Scripting nodes in the Events AI category on Halo Infinite.
 ---
 
-# EVENTS AI
+# Events AI
 

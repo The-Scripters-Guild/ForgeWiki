@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the OBJECTS FILTERS category on Halo Infinite.
+description: Scripting nodes in the Objects Filters category on Halo Infinite.
 ---
 
-# OBJECTS FILTERS
+# Objects Filters
 

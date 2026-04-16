@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the PLAYERS category on Halo Infinite.
+description: Scripting nodes in the Players category on Halo Infinite.
 ---
 
-# PLAYERS
+# Players
 

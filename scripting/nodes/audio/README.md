@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the AUDIO category on Halo Infinite.
+description: Scripting nodes in the Audio category on Halo Infinite.
 ---
 
-# AUDIO
+# Audio
 

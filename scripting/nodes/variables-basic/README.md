@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the VARIABLES BASIC category on Halo Infinite.
+description: Scripting nodes in the Variables Basic category on Halo Infinite.
 ---
 
-# VARIABLES BASIC
+# Variables Basic
 

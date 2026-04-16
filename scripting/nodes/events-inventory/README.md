@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the EVENTS INVENTORY category on Halo Infinite.
+description: Scripting nodes in the Events Inventory category on Halo Infinite.
 ---
 
-# EVENTS INVENTORY
+# Events Inventory
 

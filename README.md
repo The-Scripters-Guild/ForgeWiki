@@ -30,9 +30,7 @@ The categories are structured in a way where the most useful and most commonly u
 [metadata-and-file-management](ugc/metadata-and-file-management/)
 {% endcontent-ref %}
 
-After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Guides and Knowledge](guides-and-knowledge/forge-know-how/) section.
-
-
+After reading the basics and the linked articles, you should be able to formulate ideas and questions with more confidence, as well as bridge your own knowledge gaps with trial and error. To browse more free-form knowledge that the Forge community has discovered about Forge, Scripting and UGC, check out the [Guides and Knowledge](knowledge/forge/) section.
 
 ## I can't find the information I need on the wiki
 
@@ -46,7 +44,7 @@ If you've looked around the wiki and still have questions, hop to the discord an
 
 The Scripter's Guild (TSG) is a server based around UGC and game dev, founded by Halo creators. We wrote the wiki for Halo 5 scripting as it existed on ForgeHub and are responsible for many enhancements to content for Halo 5 matchmaking, including the creation of the Mythic KotH, Assymetric 1 Flag CTF for BTB, Pig of the Hill, and Roaming King modes, systems for weather volumes w/ excluded interiors and static spawn timers for weapons, as well as a myriad of other creations.
 
-Memebers of The Scripter's Guild community help each other on the Discord server and are discovering new things about Halo daily. \
+Memebers of The Scripter's Guild community help each other on the Discord server and are discovering new things about Halo daily.\
 \
 Read more on [The Scripter's Guild](community/the-scripters-guild.md) article.
 
@@ -63,4 +61,3 @@ The TSG Forge Wiki works based off of a public [GitHub repository](https://githu
 {% endcontent-ref %}
 
 If you have questions or issues, or if you've submitted a pull request and haven't seen any action on it, reach out to `Captain Punch` (server admin) or a `Guild Officer` via Discord.
-

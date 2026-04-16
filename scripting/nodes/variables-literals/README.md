@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the VARIABLES LITERALS category on Halo Infinite.
+description: Scripting nodes in the Variables Literals category on Halo Infinite.
 ---
 
-# VARIABLES LITERALS
+# Variables Literals
 

@@ -87,7 +87,7 @@ By opening the Options Menu (see [Controls](./#controls)) of an object or folder
 
 Turns a folder-only object selection into a viewport selection of the object group. A maximum of 150 objects can be in a viewport selection. Multiple prefabs can be selected, but the total number of objects within them can't be over 255, which is the true limit, instead of 150.
 
-Learn more about: [Bypassing 150-Object Prefab Limit](../../../../guides-and-knowledge/forge-know-how/forge-exploits/bypassing-150-object-prefab-limit.md).
+Learn more about: [Bypassing 150-Object Prefab Limit](../../../../knowledge/forge/exploits/bypassing-150-object-prefab-limit.md).
 
 ### Move
 
@@ -160,7 +160,7 @@ Creates a new main folder with the specified name; the default name is "My Folde
 
 ### Create Empty Subfolder
 
-Creates a new subfolder with the specified name within the selected main folder; the default name is "My Subfolder".  This option can only be accessed by opening the Options Menu of a main folder.
+Creates a new subfolder with the specified name within the selected main folder; the default name is "My Subfolder". This option can only be accessed by opening the Options Menu of a main folder.
 
 ### Hide & Unhide
 
@@ -178,13 +178,9 @@ The <img src="../../../../.gitbook/assets/folder-lock.png" alt="Key icon" data-s
 Some forgers use object locking as a a safety measure to not accidentally select the object, while others use it as a mental check to confirm that a section of a map is finished.
 {% endhint %}
 
-
-
 ## Why Use Folders?
 
 Organizing objects in folders helps you and others find objects on the map quicker, and hide or lock specific object categories. It becomes difficult locating objects or hiding all of the player containment objects on the map if everything is together in one big folder, as is usually the case.
-
-
 
 ## Folder Tips
 
@@ -212,8 +208,6 @@ For categorizing objects into large categories that still differentiate them eno
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Basic Folder Structure</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="basic-folder-structure.md">basic-folder-structure.md</a></td></tr></tbody></table>
 
-
-
 ### Advanced Folder Structure
 
 For categorizing every object type efficiently and semantically. Takes a bit longer to set up and takes up more budget, but is much more useful on larger projects or feature-rich maps.
@@ -222,15 +216,11 @@ For categorizing every object type efficiently and semantically. Takes a bit lon
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Advanced Folder Structure</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="advanced-folder-structure.md">advanced-folder-structure.md</a></td></tr></tbody></table>
 
-
-
 ## Trivia
 
-* Before Season 4, selecting an item in the folder structure automatically [grabbed the selected item](./#grab-selected-150-max). This was changed to allow objects more than 150 to be moved between folders at the same time as well as to lessen the potential for performance issues when selecting 150 objects at the same time.&#x20;
+* Before Season 4, selecting an item in the folder structure automatically [grabbed the selected item](./#grab-selected-150-max). This was changed to allow objects more than 150 to be moved between folders at the same time as well as to lessen the potential for performance issues when selecting 150 objects at the same time.
 * Each folder adds on to the Forge Simulation budget, which can be an issue on maps at the budget limit where no more new folders can be made.
 * Changes within the folder structure such as item moving or folder deletion cannot be undone with the undo-action.
-
-
 
 ***
 

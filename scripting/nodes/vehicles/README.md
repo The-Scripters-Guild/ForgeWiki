@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the VEHICLES category on Halo Infinite.
+description: Scripting nodes in the Vehicles category on Halo Infinite.
 ---
 
-# VEHICLES
+# Vehicles
 

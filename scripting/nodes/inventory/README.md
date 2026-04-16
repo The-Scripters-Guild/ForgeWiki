@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the INVENTORY category on Halo Infinite.
+description: Scripting nodes in the Inventory category on Halo Infinite.
 ---
 
-# INVENTORY
+# Inventory
 

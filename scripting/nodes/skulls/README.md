@@ -1,6 +1,6 @@
 ---
-description: Scripting nodes in the SKULLS category on Halo Infinite.
+description: Scripting nodes in the Skulls category on Halo Infinite.
 ---
 
-# SKULLS
+# Skulls
 
