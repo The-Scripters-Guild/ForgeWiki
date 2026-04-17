@@ -54,6 +54,10 @@ To minimize the delay before regeneration begins and maximize the recharge speed
 * **Recharge Delay Scalar**: `-1.00` (results in 0.000 s cooldown)
 * **Recharge Rate Scalar**: `10.00` (results in 0.2000 s recharge time)
 
+{% hint style="info" %}
+These settings also impact health regeneration, resulting in a 0.000s health cooldown and a 0.100s health recharge time.
+{% endhint %}
+
 ***
 
 ## Source Data
