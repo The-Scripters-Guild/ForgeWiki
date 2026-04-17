@@ -20,7 +20,7 @@ To achieve a full shield restoration without adding additional overshield protec
 
 * **Percent Shield**: `0.00`
 
-<figure><img src="assets/2026-03-02_HaloInfinite-bE7M-wt5u.png" alt="Restore Player Shield Instantly source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
+<figure><img src="assets/2026-03-02_HaloInfinite-bE7M.png" alt="Restore Player Shield Instantly source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 ## Underlying Mechanics
 
@@ -43,7 +43,7 @@ For a near-instantaneous recharge (approximately 0.2 seconds) without using the 
 
 To use this method, you must declare, apply and remove a trait set:
 
-* Use the `Declare Trait Set` node to create a set containing the shield recharge trait.
+* Use the `Declare Player Trait Set` node to create a set containing the shield recharge trait.
 * Use the `Apply Player Trait Set` node (or its variants) to apply the set to a player.
 * Use the `Remove Player Trait Set` node to remove the trait once the regeneration has finished.
 
