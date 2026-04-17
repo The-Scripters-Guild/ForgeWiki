@@ -1,8 +1,7 @@
 ---
 description: >-
-  A plug-and-play script for Halo Infinite that creates a tornado
-  effect by pulling, spinning, and lifting objects within an area
-  monitor.
+  A plug-and-play script for Halo Infinite that creates a tornado effect by
+  pulling, spinning, and lifting objects within an area monitor.
 ---
 
 # TSG Tornado
@@ -31,7 +30,7 @@ The script is designed to be "plug-and-play," allowing it to be added to existin
 
 To change the intensity or characteristics of the tornado, users can interact with the `Scale Vector` nodes to scale the pull, spin, and lift values.
 
-<figure><img src="assets/image.png" alt="TSG Tornado source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt="TSG Tornado source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 ### Visual Features
 

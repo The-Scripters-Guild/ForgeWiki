@@ -1,7 +1,7 @@
 ---
 description: >-
-  Use the Set Player Overshield node with a 0.00 Percent Shield value
-  to immediately restore a player's shield to maximum.
+  Use the Set Player Overshield node with a 0.00 Percent Shield value to
+  immediately restore a player's shield to maximum.
 ---
 
 # Restore Player Shield Instantly
@@ -20,7 +20,7 @@ To achieve a full shield restoration without adding additional overshield protec
 
 * **Percent Shield**: `0.00`
 
-<figure><img src="assets/2026-03-02_HaloInfinite-bE7M-wt5u.png" alt="Restore Player Shield Instantly source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-03-02_HaloInfinite-bE7M-wt5u.png" alt="Restore Player Shield Instantly source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 ## Underlying Mechanics
 

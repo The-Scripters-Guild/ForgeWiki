@@ -32,8 +32,20 @@ In this section write about a sub-section of the sub-section above. This section
 
 In this section write about a secondary feature that still relates to the topic of the article.
 
+{% hint style="info" %}
+Info hints are great for showing general information, or providing tips and tricks.
+{% endhint %}
+
 {% hint style="success" %}
-Highlighted information that the reader should know can be written in alerts like this.
+Success hints are good for showing positive actions or achievements.
+{% endhint %}
+
+{% hint style="warning" %}
+Warning hints are good for showing important information or non-critical warnings.
+{% endhint %}
+
+{% hint style="danger" %}
+Danger hints are good for highlighting destructive actions or raising attention to critical information.
 {% endhint %}
 
 Write more about the secondary feature here if necessary.
