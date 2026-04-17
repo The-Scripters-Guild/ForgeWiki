@@ -1263,6 +1263,7 @@
     * [tsg radial](community/content/scripting-tools/tsg-radial.md)
     * [tsg ai totems and kill tokens](community/content/scripting-tools/tsg-ai-totems-and-kill-tokens.md)
   * [Assets and Kits](community/content/assets-and-kits/README.md)
+    * [Pelican Drops on Forge maps](community/content/assets-and-kits/pelican-drops-on-forge-maps.md)
     * [tsg botsDriveVehicles](community/content/assets-and-kits/tsg-botsdrivevehicles.md)
     * [tsg haloRing](community/content/assets-and-kits/tsg-haloring.md)
     * [tsg onVehicleHonk](community/content/assets-and-kits/tsg-onvehiclehonk.md)
