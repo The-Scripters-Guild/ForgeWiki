@@ -1,14 +1,13 @@
 ---
 description: >-
   How to implement functional Pelican Drops on Forge maps using
-  specific object properties and Firefight mode settings.
 ---
 
 # Pelican Drops on Forge maps
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-While Pelican Drops are typically associated with specific game modes, they can be integrated into Forge maps through a specific combination of object configurations and Firefight mode settings.
+By combining specific object configurations with Firefight mode settings, players can successfully implement Pelican Drops on Forge maps.
 
 ## Implementation
 
@@ -21,11 +20,12 @@ To enable Pelican Drops on a Forge map, several environmental and mode-specific 
 For the drop to trigger successfully, the following setup is required:
 
 * A "Pelican Drop" object must be placed on the map (hidden object).
-* The map must be loaded using a Firefight mode (any Firefight variant works).
+* The map must have a working Firefight: King of the Hill (FFKOTH) setup.
+* The map must be loaded using a Firefight mode (any Firefight variant, such as Firefight: Custom, works).
 
 ### Object Properties
 
-The Pelican Drop object requires specific properties to function as intended. The Cargo Drop Type must be set to "Exact Drop." Other relevant properties include:
+The Pelican Drop object requires specific properties to function. The **Cargo Drop Type** must be set to **Exact Drop**. Other relevant properties include:
 
 * **Spawn Properties**: Default
 * **Symmetrical Channel**: AirDrop Alpha
@@ -36,7 +36,7 @@ A prefab with a fully set up Pelican Drop object can be found here: [Pelican Dro
 
 ## Mode Configuration
 
-The functionality of the Pelican Drop is tied to internal events triggered by specific mode settings. In the Mode Editor, the **Firefight → Prevent Item Respawns** option must be set to **True**. Although this setting is typically used to prevent the automatic respawn of items, it is required for the Pelican Drop to function.
+The functionality of the Pelican Drop is tied to internal events triggered by specific mode settings. In the Mode Editor, the **Firefight → Prevent Item Respawns** option must be set to **True**. This setting is enabled by default in Firefight modes and is required for the Pelican Drop to function.
 
 <figure><img src="../../../.gitbook/assets/2026-04-17_HaloInfinite-n5gx.jpg" alt="Cover image"><figcaption><p>The Prevent Item Respawns setting must be enabled in the Mode Editor.</p></figcaption></figure>
 
@@ -59,9 +59,13 @@ The Pelican Drop is designed to trigger at the start of gameplay; delaying or ac
 Attempting to pilot a Pelican in Firefight modes via a vehicle type reference will result in the pilot being automatically kicked out of the vehicle.
 {% endhint %}
 
+{% hint style="info" %}
+When using a script to enter a Pelican via a button press, add a small delay to the sequence to prevent the player from being immediately kicked out of the vehicle by the same button press used to activate the script.
+{% endhint %}
+
 #### Scripting Note: Player Respawns
 
-When using scripts to facilitate players entering a Pelican, players who have been revived in FFKOTH may encounter issues where they remain on a death screen. This occurs because internal scripting may not automatically unblock respawns after a player is revived. To resolve this, add an `Unblock Respawns For Player` node immediately after teleporting the player to ensure the "enter" sequence proceeds correctly.
+When using scripts to facilitate players entering a Pelican (which typically involves respawning the player as the Pelican vehicle type), players who have been revived in FFKOTH may encounter issues where they remain on a death screen. This occurs because internal scripting may not automatically unblock respawns after a player is revived. To resolve this, add an `Unblock Respawns For Player` node immediately after teleporting the player to ensure the "enter" sequence proceeds correctly.
 
 ***
 
@@ -72,4 +76,7 @@ When using scripts to facilitate players entering a Pelican, players who have be
 #### <mark style="color:green;">Contributors</mark>
 
 Okom\
-thescriptinator
+thescriptinator\
+Dj_HurstyDNB\
+SpawnOfTheDeep\
+Josh
