@@ -41,10 +41,11 @@ For a near-instantaneous recharge (approximately 0.2 seconds) without using the 
 
 ### Implementation
 
-To use this method, you must declare and apply a trait set:
+To use this method, you must declare, apply and remove a trait set:
 
 * Use the `Declare Trait Set` node to create a set containing the shield recharge trait.
-* Use the `Apply Trait Set` node (or its variants) to apply the set to a player.
+* Use the `Apply Player Trait Set` node (or its variants) to apply the set to a player.
+* Use the `Remove Player Trait Set` node to remove the trait once the regeneration has finished.
 
 ### Configuration
 
