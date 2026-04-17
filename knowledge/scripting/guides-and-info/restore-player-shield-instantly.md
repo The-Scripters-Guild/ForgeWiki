@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-While standard shield regeneration typically occurs over time, it is possible to bypass this process through scripting. By manipulating the overshield node, developers can trigger an immediate restoration of a player's shield capacity.
+While standard shield regeneration typically occurs over time, it is possible to bypass this process through scripting. By manipulating overshield nodes or recharge traits, developers can trigger immediate shield restoration.
 
 ## Implementation via Overshield Node
 
@@ -20,7 +20,7 @@ To achieve a full shield restoration without adding additional overshield protec
 
 * **Percent Shield**: `0.00`
 
-<figure><img src="assets/2026-03-02_HaloInfinite-bE7M.png" alt="Restore Player Shield Instantly source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
+<figure><img src="assets/2026-03-02_HaloInfinite-bE7M-wt5u.png" alt="Restore Player Shield Instantly source image"><figcaption><p>Source image from the original research thread.</p></figcaption></figure>
 
 ## Underlying Mechanics
 
@@ -34,6 +34,25 @@ By providing a `Percent Shield` value of `0.00`, the second step adds no additio
 {% hint style="success" %}
 This technique is a useful workaround for mechanics that require an immediate "recharge" effect without the player gaining the extra durability associated with overshields.
 {% endhint %}
+
+## Alternative Method via Shield Recharge Trait
+
+For a near-instantaneous recharge (approximately 0.2 seconds) without using the overshield node, you can manipulate the `Trait: Shield Recharge` node. This method adjusts the timing and speed of the standard regeneration process.
+
+### Implementation
+
+To use this method, you must declare, apply and remove a trait set:
+
+* Use the `Declare Trait Set` node to create a set containing the shield recharge trait.
+* Use the `Apply Player Trait Set` node (or its variants) to apply the set to a player.
+* Use the `Remove Player Trait Set` node to remove the trait once the regeneration has finished.
+
+### Configuration
+
+To minimize the delay before regeneration begins and maximize the recharge speed, use the following scalar values:
+
+* **Recharge Delay Scalar**: `-1.00` (results in 0.000 s cooldown)
+* **Recharge Rate Scalar**: `10.00` (results in 0.2000 s recharge time)
 
 ***
 
