@@ -1223,6 +1223,7 @@
     * [Invisible Nodes or Connections](knowledge/scripting/bugs/invisible-nodes-or-connections.md)
     * [Unpredictable Node Selection Movement](knowledge/scripting/bugs/unpredictable-node-selection-movement.md)
   * [Exploits](knowledge/scripting/exploits.md)
+  * [Restore Player Shield Instantly](knowledge/scripting/restore-player-shield-instantly.md)
 * [UGC](knowledge/ugc/README.md)
   * [Guides and Info](knowledge/ugc/guides-and-info/README.md)
     * [Gathering Players in Open Lobbies](knowledge/ugc/guides-and-info/gathering-players-in-open-lobbies.md)
