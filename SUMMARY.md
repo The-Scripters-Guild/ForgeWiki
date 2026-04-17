@@ -1221,6 +1221,7 @@
     * [Weapon Combinations](knowledge/scripting/guides-and-info/weapon-combinations.md)
   * [Bugs](knowledge/scripting/bugs/README.md)
     * [Invisible Nodes or Connections](knowledge/scripting/bugs/invisible-nodes-or-connections.md)
+    * [Restore Player Shield Instantly](knowledge/scripting/bugs/restore-player-shield-instantly.md)
     * [Unpredictable Node Selection Movement](knowledge/scripting/bugs/unpredictable-node-selection-movement.md)
   * [Exploits](knowledge/scripting/exploits.md)
 * [UGC](knowledge/ugc/README.md)
