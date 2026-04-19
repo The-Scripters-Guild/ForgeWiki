@@ -10,6 +10,10 @@ description: >-
 
 `tsg grantVehicleWeapon` is a script module designed to equip vehicles with custom weaponry. It functions by assigning a demonstration weapon, sourced from a designated "yellow brain," to a target vehicle via a ping.
 
+* [Demo video](https://www.youtube.com/watch?v=UxaFOHl-91s)
+* [tsg grantVehicleWeapons (mode prefab)](https://www.halowaypoint.com/halo-infinite/ugc/modes/08eec092-a5b0-4c1d-9a18-61e13c0d58df)
+* [Custom Vehicle Weapons demo (map)](https://www.halowaypoint.com/halo-infinite/ugc/maps/c9082ec4-0632-4ff8-9867-b43991ff6222)
+
 ## Weapon Assignment and Turret Logic
 
 The module facilitates the assignment of specialized weapons to vehicles. When the script is triggered, it assigns the demonstration weapon from the yellow brain to the selected vehicle.
@@ -34,9 +38,6 @@ The module offers several options for adjusting how the vehicle performs in comb
 
 * **Damage Adjustment:** An optional feature allows for the modification of the assigned vehicle weapon's damage.
 * **Shot Cadence:** As of version 1.1.0, the `vehicleShotCadence` variable can be used to adjust the delay between shots of the assigned vehicle weapon.
-
-[tsg grantVehicleWeapons (mode prefab)](https://www.halowaypoint.com/halo-infinite/ugc/modes/08eec092-a5b0-4c1d-9a18-61e13c0d58df)
-[Custom Vehicle Weapons demo (map)](https://www.halowaypoint.com/halo-infinite/ugc/maps/c9082ec4-0632-4ff8-9867-b43991ff6222)
 
 ***
 
