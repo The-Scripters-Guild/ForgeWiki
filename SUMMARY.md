@@ -1223,6 +1223,7 @@
   * [Bugs](knowledge/scripting/bugs/README.md)
     * ["Killed Unit Position" Pin in On AI Unit Killed Node is Scaled 10x Smaller](knowledge/scripting/bugs/killed-unit-position-pin-in-on-ai-unit-killed-node-is-scaled-10x-smaller.md)
     * [Invisible Nodes or Connections](knowledge/scripting/bugs/invisible-nodes-or-connections.md)
+    * [Power Sockets as Interactive Switches](knowledge/scripting/bugs/power-sockets-as-interactive-switches.md)
     * [Unpredictable Node Selection Movement](knowledge/scripting/bugs/unpredictable-node-selection-movement.md)
   * [Exploits](knowledge/scripting/exploits.md)
 * [UGC](knowledge/ugc/README.md)
