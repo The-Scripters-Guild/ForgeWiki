@@ -12,7 +12,7 @@ While standard shield regeneration typically occurs over time, it is possible to
 
 ## Implementation via Overshield Node
 
-The most effective way to restore a shield instantly is to use the [Set Player Overshield](https://wiki.thescriptersguild.com/scripting/nodes/players/set-player-overshield) node. Although this node is primarily intended to add extra protection, its underlying logic can be leveraged to reset the standard shield bar.
+The most effective way to restore a shield instantly is to use the [Set Player Overshield](../../../scripting/nodes/players/set-player-overshield.md) node. Although this node is primarily intended to add extra protection, its underlying logic can be leveraged to reset the standard shield bar.
 
 ### Node Configuration
 
@@ -20,7 +20,7 @@ To achieve a full shield restoration without adding additional overshield protec
 
 * **Percent Shield**: `0.00`
 
-<figure><img src="../../../.gitbook/assets/2026-03-02_HaloInfinite-bE7M.png" alt="Set Player Overshield node"><figcaption><p>The Set Player Overshield node configured with a 0.00 percent shield value.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-03-02_HaloInfinite-bE7M.png" alt="Set Player Overshield node"><figcaption><p>The `Set Player Overshield` node configured with a 0.00 percent shield value.</p></figcaption></figure>
 
 ## Underlying Mechanics
 
@@ -37,15 +37,15 @@ This technique is a useful workaround for mechanics that require an immediate "r
 
 ## Alternative Method via Shield Recharge Trait
 
-For a near-instantaneous recharge (approximately 0.2 seconds) without using the overshield node, you can manipulate the `Trait: Shield Recharge` node. This method adjusts the timing and speed of the standard regeneration process.
+For a near-instantaneous recharge (approximately 0.2 seconds) without using the overshield node, you can manipulate the [Trait: Shield Recharge](../../../scripting/nodes/traits-player/trait-shield-recharge.md) node. This method adjusts the timing and speed of the standard regeneration process.
 
 ### Implementation
 
 To use this method, you must declare, apply and remove a trait set:
 
-* Use the `Declare Trait Set` node to create a set containing the shield recharge trait.
-* Use the `Apply Player Trait Set` node (or its variants) to apply the set to a player.
-* Use the `Remove Player Trait Set` node to remove the trait once the regeneration has finished.
+* Use the [Declare Trait Set](../../../scripting/nodes/traits/declare-trait-set.md) node to create a set containing the shield recharge trait.
+* Use the [Apply Player Trait Set](../../../scripting/nodes/traits-player/apply-player-trait-set.md) node (or its variants) to apply the set to a player.
+* Use the [Remove Player Trait Set](../../../scripting/nodes/traits-player/remove-player-trait-set.md) node to remove the trait once the regeneration has finished.
 
 ### Configuration
 
@@ -64,7 +64,7 @@ Conversely, extreme values can be used to effectively disable regeneration:
 <figure><img src="../../../.gitbook/assets/HaloInfinite_yHmp1CNP0o.jpg" alt="Extreme shield recharge settings"><figcaption><p>Comparison between default trait values and settings that result in near-infinite recharge times.</p></figcaption></figure>
 
 {% hint style="info" %}
-These settings also impact health regeneration, resulting in a 0.000s health cooldown and a 0.100s health recharge time.
+These settings also impact health regeneration, resulting in a 0.000s health cooldown and 0.100s health recharge time.
 {% endhint %}
 
 ***
