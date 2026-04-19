@@ -9,7 +9,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-The "Killed Unit Position" output pin on the [On AI Unit Killed](./scripting/nodes/events-ai/on-ai-unit-killed) scripting node provides coordinates that do not align directly with the Forge world grid. Specifically, the [Vector3](./scripting/nodes/variables-basic/vector3) returned by this pin is scaled to 1/10th of the actual position used by the game engine. This discrepancy requires manual adjustment in scripts to ensure correct spatial logic.
+The "Killed Unit Position" output pin on the [On AI Unit Killed](../scripting/nodes/events-ai/on-ai-unit-killed) scripting node provides coordinates that do not align directly with the Forge world grid. Specifically, the [Vector3](../scripting/nodes/variables-basic/vector3) returned by this pin is scaled to 1/10th of the actual position used by the game engine. This discrepancy requires manual adjustment in scripts to ensure correct spatial logic.
 
 ## The Scaling Discrepancy
 
