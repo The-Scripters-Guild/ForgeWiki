@@ -1232,6 +1232,7 @@
     * [Handling Seemingly Corrupt File Versions](knowledge/ugc/guides-and-info/handling-issues-with-seemingly-corrupt-file-versions.md)
     * [Saving an Entire Map Using Prefabs](knowledge/ugc/guides-and-info/saving-an-entire-map-using-prefabs.md)
   * [Bugs](knowledge/ugc/bugs/README.md)
+    * [Player Look Static Raycast Max Distance](knowledge/ugc/bugs/player-look-static-raycast-max-distance.md)
     * [Session Timeout Required for Adding Prefab Screenshots](knowledge/ugc/bugs/session-timeout-required-for-adding-prefab-screenshots.md)
     * [Bookmarked Films Do Not Fetch Info Correctly](knowledge/ugc/bugs/bookmarked-films-do-not-fetch-info-correctly.md)
     * [Mode Option Changes Stay Cached Until Game Reset](knowledge/ugc/bugs/mode-option-changes-stay-cached-until-game-reset.md)
