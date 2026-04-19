@@ -1,36 +1,37 @@
 ---
 description: >-
-  The "Killed Unit Position" pin in the On AI Unit Killed node outputs a Vector3
-  that is 10x smaller than standard Forge coordinates.
+  The Killed Unit Position pin in the On AI Unit Killed node outputs
+  coordinates that are 10x smaller than standard Forge coordinates.
 ---
 
 # "Killed Unit Position" Pin in On AI Unit Killed Node is Scaled 10x Smaller
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-The [On AI Unit Killed](../../../scripting/nodes/events-ai/on-ai-unit-killed.md) node provides event data when an AI unit is defeated, including the location of the death. However, the position data provided by this node requires a specific correction to be used accurately within Forge.
+In Halo Infinite Forge scripting, the [On AI Unit Killed](../../../scripting/nodes/events-ai/on-ai-unit-killed.md) node is used to trigger events when an AI unit dies. However, the positional data provided by this node does not align with the standard coordinate system used by other Forge nodes.
 
-## Vector3 Coordinate Discrepancy
+## Scaling Behavior of On AI Unit Killed
 
-The "Killed Unit Position" pin in the `On AI Unit Killed` node outputs a Vector3 value that is 10x smaller than the actual position used by Forge. Because of this scaling discrepancy, using the raw output directly for spatial logic—such as spawning effects or moving objects—will result in coordinates that are significantly offset from the actual death location.
+The `Killed Unit Position` pin within the `On AI Unit Killed` node outputs a [Vector3](../../../scripting/nodes/variables-basic/vector3.md) that is 10x smaller than the actual position used by Forge. If this vector is used directly to place objects, spawn effects, or set variables, the resulting position will be significantly offset from the actual death location.
 
-### Correcting the Position
+### Correcting the Position Output
 
-To obtain the correct position, the output from the "Killed Unit Position" pin must be passed through a [Scale Vector](../../../scripting/nodes/math/scale-vector.md) node.
+To obtain the correct coordinates, the output from the `Killed Unit Position` pin must be passed through a math node to restore its proper scale.
 
-* Connect the "Killed Unit Position" pin to the `Vector` input of a `Scale Vector` node.
-* Set the `Scalar` value to `10.00`.
+#### Required Node Setup
 
-<figure><img src="../../../.gitbook/assets/2025-12-17_HaloInfinite-d8mD.png" alt="Node workflow"><figcaption><p>The node workflow demonstrates scaling the killed unit position by a factor of 10.00 to ensure coordinate accuracy.</p></figcaption></figure>
+The standard workflow to correct this discrepancy involves using the [Scale Vector](../../../scripting/nodes/math/scale-vector.md) node. The `Killed Unit Position` pin should be connected to the `Vector` input of a `Scale Vector` node, with the `Scalar` input set to `10.00`. The `Result` of the `Scale Vector` node can then be used for accurate positioning in subsequent logic.
 
-## Visual Comparison
+<figure><img src="../../../.gitbook/assets/2025-12-17_HaloInfinite-d8mD.png" alt="Scripting graph showing scale correction"><figcaption><p>The scripting graph demonstrates connecting the `On AI Unit Killed` node to a `Scale Vector` node with a scalar of 10.00 to correct the death position.</p></figcaption></figure>
 
-The difference between the unscaled output and the corrected coordinates can be observed through debug text. The original death position values are a tenth of the magnitude of the actual Forge coordinates.
+## Visual Representation of the Discrepancy
 
-<figure><img src="../../../.gitbook/assets/2025-12-17_HaloInfinite-lcEr.jpg" alt="Debug output comparison"><figcaption><p>Debug text shows the difference between the unscaled death position and the corrected coordinates.</p></figcaption></figure>
+The difference between the raw output and the corrected position is clearly visible when comparing debug values or observing the physical placement of scripted elements.
+
+<figure><img src="../../../.gitbook/assets/2025-12-17_HaloInfinite-lcEr.jpg" alt="In-game debug view"><figcaption><p>Debug text in the game view displays the difference between a scaled and unscaled death position.</p></figcaption></figure>
 
 {% hint style="warning" %}
-To ensure spatial accuracy in your scripts, always feed the "Killed Unit Position" pin into a Scale Vector node with a 10.00 scalar.
+Always feed the `Killed Unit Position` pin into a `Scale Vector` node with a `10.00` scalar to ensure your script targets the correct location.
 {% endhint %}
 
 ***
