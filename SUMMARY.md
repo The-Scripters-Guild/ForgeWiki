@@ -1184,6 +1184,7 @@
     * [Applying Inaccessible Object Properties](knowledge/forge/exploits/applying-inaccessible-object-properties.md)
 * [Scripting](knowledge/scripting/README.md)
   * [Guides and Info](knowledge/scripting/guides-and-info/README.md)
+    * ["Killed Unit Position" Pin in On AI Unit Killed Node is Scaled 10x Smaller](knowledge/scripting/guides-and-info/killed-unit-position-pin-in-on-ai-unit-killed-node-is-scaled-10x-smaller.md)
     * [Creating an Equipment Object Reference with Mode Scripting](knowledge/scripting/guides-and-info/creating-an-equipment-object-reference-with-mode-scripting.md)
     * [Patterns](knowledge/scripting/guides-and-info/patterns/README.md)
       * [Telefragging](knowledge/scripting/guides-and-info/patterns/telefragging.md)
