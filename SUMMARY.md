@@ -1205,6 +1205,7 @@
       * [Polling Player Health](knowledge/scripting/guides-and-info/patterns/polling-player-health.md)
       * [Managing Nav Markers](knowledge/scripting/guides-and-info/patterns/managing-nav-markers.md)
       * [Using Custom Events and Variables Across Mode and Script Brains](knowledge/scripting/guides-and-info/patterns/using-custom-events-and-variables-across-mode-and-script-brains.md)
+    * [Power Sockets as Interactive Switches](knowledge/scripting/guides-and-info/power-sockets-as-interactive-switches.md)
     * [Restore Player Shield Instantly](knowledge/scripting/guides-and-info/restore-player-shield-instantly.md)
     * [Variables](knowledge/scripting/guides-and-info/variables/README.md)
       * [Object Lists](knowledge/scripting/guides-and-info/variables/object-lists.md)
