@@ -1221,6 +1221,7 @@
     * [Video Tutorials](knowledge/scripting/guides-and-info/video-tutorials.md)
     * [Weapon Combinations](knowledge/scripting/guides-and-info/weapon-combinations.md)
   * [Bugs](knowledge/scripting/bugs/README.md)
+    * ["Killed Unit Position" Pin in On AI Unit Killed Node is Scaled 10x Smaller](knowledge/scripting/bugs/killed-unit-position-pin-in-on-ai-unit-killed-node-is-scaled-10x-smaller.md)
     * [Invisible Nodes or Connections](knowledge/scripting/bugs/invisible-nodes-or-connections.md)
     * [Unpredictable Node Selection Movement](knowledge/scripting/bugs/unpredictable-node-selection-movement.md)
   * [Exploits](knowledge/scripting/exploits.md)
