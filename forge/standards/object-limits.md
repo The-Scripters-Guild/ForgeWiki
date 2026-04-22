@@ -4,7 +4,7 @@ description: >-
   and Static Geometry budgets and the impact of telescoping objects.
 ---
 
-# Object Limit and Telescoping Object Research
+# Object Limits
 
 <figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
