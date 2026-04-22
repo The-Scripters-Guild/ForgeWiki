@@ -4,7 +4,7 @@ description: >-
   node at the start of every round.
 ---
 
-# UI Nav Markers need to be Enabled each round
+# UI Nav Markers Must Be Enabled Each Round
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
