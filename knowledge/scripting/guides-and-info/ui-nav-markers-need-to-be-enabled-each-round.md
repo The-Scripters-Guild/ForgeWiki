@@ -10,7 +10,7 @@ description: >-
 
 Navigation markers implemented in Forge may appear to stop functioning once a round concludes. This behavior is expected and can be addressed by refreshing the marker status for each new round.
 
-<figure><img src="../../../.gitbook/assets/HaloInfinite_PBRsZNdqzt.png" alt="UI Nav Marker example"><figcaption><p>A UI Nav Marker displays a destination and its distance to the player.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/HaloInfinite_PBRsZNdqzt.png" alt="UI Nav Marker example"><figcaption><p>A UI Nav Marker displays a name, icon and its distance to the player.</p></figcaption></figure>
 
 ## Marker Persistence
 
@@ -30,7 +30,7 @@ To maintain functional markers throughout a match, the following workflow is rec
 <figure><img src="../../../.gitbook/assets/HaloInfinite_ijvGVzNbgk.png" alt="Set Nav Marker Enabled node"><figcaption><p>The Set Nav Marker Enabled node is used to toggle the visibility of a marker.</p></figcaption></figure>
 
 {% hint style="info" %}
-Since the list of UI Nav Markers persists across rounds, you do not need to rebuild the list at the start of every round.
+Since the list of UI Nav Markers persists across rounds, you do not need to rebuild the list at the start of every round, but they must be re-enabled every round.
 {% endhint %}
 
 ***
