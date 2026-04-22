@@ -220,6 +220,7 @@
     * [Free For All](forge/standards/mode-setup/free-for-all.md)
   * [Map Requirements](forge/standards/map-requirements.md)
 
+  * [Object Limit and Telescoping Object Research](forge/standards/object-limit-and-telescoping-object-research.md)
 ## Scripting
 
 * [Scripting Basics and UI](scripting/scripting-basics-and-ui/README.md)
