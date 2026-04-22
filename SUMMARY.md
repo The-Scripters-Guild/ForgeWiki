@@ -212,6 +212,7 @@
     * [Lighting FX Objects](forge/lighting/fx/lighting-fx-objects.md)
     * [FX-Emitting Objects](forge/lighting/fx/fx-emitting-objects.md)
 * [Standards](forge/standards/README.md)
+  * [File Size limits](forge/standards/file-size-limits.md)
   * [Mode Setup](forge/standards/mode-setup/README.md)
     * [Arena](forge/standards/mode-setup/arena.md)
     * [Ranked](forge/standards/mode-setup/ranked.md)
