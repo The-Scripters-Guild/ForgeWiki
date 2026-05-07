@@ -1264,6 +1264,7 @@
     * [tsg lightingDebug](community/content/debug-tools/tsg-lightingdebug.md)
     * [tsg audioDebug](community/content/debug-tools/tsg-audiodebug.md)
   * [Scripting Tools](community/content/scripting-tools/README.md)
+    * [tsg pivot](community/content/scripting-tools/tsg-pivot.md)
     * [tsg radial](community/content/scripting-tools/tsg-radial.md)
     * [tsg ai totems and kill tokens](community/content/scripting-tools/tsg-ai-totems-and-kill-tokens.md)
   * [Assets and Kits](community/content/assets-and-kits/README.md)
