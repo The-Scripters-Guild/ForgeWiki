@@ -122,6 +122,7 @@
     * [Kill Zones](forge/gameplay/containment/kill-zones.md)
     * [Safe Volumes](forge/gameplay/containment/safe-volumes.md)
 * [Modes](forge/modes/README.md)
+  * [Invasion](forge/modes/invasion.md)
   * [Slayer](forge/modes/slayer.md)
   * [Capture The Flag](forge/modes/capture-the-flag/README.md)
     * [Standard CTF](forge/modes/capture-the-flag/standard-ctf.md)
