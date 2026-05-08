@@ -32,6 +32,10 @@ For smooth execution, the rotation amount assigned to `tsg.pivot.rot` must be ba
 
 Using a `Wait N seconds` node with a value of `0.00` can effectively act as an "Every N seconds" timer, executing as quickly as the server can handle.
 
+{% hint style="warning" %}
+The `tsg.pivot.rot` variable is additive. This makes it difficult to dynamically set an object to a specific absolute rotation angle relative to the pivot, as the value acts as a rotation increment rather than a direct angle assignment.
+{% endhint %}
+
 ## Custom Game Compatibility
 
 Using `tsg pivot` in Custom Games can present unique challenges compared to standard Forge environments due to how the server handles object initialization and synchronization.
@@ -46,7 +50,7 @@ To prevent synchronization issues in Custom Games, avoid triggering pivot logic 
 
 ### Prefabs and Object Lists
 
-Prefab lists may not function reliably in Custom Games. For more stable behavior, it is recommended to build object lists manually rather than relying on prefab-based lists.
+Prefab lists and the `Get Prefab Objects` node may not function reliably in Custom Games. For more stable behavior, it is recommended to build object lists using label lists, manual object references, or an area monitor on round start, rather than relying on prefab-based lists.
 
 <figure><img src="../../../.gitbook/assets/994798c8-0eb3-4c4e-8687-e6df53e24727.png" alt="Cover image"><figcaption><p>This node graph demonstrates an efficient orbiting setup using basis vectors.</p></figcaption></figure>
 
@@ -57,6 +61,7 @@ Prefab lists may not function reliably in Custom Games. For more stable behavior
 ## Source Data
 
 * Discord thread: [tsg pivot](https://discord.com/channels/220766496635224065/1039677768872497313/1039677768872497313)
+* Discord thread: [Moving a "prefab" ADVICE](https://discord.com/channels/220766496635224065/1327472659201789992/1327472659201789992)
 
 #### <mark style="color:green;">Contributors</mark>
 
@@ -73,4 +78,8 @@ WolfReign\
 theDidact\
 Yolomcswag\
 Fearless7\
-Okom
+Okom\
+seanonix\
+AbeStrange\
+NOKYARD\
+swagonflyyyy (Mr. Blackwell)
