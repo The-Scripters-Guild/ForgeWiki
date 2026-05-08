@@ -22,9 +22,45 @@ The requirements and available resources change as the match progresses through 
 | --- | --- | --- | --- |
 | Spawn Orders | 11, 12, 13 | 21, 22, 23 | 31, 32, 33 |
 | Objective Order | 1 | 2 | 3 |
-| Loadouts Per [Team](../../scripting/nodes/variables-basic/team.md) | 2 | 3 | 5 |
+| Loadouts Per Team | 2 | 3 | 5 |
 | Vehicle Tiers | Tier 1 | Tier 1, Tier 2 | Tier 1, Tier 2, Tier 3, Tier 4 |
 | Power Weapons | None | Yes | Yes |
+
+### Loadouts
+
+The mode pits UNSC against Banished-affected Spartans. Players select from various loadouts that change depending on the current phase.
+
+#### UNSC Loadouts
+
+* **Phase 1**
+  * Scout: MA5K Avenger, Frag Grenades, Threat Seeker
+  * Sentry: MK50 Sidekick, Frag Grenades, Drop Wall
+* **Phase 2**
+  * Warrior: MA40 Assault Rifle, MK50 Sidekick, Frag Grenades, Drop Wall
+  * Operator: CQS48 Bulldog, Frag Grenades, Quantum Translocator
+  * Skirmisher: VK78 Commando, MA5K Avenger, Frag Grenades, Thruster
+* **Phase 3**
+  * Headhunter: BR75, VK78 Commando, Frag Grenades, Shroud Screen
+  * Healer: CQS48 Bulldog, MK50 Sidekick, Frag Grenades, Repair Field
+  * Marksman: Bandit Evo, MA40 Assault Rifle, Frag Grenades, Grappleshot
+  * Sentinel: VK78 Commando, MA5K Avenger, Frag Grenades, Thruster
+  * Heavy: MLRS-2 Hydra, MA40 Assault Rifle, Frag Grenades, Overshield
+
+#### Banished Loadouts
+
+* **Phase 1**
+  * Sentry: Mangler, Spike Grenades, Thruster
+  * Scout: Needler, Plasma Grenades, Active Camo
+* **Phase 2**
+  * Marksman: Vestige Carbine, Plasma Pistol, Spike Grenades, Repulsor
+  * Hunter: Heatwave, Spike Grenades, Drop Wall
+  * Sapper: Ravager, Needler, Plasma Grenades, Thruster
+* **Phase 3**
+  * Headhunter: Bandit Evo, Pulse Carbine, Spike Grenade, Grappleshot
+  * Warrior: CQS48 Bulldog, Mangler, Spike Grenade, Threat Sensor
+  * Sentinel: Sentinel Beam, Vestige Carbine, Spike Grenade, Repulsor
+  * Medic: Pulse Carbine, MA40 Assault Rifle, Spike Grenade, Repair Field
+  * Dark Assassin: Duelist Energy Sword, Disruptor, Plasma Grenades, Active Camo
 
 ### Buddy Spawning
 
@@ -86,7 +122,7 @@ Vehicle tiers and their respective respawn timers are as follows:
 
 ### Scavenging and Equipment
 
-Weapons are available throughout all phases and can be found on pads, lockers, drop pods, and chests. Weapon spawns are "Red Racked," meaning a single weapon will not respawn until the previously spawned weapon has been despawned. The respawn time for these weapons is 10 seconds.
+Weapons are available throughout all phases and can be found on pads, lockers, drop pods, and chests. Weapon spawns are "Red Racked," meaning a single weapon will not respawn until the previously spawned weapon has been despawned. The respawn time for these weapons is 10 seconds. Normal weapon spawns in lockers and trunks do not use waypoints.
 
 Grenades and equipment are tied to player loadouts rather than map spawns. However, these items can be collected from players who have dropped them upon death.
 
@@ -112,4 +148,5 @@ The Invasion mode automatically fires "On Map Events," which map creators can us
 
 #### <mark style="color:green;">Contributors</mark>
 
+Max Extra\
 Okom
