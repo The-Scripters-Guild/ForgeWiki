@@ -1098,6 +1098,7 @@
     * [Power Sockets](scripting/scriptable-objects/interactable-objects/power-sockets.md)
   * [Generic Game Mode Objects](scripting/scriptable-objects/generic-game-mode-objects.md)
 
+  * [Is it possible to set/change Attrition death orb location?](scripting/scriptable-objects/is-it-possible-to-set-change-attrition-death-orb-location.md)
   * [Making any Prefab into a Mode Prefab](scripting/scriptable-objects/making-any-prefab-into-a-mode-prefab.md)
 ## UGC
 
