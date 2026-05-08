@@ -18,17 +18,15 @@ Because Forge lacks an `On Weapon Fired` node and cannot directly track the char
 
 The system monitors the rotation of the player's equipped weapon every tick. A swing is identified when the X value of the weapon's rotation exceeds 120. This threshold is effective because the hammer swing causes a more drastic change in weapon rotation than other available poses.
 
-### Ammo Depletion and Hit Validation
+### Ammo Depletion and Melee Validation
 
 To track whether a swing results in a hit while maintaining the hammer's intended ammo capacity, the following logic is applied:
 
 * The player's secondary weapon is dropped.
 * The hammer's ammo is emptied and then refilled to 10%, which is the method used to reduce the ammo of a single weapon.
 * The secondary weapon is returned to the player.
-* If a hit occurs, the [On Weapon No Ammo](../../../scripting/nodes/events-inventory/on-weapon-no-ammo.md) event is triggered. A number variable is then used to restore the desired amount of ammo and decrement the value for the next swing.
-* If the number variable is not modified within 1 second, the swing is treated as a dummy melee hit, and the charge is restored.
-
-<figure><img src="../../../.gitbook/assets/2025-12-21_HaloInfinite-lNCN.png" alt="Logic node layout"><figcaption><p>The script utilizes specific logic nodes to monitor rotation and manage ammo variables.</p></figcaption></figure>
+* If a hit occurs, the [On Weapon No Ammo](../../../scripting/nodes/events-inventory/on-weapon-no-ammo.md) event gets triggered. A number variable is then used to restore the desired amount of ammo and decrement the value for the next swing.
+* If the number variable is not modified within 1 second, the swing is treated as a dummy melee hit (pressing melee button instead of fire button), and the charge is restored.
 
 ## Customization and Constraints
 
