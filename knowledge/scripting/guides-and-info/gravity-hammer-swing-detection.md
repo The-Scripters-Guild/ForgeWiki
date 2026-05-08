@@ -1,7 +1,7 @@
 ---
 description: >-
-  A method for detecting Gravity Hammer swings using weapon rotation
-  and simulated ammo depletion.
+  A method for detecting Gravity Hammer swings using weapon rotation and
+  simulated ammo depletion.
 ---
 
 # Gravity Hammer Swing Detection
@@ -12,11 +12,15 @@ Because Forge lacks an `On Weapon Fired` node and cannot directly track the char
 
 ## Detection and Simulation Logic
 
-<figure><img src="../../../.gitbook/assets/2025-12-21_HaloInfinite-4YUO.jpg" alt="Hammer swing implementation"><figcaption><p>The implementation can be used to track hammer swings during active gameplay.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/hammer-swing-detection.jpg" alt="Hammer swing implementation"><figcaption><p>The implementation can be used to track hammer swings during active gameplay.</p></figcaption></figure>
 
 ### Rotation-Based Swing Identification
 
 The system monitors the rotation of the player's equipped weapon every tick. A swing is identified when the X value of the weapon's rotation exceeds 120. This threshold is effective because the hammer swing causes a more drastic change in weapon rotation than other available poses.
+
+{% file src="../../../.gitbook/assets/hammer-swing-detection.mp4" %}
+The Gravity Hammer swing detection in action, as well as a showcase of the scripting
+{% endfile %}
 
 ### Ammo Depletion and Melee Validation
 
