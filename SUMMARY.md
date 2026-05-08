@@ -1188,6 +1188,7 @@
   * [Guides and Info](knowledge/scripting/guides-and-info/README.md)
     * [Creating an Equipment Object Reference with Mode Scripting](knowledge/scripting/guides-and-info/creating-an-equipment-object-reference-with-mode-scripting.md)
     * [Granting Four Weapons to Players](knowledge/scripting/guides-and-info/granting-four-weapons-to-players.md)
+    * [Gravity Hammer Swing Detection](knowledge/scripting/guides-and-info/gravity-hammer-swing-detection.md)
     * [Patterns](knowledge/scripting/guides-and-info/patterns/README.md)
       * [Telefragging](knowledge/scripting/guides-and-info/patterns/telefragging.md)
       * [Checking Object Types](knowledge/scripting/guides-and-info/patterns/patterns-checking-object-types.md)
