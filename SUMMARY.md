@@ -1251,6 +1251,7 @@
 ## Community
 
 * [Content](community/content/README.md)
+  * [(test, ignore, again) How do I spawn an object?](community/content/test-ignore-again-how-do-i-spawn-an-object.md)
   * [Map/Mode Setup](community/content/map-mode-setup/README.md)
     * [tsg gamemodes](community/content/map-mode-setup/tsg-gamemodes.md)
     * [tsg sandbox](community/content/map-mode-setup/tsg-sandbox.md)
