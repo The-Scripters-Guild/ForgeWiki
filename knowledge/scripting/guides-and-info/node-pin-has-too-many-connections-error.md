@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-The "Node Pin Has Too Many Connections" error is a frontend issue that occurs when a duplicate connection is established on a node pin. This most commonly happens when a lag spike occurs at the exact moment a user is attempting to connect a pin, resulting in the system registering multiple connections where only one was intended. Because a double connection is illegal, the node graph may fail to build.
+The "Node Pin Has Too Many Connections" error is a frontend issue that occurs when a duplicate connection is established on a node pin. This most commonly happens when a lag spike occurs at the exact moment a user is attempting to connect a pin, resulting in the system registering multiple connections where only one was intended. Because a double connection is illegal, the node graph fails to build.
 
 ## Identifying the Error
 
@@ -40,9 +40,9 @@ There are several methods to resolve this error, ranging from simple connection 
 
 The most direct way to fix the issue is to remove the duplicate connection:
 
-1. Locate the duplicate connection using the brightness method described above.
-2. Disconnect the faulty pin.
-3. Reconnect the pin.
+1. Locate the duplicate connection using the connection brightness method described above.
+2. Disconnect the faulty connection.
+3. Reconnect the connection.
 
 If simply disconnecting and reconnecting the pin does not work, you may need to delete the problematic nodes entirely and then recreate them and their connections.
 
@@ -51,10 +51,7 @@ If simply disconnecting and reconnecting the pin does not work, you may need to 
 In some cases, especially when working with very complex logic or highly populated brains, the error may be more persistent.
 
 * **Split Logic with Custom Events:** If a single connection tree is highly complex, it may be prone to lag spikes during connection. You can mitigate this by splitting the logic into two or more groups using a [Trigger Custom Event](../../../scripting/nodes/events-custom/trigger-custom-event.md) node in the middle.
-* **Migrate to a New Brain:** If a brain becomes "fussy" or remains laggy, copying and pasting the nodes into a completely new brain can sometimes resolve the connection errors.
 * **Reload the Game:** For certain random errors, reloading the game may help clear the state.
-
-<figure><img src="../../../.gitbook/assets/image-63f6.png" alt="Complex script layout"><figcaption><p>Complex logic involving multiple triggers can be susceptible to connection errors.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Brains that are very full or contain highly complex connection trees may be more prone to these connection errors.
