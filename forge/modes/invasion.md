@@ -1,6 +1,6 @@
 ---
 description: >-
-  Guidelines for configuring maps to support the official Invasion
+  Configuration guide for setting up maps for the official Invasion
   game mode.
 ---
 
@@ -22,7 +22,7 @@ The requirements and available resources change as the match progresses through 
 | --- | --- | --- | --- |
 | Spawn Orders | 11, 12, 13 | 21, 22, 23 | 31, 32, 33 |
 | Objective Order | 1 | 2 | 3 |
-| Loadouts Per Team | 2 | 3 | 5 |
+| Loadouts Per [Team](../../scripting/nodes/variables-basic/team.md) | 2 | 3 | 5 |
 | Vehicle Tiers | Tier 1 | Tier 1, Tier 2 | Tier 1, Tier 2, Tier 3, Tier 4 |
 | Power Weapons | None | Yes | Yes |
 
@@ -33,34 +33,34 @@ The mode pits UNSC against Banished-affected Spartans. Players select from vario
 #### UNSC Loadouts
 
 * **Phase 1**
-  * Scout: MA5K Avenger, Frag Grenades, Threat Seeker
-  * Sentry: MK50 Sidekick, Frag Grenades, Drop Wall
+ * Scout: MA5K Avenger, Frag Grenades, Threat Seeker
+ * Sentry: MK50 Sidekick, Frag Grenades, Drop Wall
 * **Phase 2**
-  * Warrior: MA40 Assault Rifle, MK50 Sidekick, Frag Grenades, Drop Wall
-  * Operator: CQS48 Bulldog, Frag Grenades, Quantum Translocator
-  * Skirmisher: VK78 Commando, MA5K Avenger, Frag Grenades, Thruster
+ * Warrior: MA40 Assault Rifle, MK50 Sidekick, Frag Grenades, Drop Wall
+ * Operator: CQS48 Bulldog, Frag Grenades, Quantum Translocator
+ * Skirmisher: VK78 Commando, MA5K Avenger, Frag Grenades, Thruster
 * **Phase 3**
-  * Headhunter: BR75, VK78 Commando, Frag Grenades, Shroud Screen
-  * Healer: CQS48 Bulldog, MK50 Sidekick, Frag Grenades, Repair Field
-  * Marksman: Bandit Evo, MA40 Assault Rifle, Frag Grenades, Grappleshot
-  * Sentinel: VK78 Commando, MA5K Avenger, Frag Grenades, Thruster
-  * Heavy: MLRS-2 Hydra, MA40 Assault Rifle, Frag Grenades, Overshield
+ * Headhunter: BR75, VK78 Commando, Frag Grenades, Shroud Screen
+ * Healer: CQS48 Bulldog, MK50 Sidekick, Frag Grenades, Repair Field
+ * Marksman: Bandit Evo, MA40 Assault Rifle, Frag Grenades, Grappleshot
+ * Sentinel: VK78 Commando, MA5K Avenger, Frag Grenades, Thruster
+ * Heavy: MLRS-2 Hydra, MA40 Assault Rifle, Frag Grenades, Overshield
 
 #### Banished Loadouts
 
 * **Phase 1**
-  * Sentry: Mangler, Spike Grenades, Thruster
-  * Scout: Needler, Plasma Grenades, Active Camo
+ * Sentry: Mangler, Spike Grenades, Thruster
+ * Scout: Needler, Plasma Grenades, Active Camo
 * **Phase 2**
-  * Marksman: Vestige Carbine, Plasma Pistol, Spike Grenades, Repulsor
-  * Hunter: Heatwave, Spike Grenades, Drop Wall
-  * Sapper: Ravager, Needler, Plasma Grenades, Thruster
+ * Marksman: Vestige Carbine, Plasma Pistol, Spike Grenades, Repulsor
+ * Hunter: Heatwave, Spike Grenades, Drop Wall
+ * Sapper: Ravager, Needler, Plasma Grenades, Thruster
 * **Phase 3**
-  * Headhunter: Bandit Evo, Pulse Carbine, Spike Grenade, Grappleshot
-  * Warrior: CQS48 Bulldog, Mangler, Spike Grenade, Threat Sensor
-  * Sentinel: Sentinel Beam, Vestige Carbine, Spike Grenade, Repulsor
-  * Medic: Pulse Carbine, MA40 Assault Rifle, Spike Grenade, Repair Field
-  * Dark Assassin: Duelist Energy Sword, Disruptor, Plasma Grenades, Active Camo
+ * Headhunter: Bandit Evo, Pulse Carbine, Spike Grenade, Grappleshot
+ * Warrior: CQS48 Bulldog, Mangler, Spike Grenade, Threat Sensor
+ * Sentinel: Sentinel Beam, Vestige Carbine, Spike Grenade, Repulsor
+ * Medic: Pulse Carbine, MA40 Assault Rifle, Spike Grenade, Repair Field
+ * Dark Assassin: Duelist Energy Sword, Disruptor, Plasma Grenades, Active Camo
 
 ### Buddy Spawning
 
@@ -87,13 +87,15 @@ Each module requires specific labels to identify its items and objectives.
 * **Site Plate:** Assault Plate
 * **Bomb Spawn:** Assault Bomb Spawn
 
-<figure><img src="../../.gitbook/assets/image-3206.png" alt="Assault Setup Brain"><figcaption><p>This node setup handles the logic for the Assault module.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-6398.webp" alt="On Map Events Brain"><figcaption><p>The On Map Events Brain for the Assault module manages custom event triggers.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-3a1c.webp" alt="Brain 2"><figcaption><p>This second brain node setup provides additional logic for the Assault module.</p></figcaption></figure>
 
 #### Zone Capture Module
 * **All Zone Capture Items:** Alpha
 * **Generic Hills:** King of the Hill Zone
 
-<figure><img src="../../.gitbook/assets/image-720f.png" alt="Zone Capture Setup Brain"><figcaption><p>The logic for the Zone Capture module manages capture site properties.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-11ad.webp" alt="Zone Capture Setup"><figcaption><p>This setup shows the object properties for the Zone Capture module.</p></figcaption></figure>
 
 #### Payload Module
 * **All Payload Mode Items:** Delta
@@ -102,7 +104,7 @@ Each module requires specific labels to identify its items and objectives.
 * **Payload Cart:** Xray
 * **Payload Totem:** Tango
 
-<figure><img src="../../.gitbook/assets/image-e16e.png" alt="Payload Setup Brain"><figcaption><p>This node setup manages the parameters for the Payload module.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-41c2.webp" alt="Payload Setup Brain"><figcaption><p>This node setup manages the parameters for the Payload module.</p></figcaption></figure>
 
 #### Core Delivery Module
 * **All Core Delivery Items:** Charlie
@@ -130,15 +132,21 @@ Grenades and equipment are tied to player loadouts rather than map spawns. Howev
 
 The Invasion mode automatically fires "On Map Events," which map creators can use to trigger custom functions or map-specific logic.
 
-<figure><img src="../../.gitbook/assets/image-5efc.png" alt="On Map Events Brain"><figcaption><p>The On Map Events Brain manages the execution of custom events.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.webp" alt="Brain 1"><figcaption><p>The first brain node setup is used to manage custom map events.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image-2269.png" alt="Brain 1"><figcaption><p>The first brain node setup is used to manage custom map events.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-ebdf.webp" alt="Brain 2"><figcaption><p>The second brain node setup provides additional event handling.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image-3bf6.png" alt="Brain 2"><figcaption><p>The second brain node setup provides additional event handling.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-b878.webp" alt="Brain 3"><figcaption><p>The third brain node setup manages map-specific triggers.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image-6d49.png" alt="Brain 3"><figcaption><p>The third brain node setup manages map-specific triggers.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-238d.webp" alt="Brain 4"><figcaption><p>The fourth brain node setup enables unique map functions.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image-c365.png" alt="Brain 4"><figcaption><p>The fourth brain node setup enables unique map functions.</p></figcaption></figure>
+### Custom Player-Defined Phases
+
+Players can create custom phases using specific events built into the Invasion logic. There are three custom modules available: Echo (Custom Module 1), Foxtrot (Custom Module 2), and Golf (Custom Module 3).
+
+The mode determines the next phase by searching for objects with labels assigned to that phase's spawn order. If an object list contains more than zero objects, that list is collected to set the module ID, and the module's start event is called. Each module in Invasion is structured similarly; a custom module begins with a top function in a script brain and ends when the creator calls a specific function in their custom script's win condition.
+
+To activate a module once it is triggered, creators use an `on map event`. To signal that the custom phase is over, the creator must call the `Custom.AdvanceToNextPhase()` event. Upon this call, Invasion increases the attacker score and begins the process for the next phase.
 
 ***
 
