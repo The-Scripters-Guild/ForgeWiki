@@ -1251,6 +1251,7 @@
 ## Community
 
 * [Content](community/content/README.md)
+  * [(test4, ignore) How to slow down player movement speed?](community/content/test4-ignore-how-to-slow-down-player-movement-speed.md)
   * [Map/Mode Setup](community/content/map-mode-setup/README.md)
     * [tsg gamemodes](community/content/map-mode-setup/tsg-gamemodes.md)
     * [tsg sandbox](community/content/map-mode-setup/tsg-sandbox.md)
