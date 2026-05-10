@@ -109,6 +109,13 @@ Each module requires specific labels to identify its items and objectives.
 * **Generic Flag:** Flag Stand Spawner
 * **Capture Plate:** Flag Delivery Plate
 
+To ensure the module functions correctly, the object's spawn order must match the phase in which the Core Delivery module is being used.
+
+<figure><img src="../../.gitbook/assets/image-36b4.webp" alt="Core Delivery Properties"><figcaption><p>The object properties for the core include specific configuration settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-4556.webp" alt="Core Delivery Properties"><figcaption><p>These properties define the parameters for the core delivery module.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-790b.webp" alt="Core Delivery Flag"><figcaption><p>The flag setup uses specific labels to identify the flag stand spawner.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-9612.webp" alt="Core Delivery Capture Plate"><figcaption><p>The capture plate properties are used to manage the delivery of the core.</p></figcaption></figure>
+
 ### Vehicle Configuration
 
 Vehicles should be placed using a vehicle object rather than a classic or vehicle spawner. They do not require Invasion-specific labels and do not use waypoints. To set up vehicles, assign the appropriate Spawn Order (1, 2, or 3) for the intended phase and set the Respawn property to "Off."
@@ -139,6 +146,43 @@ The Invasion mode automatically fires "On Map Events," which map creators can us
 <figure><img src="../../.gitbook/assets/image-6d49.png" alt="Brain 3"><figcaption><p>The third brain node setup manages map-specific triggers.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image-c365.png" alt="Brain 4"><figcaption><p>The fourth brain node setup enables unique map functions.</p></figcaption></figure>
+
+## Custom Player-Defined Phases
+
+Players can create custom phases by using the built-in custom modules. These modules allow for the definition of unique invasion content within a match.
+
+* **Custom Modules:**
+  * Echo: Custom Module 1
+  * Foxtrot: Custom Module 2
+  * Golf: Custom Module 3
+
+<figure><img src="../../.gitbook/assets/image-f996.webp" alt="Custom Modules"><figcaption><p>The Echo, Foxtrot, and Golf labels allow for the definition of custom invasion content.</p></figcaption></figure>
+
+The mode identifies the next phase by searching for all objects with labels at the spawn order of that phase. If any objects are found, the system sets the module ID and calls the start event for that module.
+
+<figure><img src="../../.gitbook/assets/image-1901.webp" alt="Phase Flow Logic"><figcaption><p>The system identifies the next module by searching for objects with specific labels at the current phase's spawn order.</p></figcaption></figure>
+
+A custom module begins with the top function found in a script brain on the map and ends when the forger calls a lower function through a custom win condition script. To signal that a custom phase is complete, map creators must use an "On Map Event" to call the `Custom.AdvanceToNextPhase()` event.
+
+<figure><img src="../../.gitbook/assets/image-e503.webp" alt="Phase Advancement"><figcaption><p>Creators can use an on map event to call the Custom.AdvanceToNextPhase() event to signal phase completion.</p></figcaption></figure>
+
+## Source Images
+
+<figure><img src="../../.gitbook/assets/image.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-3a54.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-d853.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-5418.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-1c95.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-d61d.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-5af9.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image-b62f.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
 
 ***
 
