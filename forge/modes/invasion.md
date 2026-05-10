@@ -166,24 +166,6 @@ A custom module begins with the top function found in a script brain on the map 
 
 <figure><img src="../../.gitbook/assets/image-e503.webp" alt="Phase Advancement"><figcaption><p>Creators can use an on map event to call the Custom.AdvanceToNextPhase() event to signal phase completion.</p></figcaption></figure>
 
-## Source Images
-
-<figure><img src="../../.gitbook/assets/image.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-3a54.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-d853.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-5418.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-1c95.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-d61d.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-5af9.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image-b62f.webp" alt="Invasion source image"><figcaption><p>Illustrates a setup or result relevant to Invasion and the workflow described in this article.</p></figcaption></figure>
-
 ***
 
 ## Source Data
