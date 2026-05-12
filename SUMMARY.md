@@ -1272,6 +1272,7 @@
     * [tsg radial](community/content/scripting-tools/tsg-radial.md)
     * [tsg ai totems and kill tokens](community/content/scripting-tools/tsg-ai-totems-and-kill-tokens.md)
   * [Assets and Kits](community/content/assets-and-kits/README.md)
+    * [Conveyor Belt Push](community/content/assets-and-kits/conveyor-belt-push.md)
     * [tsg botsDriveVehicles](community/content/assets-and-kits/tsg-botsdrivevehicles.md)
     * [tsg grantVehicleWeapon](community/content/assets-and-kits/tsg-grantvehicleweapon.md)
     * [tsg haloRing](community/content/assets-and-kits/tsg-haloring.md)
