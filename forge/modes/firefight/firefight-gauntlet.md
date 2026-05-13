@@ -1,12 +1,12 @@
 ---
 description: >-
-  A cooperative Firefight mode where four players survive five battle
-  arenas by defeating champions and managing AI aggression.
+  A cooperative Firefight mode where four players survive five battle arenas by
+  defeating champions and managing AI aggression.
 ---
 
 # Firefight: Gauntlet
 
-<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Gauntlet-playlist-artwork.webp" alt="Cover image"><figcaption></figcaption></figure>
 
 Firefight: Gauntlet is a high-intensity cooperative mode where four players must navigate a series of five battle arena simulations. Players progress through these arenas by defeating waves of enemies and arena champions, managing their resources and attributes to survive increasing difficulty.
 
@@ -60,6 +60,7 @@ Different types of power equipment provide unique tactical advantages and drawba
 #### Randomization Elements
 
 To ensure varied gameplay, several elements are randomized each match:
+
 * The order of the five battle arenas.
 * The types of enemy waves encountered.
 * The specific champions present in each arena (champions may use Active Camo to remain hidden).
@@ -82,9 +83,11 @@ Two Forge maps are specifically designed for compatibility with the Gauntlet mod
 ## Known Issues
 
 ### Menus
+
 * Certain stats in the Post-Game Carnage Report (PGCR) scoreboard, such as Rounds Won, Max Killing Spree, Grenade Kills, Headshot Kills, Melee Kills, and Power Weapon Kills, may display a value of “0” after a match.
 
 ### Gameplay
+
 * Players joining a match already in progress will start with only 1 upgrade point.
 * Long Gamertags may overlap when viewing the “Enemy AI Aggro” status.
 * Players may occasionally become temporarily stuck in place; movement typically restores after a few seconds.

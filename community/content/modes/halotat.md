@@ -1,7 +1,7 @@
 ---
 description: >-
-  A fast-paced, best-of-three round combat mode for Halo Infinite
-  inspired by STRAFTAT.
+  A fast-paced, best-of-three round combat mode for Halo Infinite inspired by
+  STRAFTAT.
 ---
 
 # HALOTAT
@@ -22,7 +22,7 @@ The gameplay experience is centered around high-speed interaction with the envir
 
 To facilitate wall jumping, the system can utilize raycasting directed at the sides of the player. If the raycast detects a hit with a static surface, an invisible platform can be placed momentarily beneath the player to enable a jump.
 
-<figure><img src="../../../.gitbook/assets/circlejump-0cef.webp" alt="Wall jumping movement"><figcaption><p>The circle jump demonstrates a method for performing wall-based jumps.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/circlejump.webp" alt="Wall jumping movement"><figcaption><p>The circle jump demonstrates a method for performing wall-based jumps.</p></figcaption></figure>
 
 Additionally, developers have explored the possibility of creating low-friction surfaces, similar to ice-themed maps, to enhance sliding mechanics, though the reliability of such surfaces may be limited.
 
@@ -38,7 +38,7 @@ To introduce variety into each match, spawning groups can be randomized. This is
 
 <figure><img src="../../../.gitbook/assets/image-afff.webp" alt="Spawning script brain"><figcaption><p>This script brain shows a method for managing spawn sequences.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image-d81b.webp" alt="Script error display"><figcaption><p>A script brain displays a warning regarding undeclared identifiers.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-78e3.webp" alt="Script error display"><figcaption><p>A script brain displays a warning regarding undeclared identifiers.</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-a9e1.webp" alt="Complex spawn logic"><figcaption><p>Several script brains work together to manage complex spawning and zone transitions.</p></figcaption></figure>
 
@@ -46,7 +46,7 @@ To introduce variety into each match, spawning groups can be randomized. This is
 Using scripts to manage spawn sequencing may result in race conditions unless the scripts are injected into the existing spawn initialization process.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image-fa68.webp" alt="Gameplay view of spawns"><figcaption><p>Players are shown at spawn points within a configured match environment.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-939c.webp" alt="Gameplay view of spawns"><figcaption><p>Players are shown at spawn points within a configured match environment.</p></figcaption></figure>
 
 ### Playlist and Prefab Organization
 
@@ -66,7 +66,7 @@ To improve the user experience in multi-team or FFA scenarios, a multi-team spec
 
 #### <mark style="color:green;">Contributors</mark>
 
-Aimless_E\
+Aimless\_E\
 Deathcrawller\
 Frogwyn\
 Okom

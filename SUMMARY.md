@@ -122,7 +122,6 @@
     * [Kill Zones](forge/gameplay/containment/kill-zones.md)
     * [Safe Volumes](forge/gameplay/containment/safe-volumes.md)
 * [Modes](forge/modes/README.md)
-  * [Invasion](forge/modes/invasion.md)
   * [Slayer](forge/modes/slayer.md)
   * [Capture The Flag](forge/modes/capture-the-flag/README.md)
     * [Standard CTF](forge/modes/capture-the-flag/standard-ctf.md)
@@ -138,7 +137,9 @@
     * [Firefight KOTH](forge/modes/firefight/firefight-koth/README.md)
       * [Mode Options](forge/modes/firefight/firefight-koth/mode-options.md)
     * [Firefight Custom](forge/modes/firefight/firefight-custom.md)
+    * [Firefight: Gauntlet](forge/modes/firefight/firefight-gauntlet.md)
   * [Infection](forge/modes/infection.md)
+  * [Invasion](forge/modes/invasion.md)
   * [Land Grab](forge/modes/land-grab.md)
   * [Attrition](forge/modes/attrition/README.md)
     * [Dodgeball](forge/modes/attrition/dodgeball.md)
@@ -220,8 +221,8 @@
     * [Squad Battle](forge/standards/mode-setup/squad-battle.md)
     * [Free For All](forge/standards/mode-setup/free-for-all.md)
   * [Map Requirements](forge/standards/map-requirements.md)
-
   * [Object Limits](forge/standards/object-limits.md)
+
 ## Scripting
 
 * [Scripting Basics and UI](scripting/scripting-basics-and-ui/README.md)
@@ -1097,8 +1098,8 @@
     * [Switches](scripting/scriptable-objects/interactable-objects/switches.md)
     * [Power Sockets](scripting/scriptable-objects/interactable-objects/power-sockets.md)
   * [Generic Game Mode Objects](scripting/scriptable-objects/generic-game-mode-objects.md)
-
   * [Making any Prefab into a Mode Prefab](scripting/scriptable-objects/making-any-prefab-into-a-mode-prefab.md)
+
 ## UGC
 
 * [Metadata and File Management](ugc/metadata-and-file-management/README.md)
@@ -1283,19 +1284,17 @@
     * [tsg hackSwitch](community/content/assets-and-kits/tsg-hackswitch.md)
     * [tsg lootCaves](community/content/assets-and-kits/tsg-lootcaves.md)
   * [Modes](community/content/modes/README.md)
-    * [Firefight: Gauntlet](community/content/modes/firefight-gauntlet.md)
     * [HALOTAT](community/content/modes/halotat.md)
-    * [TSG Modes](community/content/modes/tsg-modes/README.md)
-      * [Fiesta++](community/content/modes/tsg-modes/fiesta++/README.md)
-        * [Thicc Raid](community/content/modes/tsg-modes/fiesta++/thicc-raid.md)
-      * [Kill Confirmed](community/content/modes/tsg-modes/kill-confirmed/README.md)
-        * [Tag-N-Bag](community/content/modes/tsg-modes/kill-confirmed/tag-n-bag.md)
-      * [Headhunter](community/content/modes/tsg-modes/headhunter.md)
-      * [Havens](community/content/modes/tsg-modes/havens.md)
-      * [Conquest](community/content/modes/tsg-modes/conquest.md)
-      * [Sportsball](community/content/modes/tsg-modes/sportsball.md)
-      * [Warzone Fiesta](community/content/modes/tsg-modes/warzone-fiesta/README.md)
-        * [Supported Maps](community/content/modes/tsg-modes/warzone-fiesta/supported-maps.md)
+    * [Fiesta++](community/content/modes/fiesta++/README.md)
+      * [Thicc Raid](community/content/modes/fiesta++/thicc-raid.md)
+    * [Kill Confirmed](community/content/modes/kill-confirmed/README.md)
+      * [Tag-N-Bag](community/content/modes/kill-confirmed/tag-n-bag.md)
+    * [Headhunter](community/content/modes/headhunter.md)
+    * [Conquest](community/content/modes/conquest.md)
+    * [Havens](community/content/modes/havens.md)
+    * [Sportsball](community/content/modes/sportsball.md)
+    * [Warzone Fiesta](community/content/modes/warzone-fiesta/README.md)
+      * [Supported Maps](community/content/modes/warzone-fiesta/supported-maps.md)
     * [Bot Backfill Modes](community/content/modes/bot-backfill-modes.md)
     * [Mode Functionality Test Modes](community/content/modes/mode-functionality-test-modes.md)
     * [Multi-Team Modes](community/content/modes/multi-team-modes.md)
