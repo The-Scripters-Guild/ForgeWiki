@@ -1283,6 +1283,7 @@
     * [tsg hackSwitch](community/content/assets-and-kits/tsg-hackswitch.md)
     * [tsg lootCaves](community/content/assets-and-kits/tsg-lootcaves.md)
   * [Modes](community/content/modes/README.md)
+    * [Firefight: Gauntlet](community/content/modes/firefight-gauntlet.md)
     * [HALOTAT](community/content/modes/halotat.md)
     * [TSG Modes](community/content/modes/tsg-modes/README.md)
       * [Fiesta++](community/content/modes/tsg-modes/fiesta++/README.md)
