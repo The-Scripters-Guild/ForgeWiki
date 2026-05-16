@@ -1098,7 +1098,6 @@
     * [Switches](scripting/scriptable-objects/interactable-objects/switches.md)
     * [Power Sockets](scripting/scriptable-objects/interactable-objects/power-sockets.md)
   * [Generic Game Mode Objects](scripting/scriptable-objects/generic-game-mode-objects.md)
-  * [Making any Prefab into a Mode Prefab](scripting/scriptable-objects/making-any-prefab-into-a-mode-prefab.md)
 
 ## UGC
 
