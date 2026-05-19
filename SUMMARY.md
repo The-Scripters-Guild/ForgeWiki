@@ -121,6 +121,7 @@
     * [Blockers](forge/gameplay/containment/blockers.md)
     * [Kill Zones](forge/gameplay/containment/kill-zones.md)
     * [Safe Volumes](forge/gameplay/containment/safe-volumes.md)
+  * [Test Thread](forge/gameplay/test-thread.md)
 * [Modes](forge/modes/README.md)
   * [Slayer](forge/modes/slayer.md)
   * [Capture The Flag](forge/modes/capture-the-flag/README.md)
