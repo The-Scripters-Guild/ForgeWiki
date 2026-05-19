@@ -1302,6 +1302,7 @@
   * [External Resources](community/content/external-resources/README.md)
     * [Other Halo/Forge Wikis](community/content/external-resources/other-halo-forge-wikis.md)
   * [Misc Content](community/content/misc-content/README.md)
+    * [Dynamic object follows player?](community/content/misc-content/dynamic-object-follows-player.md)
     * [Getting a Map In Matchmaking](community/content/misc-content/getting-a-map-in-matchmaking/README.md)
       * [Matchmaking Forger Discord Server](community/content/misc-content/getting-a-map-in-matchmaking/matchmaking-forger-discord-server.md)
     * [Invalid Flagged Strings](community/content/misc-content/invalid-flagged-strings.md)
