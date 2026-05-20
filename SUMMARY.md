@@ -1191,6 +1191,7 @@
     * [Gravity Hammer Swing Detection](knowledge/scripting/guides-and-info/gravity-hammer-swing-detection.md)
     * [Node Pin Has Too Many Connections Error](knowledge/scripting/guides-and-info/node-pin-has-too-many-connections-error.md)
     * [Patterns](knowledge/scripting/guides-and-info/patterns/README.md)
+      * [Make Object Follow Player While in Zone](knowledge/scripting/guides-and-info/patterns/make-object-follow-player-while-in-zone.md)
       * [Telefragging](knowledge/scripting/guides-and-info/patterns/telefragging.md)
       * [Checking Object Types](knowledge/scripting/guides-and-info/patterns/patterns-checking-object-types.md)
       * [Deleting Dropped Weapons Using Scripts](knowledge/scripting/guides-and-info/patterns/deleting-dropped-weapons-using-scripts.md)
