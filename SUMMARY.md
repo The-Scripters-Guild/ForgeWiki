@@ -812,6 +812,7 @@
     * [Reset Stopwatch](scripting/nodes/stopwatches/reset-stopwatch.md)
     * [Restart Stopwatch](scripting/nodes/stopwatches/restart-stopwatch.md)
     * [Start Stopwatch](scripting/nodes/stopwatches/start-stopwatch.md)
+  * [Test Node Image Filtering](scripting/nodes/test-node-image-filtering.md)
   * [Traits](scripting/nodes/traits/README.md)
     * [Apply Trait Set](scripting/nodes/traits/apply-trait-set.md)
     * [Apply Trait Set For Seconds](scripting/nodes/traits/apply-trait-set-for-seconds.md)
