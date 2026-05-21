@@ -1189,6 +1189,7 @@
     * [Creating an Equipment Object Reference with Mode Scripting](knowledge/scripting/guides-and-info/creating-an-equipment-object-reference-with-mode-scripting.md)
     * [Granting Four Weapons to Players](knowledge/scripting/guides-and-info/granting-four-weapons-to-players.md)
     * [Gravity Hammer Swing Detection](knowledge/scripting/guides-and-info/gravity-hammer-swing-detection.md)
+    * [Make Object Follow Player While in Zone](knowledge/scripting/guides-and-info/make-object-follow-player-while-in-zone.md)
     * [Node Pin Has Too Many Connections Error](knowledge/scripting/guides-and-info/node-pin-has-too-many-connections-error.md)
     * [Patterns](knowledge/scripting/guides-and-info/patterns/README.md)
       * [Telefragging](knowledge/scripting/guides-and-info/patterns/telefragging.md)
