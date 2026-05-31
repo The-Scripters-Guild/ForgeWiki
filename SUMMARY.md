@@ -1187,6 +1187,7 @@
 * [Scripting](knowledge/scripting/README.md)
   * [Guides and Info](knowledge/scripting/guides-and-info/README.md)
     * [Creating an Equipment Object Reference with Mode Scripting](knowledge/scripting/guides-and-info/creating-an-equipment-object-reference-with-mode-scripting.md)
+    * [Find Desired Amount of Furthest Away Objects From Each Other](knowledge/scripting/guides-and-info/find-desired-amount-of-furthest-away-objects-from-each-other.md)
     * [Granting Four Weapons to Players](knowledge/scripting/guides-and-info/granting-four-weapons-to-players.md)
     * [Gravity Hammer Swing Detection](knowledge/scripting/guides-and-info/gravity-hammer-swing-detection.md)
     * [Line of Sight (LoS) Within Proximity to Enemy](knowledge/scripting/guides-and-info/line-of-sight-los-within-proximity-to-enemy.md)
