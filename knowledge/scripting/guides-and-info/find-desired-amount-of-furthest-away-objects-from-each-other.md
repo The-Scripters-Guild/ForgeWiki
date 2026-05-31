@@ -43,15 +43,11 @@ To ensure the algorithm correctly identifies the most isolated candidate, variab
 | Variable | Reset Value | When to Reset | Purpose |
 | :--- | :--- | :--- | :--- |
 | `Max Min Distance` | `0` | Start of the **Main Loop** | Tracks the largest "safety buffer" found during the current selection round. |
-| `Min Distance` | `999999` | Start of the **Outer Loop** | Tracks the distance to the closest neighbor for the current candidate. |
+| `Min Distance` | `10000` | Start of the **Outer Loop** | Tracks the distance to the closest neighbor for the current candidate. |
 
 {% hint style="info" %}
-Using a very high number (like `999999`) for the initial `Min Distance` ensures that the first distance calculated for a new candidate will always be smaller than the starting value.
+Using a very high number (like `10000`) for the initial `Min Distance` ensures that the first distance calculated for a new candidate will always be smaller than the starting value.
 {% endhint %}
-
-## Performance Considerations
-
-Because this approach utilizes three levels of nested loops, it can be performance-heavy if the total number of objects is high. To mitigate potential frame drops, it is recommended to run this logic once during a loading phase or at the start of a match rather than on a continuous tick.
 
 ***
 
