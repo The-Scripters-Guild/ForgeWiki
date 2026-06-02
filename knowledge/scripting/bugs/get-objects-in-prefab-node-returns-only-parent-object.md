@@ -54,5 +54,4 @@ If User Labels are not suitable for a specific implementation, other more manual
 Riveringston\
 Artifice\
 green\
-Okom\
-Guild Archivist
+Okom
