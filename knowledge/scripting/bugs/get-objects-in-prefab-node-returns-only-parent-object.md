@@ -1,47 +1,45 @@
 ---
 description: >-
-  I have only noticed this problem when using object transform
-  commands so far however I haven't tested it more extensively yet. I
-  don't have related footage ATM so I'll write it down. Example
-  script:
+  Describes a behavior where object transform nodes only affect the
+  parent object when using Get Objects In Prefab in Custom Games.
 ---
 
 # Get Objects In Prefab Node Returns Only Parent Object
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-When using the [Get Objects In Prefab](../../../scripting/nodes/objects/get-objects-in-prefab.md) node in Custom Games, object transformation nodes may only successfully move or rotate the parent object of the prefab. While the node correctly identifies and returns all constituent objects within the prefab, subsequent transformation commands often fail to apply to the child objects.
+When running in Custom Games, using the [Get Objects In Prefab](../../../scripting/nodes/objects/get-objects-in-prefab.md) node with object transformation commands may result in only the parent object being moved, even though the node successfully returns all child objects in the list.
 
-## Observed Behavior
+## Transform Behavior Discrepancy
 
-The issue appears to be a discrepancy in how object transformations are handled between Forge mode and Custom Games. In Forge mode, transformations applied to objects retrieved via a prefab function as expected, affecting all objects in the list. However, in Custom Games, these same transformations may only affect the parent object.
+There is a documented discrepancy between how object transformations behave in Forge mode versus Custom Games when utilizing the `Get Objects In Prefab` node. While the node functions as intended by returning a list of all objects within the specified prefab, the subsequent transformation nodes may fail to apply to the individual children.
 
-### Discrepancy Between Forge and Custom Games
+### Forge vs. Custom Games
 
-It is important to note that the `Get Objects In Prefab` node itself continues to return the correct list of objects. This has been observed in instances where other properties, such as spawn order, are set on the retrieved objects; the system correctly identifies and applies these changes to the full list of children.
+In Forge mode, object transform commands (such as "Move Object to Point") applied to the results of `Get Objects In Prefab` function as expected, moving all objects in the prefab simultaneously.
 
-The failure is specific to the interaction between the retrieved child objects and object transformation nodes (such as `Move Object to Point`) when running in a Custom Game environment. This behavior has been reported as occurring following the May update.
+However, in Custom Games, these same transformation nodes appear to only affect the parent object. This behavior has been observed following the May update. It is important to note that the node is still correctly identifying and returning the child objects; for instance, commands like "Set Spawn Order" may still work on the entire list, but transformations and translations do not.
 
-{% hint style="warning" %}
-This behavior may not be present when testing in Forge mode. Always verify script behavior in a Custom Game environment to ensure transformations are applying to all intended objects.
-{% endhint %}
+## Recommended Workarounds
 
-## Workarounds
-
-Several methods can be used to ensure that all objects within a prefab are correctly transformed in Custom Games.
+Because the transformation system in Custom Games may not properly subscribe child objects to movement commands when they are accessed via a prefab, developers can use alternative methods to target these objects.
 
 ### Using User Labels
 
-A highly effective workaround involves applying a User Label to the prefab itself. When a User Label is applied to a prefab, that label is automatically applied to every object contained within the prefab.
+The most efficient workaround involves the use of User Labels. Applying a User Label to a prefab automatically applies that label to every object contained within that prefab.
 
-Applying these labels appears to ensure that the child objects are properly subscribed to the systems responsible for transformations and translations. Once the objects are labeled, transformation nodes should function correctly on all constituent parts of the prefab in Custom Games.
+{% hint style="info" %}
+Applying a User Label to a prefab is a highly effective way to ensure all constituent objects are correctly registered for transformations in Custom Games.
+{% endhint %}
 
-### Manual Reference Methods
+By assigning a label to the prefab, you can then use label-based logic to target the objects, which allows the transformation nodes to function correctly on all parts of the prefab in a Custom Game environment.
 
-If User Labels are not suitable for a specific implementation, other more manual methods can be used to ensure children are transformed:
+### Alternative Implementation Methods
 
-* **Explicit Object Lists:** Manually declaring an object list to hold the specific objects intended for transformation. While this ensures the transformations work, it can increase the complexity and "bulk" of the script.
-* **Script Brain References:** Assigning an object reference within the script brain to every individual object inside the prefab. This ensures the script has a direct connection to each child, though it is considered a more cumbersome implementation.
+If User Labels are not suitable for a specific script, other methods can be used, though they may increase the complexity of the logic:
+
+* **Object Lists:** Declaring and maintaining an explicit object list. While functional, this can add significant bulk to a script.
+* **Direct Object References:** Ensuring every object within the prefab has a direct object reference in the script brain. This is noted to be a more "clunky" implementation compared to labeling.
 
 ***
 
@@ -54,4 +52,6 @@ If User Labels are not suitable for a specific implementation, other more manual
 Riveringston\
 Artifice\
 green\
-Okom
+Okom\
+AddiCt3d 2CHa0s 🎮 💻\
+Guild Archivist
