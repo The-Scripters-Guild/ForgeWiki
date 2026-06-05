@@ -61,5 +61,5 @@ Riveringston\
 Artifice\
 green\
 Okom\
-AddiCt3d 2CHa0s 🎮 💻\
+AddiCt3d 2CHa0s\
 Cookies
