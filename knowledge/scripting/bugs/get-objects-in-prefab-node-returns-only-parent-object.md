@@ -20,6 +20,12 @@ The issue appears to be a discrepancy in how object transformations are handled 
 
 It is important to note that the `Get Objects In Prefab` node itself continues to return the correct list of objects. This has been observed in instances where other properties, such as spawn order, are set on the retrieved objects; the system correctly identifies and applies these changes to the full list of children.
 
+Testing has revealed several nuances regarding this behavior in Custom Games:
+
+* **List Integrity:** The returned list size is accurate (verifiable via [Get List Size](../../../scripting/nodes/objects/get-list-size.md)), and objects can be successfully cast to the object type.
+* **Validity Discrepancies:** Some objects within the returned list may return `FALSE` when checked with the [Get Is Valid Object](../../../scripting/nodes/objects/get-is-valid-object.md) node, even if they are present in the list and can be cast to objects.
+* **Direct Access Failure:** Attempting to move a specific child object directly using the [Get Object At Index](../../../scripting/nodes/objects/get-object-at-index.md) node also fails to move the child in Custom Games, mirroring the failure of the loop-based approach.
+
 The failure is specific to the interaction between the retrieved child objects and object transformation nodes (such as `Move Object to Point`) when running in a Custom Game environment. This behavior has been reported as occurring following the May update.
 
 {% hint style="warning" %}
@@ -54,4 +60,6 @@ If User Labels are not suitable for a specific implementation, other more manual
 Riveringston\
 Artifice\
 green\
-Okom
+Okom\
+AddiCt3d 2CHa0s 🎮 💻\
+Cookies
