@@ -1,9 +1,8 @@
 ---
 description: >-
-  I have only noticed this problem when using object transform
-  commands so far however I haven't tested it more extensively yet. I
-  don't have related footage ATM so I'll write it down. Example
-  script:
+  In Custom Games, transformations applied to objects retrieved via
+  Get Objects In Prefab may only affect the parent object instead of
+  all constituent parts.
 ---
 
 # Get Objects In Prefab Node Returns Only Parent Object
@@ -14,7 +13,7 @@ When using the [Get Objects In Prefab](../../../scripting/nodes/objects/get-obje
 
 ## Observed Behavior
 
-The issue appears to be a discrepancy in how object transformations are handled between Forge mode and Custom Games. In Forge mode, transformations applied to objects retrieved via a prefab function as expected, affecting all objects in the list. However, in Custom Games, these same transformations may only affect the parent object.
+The issue appears to be a discrepancy in how object transformations are handled between Forge mode and Custom Games. In Forge mode, transformations applied to objects retrieved via a prefab function as expected, affecting all objects in the list. However, in Custom Games, these same transformations may only affect the parent object. This behavior has been reported as occurring following the May update.
 
 ### Discrepancy Between Forge and Custom Games
 
@@ -26,7 +25,7 @@ Testing has revealed several nuances regarding this behavior in Custom Games:
 * **Validity Discrepancies:** Some objects within the returned list may return `FALSE` when checked with the [Get Is Valid Object](../../../scripting/nodes/objects/get-is-valid-object.md) node, even if they are present in the list and can be cast to objects.
 * **Direct Access Failure:** Attempting to move a specific child object directly using the [Get Object At Index](../../../scripting/nodes/objects/get-object-at-index.md) node also fails to move the child in Custom Games, mirroring the failure of the loop-based approach.
 
-The failure is specific to the interaction between the retrieved child objects and object transformation nodes (such as `Move Object to Point`) when running in a Custom Game environment. This behavior has been reported as occurring following the May update.
+The failure is specific to the interaction between the retrieved child objects and object transformation nodes (such as `Move Object to Point`) when running in a Custom Game environment.
 
 {% hint style="warning" %}
 This behavior may not be present when testing in Forge mode. Always verify script behavior in a Custom Game environment to ensure transformations are applying to all intended objects.
@@ -41,6 +40,10 @@ Several methods can be used to ensure that all objects within a prefab are corre
 A highly effective workaround involves applying a User Label to the prefab itself. When a User Label is applied to a prefab, that label is automatically applied to every object contained within the prefab.
 
 Applying these labels appears to ensure that the child objects are properly subscribed to the systems responsible for transformations and translations. Once the objects are labeled, transformation nodes should function correctly on all constituent parts of the prefab in Custom Games.
+
+### Label Swapping (Refreshing)
+
+If a prefab is not responding to transformations, you can attempt to "refresh" it by toggling a User Label. Swapping a single label slot (for example, switching from `None` to a specific label and then back to `None`) on the prefab's parent can sometimes force the system to correctly subscribe the constituent objects to transformation and translation systems.
 
 ### Manual Reference Methods
 
@@ -62,4 +65,5 @@ Artifice\
 green\
 Okom\
 AddiCt3d 2CHa0s\
-Cookies
+Cookies\
+AddiCt3d 2CHa0s 🎮 💻
