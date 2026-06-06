@@ -1172,6 +1172,7 @@
     * [Mitigating Z-Fighting With Objects](knowledge/forge/guides-and-info/mitigating-z-fighting-with-objects.md)
   * [Bugs](knowledge/forge/bugs/README.md)
     * [0.7 Degree Rotation Bug](knowledge/forge/bugs/0.7-degree-rotation-bug.md)
+    * [Find Desired Amount of Furthest Away Objects From Each Other](knowledge/forge/bugs/find-desired-amount-of-furthest-away-objects-from-each-other.md)
     * [Incorrect Object Visual Model Scaling Bug](knowledge/forge/bugs/incorrect-object-visual-model-scaling-bug.md)
     * [Static Universal Blockers Have Inconsistent Collision With Gamemode Objects](knowledge/forge/bugs/static-universal-blockers-have-inconsistent-collision-with-gamemode-objects.md)
     * [Interaction With Small Objects That Have a Complex Collision Mesh Causes Performance Loss](knowledge/forge/bugs/interaction-with-small-objects-that-have-a-complex-collision-mesh-causes-performance-loss.md)
