@@ -1,9 +1,8 @@
 ---
 description: >-
-  I have only noticed this problem when using object transform
-  commands so far however I haven't tested it more extensively yet. I
-  don't have related footage ATM so I'll write it down. Example
-  script:
+  In Custom Games, retrieving objects via the
+  Get Objects In Prefab node may only affect the parent object instead of
+  all constituent parts. A simple fix is available.
 ---
 
 # Get Objects In Prefab Node Returns Only Parent Object
@@ -69,5 +68,4 @@ Artifice\
 green\
 Okom\
 AddiCt3d 2CHa0s\
-Cookies\
-AddiCt3d 2CHa0s 🎮 💻
+Cookies
