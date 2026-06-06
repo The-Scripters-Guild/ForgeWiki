@@ -1,9 +1,8 @@
 ---
 description: >-
-  I have only noticed this problem when using object transform
-  commands so far however I haven't tested it more extensively yet. I
-  don't have related footage ATM so I'll write it down. Example
-  script:
+  In Custom Games, retrieving objects via the
+  Get Objects In Prefab node may only affect the parent object instead of
+  all constituent parts. A simple fix is available.
 ---
 
 # Get Objects In Prefab Node Returns Only Parent Object
@@ -36,15 +35,22 @@ This behavior may not be present when testing in Forge mode. Always verify scrip
 
 Several methods can be used to ensure that all objects within a prefab are correctly transformed in Custom Games.
 
-### Using User Labels
+### Label Swapping
 
-A highly effective workaround involves applying a User Label to the prefab itself. When a User Label is applied to a prefab, that label is automatically applied to every object contained within the prefab.
+The most effective way to resolve this issue is to "refresh" the prefab by temporarily changing its User Labels. This process appears to force the constituent objects to properly subscribe to the systems responsible for transformations and translations in Custom Games.
 
-Applying these labels appears to ensure that the child objects are properly subscribed to the systems responsible for transformations and translations. Once the objects are labeled, transformation nodes should function correctly on all constituent parts of the prefab in Custom Games.
+To perform this:
+* Select the prefab in Forge.
+* Change a User Label slot from `None` to any other available label.
+* Immediately change that same slot back to `None`.
+
+{% hint style="success" %}
+Once the label has been swapped back to `None`, the `Get Objects In Prefab` node should function correctly, allowing transformation nodes to affect all constituent parts of the prefab.
+{% endhint %}
 
 ### Manual Reference Methods
 
-If User Labels are not suitable for a specific implementation, other more manual methods can be used to ensure children are transformed:
+If label swapping is not suitable for a specific implementation, other more manual methods can be used to ensure children are transformed:
 
 * **Explicit Object Lists:** Manually declaring an object list to hold the specific objects intended for transformation. While this ensures the transformations work, it can increase the complexity and "bulk" of the script.
 * **Script Brain References:** Assigning an object reference within the script brain to every individual object inside the prefab. This ensures the script has a direct connection to each child, though it is considered a more cumbersome implementation.
