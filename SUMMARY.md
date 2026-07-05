@@ -1214,6 +1214,7 @@
       * [Managing Nav Markers](knowledge/scripting/guides-and-info/patterns/managing-nav-markers.md)
       * [Using Custom Events and Variables Across Mode and Script Brains](knowledge/scripting/guides-and-info/patterns/using-custom-events-and-variables-across-mode-and-script-brains.md)
     * [Restore Player Shield Instantly](knowledge/scripting/guides-and-info/restore-player-shield-instantly.md)
+    * [Triggering Events When All Enemies Are Killed](knowledge/scripting/guides-and-info/triggering-events-when-all-enemies-are-killed.md)
     * [UI Nav Markers Must Be Enabled Each Round](knowledge/scripting/guides-and-info/ui-nav-markers-must-be-enabled-each-round.md)
     * [Variables](knowledge/scripting/guides-and-info/variables/README.md)
       * [Object Lists](knowledge/scripting/guides-and-info/variables/object-lists.md)
