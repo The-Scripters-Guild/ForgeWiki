@@ -1152,6 +1152,7 @@
     * [Letter A Decal as a Blocker Object](knowledge/forge/guides-and-info/letter-a-decal-as-a-blocker-object.md)
     * [Colored Boundaries](knowledge/forge/guides-and-info/colored-boundaries.md)
     * [Pelican Drops on Forge maps](knowledge/forge/guides-and-info/pelican-drops-on-forge-maps.md)
+    * [Player Line of Sight Cone Research](knowledge/forge/guides-and-info/player-line-of-sight-cone-research.md)
     * [Reserving Budget For Gameplay Objects](knowledge/forge/guides-and-info/reserving-budget-for-gameplay-objects.md)
     * [Volumetric Fog Affects Brightness of Light Cones](knowledge/forge/guides-and-info/volumetric-fog-affects-brightness-of-light-cones.md)
     * [Chain Link Fences](knowledge/forge/guides-and-info/chain-link-fences.md)
