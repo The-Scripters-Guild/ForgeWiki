@@ -17,7 +17,7 @@ Because landscapes are built from many distinct, shaped pieces rather than as a 
 
 ## Object Variants
 
-Terrain objects generally fall into two categories: normal objects and TI (Terrain Inherited) objects. These variants serve different aesthetic purposes and have distinct technical behaviors.
+Terrain objects fall into two categories: normal objects and TI (Terrain Inherited) objects. These variants serve different aesthetic purposes and have distinct technical behaviors.
 
 ### Normal Objects
 
