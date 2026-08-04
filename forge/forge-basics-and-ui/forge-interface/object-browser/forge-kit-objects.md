@@ -37,10 +37,10 @@ Forge Kit objects cannot be referenced directly in node graph scripts like stand
 
 To use a Forge Kit object within a script, you must find and store a reference to it during gameplay through one of the following methods:
 
-* **Label:** [Add](../../../../scripting/nodes/math/add.md) an available label (e.g., "Dodgeball Overtime Zone") to the Forge Kit object and then use the [Get Objects By Label](../../../../scripting/nodes/objects/get-objects-by-label.md) node to find all objects with that specific label.
-* **[Area Monitor](../../../../scripting/nodes/variables-basic/area-monitor.md):** Place a different object with an area monitor boundary near the kit object, then use the [Get Objects In Area Monitor](../../../../scripting/nodes/objects/get-objects-in-area-monitor.md) node to detect it.
+* **Label:** Add an available label (e.g., "Dodgeball Overtime Zone") to the Forge Kit object and then use the [Get Objects By Label](../../../../scripting/nodes/objects/get-objects-by-label.md) node to find all objects with that specific label.
+* **Area Monitor:** Place a different object with an area monitor boundary near the kit object, then use the [Get Objects In Area Monitor](../../../../scripting/nodes/objects/get-objects-in-area-monitor.md) node to detect it.
 
-Note that attempting to reference these objects by altering their Spawn Order and finding objects with matching Spawn Order values is not a supported method for obtaining references via scripting.
+Note that attempting to reference these objects by altering their Spawn Order and finding objects with matching Spawn Order values is not a supported method for obtaining references to Forge Kit objects via scripting.
 
 ***
 
