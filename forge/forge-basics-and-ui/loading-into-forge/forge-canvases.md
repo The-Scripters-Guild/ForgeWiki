@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Forge canvases are empty template maps that serve as the foundation for most player-made Forge maps. While these templates provide various themes to begin a project, they should not be confused with "dev maps," which are built using developer tools and retain their classification even if they contain forge objects.
+Forge canvases are empty template maps that serve as the foundation for most player-made Forge maps, providing a variety of themed environments to begin building in.
 
 ## Canvas Variants and Themes
 
@@ -25,6 +25,10 @@ There are eight specific variants of forge canvases available:
 
 Each variant features a distinct theme, such as snow, desert, grass, or space. All canvas variants except for Void and Ecliptic feature built-in terrain. These canvases possess unique terrain texture patterns that can be utilized by "TI" (Terrain Inherited) objects to match the existing landscape without manually adjusting materials or colors.
 
+{% hint style="info" %}
+While many players refer to their creations as "forge maps," assets built using developer tools are classified as "dev maps," even if they contain forge objects.
+{% endhint %}
+
 ## Map Layout and Boundaries
 
 ### Gameplay Area
@@ -39,6 +43,8 @@ Objects located in the corners of the cubical placement boundary that fall outsi
 
 ### Space Under the Canvas
 A large volume exists beneath the canvas floor (Z: 500). This subsurface area begins at Z: -250 and ends at Z: -9462.15, with total dimensions of XYZ: 4635x4542x9212. Players can freely place dynamic or static objects in this zone without being instantly killed; however, moving outside the boundaries of this subsurface area will result in an instant respawn.
+
+An important limitation of this area is that Nav Mesh and lighting data cannot be built within it; consequently, AI or bots are unable to move there, and light bounce accuracy (such as darkness levels) is non-existent.
 
 ## Starting Platforms
 
