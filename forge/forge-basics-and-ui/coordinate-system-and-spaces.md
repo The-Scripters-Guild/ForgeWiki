@@ -29,7 +29,7 @@ These axes are utilized by the three primary transformation gizmos:
 
 Using keyboard modifiers and controller inputs allows for rapid switching between transformation modes:
 
-| Mode | PC Shortcut | Controller Input (Standard) |
+| Mode | Keyboard | Controller |
 | --- | --- | --- |
 | Move | `Ctrl+W` | `LT` |
 | Rotate | `Ctrl+E` | `RT` |
@@ -48,7 +48,7 @@ World Space uses the global coordinate system of the Forge environment as its re
 
 ### Object Space
 
-Also known as Local Space, this mode uses the object's own internal coordinate system as the reference frame:
+Also known elsewhere as Local Space, this mode uses the object's own internal coordinate system as the reference frame:
 * The transformation axes follow the object's rotation.
 * Transformations are applied relative to the object's current orientation.
 * Rotating an object will change the direction of its local transformation axes.
