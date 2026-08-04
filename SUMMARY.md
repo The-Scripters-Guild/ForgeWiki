@@ -6,8 +6,8 @@
 
 * [Forge Basics and UI](forge/forge-basics-and-ui/README.md)
   * [Loading Into Forge](forge/forge-basics-and-ui/loading-into-forge/README.md)
-    * [Forge Canvases](forge/forge-basics-and-ui/loading-into-forge/forge-canvases.md)
     * [Baked-In Map Data](forge/forge-basics-and-ui/loading-into-forge/baked-in-map-data.md)
+    * [Forge Canvases](forge/forge-basics-and-ui/loading-into-forge/forge-canvases.md)
   * [Forge Interface](forge/forge-basics-and-ui/forge-interface/README.md)
     * [Object Browser](forge/forge-basics-and-ui/forge-interface/object-browser/README.md)
       * [Forge Kit Objects](forge/forge-basics-and-ui/forge-interface/object-browser/forge-kit-objects.md)
