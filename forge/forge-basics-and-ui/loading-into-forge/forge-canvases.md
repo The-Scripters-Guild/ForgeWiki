@@ -27,8 +27,6 @@ Each variant features a distinct theme, such as snow, desert, grass, or space. A
 
 ## Map Layout and Boundaries
 
-Forgeable area dimensions vary depending on whether a player is interacting with the gameplay volume, placing static objects, or utilizing the subsurface space.
-
 ### Gameplay Area
 The designated gameplay area has XYZ dimensions of 4000x4000x1500 units. The canvas floor is positioned at Z: 500. Moving beyond these specific limits triggers an undeletable soft-kill boundary and a soft barrier that prevents player movement.
 
