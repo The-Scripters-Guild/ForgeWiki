@@ -24,7 +24,7 @@
     * [Tool Settings](forge/forge-basics-and-ui/forge-interface/tool-settings/README.md)
       * [Debug Element Display Options](forge/forge-basics-and-ui/forge-interface/tool-settings/debug-element-display-options.md)
   * [Controls and Shortcuts](forge/forge-basics-and-ui/controls-and-shortcuts.md)
-  * [Saving](forge/forge-basics-and-ui/saving-assets.md)
+  * [Saving Assets](forge/forge-basics-and-ui/saving-assets.md)
   * [Working with Objects](forge/forge-basics-and-ui/working-with-objects.md)
 * [Layout](forge/layout/README.md)
   * [Level Design](forge/layout/level-design/README.md)
