@@ -21,7 +21,7 @@ The Start Menu can be accessed at any time using **Esc**/**Menu**, unless while 
 
 Maps have a maximum file size limit of 10.00 MB. If an attempt is made to save a map that exceeds this limit, a "Maximum file size exceeded" error message will appear. This notification displays the current file size and instructs the player to reduce either the object or scripting content on the map.
 
-<figure><img src="../../.gitbook/assets/map-file-size-exceeded-6f45.webp" alt="Map save failed error message"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/map-file-size-exceeded.webp" alt="Map save failed error message"><figcaption></figcaption></figure>
 
 ## Prefabs and Modes
 
