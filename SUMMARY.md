@@ -38,6 +38,7 @@
       * [Terrain Guidelines](forge/layout/level-design/terrain/terrain-guidelines.md)
     * [Planning the Location and Orientation of Your Map](forge/layout/level-design/planning-the-location-and-orientation-of-your-map.md)
     * [Designing For Halo](forge/layout/level-design/designing-for-halo.md)
+    * [Terrain](forge/layout/level-design/terrain.md)
   * [Level Art](forge/layout/level-art/README.md)
     * [Creating an Art Palette](forge/layout/level-art/creating-an-art-palette.md)
     * [Art Techniques](forge/layout/level-art/art-techniques.md)
