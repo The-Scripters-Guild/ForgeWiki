@@ -6,6 +6,7 @@
 
 * [Forge Basics and UI](forge/forge-basics-and-ui/README.md)
   * [Editor Modes](forge/forge-basics-and-ui/editor-modes.md)
+  * [Forge Terminology](forge/forge-basics-and-ui/forge-terminology.md)
   * [Loading Into Forge](forge/forge-basics-and-ui/loading-into-forge/README.md)
     * [Baked-In Map Data](forge/forge-basics-and-ui/loading-into-forge/baked-in-map-data.md)
     * [Forge Canvases](forge/forge-basics-and-ui/loading-into-forge/forge-canvases.md)
@@ -25,7 +26,6 @@
   * [Coordinate System and Spaces](forge/forge-basics-and-ui/coordinate-system-and-spaces.md)
   * [Saving](forge/forge-basics-and-ui/saving-assets.md)
   * [Working with Objects](forge/forge-basics-and-ui/working-with-objects.md)
-  * [Forge Terminology](forge/forge-basics-and-ui/forge-terminology.md)
 * [Layout](forge/layout/README.md)
   * [Level Design](forge/layout/level-design/README.md)
     * [Blockout Best Practices](forge/layout/level-design/blockout-best-practices.md)
