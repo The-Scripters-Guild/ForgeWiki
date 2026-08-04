@@ -5,7 +5,7 @@ description: >-
   mode.
 ---
 
-# Saving
+# Saving Assets
 
 <figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
@@ -15,7 +15,7 @@ Retaining progress through the creation of assets is essential for any creator w
 
 To save a map, users have two primary options: performing a quicksave or creating a save with a custom note. A quicksave can be performed using **Ctrl+S** or by holding **Y (Hold) → Quicksave**, which adds an entry to the version history labeled "Quicksave." To create a save with a custom description, users must open the start menu, select "Save Map," input a version note (up to 265 characters), and press Confirm.
 
-The Start Menu can be accessed at any time using the **Menu** button on a controller. When working in all editor modes via keyboard, players should use **F1** to open the Start Menu; pressing Esc while in the node graph will close the node graph instead of opening the menu.
+The Start Menu can be accessed at any time using **Esc**/**Menu**, unless while in the node graph on keyboard, when the start menu can be opened with **F1**.
 
 ### File Size Constraints
 
