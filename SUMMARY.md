@@ -5,6 +5,7 @@
 ## Forge
 
 * [Forge Basics and UI](forge/forge-basics-and-ui/README.md)
+  * [Editor Modes](forge/forge-basics-and-ui/editor-modes.md)
   * [Loading Into Forge](forge/forge-basics-and-ui/loading-into-forge/README.md)
     * [Baked-In Map Data](forge/forge-basics-and-ui/loading-into-forge/baked-in-map-data.md)
     * [Forge Canvases](forge/forge-basics-and-ui/loading-into-forge/forge-canvases.md)
@@ -23,7 +24,6 @@
   * [Controls and Shortcuts](forge/forge-basics-and-ui/controls-and-shortcuts.md)
   * [Coordinate System and Spaces](forge/forge-basics-and-ui/coordinate-system-and-spaces.md)
   * [Working with Objects](forge/forge-basics-and-ui/working-with-objects.md)
-  * [Editor Modes](forge/forge-basics-and-ui/editor-modes.md)
   * [Saving Assets](forge/forge-basics-and-ui/saving-assets.md)
   * [Forge Terminology](forge/forge-basics-and-ui/forge-terminology.md)
 * [Layout](forge/layout/README.md)
