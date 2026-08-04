@@ -11,7 +11,7 @@ description: >-
 Forge provides three distinct editor modes, each serving a specific purpose throughout the forging process.
 
 ## Monitor Mode
-Monitor Mode is most frequently used to place and adjust objects, alter properties, create scripts, or modify map settings such as lighting and navigation meshes. While in this mode, the player functions as a floating Forge Monitor capable of flying through geometry. This mode can be entered from Play Mode using **F6**/**View** or **F5**.
+Monitor Mode is most frequently used to place and adjust objects, alter properties, create scripts, or modify map settings such as lighting and navigation meshes. This is the mode that you spawn in by default when loading into Forge on a map. While in this mode, the player functions as a floating Forge Monitor capable of flying through geometry. This mode can be entered from Play Mode using **F6**/**View** or **F5**.
 
 ## Test Mode
 Test Mode transforms the floating Forge Monitor into a bipedal character that can walk on map geometry. It is primarily used to quickly assess map scale and sightlines without initiating full physics simulation. From this mode, users have the ability to transform back into Monitor Mode to continue editing. This mode is entered from Monitor Mode using **F5**/**View**.
