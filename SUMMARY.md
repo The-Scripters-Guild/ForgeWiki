@@ -31,7 +31,7 @@
   * [Level Design](forge/layout/level-design/README.md)
     * [Metrics](forge/layout/level-design/metrics/README.md)
       * [Movement and Player Character Info](forge/layout/level-design/metrics/movement-and-player-character-information.md)
-    * [Planning the Location and Orientation of Your Map](forge/layout/level-design/planning-the-location-and-orientation-of-your-map.md)
+    * [Planning The Location And Orientation of Your Map](forge/layout/level-design/planning-the-location-and-orientation-of-your-map.md)
     * [Terrain](forge/layout/level-design/terrain.md)
   * [Level Art](forge/layout/level-art.md)
 * [Spawning](forge/spawning/README.md)
