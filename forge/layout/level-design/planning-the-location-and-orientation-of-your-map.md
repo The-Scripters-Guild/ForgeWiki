@@ -42,11 +42,6 @@ The direction of water flow is fixed toward the South cardinal direction on all 
 To determine which way is South, enter Test Mode in Forge and observe your motion tracker or Assault Rifle ammo counter. The arrow indicates North; therefore, South is the opposite of that direction.
 {% endhint}
 
-{% endhint %}
-
-To determine which way is South, enter Test Mode in Forge and observe your motion tracker or Assault Rifle ammo counter. The arrow indicates North; therefore, South is the opposite of that direction.
-{% endhint}
-
 ***
 
 ## Source Data
