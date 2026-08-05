@@ -8,16 +8,16 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Forge provides three distinct editor modes, each serving a specific purpose throughout the forging process.
+The Forge editor provides several operational modes that allow creators to transition between building, testing scale, and full gameplay simulation.
 
 ## Monitor Mode
-Monitor Mode is most frequently used to place and adjust objects, alter properties, create scripts, or modify map settings such as lighting and navigation meshes. This is the mode that you spawn in by default when loading into Forge on a map. While in this mode, the player functions as a floating Forge Monitor capable of flying through geometry. This mode can be entered from Play Mode using **F6**/**View** or **F5**.
+Monitor Mode, also called "**Forge Mode**", is most frequently used to place and adjust objects, alter their properties, create scripts, or modify map settings such as lighting and navigation meshes. This is the mode that you spawn in by default when loading into Forge on a map. While in this mode, the player functions as a floating Forge Monitor capable of flying through geometry. This mode can be entered from Play Mode using **F6**/**View** or **F5**.
 
 ## Test Mode
 Test Mode transforms the floating Forge Monitor into a bipedal character that can walk on map geometry. It is primarily used to quickly assess map scale and sightlines without initiating full physics simulation. From this mode, users have the ability to transform back into Monitor Mode to continue editing. This mode is entered from Monitor Mode using **F5**/**View**.
 
 ### Simulation Limitations
-In Test Mode, dynamic gameplay elements and physics are not simulated, allowing for rapid assessment of map layouts before starting a full simulation.
+In Test Mode, dynamic gameplay elements and physics are not simulated. It is intended for quickly testing out changes made in Monitor Mode before beginning a full physics simulation.
 
 ## Play Mode
 Play Mode allows users to test maps in an environment where simulation, physics, and scripting are active. This mode essentially functions as a simulated Arena:Slayer match within Forge. 
