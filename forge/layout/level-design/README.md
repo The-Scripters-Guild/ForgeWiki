@@ -14,13 +14,11 @@ While Halo Infinite is an arena shooter, Forge creations are not limited strictl
 
 A blockout—also known as a greybox, whitebox, or prototype map—is the first playable version of a level, constructed using simple geometric shapes rather than finished art. The primary goal of a blockout is to test gameplay functionality instead of focusing on final visual aesthetics.
 
-{% hint style="info" %}
 For building a simplified palette during the prototyping phase, it's recommended to use objects from the Halo Design Set and Primitives categories within the Object Browser:
 * Cube: `Floors → Floor Half B`
 * Triangle: `Floors → Floor Angled Standard A`
 * Cylinder: `Primitives → Cylinders → Primitive Cylinder`
 * Sphere: `Primitives → Spheres → Primitive Sphere`
-{% endhint %}
 
 ## Iterative Design Workflow
 
