@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-In the context of level design, metrics refer to the proportions and distances within gameplay spaces relative to the players occupying them. Maintaining a baseline knowledge of these standard values is important so that environment scaling and character movement feel correct during play.
+In the context of level design, metrics refer to the proportions and distances within gameplay spaces. Maintaining a baseline knowledge of these standard values is important so that environment scaling and character movement feel correct during play.
 
 ## Level Geometry Metrics
 
@@ -16,12 +16,12 @@ The following measurements are key dimensions for designing geometry in Halo Inf
 
 ### Character and Jump Heights
 * Player height: 11.25 units
+* Crouch height: 9 units
 * Jump height: 9.5 units
 * Crouch jump height: 11.5 units
 * Clamber height: 16 units
 * Jump distance: 34 units
 * Sprint jump distance: 40 units
-* Crouch height: 9 units
 
 ### Navigation and Pathways
 Because Halo features more "floaty" movement than other arena shooters, pathways on maps are usually a bit wider than usual, and doorways tend to be taller.
