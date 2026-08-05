@@ -74,7 +74,7 @@ Succeeding in a match of Survive The Undead is based a lot on the decisions you 
      * <mark style="color:green;">Plasma Pistol + Convergence Bulldog</mark>
 
 {% hint style="success" %}
-#### Temporary price decrease
+**Temporary price decrease**
 
 At the beginning of an intermission period after wave 6 has passed, a message displaying "1/x Price" can show up on a 25% chance. This makes all the purchasable items be a fraction of their price for 20 seconds. The available fractions are:
 
@@ -168,8 +168,6 @@ Make sure to share points to your teammates with the 2000-point share interface 
 2. Revived players must do the [Midgame](survive-the-undead-strategy-guide.md#midgame) and [Endgame](survive-the-undead-strategy-guide.md#endgame) steps until they have the endgame loadout.
 3. Revived players must get ready in the area where the endgame player will be holding off the enemies in if the revived players don't have the endgame loadout.
 
-
-
 ## General tips
 
 General tips to help you understand how to play the mode better and more efficiently.
@@ -243,7 +241,7 @@ The bouncing shots can damage and kill the shooter unexpectedly.
 * A good weapon to purchase right after being revived to keep yourself alive.
 
 {% hint style="danger" %}
-#### Explosive projectile caution
+**Explosive projectile caution**
 
 Explosive projectiles such as the Skewer, Rockets or Calcine Disruptor shot can damage the player easily which will unintentionally kill you when the enemy count starts becoming higher and they start appearing next to you.
 
@@ -263,7 +261,7 @@ The explosion can be survived point-blank if the shooter has Health 4/4 as they 
 * Melee blast can kill any AI they get sent into a wall at a high enough speed.
 
 {% hint style="danger" %}
-#### Lag caution
+**Lag caution**
 
 The melee blast of the Mutilator creates effects which seem to not get cleaned up properly. Eventually after meleeing for too long, the map's performance will drop to an unplayable state so this weapon is not ideal for long games.
 {% endhint %}

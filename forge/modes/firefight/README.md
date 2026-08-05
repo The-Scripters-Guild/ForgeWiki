@@ -10,7 +10,7 @@ There are two core variants of Firefight in Halo Infinite: Firefight:King of The
 
 ## Learn more about
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Firefight KOTH</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="firefight-koth/">firefight-koth</a></td></tr><tr><td>Firefight Custom</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="firefight-custom.md">firefight-custom.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Firefight KOTH</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="firefight-koth.md">firefight-koth.md</a></td></tr><tr><td>Firefight Custom</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="firefight-custom.md">firefight-custom.md</a></td></tr></tbody></table>
 
 ***
 

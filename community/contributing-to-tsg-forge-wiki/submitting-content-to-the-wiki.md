@@ -19,8 +19,6 @@ It's easiest for the moderators of this Wiki to have users submit these pull req
 
 If you'd prefer to submit info via other means, you can look at the [Submitting via Discord](submitting-content-to-the-wiki.md#submitting-via-discord) section, but keep in mind that this is much more work for the moderators of the Wiki to get content parsed from there into a functioning article.
 
-
-
 ## Git and Visual Studio Code
 
 This process focuses on adding content to the Wiki with the help of two programs: [Git](https://git-scm.com/) and [Visual Studio Code](https://code.visualstudio.com). Git is a distributed version control system that we use to efficiently push changes to our repo. Visual Studio Code is a great text editing software that also has native integrations with Git and GitHub Pull Requests.
@@ -44,8 +42,6 @@ In order to get a more accurate Markdown preview than the VS Code built-in one a
 To open the Markdown preview to the side, click the preview icon on the top right, or use the shortcut: `CTRL+K V`.
 {% endhint %}
 
-
-
 ## Cloning the repository
 
 To get a copy of the TSG Forge Wiki repo onto your local machine for editing, the repo needs to be cloned. The repo can be found here: [https://github.com/The-Scripters-Guild/ForgeWiki](https://github.com/The-Scripters-Guild/ForgeWiki)
@@ -53,8 +49,6 @@ To get a copy of the TSG Forge Wiki repo onto your local machine for editing, th
 Watch this section (5:43-6:20) in this tutorial video to learn how to clone a GitHub repository:
 
 {% embed url="https://youtu.be/i_23KUAEtUM?feature=shared&t=343" %}
-
-
 
 ## GitBook structure
 
@@ -73,8 +67,6 @@ The `SUMMARY.md` file is where the Table of Contents structure is stored. If a n
 {% hint style="info" %}
 Always remember to update the SUMMARY.md file if a new page is added.
 {% endhint %}
-
-
 
 ## Creating a branch
 
@@ -98,8 +90,6 @@ For effective and standardized branch naming, read these articles:
 Branches should be named meaningfully and with as few words as possible required to communicate the necessary changes the branch is focusing on.
 {% endhint %}
 
-
-
 ## Making edits
 
 When making edits to the repo, it's important to follow some standards and guidelines so that there's less work for the Wiki moderators to correct. Along the way you'll also learn some Markdown standards.
@@ -116,7 +106,7 @@ Search the Wiki for existing information about the topic you are looking for. Us
 
 <div><figure><img src="../../.gitbook/assets/wiki-search1.jpg" alt=""><figcaption><p>Searching for an article name</p></figcaption></figure> <figure><img src="../../.gitbook/assets/wiki-search2.jpg" alt=""><figcaption><p>Searching for a mention of a term within an article</p></figcaption></figure></div>
 
-Based on if relevant information already exists or not, you can make a decision on whether to [edit  existing content](submitting-content-to-the-wiki.md#editing-existing-articles), [add new content](submitting-content-to-the-wiki.md#adding-new-articles) or to drop the initiative.
+Based on if relevant information already exists or not, you can make a decision on whether to [edit existing content](submitting-content-to-the-wiki.md#editing-existing-articles), [add new content](submitting-content-to-the-wiki.md#adding-new-articles) or to drop the initiative.
 
 ### Article formatting guidelines
 
@@ -145,13 +135,13 @@ When adding new articles that don't have a `.md` file and a `SUMMARY.md` entry f
 
 #### Standalone pages
 
-Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh/)). This file will act as the page file that can be edited.
+Create a file in the desired folder. Name the file with kebab-case and the `.md` extension (`generating-nav-mesh.md` in the image; [link to the live article](../../forge/nav-mesh/building-nav-mesh/)). This file will act as the page file that can be edited.
 
 <div align="left"><figure><img src="../../.gitbook/assets/vscode-naming-page.jpg" alt=""><figcaption></figcaption></figure></div>
 
 #### Pages with sub-pages
 
-Also known as the main file of a folder. Create a folder with the name of the page in kebab-case (`nav-mesh-generation` in the image; [link to the live article](../../forge/nav-mesh/nav-mesh-generation/)); create a file inside the folder with the name `README.md`. The `README.md` file will act as the page file that can be edited.
+Also known as the main file of a folder. Create a folder with the name of the page in kebab-case (`nav-mesh-generation` in the image; [link to the live article](/broken/pages/BpmLL7s9nGdHlJ1yKH7E)); create a file inside the folder with the name `README.md`. The `README.md` file will act as the page file that can be edited.
 
 <div align="left"><figure><img src="../../.gitbook/assets/vscode-naming-subpage.jpg" alt=""><figcaption></figcaption></figure></div>
 
@@ -167,19 +157,17 @@ If a new `.md` file is created in the structure, it has to also be added to `SUM
 Important! Read carefully if your edit falls into this category.
 {% endhint %}
 
-Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh.md](../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh/)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/building-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/building-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
+Since moving an article to some other category will break internal (e.g. [../../forge/nav-mesh/nav-mesh-generation/building-nav-mesh.md](../../forge/nav-mesh/building-nav-mesh/)) and external (e.g. [https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/building-nav-mesh](https://wiki.thescriptersguild.com/main/forge/nav-mesh/nav-mesh-generation/building-nav-mesh)) references to it, these actions should be done via the [GitBook GUI](submitting-content-to-the-wiki.md#creating-a-private-gitbook-app-environment-1).
 
 Removing an article can have this same effect, if the article was the only page in a folder group, as then that folder should become a standalone page. (from `/folder/path/README.md` -> `/folder/path/article-name.md`)
 
 And in addition to removing an article causing this, also adding a sub-page to an existing standalone page will have the same effect as now all of the references pointing to `/folder/path/article-name.md` should point to `/folder/path/README.md`, but it's not done automatically outside of the GitBook editor.
 
-The GitBook editor automatically updates all internal references to an article if it's moved with the GUI, which saves half of the trouble. If you don't have a GitBook app environment set up for this purpose, [open an issue](https://github.com/The-Scripters-Guild/ForgeWiki/issues) on the repo and detail what article needs to be moved and why. Temporarily place your articles in the [TODO](todo/) folder so they are still present on the repo.
+The GitBook editor automatically updates all internal references to an article if it's moved with the GUI, which saves half of the trouble. If you don't have a GitBook app environment set up for this purpose, [open an issue](https://github.com/The-Scripters-Guild/ForgeWiki/issues) on the repo and detail what article needs to be moved and why. Temporarily place your articles in the [TODO](/broken/pages/KqNQghaDuUdqiGgmPdxa) folder so they are still present on the repo.
 
 {% hint style="info" %}
 If you are working in an editor other than the GitBook editor and have to move or remove an article, or add a sub-page to a standalone page, open up a GitHub issue about it instead and temporarily place your articles in the TODO folder so a TSG staff member can correctly adjust the article placement.
 {% endhint %}
-
-
 
 ## Making commits
 
@@ -215,15 +203,11 @@ Watch this tutorial video to learn how to make a pull request:
 Once your pull request gets merged, the changes will update to the live Wiki page after a short sync delay.
 {% endhint %}
 
-
-
 ## Syncing the repo <a href="#creating-a-private-gitbook-app-environment" id="creating-a-private-gitbook-app-environment"></a>
 
 If changes to the repo have been done by someone other than you and the copy of the repo on your local machine is outdated, the local repo will have to be synced to the repo on GitHub. To do this from VS Code, click the "Synchronize Changes" button in the bottom left.
 
 <div align="left"><figure><img src="../../.gitbook/assets/vscode-repo-sync.jpg" alt=""><figcaption></figcaption></figure></div>
-
-
 
 ## Creating a private GitBook app environment (optional) <a href="#creating-a-private-gitbook-app-environment" id="creating-a-private-gitbook-app-environment"></a>
 
@@ -241,8 +225,6 @@ It's quite easy to add content to the Wiki this way, but it takes a little while
 A personal GitBook app environment of the TSG Forge Wiki can majorly simplify the process of adding new content to the Wiki.
 {% endhint %}
 
-
-
 ## Submitting via Discord (optional) <a href="#submitting-via-discord" id="submitting-via-discord"></a>
 
 If learning the GitHub Pull Request process isn't your thing, but you want to contribute to the wiki, you can do so by making a post message in the [Wiki Discussion](https://discord.com/channels/220766496635224065/1032391999740969011) forum on the TSG Discord about your article topic. From there, wiki moderators will collect the information and convert them into articles.
@@ -256,8 +238,6 @@ As this is a very manual process by the wiki moderators, it's important to forma
 {% endcontent-ref %}
 
 Just have scraps of info to share, like a weird interaction between two objects or systems, and don't think it's enough to create a pull request on GitHub or to post in the Wiki Discussion forum on the Discord? In this case, you can use the [Infodump Form](https://dyno.gg/form/6ecec55c) and it will get added to the pile of other scraps of info that are used as reference when writing wiki articles
-
-
 
 ***
 

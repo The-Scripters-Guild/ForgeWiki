@@ -32,7 +32,7 @@ The Team Intro Spawn should be placed where a group of four players on a Team sh
 
 ### Camera
 
-After the [Map Intro Camera](../../gameplay/cameras/map-intro-cameras/) sequence has ended and all players have successfully spawned in the game, the Camera in the Team Intro Spawn object will go through a static cycle showcasing all four players on it. After the four players have been shown, the Camera will move to the static position shown on the Forge Kit object.
+After the [Map Intro Camera](/broken/pages/Z7SuuA6K73FZJZnMLY7n) sequence has ended and all players have successfully spawned in the game, the Camera in the Team Intro Spawn object will go through a static cycle showcasing all four players on it. After the four players have been shown, the Camera will move to the static position shown on the Forge Kit object.
 
 <div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-player1.jpg" alt=""><figcaption><p>Camera sequence 1</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-player2.jpg" alt=""><figcaption><p>Camera sequence 2</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-regular-ingame.jpg" alt=""><figcaption><p>Camera sequence 3</p></figcaption></figure></div>
 
@@ -60,7 +60,7 @@ Prioritize the final Camera placement over spawn point height as long as all pla
 
 #### Blocked spawns
 
-Placing the spawns lower than 1.5 units into the ground will cause them to be blocked. If a player can't spawn on their designated spawn point of the Team Intro Spawn, they will be relocated to a [Respawn Point](../respawning/respawn-points/) on the map. If no Respawn Points are available, [Backup Spawn Points](backup-spawn-points.md) will be used.
+Placing the spawns lower than 1.5 units into the ground will cause them to be blocked. If a player can't spawn on their designated spawn point of the Team Intro Spawn, they will be relocated to a [Respawn Point](../respawning/respawn-points/) on the map. If no Respawn Points are available, [Backup Spawn Points](../respawning/backup-spawn-points.md) will be used.
 
 <div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-forge.jpg" alt=""><figcaption><p>Spawn positioning too low causing some players to be blocked from spawning</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-ingame.jpg" alt=""><figcaption><p>3/4 players are unable to spawn on blocked spawn points</p></figcaption></figure></div>
 
@@ -129,7 +129,7 @@ Here are examples on how to set up Team Intro Spawns in practice.
 
 ### 4v4
 
-#### <mark style="background-color:blue;">Eagle Team</mark>
+#### Eagle Team
 
 Team Intro Spawn 1
 
@@ -138,7 +138,7 @@ Team Intro Spawn 1
 | Team Designator:    | `Team 1 (Eagle)` |
 | Squad:              |          `Alpha` |
 
-#### <mark style="background-color:red;">Cobra Team</mark>
+#### Cobra Team
 
 Team Intro Spawn 1
 
@@ -149,7 +149,7 @@ Team Intro Spawn 1
 
 ### 12v12
 
-#### <mark style="background-color:blue;">Eagle Team</mark>
+#### Eagle Team
 
 Team Intro Spawn 1
 
@@ -172,7 +172,7 @@ Team Intro Spawn 3
 | Team Designator:    | `Team 1 (Eagle)` |
 | Squad:              |        `Charlie` |
 
-#### <mark style="background-color:red;">Cobra Team</mark>
+#### Cobra Team
 
 Team Intro Spawn 1
 
@@ -209,7 +209,7 @@ Infection and Firefight:King of The Hill are modes where Team Intro Spawns are r
 The same Team Intro Spawns used for a 4v4 or 12v12 setup can be used as the spawns for Infection and FFKOTH, as long as the object [labeling](team-intro-spawns.md#labeling) doesn't prevent it.
 {% endhint %}
 
-#### <mark style="background-color:blue;">Eagle Team</mark>
+#### Eagle Team
 
 Team Intro Spawn 1
 
@@ -244,8 +244,8 @@ Read more about Infection and Firefight:King of The Hill:
 [infection.md](../../modes/infection.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../modes/firefight/firefight-koth/" %}
-[firefight-koth](../../modes/firefight/firefight-koth/)
+{% content-ref url="../../modes/firefight/firefight-koth.md" %}
+[firefight-koth.md](../../modes/firefight/firefight-koth.md)
 {% endcontent-ref %}
 
 ## Labeling

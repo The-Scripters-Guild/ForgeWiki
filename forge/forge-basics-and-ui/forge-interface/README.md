@@ -233,13 +233,13 @@ Holding <img src="../../../.gitbook/assets/keyboard-e.png" alt="Key icon" data-s
 
 The **Create Prefab / Create Mode Prefab** tab is located on the top of the radial Actions Menu and is used to create a savable group of a minimum two objects. A prefab is a group of objects that pivot around a single object and can easily be saved to share with others. Prefabs have a green outline around all of the child objects within it, with the parent object having a cyan outline.
 
-Learn more about [Prefabs](../../../ugc/metadata-and-file-management/prefabs/).
+Learn more about [Prefabs](/broken/pages/U1UVYaydcUu6pCvhD0Fz).
 
 <div><figure><img src="../../../.gitbook/assets/prefab-albatross1.jpg" alt=""><figcaption><p>A named prefab resembling a Halo 3 vehicle prop</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/prefab-albatross2.jpg" alt=""><figcaption><p>The prefab ungrouped shows that it's made from 73 objects</p></figcaption></figure></div>
 
 A Mode Prefab can be made with two or more [Mode Brains](../../../scripting/scripting-basics-and-ui/script-brains-and-mode-brains.md) as the only objects in the group of objects. Mode Brains are used to make playable [Forge Modes](#user-content-fn-4)[^4].
 
-Learn more about [Mode Prefabs](../../../ugc/metadata-and-file-management/prefabs/mode-prefabs.md).
+Learn more about [Mode Prefabs](/broken/pages/vFThHhBRxEWekocOSwbg).
 
 <div><figure><img src="../../../.gitbook/assets/prefab-mode-brain1.jpg" alt=""><figcaption><p>A selection of two Mode Brains</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/forge-interface-action-menu-prefab-mode.jpg" alt=""><figcaption><p>"Create Mode Prefab" tab in the Actions Menu</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/prefab-mode-brain2.jpg" alt=""><figcaption><p>A Mode Prefab consisting of two Mode Brains</p></figcaption></figure></div>
 
@@ -255,7 +255,7 @@ The **Object Properties** tab is located on the top right of the radial Actions 
 
 The **Add To Prefab** tab is located on the right of the radial Actions Menu and is used to combine the selected objects into an existing selected prefab. Adding new objects to an Object Prefab will reset the prefab name and make it an entirely new asset. Adding new objects to a Mode Prefab will keep the same prefab name and asset ID.
 
-Learn more about [Prefabs](../../../ugc/metadata-and-file-management/prefabs/).
+Learn more about [Prefabs](/broken/pages/U1UVYaydcUu6pCvhD0Fz).
 
 {% hint style="info" %}
 Saved Object Prefabs cannot be updated with new objects while keeping the same asset ID, but Mode Prefabs can.
@@ -315,7 +315,7 @@ Learn more about [Welded Prefab Bugs](../../../knowledge/forge/bugs/welded-prefa
 
 ### Save Prefab
 
-The **Save Prefab** tab is located on the bottom of the radial Actions Menu and is used to save a selected Prefab to [My Files](#user-content-fn-5)[^5]. After selecting, an interface to enter the name of the prefab will be shown. A quirk of this interface is that a prefab name up to 40 characters can be entered, unlike the 32-character limit of renaming a file through the [File Name](../../../ugc/metadata-and-file-management/working-with-files/file-name.md) interface. This also works for naming Forge Modes by saving Mode Prefabs.
+The **Save Prefab** tab is located on the bottom of the radial Actions Menu and is used to save a selected Prefab to [My Files](#user-content-fn-5)[^5]. After selecting, an interface to enter the name of the prefab will be shown. A quirk of this interface is that a prefab name up to 40 characters can be entered, unlike the 32-character limit of renaming a file through the [File Name](/broken/pages/9K9CO7TWI06uOvQOzqEA) interface. This also works for naming Forge Modes by saving Mode Prefabs.
 
 <div><figure><img src="../../../.gitbook/assets/prefab-save-name.jpg" alt=""><figcaption><p>40-character limit when saving a prefab and entering a name</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/file-name-edit.jpg" alt=""><figcaption><p>32-character limit when editing the name of an asset</p></figcaption></figure></div>
 
@@ -368,9 +368,9 @@ Learn more about [Node Graph Interface and Controls](../../../scripting/scriptin
 The **Build Menu** tab is located on the right of the radial Tools Menu and is used to build data for various map elements. The available map data to build are:
 
 * [Lighting](../../lighting/building-lighting/)
-* [Nav Mesh](../../nav-mesh/nav-mesh-generation/building-nav-mesh/)
-* [Audio](../../gameplay/audio/building-audio/)
-* [Reflection Volumes](../../lighting/lighting-modifiers/reflections/reflection-volumes/building-reflection-volumes.md)
+* [Nav Mesh](../../nav-mesh/building-nav-mesh/)
+* [Audio](../../gameplay/audio/building-audio.md)
+* [Reflection Volumes](../../lighting/lighting-modifiers/reflections/building-reflection-volumes.md)
 
 Yellow warning symbols are displayed on the elements that aren't up-to-date with the current state of the map. While these do convey a real problem, the map can still be played and published even if some build data has a warning symbol next to it.
 
@@ -382,16 +382,16 @@ Due to all the warning symbols appearing right after even a single object's posi
 [building-lighting](../../lighting/building-lighting/)
 {% endcontent-ref %}
 
-{% content-ref url="../../nav-mesh/nav-mesh-generation/building-nav-mesh/" %}
-[building-nav-mesh](../../nav-mesh/nav-mesh-generation/building-nav-mesh/)
+{% content-ref url="../../nav-mesh/building-nav-mesh/" %}
+[building-nav-mesh](../../nav-mesh/building-nav-mesh/)
 {% endcontent-ref %}
 
-{% content-ref url="../../gameplay/audio/building-audio/" %}
-[building-audio](../../gameplay/audio/building-audio/)
+{% content-ref url="../../gameplay/audio/building-audio.md" %}
+[building-audio.md](../../gameplay/audio/building-audio.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../lighting/lighting-modifiers/reflections/reflection-volumes/building-reflection-volumes.md" %}
-[building-reflection-volumes.md](../../lighting/lighting-modifiers/reflections/reflection-volumes/building-reflection-volumes.md)
+{% content-ref url="../../lighting/lighting-modifiers/reflections/building-reflection-volumes.md" %}
+[building-reflection-volumes.md](../../lighting/lighting-modifiers/reflections/building-reflection-volumes.md)
 {% endcontent-ref %}
 
 ### Quicksave

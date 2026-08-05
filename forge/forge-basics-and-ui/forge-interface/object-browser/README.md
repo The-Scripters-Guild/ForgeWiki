@@ -10,7 +10,7 @@ The Object Browser tab is the first tab at the top of the Forge Menu and it disp
 
 ## Interface
 
-The Object Browser tab consists of object categories and subcategories, within which are spawnable objects. The categories can be opened and closed, and their state will persist until the Forge session is closed. A short description of the selected item is shown under the main interface. In addition to object categories, there are also categories for recently used objects, and Modes and Prefabs that you are a [Collaborator](../../../../ugc/metadata-and-file-management/working-with-files/file-collaborators.md) on or have bookmarked.
+The Object Browser tab consists of object categories and subcategories, within which are spawnable objects. The categories can be opened and closed, and their state will persist until the Forge session is closed. A short description of the selected item is shown under the main interface. In addition to object categories, there are also categories for recently used objects, and Modes and Prefabs that you are a [Collaborator](/broken/pages/bh8WTdAKMqPcmgg6qGrG) on or have bookmarked.
 
 <div><figure><img src="../../../../.gitbook/assets/forge-interface-forge-menu-object-browser.jpg" alt=""><figcaption><p>Object Browser tab with all categories collapsed</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/object-browser-open.jpg" alt=""><figcaption><p>Object Browser tab with two categories open</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/object-browser-accents-forerunner.jpg" alt=""><figcaption><p>Accents > Forerunner category open in the Object Browser tab</p></figcaption></figure></div>
 

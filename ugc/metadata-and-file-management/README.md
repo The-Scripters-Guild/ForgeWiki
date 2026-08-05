@@ -16,13 +16,9 @@ This has caused numerous issues for Forgers early on as this was not understood 
 If multiple metadata changes are made without refreshing the file and adding the changes to the latest version, only the very last metadata edit will show up in the last version of the file.
 {% endhint %}
 
-
-
 ## Learn more about
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Content Interface and Controls</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="content-interface-and-controls/">content-interface-and-controls</a></td></tr><tr><td>Working with Files</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="working-with-files/">working-with-files</a></td></tr><tr><td>Prefabs</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="prefabs/">prefabs</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Content Interface and Controls</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="content-interface1.md">content-interface1.md</a></td></tr><tr><td>Working with Files</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="working-with-files/">working-with-files</a></td></tr><tr><td>Prefabs</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/U1UVYaydcUu6pCvhD0Fz">Broken link</a></td></tr></tbody></table>
 
 ***
 

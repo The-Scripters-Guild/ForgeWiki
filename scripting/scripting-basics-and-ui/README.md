@@ -44,8 +44,8 @@ Additional brains can be placed to allow for placing more nodes, but each brain 
 [nodes](../nodes/)
 {% endcontent-ref %}
 
-{% content-ref url="../node-data/connection-pins/" %}
-[connection-pins](../node-data/connection-pins/)
+{% content-ref url="/broken/pages/32MHGD9hQ8WBE0fgViq9" %}
+[Broken link](/broken/pages/32MHGD9hQ8WBE0fgViq9)
 {% endcontent-ref %}
 
 ### How do I test my code?
@@ -54,13 +54,9 @@ In Forge, there are multiple 'modes' that can be accessed. By default, the user 
 
 To test scripting in Forge, the user must enter Play Mode, which spawns the player in at a proper spawn point and simulates a play session. Some code, notably anything to do with FFA Affiliations, must be tested in Customs.
 
-
-
 ## Learn more about
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Node Graph Interfaces</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-interface/">node-graph-interface</a></td></tr><tr><td>Controls and Shortcuts</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="controls-and-shortcuts.md">controls-and-shortcuts.md</a></td></tr><tr><td>Working with Nodes</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="working-with-nodes.md">working-with-nodes.md</a></td></tr><tr><td>Script Brains and Mode Brains</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="script-brains-and-mode-brains.md">script-brains-and-mode-brains.md</a></td></tr><tr><td>Node Graph Properties</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-properties.md">node-graph-properties.md</a></td></tr><tr><td>Scripting Terminology</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="scripting-terminology.md">scripting-terminology.md</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Node Graph Interfaces</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="node-graph-interface/">node-graph-interface</a></td></tr><tr><td>Controls and Shortcuts</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="controls-and-shortcuts.md">controls-and-shortcuts.md</a></td></tr><tr><td>Working with Nodes</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="working-with-nodes.md">working-with-nodes.md</a></td></tr><tr><td>Script Brains and Mode Brains</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="script-brains-and-mode-brains.md">script-brains-and-mode-brains.md</a></td></tr><tr><td>Node Graph Properties</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/MkNTKbMexsbyXOs1V72r">Broken link</a></td></tr><tr><td>Scripting Terminology</td><td><a href="../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="scripting-terminology.md">scripting-terminology.md</a></td></tr></tbody></table>
 
 ***
 

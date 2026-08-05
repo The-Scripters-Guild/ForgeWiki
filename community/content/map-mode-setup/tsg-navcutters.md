@@ -12,7 +12,7 @@ Bookmark the prefab via this [filter link](https://www.halowaypoint.com/halo-inf
 
 ## Purpose
 
-This prefab is designed to block the spread of Nav Mesh from all 27 [invisible Backup Spawn Points](../../../halo-infinite/forge/player-spawning/backup-spawn-points/) on all Forge canvases by having a large enough Nav Cutter boundary around each Backup Spawn Point.
+This prefab is designed to block the spread of Nav Mesh from all 27 [invisible Backup Spawn Points](https://github.com/The-Scripters-Guild/ForgeWiki/blob/main/halo-infinite/forge/player-spawning/backup-spawn-points/README.md) on all Forge canvases by having a large enough Nav Cutter boundary around each Backup Spawn Point.
 
 ## Usage
 
@@ -28,7 +28,7 @@ This prefab is designed to block the spread of Nav Mesh from all 27 [invisible B
 
 ## Good to note
 
-Once this prefab is in place, you must have at least one non-blocked [Nav Mesh generation Root Point](../../../halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points/) object present on the map for the Nav Mesh to be able to build. Otherwise you will get a [build error](../../../halo-infinite/guides-and-tutorials/forge/nav-mesh/fixing-nav-mesh-build-issues/#navigation-data-generation-failed).
+Once this prefab is in place, you must have at least one non-blocked [Nav Mesh generation Root Point](https://github.com/The-Scripters-Guild/ForgeWiki/blob/main/halo-infinite/forge/nav-mesh/nav-mesh-generation-root-points/README.md) object present on the map for the Nav Mesh to be able to build. Otherwise you will get a [build error](https://github.com/The-Scripters-Guild/ForgeWiki/blob/main/halo-infinite/guides-and-tutorials/forge/nav-mesh/fixing-nav-mesh-build-issues/README.md#navigation-data-generation-failed).
 
 ***
 

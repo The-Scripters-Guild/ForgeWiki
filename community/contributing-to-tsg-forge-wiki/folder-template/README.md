@@ -9,7 +9,7 @@ Give a brief explanation of the topic this folder is about and at the end, list 
 This only applies to pages that would be considered as folders _more_ than standalone pages with sub-pages underneath them that explain some topics in more detail that fit under that category.
 
 * Examples of a Folder: [Firefight](../../../forge/modes/firefight/), [Mode Setup](../../../forge/standards/mode-setup/) & [Spawning](../../../forge/spawning/)
-* Examples of a standalone page with sub-pages: [Firefight KOTH](../../../forge/modes/firefight/firefight-koth/) & [Loading Into Forge](../../../forge/forge-basics-and-ui/loading-into-forge/)
+* Examples of a standalone page with sub-pages: [Firefight KOTH](../../../forge/modes/firefight/firefight-koth.md) & [Loading Into Forge](../../../forge/forge-basics-and-ui/loading-into-forge/)
 
 {% hint style="info" %}
 A good rule of thumb is that if you need to break a topic into smaller articles and the majority of that topic can't be explained within just one article, then it should be a folder.
@@ -20,8 +20,6 @@ For demonstration purposes, there are six cards of the Article Template article 
 ## Learn more about
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Article Template</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="article-template.md">article-template.md</a></td></tr><tr><td>Article Template</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="article-template.md">article-template.md</a></td></tr><tr><td>Article Template</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="article-template.md">article-template.md</a></td></tr><tr><td>Article Template</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="article-template.md">article-template.md</a></td></tr><tr><td>Article Template</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="article-template.md">article-template.md</a></td></tr><tr><td>Article Template</td><td><a href="../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="article-template.md">article-template.md</a></td></tr></tbody></table>
-
-
 
 ***
 

@@ -8,8 +8,6 @@ description: How to set up a level to support 4v4 Stockpile.
 
 4v4 Stockpile by [WAR FH](https://www.unggoy.xyz/browse?gamertag=WAR+FH\&ownerOnly=true) is a variant of [Stockpile](../../../forge/modes/stockpile.md) that is tailored for competitive 4v4 gameplay. Power Seeds spawn in 5 set locations on the map and need to be delivered to your team's Power Sockets to gain score. 3 delivered Power Seeds results in a score increase for the team. The first team to 3 score wins. Players can also steal Power Seeds from enemy Power Sockets and bring them back to their own.
 
-
-
 ## Gamemode setup
 
 The objects required on-level to support 4v4 Stockpile.
@@ -159,8 +157,6 @@ Cobra:
 * **Affects Opposing Team**: On
 * **Affects Initial Spawns**: Off
 
-
-
 ## Sandbox setup
 
 As 4v4 Stockpile is based on a BTB mode, but is intended for Ranked 4v4 play, the sandbox of the map needs to be forced to Ranked 4v4 settings for optimal gameplay, otherwise the properties that default to BTB modes would be used such as faster spawning weapons.
@@ -171,7 +167,7 @@ As 4v4 Stockpile is based on a BTB mode, but is intended for Ranked 4v4 play, th
 
 ### Base Weapon Spawners
 
-Adjust the Spawn Properties of the [Weapon Spawners](../../../forge/gameplay/sandbox/weapons/weapon-spawning/) on the level to match the following:
+Adjust the Spawn Properties of the [Weapon Spawners](../../../forge/gameplay/sandbox/weapons/weapon-spawning.md) on the level to match the following:
 
 {% hint style="info" %}
 Power Weapons (Tier 3) don't need to be adjusted.
@@ -231,7 +227,7 @@ For the following weapons:
 
 ### Base Equipment Spawners
 
-Adjust the Spawn Properties of the [Equipment Spawners](../../../forge/gameplay/sandbox/equipment/equipment-spawning/) on the level to match the following:
+Adjust the Spawn Properties of the [Equipment Spawners](../../../forge/gameplay/sandbox/equipment/equipment-spawning.md) on the level to match the following:
 
 * **Spawn Properties**: Custom
 * **Ammo Multiplier**: 100%
@@ -297,8 +293,6 @@ The two spawner variants should not appear in a mode at the same time. Labels ne
 
 * Ranked Include
 * Stockpile Include
-
-
 
 ***
 

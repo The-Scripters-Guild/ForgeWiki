@@ -10,9 +10,7 @@ Information about the weapons in Halo Infinite via Forge objects. A list of all 
 
 ## Learn more about
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>All Weapons</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="all-weapons/">all-weapons</a></td></tr><tr><td>Weapon Spawning</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="weapon-spawning/">weapon-spawning</a></td></tr><tr><td>Weapon Data</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="weapon-data/">weapon-data</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>All Weapons</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/RZwIjgNMZEHvuAG8ytpV">Broken link</a></td></tr><tr><td>Weapon Spawning</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="weapon-spawning.md">weapon-spawning.md</a></td></tr><tr><td>Weapon Data</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="weapon-data/">weapon-data</a></td></tr></tbody></table>
 
 ***
 

@@ -196,7 +196,7 @@ As the folder structure in Forge is alphabetically ordered, a numbering system c
 
 ## Folder Structure References
 
-The folder structure doesn't have to be overly complicated to work efficiently. The objects on a map can roughly be divided into: Layout, Gameplay, Containment & Scripts. It's also useful to separate the playable geometry and the skybox geometry of the map to [optimize the Nav Mesh build](../../../nav-mesh/nav-mesh-generation/optimizing-nav-mesh-generation/) by hiding the skybox during [Nav Mesh generation](../../../nav-mesh/nav-mesh-generation/building-nav-mesh/).
+The folder structure doesn't have to be overly complicated to work efficiently. The objects on a map can roughly be divided into: Layout, Gameplay, Containment & Scripts. It's also useful to separate the playable geometry and the skybox geometry of the map to [optimize the Nav Mesh build](/broken/pages/4o0UJbXgyE439Qbo07VC) by hiding the skybox during [Nav Mesh generation](../../../nav-mesh/building-nav-mesh/).
 
 A great folder structure allows the forgers who care about folderizing objects to do so while still keeping newly placed objects organized in one place if the forger forgot to set a working folder. Below are references to recommended folder structures used by experienced forgers that have been tried and tested over multiple different maps to work efficiently.
 

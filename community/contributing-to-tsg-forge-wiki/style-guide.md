@@ -24,9 +24,7 @@ There are different ways of formatting text that can be useful in wiki articles.
 * External link: [This is a link](https://example.org/)
   * Internal link: [This is another link](../../forge/lighting/)
 
-<!---->
-
-* [x] <mark style="color:red;">Colored text</mark>
+- [x] <mark style="color:red;">Colored text</mark>
   * [ ] <mark style="background-color:red;">Background colored text</mark>
   * [x] <mark style="color:yellow;background-color:green;">Both colored</mark>
 
@@ -47,7 +45,7 @@ Keyboard:
 * Signs: <img src="../../.gitbook/assets/keyboard-slash-forward.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-slash-backward.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-plus.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-minus.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-tilde.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-question.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-exclamation.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-bracket-left.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-bracket-right.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-equals.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-divide.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-underscore.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-dot.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-comma.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-semicolon.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f11.png" alt="Key icon" data-size="line">
 * Function Keys: <img src="../../.gitbook/assets/keyboard-f1.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f2.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f3.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f4.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f5.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f6.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f7.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f8.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f9.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f10.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f11.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-f12.png" alt="Key icon" data-size="line">
 * Numpad: <img src="../../.gitbook/assets/keyboard-numpad-0.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-1.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-2.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-3.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-4.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-5.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-6.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-7.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-8.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-9.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-plus.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-minus.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-divide.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-dot.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-x.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-underscore.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/keyboard-numpad-enter.png" alt="Key icon" data-size="line">
-* Mouse:  <img src="../../.gitbook/assets/mouse-icon.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-click-right.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-click-middle.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-scroll-up.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-scroll-down.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-scroll.png" alt="Key icon" data-size="line">  <img src="../../.gitbook/assets/mouse-movement.png" alt="Key icon" data-size="line">
+* Mouse: <img src="../../.gitbook/assets/mouse-icon.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-click-left.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-click-right.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-click-middle.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-scroll-up.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-scroll-down.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-scroll.png" alt="Key icon" data-size="line"> <img src="../../.gitbook/assets/mouse-movement.png" alt="Key icon" data-size="line">
 
 Controller:
 
@@ -79,11 +77,7 @@ Fit – Removes all size specifications and displays either at full size or capp
 
 Full-width – Spans the full width of the window. Not ideal in most cases as it breaks the shape continuity of the article.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat that spans the width of the entire page!</p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat that spans the width of the entire page!</p></figcaption></figure></div>
 
 #### Large-Sized
 
@@ -107,55 +101,19 @@ Small – 25% of the image size
 
 #### Two Images
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the left</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the right</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the left</p></figcaption></figure> <figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the right</p></figcaption></figure></div>
 
 #### Three Images
 
-<div>
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the left</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat in the center</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the right</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the left</p></figcaption></figure> <figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat in the center</p></figcaption></figure> <figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the right</p></figcaption></figure></div>
 
 #### Four Images
 
 Just two two-image groups on top of each other.
 
-<div>
+<div><figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the top left</p></figcaption></figure> <figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the top right</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the top left</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the top right</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the bottom left</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the bottom right</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the bottom left</p></figcaption></figure> <figure><img src="../../.gitbook/assets/placeholderCat.jpg" alt=""><figcaption><p>A cat on the bottom right</p></figcaption></figure></div>
 
 ## Infoboxes
 
@@ -210,7 +168,7 @@ Keep information organized and make documenting data easier by adding a table to
 
 ### Relevant Column Types
 
-<table><thead><tr><th>Text</th><th data-type="number">Number</th><th data-type="checkbox">Checkbox</th><th data-type="rating" data-max="5">Rating</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Text 1</td><td>123</td><td>true</td><td>1</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td>Text 2</td><td>1234</td><td>false</td><td>2</td><td><a href="http://example.org/">http://example.org/</a></td></tr><tr><td>Text 3</td><td>123456789</td><td>true</td><td>5</td><td><a href="../../scripting/nodes/events/on-gameplay-start.md">on-gameplay-start.md</a></td></tr></tbody></table>
+<table><thead><tr><th>Text</th><th data-type="number">Number</th><th data-type="checkbox">Checkbox</th><th data-type="rating" data-max="5">Rating</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Text 1</td><td>123</td><td>true</td><td>1</td><td><a href="https://github.com/The-Scripters-Guild/ForgeWiki/blob/main/community/contributing-to-tsg-forge-wiki/broken-reference/README.md">https://github.com/The-Scripters-Guild/ForgeWiki/blob/main/community/contributing-to-tsg-forge-wiki/broken-reference/README.md</a></td></tr><tr><td>Text 2</td><td>1234</td><td>false</td><td>2</td><td><a href="http://example.org/">http://example.org/</a></td></tr><tr><td>Text 3</td><td>123456789</td><td>true</td><td>5</td><td><a href="../../scripting/nodes/events/on-gameplay-start.md">on-gameplay-start.md</a></td></tr></tbody></table>
 
 ### Column Alignment
 
@@ -225,13 +183,11 @@ Cards can be used to display information in neat blocks. GitBook card groups are
 
 ### Card Group 1
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>A card with a cat image. Here you can write more info about this if needed.</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>This card will link you to the "Welcome" page on click</td><td></td><td><a href="../../">..</a></td></tr><tr><td>This card has a cat image and will take you to the "File Screenshots" page on click!</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td><a href="../../ugc/metadata-and-file-management/working-with-files/file-screenshots.md">file-screenshots.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>A card with a cat image. Here you can write more info about this if needed.</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>This card will link you to the "Welcome" page on click</td><td></td><td><a href="../../">..</a></td></tr><tr><td>This card has a cat image and will take you to the "File Screenshots" page on click!</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td><a href="/broken/pages/HqVVORV88sn4MQmazTCb">Broken link</a></td></tr></tbody></table>
 
 ### Card Group 2
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Here is a separate LARGE card group</td><td>that can have text</td><td>on multiple lines</td><td><a href="../../.gitbook/assets/placeholderCat.jpg">placeholderCat.jpg</a></td><td></td></tr><tr><td>Click this card</td><td>to find out the basics</td><td>about Halo Infinite's Forge!</td><td></td><td><a href="../../forge/forge-basics-and-ui/">forge-basics-and-ui</a></td></tr></tbody></table>
-
-
 
 ## Expandable Sections
 
@@ -310,8 +266,6 @@ A spreadsheet showing various Forge data collected by TSG members
 {% endembed %}
 
 In the case of embeds that don't link to the source page, be sure to [include the link to them](https://docs.google.com/spreadsheets/d/1nWTARlv1CZKfNVOramvxRC6u56VvK4GrqpLJZP4IPbQ/) afterwards, if it's beneficial for the reader.
-
-
 
 ***
 

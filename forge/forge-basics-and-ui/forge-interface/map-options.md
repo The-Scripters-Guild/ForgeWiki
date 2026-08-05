@@ -65,7 +65,7 @@ Settings to adjust the lighting, fog and wind.
 
 ### Sunlight
 
-Settings to adjust the sunlight and it's direction. For more details, see [Sun](../../lighting/settings-global-lighting/sun.md).
+Settings to adjust the sunlight and it's direction. For more details, see [Sun](/broken/pages/xqTXOtwk3ARzx3CLguIO).
 
 #### Intensity
 
@@ -91,7 +91,7 @@ Input range: `0.00` - `360.00`
 
 ### Light Bounce
 
-Settings to control how bounce light affects the level. For more details, see [Light Bounce](../../lighting/settings-global-lighting/light-bounce.md).
+Settings to control how bounce light affects the level. For more details, see [Light Bounce](/broken/pages/NVIdB7p9yyn7UxP29Sj4).
 
 #### Intensity
 
@@ -105,7 +105,7 @@ Changes the color of bounce light.
 
 ### Sky Light
 
-Sky light settings adjust the sky lighting and it's positional colors. For more details, see [Sky](../../lighting/settings-global-lighting/sky.md).
+Sky light settings adjust the sky lighting and it's positional colors. For more details, see [Sky](/broken/pages/goAtzFM5JODWLEje9I6p).
 
 #### Intensity
 
@@ -139,7 +139,7 @@ Changes the color of sky lighting coming from the west side of the map.
 
 ### Sky Rendering
 
-Sky rendering settings adjust the look of the sky and sun. For more details, see [Sky](../../lighting/settings-global-lighting/sky.md) and [Sun](../../lighting/settings-global-lighting/sun.md).
+Sky rendering settings adjust the look of the sky and sun. For more details, see [Sky](/broken/pages/goAtzFM5JODWLEje9I6p) and [Sun](/broken/pages/xqTXOtwk3ARzx3CLguIO).
 
 #### Sky Intensity
 
@@ -177,7 +177,7 @@ Sets how intense the sun color is.
 
 ### Atmospheric Fog
 
-Atmospheric fog settings emulate light scattering in the atmosphere. For more details, see [Fog](../../lighting/settings-global-lighting/fog.md).
+Atmospheric fog settings emulate light scattering in the atmosphere. For more details, see [Fog](/broken/pages/OKmDPy73mhXqA0GUEUXC).
 
 #### Fog Offset
 
@@ -237,7 +237,7 @@ The [Atmospheric Fog Inscattering](map-options.md#inscattering) value must be un
 
 ### Volumetric Fog
 
-Volumetric fog settings simulate 3D fog as cost from a light source. For more details, see [Fog](../../lighting/settings-global-lighting/fog.md).
+Volumetric fog settings simulate 3D fog as cost from a light source. For more details, see [Fog](/broken/pages/OKmDPy73mhXqA0GUEUXC).
 
 {% hint style="warning" %}
 Volumetric Fog can be turned off client-side from the video settings, so it shouldn't be relied on for major fog effects.
@@ -354,7 +354,7 @@ Snow Medium
 </details>
 
 {% hint style="warning" %}
-Having global Screen Effects _on_ may cause issues on maps with multiple [FX-emitting objects](../../lighting/fx/fx-emitting-objects.md) such as [Weapon Spawners](../../gameplay/sandbox/weapons/weapon-spawning/). Turning the Screen Effects off in these cases helps prevent issues with FX overload.
+Having global Screen Effects _on_ may cause issues on maps with multiple [FX-emitting objects](/broken/pages/XV5mFe3bVIoMoARSSZA1) such as [Weapon Spawners](../../gameplay/sandbox/weapons/weapon-spawning.md). Turning the Screen Effects off in these cases helps prevent issues with FX overload.
 {% endhint %}
 
 ## Decorators
@@ -560,7 +560,7 @@ The total percent of the Forge Simulation budget used by miscellaneous entities,
 Budget range: `0.0%` - `100.00%`
 
 {% hint style="info" %}
-[Prefabs](../../../ugc/metadata-and-file-management/prefabs/) and [Folder](folders/) names take up Forge Simulation budget, but the impact is negligible to take into consideration. If the Forge Simulation budget is at 100.00%, you may not be able to create prefabs or rename folders.
+[Prefabs](/broken/pages/U1UVYaydcUu6pCvhD0Fz) and [Folder](folders/) names take up Forge Simulation budget, but the impact is negligible to take into consideration. If the Forge Simulation budget is at 100.00%, you may not be able to create prefabs or rename folders.
 {% endhint %}
 
 ### Object Limits
@@ -575,7 +575,7 @@ Budget range: `0.0%` - `100.00%`
 
 #### Vehicles
 
-The number of vehicles in the map. Does not account for vehicles created during gameplay. Includes all types of [Vehicle Spawners](../../gameplay/sandbox/vehicles/vehicle-spawning/).
+The number of vehicles in the map. Does not account for vehicles created during gameplay. Includes all types of [Vehicle Spawners](../../gameplay/sandbox/vehicles/vehicle-spawning.md).
 
 Budget range: `0` - `40` / 40
 
@@ -587,7 +587,7 @@ Attempting to create more than 128 vehicles won't work. If a vehicle made from t
 
 #### Reflection Volumes
 
-The number of [Reflection Volumes](../../lighting/lighting-modifiers/reflections/reflection-volumes/) in the map. This is a hard limit and cannot be exceeded.
+The number of [Reflection Volumes](/broken/pages/JkGIsjKcqpPkNfzp5sZ0) in the map. This is a hard limit and cannot be exceeded.
 
 Budget range: `0` - `15` / 15
 

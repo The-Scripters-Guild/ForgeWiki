@@ -69,7 +69,7 @@ Sets the name of the selected object. The name is displayed in [Folders](folders
 
 The number at the end of objects is a part of the object name. If an object with a duplicate name is created, an incrementing number will be appended to the end of the object name. If an object's name is already 40 characters long, a number won't be appended.
 
-Some strings of characters or words are flagged as invalid, and won't be allowed in the Object Name. A list of the discovered ones has been compiled in: [Invalid Flagged Strings](../../../community/content/misc-content/invalid-flagged-strings.md).
+Some strings of characters or words are flagged as invalid, and won't be allowed in the Object Name. A list of the discovered ones has been compiled in: [Invalid Flagged Strings](/broken/pages/EXzbMRoY2QYGi5mFRod6).
 
 <figure><img src="../../../.gitbook/assets/object-properties-object-name-invalid.jpg" alt=""><figcaption><p>The word "support" being classified as invalid, and can't be in the Object Name</p></figcaption></figure>
 
@@ -259,7 +259,7 @@ Modify properties to adjust the size/shape of the object's boundary which can be
 
 ### Spawning
 
-Spawn order, despawn and respawn settings. Mostly used on mounted turrets to determine their spawning properties, as they cannot be spawned from [Weapon Spawners](../../gameplay/sandbox/weapons/weapon-spawning/).
+Spawn order, despawn and respawn settings. Mostly used on mounted turrets to determine their spawning properties, as they cannot be spawned from [Weapon Spawners](../../gameplay/sandbox/weapons/weapon-spawning.md).
 
 ## Advanced Properties
 

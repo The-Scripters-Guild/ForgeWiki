@@ -32,7 +32,7 @@ Select the map that you want to load into in Forge from the "Map" tab. The defau
 
 #### Map Categories
 
-Select the map category to find your map in, in this case "343 Industries", as we will use one of the default [Forge Canvases](forge-canvases.md) to start our first level. Read more about the different map categories at [Maps Interface](../../../ugc/metadata-and-file-management/content-interface-and-controls/maps-interface.md).
+Select the map category to find your map in, in this case "343 Industries", as we will use one of the default [Forge Canvases](forge-canvases.md) to start our first level. Read more about the different map categories at [Maps Interface](/broken/pages/NCsRpDQEwuvnEtip0cBk).
 
 <figure><img src="../../../.gitbook/assets/loading-forge-3.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -52,7 +52,7 @@ Press "Play" to begin the process of loading the map in Forge.
 {% tab title="Map is a not an owned asset" %}
 **Naming the New Map**
 
-A screen will show prompting you to edit the name of the map. This is because you are creating a copy of the original map for your account instead of opening and editing the original file as you are not a [Collaborator](../../../ugc/metadata-and-file-management/working-with-files/file-collaborators.md) on it. This is done because Infinite's Forge is online-based and all files are stored on the cloud instead of locally.
+A screen will show prompting you to edit the name of the map. This is because you are creating a copy of the original map for your account instead of opening and editing the original file as you are not a [Collaborator](/broken/pages/bh8WTdAKMqPcmgg6qGrG) on it. This is done because Infinite's Forge is online-based and all files are stored on the cloud instead of locally.
 
 Afterwards, loading a map from the "My Files" map category will not prompt you to make a copy of the map as you are already one of the collaborators on the original map.
 
@@ -75,10 +75,8 @@ Once complete, you will be loaded into the Forge mode on your map.
 <figure><img src="../../../.gitbook/assets/loading-forge-8.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-You may notice a message in the bottom left killfeed stating "Navigation data download x% complete". It relates to downloading the [Built Nav Mesh Data](../../nav-mesh/nav-mesh-generation/building-nav-mesh/), but the reason for why it's shown is not clear as it didn't use to happen. The message should not be worried about.
+You may notice a message in the bottom left killfeed stating "Navigation data download x% complete". It relates to downloading the [Built Nav Mesh Data](../../nav-mesh/building-nav-mesh/), but the reason for why it's shown is not clear as it didn't use to happen. The message should not be worried about.
 {% endhint %}
-
-
 
 ## Next Steps
 
@@ -90,8 +88,8 @@ You may notice a message in the bottom left killfeed stating "Navigation data do
 [coordinate-system-and-spaces.md](../coordinate-system-and-spaces.md)
 {% endcontent-ref %}
 
-{% content-ref url="../working-with-objects.md" %}
-[working-with-objects.md](../working-with-objects.md)
+{% content-ref url="/broken/pages/23ZCSnPaLj9061ozomjj" %}
+[Broken link](/broken/pages/23ZCSnPaLj9061ozomjj)
 {% endcontent-ref %}
 
 {% content-ref url="../editor-modes.md" %}
@@ -101,8 +99,6 @@ You may notice a message in the bottom left killfeed stating "Navigation data do
 {% content-ref url="../saving-assets.md" %}
 [saving-assets.md](../saving-assets.md)
 {% endcontent-ref %}
-
-
 
 ***
 
