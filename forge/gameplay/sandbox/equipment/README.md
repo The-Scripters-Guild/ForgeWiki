@@ -1,14 +1,13 @@
 ---
 description: >-
-  A comprehensive list of all equipment and grenade types available in
-  Halo Infinite Forge.
+  All equipment in Halo Infinite Forge.
 ---
 
 # Equipment
 
 <figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-All equipment in Halo Infinite Forge.
+A comprehensive list of all equipment and grenade types available in Halo Infinite Forge.
 
 ## Equipment
 
