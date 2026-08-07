@@ -1,18 +1,53 @@
 ---
 description: >-
-  Topics about the vehicles in Halo Infinite. What vehicles are available in the
-  sandbox and how to spawn them.
+  A compilation of vehicles, turrets, and special vehicle entities in
+  Halo Infinite.
 ---
 
 # Vehicles
 
-Information about the vehicles in Halo Infinite. A list of all vehicles, how to spawn them on your level and extra researched information can be found.
+<figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-## Learn more about
+This article provides a comprehensive list of the various vehicles present in Halo Infinite, including mounted weaponry and unique special entities.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>All Vehicles</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/p6EhZY4uTmX1lmYBSV3J">Broken link</a></td></tr><tr><td>Vehicle Spawning</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="vehicle-spawning.md">vehicle-spawning.md</a></td></tr><tr><td>Vehicle Data</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="vehicle-data/">vehicle-data</a></td></tr></tbody></table>
+## Vehicle Types
+
+* Banshee
+* Chieftain Chopper
+* Chopper
+* Falcon
+* Ghost
+* Gungoose
+* Mongoose
+* Pelican
+* Phantom
+* Razorback
+* Rockethog
+* Scorpion
+* Shade Turret
+* Warthog
+* Wasp
+* Wraith
+
+## Weaponry and Special Entities
+
+### Mounted Turrets
+
+* M247 HMG Turret
+* Plasma Cannon Turret
+* Scrap Cannon Turret
+
+#### Special Units
+
+* Cloned Banshee
+* Cloned Ghost
+* Auto Turret
 
 ***
+
+## Source Data
+
+* Discord thread: [Vehicles](https://discord.com/channels/220766496635224065/1535149042563027114/1535149042563027114)
 
 #### <mark style="color:green;">Contributors</mark>
 
