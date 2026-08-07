@@ -1,15 +1,17 @@
 ---
 description: >-
-  All weapons in Halo Infinite.
+  All weapons in Halo Infinite Forge.
 ---
 
 # Weapons
 
 <figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-This article provides an exhaustive listing of the various weaponry, specialized equipment, mission objectives, and weapon configurations present within Halo Infinite.
+This article provides an exhaustive listing of the various weaponry, equipment, objectives, and weapon configurations obtainable within Halo Infinite Forge that classify as weapons.
 
 ## Base weapons
+
+Base Weapons are core weapons that function on their own, but can have modifications applied to them via Configurations. Not all Base Weapons are affected by the modifications that Configurations bring.
 
 * BR75
 * Bandit Evo
@@ -86,6 +88,8 @@ This article provides an exhaustive listing of the various weaponry, specialized
 
 ## Configurations
 
+Configurations are modifications to weapon behavior such as ammo count, red-reticle range, bloom, or player traits. Configurations can be applied to any Base Weapon.
+
 * Arcane Sentinel Beam
 * BR75 Breacher
 * Backdraft Cindershot
@@ -112,7 +116,7 @@ This article provides an exhaustive listing of the various weaponry, specialized
 * Volatile Skewer
 
 {% hint style="info" %}
-The weapon configurations are often called "Legendary weapons".
+The weapon configurations are often called "Legendary weapons" on their own, but these legendary weapons in reality are a combination of a Base Weapon and a Configuration, such as a Mangler + Riven Mangler.
 {% endhint %}
 
 ## Weapon tiers
