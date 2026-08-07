@@ -93,8 +93,7 @@ Weapons not allowed for Ranked modes:
 * Skewer
 * Fusion Coils
 
-To exclude a weapon spawner from Ranked modes, apply the "Ranked Exclude" label on the object. To make a weapon spawner only appear in Ranked modes, apply the "Ranked Include" label.
-
+{% hint style="info" %} To exclude a weapon spawner from Ranked modes, apply the "Ranked Exclude" label on the object. To make a weapon spawner only appear in Ranked modes, apply the "Ranked Include" label. {% endhint %}
 ## Equipment
 
 Adjustments to equipment required for the Ranked sandbox. These are modifications to the [standard setup for equipment spawners](../../gameplay/sandbox/equipment/equipment-spawning.md).
@@ -150,7 +149,7 @@ Equipment not allowed for Ranked modes:
 * Threat Sensor
 * Dynamo Grenade
 
-To exclude an equipment spawner from Ranked modes, apply the "Ranked Exclude" label on the object. To make a equipment spawner only appear in Ranked modes, apply the "Ranked Include" label.
+{% hint style="info" %} To exclude an equipment spawner from Ranked modes, apply the "Ranked Exclude" label on the object. To make a equipment spawner only appear in Ranked modes, apply the "Ranked Include" label. {% endhint %}
 
 ***
 
