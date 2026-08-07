@@ -1,16 +1,15 @@
 ---
 description: >-
-  A comprehensive list of all vehicles and weaponry available in Halo
-  Infinite Forge.
+  All vehicles in Halo Infinite Forge.
 ---
 
 # Vehicles
 
 <figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-All vehicles in Halo Infinite Forge.
+A comprehensive list of all vehicles available in Halo Infinite Forge.
 
-## Vehicle Types
+## Vehicles
 
 * Banshee
 * Chieftain Chopper
@@ -29,9 +28,7 @@ All vehicles in Halo Infinite Forge.
 * Wasp
 * Wraith
 
-## Combat and Specialty Units
-
-### Weapons
+### Weapons (Vehicle Types)
 
 * M247 HMG Turret
 * Plasma Cannon Turret
