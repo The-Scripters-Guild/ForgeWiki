@@ -1,14 +1,14 @@
 ---
 description: >-
-  A guide to spawning equipment in Halo Infinite using various Forge
-  objects and specific spawner settings.
+  Explanations regarding various methods and topics for spawning
+  equipment within Halo Infinite via Forge objects.
 ---
 
 # Equipment Spawning
 
 <figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-This article provides explanations regarding topics related to equipment spawning, covering the different ways gear can be spawned in Halo Infinite via Forge objects.
+This article provides explanations regarding topics related to equipment spawning, covering the different ways equipment can be spawned in Halo Infinite via Forge objects.
 
 ## Standard Spawners
 
