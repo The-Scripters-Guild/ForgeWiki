@@ -46,8 +46,11 @@ Adjustments to weapons required for the Ranked sandbox. These are modifications 
 
 ### M41 SPNKr
 
-* Spawn Properties: Custom
-* Ammo Multiplier: 50%
+* **Spawn Properties:** Custom
+* **Ammo Multiplier:** 50%
+* **Spawn Logic:** Static (Time)
+* **Spawn Time:** 120.00
+* **Max Deployed:** 0.00
 
 ### Weapon pool
 
@@ -100,23 +103,25 @@ Adjustments to equipment required for the Ranked sandbox. These are modification
 
 These adjustments apply to all base equipment; power equipment remain unchanged.
 
-* Spawn Properties: Custom
-* Max Deployed: 1.00 (creates "[red-rack](../../forge-basics-and-ui/forge-terminology.md#creator-vocabulary-and-objects)" effect)
+* **Spawn Properties:** Custom
+* **Spawn Logic:** Dynamic (Pickup)
+* **Spawn Time:** 60.00
+* **Max Deployed:** 1.00 (creates the "[red-rack](../../forge-basics-and-ui/forge-terminology.md#creator-vocabulary-and-objects)" effect)
 
 ### Drop Wall
 
-* Spawn Properties: Custom
-* Charge Multiplier: 50%
+* **Spawn Properties:** Custom
+* **Charge Multiplier:** 50%
 
 ### Shroud Screen
 
-* Spawn Properties: Custom
-* Charge Multiplier: 50%
+* **Spawn Properties:** Custom
+* **Charge Multiplier:** 50%
 
 ### Threat Seeker
 
-* Spawn Properties: Custom
-* Charge Multiplier: 50%
+* **Spawn Properties:** Custom
+* **Charge Multiplier:** 50%
 
 ### Equipment pool
 
