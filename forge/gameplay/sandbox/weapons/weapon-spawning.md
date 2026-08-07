@@ -18,7 +18,7 @@ Breakdown of the weapons within each class:
 
 ### Default variants
 
-* **Anti-Vehicle:** Disruptor, MLRS-2 Hydra, Shock Rifle,
+* **Anti-Vehicle:** Disruptor, MLRS-2 Hydra, Shock Rifle
 * **Any:** All weapons
 * **Assault Rifle:** Bandit Evo, M392 Bandit, Pulse Carbine
 * **Launcher:** Cindershot, Fuel Rod SPNKr, M41 SPNKr, MLRS-2 Hydra, Ravager
@@ -33,7 +33,7 @@ Breakdown of the weapons within each class:
 
 The legendary weapons will only appear if the "Legendary Variants" option is set to Included or Preferred.
 
-* **Anti-Vehicle:** Calcine Disruptor, Pursuit Hydra, Purging Shock Rifle,
+* **Anti-Vehicle:** Calcine Disruptor, Pursuit Hydra, Purging Shock Rifle
 * **Any:** All weapons
 * **Assault Rifle:** Bandit Evo, M392 Bandit, Rapidfire Pulse Carbine
 * **Launcher:** Backdraft Cindershot, Fuel Rod SPNKr, M41 Tracker, Pursuit Hydra, Rebound Ravager
