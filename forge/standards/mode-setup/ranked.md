@@ -60,7 +60,6 @@ Weapons allowed for Ranked modes:
 * BR75
 * Bandit Evo
 * CQS48 Bulldog
-* M392 Bandit
 * M41 SPNKr
 * Mk50 Sidekick
 * Needler
@@ -70,6 +69,8 @@ Weapons allowed for Ranked modes:
 * Stalker Rifle
 * VK78 Commando Rifle
 * Vestige Carbine
+
+{% hint style="info" %} The CQS48 Bulldog and Needler are not used in official tournaments, but are fine for matchmaking. {% endhint %}
 
 Weapons not allowed for Ranked modes:
 * Cindershot
@@ -81,6 +82,7 @@ Weapons not allowed for Ranked modes:
 * Gravity Hammer
 * Heatwave
 * Infected Energy Sword
+* M392 Bandit
 * MA40 Assault Rifle
 * MA5K Avenger
 * MLRS-2 Hydra
@@ -94,6 +96,7 @@ Weapons not allowed for Ranked modes:
 * Fusion Coils
 
 {% hint style="info" %} To exclude a weapon spawner from Ranked modes, apply the "Ranked Exclude" label on the object. To make a weapon spawner only appear in Ranked modes, apply the "Ranked Include" label. {% endhint %}
+
 ## Equipment
 
 Adjustments to equipment required for the Ranked sandbox. These are modifications to the [standard setup for equipment spawners](../../gameplay/sandbox/equipment/equipment-spawning.md).
