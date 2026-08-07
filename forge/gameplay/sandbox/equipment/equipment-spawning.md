@@ -1,16 +1,95 @@
 ---
-description: Different ways of spawning in equipment on a level in Halo Infinite.
+description: >-
+  Explanations regarding various methods and topics for spawning
+  equipment within Halo Infinite via Forge objects.
 ---
 
 # Equipment Spawning
 
-All ways to spawn equipment in Halo Infinite. The first spawner objects in the list are the most common ones.
+<figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-## Learn more about
+This article provides explanations regarding topics related to equipment spawning, covering the different ways equipment can be spawned in Halo Infinite via Forge objects.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Equipment Dispensers</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/C4Q4PF2uCdbwOIVVYJVK">Broken link</a></td></tr><tr><td>Power Equipment Dispensers</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/1sTbwELOOSzJGCqVERLv">Broken link</a></td></tr><tr><td>Classic Equipment Spawns</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/PhLm1jYq7ekhpxA6ZO1k">Broken link</a></td></tr><tr><td>Equipment Pods</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/w9UcGTtzgY3t2tOJQLk1">Broken link</a></td></tr></tbody></table>
+## Standard Spawners
+
+### Equipment Dispenser
+
+The Equipment Dispenser is the main spawner for base equipment. It's intended to be placed on the ground.
+
+The standard setup for an Equipment Dispenser is as follows:
+* **Equipment:** (user-defined)
+* **Static Selection:** Enabled
+* **Legendary Variants:** Exclude
+* **Randomize:** Every Game
+* **Symmetrical Channel:** (user-defined)
+* **Navpoint:** Off
+* **Initial Spawn Delay:** (user-defined)
+* **Spawn Properties:** 343 Default
+* **Selective Channel:** None
+* **Seed Sequence Key:** EquipmentPadPlacementKey
+
+{% hint style="info" %}
+Read about the details about the Static Selection and Spawn Properties [here](../spawn-properties.md).
+{% endhint %}
+
+### Power Equipment Pad
+
+The Power Equipment Pad is the main spawner for power equipment. It's intended to be placed on the ground.
+
+The standard setup for a Power Equipment Pad is as follows:
+* **Equipment:** (user-defined)
+* **Static Selection:** Enabled
+* **Tier:** Power
+* **Legendary Variants:** Exclude
+* **Randomize:** Every Game
+* **Symmetrical Channel:** (user-defined)
+* **Navpoint:** On
+* **Initial Spawn Delay:** (user-defined)
+* **Spawn Properties:** 343 Default
+* **Selective Channel:** None
+* **Seed Sequence Key:** PowerUpPadPlacementKey
+
+## Specialized Spawners
+
+### Equipment Pod
+
+The Equipment Pod is not used in standard setups, but it still follows the same logic as other spawners. It's only used in Big Team Battle and Last Spartan Standing as ordnance drops. Properties not listed don't matter.
+
+The standard setup for an Equipment Pod is as follows:
+* **Equipment:** (user-defined)
+* **Static Selection:** Disabled
+* **Tier:** Any
+* **Legendary Variants:** Exclude
+* **Randomize:** Every Game
+* **Symmetrical Channel:** (user-defined)
+* **Navpoint:** On
+* **Initial Spawn Delay:** (user-defined)
+* **Spawn Properties:** 343 Default
+* **Selective Channel:** None
+* **Seed Sequence Key:** OrdnancePodPlacementKey
+
+### Classic Equipment Spawn
+
+The Classic Equipment Spawn is not used in standard setups, but it still follows the same logic as other spawners. It's only used in Infection as the main way of spawning equipment. Properties not listed don't matter.
+
+The standard setup for a Classic Equipment Spawn is as follows:
+* **Equipment:** (user-defined)
+* **Static Selection:** Disabled
+* **Tier:** Any
+* **Legendary Variants:** Exclude
+* **Randomize:** Every Game
+* **Symmetrical Channel:** (user-defined)
+* **Navpoint:** Off
+* **Initial Spawn Delay:** (user-defined)
+* **Spawn Properties:** 343 Default
+* **Selective Channel:** None
+* **Seed Sequence Key:** EquipmentPadPlacementKey
 
 ***
+
+## Source Data
+
+* Discord thread: [Equipment Spawning](https://discord.com/channels/220766496635224065/1535166833781645413/1535166833781645413)
 
 #### <mark style="color:green;">Contributors</mark>
 
