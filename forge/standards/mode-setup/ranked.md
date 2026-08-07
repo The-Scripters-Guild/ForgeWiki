@@ -12,15 +12,13 @@ This article outlines the guidelines for object property deviations and specific
 
 ## Ranked sandbox behavior
 
-Any mode internally labeled "competitive", which is communicated through the "Ranked" term in the mode name automatically adjusts the sandbox on the map that the mode is played on. All the item spawners in Ranked modes have the "Static Selection" property forcefully Enabled, which means the "Class" property is ignored, and the Weapon/Equipment/Grenade/Vehicle set on the spawner will only spawn that item instead of rotating from the item options in the Class.
+Any official "Ranked" mode automatically adjusts the sandbox on the map so that all item spawners have the "Static Selection" property forcefully Enabled. This results in the "Class" property being ignored, and the Weapon/Equipment/Grenade/Vehicle set on the spawner only spawning that item instead of picking by random from the item options in the selected Class.
 
 {% hint style="info" %}
-A Weapon Rack with the following properties:
+A Weapon Rack with the following properties will spawn a BR75 in Ranked modes, and a CQS48 Bulldog or Heatwave in non-Ranked modes:
 * Weapon: BR75
 * Static Selection: Disabled
-* Class: Shotgun
-will spawn a BR75 in Ranked modes, and a CQS48 Bulldog or Heatwave in non-Ranked modes.
-{% endhint %}
+* Class: Shotgun{% endhint %}
 
 ## Standard spawners
 
