@@ -44,7 +44,7 @@ Item spawners not allowed for Ranked modes:
 
 ## Weapons
 
-Adjustments to weapons required for the Ranked sandbox.
+Adjustments to weapons required for the Ranked sandbox. These are modifications to the [standard setup for weapon spawners](../../gameplay/sandbox/weapons/weapon-spawning.md).
 
 ### M41 SPNKr
 
@@ -96,7 +96,7 @@ To exclude a weapon spawner from Ranked modes, apply the "Ranked Exclude" label 
 
 ## Equipment
 
-Adjustments to equipment required for the Ranked sandbox.
+Adjustments to equipment required for the Ranked sandbox. These are modifications to the [standard setup for equipment spawners](../../gameplay/sandbox/equipment/equipment-spawning.md).
 
 ### All base equipment
 
@@ -120,7 +120,7 @@ These adjustments apply to all base equipment; power equipment remain unchanged.
 * Spawn Properties: Custom
 * Charge Multiplier: 50%
 
-### Equipment pool
+Equipment pool
 
 The equipment allowed in the 4v4 Ranked sandbox. There's no limitation on the equipment pool in 8v8 Ranked.
 
