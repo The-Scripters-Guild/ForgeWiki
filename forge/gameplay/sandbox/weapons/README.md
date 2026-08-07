@@ -1,18 +1,169 @@
 ---
 description: >-
-  Topics about the weapons in Halo Infinite. What weapons are available in the
-  sandbox and how to spawn them.
+  All weapons in Halo Infinite Forge.
 ---
 
 # Weapons
 
-Information about the weapons in Halo Infinite via Forge objects. A list of all weapons, how to spawn them on your level and extra researched information can be found.
+<figure><img src="../../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-## Learn more about
+This article provides an exhaustive listing of the various weaponry, equipment, objectives, and weapon configurations obtainable within Halo Infinite Forge that classify as weapons.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>All Weapons</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="/broken/pages/RZwIjgNMZEHvuAG8ytpV">Broken link</a></td></tr><tr><td>Weapon Spawning</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="weapon-spawning.md">weapon-spawning.md</a></td></tr><tr><td>Weapon Data</td><td><a href="../../../../.gitbook/assets/cover-tsg-placeholder.jpg">cover-tsg-placeholder.jpg</a></td><td><a href="weapon-data/">weapon-data</a></td></tr></tbody></table>
+## Base weapons
+
+Base Weapons are core weapons that function on their own, but can have modifications applied to them via Configurations. Not all Base Weapons are affected by the modifications that Configurations bring.
+
+* BR75
+* Bandit Evo
+* CQS48 Bulldog
+* Cindershot
+* Disruptor
+* Energy Sword
+* Fuel Rod SPNKr
+* Gravity Hammer
+* Heatwave
+* Infected Energy Sword
+* M247 HMG
+* M392 Bandit
+* M41 SPNKr
+* MA40 Assault Rifle
+* MA5K Avenger
+* MLRS-2 Hydra
+* Mangler
+* Mk50 Sidekick
+* Mutilator
+* Mythic Sandwich
+* Needler
+* Plasma Cannon
+* Plasma Pistol
+* Pulse Carbine
+* Ravager
+* S7 Sniper Rifle
+* Sandwich
+* Scorpion Tail
+* Scrap Cannon
+* Sentinel Beam
+* Shock Rifle
+* Skewer
+* Stalker Rifle
+* VK78 Commando Rifle
+* Vestige Carbine
+
+### Objectives
+
+* Flag
+* Generic Ball
+* Generic Bomb
+* Generic Skull
+* Power Seed
+
+### Equipment
+
+* Fusion Coil Hardlight
+* Fusion Coil Kinetic
+* Fusion Coil Plasma
+* Fusion Coil Shock
+
+### Special
+
+* Harbinger primary weapon
+* Adjutant Resolution Gold primary weapon
+* Adjutant Resolution Gold secondary weapon
+* Adjutant Resolution Gold tertiary weapon
+* Adjutant Resolution Silver primary weapon
+* Adjutant Resolution Silver secondary weapon
+* Adjutant Resolution Silver tertiary weapon
+* Hunter primary weapon
+* Hunter secondary weapon
+* Banished Hunter primary weapon
+* Banished Hunter secondary weapon
+* Brute Scrap Cannon
+* Brute Plasma Cannon
+* Original Plasma Pistol
+* Original Pulse Carbine
+* Player Unarmed Fists
+* Brute Unarmed Fists
+* Rockethog Rocket Weapon
+* Wasp Rocket Weapon
+
+## Configurations
+
+Configurations are modifications to weapon behavior such as ammo count, red-reticle range, bloom, or player traits. Configurations can be applied to any Base Weapon.
+
+* Arcane Sentinel Beam
+* BR75 Breacher
+* Backdraft Cindershot
+* Calcine Disruptor
+* Convergence Bulldog
+* Diminisher of Hope
+* Duelist Energy Sword
+* Elite Bloodblade
+* Impact Commando
+* M41 Tracker
+* MA40 Longshot
+* Pinpoint Needler
+* Purging Shock Rifle
+* Pursuit Hydra
+* Rapidfire Pulse Carbine
+* Ravager Rebound
+* Riven Mangler
+* Rushdown Hammer
+* S7 Flexfire Sniper
+* Scatterbound Heatwave
+* Stalker Rifle Ultra
+* Striker Sidekick
+* Unbound Plasma Pistol
+* Volatile Skewer
+
+{% hint style="info" %}
+The weapon configurations are often called "Legendary weapons" on their own, but these legendary weapons in reality are a combination of a Base Weapon and a Configuration, such as a Mangler + Riven Mangler.
+{% endhint %}
+
+## Weapon tiers
+
+The weapon tiers are determined by the color of the light emitting from a Weapon Pad or Weapon Pod when that item spawns on it. Base weapons are blue and Power weapons are yellow.
+
+### Base
+
+* BR75
+* Bandit Evo
+* CQS48 Bulldog
+* Disruptor
+* Heatwave
+* M392 Bandit
+* MA40 Assault Rifle
+* MA5K Avenger
+* MLRS-2 Hydra
+* Mangler
+* Mk50 Sidekick
+* Needler
+* Plasma Pistol
+* Pulse Carbine
+* Ravager
+* Sentinel Beam
+* Shock Rifle
+* Stalker Rifle
+* VK78 Commando Rifle
+* Vestige Carbine
+
+### Power
+
+* Cindershot
+* Energy Sword
+* Fuel Rod SPNKr
+* Gravity Hammer
+* Infected Energy Sword
+* M41 SPNKr
+* Mutilator
+* Mythic Sandwich
+* S7 Sniper Rifle
+* Skewer
 
 ***
+
+## Source Data
+
+* Discord thread: [Weapons](https://discord.com/channels/220766496635224065/1535144588660965416/1535144588660965416)
 
 #### <mark style="color:green;">Contributors</mark>
 
