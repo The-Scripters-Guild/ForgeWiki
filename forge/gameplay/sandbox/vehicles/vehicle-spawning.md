@@ -55,6 +55,10 @@ The standard setup for a Vehicle Pad is as follows:
 * **Selective Channel:** None
 * **Seed Sequence Key:** VehiclePadPlacementKey
 
+{% hint style="info" %}
+Read about the details about the Static Selection and Spawn Properties [here](../spawn-properties.md).
+{% endhint %}
+
 ### Classic Vehicle Spawn
 
 The Classic Vehicle Spawn is not the standard spawner for vehicles, but it has been used on some Big Team Battle maps.
