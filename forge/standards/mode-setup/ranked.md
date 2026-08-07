@@ -20,16 +20,7 @@ A Weapon Rack with the following properties:
 * Static Selection: Disabled
 * Class: Shotgun
 will spawn a BR75 in Ranked modes, and a CQS48 Bulldog or Heatwave in non-Ranked modes.
-{% endhint}
-
 {% endhint %}
-
-A Weapon Rack with the following properties:
-* Weapon: BR75
-* Static Selection: Disabled
-* Class: Shotgun
-will spawn a BR75 in Ranked modes, and a CQS48 Bulldog or Heatwave in non-Ranked modes.
-{% endhint}
 
 ## Standard spawners
 
