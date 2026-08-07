@@ -120,7 +120,7 @@ These adjustments apply to all base equipment; power equipment remain unchanged.
 * Spawn Properties: Custom
 * Charge Multiplier: 50%
 
-Equipment pool
+### Equipment pool
 
 The equipment allowed in the 4v4 Ranked sandbox. There's no limitation on the equipment pool in 8v8 Ranked.
 
