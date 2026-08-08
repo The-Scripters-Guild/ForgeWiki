@@ -1106,6 +1106,7 @@
     * [Loading Into Unpublished Maps](knowledge/ugc/exploits/loading-into-unpublished-maps.md)
     * [Watching Any Film](knowledge/ugc/exploits/watching-any-film.md)
 
+* [Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode](knowledge/spawn-mode-object-node-in-on-level-brain-doesn-t-work-if-map-loaded-with-a-forge-mode.md)
 ## Community
 
 * [Content](community/content/README.md)
