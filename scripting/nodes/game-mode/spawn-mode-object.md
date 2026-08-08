@@ -6,9 +6,9 @@ description: >-
 
 # Spawn Mode Object
 
-<figure><img src="../../../.gitbook/assets/spawn-mode-object.png" alt="Cover image"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-This node spawns copies of objects by firing an existing "spawner," creating new instances that inherit most properties from the original object. While primarily intended to spawn clones for a Forge Mode prefab, it can also be used in general level scripting to create object instances with specific behaviors preserved.
+This node creates copies of objects by utilizing an existing spawner to generate new instances. These instances inherit the majority of the original's properties, such as physics settings and spawn order, making it highly effective for complex level scripting or prefab setups.
 
 ## Description
 Spawns dynamic objects based on their source spawner settings. When using this node within a Mode Prefab, any objects referenced via an `Object Reference` node must be included in the Mode Prefab brains. The node can also function during standard level scripting without being part of a loaded Forge Mode.
@@ -32,12 +32,12 @@ To understand this node, it is necessary to distinguish between a "spawner" and 
 * **Spawner:** Every dynamic object present on the map from the start acts as a spawner—an internal data set containing properties intended to create an object at a specific transform.
 * **Instance:** The actual object created by the spawner at that transform.
 
-The `Spawn Mode Object` node works by firing the original object's spawner again to produce another instance. Because these instances share the same underlying internal data as the original, using [Are Same Object](../objects/are-same-object.md) on two different instances of the same source will return true, as they are recognized as being derived from the same spawner.
+The [Spawn Mode Object](spawn-mode-object.md) node works by firing the original object's spawner again to produce another instance. Because these instances share the same underlying internal data as the original, using [Are Same Object](../objects/are-same-object.md) on two different instances of the same source will return true, as they are recognized as being derived from the same spawner.
 
 {% hint style="warning" %} You cannot use the `Spawn Mode Object` node on an already cloned object; it must be used on an object that was created naturally in the scene, as the clones are instances instead of spawners. {% endhint %}
 
 ## Properties and Limitations
-Because the implementation of this node was only targeted at specific key features like retaining the properties from AI Spawners and Generic Zones, not all properties are inherited by the created instance.
+Because the implementation of this node targeted specific key features—such as ensuring properties from AI Spawners and Generic Zones were retained—not all properties are inherited by the created instance. 
 
 * **Retained properties:** Physics settings, spawn order, spawn properties, advanced properties, and others.
 * **Lost properties:** At least the dynamic material system (materials and colors).
@@ -49,6 +49,8 @@ Managing multiple spawned objects requires care when storing them in variables:
   * *Note:* Using a standard [Get Object Variable](../variables-advanced/object-variable.md#get-object-variable) node will fetch the original spawner rather than the spawned instance.
 * **Direct Referencing:** You can carry the `Object` pin value directly from the `Spawn Mode Object` node into an event or subsequent chain to maintain a reference to that specific instance.
 
+{% hint style="info" %} When spawning multiple instances of the same object type in rapid succession (such as through simultaneous executions of a Global Async Event), note that the `Object` output pin on this node will always refer to the most recently spawned instance of that object, rather than the one specifically created by that particular execution. {% endhint %}
+
 ## When to use Clone Object instead
 The standard [Clone Object](../objects/clone-object.md) node creates entirely new, default spawner objects with no custom properties carried over. 
 
@@ -57,7 +59,9 @@ Use `Clone Object` if you require independent spawners for every copy. This is p
 ## Cleanup
 Because the deletion of spawned instances is not always reliable, it is sometimes necessary to use a cleanup script. A common method is using an [Async Custom Event](../events-custom/trigger-custom-event-global-async.md) that receives the object instance and deletes it after a short delay. Optionally multiple deletions of the same object can be added in the same event to ensure the object gets deleted.
 
-<figure><img src="../../../.gitbook/assets/2026-08-08_HaloInfinite-SMab.webp" alt="A script for cleaning up spawned object instances via custom events."><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-08-08_HaloInfinite-SMab-09ab.webp" alt="A script for cleaning up spawned object instances via custom events."><figcaption><p>A screenshot of a script utilizing an Async Custom Event to clean up spawned object instances.</p></figcaption></figure>
+
+***
 
 ## Source Data
 
