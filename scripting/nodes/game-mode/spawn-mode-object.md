@@ -6,7 +6,7 @@ description: >-
 
 # Spawn Mode Object
 
-<figure><img src="../../../.gitbook/assets/spawn-mode-object.png" alt="Cover image"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
 This node spawns copies of objects by firing an existing "spawner," creating new instances that inherit most properties from the original object. While primarily intended to spawn clones for a Forge Mode prefab, it can also be used in general level scripting to create object instances with specific behaviors preserved.
 
@@ -37,7 +37,7 @@ The `Spawn Mode Object` node works by firing the original object's spawner again
 {% hint style="warning" %} You cannot use the `Spawn Mode Object` node on an already cloned object; it must be used on an object that was created naturally in the scene, as the clones are instances instead of spawners. {% endhint %}
 
 ## Properties and Limitations
-Because the implementation of this node was only targeted at specific key features like retaining the properties from AI Spawners and Generic Zones, not all properties are inherited by the created instance.
+Because implementation focused on ensuring core features like AI Spawners and Generic Zones function correctly, not all properties are inherited by the created instance. 
 
 * **Retained properties:** Physics settings, spawn order, spawn properties, advanced properties, and others.
 * **Lost properties:** At least the dynamic material system (materials and colors).
@@ -45,19 +45,23 @@ Because the implementation of this node was only targeted at specific key featur
 ## Referencing Spawned Objects
 Managing multiple spawned objects requires care when storing them in variables:
 
-* **Using Variables:** To fetch these clones from an [Object Variable](../variables-advanced/object-variable.md) or [Object List Variable](../variables-advanced/object-list-variable.md), you must use [Get Object Variable Without Refresh](../variables-advanced/object-list-variable.md#get-object-list-variable-without-refresh) or [Get Object List Variable Without Refresh](../variables-advanced/object-variable.md#get-object-variable-without-refresh). These nodes specifically reference the created object instances. 
+* **Using Variables:** To fetch these clones from an [Object Variable](../variables-advanced/object-variable.md) or [Object List Variable](../variables-advanced/object-list-variable.md), you must use [Get Object Variable Without Refresh](../variables-advanced/get-object-list-variable-without-refresh.md#get-object-list-variable-without-refresh) or [Get Object List Variable Without Refresh](../variables-advanced/get-object-list-variable-without-refresh.md#get-object-list-variable-without-refresh). These nodes specifically reference the created object instances. 
   * *Note:* Using a standard [Get Object Variable](../variables-advanced/object-variable.md#get-object-variable) node will fetch the original spawner rather than the spawned instance.
 * **Direct Referencing:** You can carry the `Object` pin value directly from the `Spawn Mode Object` node into an event or subsequent chain to maintain a reference to that specific instance.
+
+{% hint style="warning" %} The `Object` output of this node will always refer to the most recently spawned instance of that object, rather than necessarily the one created by a specific execution of the node. This can cause issues when attempting to handle multiple instances simultaneously in parallel scripts (e.g., if an async event spawns and then attempts to delete the object after a delay). {% endhint %}
 
 ## When to use Clone Object instead
 The standard [Clone Object](../objects/clone-object.md) node creates entirely new, default spawner objects with no custom properties carried over. 
 
-Use `Clone Object` if you require independent spawners for every copy. This is particularly important when assigning clones to different players; because `Spawn Mode Object` instances share internal data, certain scripted functions—such as applying damage—can behave inconsistently (e.g., damaging one instance might inadvertently affect others). However, adjusting the position of individual `Spawn Mode Object` instances still works correctly on a per-object basis.
+Use `Clone Object` if you require independent spawners for every copy. This is particularly important when assigning clones to different players; because `Spawn Mode Object` instances share internal data, certain scripted functions—such as applying damage—can behave inconsistently (e.g., damaging one instance might inadvertently affect others). However: adjusting the position of individual `Spawn Mode Object` instances still works correctly on a per-object basis.
 
 ## Cleanup
 Because the deletion of spawned instances is not always reliable, it is sometimes necessary to use a cleanup script. A common method is using an [Async Custom Event](../events-custom/trigger-custom-event-global-async.md) that receives the object instance and deletes it after a short delay. Optionally multiple deletions of the same object can be added in the same event to ensure the object gets deleted.
 
-<figure><img src="../../../.gitbook/assets/2026-08-08_HaloInfinite-SMab.webp" alt="A script for cleaning up spawned object instances via custom events."><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-08-08_HaloInfinite-SMab-fb2e.webp" alt="A script for cleaning up spawned object instances via custom events."><figcaption></figcaption></figure>
+
+***
 
 ## Source Data
 
