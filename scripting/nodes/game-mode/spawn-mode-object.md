@@ -6,7 +6,7 @@ description: >-
 
 # Spawn Mode Object
 
-<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/spawn-mode-object.png" alt="Cover image"><figcaption></figcaption></figure>
 
 This node spawns copies of objects by firing an existing "spawner," creating new instances that inherit most properties from the original object. While primarily intended to spawn clones for a Forge Mode prefab, it can also be used in general level scripting to create object instances with specific behaviors preserved.
 
@@ -45,11 +45,11 @@ Because implementation focused on ensuring core features like AI Spawners and Ge
 ## Referencing Spawned Objects
 Managing multiple spawned objects requires care when storing them in variables:
 
-* **Using Variables:** To fetch these clones from an [Object Variable](../variables-advanced/object-variable.md) or [Object List Variable](../variables-advanced/object-list-variable.md), you must use [Get Object Variable Without Refresh](../variables-advanced/get-object-list-variable-without-refresh.md#get-object-list-variable-without-refresh) or [Get Object List Variable Without Refresh](../variables-advanced/get-object-list-variable-without-refresh.md#get-object-list-variable-without-refresh). These nodes specifically reference the created object instances. 
+* **Using Variables:** To fetch these clones from an [Object Variable](../variables-advanced/object-variable.md) or [Object List Variable](../variables-advanced/object-list-variable.md), you must use [Get Object Variable Without Refresh](../variables-advanced/object-variable.md#get-object-variable-without-refresh) or [Get Object List Variable Without Refresh](../variables-advanced/object-list-variable.md#get-object-list-variable-without-refresh). These nodes specifically reference the created object instances. 
   * *Note:* Using a standard [Get Object Variable](../variables-advanced/object-variable.md#get-object-variable) node will fetch the original spawner rather than the spawned instance.
 * **Direct Referencing:** You can carry the `Object` pin value directly from the `Spawn Mode Object` node into an event or subsequent chain to maintain a reference to that specific instance.
 
-{% hint style="warning" %} The `Object` output of this node will always refer to the most recently spawned instance of that object, rather than necessarily the one created by a specific execution of the node. This can cause issues when attempting to handle multiple instances simultaneously in parallel scripts (e.g., if an async event spawns and then attempts to delete the object after a delay). {% endhint %}
+{% hint style="warning" %} The `Object` output of this node will always refer to the most recently spawned instance of that object, rather than necessarily the one created by a specific execution of the node. This can cause issues when attempting to handle multiple instances simultaneously in parallel scripts (e.g., if an Async Event spawns and then attempts to delete the object after a delay). {% endhint %}
 
 ## When to use Clone Object instead
 The standard [Clone Object](../objects/clone-object.md) node creates entirely new, default spawner objects with no custom properties carried over. 
@@ -71,4 +71,5 @@ Because the deletion of spawned instances is not always reliable, it is sometime
 
 AddiCt3d 2CHa0s\
 Okom\
-Jordan9232
+Jordan9232\
+MadmanEpic
