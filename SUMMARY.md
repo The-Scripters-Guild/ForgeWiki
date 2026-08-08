@@ -454,6 +454,7 @@
     * [Set Round Time](scripting/nodes/game-mode/set-round-time.md)
     * [Set VIP](scripting/nodes/game-mode/set-vip.md)
     * [Spawn Mode Object](scripting/nodes/game-mode/spawn-mode-object.md)
+    * [Spawn Mode Object test](scripting/nodes/game-mode/spawn-mode-object-test.md)
   * [Game Mode Firefight](scripting/nodes/game-mode-firefight/README.md)
     * [End Firefight Custom Set](scripting/nodes/game-mode-firefight/end-firefight-custom-set.md)
     * [Fail Firefight Custom Perfect Set](scripting/nodes/game-mode-firefight/fail-firefight-custom-perfect-set.md)
