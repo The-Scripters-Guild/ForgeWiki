@@ -28,8 +28,6 @@ To realize layout ideas quickly, it is best to create rough geometry that can be
 
 Once a rough layout has been tested and found functional, the map should be rebuilt using aligned objects and standard metrics. While this rebuilding process takes more time, it ensures a strong foundation for the level; failing to observe standard spacing and metrics during the prototyping stage can make subsequent refining much more difficult.
 
-***
-
 ## Designing for Halo
 
 ### Geometry and Scale
@@ -42,15 +40,15 @@ Once a rough layout has been tested and found functional, the map should be rebu
 * **Engagement Testing:** To test the Red Reticle Range (RRR) of your map's scale, place fusion coils in various areas to ensure players can engage targets at appropriate distances with their reticles lighting up correctly.
 
 ### Asset Placement and Visual Clarity
-* **Weapon Racks:** Ensure weapon racks are set at a proper height above the ground using official weapon rack mounts or TSG prefabs. 
+* **Weapon Racks:** Ensure weapon racks are set at a proper height above the ground using official weapon rack mounts.
 * **Pad Placement:** Unless specific to a gamemode, keep all grenade, equipment, and weapon pads firmly on the ground (players should be able to obtain them simply by walking over them) rather than placing them on walls; use racks for wall-mounted items instead.
 * **Color Differentiation:** Use different colors during the blockout stage—such as unique colors for floors, walls, and cover/doorways—to help players visually distinguish geometry without thinking about it. Assign specific colors to certain wall areas to establish easy callouts (e.g., "red room" or "yellow hall").
 
 ## Technical Guidance
 
 ### Efficiency Tips
-* **Material Swatches:** If an object has multiple material swatches but you only need one, set the desired material and then change the others to blank to save time.
-* **TSG Prefabs:** To reduce development time, make use of official [tsg sandbox prefab](https://www.unggoy.xyz/prefabs/ad30a5dd-6fd7-44fb-ad21-f2295834cbca) and [tsg gamemodes prefab](https://www.unggoy.xyz/prefabs/ad30a5dd-6fd7-44fb-ad21-f2295834cbca).
+* **Material Swatches:** If an object has multiple material swatches but you only need one, set the desired material and then change the others to "Blank" to save time.
+* **TSG Prefabs:** To reduce development time, make use of official [tsg sandbox](https://www.unggoy.xyz/prefabs/ad30a5dd-6fd7-44fb-ad21-f2295834cbca) and [tsg gamemodes](https://www.unggoy.xyz/prefabs/ad30a5dd-6fd7-44fb-ad21-f2295834cbca) prefabs which provide correctly configured objects for sandbox and gamemode setup.
 
 ### Volume Management
 * **Named Location Volumes:** Use a volume with a generic name, such as "Outside," to cover entire playable spaces and fill awkward vertical areas or gaps. 
