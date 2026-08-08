@@ -1088,6 +1088,7 @@
     * [Get Objects In Prefab Node Returns Only Parent Object](knowledge/scripting/bugs/get-objects-in-prefab-node-returns-only-parent-object.md)
     * [Invisible Nodes or Connections](knowledge/scripting/bugs/invisible-nodes-or-connections.md)
     * [Unpredictable Node Selection Movement](knowledge/scripting/bugs/unpredictable-node-selection-movement.md)
+    * [Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode](knowledge/scripting/bugs/spawn-mode-object-node-in-on-level-brain-doesn-t-work-if-map-loaded-with-a-forge-mode.md)
   * [Exploits](knowledge/scripting/exploits.md)
 * [UGC](knowledge/ugc/README.md)
   * [Guides and Info](knowledge/ugc/guides-and-info/README.md)
