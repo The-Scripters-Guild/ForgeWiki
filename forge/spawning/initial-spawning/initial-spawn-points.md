@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Initial Spawn Points are used to place players at the start of a match, most commonly in Free-For-All modes. In 4v4 team matches where valid Team Intro Spawns have not been configured, players will default to these Initial Spawn Points first, falling back to Respawn Points only if no other spawn options remain.
+Initial Spawn Points are used to place players at the start of a match, most commonly in Free-For-All game modes. In 4v4 team matches where valid Team Intro Spawns have not been configured, players will default to these Initial Spawn Points first, falling back to Respawn Points only if no other spawn options remain.
 
 ## Placement and Spacing
 
@@ -18,8 +18,8 @@ Initial Spawn Points should be situated along the outer edges of a map and place
 
 To ensure proper presentation during the third-person intro animation sequence, there should be a minimum of 24 units of clear space in front of the Initial Spawn Point. This prevents the camera from being positioned too close to the player and ensures the entire character model is visible. Placing a spawn point directly against a wall can result in an obstructed view where the player cannot see their full model, and it may cause the player to immediately collide with geometry upon spawning.
 
-<figure><img src="../../../.gitbook/assets/initial-spawn-camera-free.webp" alt="Initial spawn with no wall in front of it"><figcaption><p>The player spawns into a clear area without any walls or obstacles immediately ahead.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/initial-spawn-camera-8-units.webp" alt="Initial spawn with a wall 8 units in front of it, showing the player too close to the camera"><figcaption><p>A wall placed only eight units from the spawn point causes the third-person camera to appear too close to the character model.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/initial-spawn-camera-free-4ba3.webp" alt="Initial spawn with no wall in front of it"><figcaption><p>The player spawns into a clear area without any walls or obstacles immediately ahead.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/initial-spawn-camera-8-units-e3f8.webp" alt="Initial spawn with a wall 8 units in front of it, showing the player too close to the camera"><figcaption><p>A wall placed only eight units from the spawn point causes the third-person camera to appear too close to the character model.</p></figcaption></figure>
 
 ## Configuration and Orientation
 
@@ -41,6 +41,10 @@ For a standard setup, an Initial Spawn Point should utilize the following proper
 * **Ignore LoS:** Off
 
 Setting the Order value to 2 ensures that these points are not prioritized over Team Intro Spawns, as they possess a higher spawn order.
+
+## Amount
+
+There should be at least 8 Initial Spawn Points for a standard Free-For-All setup, and 12 for a standard Infection and Last Spartan Standing setup.
 
 ***
 
