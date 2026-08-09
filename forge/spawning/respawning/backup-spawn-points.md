@@ -1,14 +1,19 @@
 ---
-description: Information about what Backup Spawn Points do and some issues that they cause.
+description: >-
+  An overview of the functionality of Backup Spawn Points and why they
+  can cause issues with Nav mesh or spawning.
 ---
 
 # Backup Spawn Points
 
-Purpose
+<figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
+Backup Spawn Points are objects intended to ensure players or the Forge monitor always have a spawn location, though their inclusion in the Forge menu is likely an accident and they can cause unintended consequences during map editing.
+
+Purpose
 The purpose of the `Spawn Point [Backup]` object is to spawn the player or Forge monitor on the map when there are no other Spawn Points available.
 
-Despite the object being able to be selected from the Forge Menu, it is rumored that it was accidentally left in the retail Forge Menu for players to use on their map, when it was never supposed to have been left there. This is backed up by the fact that any extra Backup Spawn Points placed on the map serve no purpose on a regular map experience.
+Despite the object being able to be selected from the Forge Menu, it is rumored that it was accidentally left in the retail Forge Menu for players to use on their map, when it was never supposed to have been left there. This is backed up by the fact that any extra Backup Spawn Points placed on the map serve no purpose on a regular map experience; while they can technically be used as fallbacks to Respawn Points, they should not be used at all because they realistically serve no purpose in custom games.
 
 ## Invisible Backup Spawn Points
 
@@ -292,4 +297,14 @@ This has still happened in Season 4 during an Arena:Infection playtest on [Small
 {% endhint %}
 
 **Contributors**\
+Okom
+
+***
+
+## Source Data
+
+* Discord thread: [Backup Spawn Points](https://discord.com/channels/220766496635224065/1535873175425130567/1535873175425130567)
+
+#### <mark style="color:green;">Contributors</mark>
+
 Okom
