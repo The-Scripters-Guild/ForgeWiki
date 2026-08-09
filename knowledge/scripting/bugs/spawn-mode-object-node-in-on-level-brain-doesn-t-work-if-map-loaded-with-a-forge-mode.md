@@ -1,13 +1,13 @@
 ---
 description: >-
-  Having a script in an on-level Mode Brain that uses the `Spawn Mode
-  Object` node to clone an on-level object will not clone any object
+  Having a script in an on-level Mode Brain that uses the Spawn Mode
+  Object node to clone an on-level object will not clone any object
   if the map is played in a custom game loaded with a Forge Mode.
 ---
 
 # Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode
 
-A bug has been identified where scripts in an on-level `Mode Brain` that utilize the [Spawn Mode Object](../../../scripting/nodes/game-mode/spawn-mode-object.md) node fail to clone any object if the map is played via a custom game loaded with a Forge Mode. This specifically occurs when using modes like Minigame variants constructed from empty Mode Brains.
+A bug has been identified where scripts in an on-level `Mode Brain` that utilize the [Spawn Mode Object](../../../scripting/nodes/game-mode/spawn-mode-object.md) node fail to clone any object if the map is played via a custom game loaded with a Forge Mode. This even occurs when using Forge Modes constructed from just empty Mode Brains.
 
 ## Scripting Behavior and Observed Issues
 
@@ -27,26 +27,6 @@ When playing on an official mode, such as "Arena:Slayer", objects are cloned suc
 ### Forge Play Mode vs Arena:Slayer
 
 In testing within Forge Play Mode, the node graph scripts appear to function correctly and print expected values. The failure is specifically tied to loading a map using a saved Forge Mode variant rather than an official game mode or standard local play.
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_JG6yLKlIOM.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 1"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_wwOKIePETi.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 2"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_87Jwqw5HdF.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 3"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_EUV8Y6YgUz.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 4"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_FXoOuylz46.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 5"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_zwT2kOXpYZ.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 6"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_NnJQavxF3u.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 7"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_jNOh4Uo1fs.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 8"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_VqhhktNRFL.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 9"><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/HaloInfinite_yET937vigP.webp" alt="Spawn Mode Object Node In On-Level Brain Doesn't Work If Map Loaded With a Forge Mode source image 10"><figcaption></figcaption></figure>
 
 ## Reproduction Steps
 
