@@ -60,7 +60,7 @@ Prioritize the final Camera placement over spawn point height as long as all pla
 
 #### Blocked spawns
 
-Placing the spawns lower than 1.5 units into the ground will cause them to be blocked. If a player can't spawn on their designated spawn point of the Team Intro Spawn, they will be relocated to a [Respawn Point](../respawning/respawn-points/) on the map. If no Respawn Points are available, [Backup Spawn Points](../respawning/backup-spawn-points.md) will be used.
+Placing the spawns lower than 1.5 units into the ground will cause them to be blocked. If a player can't spawn on their designated spawn point of the Team Intro Spawn, they will be relocated to a [Respawn Point](../respawning/respawn-points.md) on the map. If no Respawn Points are available, [Backup Spawn Points](../respawning/backup-spawn-points.md) will be used.
 
 <div><figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-forge.jpg" alt=""><figcaption><p>Spawn positioning too low causing some players to be blocked from spawning</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/team-intro-spawn-camera-too-low-ingame.jpg" alt=""><figcaption><p>3/4 players are unable to spawn on blocked spawn points</p></figcaption></figure></div>
 

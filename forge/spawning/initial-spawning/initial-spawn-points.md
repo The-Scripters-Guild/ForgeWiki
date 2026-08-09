@@ -1,7 +1,7 @@
 ---
 description: >-
-  Initial Spawn Points determine where players begin a round,
-  primarily within Free-For-All game modes.
+  Initial Spawn Points determine where players begin a round, primarily within
+  Free-For-All game modes.
 ---
 
 # Initial Spawn Points
@@ -18,14 +18,15 @@ Initial Spawn Points should be situated along the outer edges of a map and place
 
 To ensure proper presentation during the third-person intro animation sequence, there should be a minimum of 24 units of clear space in front of the Initial Spawn Point. This prevents the camera from being positioned too close to the player and ensures the entire character model is visible. Placing a spawn point directly against a wall can result in an obstructed view where the player cannot see their full model, and it may cause the player to immediately collide with geometry upon spawning.
 
-<figure><img src="../../../.gitbook/assets/initial-spawn-camera-free-4ba3.webp" alt="Initial spawn with no wall in front of it"><figcaption><p>The player spawns into a clear area without any walls or obstacles immediately ahead.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/initial-spawn-camera-8-units-e3f8.webp" alt="Initial spawn with a wall 8 units in front of it, showing the player too close to the camera"><figcaption><p>A wall placed only eight units from the spawn point causes the third-person camera to appear too close to the character model.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/initial-spawn-camera-free.webp" alt="Initial spawn with no wall in front of it"><figcaption><p>The player spawns into a clear area without any walls or obstacles immediately ahead.</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/initial-spawn-camera-8-units.webp" alt="Initial spawn with a wall 8 units in front of it, showing the player too close to the camera"><figcaption><p>A wall placed only eight units from the spawn point causes the third-person camera to appear too close to the character model.</p></figcaption></figure>
 
 ## Configuration and Orientation
 
 ### Rotation and Axis Settings
 
-The Initial Spawn Point should be rotated exclusively on the Yaw axis, which dictates the direction the player faces upon spawning. 
+The Initial Spawn Point should be rotated exclusively on the Yaw axis, which dictates the direction the player faces upon spawning.
 
 {% hint style="warning" %}
 Players may experience disorientation if rotation is applied to the Pitch or Roll axes, as this causes the camera to appear tilted immediately after spawning.
