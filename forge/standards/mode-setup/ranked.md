@@ -14,15 +14,14 @@ This article outlines the guidelines for object property deviations and specific
 
 Any official "Ranked" mode automatically adjusts the sandbox on the map so that all item spawners have the "Static Selection" property forcefully Enabled. This results in the "Class" property being ignored, and the Weapon/Equipment/Grenade/Vehicle set on the spawner only spawning that item instead of picking by random from the item options in the selected Class.
 
-{% hint style="info" %}
-A Weapon Rack with the following properties will spawn a BR75 in Ranked modes, and a CQS48 Bulldog or Heatwave in non-Ranked modes:
+{% hint style="info" %} A Weapon Rack with the following properties will spawn a BR75 in Ranked modes, and a CQS48 Bulldog or Heatwave in non-Ranked modes:
 * Weapon: BR75
 * Static Selection: Disabled
-* Class: Shotgun{% endhint %}
+* Class: Shotgun {% endhint %}
 
 ## Standard spawners
 
-Item spawners allowed for Ranked modes:
+Item spawners standard for Ranked modes:
 * Weapon Rack
 * Weapon Pad
 * Equipment Dispenser
@@ -30,7 +29,7 @@ Item spawners allowed for Ranked modes:
 * Grenade Dispenser
 * Vehicle Pad
 
-Item spawners not allowed for Ranked modes:
+Item spawners not standard for Ranked modes:
 * Weapon Pod
 * Weapon Trunk
 * Weapon objects
@@ -42,7 +41,7 @@ Item spawners not allowed for Ranked modes:
 
 ## Weapons
 
-Adjustments to weapons required for the Ranked sandbox. These are modifications to the [standard setup for weapon spawners](../../gameplay/sandbox/weapons/weapon-spawning.md).
+Adjustments to weapons required for the standard Ranked sandbox. These are modifications to the [standard setup for weapon spawners](../../gameplay/sandbox/weapons/weapon-spawning.md).
 
 ### M41 SPNKr
 
@@ -54,9 +53,9 @@ Adjustments to weapons required for the Ranked sandbox. These are modifications 
 
 ### Weapon pool
 
-The weapons allowed in the 4v4 Ranked sandbox. There's no limitation on the weapon pool in 8v8 Ranked.
+The weapon pool for the standard 4v4 Ranked sandbox. There's no limitation on the weapon pool in 8v8 Ranked.
 
-Weapons allowed for Ranked modes:
+Standard weapons for Ranked modes:
 * BR75
 * Bandit Evo
 * CQS48 Bulldog
@@ -72,7 +71,7 @@ Weapons allowed for Ranked modes:
 
 {% hint style="info" %} The CQS48 Bulldog and Needler are not used in official tournaments, but are fine for matchmaking. {% endhint %}
 
-Weapons not allowed for Ranked modes:
+Non-standard weapons for Ranked modes:
 * Cindershot
 * Diminisher of Hope
 * Disruptor
@@ -125,11 +124,13 @@ These adjustments apply to all base equipment; power equipment remain unchanged.
 * **Spawn Properties:** Custom
 * **Charge Multiplier:** 50%
 
+{% hint style="info" %} These equipment variants require a separate Equipment Dispenser for the Ranked sandbox if you want to support both a standard Arena and Ranked sandbox. {% endhint %}
+
 ### Equipment pool
 
-The equipment allowed in the 4v4 Ranked sandbox. There's no limitation on the equipment pool in 8v8 Ranked.
+The equipment pool for the standard 4v4 Ranked sandbox. There's no limitation on the equipment pool in 8v8 Ranked.
 
-Equipment allowed for Ranked modes:
+Standard equipment for Ranked modes:
 * Active Camouflage
 * Drop Wall
 * Grappleshot
@@ -143,7 +144,7 @@ Equipment allowed for Ranked modes:
 * Plasma Grenade
 * Spike Grenade
 
-Equipment not allowed for Ranked modes:
+Non-standard equipment for Ranked modes:
 * Custom Equipment A
 * Custom Equipment B
 * Custom Equipment C
@@ -162,4 +163,5 @@ Equipment not allowed for Ranked modes:
 
 #### <mark style="color:green;">Contributors</mark>
 
-Okom
+Okom\
+Callous
