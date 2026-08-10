@@ -76,7 +76,7 @@ The Weapon Pad is the main spawner for power weapons. It's intended to be placed
 
 The standard setup for a Weapon Pad is as follows:
 * **Weapon:** (user-defined)
-* **Static Selection:** Enabled
+* **Static Selection:** Disabled, but often set to Enabled
 * **Class:** (user-defined, but usually what the Weapon belongs in)
 * **Legendary Variants:** Exclude
 * **Faction:** (user-defined, but usually "Any")
