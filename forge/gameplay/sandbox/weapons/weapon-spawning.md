@@ -54,10 +54,10 @@ The Weapon Rack is the main spawner for base weapons. It's intended to be placed
 
 The standard setup for a Weapon Rack is as follows:
 * **Weapon:** (user-defined)
-* **Static Selection:** Disabled
+* **Static Selection:** Disabled, but Enabled is allowed
 * **Class:** (user-defined, but usually what the Weapon belongs in)
 * **Legendary Variants:** Exclude
-* **Faction:** Any
+* **Faction:** (user-defined, but usually "Any")
 * **Randomize:** Every Game
 * **Symmetrical Channel:** (user-defined)
 * **Navpoint:** Off
@@ -76,10 +76,10 @@ The Weapon Pad is the main spawner for power weapons. It's intended to be placed
 
 The standard setup for a Weapon Pad is as follows:
 * **Weapon:** (user-defined)
-* **Static Selection:** Disabled
+* **Static Selection:** Enabled
 * **Class:** (user-defined, but usually what the Weapon belongs in)
 * **Legendary Variants:** Exclude
-* **Faction:** Any
+* **Faction:** (user-defined, but usually "Any")
 * **Randomize:** Every Game
 * **Symmetrical Channel:** (user-defined)
 * **Preview As Hologram:** On
@@ -97,10 +97,10 @@ The Weapon Trunk is rarely used in standard setups, but it hasn't been excluded 
 
 The standard setup for a Weapon Trunk is as follows:
 * **Weapon:** (user-defined)
-* **Static Selection:** Disabled
+* **Static Selection:** Enabled
 * **Class:** (user-defined, but usually what the Weapon belongs in)
 * **Legendary Variants:** Exclude
-* **Faction:** Any
+* **Faction:** (user-defined, but usually "Any")
 * **Randomize:** Every Game
 * **Symmetrical Channel:** (user-defined)
 * **Navpoint:** On
@@ -115,10 +115,10 @@ The Weapon Pod is not used in standard setups, but it still follows the same log
 
 The standard setup for a Weapon Pod is as follows:
 * **Weapon:** (user-defined)
-* **Static Selection:** Disabled
+* **Static Selection:** Disabled, but Enabled is allowed
 * **Class:** (user-defined, but usually what the Weapon belongs in)
 * **Legendary Variants:** Exclude
-* **Faction:** Any
+* **Faction:** (user-defined, but usually "Any")
 * **Randomize:** Every Game
 * **Symmetrical Channel:** (user-defined)
 * **Navpoint:** On
@@ -133,10 +133,10 @@ The Classic Weapon Spawn is not used in standard setups, but it still follows th
 
 The standard setup for a Classic Weapon Spawn is as follows:
 * **Weapon:** (user-defined)
-* **Static Selection:** Disabled
+* **Static Selection:** Disabled, but Enabled is allowed
 * **Class:** (user-defined, but usually what the Weapon belongs in)
 * **Legendary Variants:** Exclude
-* **Faction:** Any
+* **Faction:** (user-defined, but usually "Any")
 * **Randomize:** Every Game
 * **Symmetrical Channel:** (user-defined)
 * **Navpoint:** Off
