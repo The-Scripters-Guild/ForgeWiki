@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-While modes like Attrition or Firefight: King of the Hill have native revival systems, any custom game mode can be configured with these mechanics. This replaces the standard respawn cycle with a system where dead players drop Revive Orbs for teammates to use.
+While modes like Attrition or Firefight: King of the Hill have native revival systems, any custom game mode can be configured with these mechanics. This replaces the standard respawn cycle with a system where dead players drop Revive Orbs for teammates to activate.
 
 ## Enabling Reviving
 
