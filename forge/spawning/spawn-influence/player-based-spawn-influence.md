@@ -1,14 +1,14 @@
 ---
 description: >-
-  Players dynamically influence spawn weights through movement,
-  mortality events, and line-of-sight constraints.
+  Players dynamically influence spawn weighting through positioning,
+  deaths, and line-of-sight.
 ---
 
 # Player-Based Spawn Influence
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-While map weighting can be adjusted using [Spawn Volumes](spawn-volumes.md), player presence also exerts a continuous dynamic influence on spawn selection during gameplay.
+While spawn weighting can be adjusted using [Spawn Volumes](spawn-volumes.md), player presence also exerts a continuous dynamic influence on spawn selection during gameplay.
 
 ## Player positioning
 
@@ -16,11 +16,10 @@ Players are more likely to spawn near their teammates and away from enemies. Res
 
 ## Player death
 
-When a player dies, a `-9.00` weight is applied to that specific location. This influence remains for 10 seconds before fading out.
+When a player dies, a `-9.00` weight is applied to that specific location based on reverse-engineering. This influence remains for 10 seconds before fading out. The radius of the effected area hasn't been determined.
 
 ## Player line-of-sight
 
-### Line-of-Sight Behavior
 Player line-of-sight relative to spawn points can determine whether a spawn point is usable at all. The effect of the line-of-sight cone functions as a hard switch, enabling or disabling spawns entirely rather than applying an incremental weight value.
 
 ***
