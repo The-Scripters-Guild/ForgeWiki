@@ -19,6 +19,7 @@ The issue manifests as an immediate halt in the script's logic flow when a decea
 * Print nodes positioned after `Apply Player Trait Set Until Death` are skipped if the target player is already dead.
 
 <figure><img src="../../../.gitbook/assets/2026-08-12_HaloInfinite-n1fO.webp" alt="A screenshot of a script graph showing various node connections"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-08-12_HaloInfinite-Gm9Z.webp" alt="A screenshot showing a HUD in the game"><figcaption></figcaption></figure>
 
 ### Observed Script Halt
 
@@ -30,7 +31,7 @@ This behavior can cause significant issues within scripted loops, particularly t
 
 ### Loop Termination Failure
 
-A problematic scenario arises if `Apply Player Trait Set Until Death` is positioned at the beginning of a loop where player death is intended to serve as an exit condition (e.g., checking "Is Dead" later in the same loop). 
+A problematic scenario arises if `Apply Player Trait Set Until Death` is used at the beginning of a loop where player death is intended to serve as an exit condition (e.g., checking "Get Is Dead" later in the same loop). 
 
 If the player dies during the game, once that loop attempts its next iteration:
 1. The script hits the `Apply Player Trait Set Until Death` node first.
@@ -40,8 +41,6 @@ If the player dies during the game, once that loop attempts its next iteration:
 {% hint style="warning" %}
 Avoid placing `Apply Player Trait Set Until Death` before vital conditional checks within loops that rely on player death status for termination.
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/2026-08-12_HaloInfinite-Gm9Z.webp" alt="A screenshot showing a HUD in the game"><figcaption></figcaption></figure>
 
 ***
 
