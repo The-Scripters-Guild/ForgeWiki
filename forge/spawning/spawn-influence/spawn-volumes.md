@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Spawn Volumes are used to modify the weighting of spawns within the boundary of a volume. They are commonly utilized to adjust spawn probabilities for specific groups or to completely prevent one team from spawning on the enemy side of a map.
+Spawn Volumes are used to modify the weighting of spawns within the boundary of a volume. They are commonly utilized to adjust spawn probabilities for specific groups or to completely prevent teams from spawning on the enemy side of a map.
 
 ## Weighting and Placement
 
@@ -35,7 +35,7 @@ This configuration is used for adjusting the basic weighting of a specific group
 * **Affects Initial Spawns:** Off
 
 {% hint style="info" %}
-Using the "Neutral" team setting ensures that weight applies to any player spawning on those points. This is important in modes like Slayer, where respawn points can flip between teams.
+Using the "Neutral" team setting ensures that weight applies to any player spawning on those points. This is important in modes like Slayer, where the team spawn areas can flip.
 {% endhint %}
 
 ### Preventing Enemy Side Spawning
@@ -50,7 +50,9 @@ This configuration is used to ensure only one specific team is permitted to spaw
 * **Affects Opposing Team:** On
 * **Affects Initial Spawns:** Off
 
-The inclusion labels allow the Spawn Volume to only appear during specific game modes. If support for a mode like Stockpile or Total Control is not planned for the map, "CTF Include" may be the only label required.
+{% hint style="info" %}
+The inclusion labels make the Spawn Volume only appear in specific game modes. If support for a mode like Stockpile or Total Control is not planned for the map, "CTF Include" is the only label required.
+{% endhint %}
 
 ***
 
