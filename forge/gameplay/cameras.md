@@ -14,14 +14,14 @@ Cameras are utilized to provide cinematic perspectives during the beginning and 
 
 Map Intro Cameras are used at the very start of a match to present a sequence of fade-in shots showcasing the map. To create one complete sequence, a pair of two Map Intro Camera objects is required; it is standard practice to use at least three pairs (six objects total) to display three distinct views of the map during the intro.
 
-The camera perspectives play in order according to the Sequence Order property. Once all assigned camera pairs have been displayed, the order restarts from the beginning. Note that timing for these sequences is local to each individual player; consequently, it is not feasible to time global events (such as vehicle movement) with the camera sequence. Additionally, cameras cannot display different views for different teams, meaning every team will see the same sequence.
+The camera perspectives play in order according to the Sequence Order property. Once all assigned camera pairs have been displayed, the order restarts from the beginning. Note that timing for these sequences is local to each individual player; consequently, it is not feasible to time global events (such as scripted map elements) with the camera movement. Additionally, cameras cannot display different views for different teams, meaning every team will see the same sequence.
 
 ### Properties
 
 The standard properties for a Map Intro Camera are straightforward:
 
-* Sequence Order: An increasing value where the first camera is 1.00.
-* Camera Blend: Set to Start or End.
+* **Sequence Order:** (increasing order, first camera is 1.00)
+* **Camera Blend:** Start/End
 
 To achieve the intended transition pattern, the first camera should have a Sequence Order of 1.00 and a Camera Blend set to Start. The second camera should have a Sequence Order of 2.00 and a Camera Blend set to End. Subsequent cameras follow this alternating pattern with increasing Sequence Order values.
 
@@ -31,9 +31,13 @@ When placing Map Intro Cameras, it is useful to set your Field of View (FOV) to 
 
 ## Winning Team Outro
 
-The Winning Team Outro provides a camera view at the conclusion of a match, featuring four members of the winning team in customizable stances. 
+The Winning Team Outro object provides a camera view at the conclusion of a match, featuring four members of the winning team in their own stances. 
 
 Because the camera perspective uses a very low FOV, it cannot be quickly previewed in-editor. To ensure that players fit within the framed scene and do not appear incorrectly against the background, ensure the Winning Team Outro object is placed sufficiently far away from the intended backdrop. While some creators use this feature to frame parts of the map elegantly behind players, others choose to build a custom scene specifically around the camera view.
+
+{% hint style="success" %}
+To enhance the visual quality of the final shot, forgers occasionally use 3-point lighting around the four players to improve the presentation of the winning team.
+{% endhint %}
 
 ### Orientation
 
@@ -42,8 +46,6 @@ The orientation of the Winnging Team Outro should be limited to rotation on the 
 {% hint style="warning" %}
 Avoid applying rotation to the Pitch or Roll axes on Winning Team Outro objects. Doing so can cause significant offsets in the camera view, often resulting in players appearing underneath the map.
 {% endhint %}
-
-To enhance the visual quality of the final shot, forgers occasionally use 3-point lighting around the four players to improve the presentation of the winning team.
 
 ***
 
