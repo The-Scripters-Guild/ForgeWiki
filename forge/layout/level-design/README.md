@@ -1,7 +1,7 @@
 ---
 description: >-
-  Halo Infinite is an arena shooter, but Forge creations aren't
-  limited to just arena maps.
+  Learn the fundamentals of designing functional, readable,
+  and engaging levels in Halo Infinite's Forge.
 ---
 
 # Level Design
