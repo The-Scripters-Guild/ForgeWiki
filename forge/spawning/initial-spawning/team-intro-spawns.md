@@ -50,14 +50,14 @@ When working with uneven ground where some spawns may be floating, prioritize th
 
 ### Rotation Constraints
 
-The Team Intro Spawn should only be rotated on the Yaw axis to determine which direction it faces. Rotating objects on the Pitch or Roll axes can cause the player's camera to be disoriented immediately upon spawning.
+The Team Intro Spawn should only be rotated on the Yaw axis to determine which direction it faces. Rotating the object on the Pitch or Roll axes can cause the player's camera to be disoriented immediately upon spawning.
 
 #### Property Settings
 
 For a standard setup, use the following property configurations:
 * **Team:** Neutral (irrelevant).
-* **Team Designator:** User-defined; determines which Team is spawned.
-* **Squad:** User-defined; determines the order of the Team Intro Object. "Alpha" is the first sequence and serves as the standard setting when only one object per team is utilized. If multiple objects are used for a single team, ensure Squad properties are unique and set in ascending order.
+* **Team Designator:** (user-defined) Determines which Team is spawned.
+* **Squad:** (user-defined) Determines the order of the Team Intro Spawn. "Alpha" is the first sequence and serves as the standard setting when only one object per team is utilized. If multiple objects are used for a single team, ensure Squad properties are unique and set in ascending order, such as Alpha, Bravo, Charlie.
 
 ***
 
