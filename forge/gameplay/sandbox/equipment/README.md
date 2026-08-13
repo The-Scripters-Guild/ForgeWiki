@@ -31,6 +31,35 @@ A comprehensive list of all equipment and grenade types available in Halo Infini
 * Legendary Threat Sensor
 * Legendary Thruster
 
+## Equipment tiers
+
+The equipment tiers are determined by the color of the light emitting from a Power Equipment Pad when that item spawns on it. Base equipment are blue and Power equipment are yellow.
+
+### Base
+
+* Custom Equipment A
+* Custom Equipment B
+* Custom Equipment C
+* Custom Equipment D
+* Drop Wall
+* Grappleshot
+* Repair Field
+* Repulsor
+* Shroud Screen
+* Threat Seeker
+* Threat Sensor
+* Thruster
+* Legendary Drop Wall
+* Legendary Grappleshot
+* Legendary Threat Sensor
+* Legendary Thruster
+
+### Power
+
+* Active Camouflage
+* Overshield
+* Quantum Translocator
+
 ## Grenades
 
 * Dynamo Grenade
