@@ -45,8 +45,22 @@ The legendary weapons will only appear if the "Legendary Variants" option is set
 * **Tactical Rifle:** BR75 Breacher, Impact Command, Vestige Carbine
 
 {% hint style="info" %}
-The MA40 Assault Rifle, Mk50 Sidekick or Mythic Sandwich don't appear in any of the categories.
+The Diminisher of Hope, MA40 Assault Rifle, Mk50 Sidekick or Mythic Sandwich don't appear in any of the categories.
 {% endhint %}
+
+## Faction
+
+Factions are a way restrict the random weapon pool even more to weapons belonging to a faction if the "Static Selection" property is set to Disabled.
+
+* **Banished:** Disruptor, Elite Bloodblade, Energy Sword, Fuel Rod SPNKr, Gravity Hammer, Infected Energy Sword, Mutilator, Needler, Plasma Pistol, Pulse Carbine, Ravager, Shock Rifle, Skewer, Stalker Rifle, Vestige Carbine
+* **Forerunner:** Cindershot, Heatwave, Sentinel Beam
+* **UNSC:** BR75, Bandit Evo, CQS48 Bulldog, M392 Bandit, M41 SPNKr, MA40 Assault Rifle, MA5K Avenger, MLRS-2 Hydra, Mangler, Mk50 Sidekick, S7 Sniper Rifle, VK78 Commando Rifle
+
+Classes are a way to have the game randomly select a weapon from a pre-determined pool if the "Static Selection" property is set to Disabled.
+
+Breakdown of the weapons within each class:
+
+### Default variants
 
 ## Weapon Rack
 
