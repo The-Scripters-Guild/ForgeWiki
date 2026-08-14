@@ -52,9 +52,9 @@ The Diminisher of Hope, MA40 Assault Rifle, Mk50 Sidekick or Mythic Sandwich don
 
 Factions are a way restrict the random weapon pool even more to weapons belonging to a faction if the "Static Selection" property is set to Disabled.
 
-* **Banished:** Disruptor, Elite Bloodblade, Energy Sword, Fuel Rod SPNKr, Gravity Hammer, Infected Energy Sword, Mutilator, Needler, Plasma Pistol, Pulse Carbine, Ravager, Shock Rifle, Skewer, Stalker Rifle, Vestige Carbine
-* **Forerunner:** Cindershot, Heatwave, Sentinel Beam
-* **UNSC:** BR75, Bandit Evo, CQS48 Bulldog, M392 Bandit, M41 SPNKr, MA40 Assault Rifle, MA5K Avenger, MLRS-2 Hydra, Mangler, Mk50 Sidekick, S7 Sniper Rifle, VK78 Commando Rifle
+* **Banished:** Disruptor, Diminisher of Hope, Calcine Disruptor, Elite Bloodblade, Energy Sword, Duelist Energy Sword, Infected Energy Sword, Fuel Rod SPNKr, Gravity Hammer, Mutilator, Needler, Pinpoint Needler, Plasma Pistol, Unbound Plasma Pistol, Pulse Carbine, Rapidfire Pulse Carbine, Ravager, Rebound Ravager, Shock Rifle, Purging Shock Rifle, Skewer, Volatile Skewer, Stalker Rifle, Stalker Rifle Ultra, Vestige Carbine
+* **Forerunner:** Cindershot, Backdraft Cindershot, Heatwave, Scatterbound Heatwave, Sentinel Beam, Arcane Sentinel Beam
+* **UNSC:** BR75, BR75 Breacher, Bandit Evo, CQS48 Bulldog, Convergence Bulldog, M392 Bandit, M41 SPNKr, M41 Tracker, MA40 Assault Rifle, MA40 Longshot MA5K Avenger, MLRS-2 Hydra, Pursuit Hydra, Mangler, Riven Mangler, Mk50 Sidekick, Striker Sidekick, S7 Sniper Rifle, S7 Flexfire Sniper, VK78 Commando Rifle
 
 Classes are a way to have the game randomly select a weapon from a pre-determined pool if the "Static Selection" property is set to Disabled.
 
