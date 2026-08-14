@@ -34,6 +34,13 @@ Breakdown of the vehicles within each Terrain Type:
 * **Any:** All vehicles
 * **Land:** Chieftain Chopper (Legendary), Chopper, Ghost, Gungoose, Mongoose. Razorback, Rockethog, Scorpion, Warthog, Wraith
 
+### Faction
+
+Factions are a way restrict the random vehicle pool even more to vehicles belonging to a faction if the "Static Selection" property is set to Disabled.
+
+* **Banished:** Banshee, Chopper, Chieftain Chopper (Legendary), Ghost, Wasp, Wraith
+* **UNSC:** Falcon, Gungoose, Mongoose, Razorback, Rockethog, Scorpion, Warthog
+
 ## Spawning Methods and Objects
 
 ### Vehicle Pad
