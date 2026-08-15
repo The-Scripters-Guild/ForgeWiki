@@ -12,7 +12,7 @@ In Halo Infinite, specific items such as the Generic Skull (also known as the Od
 
 ## Explosion Mechanics and Property Inheritance
 
-The shock explosion triggered on death is a property tied to the Generic [Skull](../../../scripting/nodes/skulls/skull.md)/Oddball object. Other items, such as the Normal Sandwich and Mythic Sandwich, inherit this ability because they are built upon the properties of the Oddball.
+The shock explosion triggered on death is a property tied to the Generic Skull/Oddball object. Other items, such as the Normal Sandwich and Mythic Sandwich, inherit this ability because they are built upon the properties of the Oddball.
 
 ### Inherited Shock Effects in Sandwiches
 
@@ -26,7 +26,7 @@ This video demonstrates the effect of an object's death causing a shock explosio
 
 ## Destruction Methods and Health Management
 
-The default health for the Generic `Skull`, Normal Sandwich, and Mythic Sandwich is 10,000. There are several ways these objects can be destroyed:
+The default health for the Generic Skull, Normal Sandwich, and Mythic Sandwich is 10,000. There are several ways these objects can be destroyed:
 
 * **Natural Means:** High-velocity impacts or bullet impacts from weaponry.
 * **Scripting:** Using the [Damage Object](../../../scripting/nodes/objects/damage-object.md) node to manually reduce an object's health via logic.
