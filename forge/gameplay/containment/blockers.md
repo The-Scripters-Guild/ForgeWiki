@@ -1,8 +1,8 @@
 ---
 description: >-
   Blockers are invisible cubical objects that have collision, whose
-  main purpose is to serve as a way to limit the player's ability to
-  move outside the intended gameplay space, or to smooth collision in
+  purpose is to limit the player's movement outside
+  the gameplay space, or to smooth collision.
 ---
 
 # Blockers
@@ -11,7 +11,7 @@ description: >-
 
 Blockers are invisible, cubical objects that possess collision properties. Their primary purpose is to restrict player movement outside of intended gameplay areas or to smooth out collisions on surfaces with uneven geometry, such as stairs.
 
-## Blocker Varieties
+## Blocker Variants
 
 ### Universal, Team, and Player Blockers
 Universal blockers (white) block all players, projectiles, and vehicles. These are frequently used to fix uneven collision within a map; since they also block projectiles, they can be used to adjust collision for ideal grenade bouncing trajectories without altering visual geometry.
@@ -28,19 +28,18 @@ Player blockers (purple) were previously used to only block players; however, fo
 Vehicle blockers (light blue) only block vehicles from a specific team. If the Team is set to Neutral, they will block all vehicles regardless of team.
 
 {% hint style="info" %}
-When driving a vehicle through a vertical blocker, players on the matching team typically pass through cleanly. However, at an angle of approximately 30° or greater, collision may break; this can result in either "soft blocking" or the vehicle being blocked entirely even when moving in the correct direction.
+When driving a vehicle through a vertical vehicle blocker, players on the matching team typically pass through cleanly. However, at an angle of approximately 30° or greater, collision may break; this can result in either "soft blocking" or the vehicle being blocked entirely.
 {% endhint %}
 
 Projectile blockers (orange) block only projectiles, such as grenades and bullets. These are useful for creating custom FX barriers that players can walk through but which still interact with projectile physics.
 
-One-Way blockers allow movement in one of six directions while blocking others. An arrow shape inside the blocker points to the X/forward direction toward the side that is blocked. Movement in the direction of this arrow is allowed, whereas movement against the direction of the arrow is blocked. The Team property can also be used to allow a specific team to bypass the blocker entirely.
+One-Way blockers (purple) block movement in one of six directions while allowing it from all others. An arrow shape inside the blocker points to the X/forward direction toward the side that is blocked. Movement in the direction of this arrow is allowed, whereas movement against the direction of the arrow is blocked. The Team property can also be used to allow a specific team to bypass the blocker entirely.
 
-## Scaling and Interaction
+## Scalable vs. Dynamic Blockers
 
-### Scalable vs. Dynamic Blockers
-Scalable blockers are a type of blocker that can be scaled in size and were added late into Halo Infinite's development. They have become the primary method for creating large areas because they can cover much larger spaces than individual dynamic blockers, which are restricted to specific sizes such as 16x16x16, 256x2x128, or a maximum of 256x256x256.
+Scalable blockers are a type of blocker that can be scaled in size and were added late into Halo Infinite's development. They have become the primary method for blocking large areas because they can cover much larger spaces than individual dynamic blockers, which are restricted to specific sizes such as 16x16x16, 256x2x128, or a maximum of 256x256x256.
 
-Standard (dynamic) blockers have approximately 33 variants for each type and cannot be scaled. However, dynamic blockers retain utility in scripting because they can be manipulated like any other dynamic object, unlike static scalable blockers.
+Standard (dynamic) blockers have 33 variants for each type and cannot be scaled. However, dynamic blockers retain utility in scripting because they can be manipulated like any other dynamic object, unlike static scalable blockers.
 
 ***
 
