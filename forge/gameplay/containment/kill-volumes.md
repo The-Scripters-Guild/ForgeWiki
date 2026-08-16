@@ -1,13 +1,13 @@
 ---
 description: >-
-  Kill Volumes are boundaries that damage the player when entered.
+  Kill Volumes are boundaries that a player will die in instantly or after a short period.
 ---
 
 # Kill Volumes
 
 <figure><img src="../../../.gitbook/assets/cover-tsg-placeholder.jpg" alt="Cover image"><figcaption></figcaption></figure>
 
-Kill Volumes are boundaries designed to damage the player when they enter their area. They serve as various environmental hazards or containment measures throughout a map.
+Kill Volumes are boundaries designed to kill the player when they enter their area or after waiting out a warning timer. They serve as various environmental hazards or containment measures throughout a map.
 
 ## Volume Types
 
