@@ -67,8 +67,6 @@
         * [Vehicle Damage Sections](https://docs.google.com/spreadsheets/d/1i7tsRBVSTn9TQWNz01y-5wjO5wYmtusO3R2mrzEHIsg/)
     * [Spawn Properties](forge/gameplay/sandbox/spawn-properties.md)
   * [Cameras](forge/gameplay/cameras.md)
-  * [Launchers and Lifts](forge/gameplay/launchers-and-lifts.md)
-  * [Teleporters](forge/gameplay/teleporters.md)
   * [Audio](forge/gameplay/audio/README.md)
     * [Building Audio](forge/gameplay/audio/building-audio.md)
   * [Named Location Volumes](forge/gameplay/named-location-volumes.md)
