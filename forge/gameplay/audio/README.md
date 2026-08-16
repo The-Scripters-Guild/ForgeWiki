@@ -12,9 +12,9 @@ Audio in Forge can be implemented through the use of placeable objects or via sc
 
 ## Audio Emitters
 
-Audio Emitters are unique because their primary purpose is solely to emit audio. While some other objects like FX can also produce sound as a secondary function (typically restricted to a predetermined loop), the Audio Emitter allows for selecting from 24 different categories of audio loops, ranging from Alarms to Water and Insect sounds.
+Audio Emitters are unique because their primary purpose is solely to emit audio. While some other objects like FX can also produce sound as a secondary function, the Audio Emitter allows for selecting from 24 different categories of audio loops, ranging from Alarms to Water and Insect sounds.
 
-These emitters feature functionality that allows them to play distinct sounds for "friendly" and "enemy" players based on the object's Team setting. Players sharing a team with the object are considered friendly; if the object's Team is set to Neutral, the "friendly" sound plays for all players.
+These emitters feature functionality that allows them to play distinct sounds for "friendly" and "enemy" players based on the object's Team setting. Players sharing a team with the object are considered friendly. Also if the object's Team is set to Neutral, the "friendly" sound plays for all players.
 
 ### Volume and Playback
 
@@ -47,24 +47,15 @@ Some of these objective sounds are heard globally, while others exhibit volume d
 
 Music is a highly immersive feature that can be played globally, for specific teams, or per player through various "Music" nodes. Unlike other scripted audio, music in Forge cannot be positional. The volume of the playback can be adjusted via the Target Volume property, and fade-in/fade-out durations are controlled with the Fade Time property.
 
-A reference library for all available music is available at [Halo Infinite Forge Music Reference Library](https://lunnzies.notion.site/Halo-Infinite-Forge-Music-Reference-Library-2920870254d980c5ac0af86735699884#2920870254d9808db979e938fd270f80).
+A reference library for all available music can be found at [Halo Infinite Forge Music Reference Library](https://lunnzies.notion.site/Halo-Infinite-Forge-Music-Reference-Library-2920870254d980c5ac0af86735699884).
 
 #### Announcer Voiceovers
 
-Announcer voiceovers provide audio cues during game mode progression or when players achieve medals. These lines can be played globally, for specific teams, or per player. While there is no dedicated preview resource, the extensive selection of voices is named accurately (for example, "Enemy Captured Zone B"), allowing users to anticipate the content by name. Additionally, a special node, [Play Nearing Victory Audio For All Players](../../../scripting/nodes/audio/play-nearing-victory-audio-for-all-players.md), allows for playing the native "Player Nearing Victory" audio line to all players simultaneously.
+Announcer voiceovers provide audio cues that originate from game mode progression hints or when players achieve medals. These lines can be played globally, for specific teams, or per player. While there is no dedicated preview resource, the extensive selection of voices is named accurately (for example, "Enemy Captured Zone B"), allowing users to anticipate the content by name. Additionally, a special node, [Play Nearing Victory Audio For All Players](../../../scripting/nodes/audio/play-nearing-victory-audio-for-all-players.md), allows for playing the native "Player Nearing Victory" audio line to all players simultaneously.
 
-## Audio Zones
+### Audio Zones
 
-Audio Zones are an uncommon feature intended to muffle or mute footstep sounds within the boundary of a specified [Area Monitor](../../../scripting/nodes/variables-basic/area-monitor.md). However, current testing suggests that this effect is very unnoticeable amidst more prominent sound effects like explosions and gunfire. Furthermore, observations suggest that these nodes may not function as intended, as significant changes in footstep volume are often not detected during gameplay scenarios.
-
-{% hint style="warning" %}
-Audio Zones are considered an uncommon feature due to the difficulty in perceiving their effect on footstep sounds compared to other environmental audio.
-{% endhint }
-
-{% endhint %}
-
-Audio Zones are considered an uncommon feature due to the difficulty in perceiving their effect on footstep sounds compared to other environmental audio.
-{% endhint }
+Audio Zones are an uncommon feature intended to muffle or mute footstep sounds within the boundary of a specified [Area Monitor](../../../scripting/nodes/variables-basic/area-monitor.md). However, current observations suggest that these nodes may not function as intended, as significant changes in footstep volume have not been detected during test scenarios.
 
 ***
 
