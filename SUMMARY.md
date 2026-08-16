@@ -74,7 +74,7 @@
   * [Named Location Volumes](forge/gameplay/named-location-volumes.md)
   * [Containment](forge/gameplay/containment/README.md)
     * [Blockers](forge/gameplay/containment/blockers.md)
-    * [Kill Zones](forge/gameplay/containment/kill-zones.md)
+    * [Kill Volumes](forge/gameplay/containment/kill-volumes.md)
 * [Modes](forge/modes/README.md)
   * [Slayer](forge/modes/slayer.md)
   * [Capture The Flag](forge/modes/capture-the-flag/README.md)
