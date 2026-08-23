@@ -12,20 +12,20 @@ While player names are typically fixed in Halo Infinite, scripting provides an u
 
 ## Hiding a Player's Name
 
-To remove a player's name, a [Nav Marker](../../../scripting/nodes/ui-nav-markers/nav-marker.md) must be attached to that player using the [Attach Nav Marker To Object](../../../scripting/nodes/ui-nav-markers/attach-nav-marker-to-object.md) node. In custom games, this action inherently overrides the player's default name.
+To remove a player's name, a Nav Marker must be attached to that player using the [Attach Nav Marker To Object](../../../scripting/nodes/ui-nav-markers/attach-nav-marker-to-object.md) node. In custom games, this action inherently overrides the player's name.
 
 ### Hiding the Nav Marker
 
-Because an attached `Nav Marker` remains visible and follows the player, its visibility must be adjusted to ensure it does not appear. This is achieved by using the [Set Player Distance Visibility Params](../../../scripting/nodes/ui-nav-markers/set-player-distance-visibility-params.md) node on the `Nav Marker` with the following settings:
+Because an attached Nav Marker remains visible and follows the player, its visibility must be adjusted to ensure it does not appear. This is achieved by using the [Set Player Distance Visibility Params](../../../scripting/nodes/ui-nav-markers/set-player-distance-visibility-params.md) node on the Nav Marker with the following settings:
 
 * Min Distance: 0.00
 * Max Distance: 0.00
 
-This configuration clamps the visible viewing distance to 0, effectively making the `Nav Marker` hidden at all times. This technique works in both team-based modes and free-for-all modes where FFA Allegiance is utilized to create allied teammates.
+This configuration clamps the visible viewing distance to 0, effectively making the Nav Marker hidden at all times. This technique works in both team-based modes and free-for-all modes where FFA Allegiance is utilized to create allied teammates.
 
-<figure><img src="../../../.gitbook/assets/hide-player-name-script.webp" alt="hide-player-name-script.png"><figcaption><p>A visual representation of the required scripting nodes.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/2026-08-23_JPEGView-rkKj.webp" alt="2026-08-23_JPEGView-rkKj.jpg"><figcaption><p>A detailed view of the node configuration.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/2026-08-23_JPEGView-kTvu.webp" alt="2026-08-23_JPEGView-kTvu.jpg"><figcaption><p>The resulting player name visibility in a custom game.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/hide-player-name-script.webp" alt="hide-player-name-script.png"><figcaption><p>The required scripting nodes.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-08-23_JPEGView-rkKj.webp" alt="2026-08-23_JPEGView-rkKj.jpg"><figcaption><p>Friendly name hidden.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2026-08-23_JPEGView-kTvu.webp" alt="2026-08-23_JPEGView-kTvu.jpg"><figcaption><p>Enemy name hidden.</p></figcaption></figure>
 
 {% hint style="warning" %}
 The effect of disappearing player names cannot be previewed in Forge mode and only functions within a custom game.
@@ -33,18 +33,18 @@ The effect of disappearing player names cannot be previewed in Forge mode and on
 
 ## Restoring Player Name Visibility
 
-To show a player's name again after using the `Nav Marker` attachment method, the `Nav Marker` must be detached from the player. A `Nav Marker` can be detached by having the object despawn or by adjusting the marker's position using the [Set Nav Marker Position](../../../scripting/nodes/ui-nav-markers/set-nav-marker-position.md) node.
+To show a player's name again after using the Nav Marker attachment method, the Nav Marker must be detached from the player. A Nav Marker can be detached by having the object despawn or by adjusting the marker's position using the [Set Nav Marker Position](../../../scripting/nodes/ui-nav-markers/set-nav-marker-position.md) node.
 
 #### Implementation Constraints
 
-If a single `Nav Marker` is attached to multiple players, updating its position will cause it to detach from all of those players simultaneously. To selectively remove the `Nav Marker` (and thus the name) from only one specific player, the marker must first be detached from all players and then reattached to everyone except the intended target.
+If a single Nav Marker is attached to multiple players, updating its position will cause it to detach from all of those players simultaneously. To selectively remove the Nav Marker (and thus the name) from only one specific player, the marker must first be detached from all players and then reattached to everyone except the intended target.
 
 <figure><img src="../../../.gitbook/assets/detach-one-nav.webp" alt="detach-one-nav.png"><figcaption><p>An example of detaching a Nav Marker from an object.</p></figcaption></figure>
 <figure><img src="../../../.gitbook/assets/2026-08-23_HaloInfinite-ArTw.webp" alt="2026-08-23_HaloInfinite-ArTw.jpg"><figcaption><p>A background player with their name successfully returned.</p></figcaption></figure>
 
 ## Removing Player Outlines
 
-As an additional option, player outlines can be removed via the mode settings of the loaded mode using the following configurations:
+As an additional option, player outlines can be removed via the mode settings of the loaded mode using the following configurations in order to achieve a uniquely clean player UI, without any adjustments to players' local HUD settings:
 
 * `HUD → Friendly Player Outlines`: Off
 * `HUD → Enemy Player Outlines`: Off
