@@ -1,6 +1,6 @@
 ---
 description: >-
-  Storing lights too far away from players, and moving them to the position of the player can cause the lights to not render.
+  Storing lights too far away from players and moving them to the position of the player can cause the lights to not render.
 ---
 
 # Light Rendering Distance Limits and Disappearing
