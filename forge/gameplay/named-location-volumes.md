@@ -18,9 +18,9 @@ The following list contains all the location names available for selection withi
 
 {% file src="../../.gitbook/assets/Named Location Volume strings.txt" %}
 
-## Order
+## Appearance Order
 
-If two Named Location Volumes overlap, the one that takes up less volume will take priority. This feature can be used cleverly to cover oddly shaped areas using a volume that is artificially extended multiple units underground in order to make its volume larger, and then using smaller volumes in areas where the larger volume extends, but shouldn't cover.
+If two Named Location Volumes overlap, the one that takes up less volume will take priority. This feature can be used cleverly to cover oddly shaped areas using a volume that is artificially extended multiple units underground in order to make its volume larger, and then using smaller boundaries in areas where the larger boundary overlaps to, but shouldn't cover.
 
 For example, you could cover two callouts of an L-shaped hallway and the area outside it by having one large box volume for the entire hallway and a smaller one for the area outside the hallway. As the smaller volume takes priority over the larger, the two areas can be distinguished with different names using just two volumes, where conventionally it would've taken three: two for the L-shaped hallway and one for the outside area.
 
