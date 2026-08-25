@@ -29,15 +29,9 @@ The video demonstrates a light object failing to render its light-emitting porti
 If a light's position is moved to a location more than 650 units from the player, the light will not render again until the player moves back within that 650-unit radius.
 {% endhint %}
 
-## Maintaining Light Visibility
+## Mitigation
 
-### Mitigation Strategies
-
-To prevent lights from becoming non-functional when they are moved across large distances, the light object can be deleted and respawned in the same tick as its position update.
-
-* **Object Respawning:** Deleting and immediately respawning the light object forces a full clientside update and resets the rendering cut-off distance. This ensures the light-emitting portion renders correctly even if the object was previously more than 650 units away from the player.
-
-In multiplayer environments, performing this action periodically (e.g., once per second) or whenever a player toggles the light on/off can ensure visibility for all players, regardless of their distance from the light's original position.
+To prevent lights from becoming non-functional when they are moved across large distances, the light object can be deleted and respawned right after it has been reset back to the storage position. Using the node sequence [Delete Object](../../../scripting/nodes/objects/delete-object.md) → [Spawn Object](../../../scripting/nodes/objects/spawn-object.md) at any time forces a full clientside update that resets the rendering cut-off distance. This ensures the light-emitting portion renders correctly even if the object was previously more than 650 units away from the player.
 
 <figure><img src="../../../.gitbook/assets/2026-08-25_HaloInfinite-Fbqe.webp" alt="Image showing successful rendering after respawning"><figcaption></figcaption></figure>
 
@@ -51,6 +45,4 @@ In multiplayer environments, performing this action periodically (e.g., once per
 
 Okom\
 Mr Multibit\
-Mr Multibit (Sometimes)\
-MadmanEpic\
-JoValiant
+MadmanEpic
