@@ -16,17 +16,9 @@ To determine the distance between two objects, you must find the difference betw
 
 ### Required Nodes
 
-* `Get Position`: This node is used for both objects to retrieve their current `Vector3` coordinates.
+* [Get Object Position](../../../scripting/nodes/math/get-object-position.md): This node is used for both objects to retrieve their current `Vector3` coordinates.
 * [Subtract Vectors](../../../scripting/nodes/math/subtract-vectors.md): Plug the position of Object A into **Operand A** and the position of Object B into **Operand B**. This generates a new `Vector3` representing the direction and distance between them.
-* [Get Vector Length](../../../scripting/nodes/math/get-vector-length.md): Plug the output of the **`[Subtract](../../../scripting/nodes/math/subtract.md) Vectors`** node into this node. The resulting `Number` is the distance.
-
-## Implementation Workflow
-
-The standard setup involves a sequence of retrieving position data, subtracting the vectors to find displacement, and then converting that displacement into a scalar value.
-
-{% hint style="info" %}
-The `Subtract Vectors` node produces a `Vector3` representing the direction and distance between two points, which can be used for other vector-based logic.
-{% endhint %}
+* [Get Vector Length](../../../scripting/nodes/math/get-vector-length.md): Plug the output of the `Subtract Vectors` node into this node. The resulting `Number` is the distance.
 
 ***
 
@@ -36,4 +28,4 @@ The `Subtract Vectors` node produces a `Vector3` representing the direction and 
 
 #### <mark style="color:green;">Contributors</mark>
 
-Mr Multibit (Sometimes)
+Guild Archivist
