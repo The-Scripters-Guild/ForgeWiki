@@ -1,6 +1,7 @@
 ---
 description: >-
-  Storing lights too far away from players and moving them to the position of the player can cause the lights to not render.
+  Storing lights too far away from players and moving them to the
+  position of the player can cause the lights to not render.
 ---
 
 # Light Rendering Distance Limits and Disappearing
@@ -28,6 +29,10 @@ The video demonstrates a light object failing to render its light-emitting porti
 If a light's position is moved to a location more than 650 units from the player, the light will not render again until the player moves back within that 650-unit radius.
 {% endhint %}
 
+### Light Group Settings
+
+Light Group settings (Low: 100 units, Medium: 320.5 units, High: 650 units) can be used to control how lights fade from players for aesthetic purposes, such as preventing the visibility of other players' lights from a distance. However, these settings do not affect the engine's hard rendering cut-off distance for light emitters.
+
 ## Maintaining Light Visibility
 
 ### Mitigation Strategies
@@ -36,6 +41,9 @@ To prevent lights used in scripts like player-based flashlights from disappearin
 
 * **Centralized Placement:** Position light objects in a centralized location where they remain within a 650-unit radius of any player at all times.
 * **Player-Following Offsets:** Assign a light to follow each player at a specific offset (e.g., 645 units underneath the player). While this ensures the light stays rendered, it may cause the light to be visible to other players in areas with extreme verticality.
+* **Object Respawning:** A highly effective workaround for lights that have already exceeded the 650-unit radius is to use a [Delete Object](../../../scripting/nodes/objects/delete-object.md) and [Spawn Object](../../../scripting/nodes/objects/spawn-object.md) pattern in the same tick as movement, or immediately after returning the object to its storage position. This forces a full clientside update of the entire object, which resets the rendering cut-off distance until the light is moved again. This ensures the light-emitting portion updates to its new location correctly.
+
+<figure><img src="../../../.gitbook/assets/2026-08-25_HaloInfinite-Fbqe.webp" alt="Image"><figcaption><p>The image demonstrates that respawning a light object allows it to be rendered correctly even after being moved from a significant distance.</p></figcaption></figure>
 
 ***
 
@@ -46,4 +54,7 @@ To prevent lights used in scripts like player-based flashlights from disappearin
 #### <mark style="color:green;">Contributors</mark>
 
 Okom\
-Mr Multibit
+Mr Multibit\
+Mr Multibit (Sometimes)\
+MadmanEpic\
+JoValiant
