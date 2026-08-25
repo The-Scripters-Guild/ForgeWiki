@@ -1079,6 +1079,7 @@
     * [Skulls And Sandwiches Cause Shock Damage On Destruction](knowledge/scripting/guides-and-info/skulls-and-sandwiches-cause-shock-damage-on-destruction.md)
     * [Hiding Player Name Visibility](knowledge/scripting/guides-and-info/hiding-player-name-visibility.md)
     * [Light Rendering Distance Limits and Disappearing](knowledge/scripting/guides-and-info/light-rendering-distance-limits-and-disappearing.md)
+    * [Calculating Distance Between Two Objects](knowledge/scripting/guides-and-info/calculating-distance-between-two-objects.md)
   * [Bugs](knowledge/scripting/bugs/README.md)
     * ["Killed Unit Position" Pin in On AI Unit Killed Node is Scaled 10x Smaller](knowledge/scripting/bugs/killed-unit-position-pin-in-on-ai-unit-killed-node-is-scaled-10x-smaller.md)
     * [Get Objects In Prefab Node Returns Only Parent Object](knowledge/scripting/bugs/get-objects-in-prefab-node-returns-only-parent-object.md)
