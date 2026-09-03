@@ -1104,6 +1104,7 @@
     * [Loading Into Unpublished Maps](knowledge/ugc/exploits/loading-into-unpublished-maps.md)
     * [Watching Any Film](knowledge/ugc/exploits/watching-any-film.md)
 
+* [Calculating Distance Between Two Objects](knowledge/calculating-distance-between-two-objects.md)
 ## Community
 
 * [Content](community/content/README.md)
